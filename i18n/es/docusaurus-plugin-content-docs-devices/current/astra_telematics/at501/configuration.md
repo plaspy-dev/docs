@@ -79,21 +79,21 @@ El AT501 admite configuración vía SMS usando los siguientes comandos de docume
 
 - Configurar el APN del operador
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
-Reemplace {{apn}} por el APN de su operador celular. Este comando configura el APN de datos del dispositivo.
+Reemplace [apn] por el APN de su operador celular. Este comando configura el APN de datos del dispositivo.
 
 - Configurar el usuario del APN (opcional)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
-Reemplace {{apnu}} por el usuario del APN si su operador lo requiere. Omitir si no es necesario.
+Reemplace [apnu] por el usuario del APN si su operador lo requiere. Omitir si no es necesario.
 
 - Configurar la contraseña del APN (opcional)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
-Reemplace {{apnp}} por la contraseña del APN si su operador lo requiere. Omitir si no es necesario.
+Reemplace [apnp] por la contraseña del APN si su operador lo requiere. Omitir si no es necesario.
 
 - Configurar el servidor GPRS a Plaspy por IP
 ```text
@@ -108,8 +108,8 @@ $PORT,8888
 Todos los equipos que usan Plaspy emplean el puerto 8888. Configure este puerto independientemente de la elección de transporte.
 
 Notas sobre los marcadores de posición
-- {{apn}} es el nombre del punto de acceso (APN) para la SIM de su operador.
-- {{apnu}} y {{apnp}} son valores opcionales de usuario y contraseña del APN utilizados por algunos operadores.
+- [apn] es el nombre del punto de acceso (APN) para la SIM de su operador.
+- [apnu] y [apnp] son valores opcionales de usuario y contraseña del APN utilizados por algunos operadores.
 
 ## Observaciones sobre la configuración
 

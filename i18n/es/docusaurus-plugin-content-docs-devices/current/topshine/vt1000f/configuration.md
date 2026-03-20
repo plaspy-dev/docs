@@ -93,11 +93,11 @@ W000000,010,12345678901234
 - Configurar el APN del operador
   - Use el APN de su operador móvil. Puede suministrarse opcionalmente usuario y contraseña del APN si su operador lo requiere. Los marcadores de posición a continuación se conservan de la guía pública.
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-  - {{apn}} = APN del operador
-  - {{apnu}} = usuario APN (opcional)
-  - {{apnp}} = contraseña APN (opcional)
+  - [apn] = APN del operador
+  - [apnu] = usuario APN (opcional)
+  - [apnp] = contraseña APN (opcional)
 
 - Establecer el servidor GPRS a Plaspy (IP pública y puerto mostrados)
 ```text

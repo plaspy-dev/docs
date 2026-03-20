@@ -1,6 +1,7 @@
 ---
 slug: /arknav/ir_7
 id: ir_7
+sidebar_key: arknair_7_index_ir_7
 sidebar_label: IR-7
 title: ArkNav - IR-7
 sidebar_class_name: menu_item_tracker

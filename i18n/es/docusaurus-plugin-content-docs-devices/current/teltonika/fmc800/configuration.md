@@ -80,13 +80,13 @@ La configuración pública del FMC800 puede aplicarse mediante un comando batch 
 - Comando de parámetros en lote de ejemplo (SMS o herramienta de aprovisionamiento):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de marcadores y campos:
-  - {{apn}} : Reemplace con el APN de su operador móvil
-  - {{apnu}} : Reemplace con el usuario APN si su operador lo requiere, de lo contrario deje vacío
-  - {{apnp}} : Reemplace con la contraseña APN si su operador lo requiere, de lo contrario deje vacío
+  - [apn] : Reemplace con el APN de su operador móvil
+  - [apnu] : Reemplace con el usuario APN si su operador lo requiere, de lo contrario deje vacío
+  - [apnp] : Reemplace con la contraseña APN si su operador lo requiere, de lo contrario deje vacío
   - 2004 está configurado a d.plaspy.com para apuntar al dominio de servidor de Plaspy
   - 2005 está configurado a 8888 que es el puerto compartido de Plaspy
   - 2006:1 se usa comúnmente para indicar el transporte o una bandera de activación según el firmware; confirme con la documentación del fabricante

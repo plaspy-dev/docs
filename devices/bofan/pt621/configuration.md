@@ -84,17 +84,17 @@ The PT621 supports SMS based configuration. The following public SMS commands ar
 ```text
 000000GID<14-digit-identifier>
 ```
-Replace \<14-digit-identifier> with the 14 digit identifier you want to use, commonly the last 14 digits of the device IMEI.
+Replace \\<14-digit-identifier> with the 14 digit identifier you want to use, commonly the last 14 digits of the device IMEI.
 
 - Set the APN for the mobile operator
 ```text
-000000APN{{apn}}
+000000APN[apn]
 ```
 Or, if APN username and password are required:
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN name, APN username, and APN password respectively.
+Keep the placeholders [apn], [apnu], and [apnp] and replace them with your operator APN name, APN username, and APN password respectively.
 
 - Set the GPRS server to Plaspy by numeric IP and port
 ```text
@@ -115,7 +115,7 @@ Note: Each SMS command is typically prefixed by the device password. The example
 - SMS based configuration is a documented option for the PT621; many installers prefer SMS because it does not require connecting the device to a PC.
 - Manufacturer firmware versions and hardware revisions can change command syntax and available features; confirm current commands with Bofan documentation if a command fails.
 - Choose UDP or TCP based on your network reliability and operator behavior; UDP is common for tracking but TCP may be preferred where guaranteed delivery is needed.
-- The APN command accepts optional username and password placeholders {{apnu}} and {{apnp}} when the operator requires credentials.
+- The APN command accepts optional username and password placeholders [apnu] and [apnp] when the operator requires credentials.
 - The factory reset command is optional and should be used with care; perform it only when required during initial provisioning or troubleshooting.
 
 ## Why Use Plaspy with This Configuration

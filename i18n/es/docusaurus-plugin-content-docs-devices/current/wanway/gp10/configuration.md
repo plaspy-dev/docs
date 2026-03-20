@@ -83,16 +83,16 @@ La configuración pública del WanWay GP10 se realiza mediante comandos SMS. A c
 Este comando establece el APN que el dispositivo usará para registrarse en la red de datos móviles. Reemplace los marcadores con los valores de su operador. Los campos de usuario y contraseña son opcionales según el operador.
 
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 
 O si su APN requiere usuario y contraseña:
 
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
-(Explicación de los marcadores: {{apn}} es el nombre del APN proporcionado por su operador móvil. {{apnu}} es un nombre de usuario del APN si se requiere. {{apnp}} es la contraseña del APN si se requiere.)
+(Explicación de los marcadores: [apn] es el nombre del APN proporcionado por su operador móvil. [apnu] es un nombre de usuario del APN si se requiere. [apnp] es la contraseña del APN si se requiere.)
 
 - Establecer el servidor GPRS hacia Plaspy usando el dominio y puerto
 Esto configura el índice de servidor 1 para apuntar al dominio y puerto de Plaspy.
@@ -143,7 +143,7 @@ Use las respuestas del dispositivo para confirmar que cada paso se completó cor
 - La configuración por SMS es el método publicado para GP10; el comportamiento y los comandos soportados pueden variar según la revisión de firmware.
 - Puede usar tanto d.plaspy.com como 54.85.159.138 como destino del servidor; ambos apuntan al mismo endpoint de Plaspy y Plaspy escucha en el puerto 8888 para todos los dispositivos.
 - Elija UDP o TCP según lo requiera el comando del dispositivo; Plaspy detectará automáticamente el protocolo al recibir los datos.
-- Siempre conserve los campos marcadores como {{apn}} y reemplácelos únicamente con las credenciales de su operador.
+- Siempre conserve los campos marcadores como [apn] y reemplácelos únicamente con las credenciales de su operador.
 - Si un cambio de configuración no surte efecto, intente guardar los ajustes y reiniciar el dispositivo, y vuelva a comprobar con PARAM# y STATUS#.
 
 ## Por qué usar Plaspy con esta configuración

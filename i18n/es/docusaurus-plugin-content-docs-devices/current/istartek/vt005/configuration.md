@@ -87,14 +87,14 @@ GMT,E,0#
 ```
 
 3. Establecer el APN del operador
-- Reemplace {{apn}} por el APN de su operador móvil.
-- Si su operador requiere usuario o contraseña APN, suministre {{apnu}} y {{apnp}} respectivamente. Mantenga los marcadores de posición si va a sustituirlos por valores reales.
+- Reemplace [apn] por el APN de su operador móvil.
+- Si su operador requiere usuario o contraseña APN, suministre [apnu] y [apnp] respectivamente. Mantenga los marcadores de posición si va a sustituirlos por valores reales.
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 O, si se necesita usuario y contraseña:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Configurar el servidor GPRS para usar el dominio de Plaspy en el puerto 8888 (la elección TCP o UDP depende del dispositivo)
@@ -119,7 +119,7 @@ PARAM#
 
 Notas sobre estos comandos:
 - Mantenga el orden al desplegar ajustes iniciales: APN primero, luego SERVER, después TIMER y verificación.
-- El comando APN muestra marcadores de posición {{apn}}, {{apnu}} y {{apnp}} que deben reemplazarse por los valores de su operador si son requeridos.
+- El comando APN muestra marcadores de posición [apn], [apnu] y [apnp] que deben reemplazarse por los valores de su operador si son requeridos.
 - El comando SERVER se muestra tanto en forma basada en dominio como en forma basada en IP; use la que sea apropiada para su entorno.
 
 ## Notas sobre la configuración
@@ -127,7 +127,7 @@ Notas sobre estos comandos:
 - La configuración por SMS está documentada públicamente para el VT005 y es útil cuando un dispositivo no tiene conexión de datos inmediata; asegúrese de que el plan o crédito permita SMS salientes/entrantes durante la configuración.
 - Las revisiones de firmware y hardware pueden cambiar los comandos disponibles o la sintaxis; siempre verifique el conjunto de comandos con las notas de la versión de firmware del dispositivo cuando sea posible.
 - Elija TCP o UDP según las necesidades de la instalación; Plaspy acepta ambos en el puerto 8888 y detectará automáticamente el protocolo del dispositivo cuando el tracker se conecte.
-- El usuario y la contraseña del APN son opcionales en muchas regiones, pero obligatorios en algunos operadores; incluya {{apnu}} y {{apnp}} cuando su operador lo solicite.
+- El usuario y la contraseña del APN son opcionales en muchas regiones, pero obligatorios en algunos operadores; incluya [apnu] y [apnp] cuando su operador lo solicite.
 - Dado que Plaspy utiliza el mismo puerto para todos los dispositivos compatibles, confirmar el puerto correcto (8888) y la dirección del servidor es crítico para la visibilidad inmediata en la plataforma.
 
 ## Por qué usar Plaspy con esta configuración

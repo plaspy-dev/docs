@@ -72,7 +72,7 @@ El AT09-4G se configura para enviar datos GNSS y telemetría al endpoint y puert
 
 ## Ejemplos de comandos de configuración
 
-El AT09-4G ofrece una opción de configuración basada en SMS. Los siguientes comandos SMS públicos son ejemplos extraídos de la documentación del dispositivo. Los comandos de ejemplo usan la contraseña por defecto del dispositivo 000000. Mantenga marcadores como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores específicos del operador cuando sea necesario.
+El AT09-4G ofrece una opción de configuración basada en SMS. Los siguientes comandos SMS públicos son ejemplos extraídos de la documentación del dispositivo. Los comandos de ejemplo usan la contraseña por defecto del dispositivo 000000. Mantenga marcadores como [apn], [apnu] y [apnp] y reemplácelos por los valores específicos del operador cuando sea necesario.
 
 - Reset de fábrica inicial opcional usando la contraseña por defecto
 ```text
@@ -82,9 +82,9 @@ Etiqueta: restablecimiento de fábrica opcional o solo para configuración inici
 
 - Establecer el APN del operador incluyendo marcadores para usuario y contraseña
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-Explicación: reemplace {{apn}} con la cadena APN del operador móvil. Si el APN requiere un nombre de usuario use {{apnu}} y una contraseña use {{apnp}}; si no se requieren deje los marcadores vacíos según la sintaxis SMS del dispositivo.
+Explicación: reemplace [apn] con la cadena APN del operador móvil. Si el APN requiere un nombre de usuario use [apnu] y una contraseña use [apnp]; si no se requieren deje los marcadores vacíos según la sintaxis SMS del dispositivo.
 
 - Establecer el servidor GPRS hacia Plaspy por IP con puerto e índice de servidor
 ```text
@@ -112,7 +112,7 @@ Nota: Mantenga la contraseña por defecto 000000 a menos que su procedimiento de
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis de comandos o los parámetros disponibles. Confirme siempre el formato SMS exacto para la versión de firmware de su dispositivo.
 - Elija TCP o UDP según sus requerimientos de confiabilidad y de firewall. Plaspy soporta ambos y detecta el protocolo automáticamente, pero el transporte seleccionado debe coincidir con el diseño de su red.
 - Todos los dispositivos Plaspy usan el mismo puerto 8888, lo que simplifica la configuración del servidor al registrar múltiples modelos de dispositivos.
-- Si se requieren credenciales APN use los valores correctos {{apn}}, {{apnu}} y {{apnp}} proporcionados por su operador móvil; dejar usuario o contraseña vacíos es aceptable cuando el operador no los exige.
+- Si se requieren credenciales APN use los valores correctos [apn], [apnu] y [apnp] proporcionados por su operador móvil; dejar usuario o contraseña vacíos es aceptable cuando el operador no los exige.
 
 ## Por qué usar Plaspy con esta configuración
 

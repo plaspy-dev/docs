@@ -91,9 +91,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Set the operator APN where {{apn}} is the APN name, {{apnu}} is the APN username, {{apnp}} is the APN password, and xxxyy represents MCC and MNC combined
+- Set the operator APN where [apn] is the APN name, [apnu] is the APN username, [apnp] is the APN password, and xxxyy represents MCC and MNC combined
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port shown in this guide
@@ -114,9 +114,9 @@ pw,123456,ts#
 ```
 
 Placeholders explanation:
-- {{apn}} is the mobile operator APN name.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is the mobile operator APN name.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
 - xxxyy in the APN command stands for the operator MCC and MNC and should be replaced with the correct numeric codes when required.
 
 ## Configuration Notes

@@ -78,21 +78,21 @@ El AT242 puede configurarse enviando comandos SMS. Los siguientes comandos públ
 
 - Establecer el APN del operador
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
-Reemplace {{apn}} por el nombre del APN de su operador.
+Reemplace [apn] por el nombre del APN de su operador.
 
 - (Opcional) Establecer el usuario del APN
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
-Reemplace {{apnu}} por el usuario del APN si su operador lo requiere.
+Reemplace [apnu] por el usuario del APN si su operador lo requiere.
 
 - (Opcional) Establecer la contraseña del APN
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
-Reemplace {{apnp}} por la contraseña del APN si su operador lo requiere.
+Reemplace [apnp] por la contraseña del APN si su operador lo requiere.
 
 - Establecer el servidor GPRS (IP del servidor Plaspy)
 ```text

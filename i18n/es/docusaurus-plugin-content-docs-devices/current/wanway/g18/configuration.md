@@ -80,7 +80,7 @@ El G18 acepta comandos de configuración por SMS. A continuación se muestran co
 
 - Configure el APN del operador (reemplace los marcadores con los valores de su APN; apnu y apnp son opcionales y solo se usan si su operador requiere usuario y contraseña):
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Configure el servidor GPRS a Plaspy usando el dominio público y el puerto. Mantenga el orden de parámetros tal como aparece:
 ```
@@ -105,7 +105,7 @@ PARAM#
 STATUS#
 ```
 
-Envíe estos comandos SMS al dispositivo según las indicaciones del manual de usuario de WanWay. Reemplace {{apn}}, {{apnu}} y {{apnp}} con el APN, usuario y contraseña de su operador según corresponda.
+Envíe estos comandos SMS al dispositivo según las indicaciones del manual de usuario de WanWay. Reemplace [apn], [apnu] y [apnp] con el APN, usuario y contraseña de su operador según corresponda.
 
 ## Notas de configuración
 

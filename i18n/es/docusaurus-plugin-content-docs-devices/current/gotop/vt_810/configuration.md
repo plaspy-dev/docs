@@ -79,7 +79,7 @@ El VT-810 usa su canal GSM GPRS para enviar reportes de posición y estado a una
 
 El método de configuración del VT-810 depende del firmware de GOTOP y de las herramientas del proveedor. Algunos instaladores utilizan el software GOTOP o secuencias de comandos SMS para establecer servidor, puerto y transporte, mientras que otros usan una interfaz web o serial. Dado que los comandos y formatos varían según el modelo, consulte la guía oficial de GOTOP para la sintaxis exacta y ejemplos.
 
-Si dispone de ejemplos de comandos o plantillas SMS proporcionadas por GOTOP, aplíquelos según las instrucciones y reemplace los valores del servidor por d.plaspy.com o 54.85.159.138 y el puerto por 8888. Si los comandos incluyen marcadores como {{apn}}, {{apnu}} o {{apnp}}, mantenga esos marcadores y sustitúyalos por los valores de su operador móvil según proceda.
+Si dispone de ejemplos de comandos o plantillas SMS proporcionadas por GOTOP, aplíquelos según las instrucciones y reemplace los valores del servidor por d.plaspy.com o 54.85.159.138 y el puerto por 8888. Si los comandos incluyen marcadores como [apn], [apnu] o [apnp], mantenga esos marcadores y sustitúyalos por los valores de su operador móvil según proceda.
 
 ## Notas de configuración
 

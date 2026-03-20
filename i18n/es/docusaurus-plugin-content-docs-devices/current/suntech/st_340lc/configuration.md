@@ -66,7 +66,7 @@ El ST 340LC se configura para enviar su ubicación y datos operativos al endpoin
 2. Ingrese la dirección del servidor Plaspy ya sea como el nombre de dominio d.plaspy.com o la IP del servidor 54.85.159.138 en los ajustes GPRS/servidor.
 3. Configure el puerto del servidor en 8888 (Plaspy usa el mismo puerto para todos los dispositivos compatibles).
 4. Seleccione UDP o TCP si el dispositivo requiere una selección explícita de transporte.
-5. Introduzca el APN y, si es necesario, los campos de usuario y contraseña APN con los marcadores {{apn}}, {{apnu}}, {{apnp}}.
+5. Introduzca el APN y, si es necesario, los campos de usuario y contraseña APN con los marcadores [apn], [apnu], [apnp].
 6. Aplique o guarde la configuración y reinicie el dispositivo si el firmware o el equipo lo requieren.
 7. Valide que el dispositivo reporta a Plaspy revisando el estado en línea y las actualizaciones de posición recientes en la plataforma Plaspy.
 
@@ -77,7 +77,7 @@ La información pública de configuración del ST 340LC incluye la sintaxis de c
 Ejemplo de extracción del ID del dispositivo
 - Si el IMEI aparece como 12345 678901234 5 entonces el ID del dispositivo es 678901234.
 
-Use los siguientes comandos por SMS al número del dispositivo. Reemplace DEVICE_ID con el ID de nueve dígitos descrito arriba. Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} cuando sustituya sus valores del operador.
+Use los siguientes comandos por SMS al número del dispositivo. Reemplace DEVICE_ID con el ID de nueve dígitos descrito arriba. Conserve los marcadores [apn], [apnu] y [apnp] cuando sustituya sus valores del operador.
 
 1) Restablecer a configuración de fábrica (paso inicial opcional)
 - Este comando se usa comúnmente para restablecer la configuración antes de provisionar. Úselo sólo si es necesario.
@@ -86,15 +86,15 @@ ST300CMD;DEVICE_ID;02;Reset
 ```
 
 2) Configurar APN del operador y servidor GPRS
-- El campo siguiente a DEVICE_ID contiene un indicador que señala si se proporcionan usuario o contraseña del APN (establezca 1 si suministra {{apnu}} o {{apnp}}, de lo contrario establezca 0). Los campos del servidor incluyen la IP y el puerto de Plaspy 54.85.159.138 y 8888.
+- El campo siguiente a DEVICE_ID contiene un indicador que señala si se proporcionan usuario o contraseña del APN (establezca 1 si suministra [apnu] o [apnp], de lo contrario establezca 0). Los campos del servidor incluyen la IP y el puerto de Plaspy 54.85.159.138 y 8888.
 ```
-ST300NTW;DEVICE_ID;02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;DEVICE_ID;02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Si no proporciona usuario o contraseña APN, cambie la bandera a 0:
 ```
-ST300NTW;DEVICE_ID;02;0;{{apn}};;;;54.85.159.138;8888;;;;
+ST300NTW;DEVICE_ID;02;0;[apn];;;;54.85.159.138;8888;;;;
 ```
-- Nota: mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y sustituya sus valores del operador. La bandera 1 o 0 indica si se usan los campos de usuario o contraseña.
+- Nota: mantenga los marcadores [apn], [apnu] y [apnp] y sustituya sus valores del operador. La bandera 1 o 0 indica si se usan los campos de usuario o contraseña.
 
 3) Establecer intervalo de reporte a 60 segundos
 - Este comando programa intervalos de reporte periódicos usados por el dispositivo.

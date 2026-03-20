@@ -86,9 +86,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Configurar el APN del operador
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explicación: reemplace {{apn}} por el APN de su operador móvil, {{apnu}} por el usuario del APN si es requerido y {{apnp}} por la contraseña del APN si aplica. Si no se necesita usuario o contraseña, deje los marcadores en blanco según corresponda.
+Explicación: reemplace [apn] por el APN de su operador móvil, [apnu] por el usuario del APN si es requerido y [apnp] por la contraseña del APN si aplica. Si no se necesita usuario o contraseña, deje los marcadores en blanco según corresponda.
 
 - Establecer el servidor GPRS a Plaspy usando dominio e IP con el puerto 8888
 ```text
@@ -114,7 +114,7 @@ Después de enviar estos comandos SMS, verifique que el dispositivo responda y l
 - El GV57CEU soporta configuración por SMS como se muestra aquí; en algunas implementaciones se prefiere el software del fabricante o herramientas de configuración por USB para aprovisionamientos masivos o cifrados.
 - Plaspy admite TCP y UDP. Elija el transporte que se ajuste a su red y a las necesidades del firmware; Plaspy detectará el protocolo del rastreador automáticamente.
 - Plaspy usa el mismo puerto para todos los dispositivos soportados. Configure el puerto 8888 tal como se muestra en el comando de servidor de ejemplo.
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} listos y sólo complételos con las credenciales proporcionadas por su operador móvil.
+- Mantenga los marcadores [apn], [apnu] y [apnp] listos y sólo complételos con las credenciales proporcionadas por su operador móvil.
 
 ## Por qué usar Plaspy con esta configuración
 

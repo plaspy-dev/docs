@@ -79,7 +79,7 @@ Cuando se configura para Plaspy, el ET-100 envía sus mensajes de ubicación y e
 
 Las herramientas del fabricante y el firmware del ET-100 determinan la sintaxis exacta de los comandos de configuración. Dado que los comandos y procedimientos varían según el firmware y la utilidad del proveedor, consulte la documentación de Orion o la utilidad de configuración del dispositivo para pasos exactos. Cuando un dispositivo requiera entrada de comandos en texto, use el dominio o la IP y el puerto del servidor Plaspy indicados arriba (d.plaspy.com o 54.85.159.138 y puerto 8888), y seleccione UDP o TCP según corresponda.
 
-Si recibe o encuentra comandos de ejemplo proporcionados por el fabricante para el ET-100, preserve los marcadores de posición exactamente como fueron suministrados (por ejemplo {{apn}} u otros) y siga la guía de Orion al sustituir valores.
+Si recibe o encuentra comandos de ejemplo proporcionados por el fabricante para el ET-100, preserve los marcadores de posición exactamente como fueron suministrados (por ejemplo [apn] u otros) y siga la guía de Orion al sustituir valores.
 
 ## Notas de configuración
 

@@ -87,13 +87,13 @@ FACTORY*123456
 ```text
 TIMEZONE*123456*+00
 ```
-- Configurar el APN del operador. Reemplace {{apn}} por el APN de su operador:
+- Configurar el APN del operador. Reemplace [apn] por el APN de su operador:
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-- Configurar usuario y contraseña del APN. Reemplace {{apnu}} y {{apnp}} por sus credenciales:
+- Configurar usuario y contraseña del APN. Reemplace [apnu] y [apnp] por sus credenciales:
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 - Configurar el servidor GPRS a la IP y puerto de Plaspy. Esto hace que el dispositivo reporte a Plaspy en el puerto requerido:
 ```text
@@ -105,8 +105,8 @@ INTERVAL*123456*060
 ```
 
 Notas sobre marcadores de posición y verificación:
-- {{apn}} es la cadena APN del operador necesaria para las conexiones de datos GPRS.
-- {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña APN si el operador requiere autenticación.
+- [apn] es la cadena APN del operador necesaria para las conexiones de datos GPRS.
+- [apnu] y [apnp] son campos opcionales de usuario y contraseña APN si el operador requiere autenticación.
 - El ejemplo anterior utiliza la IP del servidor y el puerto explícito como se muestra. Alternativamente puede ingresar d.plaspy.com en las herramientas del fabricante que acepten un nombre de dominio.
 - El contenido público incluye una nota de verificación para revisar la configuración de TCP; asegúrese de que la selección de transporte coincida con su elección de configuración.
 

@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/signal_s_4651
 id: signal_s_4651
+sidebar_key: navtelekosignal_s_4651_index_signal_s_4651
 sidebar_label: SIGNAL S-4651
 title: Navtelekom - SIGNAL S-4651
 sidebar_class_name: menu_item_tracker

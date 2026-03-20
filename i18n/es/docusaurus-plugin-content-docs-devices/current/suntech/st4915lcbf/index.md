@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st4915lcbf
 id: st4915lcbf
+sidebar_key: suntecst4915lcbf_index_st4915lcbf
 sidebar_label: ST4915LCBF
 title: Suntech - ST4915LCBF
 sidebar_class_name: menu_item_tracker

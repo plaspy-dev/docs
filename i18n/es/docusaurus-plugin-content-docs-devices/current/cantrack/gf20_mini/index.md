@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/gf20_mini
 id: gf20_mini
+sidebar_key: cantracgf20_mini_index_gf20_mini
 sidebar_label: GF20-Mini
 title: CanTrack - GF20-Mini
 sidebar_class_name: menu_item_tracker

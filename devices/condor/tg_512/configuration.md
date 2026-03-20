@@ -51,7 +51,7 @@ Use these exact values when configuring the TG-512 server entry so Plaspy can in
 - A powered and functional TG-512 unit with a valid SIM card and an active data plan for GPRS communication.
 - The SIM must allow outgoing SMS if you will use SMS commands, and allow GPRS data for sending telemetry.
 - The device IMEI number available for identification and aliasing during setup.
-- APN settings from the mobile operator including {{apn}} and optionally {{apnu}} and {{apnp}} when required by the carrier.
+- APN settings from the mobile operator including [apn] and optionally [apnu] and [apnp] when required by the carrier.
 - Access to the official Condor configuration method such as SMS commands or the vendor tool recommended for your firmware version.
 - Manufacturer documentation and firmware notes to confirm command syntax and any device-specific nuances.
 
@@ -71,7 +71,7 @@ Once configured, the TG-512 sends GNSS fixes and telemetry over the cellular net
 2. Enter the Plaspy server using either the domain d.plaspy.com or the IP 54.85.159.138 in the device server configuration field.
 3. Set the port to 8888. All devices in Plaspy use the same port so use 8888 for TG-512 reporting.
 4. Choose UDP or TCP as the transport if the TG-512 requires a transport selection when setting the server.
-5. Configure APN and any APN credentials for your SIM using the operator APN values (placeholders such as {{apn}} may be used in commands).
+5. Configure APN and any APN credentials for your SIM using the operator APN values (placeholders such as [apn] may be used in commands).
 6. Apply or save the configuration and restart the device if the device requires a reboot for settings to take effect.
 7. Validate the device by using the verification command and confirm the tracker appears and reports in Plaspy.
 
@@ -79,10 +79,10 @@ Once configured, the TG-512 sends GNSS fixes and telemetry over the cellular net
 
 The TG-512 can be configured using SMS commands. The following examples are taken from the public configuration format supplied for the device. The sample device password shown here is 0000 which is the default in the public examples. Replace placeholders and the password as appropriate for your device and security policy.
 
-- Set the operator APN. Replace {{apn}}, {{apnu}}, and {{apnp}} with your carrier values as needed. The APN username and password fields are optional depending on your operator.
+- Set the operator APN. Replace [apn], [apnu], and [apnp] with your carrier values as needed. The APN username and password fields are optional depending on your operator.
 
 ```
-APN,0000,{{apn}}{{,{{apnu}},{{apnp}}}}
+APN,0000,[apn]{{,[apnu],[apnp]}}
 ```
 
 - Set a 5 digit identifier (alias) using the last 5 digits of the IMEI. Replace IMEI_LAST5 with the device specific last five IMEI digits.
@@ -122,8 +122,8 @@ CONEXION,0000#
 ```
 
 Notes on placeholders and values:
-- {{apn}} is the mobile operator APN string required for data on the SIM.
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders used by some carriers.
+- [apn] is the mobile operator APN string required for data on the SIM.
+- [apnu] and [apnp] are optional APN username and password placeholders used by some carriers.
 - The sample password 0000 is shown in the public examples. If your device uses a different password, replace 0000 with the device password.
 - The SERVIDOR command example uses 54.85.159.138 and port 8888 which are Plaspy public settings. The character U in the example indicates the transport flag used in the command syntax; confirm transport letter mapping with the device manual if needed.
 

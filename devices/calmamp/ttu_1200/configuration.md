@@ -85,22 +85,22 @@ The TTU-1200 can be configured by SMS using the commands documented by the manuf
 !R0
 ```
 
-2. Set the operator APN (replace {{apn}} with your carrier APN string):
+2. Set the operator APN (replace [apn] with your carrier APN string):
 
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
-3. Set the APN username if required by the operator (replace {{apnu}} with the APN username):
+3. Set the APN username if required by the operator (replace [apnu] with the APN username):
 
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
-4. Set the APN password if required by the operator (replace {{apnp}} with the APN password):
+4. Set the APN password if required by the operator (replace [apnp] with the APN password):
 
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 5. Set the GPRS server to Plaspy using the public server IP:
@@ -128,9 +128,9 @@ Verification: check the settings configured on the device with:
 ```
 
 Notes on placeholders:
-- {{apn}} is the carrier APN string required for GPRS data.  
-- {{apnu}} is the optional APN username for carrier authentication.  
-- {{apnp}} is the optional APN password for carrier authentication.  
+- [apn] is the carrier APN string required for GPRS data.  
+- [apnu] is the optional APN username for carrier authentication.  
+- [apnp] is the optional APN password for carrier authentication.  
 Keep placeholders as provided and replace them with the operator credentials appropriate for your SIM card.
 
 ## Configuration Notes

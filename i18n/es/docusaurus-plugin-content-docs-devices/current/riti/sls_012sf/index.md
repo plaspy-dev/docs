@@ -1,6 +1,7 @@
 ---
 slug: /riti/sls_012sf
 id: sls_012sf
+sidebar_key: ritsls_012sf_index_sls_012sf
 sidebar_label: SLS-012SF
 title: Riti - SLS-012SF
 sidebar_class_name: menu_item_tracker

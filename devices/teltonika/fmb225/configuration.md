@@ -78,13 +78,13 @@ The following command is a public Teltonika-style parameter batch used to set ba
 - Single batch command example
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and fields
-- {{apn}} — replace with your mobile carrier APN name.
-- {{apnu}} — replace with the APN username if required by your carrier; leave blank if not needed.
-- {{apnp}} — replace with the APN password if required; leave blank if not needed.
+- [apn] — replace with your mobile carrier APN name.
+- [apnu] — replace with the APN username if required by your carrier; leave blank if not needed.
+- [apnp] — replace with the APN password if required; leave blank if not needed.
 - The command sets the server domain to d.plaspy.com and the server port to 8888 as required by Plaspy.
 - The trailing parameter 2006:1 appears in the public example; consult Teltonika documentation for its exact meaning on your firmware or leave as provided if documented for your device.
 

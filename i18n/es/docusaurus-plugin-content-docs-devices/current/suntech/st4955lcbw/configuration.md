@@ -73,12 +73,12 @@ Cuando se configura para Plaspy, el ST4955LCBW transmite las posiciones y la tel
 
 ## Ejemplos de comandos de configuración
 
-Las siguientes plantillas SMS se toman del contenido público de Suntech y muestran cómo establecer el APN, el servidor Plaspy, los intervalos de reporte y cómo solicitar una comprobación de presets. Reemplace DEVICEID por el ID de seis dígitos derivado del IMEI como se describió arriba. Conserve marcadores como {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por los valores de su operador.
+Las siguientes plantillas SMS se toman del contenido público de Suntech y muestran cómo establecer el APN, el servidor Plaspy, los intervalos de reporte y cómo solicitar una comprobación de presets. Reemplace DEVICEID por el ID de seis dígitos derivado del IMEI como se describió arriba. Conserve marcadores como [apn], [apnu] y [apnp] y sustitúyalos por los valores de su operador.
 
 - Establecer APN del operador y servidor GPRS (servidor configurado a la IP y puerto de Plaspy). El cuarto campo es 1 cuando se provee usuario o contraseña del APN, de lo contrario 0.
 
 ```
-SA200NTW;DEVICEID;02;[0 or 1];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;DEVICEID;02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Establecer el intervalo de actualización a 60 segundos (perfil de reporte de ejemplo).
@@ -95,9 +95,9 @@ SA200CMD;DEVICEID;02;PresetA
 
 Notas sobre los marcadores y el ID del dispositivo:
 - DEVICEID: los seis dígitos inmediatamente antes del último dígito del IMEI. Por ejemplo, si el IMEI es 123456789012345 el DEVICEID sería 901234 según el ejemplo proporcionado por el fabricante.  
-- {{apn}}: la cadena APN de su operador.  
-- {{apnu}}: usuario del APN si el operador lo requiere; deje en blanco si no se usa.  
-- {{apnp}}: contraseña del APN si el operador la requiere; deje en blanco si no se usa.  
+- [apn]: la cadena APN de su operador.  
+- [apnu]: usuario del APN si el operador lo requiere; deje en blanco si no se usa.  
+- [apnp]: contraseña del APN si el operador la requiere; deje en blanco si no se usa.  
 - Los campos de transporte, IP del servidor y puerto del servidor anteriores apuntan el rastreador a Plaspy usando los valores públicos 54.85.159.138 y 8888. Alternativamente puede usarse el dominio d.plaspy.com cuando el dispositivo admite resolución de dominio.
 
 ## Notas de configuración

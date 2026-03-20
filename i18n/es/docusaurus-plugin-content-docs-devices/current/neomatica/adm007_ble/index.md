@@ -1,6 +1,7 @@
 ---
 slug: /neomatica/adm007_ble
 id: adm007_ble
+sidebar_key: neomaticadm007_ble_index_adm007_ble
 sidebar_label: ADM007 BLE
 title: Neomatica - ADM007 BLE
 sidebar_class_name: menu_item_tracker

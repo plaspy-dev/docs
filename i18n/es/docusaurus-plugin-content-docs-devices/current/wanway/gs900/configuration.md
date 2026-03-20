@@ -76,13 +76,13 @@ El GS900 se configura para enviar su posición y mensajes de evento al endpoint 
 
 El GS900 soporta configuración por SMS. A continuación están los comandos SMS públicos extraídos del contenido de configuración provisto por el fabricante, conservados en su orden. Envíe cada comando como SMS al número del dispositivo usando el número de instalador o administrador autorizado.
 
-1. Configure el APN del operador. Reemplace {{apn}} con el APN de su operador. Si su operador requiere usuario y contraseña para el APN, suministre {{apnu}} y {{apnp}} según sea necesario.
+1. Configure el APN del operador. Reemplace [apn] con el APN de su operador. Si su operador requiere usuario y contraseña para el APN, suministre [apnu] y [apnp] según sea necesario.
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 o, si se requiere usuario y contraseña:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 2. Establezca el servidor GPRS para apuntar el rastreador a Plaspy. Esto usa el dominio del servidor Plaspy y el puerto 8888.
@@ -111,7 +111,7 @@ PARAM#
 STATUS#
 ```
 
-Nota: Conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con el APN, usuario y contraseña específicos del operador durante la configuración.
+Nota: Conserve los marcadores de posición [apn], [apnu] y [apnp] y reemplácelos con el APN, usuario y contraseña específicos del operador durante la configuración.
 
 ## Observaciones de configuración
 

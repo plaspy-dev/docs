@@ -83,7 +83,7 @@ El método de configuración del GOTOP G20 varía según la herramienta del prov
 Si dispone de comandos SMS o serial específicos del documento de configuración de GOTOP, aplíquelos siguiendo las instrucciones del proveedor y sustituya los valores de servidor por los de Plaspy cuando aparezcan marcadores de servidor, IP o puerto.
 
 Explicación de marcadores típicos en cadenas de comandos del fabricante:
-- Si un comando incluye marcadores como {{apn}} o similares, reemplácelos por el APN del operador, usuario o contraseña que requiera su SIM.
+- Si un comando incluye marcadores como [apn] o similares, reemplácelos por el APN del operador, usuario o contraseña que requiera su SIM.
 
 Como no se proporcionaron comandos específicos del modelo en la entrada pública de configuración para esta página, consulte el manual de GOTOP o la guía de configuración del proveedor para la sintaxis exacta de los comandos para establecer servidor y puerto.
 

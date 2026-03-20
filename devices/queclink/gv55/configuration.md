@@ -80,9 +80,9 @@ The GV55 sends GNSS position and configured event telemetry to the Plaspy server
 The GV55 supports SMS command configuration. The examples below are public SMS commands extracted from the device configuration content. The sample commands use the default device password queclink. Replace placeholders and operator values where required.
 
 - Notes on placeholders:
-  - {{apn}} is the mobile network APN string supplied by the SIM operator
-  - {{apnu}} is the APN username when required by the operator
-  - {{apnp}} is the APN password when required by the operator
+  - [apn] is the mobile network APN string supplied by the SIM operator
+  - [apnu] is the APN username when required by the operator
+  - [apnp] is the APN password when required by the operator
 
 1. Optional initial factory restore (use only when needed as part of a fresh setup)
 ```text
@@ -96,7 +96,7 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configure the operator APN (replace placeholders with your operator values)
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4. Set the GPRS server to Plaspy. This example includes both domain and IP and uses port 8888.
@@ -121,7 +121,7 @@ Send each command as an SMS to the GV55 from an authorized phone number or via a
 - SMS based configuration is a common method for GV55; follow the device password requirement in SMS commands and change the default password after initial setup for security.
 - Firmware and hardware revisions can change command availability and parameter order; verify commands against the current QuecLink GV55 documentation.
 - When choosing transport, test both UDP and TCP if connectivity issues arise; Plaspy supports either and detects the protocol automatically.
-- Replace APN placeholders {{apn}}, {{apnu}}, and {{apnp}} with the correct operator values; missing or incorrect APN details will prevent GPRS attachment.
+- Replace APN placeholders [apn], [apnu], and [apnp] with the correct operator values; missing or incorrect APN details will prevent GPRS attachment.
 - Use the domain d.plaspy.com or the IP 54.85.159.138 with port 8888; Plaspy uses the same port for all devices so the platform simplifies per-device port management.
 
 ## Why Use Plaspy with This Configuration

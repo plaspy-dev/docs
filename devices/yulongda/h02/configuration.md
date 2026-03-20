@@ -79,19 +79,19 @@ If you are using the provided SMS commands, follow the order and defaults descri
 
 The following commands are extracted from the public model configuration example for H02. These use SMS messages sent from a control phone to the device. The examples assume the device initial password 000000 which may be the factory default. Keep placeholders as shown.
 
-- Set the operator APN. If the APN requires a username or password send the variant that includes {{apnu}} and {{apnp}}.
+- Set the operator APN. If the APN requires a username or password send the variant that includes [apnu] and [apnp].
 
 ```
-*APN#000000#{{apn}}#
+*APN#000000#[apn]#
 ```
 
 Optional variant with APN username and password:
 
 ```
-*APN#000000#{{apn}}#{{apnu}}#{{apnp}}#
+*APN#000000#[apn]#[apnu]#[apnp]#
 ```
 
-Note: Replace {{apn}} with your mobile operator APN string. Replace {{apnu}} and {{apnp}} with APN username and APN password if your operator requires them. If no username or password is needed, use the shorter command.
+Note: Replace [apn] with your mobile operator APN string. Replace [apnu] and [apnp] with APN username and APN password if your operator requires them. If no username or password is needed, use the shorter command.
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port:
 

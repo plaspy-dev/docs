@@ -85,12 +85,12 @@ The MT35 supports SMS-based configuration in public documentation. The following
 
 - Set APN and GPRS server configuration to point to Plaspy
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explanation of placeholders:
-- {{apn}} = APN name supplied by your SIM provider
-- {{apnu}} = APN username if required by the SIM provider (leave empty if not required)
-- {{apnp}} = APN password if required by the SIM provider (leave empty if not required)
+- [apn] = APN name supplied by your SIM provider
+- [apnu] = APN username if required by the SIM provider (leave empty if not required)
+- [apnp] = APN password if required by the SIM provider (leave empty if not required)
 
 This command configures the device to use the Plaspy server IP 54.85.159.138 on port 8888 and includes reporting and sleep parameters (as shown in the public command). It is also acceptable to use the server domain d.plaspy.com in place of the IP address when the device supports domain names.
 

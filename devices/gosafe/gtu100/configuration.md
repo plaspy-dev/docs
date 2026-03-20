@@ -75,7 +75,7 @@ The GTU100 transmits location, motion, and sensor data to Plaspy by sending IP p
 
 The public modelConfiguration for the GTU100 does not include specific command strings in this release. Exact configuration commands and the method used to apply them vary by manufacturer tool, firmware, and regional firmware builds. Gosafe-provided tools such as GICUS, USB configuration utilities, or SMS command sets are commonly used to set server hostnames, IP addresses, ports, and transport.
 
-If you require command examples for a particular firmware or provisioning flow, consult the official Gosafe configuration guide or vendor provisioning documentation. The manufacturer typically provides explicit command syntax, placeholders for APN values like {{apn}} or credentials like {{apnu}} and {{apnp}} when applicable, and instructions for optional reset steps.
+If you require command examples for a particular firmware or provisioning flow, consult the official Gosafe configuration guide or vendor provisioning documentation. The manufacturer typically provides explicit command syntax, placeholders for APN values like [apn] or credentials like [apnu] and [apnp] when applicable, and instructions for optional reset steps.
 
 ## Configuration Notes
 

@@ -84,16 +84,16 @@ El EV-100 admite configuración vía SMS. Los comandos de ejemplo abajo usan la 
 2. Configurar el APN del operador
 - Comando mínimo con solo APN:
 ```
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 - Si su operador requiere usuario y contraseña del APN, inclúyalos como marcadores:
 ```
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
 Explicación de los marcadores:
-- {{apn}} = cadena APN de su operador móvil
-- {{apnu}} = usuario del APN si el operador lo requiere
-- {{apnp}} = contraseña del APN si el operador lo requiere
+- [apn] = cadena APN de su operador móvil
+- [apnu] = usuario del APN si el operador lo requiere
+- [apnp] = contraseña del APN si el operador lo requiere
 
 3. Establecer dirección y puerto del servidor
 - El fabricante indica que puede ser necesario habilitar el cambio de servidor por parte de ellos. Una vez habilitado, use:

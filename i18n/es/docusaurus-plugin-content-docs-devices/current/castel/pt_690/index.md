@@ -1,6 +1,7 @@
 ---
 slug: /castel/pt_690
 id: pt_690
+sidebar_key: castept_690_index_pt_690
 sidebar_label: PT-690
 title: Castel - PT-690
 sidebar_class_name: menu_item_tracker

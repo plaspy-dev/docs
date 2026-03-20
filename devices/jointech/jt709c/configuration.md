@@ -76,23 +76,23 @@ When configured, the JT709C reports location and event data to the shared Plaspy
 The Jointech JT709C can be configured using SMS commands. Below are the public SMS command examples as provided by the manufacturer. Replace placeholders with your actual values.
 
 1. Set the GPRS server and APN
-- Send this SMS after replacing {{trackerID}} with the device ID and {{apn}} with your mobile operator APN.
+- Send this SMS after replacing {{trackerID}} with the device ID and [apn] with your mobile operator APN.
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 2. Optionally set the APN username and password
-- Send this SMS only if your APN requires a username and password. Replace {{apnu}} and {{apnp}} with your APN user and APN password.
+- Send this SMS only if your APN requires a username and password. Replace [apnu] and [apnp] with your APN user and APN password.
 
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notes on placeholders
 - {{trackerID}}: the device ID or IMEI inserted into the SMS as required by Jointech
-- {{apn}}: your mobile network APN string required for data connectivity
-- {{apnu}} and {{apnp}}: optional APN username and password if the carrier requires authentication
+- [apn]: your mobile network APN string required for data connectivity
+- [apnu] and [apnp]: optional APN username and password if the carrier requires authentication
 
 Send each command as a single SMS to the JT709C device phone number using the standard SMS method supported by Jointech. The second command is not required if the APN does not require credentials.
 

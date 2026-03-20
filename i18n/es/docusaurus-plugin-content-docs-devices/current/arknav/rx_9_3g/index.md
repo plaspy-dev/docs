@@ -1,6 +1,7 @@
 ---
 slug: /arknav/rx_9_3g
 id: rx_9_3g
+sidebar_key: arknarx_9_3g_index_rx_9_3g
 sidebar_label: RX-9 3G
 title: ArkNav - RX-9 3G
 sidebar_class_name: menu_item_tracker

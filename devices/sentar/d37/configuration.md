@@ -64,7 +64,7 @@ The D37 transmits location and device telemetry over cellular data to the Plaspy
 ## Common Configuration Workflow
 
 1. Access the official Sentar configuration method for the D37 (SMS commands, manufacturer app, or vendor tool) and confirm command syntax for your firmware.
-2. Prepare operator APN details and any credentials (use placeholders such as {{apn}}, {{apnu}}, {{apnp}} where needed).
+2. Prepare operator APN details and any credentials (use placeholders such as [apn], [apnu], [apnp] where needed).
 3. Enter the Plaspy server as d.plaspy.com or use the server IP 54.85.159.138 in the device configuration.
 4. Set port 8888 for the device reporting port; all Plaspy devices use the same port.
 5. Choose UDP or TCP transport on the device if it requires an explicit choice.
@@ -91,9 +91,9 @@ pw,123456,imsi#
 ```
 
 - Set the operator APN
-Note: {{apn}} is the APN name, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. Replace xxxyy with the concatenated MCC and MNC codes if required by the command.
+Note: [apn] is the APN name, [apnu] is the APN username if required, and [apnp] is the APN password if required. Replace xxxyy with the concatenated MCC and MNC codes if required by the command.
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Set the GPRS server to the Plaspy server IP and port
@@ -119,7 +119,7 @@ If your device accepts a domain name instead of an IP, replace the IP with d.pla
 - SMS based configuration is a common public method for the D37; ensure your SMS source can send messages to the watch and that the device accepts the SMS configuration syntax for your firmware.
 - Firmware and hardware revisions may change command syntax and available options; verify commands against current Sentar documentation.
 - Choose UDP or TCP according to device support and network behavior; Plaspy accepts both and automatically detects the protocol.
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when documenting and replace them with operator values when performing the setup.
+- Preserve placeholders such as [apn], [apnu], and [apnp] when documenting and replace them with operator values when performing the setup.
 - If a factory reset is used, consider it optional and only perform it when you need to clear previous configuration.
 
 ## Why Use Plaspy with This Configuration

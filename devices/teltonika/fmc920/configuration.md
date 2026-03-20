@@ -82,13 +82,13 @@ To configure the basic parameters on your Teltonika device, send the following c
 - Example command to set APN and Plaspy server parameters
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explanation of placeholders and fields in the command
-- {{apn}}  Replace with your SIM card APN name provided by the mobile operator.
-- {{apnu}} Replace with the APN username if your operator requires one, otherwise leave blank.
-- {{apnp}} Replace with the APN password if required by the operator.
+- [apn]  Replace with your SIM card APN name provided by the mobile operator.
+- [apnu] Replace with the APN username if your operator requires one, otherwise leave blank.
+- [apnp] Replace with the APN password if required by the operator.
 - d.plaspy.com This sets the Plaspy server domain destination for reporting.
 - 8888 This sets the reporting port used by Plaspy for all devices.
 - The final parameter configures the transport or profile as required by the device firmware. Verify the transport value interpretation for your firmware version before applying.

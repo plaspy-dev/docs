@@ -84,17 +84,17 @@ The following SMS commands are public examples typically used to configure a Mei
 ```
 0000,F11
 ```
-2. Set the GPRS server to Plaspy using the server IP and port. Replace {{apn}}, {{apnu}}, and {{apnp}} with your SIM carrier APN and optional APN username and password:
+2. Set the GPRS server to Plaspy using the server IP and port. Replace [apn], [apnu], and [apnp] with your SIM carrier APN and optional APN username and password:
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 If your SIM requires APN username and password provide them as additional comma separated fields:
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-- {{apn}} = carrier APN name
-- {{apnu}} = APN username (optional)
-- {{apnp}} = APN password (optional)
+- [apn] = carrier APN name
+- [apnu] = APN username (optional)
+- [apnp] = APN password (optional)
 
 3. Set the time zone to UTC+0 (adjust value as needed for your local timezone)
 ```

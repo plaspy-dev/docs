@@ -83,9 +83,9 @@ W000000,010,{{imei.substring(0,14)}}
 
 - Set APN operator and optional APN username and password
 ```
-W000000,011,{{apn}}{{#if apnu}},{{apnu}}{{/if}}{{#if apnp}},{{apnp}}{{/if}}
+W000000,011,[apn]{{#if apnu}},[apnu]{{/if}}{{#if apnp}},[apnp]{{/if}}
 ```
-Note: In the public example the APN fields are shown as placeholders. Replace {{apn}} with your SIM operator APN. If your APN requires a username or password, replace {{apnu}} and {{apnp}} accordingly.
+Note: In the public example the APN fields are shown as placeholders. Replace [apn] with your SIM operator APN. If your APN requires a username or password, replace [apnu] and [apnp] accordingly.
 
 - Set GPRS server to the Plaspy server IP and port
 ```

@@ -84,9 +84,9 @@ The EV-601 public configuration examples are provided as SMS commands in the man
 123456L+00
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If your operator requires APN username or APN password, include {{apnu}} and {{apnp}} respectively. The APN username and password placeholders are optional and should only be included if required by your SIM provider:
+- Set the operator APN. Replace [apn] with your operator APN. If your operator requires APN username or APN password, include [apnu] and [apnp] respectively. The APN username and password placeholders are optional and should only be included if required by your SIM provider:
 ```
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
 
 - Set the server IP and port for Plaspy. Note the manufacturer documentation indicates you may need to contact the manufacturer to enable the option to change server settings before this command will be accepted:
@@ -105,7 +105,7 @@ Important notes for the commands above:
 - The EV-601 supports SMS based configuration in public examples, which is useful when there is no direct access to a configuration tool.  
 - Choose UDP or TCP according to network behavior; Plaspy accepts either on port 8888 and will auto detect the protocol.  
 - Some EV-601 units may require the vendor or manufacturer to enable the server change option before accepting custom server commands. Contact the vendor if needed.  
-- Keep APN credentials secure; placeholders {{apn}}, {{apnu}}, and {{apnp}} represent the APN, APN username, and APN password respectively and should be filled with your operator values.
+- Keep APN credentials secure; placeholders [apn], [apnu], and [apnp] represent the APN, APN username, and APN password respectively and should be filled with your operator values.
 
 ## Why Use Plaspy with This Configuration
 

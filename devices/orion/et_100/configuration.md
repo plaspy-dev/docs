@@ -79,7 +79,7 @@ When configured for Plaspy, the ET-100 sends its location and event messages to 
 
 The ET-100 manufacturer tools and firmware determine the exact command syntax for configuration. Because commands and procedures vary by firmware and vendor utility, consult the Orion documentation or the device configuration utility for exact steps. When a device requires textual command input, use the Plaspy server domain or IP and port values shown above (d.plaspy.com or 54.85.159.138 and port 8888), and select UDP or TCP as appropriate.
 
-If you receive or locate manufacturer-provided example commands for the ET-100, preserve placeholders exactly as provided (for example {{apn}} or similar) and follow Orion guidance when substituting values.
+If you receive or locate manufacturer-provided example commands for the ET-100, preserve placeholders exactly as provided (for example [apn] or similar) and follow Orion guidance when substituting values.
 
 ## Configuration Notes
 

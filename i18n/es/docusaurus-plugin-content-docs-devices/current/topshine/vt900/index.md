@@ -1,6 +1,7 @@
 ---
 slug: /topshine/vt900
 id: vt900
+sidebar_key: topshinvt900_index_vt900
 sidebar_label: VT900
 title: TopShine - VT900
 sidebar_class_name: menu_item_tracker

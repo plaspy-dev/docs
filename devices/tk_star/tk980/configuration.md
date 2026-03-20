@@ -81,21 +81,21 @@ begin123456
 
 - Set the operator APN
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Replace {{apn}} with your SIM operator APN string.
+Replace [apn] with your SIM operator APN string.
 
 - Set the APN username (optional)
 ```sms
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-Replace {{apnu}} with the APN username if required by the operator.
+Replace [apnu] with the APN username if required by the operator.
 
 - Set the APN password (optional)
 ```sms
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-Replace {{apnp}} with the APN password if required by the operator.
+Replace [apnp] with the APN password if required by the operator.
 
 - Set the GPRS server to Plaspy using the server IP and port
 ```sms
@@ -114,7 +114,7 @@ Adjust the interval value as needed for reporting frequency.
 gprs123456
 ```
 
-Notes on placeholders: {{apn}} is the network APN, {{apnu}} is the APN username, and {{apnp}} is the APN password. Keep the device password (123456 in these examples) as required by your unit; replace it if you have a different admin password.
+Notes on placeholders: [apn] is the network APN, [apnu] is the APN username, and [apnp] is the APN password. Keep the device password (123456 in these examples) as required by your unit; replace it if you have a different admin password.
 
 ## Configuration Notes
 

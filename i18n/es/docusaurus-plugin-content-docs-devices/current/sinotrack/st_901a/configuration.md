@@ -49,7 +49,7 @@ Utilice los siguientes ajustes del servidor de Plaspy al configurar el ST-901A. 
 - Un rastreador con batería cargada o alimentado para realizar la configuración y pruebas.
 - Una tarjeta SIM con un plan de datos GPRS activo si va a usar reportes por GPRS.
 - Acceso a un teléfono con capacidad de enviar SMS o a una herramienta que permita enviar los comandos de configuración SMS del fabricante.
-- Conocimiento de los valores APN de su operador para los marcadores {{apn}}, {{apnu}} y {{apnp}}.
+- Conocimiento de los valores APN de su operador para los marcadores [apn], [apnu] y [apnp].
 - Acceso a la documentación oficial del fabricante o herramientas del proveedor para orientación específica del dispositivo.
 - Un método para recibir y visualizar las respuestas del dispositivo a comandos de verificación como RCONF.
 
@@ -89,9 +89,9 @@ RESET
 
 - Establecer el APN del operador móvil. Reemplace los marcadores con los valores de su operador:
 ```
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-Explicación: {{apn}} es el nombre del punto de acceso, {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Si su APN no requiere usuario ni contraseña, deje los marcadores vacíos según el formato que requiera el equipo.
+Explicación: [apn] es el nombre del punto de acceso, [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Si su APN no requiere usuario ni contraseña, deje los marcadores vacíos según el formato que requiera el equipo.
 
 - Configurar el servidor GPRS a Plaspy por IP y puerto:
 ```
@@ -127,7 +127,7 @@ Explicación: La respuesta del dispositivo al comando RCONF contiene el ID del e
 - Las revisiones de firmware y hardware del fabricante pueden cambiar los formatos de comando y el comportamiento; confirme siempre los comandos con la documentación más reciente del fabricante.
 - El ST-901A soporta tanto la configuración por SMS como el reporte por GPRS; use comandos SMS cuando el dispositivo no tenga conexión de red o como método principal de configuración si está soportado.
 - Elegir TCP o UDP afecta la gestión de la sesión en el dispositivo y el servidor. Plaspy acepta ambos y detectará automáticamente el protocolo del rastreador.
-- Mantenga los marcadores como {{apn}}, {{apnu}} y {{apnp}} al preparar los comandos y sustituya por los valores específicos de su operador antes de enviarlos.
+- Mantenga los marcadores como [apn], [apnu] y [apnp] al preparar los comandos y sustituya por los valores específicos de su operador antes de enviarlos.
 - Restablecer a valores de fábrica es opcional y debe usarse cuando necesite un estado de configuración limpio; eliminará configuraciones personalizadas previas.
 
 ## Por qué usar Plaspy con esta configuración

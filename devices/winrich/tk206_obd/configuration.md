@@ -89,9 +89,9 @@ The TK206 OBD supports SMS based configuration. Below are the public SMS command
 ```
 - Set the operator APN (replace placeholders with your operator values)
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-Note: {{apn}} is the APN name, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. If your operator does not require username or password, leave those placeholders empty as supported by the device SMS format.
+Note: [apn] is the APN name, [apnu] is the APN username if required, and [apnp] is the APN password if required. If your operator does not require username or password, leave those placeholders empty as supported by the device SMS format.
 
 - Set the GPRS server to the Plaspy backend (server IP and port)
 ```text

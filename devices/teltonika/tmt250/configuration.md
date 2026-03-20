@@ -47,7 +47,7 @@ The configuration process prepares the TMT250 so it can communicate reliably wit
 - A charged and functioning TMT250 with access to its configuration interface
 - A valid GSM SIM provisioned with mobile data and SMS if using SMS or GPRS
 - Access to Teltonika configuration methods such as SMS commands or the Teltonika Configurator via USB or Bluetooth
-- Know the correct APN values for your mobile provider to populate {{apn}}, {{apnu}}, and {{apnp}}
+- Know the correct APN values for your mobile provider to populate [apn], [apnu], and [apnp]
 - A Plaspy account or contact to register the device on the platform if required by your organisation
 - Confirm device firmware is recent enough to accept the shown parameter format
 
@@ -78,13 +78,13 @@ The modelConfiguration provides a standard batch parameter command used with Tel
 - Example batch setparam command for TMT250
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command and placeholders:
-- {{apn}} is the mobile operator APN name required for data connectivity
-- {{apnu}} is the APN username when required by the operator
-- {{apnp}} is the APN password when required by the operator
+- [apn] is the mobile operator APN name required for data connectivity
+- [apnu] is the APN username when required by the operator
+- [apnp] is the APN password when required by the operator
 - 2004 sets the server domain to d.plaspy.com so the tracker sends data to Plaspy
 - 2005 sets the remote port to 8888 which Plaspy uses for all devices
 - 2006 is a device parameter present in the example batch command; consult Teltonika documentation for an exact description of this parameter for your firmware version

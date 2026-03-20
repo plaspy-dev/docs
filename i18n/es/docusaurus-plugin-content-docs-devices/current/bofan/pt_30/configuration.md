@@ -90,14 +90,14 @@ Ejemplo usando un id de 14 dígitos
 000000GID12345678901234
 ```
 
-- Establecer el APN de su operador móvil. Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} según sea necesario. Reemplace o elimine los segmentos de usuario y contraseña si su operador no los requiere.
+- Establecer el APN de su operador móvil. Mantenga los marcadores [apn], [apnu] y [apnp] según sea necesario. Reemplace o elimine los segmentos de usuario y contraseña si su operador no los requiere.
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
 Explicación de los marcadores:
-- {{apn}} marcador vacío para el nombre del APN del operador
-- {{apnu}} marcador para el usuario del APN si es necesario
-- {{apnp}} marcador para la contraseña del APN si es necesario
+- [apn] marcador vacío para el nombre del APN del operador
+- [apnu] marcador para el usuario del APN si es necesario
+- [apnp] marcador para la contraseña del APN si es necesario
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto de esta guía
 ```text

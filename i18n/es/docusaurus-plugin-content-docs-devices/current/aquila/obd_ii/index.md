@@ -1,6 +1,7 @@
 ---
 slug: /aquila/obd_ii
 id: obd_ii
+sidebar_key: aquilobd_ii_index_obd_ii
 sidebar_label: OBD II
 title: Aquila - OBD II
 sidebar_class_name: menu_item_tracker

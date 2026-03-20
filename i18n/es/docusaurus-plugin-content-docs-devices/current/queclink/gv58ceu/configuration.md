@@ -73,7 +73,7 @@ El GV58CEU se configura para reportar posiciones GNSS y telemetría de eventos a
 
 ## Ejemplos de comandos de configuración
 
-El GV58CEU soporta configuración vía SMS. Los siguientes ejemplos públicos de comandos SMS se proporcionan en el orden mostrado en la guía pública de QuecLink. Los comandos usan la contraseña del dispositivo queclink en estos ejemplos; reemplace por la contraseña de su dispositivo si es diferente. Conserve los marcadores como {{apn}} al enviar y reemplácelos por los valores de su operador.
+El GV58CEU soporta configuración vía SMS. Los siguientes ejemplos públicos de comandos SMS se proporcionan en el orden mostrado en la guía pública de QuecLink. Los comandos usan la contraseña del dispositivo queclink en estos ejemplos; reemplace por la contraseña de su dispositivo si es diferente. Conserve los marcadores como [apn] al enviar y reemplácelos por los valores de su operador.
 
 1. Paso inicial opcional: restaurar ajustes de fábrica (etiquetado aquí como reinicio inicial opcional). Use esto solo si necesita resetear el dispositivo antes de configurar.
 
@@ -88,12 +88,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 ```
 
 3. Configurar el APN del operador. Reemplace los marcadores por los datos de su operador:
-- {{apn}} es la cadena APN
-- {{apnu}} es el usuario APN si se requiere
-- {{apnp}} es la contraseña APN si se requiere
+- [apn] es la cadena APN
+- [apnu] es el usuario APN si se requiere
+- [apnp] es la contraseña APN si se requiere
 
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4. Configurar el servidor GPRS a Plaspy. Este ejemplo incluye el dominio y la IP de Plaspy y establece el puerto 8888. Esta configuración garantiza que el dispositivo intentará enviar a d.plaspy.com e incluye 54.85.159.138 como entrada IP.

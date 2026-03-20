@@ -83,7 +83,7 @@ If you have a vendor-provided SMS command reference, follow that sequence to:
 - select UDP or TCP if required
 - save settings and optionally restart the device
 
-Preserve any placeholders in vendor commands such as {{apn}} for APN, {{apnu}} for APN username, and {{apnp}} for APN password when those values are required by your carrier. Check Reachfar documentation for exact command syntax.
+Preserve any placeholders in vendor commands such as [apn] for APN, [apnu] for APN username, and [apnp] for APN password when those values are required by your carrier. Check Reachfar documentation for exact command syntax.
 
 ## Configuration Notes
 

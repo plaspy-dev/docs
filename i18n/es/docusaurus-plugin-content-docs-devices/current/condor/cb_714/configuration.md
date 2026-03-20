@@ -74,16 +74,16 @@ Una vez configurado, el CB-714 envía su ubicación y telemetría de viaje al en
 
 El CB-714 admite configuración mediante SMS usando la contraseña del dispositivo. El ejemplo público usa la contraseña por defecto 0000. Conserve los marcadores y reemplácelos por sus valores de operador o de dispositivo al enviar los comandos.
 
-- Configure el APN del operador. Reemplace {{apn}} por el APN de su operador. Opcionalmente incluya {{apnu}} (usuario APN) y {{apnp}} (contraseña APN) si su operador lo requiere.
+- Configure el APN del operador. Reemplace [apn] por el APN de su operador. Opcionalmente incluya [apnu] (usuario APN) y [apnp] (contraseña APN) si su operador lo requiere.
 
   ```
-  APN,0000,{{apn}}
+  APN,0000,[apn]
   ```
 
   O con usuario y contraseña opcionales:
 
   ```
-  APN,0000,{{apn}},{{apnu}},{{apnp}}
+  APN,0000,[apn],[apnu],[apnp]
   ```
 
 - Establezca un identificador (alias) de 5 dígitos. Reemplace xxxxx por los últimos 5 dígitos del IMEI del dispositivo. Elija los cinco últimos dígitos del IMEI como alias para facilitar la identificación.
@@ -132,7 +132,7 @@ El CB-714 admite configuración mediante SMS usando la contraseña del dispositi
   CONEXION,0000#
   ```
 
-Importante: la contraseña 0000 mostrada aquí es el ejemplo por defecto de configuraciones públicas. Si su dispositivo tiene otra contraseña o la ha cambiado, reemplace 0000 por la contraseña del equipo. Mantenga los marcadores como {{apn}}, {{apnu}} y {{apnp}} en sus comandos hasta reemplazarlos por valores reales.
+Importante: la contraseña 0000 mostrada aquí es el ejemplo por defecto de configuraciones públicas. Si su dispositivo tiene otra contraseña o la ha cambiado, reemplace 0000 por la contraseña del equipo. Mantenga los marcadores como [apn], [apnu] y [apnp] en sus comandos hasta reemplazarlos por valores reales.
 
 ## Notas de configuración
 

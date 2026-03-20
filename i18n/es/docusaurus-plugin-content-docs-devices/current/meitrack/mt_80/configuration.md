@@ -75,9 +75,9 @@ El MT-80 se configura para reportar al endpoint y puerto compartidos de Plaspy p
 El MT-80 soporta configuración vía SMS. Los siguientes comandos SMS públicos son ejemplos extraídos del contenido de configuración publicado por Meitrack. Los comandos de muestra usan la contraseña por defecto del dispositivo 0000. Conserve los marcadores de posición al enviar los comandos y reemplácelos por sus valores reales.
 
 - La contraseña por defecto usada en los ejemplos es 0000
-- {{apn}} es un marcador de posición para la cadena APN de su SIM
-- {{apnu}} es un marcador de posición para el usuario APN cuando se requiere
-- {{apnp}} es un marcador de posición para la contraseña APN cuando se requiere
+- [apn] es un marcador de posición para la cadena APN de su SIM
+- [apnu] es un marcador de posición para el usuario APN cuando se requiere
+- [apnp] es un marcador de posición para la contraseña APN cuando se requiere
 
 1. Reinicio opcional a la configuración de fábrica
 ```sms
@@ -87,7 +87,7 @@ Etiqueta: Configuración inicial opcional o restauración de fábrica. Use solo 
 
 2. Configurar el servidor GPRS a Plaspy usando IP directa y puerto, incluyendo APN y credenciales APN opcionales
 ```sms
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Nota: Este comando configura el reporte GPRS al servidor Plaspy por IP y puerto. Puede sustituir d.plaspy.com en configuraciones que soporten DNS si lo prefiere.
 
@@ -113,7 +113,7 @@ Envíe estos comandos SMS desde el número del propietario de la SIM o desde el 
 - La configuración vía SMS está soportada y se ilustra arriba. Use el método apropiado según su firmware y flujo de gestión.
 - Plaspy soporta tanto UDP como TCP en el mismo puerto 8888; elija el transporte que se ajuste a los requisitos de su proyecto y a las opciones del dispositivo.
 - La sintaxis de firmware y comandos puede variar según el lote de producción o la revisión de firmware. Confirme la sintaxis exacta con la documentación de Meitrack para el firmware de su MT-80.
-- Cuando use marcadores como {{apn}}, {{apnu}} y {{apnp}}, reemplácelos por los valores proporcionados por su operador móvil.
+- Cuando use marcadores como [apn], [apnu] y [apnp], reemplácelos por los valores proporcionados por su operador móvil.
 - Si prefiere DNS en lugar de IP directa, use d.plaspy.com como nombre de servidor en lugar de la dirección IP.
 
 ## Por qué usar Plaspy con esta configuración

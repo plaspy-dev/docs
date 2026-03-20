@@ -76,7 +76,7 @@ The AT-3 transmits GNSS position fixes and status telemetry over the cellular ne
 
 The exact configuration commands and format depend on the Autoseeker configuration tool, firmware, or SMS command set provided by the manufacturer. Because manufacturer methods vary, follow the official Autoseeker instructions or vendor tool to set the server and port. Plaspy accepts data from the device when it is configured to send to d.plaspy.com or 54.85.159.138 on port 8888 using either UDP or TCP.
 
-If you receive public manufacturer commands from Autoseeker that are intended for device configuration, apply them in the order the manufacturer specifies and preserve placeholders such as {{apn}} or similar as required by the device.
+If you receive public manufacturer commands from Autoseeker that are intended for device configuration, apply them in the order the manufacturer specifies and preserve placeholders such as [apn] or similar as required by the device.
 
 ## Configuration Notes
 

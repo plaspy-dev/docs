@@ -77,7 +77,7 @@ Cuando el G509 se configura para reportar a Plaspy, el dispositivo envía sus me
 
 Los comandos específicos del fabricante o las pantallas de configuración para el G509 varían según el firmware y el método usado por el instalador. Plaspy solo requiere que el dispositivo apunte a d.plaspy.com o 54.85.159.138 en el puerto 8888 y use UDP o TCP como transporte cuando el dispositivo lo solicite.
 
-Si dispone de comandos SMS o CLI provistos por TrackerKing en el manual del dispositivo, mapee los campos de servidor y puerto a los valores anteriores y conserve cualquier autenticación o marcadores de APN requeridos. Los marcadores que se ven comúnmente en comandos del fabricante pueden incluir elementos como {{apn}}, {{apnu}} o {{apnp}} y deben reemplazarse por los datos APN de su operador cuando sea necesario.
+Si dispone de comandos SMS o CLI provistos por TrackerKing en el manual del dispositivo, mapee los campos de servidor y puerto a los valores anteriores y conserve cualquier autenticación o marcadores de APN requeridos. Los marcadores que se ven comúnmente en comandos del fabricante pueden incluir elementos como [apn], [apnu] o [apnp] y deben reemplazarse por los datos APN de su operador cuando sea necesario.
 
 ## Notas de configuración
 

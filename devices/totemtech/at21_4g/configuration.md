@@ -83,12 +83,12 @@ The AT21-4G supports SMS based provisioning. Below are example SMS commands publ
 
 - Set the operator APN. Replace the placeholders with actual operator values:
 ```
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
 Explanation of placeholders:
-- {{apn}} is the APN name provided by your mobile operator.
-- {{apnu}} is the APN username if required, otherwise leave blank.
-- {{apnp}} is the APN password if required, otherwise leave blank.
+- [apn] is the APN name provided by your mobile operator.
+- [apnu] is the APN username if required, otherwise leave blank.
+- [apnp] is the APN password if required, otherwise leave blank.
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port and enable the connection mode (example uses mode 1):
 ```

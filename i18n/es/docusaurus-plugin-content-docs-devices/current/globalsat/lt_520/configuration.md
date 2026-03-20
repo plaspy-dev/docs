@@ -83,11 +83,11 @@ TSPRXAB27GHKLMnaicz*U!
 A continuación están los dos comandos extraídos del contenido del proveedor.
 
 1) Configurar el rastreador para que reporte a Plaspy
-- Descripción: reemplace {{imei}} por el IMEI del dispositivo y {{apn}}, {{apnu}}, {{apnp}} por el APN, usuario APN y contraseña APN de su operador. El comando requiere un valor de checksum agregado antes del signo de exclamación final. El checksum se calcula aplicando XOR a los valores byte de la cadena del comando antes del asterisco y convirtiendo el resultado a una cadena hexadecimal de dos dígitos en mayúsculas.
+- Descripción: reemplace {{imei}} por el IMEI del dispositivo y [apn], [apnu], [apnp] por el APN, usuario APN y contraseña APN de su operador. El comando requiere un valor de checksum agregado antes del signo de exclamación final. El checksum se calcula aplicando XOR a los valores byte de la cadena del comando antes del asterisco y convirtiendo el resultado a una cadena hexadecimal de dos dígitos en mayúsculas.
 
 Example SMS command:
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 2) Reiniciar el dispositivo (opcional, usar si se necesita un reinicio para aplicar ajustes)
@@ -103,9 +103,9 @@ Resumen de generación del checksum
 
 Explicación de los marcadores de posición
 - {{imei}}: número IMEI del dispositivo
-- {{apn}}: nombre del APN para datos celulares
-- {{apnu}}: nombre de usuario del APN si es requerido
-- {{apnp}}: contraseña del APN si es requerida
+- [apn]: nombre del APN para datos celulares
+- [apnu]: nombre de usuario del APN si es requerido
+- [apnp]: contraseña del APN si es requerida
 - {{checksum}} y {{checksumreeboot}}: valores de checksum calculados según lo descrito más arriba
 
 ## Notas de configuración

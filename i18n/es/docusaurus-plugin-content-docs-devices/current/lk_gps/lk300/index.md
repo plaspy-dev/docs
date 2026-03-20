@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk300
 id: lk300
+sidebar_key: lk_gplk300_index_lk300
 sidebar_label: LK300
 title: LK-GPS - LK300
 sidebar_class_name: menu_item_tracker

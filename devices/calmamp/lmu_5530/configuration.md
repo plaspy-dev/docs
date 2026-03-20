@@ -76,19 +76,19 @@ When configured for Plaspy, the LMU-5530 is set to send its location and event d
 
 The CalmAmp LMU-5530 can be configured by SMS using specific commands. Below are the public SMS commands and their purpose as provided in the device documentation. Send these SMS messages to the device in the order shown when performing manual SMS configuration.
 
-- Set the operator APN (replace {{apn}} with your carrier APN):
+- Set the operator APN (replace [apn] with your carrier APN):
 ```
-!RP,2306,0,{{apn}}
-```
-
-- Set the APN operator username if required (replace {{apnu}} with the APN username):
-```
-!RP,2314,0,{{apnu}}
+!RP,2306,0,[apn]
 ```
 
-- Set the APN operator password if required (replace {{apnp}} with the APN password):
+- Set the APN operator username if required (replace [apnu] with the APN username):
 ```
-!RP,2315,0,{{apnp}}
+!RP,2314,0,[apnu]
+```
+
+- Set the APN operator password if required (replace [apnp] with the APN password):
+```
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy by IP (Plaspy server IP shown):
@@ -112,7 +112,7 @@ The CalmAmp LMU-5530 can be configured by SMS using specific commands. Below are
 ```
 
 Notes on placeholders and identifiers:
-- The ID referenced by the LMU-5530 SMS flow is the MID 10 digits replied by the !R0 command as noted in the device documentation. Replace placeholder values such as {{apn}}, {{apnu}}, and {{apnp}} with your operator credentials when sending commands.
+- The ID referenced by the LMU-5530 SMS flow is the MID 10 digits replied by the !R0 command as noted in the device documentation. Replace placeholder values such as [apn], [apnu], and [apnp] with your operator credentials when sending commands.
 
 ## Configuration Notes
 

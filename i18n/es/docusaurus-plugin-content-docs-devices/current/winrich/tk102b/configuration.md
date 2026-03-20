@@ -88,9 +88,9 @@ El TK102B admite configuración mediante SMS. Los siguientes comandos son los qu
 
 - Establecer el APN del operador (reemplazar los marcadores por los valores del operador)
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-Explicación: {{apn}} es el APN del operador. {{apnu}} es el usuario del APN si es requerido. {{apnp}} es la contraseña del APN si es requerida. Si su operador no requiere usuario o contraseña, puede omitir esos marcadores según el comportamiento del dispositivo.
+Explicación: [apn] es el APN del operador. [apnu] es el usuario del APN si es requerido. [apnp] es la contraseña del APN si es requerida. Si su operador no requiere usuario o contraseña, puede omitir esos marcadores según el comportamiento del dispositivo.
 
 - Establecer el servidor GPRS a Plaspy (usar IP numérica y puerto)
 ```text

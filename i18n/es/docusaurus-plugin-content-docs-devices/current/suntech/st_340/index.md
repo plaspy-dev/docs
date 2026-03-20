@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st_340
 id: st_340
+sidebar_key: suntecst_340_index_st_340
 sidebar_label: ST 340
 title: Suntech - ST 340
 sidebar_class_name: menu_item_tracker

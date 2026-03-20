@@ -50,7 +50,7 @@ Use los siguientes ajustes del servidor de Plaspy al configurar el AX5. Plaspy u
 - Dispositivo con energía suficiente o conectado a la alimentación del vehículo para que pueda registrarse en la red móvil.
 - SIM activa con datos móviles habilitados y credenciales APN correctas para su operador.
 - Acceso al método o software oficial de configuración ATrack, o a una interfaz que acepte los comandos AT del AX5.
-- Conocimiento de los marcadores de posición del APN como {{apn}}, {{apnu}} y {{apnp}} para poder proporcionar los valores correctos del operador cuando se requiera.
+- Conocimiento de los marcadores de posición del APN como [apn], [apnu] y [apnp] para poder proporcionar los valores correctos del operador cuando se requiera.
 - Visibilidad básica de red para confirmar que el dispositivo puede alcanzar el servidor de Plaspy en d.plaspy.com o 54.85.159.138 en el puerto 8888.
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -69,7 +69,7 @@ Cuando se configura con los ajustes de servidor de Plaspy, el AX5 utiliza su con
 2. Ingrese la dirección del servidor Plaspy ya sea como el dominio d.plaspy.com o la IP del servidor 54.85.159.138.
 3. Configure el puerto del servidor a 8888.
 4. Seleccione UDP o TCP en el dispositivo si la herramienta de configuración requiere elegir el transporte.
-5. Establezca el APN y cualquier nombre de usuario y contraseña del APN necesarios para la SIM usando marcadores como {{apn}}, {{apnu}} y {{apnp}} al aplicar los ajustes.
+5. Establezca el APN y cualquier nombre de usuario y contraseña del APN necesarios para la SIM usando marcadores como [apn], [apnu] y [apnp] al aplicar los ajustes.
 6. Aplique o guarde la configuración y reinicie el dispositivo si la herramienta o el firmware lo requieren.
 7. Valide que el dispositivo reporte a Plaspy comprobando el estado con el comando de verificación del fabricante o confirmando la visibilidad en la plataforma Plaspy.
 
@@ -97,12 +97,12 @@ AT$FORM=1,@P,0,""
 
 4. Configure el servidor GPRS con marcadores de APN y la IP y puerto de Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 - Explicación de los marcadores de posición
-  - {{apn}} es el nombre del APN del operador
-  - {{apnu}} es el nombre de usuario del APN si el operador lo requiere
-  - {{apnp}} es la contraseña del APN si el operador lo requiere
+  - [apn] es el nombre del APN del operador
+  - [apnu] es el nombre de usuario del APN si el operador lo requiere
+  - [apnp] es la contraseña del APN si el operador lo requiere
 
 5. Consulte el estado del dispositivo
 ```text

@@ -92,16 +92,16 @@ gmt,666666,e,0#
 
 - Configurar el APN del operador
 ```text
-APN,666666,{{apn}}#
+APN,666666,[apn]#
 ```
 Si su APN requiere usuario o contraseña incluya los campos opcionales según lo soporte su dispositivo:
 ```text
-APN,666666,{{apn}},{{apnu}},{{apnp}}#
+APN,666666,[apn],[apnu],[apnp]#
 ```
 Explicación de los marcadores
-- {{apn}} es la cadena APN del operador necesaria para GPRS
-- {{apnu}} es el nombre de usuario del APN si lo proporciona el operador
-- {{apnp}} es la contraseña del APN si la proporciona el operador
+- [apn] es la cadena APN del operador necesaria para GPRS
+- [apnu] es el nombre de usuario del APN si lo proporciona el operador
+- [apnp] es la contraseña del APN si la proporciona el operador
 
 - Configurar el servidor GPRS al endpoint de Plaspy usando la IP pública y el puerto 8888
 ```text

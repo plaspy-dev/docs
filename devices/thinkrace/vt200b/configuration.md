@@ -76,16 +76,16 @@ The VT200B is configured to send its telemetry and OBD2 diagnostic messages to t
 
 The VT200B supports SMS-based configuration. The following public SMS commands are provided as examples. The sample device password in these commands is 888888 which is the publicly documented default for the example flow.
 
-1. Set the operator APN. Replace {{apn}} with your carrier APN. If your APN requires a username and password, include {{apnu}} and {{apnp}} as shown; otherwise omit those placeholders.
+1. Set the operator APN. Replace [apn] with your carrier APN. If your APN requires a username and password, include [apnu] and [apnp] as shown; otherwise omit those placeholders.
 
 ```
-(Set,888888,apn,{{apn}})
+(Set,888888,apn,[apn])
 ```
 
 Optional form with APN username and password:
 
 ```
-(Set,888888,apn,{{apn}},{{apnu}},{{apnp}})
+(Set,888888,apn,[apn],[apnu],[apnp])
 ```
 
 2. Set the GPRS server to point the tracker to Plaspy. This command sets the Plaspy server IP and port 8888.
@@ -97,7 +97,7 @@ Optional form with APN username and password:
 Notes on these commands:
 - Send each command as a separate SMS from an authorized phone number if the device firmware requires authorization.
 - Keep the command order when performing initial setup: set APN first, then server settings.
-- The placeholder {{apn}} should be replaced with your carrier APN string. The placeholders {{apnu}} and {{apnp}} represent APN username and APN password and are optional if your operator requires them.
+- The placeholder [apn] should be replaced with your carrier APN string. The placeholders [apnu] and [apnp] represent APN username and APN password and are optional if your operator requires them.
 - If your firmware supports setting the server by hostname instead of IP, you can use d.plaspy.com where supported; otherwise use the server IP shown above.
 
 ## Configuration Notes

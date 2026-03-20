@@ -86,20 +86,20 @@ The Bofan B5 supports SMS configuration. The commands below are public examples 
 ```text
 000000GID<last14digits_of_IMEI>
 ```
-Replace \<last14digits_of_IMEI> with the device specific 14 digit identifier.
+Replace \\<last14digits_of_IMEI> with the device specific 14 digit identifier.
 
 - Set the APN for your mobile operator. If username or password are required include them as shown:
 ```text
-000000APN{{apn}}
+000000APN[apn]
 ```
 or with optional username and password:
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
 Placeholders:
-- {{apn}} is the operator APN name.
-- {{apnu}} is the APN username if required.
-- {{apnp}} is the APN password if required.
+- [apn] is the operator APN name.
+- [apnu] is the APN username if required.
+- [apnp] is the APN password if required.
 
 - Set the GPRS server to Plaspy using the public server IP and port shown in this guide:
 ```text

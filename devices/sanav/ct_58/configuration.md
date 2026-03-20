@@ -80,9 +80,9 @@ The CT-58 can be configured by sending SMS commands to the device. The following
 #username,0000,9*
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN, {{apnu}} with the APN username if required, and {{apnp}} with the APN password if required:
+- Set the operator APN. Replace [apn] with your operator APN, [apnu] with the APN username if required, and [apnp] with the APN password if required:
 ```text
-#username,0000,3,{{apn}},{{apnu}},{{apnp}}*
+#username,0000,3,[apn],[apnu],[apnp]*
 ```
 
 - Set the GPRS server to Plaspy using the Plaspy public IP and port 8888:
@@ -101,8 +101,8 @@ The CT-58 can be configured by sending SMS commands to the device. The following
 ```
 
 Notes on placeholders and fields:
-- {{apn}} is the mobile operator APN string required for GPRS data.
-- {{apnu}} and {{apnp}} are optional APN username and password fields for operators that require them.
+- [apn] is the mobile operator APN string required for GPRS data.
+- [apnu] and [apnp] are optional APN username and password fields for operators that require them.
 - Keep the default password 0000 unless you have changed it; follow manufacturer guidance for changing device passwords.
 - Preserve the order of commands when order matters, for example setting APN before server settings to ensure the device can reach the server.
 

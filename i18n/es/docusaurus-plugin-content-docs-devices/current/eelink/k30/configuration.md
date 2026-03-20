@@ -49,7 +49,7 @@ Use estos ajustes públicos del servidor Plaspy al configurar un K30 para la pla
 - Un dispositivo K30 con batería y capaz de recibir SMS y conectarse a la red móvil
 - Una tarjeta SIM válida con plan de datos activo y la información del APN del operador
 - Acceso al método oficial de configuración de EElink o a los comandos SMS provistos por el distribuidor
-- Conocimiento de los valores APN de su operador (tenga listos los marcadores {{apn}}, {{apnu}} y {{apnp}})
+- Conocimiento de los valores APN de su operador (tenga listos los marcadores [apn], [apnu] y [apnp])
 - Acceso al dispositivo para reiniciarlo o cortar la alimentación si es necesario aplicar cambios
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -86,11 +86,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} con el APN de su operador. Si el operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}}:
+- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si el operador requiere usuario y contraseña, incluya [apnu] y [apnp]:
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Explicación: {{apn}} es el nombre del APN. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN en caso de que el operador los solicite.
+Explicación: [apn] es el nombre del APN. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN en caso de que el operador los solicite.
 
 - Configurar el servidor GPRS para apuntar a Plaspy usando el dominio (la opción de transporte UDP/TCP se determina por el flag de transporte):
 ```text

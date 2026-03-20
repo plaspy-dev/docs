@@ -76,7 +76,7 @@ If using SMS commands for initial provisioning, follow the ordered command seque
 
 ## Example Configuration Commands
 
-The manufacturer provides SMS-based configuration commands for the X06. The sample sequence below uses the factory default device password 123456. Keep the order when performing initial provisioning where indicated. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} are shown where operator-specific values are required.
+The manufacturer provides SMS-based configuration commands for the X06. The sample sequence below uses the factory default device password 123456. Keep the order when performing initial provisioning where indicated. Placeholders such as [apn], [apnu], and [apnp] are shown where operator-specific values are required.
 
 - Restore factory settings (optional initial reset)
 ```text
@@ -84,15 +84,15 @@ begin123456
 ```
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 - Set the APN username (if required)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 - Set the APN password (if required)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Set the GPRS server to Plaspy using the Plaspy server IP and port
 ```text
@@ -109,7 +109,7 @@ t060s***n123456
 
 Notes on the commands above:
 - The command begin123456 is typically used to restore factory settings and is optional or used only when starting from a factory state.
-- Replace {{apn}} with your mobile operator APN value. Replace {{apnu}} and {{apnp}} with the APN username and password if your operator requires them.
+- Replace [apn] with your mobile operator APN value. Replace [apnu] and [apnp] with the APN username and password if your operator requires them.
 - The adminip command points the device to Plaspy by using the public Plaspy server IP 54.85.159.138 and port 8888. You may alternatively enter the server domain d.plaspy.com if the device accepts a domain name entry.
 - Keep the command order when performing initial provisioning to ensure connectivity is established before setting reporting parameters.
 

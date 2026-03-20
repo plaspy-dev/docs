@@ -81,13 +81,13 @@ El fabricante proporciona plantillas de comandos SMS para el TK103R. Los comando
 ```
 W000000,990,099###
 ```
-2. Establecer el ID del dispositivo usando los primeros 14 dígitos del IMEI (plantilla del fabricante). Reemplace <IMEI14> con los primeros 14 dígitos del IMEI del dispositivo. Tenga en cuenta que Plaspy identifica los equipos por el IMEI completo de 15 dígitos al registrarlos en la plataforma.
+2. Establecer el ID del dispositivo usando los primeros 14 dígitos del IMEI (plantilla del fabricante). Reemplace \<IMEI14> con los primeros 14 dígitos del IMEI del dispositivo. Tenga en cuenta que Plaspy identifica los equipos por el IMEI completo de 15 dígitos al registrarlos en la plataforma.
 ```
 W000000,010,<IMEI14>
 ```
-3. Configurar el APN del operador. Reemplace {{apn}} con el APN de su operador e incluya {{apnu}} y {{apnp}} únicamente si su operador requiere usuario y contraseña del APN. Mantenga los marcadores si planea sustituirlos más adelante.
+3. Configurar el APN del operador. Reemplace [apn] con el APN de su operador e incluya [apnu] y [apnp] únicamente si su operador requiere usuario y contraseña del APN. Mantenga los marcadores si planea sustituirlos más adelante.
 ```
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
 (Si su APN requiere usuario y contraseña, inclúyalos separados por comas. Si no, envíe solo el campo APN.)
 
@@ -109,10 +109,10 @@ W000000,601
 ```
 
 Explicación de los marcadores:
-- {{apn}} — cadena APN del operador móvil requerida para la conexión de datos.
-- {{apnu}} — usuario del APN si el operador lo exige.
-- {{apnp}} — contraseña del APN si el operador la exige.
-- <IMEI14> — primeros 14 dígitos del IMEI del dispositivo según la plantilla de comando del fabricante. Use el IMEI completo de 15 dígitos al registrar el dispositivo en Plaspy.
+- [apn] — cadena APN del operador móvil requerida para la conexión de datos.
+- [apnu] — usuario del APN si el operador lo exige.
+- [apnp] — contraseña del APN si el operador la exige.
+- \<IMEI14> — primeros 14 dígitos del IMEI del dispositivo según la plantilla de comando del fabricante. Use el IMEI completo de 15 dígitos al registrar el dispositivo en Plaspy.
 
 ## Notas de configuración
 

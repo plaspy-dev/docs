@@ -82,21 +82,21 @@ Note on IDs and verification
 
 1. Set the operator APN
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
-- {{apn}} placeholder should be replaced with your mobile operator APN string.
+- [apn] placeholder should be replaced with your mobile operator APN string.
 
 2. Set the APN operator username (if required)
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
-- {{apnu}} placeholder should be replaced with the APN username if your operator requires it.
+- [apnu] placeholder should be replaced with the APN username if your operator requires it.
 
 3. Set the APN operator password (if required)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
-- {{apnp}} placeholder should be replaced with the APN password if your operator requires it.
+- [apnp] placeholder should be replaced with the APN password if your operator requires it.
 
 4. Set the GPRS server to Plaspy by IP
 ```
@@ -121,7 +121,7 @@ Verification command to check settings
 ```
 - Use this command to query the device and confirm configured parameters. The device will reply with status including the MID or other identifiers.
 
-Important: Keep the order above when applying settings by SMS where sequence matters. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator values.
+Important: Keep the order above when applying settings by SMS where sequence matters. Replace placeholders such as [apn], [apnu], and [apnp] with your operator values.
 
 ## Configuration Notes
 

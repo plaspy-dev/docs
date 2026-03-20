@@ -79,19 +79,19 @@ If you use the Teltonika SMS or GPRS command flow, include APN values and the Pl
 
 The FMB002 supports SMS or GPRS command configuration. The public example below sets APN values and points the device to Plaspy. Preserve the placeholders and replace them with your carrier values:
 
-- {{apn}} is the carrier APN
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the carrier APN
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 Sample Teltonika setparam command (public example):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command above:
 - The command sets APN parameters and assigns the server domain d.plaspy.com and port 8888 for Plaspy.
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with your carrier APN settings.
+- Replace [apn], [apnu], and [apnp] with your carrier APN settings.
 - Use the Teltonika configuration channel you prefer (SMS, GPRS, or Teltonika Configurator) to send this command.
 - Parameter numbering and exact syntax may vary between firmware versions, so verify command IDs in Teltonika documentation for your firmware.
 

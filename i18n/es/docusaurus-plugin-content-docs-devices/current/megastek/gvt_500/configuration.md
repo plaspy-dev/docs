@@ -75,18 +75,18 @@ El GVT-500 se configura para enviar datos de ubicación y del dispositivo al end
 
 El GVT-500 admite configuración por SMS. Los comandos a continuación son ejemplos públicos y conservan marcadores de posición cuando corresponde. Envíe cada comando como un SMS desde un número autorizado. La contraseña predeterminada de muestra que se muestra aquí es 000000.
 
-- Establecer el ID del dispositivo (reemplazar <IMEI15> con el IMEI de 15 dígitos del dispositivo)
+- Establecer el ID del dispositivo (reemplazar \<IMEI15> con el IMEI de 15 dígitos del dispositivo)
 ```
 M000000,22,<IMEI15>
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} con el APN de su SIM; opcionalmente incluir {{apnu}} usuario y {{apnp}} contraseña si se requieren)
+- Establecer el APN del operador (reemplazar [apn] con el APN de su SIM; opcionalmente incluir [apnu] usuario y [apnp] contraseña si se requieren)
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Opcional con usuario y contraseña del APN:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 - Establecer el intervalo de actualización a 60 segundos
@@ -105,8 +105,8 @@ M000000,21,2
 ```
 
 Notas sobre los marcadores de posición y el uso:
-- <IMEI15> significa el número IMEI de 15 dígitos del dispositivo. Algunos comandos requieren el IMEI o el ID del dispositivo para registrar el rastreador en la flota.  
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores para el APN del operador, el usuario del APN y la contraseña del APN respectivamente. Reemplace con los valores de su operador.  
+- \<IMEI15> significa el número IMEI de 15 dígitos del dispositivo. Algunos comandos requieren el IMEI o el ID del dispositivo para registrar el rastreador en la flota.  
+- [apn], [apnu] y [apnp] son marcadores para el APN del operador, el usuario del APN y la contraseña del APN respectivamente. Reemplace con los valores de su operador.  
 - El "56" en el comando de servidor anterior es un valor presente en el ejemplo público y puede representar una ranura de servidor o un modo; confirme su significado para su versión de firmware.  
 - Los comandos deben enviarse desde un número autorizado y pueden requerir el prefijo de contraseña del dispositivo; los ejemplos usan la contraseña predeterminada 000000 como se muestra.
 

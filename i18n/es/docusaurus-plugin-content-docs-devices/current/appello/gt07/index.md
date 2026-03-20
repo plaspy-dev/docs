@@ -1,6 +1,7 @@
 ---
 slug: /appello/gt07
 id: gt07
+sidebar_key: appellgt07_index_gt07
 sidebar_label: GT07
 title: Appello - GT07
 sidebar_class_name: menu_item_tracker

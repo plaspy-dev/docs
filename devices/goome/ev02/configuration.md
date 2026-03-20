@@ -83,9 +83,9 @@ FACTORY#
 
 - Set the operator APN. Replace the placeholders with your SIM operator values:
 ```text
-APN,{{apn}}{{# if apnu or apnp }},{{apnu}},{{apnp}}{{/ if }}#
+APN,[apn]{{# if apnu or apnp }},[apnu],[apnp]{{/ if }}#
 ```
-Explanation: {{apn}} is your operator APN. {{apnu}} and {{apnp}} are optional APN username and password fields when required by the mobile operator.
+Explanation: [apn] is your operator APN. [apnu] and [apnp] are optional APN username and password fields when required by the mobile operator.
 
 - Set the GPRS server to Plaspy using the public IP and port provided by Plaspy:
 ```text

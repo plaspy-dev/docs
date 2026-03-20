@@ -83,12 +83,12 @@ The AT09 supports SMS-based configuration. The public sample commands below use 
 
 - Set the operator APN (replace placeholders with your operator credentials)
 ```
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
 Explanation of placeholders:
-- {{apn}} is the operator APN name (for example internet)
-- {{apnu}} is the APN username when required by the operator, otherwise leave blank
-- {{apnp}} is the APN password when required by the operator, otherwise leave blank
+- [apn] is the operator APN name (for example internet)
+- [apnu] is the APN username when required by the operator, otherwise leave blank
+- [apnp] is the APN password when required by the operator, otherwise leave blank
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port and enable primary server slot
 ```

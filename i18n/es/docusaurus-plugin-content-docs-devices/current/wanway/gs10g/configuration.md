@@ -75,18 +75,18 @@ El GS10G se configura para enviar datos de ubicación y eventos al endpoint y pu
 
 ## Comandos de configuración de ejemplo
 
-La configuración pública del GS10G utiliza comandos SMS. Preserve los marcadores como {{apn}}, {{apnu}} y {{apnp}} cuando los reemplace por los valores de su operador.
+La configuración pública del GS10G utiliza comandos SMS. Preserve los marcadores como [apn], [apnu] y [apnp] cuando los reemplace por los valores de su operador.
 
 1. Configure el APN de su operador
-   - Use este SMS para fijar el APN. Reemplace {{apn}} por el APN de su operador. Si el operador requiere usuario y contraseña incluya {{apnu}} y {{apnp}}.
+   - Use este SMS para fijar el APN. Reemplace [apn] por el APN de su operador. Si el operador requiere usuario y contraseña incluya [apnu] y [apnp].
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
    - Si el equipo usa el formato extendido de APN con usuario y contraseña:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-   - Explicación: {{apn}} es el nombre del APN del operador. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN.
+   - Explicación: [apn] es el nombre del APN del operador. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN.
 
 2. Configure el servidor GPRS apuntando a Plaspy
 ```text
@@ -124,7 +124,7 @@ Notas sobre el uso de estos comandos
 ## Observaciones de configuración
 
 - Los comandos públicos del GS10G muestran configuración por SMS; también pueden estar disponibles herramientas del proveedor o software de configuración que faciliten implementaciones por lotes.
-- Los marcadores de APN {{apn}}, {{apnu}} y {{apnp}} deben completarse con los valores de su operador. Si tiene dudas, consulte con el operador móvil.
+- Los marcadores de APN [apn], [apnu] y [apnp] deben completarse con los valores de su operador. Si tiene dudas, consulte con el operador móvil.
 - Elija UDP o TCP en el dispositivo si es necesario; Plaspy acepta ambos y detectará automáticamente el protocolo del dispositivo cuando el tráfico llegue al servidor.
 - Plaspy usa el mismo puerto 8888 para todos los dispositivos compatibles, por lo que ese puerto no cambia entre integraciones de dispositivos.
 - Las versiones de firmware y las revisiones de hardware pueden modificar la sintaxis y el comportamiento de los comandos. Siempre verifique los comandos contra la documentación actual de WanWay.

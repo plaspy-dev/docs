@@ -1,6 +1,7 @@
 ---
 slug: /dct/syrus_obdii_cat1
 id: syrus_obdii_cat1
+sidebar_key: dcsyrus_obdii_cat1_index_syrus_obdii_cat1
 sidebar_label: SYRUS OBDII-CAT1
 title: DCT - SYRUS OBDII-CAT1
 sidebar_class_name: menu_item_tracker

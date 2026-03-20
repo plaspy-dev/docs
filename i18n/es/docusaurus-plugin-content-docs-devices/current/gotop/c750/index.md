@@ -1,6 +1,7 @@
 ---
 slug: /gotop/c750
 id: c750
+sidebar_key: gotoc750_index_c750
 sidebar_label: C750
 title: GOTOP - C750
 sidebar_class_name: menu_item_tracker

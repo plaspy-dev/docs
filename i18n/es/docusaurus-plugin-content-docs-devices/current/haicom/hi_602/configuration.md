@@ -83,12 +83,12 @@ El HI-602 puede configurarse enviando mensajes SMS al dispositivo. El ejemplo p�
    - Propósito: configurar el APN de la red móvil y el usuario/contraseña opcional para GPRS
    - Formato del comando (reemplace los marcadores con los valores de su operador):
 ```text
-#0000,200,{{apn}},{{apnu}},{{apnp}}
+#0000,200,[apn],[apnu],[apnp]
 ```
    - Explicación de los marcadores:
-     - {{apn}} es el nombre del punto de acceso (APN) del operador de la SIM
-     - {{apnu}} es el usuario del APN si el operador lo exige; dejar vacío si no se usa
-     - {{apnp}} es la contraseña del APN si el operador la exige; dejar vacío si no se usa
+     - [apn] es el nombre del punto de acceso (APN) del operador de la SIM
+     - [apnu] es el usuario del APN si el operador lo exige; dejar vacío si no se usa
+     - [apnp] es la contraseña del APN si el operador la exige; dejar vacío si no se usa
 
 2. Establecer el servidor GPRS hacia Plaspy
    - Propósito: apuntar el dispositivo a la IP y puerto del servidor Plaspy para que los datos lleguen a la plataforma
@@ -113,7 +113,7 @@ Notas sobre estos comandos:
 - Revisiones de firmware y hardware pueden modificar el formato de los comandos o los parámetros disponibles; verifique los comandos con la documentación de firmware de su dispositivo.
 - Elija UDP o TCP según la fiabilidad de la red y el soporte del dispositivo; Plaspy acepta ambos transportes en el puerto 8888.
 - La configuración mediante SMS es una opción soportada y frecuentemente utilizada para la configuración inicial cuando no hay herramientas para PC.
-- Tenga listos los marcadores {{apn}}, {{apnu}} y {{apnp}} y confirme los valores exactos del operador antes de enviar comandos.
+- Tenga listos los marcadores [apn], [apnu] y [apnp] y confirme los valores exactos del operador antes de enviar comandos.
 - Recuerde que todos los dispositivos en Plaspy usan el mismo puerto y la plataforma detectará automáticamente el protocolo del dispositivo una vez que el rastreador se comunique con el servidor.
 
 ## Por qué usar Plaspy con esta configuración

@@ -93,9 +93,9 @@ pw,123456,imsi#
 
 - Set operator APN where the APN fields contain placeholders and xxxyy is MCC plus MNC
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explanation: {{apn}} is the APN name, {{apnu}} is APN username, {{apnp}} is APN password. Replace xxxyy with the mobile network code formed by MCC plus MNC, for example 310260 where 310 is MCC and 260 is MNC.
+Explanation: [apn] is the APN name, [apnu] is APN username, [apnp] is APN password. Replace xxxyy with the mobile network code formed by MCC plus MNC, for example 310260 where 310 is MCC and 260 is MNC.
 
 - Set the GPRS server to point to Plaspy by IP and port
 ```text

@@ -82,11 +82,11 @@ clear
 
 - Establecer el APN del operador
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
 Si su operador requiere usuario y contraseña APN, use la forma extendida:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}
+APN,[apn],[apnu],[apnp]
 ```
 - Establecer el servidor GPRS a Plaspy por IP y puerto
 ```text
@@ -102,9 +102,9 @@ C
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es el APN del operador móvil
-- {{apnu}} es el usuario APN si es requerido
-- {{apnp}} es la contraseña APN si es requerida
+- [apn] es el APN del operador móvil
+- [apnu] es el usuario APN si es requerido
+- [apnp] es la contraseña APN si es requerida
 
 Envíe cada comando como SMS individual desde el número de administrador del dispositivo según lo describe la documentación de ThinkRace. Aplique el restablecimiento de fábrica solo cuando sea necesario o como parte de una limpieza inicial de la configuración.
 

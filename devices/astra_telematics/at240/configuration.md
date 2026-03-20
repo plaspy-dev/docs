@@ -79,19 +79,19 @@ The AT240 is configured to report position and device data to the shared Plaspy 
 
 The AT240 supports SMS based configuration. Below are the public SMS commands provided in manufacturer guidance. Preserve the placeholders where shown.
 
-- Set the operator APN. Replace {{apn}} with your operator APN string.
+- Set the operator APN. Replace [apn] with your operator APN string.
 ```
-$APAD,{{apn}}
-```
-
-- Optionally set the APN username. Replace {{apnu}} with the APN username if required by your operator.
-```
-$APUN,{{apnu}}
+$APAD,[apn]
 ```
 
-- Optionally set the APN password. Replace {{apnp}} with the APN password if required.
+- Optionally set the APN username. Replace [apnu] with the APN username if required by your operator.
 ```
-$APPW,{{apnp}}
+$APUN,[apnu]
+```
+
+- Optionally set the APN password. Replace [apnp] with the APN password if required.
+```
+$APPW,[apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP. You may also use the domain d.plaspy.com in vendor tools if supported, but the public SMS command example uses the Plaspy IP.
@@ -115,7 +115,7 @@ Notes on the commands above:
 - Some vendor tools accept the domain d.plaspy.com directly; SMS commands commonly use the numeric server IP 54.85.159.138 as shown above.
 - Choose UDP or TCP based on installation guidance; Plaspy accepts both and automatically detects the protocol.
 - SMS based provisioning is supported by the public commands shown, but some installers prefer the vendor configuration software for bulk or remote provisioning.
-- Keep a record of the APN placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with the operator specific values for each SIM.
+- Keep a record of the APN placeholders [apn], [apnu], and [apnp] and replace them with the operator specific values for each SIM.
 
 ## Why Use Plaspy with This Configuration
 

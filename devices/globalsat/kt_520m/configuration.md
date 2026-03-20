@@ -82,13 +82,13 @@ TSPRXAB27GHKLMnaicz*U!
 
 - Primary setup command template
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 Explanation:
 - {{imei}} is the device IMEI number.
-- {{apn}} is the APN name for your cellular SIM.
-- {{apnu}} is the APN username placeholder if required by the operator.
-- {{apnp}} is the APN password placeholder if required by the operator.
+- [apn] is the APN name for your cellular SIM.
+- [apnu] is the APN username placeholder if required by the operator.
+- [apnp] is the APN password placeholder if required by the operator.
 - E0 sets the server IP to 54.85.159.138 and E1 sets the port to 8888 for Plaspy.
 - The command includes a checksum placeholder {{checksum}} that must be calculated as described below.
 

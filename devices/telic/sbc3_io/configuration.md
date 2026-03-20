@@ -73,7 +73,7 @@ The SBC3 IO is configured to send its location and IO data over GPRS to the Plas
 
 ## Example Configuration Commands
 
-The SBC3 IO can be configured via SMS commands. The following public commands are presented in the order recommended for initial setup. The example uses the default device password 123456 as shown in public Telic configuration examples. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator APN and credentials.
+The SBC3 IO can be configured via SMS commands. The following public commands are presented in the order recommended for initial setup. The example uses the default device password 123456 as shown in public Telic configuration examples. Replace placeholders such as [apn], [apnu], and [apnp] with your operator APN and credentials.
 
 1. Optional initial factory reset (use only if a full reset is required)
 ```text
@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-3. Set the operator APN (replace {{apn}} with your operator APN)
+3. Set the operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Set the APN username and password if required (replace placeholders as needed)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Set the GPRS server to Plaspy using the public server IP and port
@@ -119,9 +119,9 @@ check123456
 ```
 
 Notes on placeholders
-- {{apn}} is the operator access point name.
-- {{apnu}} is the APN username if provided by the mobile operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is the operator access point name.
+- [apnu] is the APN username if provided by the mobile operator.
+- [apnp] is the APN password if required by the operator.
 
 ## Configuration Notes
 

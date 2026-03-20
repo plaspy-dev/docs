@@ -1,6 +1,7 @@
 ---
 slug: /trackerking/ec35
 id: ec35
+sidebar_key: trackerkinec35_index_ec35
 sidebar_label: EC35
 title: TrackerKing - EC35
 sidebar_class_name: menu_item_tracker

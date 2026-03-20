@@ -76,9 +76,9 @@ The XT-007 commonly supports SMS based commands. The sample public commands belo
 
 - Notes on placeholders
   - {{imei}} means the device IMEI number, typically 15 digits
-  - {{apn}} is the mobile operator APN
-  - {{apnu}} is the APN username if required
-  - {{apnp}} is the APN password if required
+  - [apn] is the mobile operator APN
+  - [apnu] is the APN username if required
+  - [apnp] is the APN password if required
 
 1. Set the device ID or map the device IMEI (replace {{imei}} with the device IMEI)
 ```
@@ -87,11 +87,11 @@ M000000,22,{{imei}}
 
 2. Set the operator APN. If the APN requires username or password include them as shown. Replace placeholders accordingly.
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Or if username and password are required:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Set the update interval to 60 seconds

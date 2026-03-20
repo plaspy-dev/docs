@@ -90,18 +90,18 @@ TIMEZONE*123456*+00
 ```
 
 - Set the operator APN
-  - Replace {{apn}} with your mobile operator APN
+  - Replace [apn] with your mobile operator APN
 
 ```
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
 - Set APN username and password if required
-  - Replace {{apnu}} and {{apnp}} with your APN username and APN password
+  - Replace [apnu] and [apnp] with your APN username and APN password
   - Send only if your operator requires username and password
 
 ```
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP and port
@@ -118,9 +118,9 @@ KEEPONLINE*123456
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN string required for GPRS.
-- {{apnu}} is the APN username when the operator requires one.
-- {{apnp}} is the APN password when the operator requires one.
+- [apn] is the mobile operator APN string required for GPRS.
+- [apnu] is the APN username when the operator requires one.
+- [apnp] is the APN password when the operator requires one.
 
 If your installer prefers using the domain name instead of the IP and the device firmware supports it, enter d.plaspy.com in the IP or server field where allowed. Otherwise use the provided server IP and port.
 

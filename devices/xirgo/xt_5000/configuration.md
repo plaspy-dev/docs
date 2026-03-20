@@ -79,12 +79,12 @@ The XT-5000 can be configured using SMS commands. The following public commands 
 
 - Set the operator APN (replace placeholders with your operator values)
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explanation of placeholders:
-- {{apnu}} — APN username if required by the operator (leave empty if not used)
-- {{apnp}} — APN password if required by the operator (leave empty if not used)
-- {{apn}}  — APN name for the mobile operator
+- [apnu] — APN username if required by the operator (leave empty if not used)
+- [apnp] — APN password if required by the operator (leave empty if not used)
+- [apn]  — APN name for the mobile operator
 
 - Set the GPRS server to point to Plaspy (public command includes port and IP)
 ```text

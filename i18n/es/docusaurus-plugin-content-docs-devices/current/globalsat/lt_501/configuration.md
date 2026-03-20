@@ -82,14 +82,14 @@ Los siguientes comandos de ejemplo se extraen de formatos de comandos del fabric
 
 Notas sobre los marcadores de posición:
 - {{imei}} — Reemplace con el IMEI del dispositivo o el identificador.
-- {{apn}} — Nombre del punto de acceso (APN) para la red de datos móviles cuando sea necesario.
-- {{apnu}} — Usuario del APN si la red móvil lo requiere.
-- {{apnp}} — Contraseña del APN si la red móvil lo requiere.
+- [apn] — Nombre del punto de acceso (APN) para la red de datos móviles cuando sea necesario.
+- [apnu] — Usuario del APN si la red móvil lo requiere.
+- [apnp] — Contraseña del APN si la red móvil lo requiere.
 - {{checksum}} y {{checksumreeboot}} — Valores hexadecimales de checksum calculados sobre el cuerpo del comando como se describe a continuación.
 
 Comando para establecer el servidor del rastreador, APN y el endpoint Plaspy:
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Comando opcional de reinicio para aplicar ajustes (enviar después de la configuración si es necesario):
@@ -114,7 +114,7 @@ Conserve el orden de los comandos al enviarlos para la configuración inicial: a
 - Los comandos de ejemplo para el LT-501 mostrados arriba usan configuración basada en SMS tal como aparece en el ejemplo público del proveedor; si su unidad utiliza una herramienta de software o configuración por USB, siga ese método en su lugar.
 - Elija UDP o TCP según la capacidad del dispositivo y las condiciones de la red; Plaspy acepta ambos y detectará automáticamente el protocolo.
 - Plaspy utiliza el mismo puerto 8888 para todos los dispositivos compatibles; esto simplifica la configuración en instalaciones con múltiples rastreadores.
-- Si se requieren campos APN, incluya los valores correctos para {{apn}}, {{apnu}} y {{apnp}}; dejar estos campos vacíos o con datos incorrectos impedirá la conectividad celular donde aplique.
+- Si se requieren campos APN, incluya los valores correctos para [apn], [apnu] y [apnp]; dejar estos campos vacíos o con datos incorrectos impedirá la conectividad celular donde aplique.
 
 ## Por qué usar Plaspy con esta configuración
 

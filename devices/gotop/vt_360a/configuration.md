@@ -84,7 +84,7 @@ The VT-360A manufacturer may provide SMS or software commands to configure serve
 - Transport type UDP or TCP
 - APN and SIM related parameters when using GPRS
 
-If you have a list of public commands from the manufacturer, apply them in the order the manual specifies and retain any placeholders such as {{apn}}, {{apnu}}, or {{apnp}} when they are present.
+If you have a list of public commands from the manufacturer, apply them in the order the manual specifies and retain any placeholders such as [apn], [apnu], or [apnp] when they are present.
 
 ## Configuration Notes
 

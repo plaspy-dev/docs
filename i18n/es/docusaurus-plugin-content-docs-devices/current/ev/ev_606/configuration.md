@@ -81,12 +81,12 @@ El EV-606 puede configurarse por SMS usando la contraseña del dispositivo. A co
 
 - Configurar el APN del operador (reemplace los marcadores por los valores de su operador)
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
 Notas:
-- {{apn}} es el nombre del APN de su operador móvil.
-- {{apnu}} es el nombre de usuario del APN si su operador lo requiere; inclúyalo sólo si es necesario.
-- {{apnp}} es la contraseña del APN si su operador lo requiere; inclúyala sólo si es necesario.
+- [apn] es el nombre del APN de su operador móvil.
+- [apnu] es el nombre de usuario del APN si su operador lo requiere; inclúyalo sólo si es necesario.
+- [apnp] es la contraseña del APN si su operador lo requiere; inclúyala sólo si es necesario.
 - Algunos operadores no requieren apnu ni apnp; inclúyalos únicamente cuando correspondan.
 
 - Establecer la IP y puerto del servidor para reportar a Plaspy (puede requerir habilitación por parte del fabricante)

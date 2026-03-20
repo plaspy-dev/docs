@@ -86,17 +86,17 @@ Etiqueta: Reiniciar ajustes de fábrica (paso inicial opcional).
 2) Establecer APN del operador y servidor GPRS
 - Si el proveedor de SIM no requiere usuario o contraseña del APN, establezca la bandera de autenticación en 0:
 ```
-ST300NTW;{DEVICE_ID};02;0;{{apn}};;;54.85.159.138;8888;;;;
+ST300NTW;{DEVICE_ID};02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 - Si el proveedor de SIM requiere usuario o contraseña del APN, establezca la bandera de autenticación en 1 e incluya las credenciales:
 ```
-ST300NTW;{DEVICE_ID};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;{DEVICE_ID};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notas:
 - {DEVICE_ID} son los últimos 9 dígitos del IMEI excluyendo el dígito final.
-- {{apn}} es el marcador de posición para el APN del operador.
-- {{apnu}} es el marcador de posición para el nombre de usuario del APN.
-- {{apnp}} es el marcador de posición para la contraseña del APN.
+- [apn] es el marcador de posición para el APN del operador.
+- [apnu] es el marcador de posición para el nombre de usuario del APN.
+- [apnp] es el marcador de posición para la contraseña del APN.
 - Puede sustituir d.plaspy.com por 54.85.159.138 si el dispositivo acepta nombres de host.
 
 3) Establecer intervalo de actualización/reporte a 60 segundos (ejemplo de frecuencia de reporte):

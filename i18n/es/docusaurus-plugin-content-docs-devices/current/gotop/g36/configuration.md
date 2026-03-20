@@ -80,7 +80,7 @@ El G36 envía soluciones de posición derivadas de GNSS y mensajes de eventos au
 
 Los métodos de configuración del modelo G36 varían según el firmware GOTOP y la herramienta de configuración del fabricante. Debido a que existen múltiples interfaces de configuración soportadas según firmware y mercados, los comandos exactos o las cadenas SMS (cuando estén disponibles) son específicos del fabricante y pueden cambiar con el tiempo. Consulte la documentación de GOTOP o la utilidad de configuración que obtuvo de GOTOP para formatos y sintaxis exactos de los comandos.
 
-Si obtiene cadenas de comando públicas o patrones de configuración por SMS de GOTOP, colóquelos en la herramienta del dispositivo exactamente como los proporcione el fabricante y conserve cualquier marcador de posición como {{apn}} u otros campos de APN.
+Si obtiene cadenas de comando públicas o patrones de configuración por SMS de GOTOP, colóquelos en la herramienta del dispositivo exactamente como los proporcione el fabricante y conserve cualquier marcador de posición como [apn] u otros campos de APN.
 
 ## Notas de configuración
 

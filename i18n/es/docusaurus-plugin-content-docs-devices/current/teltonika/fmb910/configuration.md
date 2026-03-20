@@ -78,17 +78,17 @@ Si usa comandos SMS de Teltonika para la configuración, el comando de ejemplo q
 
 El siguiente comando es un ejemplo público de comando por lotes de parámetros usado para establecer valores de APN y los ajustes del servidor Plaspy en dispositivos Teltonika. Conserve y reemplace los marcadores de posición de APN con los valores proporcionados por su operador móvil.
 
-- Reemplace {{apn}} con el valor del APN de su tarjeta SIM.
-- Reemplace {{apnu}} con el nombre de usuario del APN si es necesario, de lo contrario déjelo en blanco.
-- Reemplace {{apnp}} con la contraseña del APN si es necesario, de lo contrario déjelo en blanco.
+- Reemplace [apn] con el valor del APN de su tarjeta SIM.
+- Reemplace [apnu] con el nombre de usuario del APN si es necesario, de lo contrario déjelo en blanco.
+- Reemplace [apnp] con la contraseña del APN si es necesario, de lo contrario déjelo en blanco.
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre este comando de ejemplo:
 - Este formato se usa comúnmente como comando SMS por lotes o mediante herramientas de configuración de Teltonika para establecer múltiples parámetros a la vez.
-- Los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} deben ser reemplazados por los valores de su operador.
+- Los marcadores de posición [apn], [apnu] y [apnp] deben ser reemplazados por los valores de su operador.
 - El segmento de parámetros que establece el servidor utiliza d.plaspy.com y el puerto 8888, tal como lo requiere Plaspy.
 - Para el significado de identificadores de parámetros específicos como 2006, consulte la referencia de parámetros oficial de Teltonika para su versión de firmware antes de cambiar valores.
 

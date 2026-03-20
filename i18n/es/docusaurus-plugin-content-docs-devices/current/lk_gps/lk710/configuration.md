@@ -79,7 +79,7 @@ El LK710 envía posiciones GPS y telemetría del dispositivo a través del enlac
 
 No se proporcionan comandos públicos específicos del LK710 en esta página. Los comandos exactos y la sintaxis varían según el firmware de LK-GPS, las herramientas del distribuidor y las versiones de los comandos SMS. Las herramientas típicas del fabricante le permiten ingresar el dominio o la IP del servidor y el puerto 8888 directamente, o bien puede enviar comandos SMS de configuración para establecer el servidor GPRS, el transporte y el APN. Consulte el manual oficial de configuración de LK-GPS o a su proveedor de dispositivos para el conjunto exacto de comandos y ejemplos.
 
-Al usar comandos SMS proporcionados por el fabricante, en general deberá apuntar el equipo a d.plaspy.com o 54.85.159.138 y establecer el puerto 8888. Conserve los valores de marcador de posición de los ejemplos del fabricante como {{apn}}, {{apnu}} o {{apnp}} y reemplácelos por los parámetros APN de su operador móvil según lo indique la documentación de LK-GPS.
+Al usar comandos SMS proporcionados por el fabricante, en general deberá apuntar el equipo a d.plaspy.com o 54.85.159.138 y establecer el puerto 8888. Conserve los valores de marcador de posición de los ejemplos del fabricante como [apn], [apnu] o [apnp] y reemplácelos por los parámetros APN de su operador móvil según lo indique la documentación de LK-GPS.
 
 ## Notas de configuración
 

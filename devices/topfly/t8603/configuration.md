@@ -46,7 +46,7 @@ The goal of this configuration is to prepare the T8603 to communicate reliably w
 
 - Power the device and ensure it is in a ready state for configuration.
 - Have an active SIM card installed with mobile data or SMS capability as supported by your workflow.
-- Know the mobile operator APN details for data connectivity; keep {{apn}}, {{apnu}}, and {{apnp}} placeholders available if using SMS configuration.
+- Know the mobile operator APN details for data connectivity; keep [apn], [apnu], and [apnp] placeholders available if using SMS configuration.
 - Access to the official manufacturer configuration method such as SMS commands or vendor tools.
 - A Plaspy account or access so you can confirm the device appears and sends data once configured.
 - A way to receive and confirm SMS replies from the tracker if using SMS-based setup.
@@ -82,12 +82,12 @@ GMT,0000,0#
 
 - Set the operator APN (replace placeholders with your operator values):
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
 Explanation of placeholders:
-- {{apn}} is the access point name for your mobile operator.
-- {{apnu}} is the APN username if required; leave blank or use 0 if not needed.
-- {{apnp}} is the APN password if required; leave blank or use 0 if not needed.
+- [apn] is the access point name for your mobile operator.
+- [apnu] is the APN username if required; leave blank or use 0 if not needed.
+- [apnp] is the APN password if required; leave blank or use 0 if not needed.
 
 - Set the GPRS server to Plaspy using the numeric IP and port 8888:
 ```
@@ -106,7 +106,7 @@ This TIMER command configures the periodic reporting interval; adjust the interv
 - SMS based setup is shown in the example commands and is commonly supported for basic field configuration on the T8603.
 - Firmware and hardware revisions can change command syntax or required parameters; always verify the command format for your device firmware.
 - When a device offers both UDP and TCP, choose the transport supported by your network and confirm connectivity; Plaspy accepts either transport on port 8888.
-- The APN placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your mobile operator values or left as simple placeholders per your operator instructions.
+- The APN placeholders [apn], [apnu], and [apnp] must be replaced with your mobile operator values or left as simple placeholders per your operator instructions.
 - Plaspy uses a single shared port for all supported devices and automatically detects the tracker protocol when data arrives.
 
 ## Why Use Plaspy with This Configuration

@@ -78,9 +78,9 @@ Public manufacturer content for the TR-520 shows SMS-based commands. The provide
 
 Notes on placeholders
 - {{imei}} — the device IMEI number used in the SMS command to target that specific tracker.
-- {{apn}} — the cellular APN string for your SIM operator.
-- {{apnu}} — APN username if required by the operator.
-- {{apnp}} — APN password if required by the operator.
+- [apn] — the cellular APN string for your SIM operator.
+- [apnu] — APN username if required by the operator.
+- [apnp] — APN password if required by the operator.
 - {{checksum}} and {{checksumreeboot}} — computed two character hexadecimal checksum values required by the device SMS protocol (see checksum explanation below).
 
 The SMS command format referenced by the manufacturer materials includes an example format string used by Plaspy:
@@ -88,7 +88,7 @@ TSPRXAB27GHKLMnaicz*U!
 
 Setup command (replace placeholders and compute checksum):
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Reboot command (optional or when required to apply settings):

@@ -1,6 +1,7 @@
 ---
 slug: /laipac/s911_lola_s
 id: s911_lola_s
+sidebar_key: laipas911_lola_s_index_s911_lola_s
 sidebar_label: S911 LOLA S
 title: Laipac - S911 LOLA S
 sidebar_class_name: menu_item_tracker

@@ -81,16 +81,16 @@ The TZ-AVL11 supports SMS based configuration. The following public commands are
 
 1. Set the operator APN
    - Use this command to set APN and optional APN user and APN password.
-   - {{apn}} is the operator APN string. {{apnu}} and {{apnp}} are optional APN username and APN password.
+   - [apn] is the operator APN string. [apnu] and [apnp] are optional APN username and APN password.
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
    - If you do not need APN username or password, send:
 
 ```
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 2. Set the update interval to 60 seconds
@@ -112,8 +112,8 @@ The TZ-AVL11 supports SMS based configuration. The following public commands are
 ```
 
 Notes on placeholders and defaults:
-- {{apn}} should be replaced with the mobile operator APN for the SIM in the device.
-- {{apnu}} and {{apnp}} are optional and should be included only if your operator requires them.
+- [apn] should be replaced with the mobile operator APN for the SIM in the device.
+- [apnu] and [apnp] are optional and should be included only if your operator requires them.
 - The leading numeric password 000000 in these example commands is the factory style password shown in the public command set. Confirm the correct password for your unit if it was changed.
 
 ## Configuration Notes

@@ -83,7 +83,7 @@ Use estas plantillas de SMS, reemplazando los marcadores según se indica a cont
 
 - APN y comando para fijar servidor
 ```text
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verificar ajustes GPRS actuales
@@ -93,9 +93,9 @@ Use estas plantillas de SMS, reemplazando los marcadores según se indica a cont
 
 Explicación de los marcadores:
 - {{SecretKey}} — la contraseña SMS del dispositivo, por defecto los últimos 6 caracteres ASCII del ID del dispositivo
-- {{apn}} — la cadena APN del operador celular
-- {{apnu}} — el nombre de usuario del APN si el operador lo requiere
-- {{apnp}} — la contraseña del APN si el operador lo requiere
+- [apn] — la cadena APN del operador celular
+- [apnu] — el nombre de usuario del APN si el operador lo requiere
+- [apnp] — la contraseña del APN si el operador lo requiere
 
 Envíe estos SMS al número telefónico del dispositivo PT-720. Si su dispositivo o firmware requiere seleccionar explícitamente UDP o TCP, utilice el método del fabricante para establecer el transporte además del servidor y el puerto.
 

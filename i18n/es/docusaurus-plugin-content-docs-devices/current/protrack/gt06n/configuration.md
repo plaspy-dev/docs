@@ -76,15 +76,15 @@ El GT06N se configura para enviar datos de ubicación y eventos al endpoint de P
 El GT06N soporta la configuración vía SMS. A continuación se muestran los comandos SMS que se usan comúnmente en el orden típico requerido para la configuración. Reemplace los marcadores según se indica.
 
 - Configure el APN del operador
-  - Use este comando para establecer el APN. Reemplace {{apn}} por el APN del operador. Si su APN requiere nombre de usuario y contraseña, incluya {{apnu}} y {{apnp}} donde se muestra.
+  - Use este comando para establecer el APN. Reemplace [apn] por el APN del operador. Si su APN requiere nombre de usuario y contraseña, incluya [apnu] y [apnp] donde se muestra.
   ```text
-  APN,{{apn}}# 
+  APN,[apn]# 
   ```
   o con nombre de usuario y contraseña:
   ```text
-  APN,{{apn}},{{apnu}},{{apnp}}#
+  APN,[apn],[apnu],[apnp]#
   ```
-  Explicación: {{apn}} = APN del operador, {{apnu}} = nombre de usuario del APN si se requiere, {{apnp}} = contraseña del APN si se requiere.
+  Explicación: [apn] = APN del operador, [apnu] = nombre de usuario del APN si se requiere, [apnp] = contraseña del APN si se requiere.
 
 - Configurar el servidor GPRS para reportar a Plaspy
   ```text

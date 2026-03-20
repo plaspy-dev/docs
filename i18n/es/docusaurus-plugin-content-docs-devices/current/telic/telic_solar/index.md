@@ -1,6 +1,7 @@
 ---
 slug: /telic/telic_solar
 id: telic_solar
+sidebar_key: telitelic_solar_index_telic_solar
 sidebar_label: Telic Solar
 title: Telic - Telic Solar
 sidebar_class_name: menu_item_tracker

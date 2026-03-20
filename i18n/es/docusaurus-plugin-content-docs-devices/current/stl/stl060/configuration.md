@@ -76,7 +76,7 @@ Al configurarse para Plaspy, el STL060 envía su posición y cualquier mensaje d
 
 ## Ejemplos de comandos de configuración
 
-El STL060 soporta configuración por SMS y herramientas del fabricante, y la sintaxis exacta de los comandos puede variar según el firmware y la versión. Dado que los formatos de comando del fabricante y los parámetros especiales cambian con el tiempo, siga el manual oficial del dispositivo o la herramienta de configuración para los comandos exactos. Si utiliza comandos SMS proporcionados por el vendedor, conserve cualquier marcador de posición que el fabricante use como {{apn}}, {{apnu}} o {{apnp}} cuando sea requerido, y reemplácelos por los datos APN de su SIM.
+El STL060 soporta configuración por SMS y herramientas del fabricante, y la sintaxis exacta de los comandos puede variar según el firmware y la versión. Dado que los formatos de comando del fabricante y los parámetros especiales cambian con el tiempo, siga el manual oficial del dispositivo o la herramienta de configuración para los comandos exactos. Si utiliza comandos SMS proporcionados por el vendedor, conserve cualquier marcador de posición que el fabricante use como [apn], [apnu] o [apnp] cuando sea requerido, y reemplácelos por los datos APN de su SIM.
 
 Para configuración por SMS los patrones pueden incluir enviar un comando de servidor y un comando de puerto y luego guardar o reiniciar. Use la documentación oficial del STL para las cadenas de texto exactas si SMS es su método elegido.
 

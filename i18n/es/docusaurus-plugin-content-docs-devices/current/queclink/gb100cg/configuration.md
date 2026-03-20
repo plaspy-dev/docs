@@ -78,9 +78,9 @@ Cuando se configura con los ajustes de Plaspy, el GB100CG reporta posición, tel
 El GB100CG puede configurarse usando comandos SMS con el formato que se muestra a continuación. Estos comandos se proporcionan como ejemplo público del contenido de configuración del dispositivo. La configuración de ejemplo usa la contraseña del dispositivo queclink como token de autenticación en cada comando donde es necesario.
 
 Nota sobre los marcadores de posición
-- {{apn}} = su APN del operador móvil
-- {{apnu}} = nombre de usuario del APN cuando el operador lo requiere
-- {{apnp}} = contraseña del APN cuando el operador lo requiere
+- [apn] = su APN del operador móvil
+- [apnu] = nombre de usuario del APN cuando el operador lo requiere
+- [apnp] = contraseña del APN cuando el operador lo requiere
 
 1. Paso inicial opcional para restaurar la configuración de fábrica
 ```text
@@ -95,9 +95,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Definir el APN del operador
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Reemplace los marcadores {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador. Si no se requiere nombre de usuario o contraseña, deje esos campos vacíos según lo permita el dispositivo.
+Reemplace los marcadores [apn], [apnu] y [apnp] con los valores de su operador. Si no se requiere nombre de usuario o contraseña, deje esos campos vacíos según lo permita el dispositivo.
 
 4. Configurar el servidor GPRS para apuntar a Plaspy
 ```text

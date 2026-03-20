@@ -93,11 +93,11 @@ W000000,010,12345678901234
 - Set the operator APN
   - Use your mobile operator APN. Optional APN username and password may be supplied if required by your operator. The placeholders below are preserved from the public guidance.
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-  - {{apn}} = operator APN
-  - {{apnu}} = APN username (optional)
-  - {{apnp}} = APN password (optional)
+  - [apn] = operator APN
+  - [apnu] = APN username (optional)
+  - [apnp] = APN password (optional)
 
 - Set the GPRS server to Plaspy (public IP and port shown)
 ```text

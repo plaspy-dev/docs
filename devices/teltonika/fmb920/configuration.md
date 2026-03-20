@@ -77,13 +77,13 @@ The public example command provided for basic parameter setup on Teltonika devic
 - Example SMS batch command (preserve placeholders):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the placeholders and fields in the command:
-- {{apn}} is the mobile network APN name required for data connection.  
-- {{apnu}} is the APN username placeholder where needed by your mobile operator.  
-- {{apnp}} is the APN password placeholder where needed by your mobile operator.  
+- [apn] is the mobile network APN name required for data connection.  
+- [apnu] is the APN username placeholder where needed by your mobile operator.  
+- [apnp] is the APN password placeholder where needed by your mobile operator.  
 - 2004 sets the server host to d.plaspy.com for Plaspy; you can substitute 54.85.159.138 if an IP is required by your tool or policy.  
 - 2005 sets the server port to 8888 which is the shared Plaspy port.  
 - 2006 is used in Teltonika parameter schemes to control transport or related options on some firmware versions; verify the exact numeric mapping in Teltonika documentation for your firmware.

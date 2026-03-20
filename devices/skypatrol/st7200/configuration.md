@@ -75,7 +75,7 @@ When configured for Plaspy, the ST7200 sends periodic location and status messag
 
 The exact configuration commands for the ST7200 depend on the SkyPatrol configuration tool or firmware interface. SkyPatrol provides vendor-specific methods such as a configuration utility, web interface, or installer tools; those vendor commands and message formats are not included here. Use the SkyPatrol method to set the server to d.plaspy.com or 54.85.159.138 and the port to 8888, and choose UDP or TCP as required.
 
-If you have raw command strings from SkyPatrol or a vendor configuration guide, include them in the order required by the vendor tool and preserve placeholders such as {{apn}} or {{apnu}} as they appear. When available, present those commands in fenced code blocks in your local documentation for clarity.
+If you have raw command strings from SkyPatrol or a vendor configuration guide, include them in the order required by the vendor tool and preserve placeholders such as [apn] or [apnu] as they appear. When available, present those commands in fenced code blocks in your local documentation for clarity.
 
 ## Configuration Notes
 

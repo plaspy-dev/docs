@@ -46,7 +46,7 @@ Esta configuración prepara el SIGNAL S-2115 para enviar datos de posición y de
 
 - Una unidad SIGNAL S-2115 con alimentación y acceso a su interfaz de configuración por SMS o a la herramienta del fabricante.  
 - Una tarjeta SIM con plan de datos activo y capacidad de SMS instalada en el equipo.  
-- El valor APN del operador móvil y, si aplica, usuario y contraseña del APN (aquí se muestran como {{apn}}, {{apnu}}, {{apnp}}).  
+- El valor APN del operador móvil y, si aplica, usuario y contraseña del APN (aquí se muestran como [apn], [apnu], [apnp]).  
 - Acceso para enviar SMS desde un teléfono o una herramienta de aprovisionamiento del fabricante según lo especifique NVS.  
 - Conocimiento de la contraseña por defecto del equipo (el ejemplo público usa la contraseña por defecto 123456) y la posibilidad de cambiarla si es necesario.  
 - Documentación del fabricante o notas de firmware por si la sintaxis de comandos varía según la revisión del firmware.
@@ -64,7 +64,7 @@ Una vez configurado, el SIGNAL S-2115 establece una sesión de datos GPRS con el
 ## Flujo típico de configuración
 
 1. Confirme que el equipo tiene alimentación, que la SIM funciona y tiene datos y SMS habilitados, y consulte el método oficial de configuración de NVS.  
-2. Usando las herramientas recomendadas por NVS o comandos SMS, establezca el APN del operador y las credenciales opcionales del APN (use los marcadores {{apn}}, {{apnu}}, {{apnp}} según corresponda).  
+2. Usando las herramientas recomendadas por NVS o comandos SMS, establezca el APN del operador y las credenciales opcionales del APN (use los marcadores [apn], [apnu], [apnp] según corresponda).  
 3. Ingrese el endpoint de Plaspy especificando d.plaspy.com o 54.85.159.138 en el equipo.  
 4. Configure el puerto 8888 en la página de configuración del rastreador o mediante SMS y seleccione UDP o TCP si el equipo requiere elegir el transporte.  
 5. Aplique o guarde la configuración en el rastreador y envíe los comandos necesarios para habilitar el modo de reporte GPRS.  
@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username and password if your operator requires them (replace placeholders as needed):
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the Plaspy IP and port 8888:
@@ -119,8 +119,8 @@ check123456
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es la cadena APN del operador móvil requerida para datos.  
-- {{apnu}} y {{apnp}} son el usuario y la contraseña del APN cuando el operador exige acceso con credenciales.
+- [apn] es la cadena APN del operador móvil requerida para datos.  
+- [apnu] y [apnp] son el usuario y la contraseña del APN cuando el operador exige acceso con credenciales.
 
 ## Observaciones de configuración
 

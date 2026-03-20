@@ -78,7 +78,7 @@ When configured to report to Plaspy, the JX01 sends periodic location updates an
 
 The JX01 can be configured using the manufacturer provided tools or companion app, and exact commands or SMS strings vary by firmware and regional model. Because manufacturer configuration methods differ, there are no universal public command lines to show here. In practice you will enter the Plaspy server values d.plaspy.com (or 54.85.159.138) and port 8888 in the TrackerKing configuration UI or vendor tool and choose UDP or TCP if prompted.
 
-If your device or vendor provides SMS or CLI commands for remote setup, look for commands that set the server domain or IP and port. Preserve any placeholders the manufacturer uses such as {{apn}} or {{apnu}} when present and replace them with your carrier APN details following the vendor documentation.
+If your device or vendor provides SMS or CLI commands for remote setup, look for commands that set the server domain or IP and port. Preserve any placeholders the manufacturer uses such as [apn] or [apnu] when present and replace them with your carrier APN details following the vendor documentation.
 
 ## Configuration Notes
 

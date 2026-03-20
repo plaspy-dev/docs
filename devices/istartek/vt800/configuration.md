@@ -87,12 +87,12 @@ GMT,E,0#
 
 3. Set the operator APN
 ```text
-APN,{{apn}}{{# if apnu or apnp }},{{apnu}},{{apnp}}{{/if}}#
+APN,[apn]{{# if apnu or apnp }},[apnu],[apnp]{{/if}}#
 ```
 - Explanation of placeholders
-  - {{apn}} is the mobile operator APN name required for data access
-  - {{apnu}} is the APN username when the operator requires it
-  - {{apnp}} is the APN password when the operator requires it
+  - [apn] is the mobile operator APN name required for data access
+  - [apnu] is the APN username when the operator requires it
+  - [apnp] is the APN password when the operator requires it
   - If your operator does not require username or password, omit the extra fields
 
 4. Set the GPRS server to use the Plaspy domain and port
@@ -123,7 +123,7 @@ Note: The order shown above follows the manufacturer guidance where server and A
 - Firmware and hardware revisions may change command syntax or available features; confirm exact commands for your device firmware
 - Choose UDP or TCP based on network and integration needs; Plaspy accepts both transports on port 8888
 - Plaspy uses the same port for all supported devices and automatically detects the tracker protocol so platform-side protocol configuration is usually not required
-- When using placeholders such as {{apn}}, provide only the values required by your mobile operator and verify connectivity before relying on live tracking
+- When using placeholders such as [apn], provide only the values required by your mobile operator and verify connectivity before relying on live tracking
 
 ## Why Use Plaspy with This Configuration
 

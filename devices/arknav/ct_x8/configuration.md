@@ -80,7 +80,7 @@ The CT-X8 transmits GPS positions and tamper events over cellular to the shared 
 
 The exact configuration commands depend on the ArkNav firmware and the configuration interface you use (for example manufacturer software, USB serial console, or SMS). Because commands vary by firmware and toolchain, the recommended approach is to use ArkNav's official configuration utility or the documented SMS/serial command set from the manufacturer. Typical actions you will perform with those tools include pointing the server to d.plaspy.com or 54.85.159.138 and setting port 8888 along with transport selection.
 
-If you have ArkNav provided command strings or an SMS command set from the device manual, apply them in the sequence ArkNav documents and preserve any placeholders the manufacturer provides when entering APN or credentials. For example, if a manufacturer SMS template uses placeholders such as {{apn}}, {{apnu}}, or {{apnp}}, keep those placeholders and replace them with your carrier APN settings when instructed by ArkNav documentation.
+If you have ArkNav provided command strings or an SMS command set from the device manual, apply them in the sequence ArkNav documents and preserve any placeholders the manufacturer provides when entering APN or credentials. For example, if a manufacturer SMS template uses placeholders such as [apn], [apnu], or [apnp], keep those placeholders and replace them with your carrier APN settings when instructed by ArkNav documentation.
 
 ## Configuration Notes
 

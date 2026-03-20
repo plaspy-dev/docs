@@ -89,14 +89,14 @@ Set the device time zone to UTC 0:
 time zone123456 0
 ```
 
-Set the operator APN (replace {{apn}} with your mobile operator APN):
+Set the operator APN (replace [apn] with your mobile operator APN):
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-Set APN username and password if required (replace {{apnu}} and {{apnp}} with APN credentials):
+Set APN username and password if required (replace [apnu] and [apnp] with APN credentials):
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 Set the GPRS server to the Plaspy IP and port (public Plaspy values shown):
@@ -114,7 +114,7 @@ Check current settings on the device:
 check123456
 ```
 
-Notes on placeholders: {{apn}} is the mobile operator APN. {{apnu}} and {{apnp}} are optional APN username and password fields used by some operators. Keep the device password (123456 in these examples) correct for your unit; if your unit uses a different password, substitute it in each command.
+Notes on placeholders: [apn] is the mobile operator APN. [apnu] and [apnp] are optional APN username and password fields used by some operators. Keep the device password (123456 in these examples) correct for your unit; if your unit uses a different password, substitute it in each command.
 
 ## Configuration Notes
 

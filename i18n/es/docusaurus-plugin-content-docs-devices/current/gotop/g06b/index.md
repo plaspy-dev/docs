@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g06b
 id: g06b
+sidebar_key: gotog06b_index_g06b
 sidebar_label: G06B
 title: GOTOP - G06B
 sidebar_class_name: menu_item_tracker

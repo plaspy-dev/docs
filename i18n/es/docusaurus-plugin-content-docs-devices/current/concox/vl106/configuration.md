@@ -87,11 +87,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} por el APN de su operador; incluya {{apnu}} y {{apnp}} si su operador requiere usuario y contraseña):
+- Establecer el APN del operador (reemplazar [apn] por el APN de su operador; incluya [apnu] y [apnp] si su operador requiere usuario y contraseña):
 ```text
-APN,{{apn}}{{# if apnu or apnp }},{{apnu}},{{apnp}}{{/ if }}#
+APN,[apn]{{# if apnu or apnp }},[apnu],[apnp]{{/ if }}#
 ```
-(Al usar la sintaxis de marcador de posición anterior, reemplace {{apn}} con el APN del operador. Si su operador requiere nombre de usuario o contraseña para el APN, utilice los marcadores {{apnu}} y {{apnp}}.)
+(Al usar la sintaxis de marcador de posición anterior, reemplace [apn] con el APN del operador. Si su operador requiere nombre de usuario o contraseña para el APN, utilice los marcadores [apnu] y [apnp].)
 
 - Establecer el servidor GPRS al dominio de Plaspy usando el puerto 8888:
 ```text
@@ -129,7 +129,7 @@ Use estos comandos en el orden mostrado cuando siga un flujo de configuración e
 - La configuración por SMS se proporciona arriba porque el VL106 admite comandos SMS; también pueden estar disponibles herramientas del fabricante que proporcionen una alternativa con interfaz gráfica.
 - Diferentes versiones de firmware o revisiones de hardware pueden aceptar una sintaxis de comando ligeramente distinta; confirme el conjunto exacto de comandos con la documentación de Concox para el firmware de su dispositivo.
 - Elija UDP o TCP según las necesidades de su instalación; Plaspy aceptará cualquiera en el puerto 8888 y detectará automáticamente el protocolo.
-- Mantenga los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} intactos cuando prepare los comandos y reemplace con las credenciales de su operador según se requiera.
+- Mantenga los marcadores de posición [apn], [apnu] y [apnp] intactos cuando prepare los comandos y reemplace con las credenciales de su operador según se requiera.
 - Plaspy utiliza el mismo puerto 8888 para todos los dispositivos soportados, por lo que la configuración de servidor y puerto es consistente entre tipos de dispositivo.
 
 ## Por qué usar Plaspy con esta configuración

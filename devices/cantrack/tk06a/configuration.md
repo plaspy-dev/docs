@@ -73,7 +73,7 @@ The TK06A sends GPS and device status data over the GSM network using GPRS to th
 
 ## Example Configuration Commands
 
-The TK06A can be configured via SMS commands according to public manufacturer examples. The commands below preserve the public placeholders and the default device password used in the sample. Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, APN username, and APN password as required.
+The TK06A can be configured via SMS commands according to public manufacturer examples. The commands below preserve the public placeholders and the default device password used in the sample. Replace [apn], [apnu], and [apnp] with your operator APN, APN username, and APN password as required.
 
 1. Restore factory settings (optional initial step)
 ```
@@ -87,11 +87,11 @@ The TK06A can be configured via SMS commands according to public manufacturer ex
 
 3. Set the operator APN (replace placeholders as needed)
 ```
-#apn#123456#{{apn}}#{{apnu}}#{{apnp}}#
+#apn#123456#[apn]#[apnu]#[apnp]#
 ```
-- {{apn}} = your mobile operator APN
-- {{apnu}} = APN username if required by the operator (leave blank if none)
-- {{apnp}} = APN password if required by the operator (leave blank if none)
+- [apn] = your mobile operator APN
+- [apnu] = APN username if required by the operator (leave blank if none)
+- [apnp] = APN password if required by the operator (leave blank if none)
 
 4. Set the GPRS server to Plaspy using the public server IP and port
 ```
@@ -111,7 +111,7 @@ Note: The sample commands use the device default password 123456 in public examp
 - Manufacturer firmware versions and hardware revisions can change command formats or available options; always confirm with the manufacturer documentation.
 - SMS based configuration is commonly supported by the TK06A public examples; vendor tools or configuration software may provide alternative workflows.
 - When configuring transport, UDP may be preferred for lower overhead while TCP can provide more reliable delivery on certain networks; choose according to network behavior.
-- Keep APN username and password placeholders {{apnu}} and {{apnp}} only if your operator requires them; otherwise omit or leave blank according to the device command format.
+- Keep APN username and password placeholders [apnu] and [apnp] only if your operator requires them; otherwise omit or leave blank according to the device command format.
 - Plaspy uses the same port across supported devices and automatically detects the tracker protocol, so point the device to d.plaspy.com or the server IP and port above.
 
 ## Why Use Plaspy with This Configuration

@@ -74,17 +74,17 @@ The JT707A is configured to send GNSS fixes and seal status updates to the Plasp
 
 The JT707A manufacturer documentation provides SMS commands to set the GPRS server and APN. Replace the placeholders before sending. Send these as SMS messages to the device using its configured phone number.
 
-1. Set the GPRS server and APN (replace {{trackerID}} and {{apn}}):
+1. Set the GPRS server and APN (replace {{trackerID}} and [apn]):
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
-- Explanation: {{trackerID}} is the device identifier required by the JT707A SMS command format. {{apn}} is the Access Point Name for the SIM operator.
+- Explanation: {{trackerID}} is the device identifier required by the JT707A SMS command format. [apn] is the Access Point Name for the SIM operator.
 
-2. (Optional) Set the APN user and password if your operator requires credentials (replace {{trackerID}}, {{apnu}}, and {{apnp}}):
+2. (Optional) Set the APN user and password if your operator requires credentials (replace {{trackerID}}, [apnu], and [apnp]):
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
-- Explanation: {{apnu}} is the APN username and {{apnp}} is the APN password. Omit this command if the APN does not require a username or password.
+- Explanation: [apnu] is the APN username and [apnp] is the APN password. Omit this command if the APN does not require a username or password.
 
 Note: The order above is important for typical setups—set the server and APN first, then provide APN credentials if needed. Manufacturer tools may offer equivalent fields in a GUI instead of SMS.
 

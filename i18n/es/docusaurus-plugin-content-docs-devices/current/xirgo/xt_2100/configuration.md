@@ -81,12 +81,12 @@ El XT-2100 puede configurarse por SMS usando los siguientes comandos públicos. 
 
 - Establecer el APN del operador. Reemplace los marcadores según sea necesario
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explicación de marcadores de posición
-- {{apn}} nombre del APN proporcionado por su operador móvil
-- {{apnu}} usuario del APN si el operador lo requiere, de lo contrario déjelo vacío o use el marcador que indique el proveedor
-- {{apnp}} contraseña del APN si el operador la requiere, de lo contrario déjelo vacío o use el marcador que indique el proveedor
+- [apn] nombre del APN proporcionado por su operador móvil
+- [apnu] usuario del APN si el operador lo requiere, de lo contrario déjelo vacío o use el marcador que indique el proveedor
+- [apnp] contraseña del APN si el operador la requiere, de lo contrario déjelo vacío o use el marcador que indique el proveedor
 
 - Establecer el servidor GPRS para apuntar el dispositivo a Plaspy en el puerto 8888
 ```text

@@ -1,6 +1,7 @@
 ---
 slug: /topfly/herox_100
 id: herox_100
+sidebar_key: topflherox_100_index_herox_100
 sidebar_label: HeroX 100
 title: TopFly - HeroX 100
 sidebar_class_name: menu_item_tracker

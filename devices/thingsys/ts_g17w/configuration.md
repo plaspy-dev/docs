@@ -81,19 +81,19 @@ FORMAT
 ```
 Note: FORMAT is provided in the sample as a factory reset command. Run this only if a full reset is necessary during initial setup.
 
-- Set the operator APN (replace {{apn}} with the carrier APN name):
+- Set the operator APN (replace [apn] with the carrier APN name):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username (replace {{apnu}} with the APN username if required):
+- Set the APN username (replace [apnu] with the APN username if required):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (replace {{apnp}} with the APN password if required):
+- Set the APN password (replace [apnp] with the APN password if required):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP and port:
@@ -106,7 +106,7 @@ Note: This command sets the tracker to report to the Plaspy server IP and port. 
 ```text
 CXZT
 ```
-Explanation of placeholders: {{apn}} is the mobile operator APN name; {{apnu}} is the APN username; {{apnp}} is the APN password. The sample commands reference the device password 123456 as the default where the vendor provided it; include the password prefix in SMS formats if the device requires authentication before accepting commands.
+Explanation of placeholders: [apn] is the mobile operator APN name; [apnu] is the APN username; [apnp] is the APN password. The sample commands reference the device password 123456 as the default where the vendor provided it; include the password prefix in SMS formats if the device requires authentication before accepting commands.
 
 ## Configuration Notes
 

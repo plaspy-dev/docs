@@ -84,12 +84,12 @@ El TA255 soporta comandos de configuración por SMS. Los comandos de ejemplo a c
 
 - Establecer el servidor GPRS a la IP de Plaspy y puerto 8888 con marcadores APN
   ```
-  0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+  0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
   ```
   Explicación de los marcadores
-  - {{apn}} es el nombre del APN de la red móvil requerido para datos GPRS
-  - {{apnu}} es el nombre de usuario del APN si el operador lo requiere
-  - {{apnp}} es la contraseña del APN si el operador la exige
+  - [apn] es el nombre del APN de la red móvil requerido para datos GPRS
+  - [apnu] es el nombre de usuario del APN si el operador lo requiere
+  - [apnp] es la contraseña del APN si el operador la exige
   Nota: apnu y apnp suelen ser opcionales y pueden omitirse si su proveedor de SIM no los requiere.
 
 - Establecer la zona horaria a UTC 0
@@ -114,7 +114,7 @@ Preserve el orden de los comandos cuando los aplique durante la configuración i
 - Las variantes de firmware y hardware regionales pueden cambiar los comandos SMS o el formato de parámetros disponibles; siempre consulte las notas de la versión de Meitrack para su variante TA255.
 - El TA255 soporta configuración por SMS como se muestra, pero muchos instaladores prefieren las herramientas de software de Meitrack para aprovisionamiento masivo y flujos FOTA.
 - Cuando un dispositivo exige elegir el tipo de transporte, pruebe tanto UDP como TCP si surgen problemas de conectividad; Plaspy soporta ambos transportes en el puerto 8888.
-- Los marcadores APN {{apn}}, {{apnu}} y {{apnp}} deben completarse con los valores proporcionados por su operador móvil. Usuario y contraseña suelen ser opcionales.
+- Los marcadores APN [apn], [apnu] y [apnp] deben completarse con los valores proporcionados por su operador móvil. Usuario y contraseña suelen ser opcionales.
 - Si cambia la contraseña del equipo desde el valor por defecto 0000, actualice sus registros de aprovisionamiento y use la nueva contraseña en comandos SMS posteriores.
 
 ## Por qué usar Plaspy con esta configuración

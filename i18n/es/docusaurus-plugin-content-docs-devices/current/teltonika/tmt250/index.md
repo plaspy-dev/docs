@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/tmt250
 id: tmt250
+sidebar_key: teltoniktmt250_index_tmt250
 sidebar_label: TMT250
 title: Teltonika - TMT250
 sidebar_class_name: menu_item_tracker

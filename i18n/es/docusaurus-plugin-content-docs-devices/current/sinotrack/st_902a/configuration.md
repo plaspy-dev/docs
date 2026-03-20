@@ -89,12 +89,12 @@ RESET
 
 - Configurar el APN del operador. Reemplace los marcadores de posición con los valores del operador:
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 Explicación de los marcadores:
-- {{apn}} es el nombre del APN proporcionado por el operador móvil.
-- {{apnu}} es el nombre de usuario del APN si es requerido, de lo contrario dejar en blanco.
-- {{apnp}} es la contraseña del APN si es requerida, de lo contrario dejar en blanco.
+- [apn] es el nombre del APN proporcionado por el operador móvil.
+- [apnu] es el nombre de usuario del APN si es requerido, de lo contrario dejar en blanco.
+- [apnp] es la contraseña del APN si es requerida, de lo contrario dejar en blanco.
 
 - Configurar el servidor GPRS para apuntar el rastreador a Plaspy por IP y puerto:
 ```text

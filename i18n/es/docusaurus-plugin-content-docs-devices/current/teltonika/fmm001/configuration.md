@@ -76,12 +76,12 @@ Una vez configurado, el FMM001 envía ubicación, eventos y estado del dispositi
 Para establecer los parámetros básicos en su equipo Teltonika, envíe el siguiente comando SMS o ingréselo en el terminal en el formato soportado por el fabricante. Este comando público define valores de APN y apunta el dispositivo a Plaspy.
 
 - Explicación de los marcadores
-  - {{apn}} = el APN de datos de su SIM
-  - {{apnu}} = usuario APN si su operador lo requiere
-  - {{apnp}} = contraseña APN si su operador la requiere
+  - [apn] = el APN de datos de su SIM
+  - [apnu] = usuario APN si su operador lo requiere
+  - [apnp] = contraseña APN si su operador la requiere
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Notas sobre el comando de ejemplo

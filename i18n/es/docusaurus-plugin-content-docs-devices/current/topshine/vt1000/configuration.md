@@ -95,16 +95,16 @@ W000000,010,{{device_id14}}
 - Establecer el APN del operador
   - Si sólo se requiere un APN:
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
   - Si se requiere usuario y contraseña del APN, incluya estos marcadores:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
   - Explicación de los marcadores:
-    - {{apn}} = APN de datos celulares del operador de la SIM
-    - {{apnu}} = usuario del APN si es requerido
-    - {{apnp}} = contraseña del APN si es requerida
+    - [apn] = APN de datos celulares del operador de la SIM
+    - [apnu] = usuario del APN si es requerido
+    - [apnp] = contraseña del APN si es requerida
 
 - Establecer el servidor GPRS y el puerto apuntando a Plaspy
 ```text

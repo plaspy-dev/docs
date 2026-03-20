@@ -82,7 +82,7 @@ Siga esta secuencia práctica al comisionar un V55 para Plaspy. Los pasos exacto
 
 El V55 puede configurarse usando las herramientas Reachfar o el conjunto de comandos del proveedor. Los comandos exactos y la sintaxis varían según el firmware y la utilidad del fabricante; Reachfar proporciona la documentación definitiva de comandos. Dado que los comandos y utilidades del fabricante difieren entre versiones de firmware, consulte el manual del V55 o la guía de configuración de Reachfar para cadenas de comandos y ejemplos exactos.
 
-Si utiliza SMS o una herramienta de configuración del fabricante, siga los ejemplos oficiales de Reachfar para establecer servidor, puerto, transporte y valores de APN. Conserve marcadores de posición como {{apn}} o similares según sea necesario y sustituya por el APN, usuario y contraseña de su operador cuando proceda.
+Si utiliza SMS o una herramienta de configuración del fabricante, siga los ejemplos oficiales de Reachfar para establecer servidor, puerto, transporte y valores de APN. Conserve marcadores de posición como [apn] o similares según sea necesario y sustituya por el APN, usuario y contraseña de su operador cuando proceda.
 
 ## Notas de configuración
 

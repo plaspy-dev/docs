@@ -73,7 +73,7 @@ Una vez configurado, el BN-303G envía mensajes de ubicación y eventos al endpo
 
 ## Ejemplos de comandos de configuración
 
-La documentación pública del BN-303G proporciona comandos SMS para la configuración básica. Los comandos de ejemplo abajo usan la contraseña del dispositivo 123456 tal como aparece en la guía pública. Reemplace {{apn}}, {{apnu}} y {{apnp}} con el APN, el usuario APN y la contraseña APN de su operador móvil respectivamente.
+La documentación pública del BN-303G proporciona comandos SMS para la configuración básica. Los comandos de ejemplo abajo usan la contraseña del dispositivo 123456 tal como aparece en la guía pública. Reemplace [apn], [apnu] y [apnp] con el APN, el usuario APN y la contraseña APN de su operador móvil respectivamente.
 
 - Reset opcional a configuración de fábrica (usar solo si necesita devolver el dispositivo a valores de fábrica):
 ```
@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-- Configurar el APN del operador (reemplace {{apn}} con el APN de su operador):
+- Configurar el APN del operador (reemplace [apn] con el APN de su operador):
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Configurar usuario y contraseña del APN (reemplace {{apnu}} y {{apnp}} con las credenciales del APN o deje en blanco si no son requeridas):
+- Configurar usuario y contraseña del APN (reemplace [apnu] y [apnp] con las credenciales del APN o deje en blanco si no son requeridas):
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Apuntar el servidor GPRS a Plaspy usando la IP numérica y el puerto (este comando apunta el dispositivo a Plaspy):
@@ -125,9 +125,9 @@ protocol123456 18
 ```
 
 Notas sobre los marcadores y la contraseña:
-- {{apn}} es la cadena APN del operador móvil requerida para datos GPRS.
-- {{apnu}} es el usuario del APN si su operador lo exige; use un valor vacío si no es necesario.
-- {{apnp}} es la contraseña del APN si su operador la solicita.
+- [apn] es la cadena APN del operador móvil requerida para datos GPRS.
+- [apnu] es el usuario del APN si su operador lo exige; use un valor vacío si no es necesario.
+- [apnp] es la contraseña del APN si su operador la solicita.
 - Los comandos SMS de ejemplo usan la contraseña 123456 según los ejemplos públicos del fabricante. Si su dispositivo tiene otra contraseña o ésta ha sido cambiada, use la contraseña actual.
 
 ## Notas de configuración

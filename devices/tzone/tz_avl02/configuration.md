@@ -76,21 +76,21 @@ The TZ-AVL02 is configured to initiate a GPRS connection and send its telemetry 
 
 The TZ-AVL02 manufacturer provides SMS based commands to configure the tracker. Send these commands as SMS messages from an allowed phone number to the device. Preserve placeholders when replacing values.
 
-1. Set the operator APN. Replace {{apn}} with your operator APN. If your APN requires username and password include {{apnu}} and {{apnp}} as shown.
+1. Set the operator APN. Replace [apn] with your operator APN. If your APN requires username and password include [apnu] and [apnp] as shown.
 
 ```
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 Or include APN username and password if required:
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
-- {{apn}} is the mobile operator APN string.
-- {{apnu}} is the APN username if the operator requires it.
-- {{apnp}} is the APN password if the operator requires it.
+- [apn] is the mobile operator APN string.
+- [apnu] is the APN username if the operator requires it.
+- [apnp] is the APN password if the operator requires it.
 
 2. Set the update interval to 60 seconds. This configures periodic reporting.
 

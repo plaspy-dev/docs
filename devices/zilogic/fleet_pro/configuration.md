@@ -83,12 +83,12 @@ SET TZ +00:00
 
 - Set the operator APN using placeholders. Replace the placeholders with your operator values:
 ```
-SET APN {{apn}},{{apnu}},{{apnp}}
+SET APN [apn],[apnu],[apnp]
 ```
 Explanation of placeholders:
-- {{apn}} = APN name provided by your mobile operator
-- {{apnu}} = APN username if required by the operator (leave blank if not used)
-- {{apnp}} = APN password if required by the operator (leave blank if not used)
+- [apn] = APN name provided by your mobile operator
+- [apnu] = APN username if required by the operator (leave blank if not used)
+- [apnp] = APN password if required by the operator (leave blank if not used)
 
 - Set the GPRS server to the Plaspy endpoint using the public IP and port:
 ```
@@ -134,7 +134,7 @@ These commands are the public, manufacturer-provided SMS commands commonly used 
 - The Fleet Pro supports both SMS and GPRS configuration methods in public documentation; use SMS when remote or when a configuration tool is not available.
 - Choose TCP or UDP transport based on network reliability and your operational needs; Plaspy supports both and detects protocol automatically.
 - Use the domain d.plaspy.com or the IP 54.85.159.138 with port 8888; Plaspy uses the same port for all supported devices to simplify configuration.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} ready before sending commands so you can set operator credentials accurately.
+- Keep APN placeholders [apn], [apnu], and [apnp] ready before sending commands so you can set operator credentials accurately.
 
 ## Why Use Plaspy with This Configuration
 

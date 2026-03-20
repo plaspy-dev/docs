@@ -46,7 +46,7 @@ Este proceso prepara al V-SUN V-680 para comunicarse con Plaspy actualizando los
 
 - Una tarjeta SIM activa con datos habilitados y capacidad de SMS colocada en el V-680
 - Alimentación del dispositivo y acceso al número del rastreador para la configuración por SMS
-- Conocimiento del APN del operador móvil; en la guía se usan los marcadores {{apn}}, {{apnu}} y {{apnp}}
+- Conocimiento del APN del operador móvil; en la guía se usan los marcadores [apn], [apnu] y [apnp]
 - Acceso al método de configuración por SMS del fabricante o a la herramienta oficial de configuración
 - La contraseña del dispositivo si se ha cambiado respecto al valor por defecto 0000
 
@@ -78,9 +78,9 @@ El V-680 soporta configuración mediante SMS. Los comandos de ejemplo públicos 
 ```
 *RESET#0000##
 ```
-2. Configure el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su APN requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} respectivamente. Los segmentos con marcadores son opcionales según el operador.
+2. Configure el APN del operador. Reemplace [apn] por el APN de su operador. Si su APN requiere usuario o contraseña, incluya [apnu] y [apnp] respectivamente. Los segmentos con marcadores son opcionales según el operador.
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}#
+#803#0000#[apn]#[apnu]#[apnp]#
 ```
 3. Configure el servidor GPRS usando la IP y el puerto de Plaspy. Este comando usa la IP 54.85.159.138 y el puerto 8888 mostrados en esta guía.
 ```
@@ -104,8 +104,8 @@ El V-680 soporta configuración mediante SMS. Los comandos de ejemplo públicos 
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es el Access Point Name del operador móvil necesario para datos GPRS.
-- {{apnu}} y {{apnp}} son el usuario y la contraseña del APN, opcionales si su operador los requiere.
+- [apn] es el Access Point Name del operador móvil necesario para datos GPRS.
+- [apnu] y [apnp] son el usuario y la contraseña del APN, opcionales si su operador los requiere.
 - Reemplace la contraseña por defecto 0000 si la contraseña del dispositivo ha sido cambiada.
 
 ## Notas de configuración

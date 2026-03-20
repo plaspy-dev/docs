@@ -1,6 +1,7 @@
 ---
 slug: /istartek/vt800
 id: vt800
+sidebar_key: istartevt800_index_vt800
 sidebar_label: VT800
 title: iStartek - VT800
 sidebar_class_name: menu_item_tracker

@@ -90,15 +90,15 @@ time zone123456 0
 
 3. Set the operator APN
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} is a placeholder for your mobile operator APN string.
+- [apn] is a placeholder for your mobile operator APN string.
 
 4. Set the APN username and password
 ```sms
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-- {{apnu}} is the APN username placeholder and {{apnp}} is the APN password placeholder. If your operator does not require credentials, these can often be left empty.
+- [apnu] is the APN username placeholder and [apnp] is the APN password placeholder. If your operator does not require credentials, these can often be left empty.
 
 5. Set the GPRS server to the Plaspy IP and port
 ```sms

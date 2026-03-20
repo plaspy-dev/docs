@@ -87,9 +87,9 @@ GMT,E,0#
 
 - Set the operator APN. Replace the placeholders with your operator values:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the operator access point name. {{apnu}} and {{apnp}} are optional APN username and password placeholders; include them only if your operator requires them.
+Note: [apn] is the operator access point name. [apnu] and [apnp] are optional APN username and password placeholders; include them only if your operator requires them.
 
 - Set the GPRS server by domain and port (preferred human readable option):
 ```text

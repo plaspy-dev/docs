@@ -85,7 +85,7 @@ Siga estos pasos públicos y prácticos para configurar el G02-4G y que reporte 
 
 El G02-4G puede configurarse con herramientas del proveedor, comandos SMS o una aplicación de configuración suministrada por GOTOP. Los comandos exactos y la sintaxis varían según el firmware y la herramienta. Dado que los conjuntos de comandos del fabricante difieren entre revisiones de firmware y utilidades del proveedor, consulte la guía de configuración oficial de GOTOP para ejemplos precisos de comandos.
 
-Si dispone de comandos SMS o de consola específicos publicados por el fabricante, aplíquelos respetando el orden y la sintaxis indicados por GOTOP y reemplace cualquier marcador de posición como {{apn}} por los valores APN de su operador móvil. Mantenga la documentación del fabricante a mano para confirmar la redacción exacta de los comandos según el firmware del dispositivo.
+Si dispone de comandos SMS o de consola específicos publicados por el fabricante, aplíquelos respetando el orden y la sintaxis indicados por GOTOP y reemplace cualquier marcador de posición como [apn] por los valores APN de su operador móvil. Mantenga la documentación del fabricante a mano para confirmar la redacción exacta de los comandos según el firmware del dispositivo.
 
 ## Notas de configuración
 

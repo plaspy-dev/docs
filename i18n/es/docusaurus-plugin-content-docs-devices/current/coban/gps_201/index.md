@@ -1,6 +1,7 @@
 ---
 slug: /coban/gps_201
 id: gps_201
+sidebar_key: cobagps_201_index_gps_201
 sidebar_label: GPS-201
 title: Coban - GPS-201
 sidebar_class_name: menu_item_tracker

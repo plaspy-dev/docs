@@ -80,13 +80,13 @@ The FM 2100 supports SMS batch commands for basic parameter configuration. The f
 - Batch command example (preserve placeholders when replacing with your values):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders and fields in the command example:
-  - {{apn}} is the mobile network APN required for data connectivity.
-  - {{apnu}} is the APN username if your operator requires one, otherwise leave empty.
-  - {{apnp}} is the APN password if required by the operator.
+  - [apn] is the mobile network APN required for data connectivity.
+  - [apnu] is the APN username if your operator requires one, otherwise leave empty.
+  - [apnp] is the APN password if required by the operator.
   - 2004 is set to d.plaspy.com to point the tracker at the Plaspy server domain.
   - 2005 is set to 8888 which is the shared Plaspy port used by all devices.
   - 2006 is included in the batch to set a transport related flag in the device batch sequence; consult Teltonika documentation for the exact meaning of its possible values.

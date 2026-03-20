@@ -75,12 +75,12 @@ The PT-719 is configured to report its location and status to the shared Plaspy 
 
 ## Example Configuration Commands
 
-The PT-719 supports SMS configuration. The manufacturer provides the following SMS-based commands for GPRS and server setup. The default secret key for SMS instructions is the last 6 ASCII characters of the device ID. Keep placeholders such as {{apn}}, {{apnu}}, {{apnp}}, and {{SecretKey}} as shown and replace them with your actual values.
+The PT-719 supports SMS configuration. The manufacturer provides the following SMS-based commands for GPRS and server setup. The default secret key for SMS instructions is the last 6 ASCII characters of the device ID. Keep placeholders such as [apn], [apnu], [apnp], and {{SecretKey}} as shown and replace them with your actual values.
 
 - To set APN and server IP with port 8888 (replace placeholders and preserve order):
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - To check the current GPRS settings on the device:
@@ -91,9 +91,9 @@ The PT-719 supports SMS configuration. The manufacturer provides the following S
 
 Notes on placeholders:
 - {{SecretKey}} — default SMS key is the last 6 ASCII characters of the device ID unless changed.
-- {{apn}} — the APN string for your mobile carrier.
-- {{apnu}} — the APN username if required by the carrier, otherwise leave empty.
-- {{apnp}} — the APN password if required by the carrier, otherwise leave empty.
+- [apn] — the APN string for your mobile carrier.
+- [apnu] — the APN username if required by the carrier, otherwise leave empty.
+- [apnp] — the APN password if required by the carrier, otherwise leave empty.
 
 If the PT-719 firmware or your installer tool supports entering a server domain instead of IP, you may use d.plaspy.com in place of the IP address where applicable. Some manufacturer tools accept the domain directly while SMS commands may require the IP address.
 

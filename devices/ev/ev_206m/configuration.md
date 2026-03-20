@@ -85,13 +85,13 @@ The EV public documentation for the EV-206M provides SMS style commands used to 
 - Set the operator APN
   - Basic APN only
 ```text
-123456S1,{{apn}}
+123456S1,[apn]
 ```
   - APN with username and password placeholders
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-  - Explanation: keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN, APN username, and APN password as required
+  - Explanation: keep the placeholders [apn], [apnu], and [apnp] and replace them with your operator APN, APN username, and APN password as required
 
 - Set the server IP and port
   - The public command sample requires the manufacturer to enable the option to change server on some units

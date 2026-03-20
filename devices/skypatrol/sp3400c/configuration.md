@@ -79,7 +79,7 @@ When configured for Plaspy, the SP3400C sends its location and event data to the
 
 The SP3400C supports multiple configuration methods depending on firmware and installer tools. Exact command formats and SMS strings are manufacturer specific and can vary by firmware version and vendor tool. Because those commands are provided by SkyPatrol documentation or installer interfaces, consult the official SkyPatrol configuration guide for the exact SMS or serial commands needed to set server, port, and transport. When using a configuration tool, enter d.plaspy.com or 54.85.159.138 and port 8888 and select UDP or TCP as appropriate, then apply and reboot the device if required.
 
-If your installation tool or firmware uses placeholders for APN or credentials you may see variables such as {{apn}} or {{apnu}} in manufacturer examples. Keep these placeholders intact and replace them with your operator values as instructed by SkyPatrol documentation.
+If your installation tool or firmware uses placeholders for APN or credentials you may see variables such as [apn] or [apnu] in manufacturer examples. Keep these placeholders intact and replace them with your operator values as instructed by SkyPatrol documentation.
 
 ## Configuration Notes
 

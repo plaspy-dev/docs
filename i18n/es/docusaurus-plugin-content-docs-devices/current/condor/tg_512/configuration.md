@@ -51,7 +51,7 @@ Use exactamente estos valores al configurar la entrada de servidor en el TG-512 
 - Una unidad TG-512 con alimentación y funcional, con una tarjeta SIM válida y un plan de datos activo para comunicación GPRS.
 - La SIM debe permitir el envío de SMS si va a usar comandos SMS, y debe permitir datos GPRS para el envío de telemetría.
 - Tener a mano el número IMEI del dispositivo para identificación y alias durante la configuración.
-- Valores APN del operador móvil, incluyendo {{apn}} y opcionalmente {{apnu}} y {{apnp}} cuando el operador los requiera.
+- Valores APN del operador móvil, incluyendo [apn] y opcionalmente [apnu] y [apnp] cuando el operador los requiera.
 - Acceso al método de configuración oficial de Condor, como comandos SMS o la herramienta del proveedor recomendada para su versión de firmware.
 - Documentación del fabricante y notas de firmware para confirmar la sintaxis de los comandos y cualquier matiz específico del dispositivo.
 
@@ -71,7 +71,7 @@ Una vez configurado, el TG-512 envía fijaciones GNSS y telemetría a través de
 2. Ingrese el servidor de Plaspy usando el dominio d.plaspy.com o la IP 54.85.159.138 en el campo de configuración del servidor del dispositivo.
 3. Establezca el puerto en 8888. Todos los dispositivos en Plaspy usan el mismo puerto, por lo que utilice 8888 para los reportes del TG-512.
 4. Elija UDP o TCP como transporte si el TG-512 requiere selección de transporte al configurar el servidor.
-5. Configure el APN y cualquier credencial del APN para su SIM usando los valores del operador (se pueden usar marcadores de posición como {{apn}} en los comandos).
+5. Configure el APN y cualquier credencial del APN para su SIM usando los valores del operador (se pueden usar marcadores de posición como [apn] en los comandos).
 6. Aplique o guarde la configuración y reinicie el dispositivo si este requiere reboot para que los cambios surtan efecto.
 7. Valide el dispositivo usando el comando de verificación y confirme que el tracker aparece y reporta en Plaspy.
 
@@ -79,10 +79,10 @@ Una vez configurado, el TG-512 envía fijaciones GNSS y telemetría a través de
 
 El TG-512 puede configurarse mediante comandos SMS. Los siguientes ejemplos se toman del formato público de configuración suministrado para el dispositivo. La contraseña de ejemplo mostrada aquí es 0000, que es la predeterminada en los ejemplos públicos. Reemplace los marcadores y la contraseña según corresponda para su dispositivo y políticas de seguridad.
 
-- Establecer el APN del operador. Reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador según sea necesario. Los campos de usuario y contraseña del APN son opcionales dependiendo del operador.
+- Establecer el APN del operador. Reemplace [apn], [apnu] y [apnp] con los valores de su operador según sea necesario. Los campos de usuario y contraseña del APN son opcionales dependiendo del operador.
 
 ```
-APN,0000,{{apn}}{{,{{apnu}},{{apnp}}}}
+APN,0000,[apn]{{,[apnu],[apnp]}}
 ```
 
 - Establecer un identificador de 5 dígitos (alias) usando los últimos 5 dígitos del IMEI. Reemplace IMEI_LAST5 por los últimos cinco dígitos del IMEI del dispositivo.
@@ -122,8 +122,8 @@ CONEXION,0000#
 ```
 
 Notas sobre los marcadores y valores:
-- {{apn}} es la cadena APN de la operadora móvil requerida para datos en la SIM.
-- {{apnu}} y {{apnp}} son marcadores opcionales de usuario y contraseña del APN usados por algunos operadores.
+- [apn] es la cadena APN de la operadora móvil requerida para datos en la SIM.
+- [apnu] y [apnp] son marcadores opcionales de usuario y contraseña del APN usados por algunos operadores.
 - La contraseña de ejemplo 0000 aparece en los ejemplos públicos. Si su dispositivo usa una contraseña distinta, reemplace 0000 por la contraseña real del dispositivo.
 - El comando SERVIDOR del ejemplo usa 54.85.159.138 y el puerto 8888, que son los ajustes públicos de Plaspy. El carácter U en el ejemplo indica la bandera de transporte usada en la sintaxis del comando; confirme la correspondencia de letras de transporte con el manual del dispositivo si es necesario.
 

@@ -81,13 +81,13 @@ TSPRXAB27GHKLMnaicz*U!
 1) Setup command to configure APN and Plaspy server (replace placeholders and append correct checksum):
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - {{imei}} — replace with the device IMEI number.
-- {{apn}} — replace with the cellular APN name for the SIM operator.
-- {{apnu}} — replace with the APN username if required by the operator or leave empty if not used.
-- {{apnp}} — replace with the APN password if required or leave empty if not used.
+- [apn] — replace with the cellular APN name for the SIM operator.
+- [apnu] — replace with the APN username if required by the operator or leave empty if not used.
+- [apnp] — replace with the APN password if required or leave empty if not used.
 - {{checksum}} — two digit uppercase hexadecimal XOR checksum of the command string prior to the asterisk. The manufacturer public example computes the checksum by XORing each character code in the command portion and converting the result to two digit uppercase hex.
 
 2) Optional reboot command to apply settings:

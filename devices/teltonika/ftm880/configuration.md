@@ -77,16 +77,16 @@ The FTM880 sends location and available telemetry to the shared Plaspy server en
 The following example is a Teltonika SMS batch command format commonly used to write basic parameters. Preserve the placeholders and replace them with your operator and account values before sending.
 
 - Purpose: set APN, APN username, APN password, Plaspy server domain, Plaspy port, and transport selection.
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with your carrier APN, APN username, and APN password respectively.
+- Replace [apn], [apnu], and [apnp] with your carrier APN, APN username, and APN password respectively.
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and fields:
-- {{apn}} = your mobile network APN.  
-- {{apnu}} = APN username if required by your operator, otherwise leave empty.  
-- {{apnp}} = APN password if required by your operator, otherwise leave empty.  
+- [apn] = your mobile network APN.  
+- [apnu] = APN username if required by your operator, otherwise leave empty.  
+- [apnp] = APN password if required by your operator, otherwise leave empty.  
 - 2004 in this command sets the Plaspy server address to d.plaspy.com.  
 - 2005 sets the port to 8888 used by Plaspy.  
 - 2006 is used here to indicate a transport selection where applicable; consult Teltonika parameter documentation for the correct value for UDP or TCP on your firmware.

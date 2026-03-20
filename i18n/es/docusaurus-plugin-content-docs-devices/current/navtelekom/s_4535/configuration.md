@@ -86,7 +86,7 @@ Si utiliza una herramienta del fabricante, normalmente presentará campos para d
 
 - Las diferencias de firmware pueden cambiar las etiquetas de los menús, la sintaxis de comandos o las opciones de transporte disponibles; verifique la versión de firmware del dispositivo antes de aplicar instrucciones.
 - Elija UDP o TCP según la guía del fabricante y el rendimiento de la red; Plaspy soporta ambos transportes y detectará automáticamente el protocolo del dispositivo.
-- Asegúrese de que los ajustes APN coincidan con el operador móvil de cada SIM; los marcadores de posición como {{apn}} suelen reemplazarse con el APN de su operador en las herramientas del fabricante.
+- Asegúrese de que los ajustes APN coincidan con el operador móvil de cada SIM; los marcadores de posición como [apn] suelen reemplazarse con el APN de su operador en las herramientas del fabricante.
 - Las prácticas de instalación varían por región y distribuidor; utilice las herramientas recomendadas por Navtelekom como NTC Configurator o el sistema remoto DRC para despliegues a escala de flota.
 - Recuerde que Plaspy utiliza un puerto compartido entre dispositivos, por lo que una configuración de puerto consistente simplifica la incorporación.
 

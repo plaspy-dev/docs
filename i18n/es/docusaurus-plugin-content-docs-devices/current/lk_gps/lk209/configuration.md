@@ -78,7 +78,7 @@ El LK209 se configura para enviar actualizaciones periódicas de ubicación y no
 
 El conjunto exacto de comandos o la interfaz de configuración para el LK209 depende de las herramientas del fabricante y de la versión de firmware. Algunos proveedores ofrecen cadenas de comandos SMS, otros usan una herramienta de configuración de escritorio/móvil y otros una interfaz web. Debido a que LK-GPS proporciona múltiples métodos de configuración, siga el manual del LK209 para la sintaxis y el orden exacto requeridos por su dispositivo.
 
-Si utiliza configuración por SMS o por línea de comandos proporcionada por LK-GPS, obtenga los comandos oficiales del manual del LK209 y reemplace cualquier marcador de posición específico del operador como un APN por los valores de su operador. Por ejemplo, donde los fabricantes muestran marcadores como {{apn}} o {{apnu}}, esos deben sustituirse por el APN y las credenciales de su SIM. Siempre pruebe un cambio de configuración único y verifique la conectividad antes de aplicar cambios masivos.
+Si utiliza configuración por SMS o por línea de comandos proporcionada por LK-GPS, obtenga los comandos oficiales del manual del LK209 y reemplace cualquier marcador de posición específico del operador como un APN por los valores de su operador. Por ejemplo, donde los fabricantes muestran marcadores como [apn] o [apnu], esos deben sustituirse por el APN y las credenciales de su SIM. Siempre pruebe un cambio de configuración único y verifique la conectividad antes de aplicar cambios masivos.
 
 ## Notas de configuración
 

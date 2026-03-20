@@ -79,7 +79,7 @@ Follow these public, practical steps to configure a GNX-6 for Plaspy. Exact menu
 
 The GNX-6 configuration method varies by GenX Mobile firmware and the vendor tool you use. Because GenX Mobile provides different configuration interfaces, the exact commands or SMS strings are not presented here. Consult the official GenX Mobile configuration guide or the manufacturer tool for exact command syntax and examples.
 
-If you receive command examples from GenX Mobile or a reseller, apply them in the order recommended by the manufacturer and retain placeholders such as {{apn}}, {{apnu}}, or {{apnp}} exactly as provided until you replace them with your operator values.
+If you receive command examples from GenX Mobile or a reseller, apply them in the order recommended by the manufacturer and retain placeholders such as [apn], [apnu], or [apnp] exactly as provided until you replace them with your operator values.
 
 ## Configuration Notes
 

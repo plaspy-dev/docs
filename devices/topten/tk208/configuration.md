@@ -49,7 +49,7 @@ These values are the public Plaspy endpoint settings to enter into the tracker c
 ## Typical Requirements Before Setup
 
 - A powered and accessible TK208 unit with a working SIM card that can make SMS and GPRS data connections.
-- APN, APN username, and APN password for the mobile operator to populate into the device configuration (placeholders may appear as {{apn}}, {{apnu}}, {{apnp}}).
+- APN, APN username, and APN password for the mobile operator to populate into the device configuration (placeholders may appear as [apn], [apnu], [apnp]).
 - Knowledge of the device IMEI so you can identify the tracker ID used by the device and by Plaspy.
 - Access to the manufacturer's SMS command method or the official TopTen configuration software or tool.
 - A phone capable of sending SMS commands to the tracker if performing SMS-based configuration.
@@ -85,12 +85,12 @@ The TopTen TK208 supports SMS-based configuration. The following public commands
 ```
 - Set APN and GPRS server parameters and reporting interval (replace placeholders with operator values):
 ```
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
   - Explanation of placeholders:
-    - {{apn}} = mobile operator APN name
-    - {{apnu}} = APN username if required by the operator (leave blank if not used)
-    - {{apnp}} = APN password if required by the operator (leave blank if not used)
+    - [apn] = mobile operator APN name
+    - [apnu] = APN username if required by the operator (leave blank if not used)
+    - [apnp] = APN password if required by the operator (leave blank if not used)
   - The command above directs the tracker to the Plaspy server IP and port and includes example reporting and sleep parameters as shown in public documentation.
 
 - Query current WWW settings to verify the server and APN:

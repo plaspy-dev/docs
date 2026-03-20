@@ -98,12 +98,12 @@ AT$FORM=1,@P,0,""
 ```
 
 - Configure GPRS and Plaspy server settings
-  - Replace {{apn}} with your carrier APN
-  - Replace {{apnu}} with APN username if required by your carrier
-  - Replace {{apnp}} with APN password if required by your carrier
+  - Replace [apn] with your carrier APN
+  - Replace [apnu] with APN username if required by your carrier
+  - Replace [apnp] with APN password if required by your carrier
 
 ```
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 - Check device status and verify applied settings
@@ -114,7 +114,7 @@ AT$INFO=?
 
 Notes about these commands
 - The GPRS command above uses the Plaspy server IP as provided in the public configuration instructions. If your configuration tool accepts a host name, you may also use d.plaspy.com where supported by the device firmware.
-- Placeholders {{apn}}, {{apnu}}, and {{apnp}} represent your mobile carrier APN, APN username, and APN password respectively. Fill them with values from your SIM provider.
+- Placeholders [apn], [apnu], and [apnp] represent your mobile carrier APN, APN username, and APN password respectively. Fill them with values from your SIM provider.
 
 ## Configuration Notes
 

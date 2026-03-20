@@ -84,12 +84,12 @@ The GT-30X can be configured by sending SMS commands to the device. The followin
 
 2. Set the GPRS server to Plaspy using the server IP and port, with APN placeholders
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 - Explanation of placeholders:
-  - {{apn}} = your mobile network APN
-  - {{apnu}} = APN username if required by the carrier (optional)
-  - {{apnp}} = APN password if required by the carrier (optional)
+  - [apn] = your mobile network APN
+  - [apnu] = APN username if required by the carrier (optional)
+  - [apnp] = APN password if required by the carrier (optional)
 - The command above includes the IP 54.85.159.138 and port 8888 to point the tracker to Plaspy. You may alternatively replace the IP with the server domain d.plaspy.com if supported by the device.
 
 3. Set the time zone to UTC 0

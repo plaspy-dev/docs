@@ -77,13 +77,13 @@ The TZ-Tag04 is configured to send location and sensor data to the shared Plaspy
 
 To set up the TZ-Tag04 by SMS, send the following commands in the order shown. These commands are public examples used to configure APN, reporting interval, the Plaspy server, and to activate GPRS mode.
 
-- Set the operator APN (replace {{apn}} with your carrier APN; include {{apnu}} and {{apnp}} if your carrier requires username and password)
+- Set the operator APN (replace [apn] with your carrier APN; include [apnu] and [apnp] if your carrier requires username and password)
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
-Note: If no APN username or password is required, omit the ,{{apnu}},{{apnp}} portion:
+Note: If no APN username or password is required, omit the ,[apnu],[apnp] portion:
 ```text
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 - Set the update interval to 60 seconds
@@ -108,7 +108,7 @@ You can also use the Plaspy domain instead of the IP where the device supports d
 Notes on the commands above:
 - The sequence typically starts with APN then interval then server then activation so the device connects correctly.
 - The string 000000 in these examples is commonly the default device password used in SMS commands; check your device manual as the password may differ.
-- Placeholders {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your mobile operator values. Keep the placeholders if you are preparing templates.
+- Placeholders [apn], [apnu], and [apnp] should be replaced with your mobile operator values. Keep the placeholders if you are preparing templates.
 
 ## Configuration Notes
 

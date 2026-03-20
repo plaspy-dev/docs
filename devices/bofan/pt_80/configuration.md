@@ -85,20 +85,20 @@ The PT-80 is commonly configured by SMS commands. The public sample commands bel
 ```
 
 - Set 14 digit identifier used with Plaspy
-  - Replace \<last14imei> with the last 14 digits of the device IMEI. Many installations use the last 14 digits of IMEI as the device identifier.
+  - Replace \\<last14imei> with the last 14 digits of the device IMEI. Many installations use the last 14 digits of IMEI as the device identifier.
 
 ```
 000000GID<last14imei>
 ```
 
 - Set the APN for the mobile operator
-  - Preserve the placeholders for APN, APN user, and APN password where applicable. Replace {{apn}} with your operator APN. If you need APN username or password include {{apnu}} and {{apnp}}.
+  - Preserve the placeholders for APN, APN user, and APN password where applicable. Replace [apn] with your operator APN. If you need APN username or password include [apnu] and [apnp].
 
 ```
-000000APN{{apn}}{{,{{apnu}},{{apnp}}}}
+000000APN[apn]{{,[apnu],[apnp]}}
 ```
 
-  - Explanation: send 000000APN followed by your APN. If APN username and password are required include them after the APN separated by commas. The placeholders {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your operator values.
+  - Explanation: send 000000APN followed by your APN. If APN username and password are required include them after the APN separated by commas. The placeholders [apn], [apnu], and [apnp] should be replaced with your operator values.
 
 - Set the GPRS server to Plaspy using IP and port
   - This command configures the device to send data to Plaspy. Plaspy also accepts the domain d.plaspy.com but the public sample uses the IP.

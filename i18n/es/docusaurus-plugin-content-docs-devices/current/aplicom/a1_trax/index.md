@@ -1,6 +1,7 @@
 ---
 slug: /aplicom/a1_trax
 id: a1_trax
+sidebar_key: aplicoa1_trax_index_a1_trax
 sidebar_label: A1 TRAX
 title: Aplicom - A1 TRAX
 sidebar_class_name: menu_item_tracker

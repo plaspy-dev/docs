@@ -88,13 +88,13 @@ GMT,E,0#
 
 - Establecer el APN del operador (reemplace los marcadores según sea necesario)
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 Si su operador requiere usuario y contraseña incluya los campos opcionales:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: {{apn}} es la cadena APN del operador. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN.
+Nota: [apn] es la cadena APN del operador. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN.
 
 - Configurar el servidor GPRS a Plaspy por dominio (use esta opción para preferir dominio)
 ```text

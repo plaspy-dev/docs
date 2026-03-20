@@ -86,12 +86,12 @@ This command performs a factory reset. Use only when needed to clear prior setti
 
 - Set the operator APN
 ```text
-#username,0000,3,{{apn}},{{apnu}},{{apnp}}*
+#username,0000,3,[apn],[apnu],[apnp]*
 ```
 Replace the placeholders:
-- {{apn}} = operator APN name
-- {{apnu}} = APN username if required by the operator (leave blank if not used)
-- {{apnp}} = APN password if required by the operator (leave blank if not used)
+- [apn] = operator APN name
+- [apnu] = APN username if required by the operator (leave blank if not used)
+- [apnp] = APN password if required by the operator (leave blank if not used)
 
 - Set the GPRS Server to Plaspy
 ```text

@@ -65,7 +65,7 @@ El GT300 se configura para abrir una sesión de datos GPRS hacia el endpoint del
 ## Flujo común de configuración
 
 1. Acceda al método de configuración oficial de Concox para el GT300, típicamente comandos SMS o una herramienta autorizada, y confirme la versión de firmware del dispositivo.  
-2. Configure el APN del operador usando el marcador {{apn}} correspondiente a su proveedor de SIM.  
+2. Configure el APN del operador usando el marcador [apn] correspondiente a su proveedor de SIM.  
 3. Introduzca la dirección del servidor Plaspy usando d.plaspy.com o la IP 54.85.159.138.  
 4. Establezca el puerto del servidor en 8888. Plaspy utiliza el mismo puerto para todos los dispositivos soportados.  
 5. Elija UDP o TCP como transporte si el GT300 le solicita seleccionar el tipo de transporte.  
@@ -86,13 +86,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Establecer el APN del operador. Reemplace {{apn}} con el APN de su operador. Si su operador requiere usuario o contraseña, use {{apnu}} y {{apnp}} respectivamente donde se soporte
+- Establecer el APN del operador. Reemplace [apn] con el APN de su operador. Si su operador requiere usuario o contraseña, use [apnu] y [apnp] respectivamente donde se soporte
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 o, cuando se usan usuario y contraseña (marcadores)
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Establecer el servidor GPRS para usar el dominio de Plaspy (recomendado) y el puerto 8888
@@ -124,7 +124,7 @@ GPRSON,1#
 GPRSSET#
 ```
 
-Notas sobre marcadores de posición: {{apn}} es el nombre del punto de acceso (APN) de su operador de SIM. {{apnu}} y {{apnp}} son valores opcionales de usuario y contraseña requeridos por algunos operadores móviles. Reemplace los marcadores con los valores reales proporcionados por su operador.
+Notas sobre marcadores de posición: [apn] es el nombre del punto de acceso (APN) de su operador de SIM. [apnu] y [apnp] son valores opcionales de usuario y contraseña requeridos por algunos operadores móviles. Reemplace los marcadores con los valores reales proporcionados por su operador.
 
 ## Notas de configuración
 

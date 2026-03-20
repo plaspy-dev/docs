@@ -1,6 +1,7 @@
 ---
 slug: /okb_tehnoavtomatika/aap_personal
 id: aap_personal
+sidebar_key: okb_tehnoavtomatikaap_personal_index_aap_personal
 sidebar_label: AAP PERSONAL
 title: OKB Tehnoavtomatika - AAP PERSONAL
 sidebar_class_name: menu_item_tracker

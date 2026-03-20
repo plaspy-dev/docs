@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv600mg
 id: gv600mg
+sidebar_key: queclingv600mg_index_gv600mg
 sidebar_label: GV600MG
 title: QuecLink - GV600MG
 sidebar_class_name: menu_item_tracker

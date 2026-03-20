@@ -79,9 +79,9 @@ When configured to report to Plaspy the GF40 will open a data connection to the 
 The CanTrack GF40 supports configuration via SMS command set and manufacturer tools, but exact commands vary with firmware and regional firmware builds. Because commands are manufacturer specific and are not included in the public modelConfiguration for this page, follow the device manual for the precise SMS syntax or use the official CanTrack configuration utility. Typical device workflows will include commands to set APN, server domain or IP, port 8888, transport type, and to query device status.
 
 If you use SMS placeholders in commands the following are commonly preserved as placeholders in manufacturer docs:
-- {{apn}} for the cellular APN name
-- {{apnu}} for APN username if required
-- {{apnp}} for APN password if required
+- [apn] for the cellular APN name
+- [apnu] for APN username if required
+- [apnp] for APN password if required
 
 Refer to the CanTrack manual for exact command formats and example SMS lines when making changes.
 

@@ -81,9 +81,9 @@ El T622E-F9 / T622G-F9 admite configuración por SMS. Los siguientes comandos p�
 0000,F11
 ```
 
-- Establecer el servidor GPRS a Plaspy. Reemplace {{apn}} con el APN de su SIM. Si su APN requiere autenticación, incluya {{apnu}} y {{apnp}} como usuario y contraseña del APN respectivamente.
+- Establecer el servidor GPRS a Plaspy. Reemplace [apn] con el APN de su SIM. Si su APN requiere autenticación, incluya [apnu] y [apnp] como usuario y contraseña del APN respectivamente.
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 
 - Establecer la zona horaria a UTC+0:
@@ -102,9 +102,9 @@ El T622E-F9 / T622G-F9 admite configuración por SMS. Los siguientes comandos p�
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} — la cadena APN de su operador móvil necesaria para datos GPRS.
-- {{apnu}} — usuario APN opcional si su operador lo requiere.
-- {{apnp}} — contraseña APN opcional si su operador lo requiere.
+- [apn] — la cadena APN de su operador móvil necesaria para datos GPRS.
+- [apnu] — usuario APN opcional si su operador lo requiere.
+- [apnp] — contraseña APN opcional si su operador lo requiere.
 Reemplace los marcadores de posición con los valores correctos para su SIM; omita los campos de usuario y contraseña del APN si su red no los solicita.
 
 ## Notas adicionales de configuración

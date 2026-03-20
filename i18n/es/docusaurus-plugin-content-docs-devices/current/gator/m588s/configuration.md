@@ -75,26 +75,26 @@ Al configurarse, el M588S envía sus actualizaciones de ubicación y estado al e
 
 El Gator M588S se suele configurar por SMS. Los ejemplos públicos de comandos abajo usan la contraseña por defecto 123456 e incluyen marcadores que debe reemplazar:
 
-- {{apn}} = el APN de su operador móvil
-- {{apnu}} = usuario del APN si es requerido (opcional)
-- {{apnp}} = contraseña del APN si es requerida (opcional)
+- [apn] = el APN de su operador móvil
+- [apnu] = usuario del APN si es requerido (opcional)
+- [apnp] = contraseña del APN si es requerida (opcional)
 - {{DeviceID}} = el identificador del dispositivo o IMEI usado por el rastreador
 - {{phoneNumberUser}} = su número de teléfono para SOS o monitoreo según la sintaxis del comando
 
 Si su APN requiere usuario y contraseña, envíe el siguiente SMS (conserve la secuencia y las comas tal como exige el dispositivo):
 
 ```text
-SS,*{{apn}}*,*{{apnu}}*,*{{apnp}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 Si su APN no requiere usuario ni contraseña, use esta variante más corta:
 
 ```text
-S,*{{apn}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 Notas sobre estos comandos:
-- Reemplace cada marcador (por ejemplo {{apn}}) con el valor real de su SIM/red y del dispositivo.
+- Reemplace cada marcador (por ejemplo [apn]) con el valor real de su SIM/red y del dispositivo.
 - El último valor en ambos comandos es la contraseña del dispositivo; la guía pública para este modelo muestra 123456 como contraseña por defecto.
 - Envíe los comandos SMS desde un número autorizado y espere el SMS de confirmación del dispositivo si el firmware lo proporciona.
 - Si el dispositivo confirma los nuevos ajustes de servidor, proceda a cortar la alimentación o reiniciarlo si es necesario.

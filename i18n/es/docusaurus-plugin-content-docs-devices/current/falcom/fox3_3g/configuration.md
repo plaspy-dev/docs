@@ -79,7 +79,7 @@ Cuando está configurado, el FOX3-3G envía ubicación y telemetría del equipo 
 
 La serie FOX3-3G se configura típicamente mediante herramientas de Falcom o software del proveedor y los comandos exactos pueden variar según el firmware y el método de configuración. Dado que Falcom ofrece múltiples interfaces y opciones, la sintaxis precisa depende de la herramienta que utilice.
 
-Consulte el manual de configuración de Falcom o la herramienta de su instalador para conocer los formatos exactos de los comandos. Si dispone de comandos específicos de línea de comandos o SMS de Falcom provenientes de materiales oficiales, inclúyalos aquí en el orden requerido y use la herramienta de configuración para enviarlos. Los marcadores de posición que puedan aparecer en los comandos del fabricante, como {{apn}}, {{apnu}} y {{apnp}}, representan valores de APN y autenticación para la conexión de datos celulares y deben reemplazarse por los valores de su operador móvil.
+Consulte el manual de configuración de Falcom o la herramienta de su instalador para conocer los formatos exactos de los comandos. Si dispone de comandos específicos de línea de comandos o SMS de Falcom provenientes de materiales oficiales, inclúyalos aquí en el orden requerido y use la herramienta de configuración para enviarlos. Los marcadores de posición que puedan aparecer en los comandos del fabricante, como [apn], [apnu] y [apnp], representan valores de APN y autenticación para la conexión de datos celulares y deben reemplazarse por los valores de su operador móvil.
 
 ## Notas de configuración
 

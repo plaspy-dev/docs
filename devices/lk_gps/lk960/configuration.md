@@ -75,7 +75,7 @@ When configured for platform mode, the LK960 sends its location and event messag
 
 The exact commands and configuration strings for the LK960 depend on the manufacturer SMS command set, firmware version, or configuration utility provided by LK GPS. Because manufacturer command formats vary, consult the official LK GPS documentation for the precise SMS commands or PC tool sequences to set server domain or IP, port, transport mode, and APN if required. Plaspy accepts the device reporting to d.plaspy.com or 54.85.159.138 on port 8888 using either UDP or TCP.
 
-If you have the device SMS command set from LK GPS, typical public steps are to send configuration SMS messages or apply settings in the PC tool in the following order: set APN if needed, set server address, set port, select transport, and save. Keep manufacturer placeholders such as {{apn}} if they appear in the official commands and replace them with your SIM operator values.
+If you have the device SMS command set from LK GPS, typical public steps are to send configuration SMS messages or apply settings in the PC tool in the following order: set APN if needed, set server address, set port, select transport, and save. Keep manufacturer placeholders such as [apn] if they appear in the official commands and replace them with your SIM operator values.
 
 ## Configuration Notes
 

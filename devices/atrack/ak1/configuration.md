@@ -47,7 +47,7 @@ This configuration prepares the AK1 to send tracking data and event reports to P
 
 - A powered AK1 with access to its configuration interface or the manufacturer configuration method
 - An active SIM card with GPRS data and the correct APN settings for your mobile operator
-- APN credentials or placeholders such as {{apn}}, {{apnu}}, and {{apnp}} ready to insert into the device configuration
+- APN credentials or placeholders such as [apn], [apnu], and [apnp] ready to insert into the device configuration
 - Access to ATrack configuration tools or a serial/SMS interface as provided by the device documentation
 - Knowledge of the device firmware version and hardware revision to follow the correct configuration workflow
 - Ability to restart or power cycle the device after applying settings
@@ -74,7 +74,7 @@ The AK1 sends location and event data to the shared Plaspy server endpoint and p
 
 ## Example Configuration Commands
 
-The model public configuration provides a sequence of AT style commands for the AK1. Apply these in the order shown by your supported configuration method. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} must be replaced with the carrier APN and credentials when required.
+The model public configuration provides a sequence of AT style commands for the AK1. Apply these in the order shown by your supported configuration method. Placeholders such as [apn], [apnu], and [apnp] must be replaced with the carrier APN and credentials when required.
 
 1) Set ACC event triggers and related reporting behavior
 ```text
@@ -99,9 +99,9 @@ AT$FORM=1,@P,0,""
 
 4) Configure the GPRS server and APN parameters to point to Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator APN, username, and password if required. This command sets the GPRS profile and directs the device to the Plaspy server IP and port 8888. You may instead use d.plaspy.com where domain entry is supported by the device.
+- Replace [apn], [apnu], and [apnp] with your mobile operator APN, username, and password if required. This command sets the GPRS profile and directs the device to the Plaspy server IP and port 8888. You may instead use d.plaspy.com where domain entry is supported by the device.
 
 5) Check device status
 ```text
@@ -112,7 +112,7 @@ AT$INFO=?
 ## Configuration Notes
 
 - Firmware variations can change available AT commands and parameter order; always confirm commands with the AK1 firmware documentation before applying.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} intact in examples and replace them with operator values during setup.
+- Keep APN placeholders [apn], [apnu], and [apnp] intact in examples and replace them with operator values during setup.
 - Choose UDP or TCP based on the device's configuration interface and your network requirements; Plaspy accepts either transport on port 8888.
 - If the device supports domain names, you can use d.plaspy.com instead of the server IP 54.85.159.138; both map to the same Plaspy endpoint.
 - After applying settings, perform a full restart or power cycle of the AK1 if the device firmware requires it to activate new profiles.

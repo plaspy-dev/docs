@@ -87,15 +87,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}}, {{apnu}}, {{apnp}} según corresponda)
+- Configurar el APN del operador (reemplazar [apn], [apnu], [apnp] según corresponda)
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Si su operador requiere usuario y contraseña del APN, inclúyalos así:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: {{apn}} es el nombre del APN del operador. {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña del APN.
+Nota: [apn] es el nombre del APN del operador. [apnu] y [apnp] son campos opcionales de usuario y contraseña del APN.
 
 - Configurar el servidor GPRS para Plaspy usando el dominio (UDP o TCP en el puerto 8888)
 ```text
@@ -131,7 +131,7 @@ Use estos comandos SMS según la guía de Concox. Reemplace los marcadores de po
 ## Notas sobre la configuración
 
 - La configuración por SMS está documentada públicamente para el PG201; puede usar SMS para establecer APN, servidor, timers y modo GPRS como se muestra arriba.
-- Conserve y reemplace valores marcados como {{apn}}, {{apnu}} y {{apnp}} con las credenciales de su operador. Los campos de usuario y contraseña son opcionales según el proveedor móvil.
+- Conserve y reemplace valores marcados como [apn], [apnu] y [apnp] con las credenciales de su operador. Los campos de usuario y contraseña son opcionales según el proveedor móvil.
 - Elija UDP o TCP cuando el dispositivo lo solicite; Plaspy acepta ambos en el puerto 8888 y detectará automáticamente el protocolo entrante.
 - Las versiones de firmware, las revisiones de hardware y los firmwares regionales pueden cambiar el comportamiento de los comandos o las funciones disponibles; consulte la documentación de Concox si un comando es rechazado.
 - Use GPRSSET# para verificar el servidor, APN y timers configurados antes de depender de reportes en vivo.

@@ -48,7 +48,7 @@ The goal of configuring a Syrus 3G+ for Plaspy is to point the device to Plaspy'
 - Access to Syrus Desk or another official DCT configuration tool to load scripts or send configuration commands
 - The Syrus 3G+ powered and connected so the configuration tool can communicate with the device
 - A Plaspy account and an active project where the device will be registered and monitored
-- Basic knowledge of the APN placeholders {{apn}}, {{apnu}}, and {{apnp}} so you can replace them with your operator values when needed
+- Basic knowledge of the APN placeholders [apn], [apnu], and [apnp] so you can replace them with your operator values when needed
 - Backup of any existing configuration if the device is already in service
 
 ## How This Tracker Connects to Plaspy
@@ -78,9 +78,9 @@ The Syrus 3G+ modelConfiguration example provided as a Syrus Desk script can be 
 Save as a plain text file with a .tmf extension and load with Syrus Desk:
 
 > Notes on placeholders
-> - {{apn}} is the APN string for your mobile operator
-> - {{apnu}} is the APN username when required
-> - {{apnp}} is the APN password when required
+> - [apn] is the APN string for your mobile operator
+> - [apnu] is the APN username when required
+> - [apnp] is the APN password when required
 
 Example Syrus Desk script:
 
@@ -91,10 +91,10 @@ Example Syrus Desk script:
 >SRT;CONFIG<
 >SXADP**U<
 # configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 # The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 # A Destination Address holding the server destination
@@ -108,11 +108,11 @@ Example Syrus Desk script:
 # end
 ```
 
-- The command >SRT;CONFIG< is used to clear prior configuration and can be used as an initial reset step if desired.
-- >SRFA{{apn}}< sets the APN string. Replace {{apn}} with your operator APN.
-- >SRFL{{apnu}}< and >SRFP{{apnp}}< set APN username and password when required by the operator.
-- >SXADP0000d.plaspy.com;8888< defines the remote AVL server entry pointing the device to Plaspy and port 8888.
-- The signal definitions and event commands such as >STD80300<, >SED37NV4;TD8+<, and >SED05NV4;IP3+< enable reporting rules and event triggers used by the device to send telemetry to Plaspy.
+- The command >SRT;CONFIG\< is used to clear prior configuration and can be used as an initial reset step if desired.
+- >SRFA[apn]\< sets the APN string. Replace [apn] with your operator APN.
+- >SRFL[apnu]\< and >SRFP[apnp]\< set APN username and password when required by the operator.
+- >SXADP0000d.plaspy.com;8888\< defines the remote AVL server entry pointing the device to Plaspy and port 8888.
+- The signal definitions and event commands such as >STD80300\<, >SED37NV4;TD8+\<, and >SED05NV4;IP3+\< enable reporting rules and event triggers used by the device to send telemetry to Plaspy.
 
 ## Configuration Notes
 

@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk960
 id: lk960
+sidebar_key: lk_gplk960_index_lk960
 sidebar_label: LK960
 title: LK-GPS - LK960
 sidebar_class_name: menu_item_tracker

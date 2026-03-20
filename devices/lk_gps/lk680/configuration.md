@@ -79,7 +79,7 @@ When configured, the LK680 sends its GNSS position, movement and vibration event
 
 The LK680 may be configured using LK-GPS manufacturer tools, SMS commands, or a device configuration app. Exact commands and syntax vary by firmware and vendor tool. Since manufacturer commands are specific to the device kit and firmware version, refer to the official LK-GPS documentation or your vendor-supplied configuration guide for the precise command set to point the device at d.plaspy.com or 54.85.159.138 on port 8888.
 
-If you have LK-GPS command examples from your device documentation, apply them here by replacing destination and port values with the Plaspy settings and following any required command order. For APN configuration, preserve APN placeholders like {{apn}} in your commands and replace them with the carrier APN values.
+If you have LK-GPS command examples from your device documentation, apply them here by replacing destination and port values with the Plaspy settings and following any required command order. For APN configuration, preserve APN placeholders like [apn] in your commands and replace them with the carrier APN values.
 
 ## Configuration Notes
 

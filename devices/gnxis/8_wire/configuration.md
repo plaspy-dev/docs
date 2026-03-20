@@ -87,15 +87,15 @@ time zone123456 0
 
 - Set the APN for the mobile operator
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Explanation: replace {{apn}} with your operator APN.
+Explanation: replace [apn] with your operator APN.
 
 - Set APN username and password
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Explanation: replace {{apnu}} with the APN username and {{apnp}} with the APN password. If no username or password is required, some operators accept blank values.
+Explanation: replace [apnu] with the APN username and [apnp] with the APN password. If no username or password is required, some operators accept blank values.
 
 - Set the GPRS server to Plaspy using IP and port
 ```text
@@ -138,7 +138,7 @@ Note: The default device password is 123456 in these examples. Change the passwo
 - SMS based setup is useful for installers without direct access to a configuration tool, but a data connection and confirmed APN settings are required for Plaspy reporting.
 - Choose UDP or TCP according to the device firmware options; both transports can be used with Plaspy but must match the device configuration.
 - Plaspy uses the same port for all supported devices which simplifies server configuration; set port 8888 consistently.
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when composing SMS commands and replace them with your operator values.
+- Preserve placeholders such as [apn], [apnu], and [apnp] when composing SMS commands and replace them with your operator values.
 
 ## Why Use Plaspy with This Configuration
 

@@ -85,7 +85,7 @@ El método de configuración del AT-15 puede variar según el firmware y las her
 - Comandos de configuración vía SMS si el dispositivo soporta configuración por SMS (consulte la documentación de Autoseeker para la sintaxis exacta).
 - Interfaz web o serial cuando el proveedor la incluya.
 
-Si dispone de un conjunto público de comandos Autoseeker AT-15 de su proveedor o de una nota de versión de firmware, inclúyalos aquí siguiendo el manual del dispositivo. Mantenga los marcadores de posición como {{apn}} o similares exactamente como los proporcione el fabricante al usar esos comandos.
+Si dispone de un conjunto público de comandos Autoseeker AT-15 de su proveedor o de una nota de versión de firmware, inclúyalos aquí siguiendo el manual del dispositivo. Mantenga los marcadores de posición como [apn] o similares exactamente como los proporcione el fabricante al usar esos comandos.
 
 ## Notas de configuración
 

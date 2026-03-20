@@ -84,16 +84,16 @@ El TK103 suele configurarse enviando mensajes SMS al equipo. Los siguientes coma
 begin123456
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} por el APN de su operador)
+- Establecer el APN del operador (reemplazar [apn] por el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Establecer usuario y contraseña del APN (opcional; reemplace los marcadores si aplica)
 ```text
-user {{apnu}} {{apnp}}
+user [apnu] [apnp]
 ```
-Explicación: {{apnu}} es el marcador para el usuario del APN y {{apnp}} para la contraseña del APN. Omita este comando si el APN no requiere credenciales.
+Explicación: [apnu] es el marcador para el usuario del APN y [apnp] para la contraseña del APN. Omita este comando si el APN no requiere credenciales.
 
 - Establecer el ID del dispositivo usando los últimos 11 dígitos del IMEI
 ```text

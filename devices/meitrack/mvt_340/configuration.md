@@ -82,9 +82,9 @@ The MVT-340 supports SMS based configuration. The following sample SMS commands 
 
 - Set the GPRS server to the Plaspy IP with port and APN placeholder values:
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the mobile operator APN. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders. Keep these placeholders and replace them with your carrier credentials as required.
+Explanation: [apn] is the mobile operator APN. [apnu] and [apnp] are optional APN username and APN password placeholders. Keep these placeholders and replace them with your carrier credentials as required.
 
 - Set the time zone to UTC 0:
 ```
@@ -110,7 +110,7 @@ Notes about these commands
 
 - Firmware and hardware revisions can alter the exact SMS command syntax or available parameters; always check the device documentation for your firmware version.
 - SMS based setup is supported by the public MVT-340 command set shown above; a manufacturer configuration utility may offer a graphical alternative.
-- Use the APN placeholders {{apn}}, {{apnu}}, and {{apnp}} to insert your carrier credentials when required by the SIM plan.
+- Use the APN placeholders [apn], [apnu], and [apnp] to insert your carrier credentials when required by the SIM plan.
 - Choose TCP or UDP according to installer preference and device capability; Plaspy will auto detect the protocol used by the tracker.
 - Plaspy operates on the same port for all supported devices which simplifies server-side configuration and reduces per device setup complexity.
 

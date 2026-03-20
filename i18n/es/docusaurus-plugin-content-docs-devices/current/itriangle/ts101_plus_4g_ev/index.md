@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/ts101_plus_4g_ev
 id: ts101_plus_4g_ev
+sidebar_key: itrianglts101_plus_4g_ev_index_ts101_plus_4g_ev
 sidebar_label: TS101 PLUS 4G EV
 title: iTriangle - TS101 PLUS 4G EV
 sidebar_class_name: menu_item_tracker

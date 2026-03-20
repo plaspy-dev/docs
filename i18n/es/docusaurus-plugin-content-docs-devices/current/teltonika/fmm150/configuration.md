@@ -80,13 +80,13 @@ El ejemplo público de Teltonika para establecer parámetros básicos de red y s
 - Comando setparam de ejemplo tal como aparece en la guía pública de Teltonika:
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de los marcadores y elementos del comando
-  - {{apn}} es el nombre del punto de acceso de datos de su operador celular
-  - {{apnu}} es el usuario APN si su operador lo requiere
-  - {{apnp}} es la contraseña APN si su operador la requiere
+  - [apn] es el nombre del punto de acceso de datos de su operador celular
+  - [apnu] es el usuario APN si su operador lo requiere
+  - [apnp] es la contraseña APN si su operador la requiere
   - 2004 se establece en d.plaspy.com para apuntar el equipo a Plaspy
   - 2005 se establece en 8888 que es el puerto compartido de Plaspy
   - 2006 se incluye en el ejemplo tal como se proporciona; consulte la documentación de Teltonika para conocer el significado exacto del parámetro según su firmware

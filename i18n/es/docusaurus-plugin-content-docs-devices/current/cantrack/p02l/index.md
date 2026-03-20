@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/p02l
 id: p02l
+sidebar_key: cantracp02l_index_p02l
 sidebar_label: P02L
 title: CanTrack - P02L
 sidebar_class_name: menu_item_tracker

@@ -66,7 +66,7 @@ El ST25T es una interfaz de telemetría que reenvía datos del bus del vehículo
 2. Ingrese la dirección del servidor Plaspy usando d.plaspy.com o la IP del servidor 54.85.159.138 en el campo de servidor de red/GPRS.
 3. Establezca el puerto del servidor en 8888 (Plaspy usa el mismo puerto para los dispositivos soportados).
 4. Elija UDP o TCP si el dispositivo requiere selección explícita de transporte y asegúrese de que la misma opción sea aceptable en el lado del gateway.
-5. Ingrese el APN del operador y los campos opcionales de nombre de usuario y contraseña del APN (use los marcadores {{apn}}, {{apnu}}, {{apnp}} según sea necesario).
+5. Ingrese el APN del operador y los campos opcionales de nombre de usuario y contraseña del APN (use los marcadores [apn], [apnu], [apnp] según sea necesario).
 6. Aplique o guarde la configuración y reinicie el dispositivo o el gateway si las instrucciones del fabricante lo requieren.
 7. Valide que el dispositivo esté reportando a Plaspy utilizando el comando SMS de verificación o comprobando la conectividad del dispositivo en Plaspy.
 
@@ -78,13 +78,13 @@ Nota: envíe estos comandos como mensajes SMS al número del dispositivo o del g
 
 - Comando de red y servidor GPRS (establecer APN y apuntar a Plaspy)
 ```text
-SA200NTW;{{device_id}};02;<auth_flag>;<apn>;{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;<auth_flag>;<apn>;[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Explicación:
   - {{device_id}} = seis dígitos extraídos del IMEI como se describió arriba.
-  - <auth_flag> = 1 si proporciona nombre de usuario o contraseña del APN ({{apnu}} o {{apnp}}), de lo contrario 0.
-  - {{apn}} = marcador de posición del APN del operador.
-  - {{apnu}} y {{apnp}} = marcadores de posición opcionales para nombre de usuario y contraseña del APN.
+  - \<auth_flag> = 1 si proporciona nombre de usuario o contraseña del APN ([apnu] o [apnp]), de lo contrario 0.
+  - [apn] = marcador de posición del APN del operador.
+  - [apnu] y [apnp] = marcadores de posición opcionales para nombre de usuario y contraseña del APN.
   - El comando usa la IP del servidor Plaspy 54.85.159.138 y el puerto 8888.
 
 - Establecer el intervalo de actualización/reporte a 60 segundos
@@ -103,7 +103,7 @@ Estos comandos son ejemplos públicos extraídos del contenido de configuración
 - Las versiones de firmware del dispositivo y del gateway pueden cambiar los formatos de comando y los parámetros soportados; siempre verifique la sintaxis SMS exacta para su revisión de firmware.
 - El ST25T normalmente reenvía telemetría a un gateway compatible con Plaspy; confirme si debe programar el propio ST25T o el gateway al aplicar los ajustes de servidor y APN.
 - Elija UDP o TCP según la confiabilidad de la red y el comportamiento del gateway; ambos transportes son soportados por Plaspy en el puerto 8888.
-- Cuando use autenticación APN incluya el nombre de usuario y la contraseña apropiados y establezca el campo <auth_flag> en 1 en la plantilla SA200NTW.
+- Cuando use autenticación APN incluya el nombre de usuario y la contraseña apropiados y establezca el campo \<auth_flag> en 1 en la plantilla SA200NTW.
 - La configuración vía SMS es común en los ejemplos públicos mostrados aquí; consulte las instrucciones oficiales de Suntech para métodos alternativos de configuración, como una herramienta Bluetooth local o software del proveedor.
 
 ## Por qué usar Plaspy con esta configuración

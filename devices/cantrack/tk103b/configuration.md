@@ -86,7 +86,7 @@ Consult the CanTrack documentation or your installer for exact command syntax fo
 - Firmware and vendor customizations can change command syntax and available configuration interfaces; always confirm the command set matches your TK103B firmware.
 - Choose UDP or TCP based on installation needs and any vendor guidance; both transports are accepted by Plaspy on the same port.
 - SMS-based configuration is commonly supported for TK103B and can be useful for initial setup or recovery when mobile data is unavailable.
-- Ensure the SIM has GPRS enabled and that APN settings are correct for the mobile operator; APN placeholders such as {{apn}} may appear in vendor templates and should be replaced with your operator values.
+- Ensure the SIM has GPRS enabled and that APN settings are correct for the mobile operator; APN placeholders such as [apn] may appear in vendor templates and should be replaced with your operator values.
 - Keep a record of applied settings and test alarms and ignition events after configuration to confirm Plaspy receives the expected messages.
 
 ## Why Use Plaspy with This Configuration

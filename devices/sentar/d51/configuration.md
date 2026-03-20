@@ -92,11 +92,11 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Set the operator APN where {{apn}} is the APN, {{apnu}} is the APN username, {{apnp}} is the APN password, and xxxyy is the concatenated MCC and MNC
+- Set the operator APN where [apn] is the APN, [apnu] is the APN username, [apnp] is the APN password, and xxxyy is the concatenated MCC and MNC
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explanation: Replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator values. Replace xxxyy with the operator MCC and MNC combined as indicated by the device documentation.
+Explanation: Replace [apn], [apnu], and [apnp] with your mobile operator values. Replace xxxyy with the operator MCC and MNC combined as indicated by the device documentation.
 
 - Set the GPRS server using Plaspy IP and port
 ```text

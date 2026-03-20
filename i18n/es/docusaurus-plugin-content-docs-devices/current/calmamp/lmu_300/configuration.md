@@ -83,15 +83,15 @@ Los comandos SMS públicos del LMU-300 para la configuración básica son los pu
 ```
 - Configurar el APN del operador
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 - Configurar el usuario del APN del operador (si aplica)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 - Configurar la contraseña del APN del operador (si aplica)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 - Establecer el servidor GPRS a Plaspy por IP
 ```text
@@ -111,8 +111,8 @@ Los comandos SMS públicos del LMU-300 para la configuración básica son los pu
 ```
 
 Notas sobre marcadores y uso:
-- {{apn}} es un marcador para la cadena APN de su operador móvil.
-- {{apnu}} y {{apnp}} son marcadores para el usuario y la contraseña del APN si su operador los requiere.
+- [apn] es un marcador para la cadena APN de su operador móvil.
+- [apnu] y [apnp] son marcadores para el usuario y la contraseña del APN si su operador los requiere.
 - Mantenga el orden anterior: primero configure el APN, luego el servidor y puerto, y finalmente reinicie.
 - Si el dispositivo requiere incluir el MID de 10 dígitos como prefijo de ID en los comandos SMS, inclúyalo según las especificaciones del equipo tras obtenerlo con !R0.
 

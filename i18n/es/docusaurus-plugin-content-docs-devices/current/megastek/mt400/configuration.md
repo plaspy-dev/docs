@@ -78,8 +78,8 @@ El MT400 soporta configuración por SMS. Los comandos de ejemplo que siguen est�
 
 - Notas sobre los marcadores:
   - {{IMEI}} — reemplace con el IMEI del dispositivo (use el IMEI de 15 dígitos; algunas herramientas requieren los últimos 15 dígitos).
-  - {{apn}} — la cadena APN del operador requerida por su SIM.
-  - {{apnu}} y {{apnp}} — usuario APN y contraseña APN opcionales si el operador los requiere.
+  - [apn] — la cadena APN del operador requerida por su SIM.
+  - [apnu] y [apnp] — usuario APN y contraseña APN opcionales si el operador los requiere.
 
 1) Establecer el ID del dispositivo (reemplazar {{IMEI}} por el IMEI del dispositivo, últimos 15 dígitos si aplica)
 ```
@@ -88,11 +88,11 @@ M000000,22,{{IMEI}}
 
 2) Establecer el APN del operador (incluya usuario y contraseña APN solo si son necesarios)
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Si su operador requiere usuario y contraseña APN:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3) Establecer el intervalo de actualización a 60 segundos

@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv310lau
 id: gv310lau
+sidebar_key: queclingv310lau_index_gv310lau
 sidebar_label: GV310LAU
 title: QuecLink - GV310LAU
 sidebar_class_name: menu_item_tracker

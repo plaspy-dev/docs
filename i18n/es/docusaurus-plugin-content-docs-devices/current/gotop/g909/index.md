@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g909
 id: g909
+sidebar_key: gotog909_index_g909
 sidebar_label: G909
 title: GOTOP - G909
 sidebar_class_name: menu_item_tracker

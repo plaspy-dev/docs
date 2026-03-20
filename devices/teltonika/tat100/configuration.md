@@ -76,12 +76,12 @@ The TAT100 sends periodic GNSS location and device telemetry over the cellular n
 
 To configure the basic parameters on your Teltonika device using the public setparam command example, send the following command. Preserve the placeholders and replace them with your carrier APN settings.
 
-- Replace {{apn}} with your carrier APN name
-- Replace {{apnu}} with your APN username if required otherwise leave blank or as configured by your carrier
-- Replace {{apnp}} with your APN password if required otherwise leave blank or as configured by your carrier
+- Replace [apn] with your carrier APN name
+- Replace [apnu] with your APN username if required otherwise leave blank or as configured by your carrier
+- Replace [apnp] with your APN password if required otherwise leave blank or as configured by your carrier
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 This example sets the APN credentials and points the device at d.plaspy.com on port 8888. The numeric parameter keys reflect the device parameter mapping used in Teltonika commands. Verify exact parameter meanings and any transport mode mapping in Teltonika documentation for your firmware version before applying.
@@ -91,7 +91,7 @@ This example sets the APN credentials and points the device at d.plaspy.com on p
 - Firmware variations and hardware SKUs may change parameter mappings and supported commands. Confirm parameter IDs and meanings with Teltonika documentation for your device firmware.
 - Choose UDP or TCP based on installer preference or network environment. If unsure, test both transports and verify successful reporting in Plaspy.
 - SMS based configuration is a common method for battery powered asset trackers like the TAT100 when a direct USB or tool connection is not available.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} ready and accurate for your mobile operator to avoid connectivity failures.
+- Keep APN placeholders [apn], [apnu], and [apnp] ready and accurate for your mobile operator to avoid connectivity failures.
 - After applying settings, allow time for the device to attach to the network and for Plaspy to automatically detect the tracker protocol and start ingesting reports.
 
 ## Why Use Plaspy with This Configuration

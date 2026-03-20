@@ -84,17 +84,17 @@ Los siguientes comandos SMS son ejemplos públicos que se usan comúnmente para 
 ```
 0000,F11
 ```
-2. Establecer el servidor GPRS a Plaspy usando la IP del servidor y el puerto. Reemplace {{apn}}, {{apnu}} y {{apnp}} con el APN de su operador y, opcionalmente, usuario y contraseña del APN:
+2. Establecer el servidor GPRS a Plaspy usando la IP del servidor y el puerto. Reemplace [apn], [apnu] y [apnp] con el APN de su operador y, opcionalmente, usuario y contraseña del APN:
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 Si su SIM requiere usuario y contraseña del APN, proporciónelos como campos adicionales separados por comas:
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-- {{apn}} = nombre del APN del operador
-- {{apnu}} = usuario del APN (opcional)
-- {{apnp}} = contraseña del APN (opcional)
+- [apn] = nombre del APN del operador
+- [apnu] = usuario del APN (opcional)
+- [apnp] = contraseña del APN (opcional)
 
 3. Establecer la zona horaria a UTC+0 (ajuste el valor según su zona local)
 ```

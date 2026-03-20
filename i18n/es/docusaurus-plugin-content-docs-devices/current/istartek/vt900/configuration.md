@@ -86,9 +86,9 @@ GMT,E,0#
 
 - Establecer el APN del operador para acceso GPRS
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} es el APN del operador móvil. {{apnu}} y {{apnp}} son marcadores de posición opcionales para usuario y contraseña del APN. Si su APN no requiere usuario ni contraseña, puede enviar solo APN,{{apn}}#.
+Explicación: [apn] es el APN del operador móvil. [apnu] y [apnp] son marcadores de posición opcionales para usuario y contraseña del APN. Si su APN no requiere usuario ni contraseña, puede enviar solo APN,[apn]#.
 
 - Configurar el servidor GPRS a Plaspy usando dominio y puerto
 ```text

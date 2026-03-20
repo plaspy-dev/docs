@@ -1,6 +1,7 @@
 ---
 slug: /laipac/microconvert
 id: microconvert
+sidebar_key: laipamicroconvert_index_microconvert
 sidebar_label: MicroConvert
 title: Laipac - MicroConvert
 sidebar_class_name: menu_item_tracker

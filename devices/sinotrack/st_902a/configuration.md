@@ -89,12 +89,12 @@ RESET
 
 - Configure the APN for your operator. Replace placeholders with the operator values:
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 Explanation of placeholders:
-- {{apn}} is the APN name provided by the mobile operator.
-- {{apnu}} is the APN username if required, otherwise leave blank.
-- {{apnp}} is the APN password if required, otherwise leave blank.
+- [apn] is the APN name provided by the mobile operator.
+- [apnu] is the APN username if required, otherwise leave blank.
+- [apnp] is the APN password if required, otherwise leave blank.
 
 - Set up the GPRS server to point the tracker to Plaspy by IP and port:
 ```text

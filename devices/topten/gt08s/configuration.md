@@ -81,12 +81,12 @@ The GT08S public configuration notes include SMS commands to restore defaults, s
 
 - Set APN and GPRS server to point to Plaspy using IP and port and include APN placeholders
 ```
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Notes about the placeholders
-- {{apn}} is the mobile network APN name
-- {{apnu}} is the APN username if required by the carrier
-- {{apnp}} is the APN password if required by the carrier
+- [apn] is the mobile network APN name
+- [apnu] is the APN username if required by the carrier
+- [apnp] is the APN password if required by the carrier
 
 - Verification command to request current WWW settings from the tracker
 ```

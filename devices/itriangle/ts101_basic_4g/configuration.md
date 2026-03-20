@@ -79,7 +79,7 @@ The TS101 Basic 4G sends GNSS positions and telemetry over LTE Cat 1 to the cent
 
 The TS101 Basic 4G supports multiple configuration channels and the exact commands or steps depend on the iTriangle configuration tool, firmware, and chosen provision method. Because manufacturer utilities and SMS command sets vary by firmware revision and regional variant, the precise command syntax is provided by iTriangle documentation. Typical configuration channels include USB configuration tools, BLE provisioning apps, and SMS commands or TCP configuration payloads.
 
-If you are using SMS commands or a manufacturer command line utility, consult iTriangle official documentation for the exact syntax. Placeholders such as APN values may be shown in manufacturer guides as {{apn}} {{apnu}} or {{apnp}} and should be replaced with your cellular provider values.
+If you are using SMS commands or a manufacturer command line utility, consult iTriangle official documentation for the exact syntax. Placeholders such as APN values may be shown in manufacturer guides as [apn] [apnu] or [apnp] and should be replaced with your cellular provider values.
 
 ## Configuration Notes
 

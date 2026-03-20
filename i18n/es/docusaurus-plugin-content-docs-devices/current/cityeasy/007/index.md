@@ -1,6 +1,7 @@
 ---
 slug: /cityeasy/007
 id: 007
+sidebar_key: cityeas007_index_007
 sidebar_label: 007
 title: Cityeasy - 007
 sidebar_class_name: menu_item_tracker

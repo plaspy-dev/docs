@@ -82,13 +82,13 @@ The VT06 model supports SMS based configuration. The following example commands 
 clear
 ```
 
-2. Set the operator APN. Replace {{apn}} with your carrier APN. If your carrier requires a username and password, include {{apnu}} and {{apnp}} respectively.
+2. Set the operator APN. Replace [apn] with your carrier APN. If your carrier requires a username and password, include [apnu] and [apnp] respectively.
 ```
-APN,{{apn}},{{apnu}},{{apnp}}
+APN,[apn],[apnu],[apnp]
 ```
-Note: If no APN username or password is required, omit the {{apnu}} and {{apnp}} placeholders and send:
+Note: If no APN username or password is required, omit the [apnu] and [apnp] placeholders and send:
 ```
-APN,{{apn}}
+APN,[apn]
 ```
 
 3. Set the GPRS server to Plaspy using the server IP and port. This tells the VT06 to send data to Plaspy.

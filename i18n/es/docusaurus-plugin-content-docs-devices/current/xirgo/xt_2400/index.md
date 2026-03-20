@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt_2400
 id: xt_2400
+sidebar_key: xirgxt_2400_index_xt_2400
 sidebar_label: XT-2400
 title: Xirgo - XT-2400
 sidebar_class_name: menu_item_tracker

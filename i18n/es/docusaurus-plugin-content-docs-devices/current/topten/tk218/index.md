@@ -1,6 +1,7 @@
 ---
 slug: /topten/tk218
 id: tk218
+sidebar_key: toptetk218_index_tk218
 sidebar_label: TK218
 title: TopTen - TK218
 sidebar_class_name: menu_item_tracker

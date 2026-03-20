@@ -87,9 +87,9 @@ tz+00
 
 - Set the operator APN. Replace the placeholders with your SIM operator values
 ```
-S1,{{apn}},{{apnu}},{{apnp}}
+S1,[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the APN name. {{apnu}} and {{apnp}} are optional username and password fields for carrier APN authentication. If no username or password is required, you can omit those placeholders or leave them empty depending on device command syntax.
+Explanation: [apn] is the APN name. [apnu] and [apnp] are optional username and password fields for carrier APN authentication. If no username or password is required, you can omit those placeholders or leave them empty depending on device command syntax.
 
 - Set the GPRS server to Plaspy using the public IP and port
 ```
@@ -105,7 +105,7 @@ Always preserve the command order when required by the device. Check MiniFinder 
 - Firmware and hardware revisions can change command syntax or supported parameters; verify syntax against the current MiniFinder documentation.
 - Choose UDP or TCP according to device capability and network reliability in your deployment area; Plaspy supports both transports and will detect the protocol automatically.
 - All Plaspy supported devices use port 8888 for incoming connections so you do not need different ports per device.
-- Preserve placeholders like {{apn}} exactly and replace them with the carrier APN details appropriate for your SIM.
+- Preserve placeholders like [apn] exactly and replace them with the carrier APN details appropriate for your SIM.
 
 ## Why Use Plaspy with This Configuration
 

@@ -79,13 +79,13 @@ El ET300 admite configuración por SMS. Los siguientes comandos públicos se enc
 - Configure el APN del operador. Reemplace los marcadores con los valores del APN del operador. Mantenga las llaves si usa plantillas automatizadas.
 
 ```
-APN,{{apn}}
+APN,[apn]
 ```
 
 - Si su APN requiere nombre de usuario y contraseña, utilice la forma extendida. Los marcadores deben reemplazarse con sus credenciales cuando sea necesario.
 
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configure el servidor GPRS para apuntar a Plaspy usando el dominio y el puerto 8888. Este comando configura la entrada de servidor 1 para usar d.plaspy.com y el puerto 8888.
@@ -119,9 +119,9 @@ STATUS#
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} = la cadena APN de su operador.
-- {{apnu}} = nombre de usuario del APN si el operador lo exige.
-- {{apnp}} = contraseña del APN si el operador la exige.
+- [apn] = la cadena APN de su operador.
+- [apnu] = nombre de usuario del APN si el operador lo exige.
+- [apnp] = contraseña del APN si el operador la exige.
 Conserve los marcadores al crear scripts o plantillas y reemplácelos por los valores de su operador antes de enviar.
 
 ## Notas de configuración

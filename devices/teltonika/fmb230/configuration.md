@@ -80,13 +80,13 @@ The FMB230 can be configured with a batch parameter command. The public example 
 - Batch parameter command (example):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and fields above:
-- {{apn}} = your mobile operator APN name
-- {{apnu}} = APN username if required by your operator
-- {{apnp}} = APN password if required by your operator
+- [apn] = your mobile operator APN name
+- [apnu] = APN username if required by your operator
+- [apnp] = APN password if required by your operator
 - 2004 sets the server address to d.plaspy.com
 - 2005 sets the destination port to 8888
 - 2006 is a transport or mode selector used by the device parameter set; refer to Teltonika parameter documentation for exact meanings of values such as 1

@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/can_9600
 id: can_9600
+sidebar_key: gosafcan_9600_index_can_9600
 sidebar_label: CAN-9600
 title: Gosafe - CAN-9600
 sidebar_class_name: menu_item_tracker

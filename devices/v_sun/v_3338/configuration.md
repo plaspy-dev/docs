@@ -81,11 +81,11 @@ The V-3338 supports SMS configuration. The commands below are the publicly avail
 ```
 2. Set the operator APN. Replace placeholders with your carrier values:
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
-- {{apn}} is the carrier access point name.
-- {{apnu}} is the APN username if required by the carrier.
-- {{apnp}} is the APN password if required by the carrier.
+- [apn] is the carrier access point name.
+- [apnu] is the APN username if required by the carrier.
+- [apnp] is the APN password if required by the carrier.
 
 3. Set the GPRS server to Plaspy by IP and port:
 ```
@@ -108,7 +108,7 @@ The V-3338 supports SMS configuration. The commands below are the publicly avail
 2220000
 ```
 
-Follow the commands in the order above when the sequence matters, and adjust the password field if you changed the device password from the default 0000. If your carrier requires APN credentials, supply {{apnu}} and {{apnp}} as shown. The numeric values for intervals are vendor provided and may represent seconds or internal units depending on firmware.
+Follow the commands in the order above when the sequence matters, and adjust the password field if you changed the device password from the default 0000. If your carrier requires APN credentials, supply [apnu] and [apnp] as shown. The numeric values for intervals are vendor provided and may represent seconds or internal units depending on firmware.
 
 ## Configuration Notes
 

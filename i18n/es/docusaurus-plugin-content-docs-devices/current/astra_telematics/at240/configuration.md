@@ -79,19 +79,19 @@ El AT240 se configura para reportar posición y datos del dispositivo al endpoin
 
 El AT240 soporta configuración vía SMS. A continuación se muestran los comandos SMS públicos que aparecen en la guía del fabricante. Conserve los placeholders tal como están.
 
-- Establecer el APN del operador. Reemplace {{apn}} por la cadena APN de su operador.
+- Establecer el APN del operador. Reemplace [apn] por la cadena APN de su operador.
 ```
-$APAD,{{apn}}
-```
-
-- Opcionalmente establecer el nombre de usuario del APN. Reemplace {{apnu}} por el usuario APN si su operador lo requiere.
-```
-$APUN,{{apnu}}
+$APAD,[apn]
 ```
 
-- Opcionalmente establecer la contraseña del APN. Reemplace {{apnp}} por la contraseña APN si su operador lo requiere.
+- Opcionalmente establecer el nombre de usuario del APN. Reemplace [apnu] por el usuario APN si su operador lo requiere.
 ```
-$APPW,{{apnp}}
+$APUN,[apnu]
+```
+
+- Opcionalmente establecer la contraseña del APN. Reemplace [apnp] por la contraseña APN si su operador lo requiere.
+```
+$APPW,[apnp]
 ```
 
 - Establecer el servidor GPRS a la IP del servidor Plaspy. También puede usar el dominio d.plaspy.com en herramientas del proveedor si está soportado, pero el ejemplo de comando SMS público usa la IP de Plaspy.
@@ -115,7 +115,7 @@ Notas sobre los comandos anteriores:
 - Algunas herramientas del proveedor aceptan el dominio d.plaspy.com directamente; los comandos SMS suelen utilizar la IP del servidor 54.85.159.138 como se muestra arriba.
 - Elija UDP o TCP según la guía de instalación; Plaspy acepta ambos y detecta el protocolo automáticamente.
 - El aprovisionamiento por SMS está soportado por los comandos públicos mostrados, aunque algunos instaladores prefieren el software de configuración del proveedor para aprovisionamientos masivos o remotos.
-- Conserve un registro de los placeholders {{apn}}, {{apnu}} y {{apnp}} y reemplace cada uno por los valores específicos del operador para cada SIM.
+- Conserve un registro de los placeholders [apn], [apnu] y [apnp] y reemplace cada uno por los valores específicos del operador para cada SIM.
 
 ## Por qué usar Plaspy con esta configuración
 

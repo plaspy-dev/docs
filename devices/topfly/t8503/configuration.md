@@ -82,11 +82,11 @@ GMT,0000,0#
 ```
 
 - Set the operator APN. Replace the placeholders with your carrier settings:
-  - {{apn}} APN name
-  - {{apnu}} APN username (leave blank if not required)
-  - {{apnp}} APN password (leave blank if not required)
+  - [apn] APN name
+  - [apnu] APN username (leave blank if not required)
+  - [apnp] APN password (leave blank if not required)
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to Plaspy by IP and port
@@ -102,7 +102,7 @@ TIMER,0000,60:60:0:0#
 Notes on these commands:
 - Commands are shown in the order recommended for initial setup
 - The device default password in the public sample is 0000; replace this with your device password if it has been changed
-- Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your operator credentials
+- Placeholders such as [apn], [apnu], and [apnp] must be replaced with your operator credentials
 
 ## Configuration Notes
 

@@ -1,6 +1,7 @@
 ---
 slug: /eelink/gpt12
 id: gpt12
+sidebar_key: eelingpt12_index_gpt12
 sidebar_label: GPT12
 title: EElink - GPT12
 sidebar_class_name: menu_item_tracker

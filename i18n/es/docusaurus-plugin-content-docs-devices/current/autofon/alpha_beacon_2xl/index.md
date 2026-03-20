@@ -1,6 +1,7 @@
 ---
 slug: /autofon/alpha_beacon_2xl
 id: alpha_beacon_2xl
+sidebar_key: autofoalpha_beacon_2xl_index_alpha_beacon_2xl
 sidebar_label: Alpha-Beacon 2XL
 title: AutoFon - Alpha-Beacon 2XL
 sidebar_class_name: menu_item_tracker

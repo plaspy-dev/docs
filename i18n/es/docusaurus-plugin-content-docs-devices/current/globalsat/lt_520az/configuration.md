@@ -82,12 +82,12 @@ TSPRXAB27GHKLMnaicz*U!
 
 Comando de configuración (reemplace marcadores de posición y calcule la suma de verificación antes de enviar):
 - Reemplace {{imei}} por el IMEI del dispositivo.
-- Reemplace {{apn}}, {{apnu}}, {{apnp}} por APN, usuario APN y contraseña APN si su configuración lo requiere. Para dispositivos que usan exclusivamente Amazon Sidewalk, los campos APN pueden no utilizarse o ser ignorados; verifique con el fabricante.
+- Reemplace [apn], [apnu], [apnp] por APN, usuario APN y contraseña APN si su configuración lo requiere. Para dispositivos que usan exclusivamente Amazon Sidewalk, los campos APN pueden no utilizarse o ser ignorados; verifique con el fabricante.
 - Calcule {{checksum}} como la suma de verificación XOR de los caracteres del comando desde el inicio del comando interno hasta justo antes del carácter '*' y exprésela como un valor hexadecimal en mayúsculas de dos dígitos.
 
 Ejemplo de comando SMS de configuración:
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Comando opcional de reinicio (use cuando la documentación del dispositivo indique que el reinicio es requerido o recomendado):
@@ -102,9 +102,9 @@ Cálculo de la suma de verificación
 
 Notas sobre los marcadores de posición
 - {{imei}} — número IMEI del dispositivo, necesario para dirigir el comando al rastreador específico.
-- {{apn}} — marcador de posición para el nombre del APN; incluya solo si su instalación y configuración del dispositivo requieren valores APN.
-- {{apnu}} — marcador de posición para el usuario APN.
-- {{apnp}} — marcador de posición para la contraseña APN.
+- [apn] — marcador de posición para el nombre del APN; incluya solo si su instalación y configuración del dispositivo requieren valores APN.
+- [apnu] — marcador de posición para el usuario APN.
+- [apnp] — marcador de posición para la contraseña APN.
 
 Verifique siempre la sintaxis exacta del comando SMS y el método de cálculo de la suma de verificación en la documentación oficial de GlobalSat antes de enviar comandos en producción.
 

@@ -77,7 +77,7 @@ If you use SMS-based configuration, send the commands in the order recommended b
 
 ## Example Configuration Commands
 
-The BN-408A supports SMS-based setup commands. The device default password shown in public documentation is 123456. Send the following commands by SMS to the device number using that password. Preserve and replace placeholders like {{apn}}, {{apnu}}, and {{apnp}} with your operator credentials.
+The BN-408A supports SMS-based setup commands. The device default password shown in public documentation is 123456. Send the following commands by SMS to the device number using that password. Preserve and replace placeholders like [apn], [apnu], and [apnp] with your operator credentials.
 
 - Optional initial factory reset (only if you require a full reset):
 ```sms
@@ -89,14 +89,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your mobile APN):
+- Set the operator APN (replace [apn] with your mobile APN):
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username and password (replace {{apnu}} and {{apnp}} with operator values; these may be empty for some carriers):
+- Set the APN username and password (replace [apnu] and [apnp] with operator values; these may be empty for some carriers):
 ```sms
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public Plaspy server IP and port:
@@ -129,9 +129,9 @@ protocol123456 18
 ```
 
 Notes about placeholders:
-- {{apn}} is your mobile operator APN string.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is your mobile operator APN string.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
 
 Keep the SMS command order consistent with manufacturer guidance. The reset command is optional and should only be used when you intend to restore factory defaults.
 

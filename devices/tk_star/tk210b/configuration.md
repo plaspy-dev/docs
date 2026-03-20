@@ -84,19 +84,19 @@ The TK-Star TK210B can be configured via SMS using the device password. The exam
 begin123456
 ```
 
-2. Set the operator APN (replace {{apn}} with your SIM operator APN)
+2. Set the operator APN (replace [apn] with your SIM operator APN)
 ```
-apn123456 {{apn}}
-```
-
-3. Set the APN username if required by the operator (replace {{apnu}} with the APN username)
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-4. Set the APN password if required by the operator (replace {{apnp}} with the APN password)
+3. Set the APN username if required by the operator (replace [apnu] with the APN username)
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+4. Set the APN password if required by the operator (replace [apnp] with the APN password)
+```
+apnpasswd123456 [apnp]
 ```
 
 5. Set the GPRS server to Plaspy using the public IP and port
@@ -115,9 +115,9 @@ gprs123456
 ```
 
 Notes on placeholders and usage
-- {{apn}} is the mobile operator APN value required for data connectivity.
-- {{apnu}} is an optional APN username field if your operator requires it.
-- {{apnp}} is an optional APN password field if your operator requires it.
+- [apn] is the mobile operator APN value required for data connectivity.
+- [apnu] is an optional APN username field if your operator requires it.
+- [apnp] is an optional APN password field if your operator requires it.
 - The numeric password 123456 is the example default shown in the public commands. Change the device password after initial setup for improved security.
 
 ## Configuration Notes

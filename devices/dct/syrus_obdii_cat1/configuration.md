@@ -49,7 +49,7 @@ The goal of configuration is to prepare the SYRUS OBDII-CAT1 to communicate reli
 - Access to Syrus Desk or the official manufacturer provisioning tool to load a .tmf script or enter configuration commands.
 - The Plaspy server settings listed above (d.plaspy.com or 54.85.159.138 and port 8888) available to copy into the device configuration.
 - A Plaspy account or the appropriate platform credentials to verify the device appears and reports after setup.
-- Basic knowledge of APN values from your mobile operator to populate the {{apn}}, {{apnu}}, and {{apnp}} placeholders if required.
+- Basic knowledge of APN values from your mobile operator to populate the [apn], [apnu], and [apnp] placeholders if required.
 
 ## How This Tracker Connects to Plaspy
 
@@ -67,7 +67,7 @@ When provisioned, the SYRUS OBDII-CAT1 uses its cellular connection to forward G
 2. Enter d.plaspy.com or 54.85.159.138 as the remote server address in the device configuration.
 3. Set port 8888 as the destination port used by Plaspy across all supported devices.
 4. Choose UDP or TCP if the device requires transport selection and the network supports it.
-5. Configure the APN and optional APN user and password fields using your carrier details (use the {{apn}}, {{apnu}}, {{apnp}} placeholders where applicable).
+5. Configure the APN and optional APN user and password fields using your carrier details (use the [apn], [apnu], [apnp] placeholders where applicable).
 6. Apply or save the configuration and upload the .tmf script to the device using Syrus Desk or the vendor tool.
 7. Restart the device if required by the vendor tool or after saving configuration.
 8. Validate that the device reports to Plaspy by confirming the device appears in your Plaspy account and sends expected telemetry.
@@ -87,10 +87,10 @@ The manufacturer provides a Syrus SB script example that can be saved as a .tmf 
 >SXADP**U<
 
 # configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 
 # The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
@@ -111,17 +111,17 @@ The manufacturer provides a Syrus SB script example that can be saved as a .tmf 
 ```
 
 - Explanation of key elements:
-  - >SRT;CONFIG< and >SXADP**U< are used to delete or reset prior configuration entries and prepare the device for new settings. Treat the deletion as an optional initial reset step if you need to clear previous server entries.
-  - >SRFA{{apn}}< sets the APN string. Replace {{apn}} with your carrier APN value.
-  - >SRFL{{apnu}}< and >SRFP{{apnp}}< set APN username and APN password if required. If no credentials are needed, leave the placeholders blank or omit as your carrier specifies.
-  - >SXADP0000d.plaspy.com;8888< points the device to the Plaspy server domain and the shared port 8888. You may substitute the server IP 54.85.159.138 if your provisioning tool requires an IP.
-  - Event and signal lines such as >STD80300<, >SED37NV4;TD8+<, and >SED05NV4;IP3+< configure reporting triggers and definitions used by the device to send data into Plaspy.
+  - >SRT;CONFIG\< and >SXADP**U\< are used to delete or reset prior configuration entries and prepare the device for new settings. Treat the deletion as an optional initial reset step if you need to clear previous server entries.
+  - >SRFA[apn]\< sets the APN string. Replace [apn] with your carrier APN value.
+  - >SRFL[apnu]\< and >SRFP[apnp]\< set APN username and APN password if required. If no credentials are needed, leave the placeholders blank or omit as your carrier specifies.
+  - >SXADP0000d.plaspy.com;8888\< points the device to the Plaspy server domain and the shared port 8888. You may substitute the server IP 54.85.159.138 if your provisioning tool requires an IP.
+  - Event and signal lines such as >STD80300\<, >SED37NV4;TD8+\<, and >SED05NV4;IP3+\< configure reporting triggers and definitions used by the device to send data into Plaspy.
 
 ## Configuration Notes
 
 - Syrus Desk versions and device firmware may affect exact command syntax and the available configuration fields; always use the manufacturer's recommended tool for your device revision.
 - Choose UDP or TCP based on network reliability and firewall policies; Plaspy accepts both transports and will detect the protocol automatically.
-- Preserve and replace the {{apn}}, {{apnu}}, and {{apnp}} placeholders with values from your mobile operator when configuring cellular access.
+- Preserve and replace the [apn], [apnu], and [apnp] placeholders with values from your mobile operator when configuring cellular access.
 - The sample script includes an initial delete of previous configuration entries; perform this reset only when you intend to clear existing server settings.
 - Use the server domain d.plaspy.com where possible; substitute 54.85.159.138 only if the provisioning system requires a numeric address.
 

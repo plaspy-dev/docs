@@ -90,14 +90,14 @@ GMT,E,0#
 ```
 
 3. Establecer el APN del operador
-- Reemplace {{apn}} por el APN de su operador.
-- Si su operador requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} respectivamente como se muestra en el marcador.
+- Reemplace [apn] por el APN de su operador.
+- Si su operador requiere usuario o contraseña, incluya [apnu] y [apnp] respectivamente como se muestra en el marcador.
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 o con usuario y contraseña opcionales
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Establecer el servidor GPRS a Plaspy usando el dominio (preferido para resolución DNS)
@@ -120,9 +120,9 @@ PARAM#
 ```
 
 Nota sobre los marcadores
-- {{apn}} es el APN del operador móvil requerido para acceso de datos.
-- {{apnu}} es un nombre de usuario APN opcional.
-- {{apnp}} es una contraseña APN opcional.
+- [apn] es el APN del operador móvil requerido para acceso de datos.
+- [apnu] es un nombre de usuario APN opcional.
+- [apnp] es una contraseña APN opcional.
 Mantenga estos marcadores y sustituya sus valores del operador al enviar los comandos SMS.
 
 ## Notas sobre la configuración

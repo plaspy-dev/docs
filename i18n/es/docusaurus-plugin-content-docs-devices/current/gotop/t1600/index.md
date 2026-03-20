@@ -1,6 +1,7 @@
 ---
 slug: /gotop/t1600
 id: t1600
+sidebar_key: gotot1600_index_t1600
 sidebar_label: T1600
 title: GOTOP - T1600
 sidebar_class_name: menu_item_tracker

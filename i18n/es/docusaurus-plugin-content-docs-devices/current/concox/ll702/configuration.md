@@ -74,7 +74,7 @@ El LL702 se configura para abrir una sesión de datos móviles y enviar mensajes
 
 ## Ejemplos de comandos de configuración
 
-Para configurar el LL702 vía SMS, envíe los siguientes comandos públicos en el orden mostrado. Mantenga los marcadores de posición tal como están y reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores de APN de su operador donde corresponda. El reset etiquetado es opcional para el aprovisionamiento inicial.
+Para configurar el LL702 vía SMS, envíe los siguientes comandos públicos en el orden mostrado. Mantenga los marcadores de posición tal como están y reemplace [apn], [apnu] y [apnp] con los valores de APN de su operador donde corresponda. El reset etiquetado es opcional para el aprovisionamiento inicial.
 
 - Optional initial factory reset
 ```text
@@ -89,13 +89,13 @@ GMT,E,0#
 - Set the operator APN
 If your operator requires only an APN
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 If your operator requires APN username and password
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Replace {{apn}} with your operator APN. Replace {{apnu}} and {{apnp}} with APN username and password if required.)
+(Replace [apn] with your operator APN. Replace [apnu] and [apnp] with APN username and password if required.)
 
 - Set the GPRS server to use the Plaspy domain on port 8888
 ```text
@@ -135,7 +135,7 @@ Estos comandos reflejan el flujo público de configuración por SMS para el LL70
 - El LL702 soporta la configuración por SMS como se muestra; también pueden existir herramientas del proveedor o utilidades USB/PC según su suministrador.
 - Puede configurar el servidor Plaspy usando el dominio d.plaspy.com o la IP 54.85.159.138, ambos con el puerto 8888. Plaspy acepta UDP o TCP en ese puerto.
 - Plaspy utiliza el mismo puerto para todos los dispositivos soportados y detecta automáticamente el protocolo al conectarse, reduciendo la necesidad de seleccionar el protocolo por dispositivo.
-- Mantenga los marcadores {{apnu}} y {{apnp}} disponibles por si su operador de SIM requiere autenticación en el APN.
+- Mantenga los marcadores [apnu] y [apnp] disponibles por si su operador de SIM requiere autenticación en el APN.
 
 ## Por qué usar Plaspy con esta configuración
 

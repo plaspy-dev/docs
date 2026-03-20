@@ -75,21 +75,21 @@ When configured, the JT704 reports location and status to the Plaspy server endp
 
 The JT704 supports SMS based configuration. The public Jointech commands below show how to set the GPRS server and APN, and optionally set APN credentials. Replace the placeholders with your actual values and send each line as an SMS from an authorized number to the tracker.
 
-1. Set the GPRS server and APN (replace {{trackerID}} and {{apn}}):
+1. Set the GPRS server and APN (replace {{trackerID}} and [apn]):
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
-2. (Optional) Set the APN user and password if your network requires them (replace {{trackerID}}, {{apnu}}, and {{apnp}}):
+2. (Optional) Set the APN user and password if your network requires them (replace {{trackerID}}, [apnu], and [apnp]):
 ```text
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notes on placeholders:
 - {{trackerID}} — the device ID or identifier used by the JT704 for command addressing. Type or obtain this from the device or Jointech documentation.  
-- {{apn}} — the mobile network APN string required for GPRS data access.  
-- {{apnu}} — optional APN username when the carrier requires authentication.  
-- {{apnp}} — optional APN password when the carrier requires authentication.
+- [apn] — the mobile network APN string required for GPRS data access.  
+- [apnu] — optional APN username when the carrier requires authentication.  
+- [apnp] — optional APN password when the carrier requires authentication.
 
 If your deployment requires selecting UDP or TCP explicitly and the SMS command set above does not include a transport parameter, use the Jointech configuration tool or check the device manual for the specific SMS parameter used to set transport mode.
 

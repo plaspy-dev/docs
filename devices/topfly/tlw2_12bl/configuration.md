@@ -85,10 +85,10 @@ GMT,0000,0#
 
 APN command to set the mobile operator APN and optional APN username and password
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-- {{apn}} placeholder is the operator APN string.
-- {{apnu}} and {{apnp}} are optional APN username and APN password placeholders used if your carrier requires them.
+- [apn] placeholder is the operator APN string.
+- [apnu] and [apnp] are optional APN username and APN password placeholders used if your carrier requires them.
 
 GPRS server command using the public Plaspy server IP and port 8888
 ```

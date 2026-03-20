@@ -89,9 +89,9 @@ The Winrich T18 supports SMS based configuration. Below are the common public SM
 ```
 
 - Set the operator APN
-Note: Replace {{apn}} with your mobile operator APN. If your operator requires an APN username and password, include {{apnu}} and {{apnp}} as provided by your operator.
+Note: Replace [apn] with your mobile operator APN. If your operator requires an APN username and password, include [apnu] and [apnp] as provided by your operator.
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 
 - Set the GPRS server to Plaspy server IP and port

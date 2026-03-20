@@ -77,17 +77,17 @@ Para configurar el rastreador, envíe los siguientes comandos por mensaje de tex
 
 - Configure el APN del operador
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 
 - Configure el usuario del APN (si es necesario)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 
 - Configure la contraseña del APN (si es necesario)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 
 - Configure el servidor GPRS con la IP del servidor Plaspy
@@ -101,9 +101,9 @@ $PORT,8888
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} — reemplácelo por la cadena APN de su operador.
-- {{apnu}} — reemplace por el usuario del APN si su operador lo requiere; omita o deje en blanco si no es necesario.
-- {{apnp}} — reemplace por la contraseña del APN si su operador lo requiere; omita o deje en blanco si no es necesario.
+- [apn] — reemplácelo por la cadena APN de su operador.
+- [apnu] — reemplace por el usuario del APN si su operador lo requiere; omita o deje en blanco si no es necesario.
+- [apnp] — reemplace por la contraseña del APN si su operador lo requiere; omita o deje en blanco si no es necesario.
 
 Estos comandos SMS reflejan los ejemplos públicos provistos por el fabricante. Si su despliegue utiliza aprovisionamiento BLE, aplique el mismo dominio o IP de servidor y los ajustes de puerto mediante la app o la herramienta de aprovisionamiento.
 

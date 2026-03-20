@@ -1,6 +1,7 @@
 ---
 slug: /gotop/l08p
 id: l08p
+sidebar_key: gotol08p_index_l08p
 sidebar_label: L08P
 title: GOTOP - L08P
 sidebar_class_name: menu_item_tracker

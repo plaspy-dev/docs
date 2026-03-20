@@ -77,16 +77,16 @@ El FTM880 envía ubicación y telemetría disponible al endpoint compartido de P
 El siguiente ejemplo muestra el formato de comando por lotes SMS de Teltonika comúnmente usado para escribir parámetros básicos. Conserve los marcadores de posición y reemplácelos con los valores de su operador y cuenta antes de enviar.
 
 - Propósito: establecer APN, usuario APN, contraseña APN, dominio del servidor Plaspy, puerto Plaspy y selección de transporte.
-- Reemplace {{apn}}, {{apnu}} y {{apnp}} con el APN, el usuario APN y la contraseña APN de su operador respectivamente.
+- Reemplace [apn], [apnu] y [apnp] con el APN, el usuario APN y la contraseña APN de su operador respectivamente.
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores de posición y campos:
-- {{apn}} = el APN de su red móvil.  
-- {{apnu}} = usuario APN si lo requiere su operador, de lo contrario deje vacío.  
-- {{apnp}} = contraseña APN si lo requiere su operador, de lo contrario deje vacío.  
+- [apn] = el APN de su red móvil.  
+- [apnu] = usuario APN si lo requiere su operador, de lo contrario deje vacío.  
+- [apnp] = contraseña APN si lo requiere su operador, de lo contrario deje vacío.  
 - 2004 en este comando establece la dirección del servidor Plaspy a d.plaspy.com.  
 - 2005 establece el puerto en 8888 usado por Plaspy.  
 - 2006 se utiliza aquí para indicar la selección de transporte cuando aplica; consulte la documentación de parámetros de Teltonika para el valor correcto para UDP o TCP en su firmware.

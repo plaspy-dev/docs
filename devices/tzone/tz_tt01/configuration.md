@@ -80,15 +80,15 @@ The TZ-TT01 can be configured by SMS using the following public commands. Send t
 
 1. Set the operator APN. If only APN is required:
 ```
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 If APN requires username and password, include the optional placeholders:
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
-- {{apn}} = your mobile operator APN
-- {{apnu}} = APN username (optional)
-- {{apnp}} = APN password (optional)
+- [apn] = your mobile operator APN
+- [apnu] = APN username (optional)
+- [apnp] = APN password (optional)
 
 2. Set the update interval to 60 seconds:
 ```

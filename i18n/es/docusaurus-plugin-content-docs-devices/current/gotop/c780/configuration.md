@@ -78,7 +78,7 @@ Una vez configurado, el C780 envía información de posición y estado al endpoi
 
 El C780 puede configurarse mediante herramientas del fabricante o comandos SMS según el firmware y las herramientas del distribuidor local. La sintaxis exacta de los comandos y los pasos varían según el firmware de GOTOP y las variantes regionales del equipo, por lo que consulte la guía de configuración de GOTOP para los formatos precisos de comando. Plaspy requiere que el dispositivo apunte a d.plaspy.com o 54.85.159.138 en el puerto 8888 y que se configure UDP o TCP si el dispositivo solicita selección de transporte.
 
-Si dispone de ejemplos de comandos SMS o de la herramienta del proveedor en la documentación oficial de GOTOP, colóquelos aquí siguiendo la guía del fabricante y utilice los valores de servidor y puerto indicados arriba. Mantenga marcadores de posición como {{apn}} para la configuración del operador cuando el fabricante los indique.
+Si dispone de ejemplos de comandos SMS o de la herramienta del proveedor en la documentación oficial de GOTOP, colóquelos aquí siguiendo la guía del fabricante y utilice los valores de servidor y puerto indicados arriba. Mantenga marcadores de posición como [apn] para la configuración del operador cuando el fabricante los indique.
 
 ## Notas de configuración
 

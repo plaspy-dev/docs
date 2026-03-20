@@ -87,14 +87,14 @@ RESET*123456
 TIMEZONE*123456*+00
 ```
 
-- Set the APN for your mobile operator. Replace {{apn}} with your operator APN:
+- Set the APN for your mobile operator. Replace [apn] with your operator APN:
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
-- Optionally set the APN username and password if your operator requires them. Replace {{apnu}} and {{apnp}} with your operator credentials:
+- Optionally set the APN username and password if your operator requires them. Replace [apnu] and [apnp] with your operator credentials:
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Configure the GPRS upload server using the Plaspy server IP and port. This example sets the server to 54.85.159.138 and the port to 8888:
@@ -108,8 +108,8 @@ KEEPONLINE*123456
 ```
 
 Notas sobre los marcadores y su uso
-- {{apn}} es el Access Point Name del operador móvil que habilita los datos para la tarjeta SIM.
-- {{apnu}} y {{apnp}} son valores opcionales de usuario y contraseña del APN cuando el operador requiere autenticación.
+- [apn] es el Access Point Name del operador móvil que habilita los datos para la tarjeta SIM.
+- [apnu] y [apnp] son valores opcionales de usuario y contraseña del APN cuando el operador requiere autenticación.
 - El comando IP mostrado usa la IP y el puerto de Plaspy. Si su firmware acepta nombres de dominio, algunos dispositivos permiten d.plaspy.com en lugar de la IP. Verifique la capacidad del firmware en la documentación oficial de Carscop.
 
 ## Notas de configuración

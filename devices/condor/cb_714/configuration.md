@@ -74,16 +74,16 @@ When configured, the CB-714 sends its location and ride telemetry to the Plaspy 
 
 The CB-714 supports SMS-based configuration using the device password. The sample public configuration uses the default password 0000. Preserve placeholders and replace them with your operator or device values when sending commands.
 
-- Set the operator APN. Replace {{apn}} with your operator APN. Optionally include {{apnu}} (APN username) and {{apnp}} (APN password) if required by your carrier.
+- Set the operator APN. Replace [apn] with your operator APN. Optionally include [apnu] (APN username) and [apnp] (APN password) if required by your carrier.
 
   ```
-  APN,0000,{{apn}}
+  APN,0000,[apn]
   ```
 
   Or with optional username and password:
 
   ```
-  APN,0000,{{apn}},{{apnu}},{{apnp}}
+  APN,0000,[apn],[apnu],[apnp]
   ```
 
 - Set a 5-digit identifier (alias). Replace xxxxx with the last 5 digits of the device IMEI. Choose the last five digits of the IMEI as your alias for easy identification.
@@ -132,7 +132,7 @@ The CB-714 supports SMS-based configuration using the device password. The sampl
   CONEXION,0000#
   ```
 
-Important: the password 0000 shown here is the sample default from public configuration examples. If your device has a different password or you have changed it, replace 0000 with the device password. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} in your commands until you replace them with real values.
+Important: the password 0000 shown here is the sample default from public configuration examples. If your device has a different password or you have changed it, replace 0000 with the device password. Keep placeholders such as [apn], [apnu], and [apnp] in your commands until you replace them with real values.
 
 ## Configuration Notes
 

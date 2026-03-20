@@ -80,7 +80,7 @@ Typical manufacturer flows include:
 - Using SMS provisioning commands (where supported) to set server, port, and APN values.
 - Using an installer provisioning tool supplied by your local Huabao reseller for bulk deployment.
 
-If you have the device SMS command set from Huabao, use the commands exactly as documented by the manufacturer to set server and APN values. Preserve any placeholders such as {{apn}}, {{apnu}}, or {{apnp}} when applying SMS templates; these represent the carrier APN and optional APN username or password.
+If you have the device SMS command set from Huabao, use the commands exactly as documented by the manufacturer to set server and APN values. Preserve any placeholders such as [apn], [apnu], or [apnp] when applying SMS templates; these represent the carrier APN and optional APN username or password.
 
 ## Configuration Notes
 

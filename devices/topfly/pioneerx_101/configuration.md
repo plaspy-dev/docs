@@ -81,11 +81,11 @@ GMT,0000,0#
 
 2. Set the operator APN (replace placeholders with your operator values)
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-- {{apn}}   = APN name supplied by your mobile operator  
-- {{apnu}}  = APN username if required (leave blank if not used)  
-- {{apnp}}  = APN password if required (leave blank if not used)
+- [apn]   = APN name supplied by your mobile operator  
+- [apnu]  = APN username if required (leave blank if not used)  
+- [apnp]  = APN password if required (leave blank if not used)
 
 3. Set the GPRS server to Plaspy (IP and port)
 ```text
@@ -111,7 +111,7 @@ Notes on these commands:
 - Firmware and tool differences: command formats and available options may vary across firmware versions and vendor tools; verify the exact syntax for your device firmware.
 - SMS versus software configuration: the PioneerX 101 supports SMS configuration in the public example; if you use the manufacturer's USB or desktop tool, the same server, port, transport, and APN values should be applied.
 - TCP versus UDP: choose UDP or TCP based on your integration requirements; both transports are supported for Plaspy on port 8888 and Plaspy will detect the protocol automatically.
-- APN placeholders: replace {{apn}}, {{apnu}}, and {{apnp}} with your operator values; if username or password are not required, leave those fields empty per your operator instructions.
+- APN placeholders: replace [apn], [apnu], and [apnp] with your operator values; if username or password are not required, leave those fields empty per your operator instructions.
 - Default password: the public example uses the default SMS password 0000; change this password after initial setup if security policy requires it.
 
 ## Why Use Plaspy with This Configuration

@@ -46,7 +46,7 @@ Configurar el FTC880 para Plaspy significa preparar el rastreador para que enví
 
 - Un FTC880 con batería cargada y alimentado, con acceso al método de configuración del fabricante (comandos SMS, herramientas Teltonika o FOTA WEB)  
 - Servicio celular operativo y una SIM activa con los ajustes APN correctos para su operador  
-- Marcadores de APN preparados: {{apn}}, {{apnu}}, {{apnp}} para completar con los valores de su operador según sea necesario  
+- Marcadores de APN preparados: [apn], [apnu], [apnp] para completar con los valores de su operador según sea necesario  
 - Acceso al flujo de configuración de Teltonika o al número de teléfono de control por SMS para enviar comandos si usa configuración vía SMS  
 - Conocimientos básicos sobre si su instalación requiere la selección de UDP o TCP en el dispositivo
 
@@ -62,7 +62,7 @@ El FTC880 transmite posición GNSS y telemetría a través del enlace celular al
 ## Flujo de trabajo típico de configuración
 
 1. Acceda al método oficial de configuración de Teltonika que planea usar (comandos SMS, Teltonika FOTA WEB o una herramienta de configuración de Teltonika).  
-2. Prepare e ingrese los valores APN del operador móvil usando los marcadores {{apn}}, {{apnu}} y {{apnp}} si es necesario.  
+2. Prepare e ingrese los valores APN del operador móvil usando los marcadores [apn], [apnu] y [apnp] si es necesario.  
 3. Ingrese el dominio del servidor de Plaspy d.plaspy.com o la IP 54.85.159.138 como endpoint del dispositivo.  
 4. Configure el puerto del dispositivo en 8888 (Plaspy usa el mismo puerto para todos los dispositivos compatibles).  
 5. Si el dispositivo lo requiere, elija UDP o TCP como opción de transporte.  
@@ -76,12 +76,12 @@ El comando de ejemplo de Teltonika abajo muestra un comando de lote en línea es
 - Ejemplo de comando setparam para parámetros básicos:
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando:
-- {{apn}} es el Access Point Name del operador necesario para los datos celulares.  
-- {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN; complételos solo si su operador exige autenticación.  
+- [apn] es el Access Point Name del operador necesario para los datos celulares.  
+- [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN; complételos solo si su operador exige autenticación.  
 - 2004:d.plaspy.com establece el dominio del servidor en Plaspy. Puede sustituir 54.85.159.138 por la IP del servidor si lo prefiere.  
 - 2005:8888 establece el puerto de Plaspy usado para todos los dispositivos.  
 - 2006:1 es un parámetro de ejemplo incluido; su correspondencia exacta (por ejemplo para la selección de transporte) depende del dispositivo y firmware. Consulte la documentación de Teltonika o la herramienta de configuración para el significado preciso de cada parámetro.
@@ -93,7 +93,7 @@ Si usa Teltonika FOTA WEB o una utilidad de configuración de escritorio, los mi
 - Las versiones de firmware de Teltonika y los códigos de parámetro pueden variar; confirme los números de parámetro y la sintaxis en el manual del FTC880 o en la documentación de soporte de Teltonika.  
 - La configuración por SMS suele estar soportada en los dispositivos Teltonika, pero asegúrese de que el dispositivo acepte SMS desde su número de configuración y de que el control por SMS esté habilitado.  
 - Elija UDP o TCP para el transporte según su red y los requisitos del firmware del dispositivo; Plaspy aceptará cualquiera en el puerto 8888.  
-- Reemplace siempre {{apn}}, {{apnu}} y {{apnp}} con las credenciales de su proveedor celular cuando sea necesario.  
+- Reemplace siempre [apn], [apnu] y [apnp] con las credenciales de su proveedor celular cuando sea necesario.  
 - Tras aplicar los ajustes, permita un breve lapso para que el dispositivo establezca sesión y para que Plaspy detecte y analice automáticamente el protocolo del rastreador.
 
 ## Por qué usar Plaspy con esta configuración

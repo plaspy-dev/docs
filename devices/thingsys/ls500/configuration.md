@@ -87,13 +87,13 @@ FACTORY*123456
 ```text
 TIMEZONE*123456*+00
 ```
-- Set the operator APN. Replace {{apn}} with your operator APN:
+- Set the operator APN. Replace [apn] with your operator APN:
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-- Set the APN username and password. Replace {{apnu}} and {{apnp}} with your APN credentials:
+- Set the APN username and password. Replace [apnu] and [apnp] with your APN credentials:
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 - Set the GPRS server to the Plaspy server IP and port. This sets the device to report to Plaspy at the required port:
 ```text
@@ -105,8 +105,8 @@ INTERVAL*123456*060
 ```
 
 Notes on placeholders and verification:
-- {{apn}} is the operator APN string required for GPRS data connections.
-- {{apnu}} and {{apnp}} are optional APN username and password fields if the operator requires authentication.
+- [apn] is the operator APN string required for GPRS data connections.
+- [apnu] and [apnp] are optional APN username and password fields if the operator requires authentication.
 - The example above uses the server IP and the explicit port value as shown. You may alternatively enter d.plaspy.com in manufacturer tools that accept a domain name.
 - The public content includes a verification note to check settings for TCP; ensure the transport selection matches your configuration choice.
 

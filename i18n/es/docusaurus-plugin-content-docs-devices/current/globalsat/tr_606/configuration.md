@@ -85,14 +85,14 @@ TSPRXAB27GHKLMnaicz*U!
 
 - Comando SMS plantilla para configurar APN y ajustes del servidor Plaspy:
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Explicación de los marcadores:
   - {{imei}} — el número IMEI del dispositivo (requerido por el rastreador para dirigir el comando).
-  - {{apn}} — nombre del APN del operador.
-  - {{apnu}} — nombre de usuario del APN si el operador lo requiere.
-  - {{apnp}} — contraseña del APN si el operador la requiere.
+  - [apn] — nombre del APN del operador.
+  - [apnu] — nombre de usuario del APN si el operador lo requiere.
+  - [apnp] — contraseña del APN si el operador la requiere.
   - {{checksum}} — checksum de dos caracteres en hexadecimal mayúscula calculado sobre la cadena del comando hasta justo antes del carácter asterisco.
 
 2) Comando de reinicio opcional para aplicar ajustes (etiquetado aquí como opcional pero recomendado cuando el firmware lo requiere):

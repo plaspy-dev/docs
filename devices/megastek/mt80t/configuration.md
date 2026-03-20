@@ -84,9 +84,9 @@ The MT80T may be configured by sending SMS commands to the device phone number. 
 M000000,22,XXXXXXXXXXXXXXX
 ```
 
-2) Set the operator APN. Replace {{apn}}, {{apnu}}, and {{apnp}} with your carrier APN, APN username, and APN password as required. The username and password fields may be omitted if not required by the operator.
+2) Set the operator APN. Replace [apn], [apnu], and [apnp] with your carrier APN, APN username, and APN password as required. The username and password fields may be omitted if not required by the operator.
 ```text
-M000000,23,{{apn}}{{,{{apnu}},{{apnp}}}}
+M000000,23,[apn]{{,[apnu],[apnp]}}
 ```
 
 3) Set the update interval to 60 seconds
@@ -105,8 +105,8 @@ M000000,21,2
 ```
 
 - Usage notes for the placeholders
-  - {{apn}} is the mobile operator APN string.  
-  - {{apnu}} and {{apnp}} are optional APN username and password fields if your operator requires them.  
+  - [apn] is the mobile operator APN string.  
+  - [apnu] and [apnp] are optional APN username and password fields if your operator requires them.  
   - Retain the default password 000000 in commands unless your device is configured with a different password.
 
 ## Configuration Notes

@@ -1,6 +1,7 @@
 ---
 slug: /autofon/se_beacon
 id: se_beacon
+sidebar_key: autofose_beacon_index_se_beacon
 sidebar_label: SE+ Beacon
 title: AutoFon - SE+ Beacon
 sidebar_class_name: menu_item_tracker

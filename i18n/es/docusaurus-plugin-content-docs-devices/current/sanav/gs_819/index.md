@@ -1,6 +1,7 @@
 ---
 slug: /sanav/gs_819
 id: gs_819
+sidebar_key: sanags_819_index_gs_819
 sidebar_label: GS-819
 title: Sanav - GS-819
 sidebar_class_name: menu_item_tracker

@@ -90,15 +90,15 @@ GMT,E,0#
 
 3. Set the operator APN
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 If your APN requires a username and password include the placeholders:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- {{apn}} = your operator APN name
-- {{apnu}} = APN username if required (leave blank if not used)
-- {{apnp}} = APN password if required (leave blank if not used)
+- [apn] = your operator APN name
+- [apnu] = APN username if required (leave blank if not used)
+- [apnp] = APN password if required (leave blank if not used)
 
 4. Point the device to the Plaspy GPRS server
 ```text

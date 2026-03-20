@@ -86,12 +86,12 @@ SET TZ +00:00
 
 - Set the operator APN. Preserve placeholders and replace with your operator values
 ```
-SET APN {{apn}},{{apnu}},{{apnp}}
+SET APN [apn],[apnu],[apnp]
 ```
 Explanation of placeholders:
-- {{apn}} is the operator APN name
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the operator APN name
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 - Set the GPRS server to the Plaspy IP address and port
 ```

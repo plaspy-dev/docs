@@ -77,19 +77,19 @@ Una vez configurado, el AT405 transmite la ubicación GNSS y la telemetría disp
 
 El AT405 admite configuración vía SMS en muchas versiones de firmware. Los siguientes comandos son ejemplos públicos en formato SMS que se usan comúnmente para establecer el APN y los ajustes del servidor Plaspy. Envíe cada comando como un SMS separado al número del dispositivo desde un número autorizado.
 
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador)
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador)
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 
-- (Opcional) Establecer el usuario del APN si su operador lo requiere (reemplace {{apnu}} por el usuario del APN)
+- (Opcional) Establecer el usuario del APN si su operador lo requiere (reemplace [apnu] por el usuario del APN)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 
-- (Opcional) Establecer la contraseña del APN si su operador lo requiere (reemplace {{apnp}} por la contraseña del APN)
+- (Opcional) Establecer la contraseña del APN si su operador lo requiere (reemplace [apnp] por la contraseña del APN)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 
 - Establecer el servidor GPRS a la IP de Plaspy
@@ -103,9 +103,9 @@ $PORT,8888
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es la cadena APN de su operador móvil.
-- {{apnu}} es el usuario del APN si el operador lo solicita.
-- {{apnp}} es la contraseña del APN si el operador lo solicita.
+- [apn] es la cadena APN de su operador móvil.
+- [apnu] es el usuario del APN si el operador lo solicita.
+- [apnp] es la contraseña del APN si el operador lo solicita.
 
 Envíe los comandos opcionales de usuario y contraseña del APN solo si su operador exige autenticación. Tras enviar estos SMS, aplique/guarde los ajustes y reinicie el AT405 si el firmware del dispositivo lo recomienda.
 

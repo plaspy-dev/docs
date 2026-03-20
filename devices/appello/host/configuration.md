@@ -48,7 +48,7 @@ Note that Plaspy uses the same port for all supported devices so the port value 
 
 - A charged tracker with access to the device's SMS configuration method or official configuration tool.  
 - An active SIM card with mobile data and SMS enabled if using GPRS and SMS configuration.  
-- APN, APN username, and APN password for the mobile operator to populate the {{apn}}, {{apnu}}, and {{apnp}} placeholders.  
+- APN, APN username, and APN password for the mobile operator to populate the [apn], [apnu], and [apnp] placeholders.  
 - Access to the manufacturer's instructions or support channels for firmware specific behavior.  
 - Basic knowledge of sending SMS commands to the device when using SMS configuration.  
 - A Plaspy account or administrator who can confirm device presence in the Plaspy platform after configuration.
@@ -85,9 +85,9 @@ Note: The factory reset command is optional and typically used only when require
 
 - Set operator APN (replace placeholders with your operator values)
 ```text
-00011,123456apn,{{apn}},{{apnu}},{{apnp}}
+00011,123456apn,[apn],[apnu],[apnp]
 ```
-Explanation: replace {{apn}} with your mobile operator APN, {{apnu}} with the APN username if required, and {{apnp}} with the APN password if required. The command uses the device default password 123456 shown in the public configuration example.
+Explanation: replace [apn] with your mobile operator APN, [apnu] with the APN username if required, and [apnp] with the APN password if required. The command uses the device default password 123456 shown in the public configuration example.
 
 - Set GPRS server to Plaspy by IP and port
 ```text
@@ -108,7 +108,7 @@ Send each SMS from the registered phone number or method required by the device.
 - Manufacturer tools and firmware versions may change the exact command syntax or available parameters; always confirm with the latest manufacturer documentation.  
 - SMS based configuration is provided by the example commands but many deployments use the manufacturer's software or provisioning tools where available.  
 - Choose UDP or TCP based on the device interface options; Plaspy accepts either transport on port 8888.  
-- Replace APN placeholders {{apn}}, {{apnu}}, and {{apnp}} with operator values; missing or incorrect APN settings will prevent GPRS connectivity.  
+- Replace APN placeholders [apn], [apnu], and [apnp] with operator values; missing or incorrect APN settings will prevent GPRS connectivity.  
 - Consider changing the default device password after initial configuration to improve device security where supported.
 
 ## Why Use Plaspy with This Configuration

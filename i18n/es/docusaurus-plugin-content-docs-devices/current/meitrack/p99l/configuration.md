@@ -72,7 +72,7 @@ El P99L se configura para enviar ubicación y telemetría básica a Plaspy apunt
 
 ## Comandos de configuración de ejemplo
 
-El P99L soporta configuración por SMS. A continuación se muestran comandos SMS públicos de ejemplo usados para configurar el dispositivo con Plaspy. Los comandos de muestra usan la contraseña por defecto del dispositivo 0000. Reemplace los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} con el APN y las credenciales de su operador.
+El P99L soporta configuración por SMS. A continuación se muestran comandos SMS públicos de ejemplo usados para configurar el dispositivo con Plaspy. Los comandos de muestra usan la contraseña por defecto del dispositivo 0000. Reemplace los marcadores de posición como [apn], [apnu] y [apnp] con el APN y las credenciales de su operador.
 
 - Restauración inicial opcional a valores de fábrica o a una base conocida (usar sólo cuando sea necesario):
 ```text
@@ -80,11 +80,11 @@ El P99L soporta configuración por SMS. A continuación se muestran comandos SMS
 ```
 - Establecer el servidor GPRS para usar Plaspy por IP y puerto. Forma básica con solo APN:
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 - Comando alternativo de servidor incluyendo nombre de usuario y contraseña del APN:
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 - Establecer la zona horaria a UTC 0:
 ```text
@@ -100,15 +100,15 @@ El P99L soporta configuración por SMS. A continuación se muestran comandos SMS
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} — reemplace con el APN del operador de su SIM.
-- {{apnu}} — reemplace con el usuario del APN si el operador lo requiere; omita si no es necesario.
-- {{apnp}} — reemplace con la contraseña del APN si el operador lo requiere; omita si no es necesario.
+- [apn] — reemplace con el APN del operador de su SIM.
+- [apnu] — reemplace con el usuario del APN si el operador lo requiere; omita si no es necesario.
+- [apnp] — reemplace con la contraseña del APN si el operador lo requiere; omita si no es necesario.
 
 ## Notas de configuración
 
 - La configuración vía SMS es un método común y soportado para dispositivos Meitrack; las diferencias de firmware pueden cambiar los comandos soportados o el formato de parámetros.
 - Elija UDP o TCP según su preferencia operativa; Plaspy soporta ambos y detecta automáticamente el protocolo entrante.
-- Confirme siempre y reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}} con los valores específicos de su operador.
+- Confirme siempre y reemplace marcadores como [apn], [apnu] y [apnp] con los valores específicos de su operador.
 - La contraseña por defecto usada en los ejemplos es 0000; cambie la contraseña del dispositivo después de la configuración inicial por seguridad operativa.
 - Variantes regionales de firmware y modulaciones de radio pueden cambiar la sintaxis exacta de comandos o parámetros disponibles; consulte la documentación del fabricante cuando tenga dudas.
 

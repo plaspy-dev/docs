@@ -95,11 +95,11 @@ AT$FORM=1,@P,0,""
 
 - Configurar el servidor GPRS apuntando a Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 Notas sobre los marcadores de posición
-- {{apn}} es la cadena APN del operador necesaria para datos móviles.
-- {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña del APN; déjelos vacíos si su operador no los requiere.
+- [apn] es la cadena APN del operador necesaria para datos móviles.
+- [apnu] y [apnp] son campos opcionales de usuario y contraseña del APN; déjelos vacíos si su operador no los requiere.
 
 - Comprobar estado del dispositivo (verificación)
 ```text

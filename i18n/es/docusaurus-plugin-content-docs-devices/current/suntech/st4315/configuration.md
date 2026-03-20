@@ -83,13 +83,13 @@ Nota sobre el ID del dispositivo
 - El cuarto campo es 1 si se proporciona nombre de usuario o contraseña de APN, de lo contrario 0. Reemplace DEVICEID con el ID de seis dígitos y mantenga los marcadores de posición de APN según corresponda.
 
 ```
-SA200NTW;DEVICEID;02;[1 or 0];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;DEVICEID;02;[1 or 0];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Ejemplo con explicación de marcadores de posición:
-- {{apn}} = el APN de su operador móvil
-- {{apnu}} = nombre de usuario del APN si lo requiere el operador
-- {{apnp}} = contraseña del APN si lo requiere el operador
+- [apn] = el APN de su operador móvil
+- [apnu] = nombre de usuario del APN si lo requiere el operador
+- [apnp] = contraseña del APN si lo requiere el operador
 - DEVICEID = ID de dispositivo de seis dígitos derivado del IMEI
 
 2) Establecer intervalos de reporte/actualización a 60 segundos

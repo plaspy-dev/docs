@@ -77,13 +77,13 @@ El FMM130 puede configurarse usando un formato de comando por lotes para paráme
 - Ejemplo de comando batch setparam
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando y los marcadores:
-- {{apn}} es el nombre del APN de la red móvil requerido por su SIM
-- {{apnu}} es el usuario del APN si su operador lo solicita
-- {{apnp}} es la contraseña del APN si su operador lo solicita
+- [apn] es el nombre del APN de la red móvil requerido por su SIM
+- [apnu] es el usuario del APN si su operador lo solicita
+- [apnp] es la contraseña del APN si su operador lo solicita
 - 2004 en este comando apunta el dispositivo a d.plaspy.com y 2005 establece el puerto 8888
 - 2006 se incluye en el ejemplo como una bandera de parámetro del dispositivo; verifique el significado exacto según su firmware en la documentación de Teltonika
 - Este comando puede aplicarse vía SMS o mediante utilidades de configuración de Teltonika según su instalación y firmware

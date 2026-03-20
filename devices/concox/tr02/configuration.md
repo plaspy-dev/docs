@@ -87,15 +87,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-3. Set the operator APN. Replace {{apn}} with your operator APN. If your operator requires an APN username or password, include {{apnu}} and {{apnp}}:
+3. Set the operator APN. Replace [apn] with your operator APN. If your operator requires an APN username or password, include [apnu] and [apnp]:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 Or with username and password:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Placeholders: {{apn}} = APN string, {{apnu}} = APN username, {{apnp}} = APN password.)
+(Placeholders: [apn] = APN string, [apnu] = APN username, [apnp] = APN password.)
 
 4. Set the GPRS server to the Plaspy domain or IP (either option works). These commands set server and port for reporting:
 ```
@@ -133,7 +133,7 @@ Send these SMS commands in the order shown for a typical initial setup. If you u
 - The TR02 supports SMS-based configuration as shown above; alternative manufacturer tools may also be available for mass configuration.
 - You can point the device to d.plaspy.com or to the numeric server IP; both are accepted in the public commands above.
 - For transport selection, pick UDP or TCP if the device firmware asks; Plaspy accepts both and will detect the protocol automatically.
-- Keep APN placeholders ({{apn}}, {{apnu}}, {{apnp}}) intact when preparing messages; replace them with your operator credentials.
+- Keep APN placeholders ([apn], [apnu], [apnp]) intact when preparing messages; replace them with your operator credentials.
 
 ## Why Use Plaspy with This Configuration
 

@@ -82,7 +82,7 @@ Los comandos de configuración del modelo YG119 varían según el firmware de Ca
 - Use el puerto 8888
 - Seleccione UDP o TCP si es necesario
 
-Si recibe ejemplos de comandos suministrados por CanTrack que incluyen marcadores como {{apn}}, {{apnu}} o {{apnp}}, mantenga esos marcadores al emitir los comandos y reemplácelos por los ajustes APN de su operador móvil. Consulte la documentación de CanTrack para ejemplos de comandos apropiados a su firmware.
+Si recibe ejemplos de comandos suministrados por CanTrack que incluyen marcadores como [apn], [apnu] o [apnp], mantenga esos marcadores al emitir los comandos y reemplácelos por los ajustes APN de su operador móvil. Consulte la documentación de CanTrack para ejemplos de comandos apropiados a su firmware.
 
 ## Notas de configuración
 

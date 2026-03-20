@@ -74,7 +74,7 @@ El SafeDrive se configura para enviar sus sesiones de datos a la dirección y pu
 
 ## Comandos de configuración de ejemplo
 
-El SafeDrive soporta configuración por SMS. Los comandos a continuación son ejemplos públicos usados para preparar el dispositivo para Plaspy. La contraseña predeterminada de muestra en estos ejemplos es 123456. Reemplace los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} con los valores específicos de su operador.
+El SafeDrive soporta configuración por SMS. Los comandos a continuación son ejemplos públicos usados para preparar el dispositivo para Plaspy. La contraseña predeterminada de muestra en estos ejemplos es 123456. Reemplace los marcadores de posición como [apn], [apnu] y [apnp] con los valores específicos de su operador.
 
 - Comando de restablecimiento de fábrica (opcional)
 ```text
@@ -88,14 +88,14 @@ time zone123456 0
 
 - Establecer el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Establecer usuario y contraseña del APN si el operador lo requiere
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Nota: {{apnu}} es el marcador de usuario del APN y {{apnp}} es el marcador de contraseña del APN. Si su operador no requiere credenciales, este comando puede omitirse.
+Nota: [apnu] es el marcador de usuario del APN y [apnp] es el marcador de contraseña del APN. Si su operador no requiere credenciales, este comando puede omitirse.
 
 - Establecer el servidor GPRS a Plaspy usando la IP y el puerto
 ```text

@@ -48,7 +48,7 @@ El objetivo del proceso de configuración es que el ST-901M reenvíe sus reporte
 - Acceso al rastreador para realizar la configuración por SMS o acceso a la herramienta del proveedor que emite los mismos comandos.
 - Alimentación y una instalación fija apropiada para uso en vehículo para que el dispositivo pueda registrarse en la red.
 - El IMEI del dispositivo y acceso a cualquier credencial de instalador o administrador que el proveedor requiera para enviar comandos SMS de configuración.
-- Confirmación de los valores APN, APN usuario y APN contraseña de su operador para completar los marcadores {{apn}}, {{apnu}} y {{apnp}}.
+- Confirmación de los valores APN, APN usuario y APN contraseña de su operador para completar los marcadores [apn], [apnu] y [apnp].
 - Acceso a la documentación oficial de SinoTrack o al soporte del proveedor para instrucciones específicas de firmware si el comportamiento difiere de esta guía.
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -88,12 +88,12 @@ El ST-901M puede configurarse mediante comandos SMS. Los siguientes comandos pú
 
 - Configurar el APN del operador móvil
   ```
-  8030000 {{apn}} {{apnu}} {{apnp}}
+  8030000 [apn] [apnu] [apnp]
   ```
   Donde:
-  - {{apn}} es la cadena APN del operador
-  - {{apnu}} es el nombre de usuario APN si el operador lo requiere (dejar vacío si no se usa)
-  - {{apnp}} es la contraseña APN si el operador lo requiere (dejar vacío si no se usa)
+  - [apn] es la cadena APN del operador
+  - [apnu] es el nombre de usuario APN si el operador lo requiere (dejar vacío si no se usa)
+  - [apnp] es la contraseña APN si el operador lo requiere (dejar vacío si no se usa)
 
 - Configurar el servidor GPRS hacia Plaspy usando la IP del servidor y el puerto
   ```
@@ -127,7 +127,7 @@ El ST-901M puede configurarse mediante comandos SMS. Los siguientes comandos pú
 ## Notas de configuración
 
 - El conjunto de comandos SMS y la sintaxis exacta pueden variar según la versión de firmware y la herramienta del proveedor, por lo que verifique los comandos con la documentación del dispositivo antes de desplegar a gran escala.
-- Use los marcadores {{apn}}, {{apnu}} y {{apnp}} para insertar los valores de su operador; deje usuario o contraseña en blanco si el operador no los requiere.
+- Use los marcadores [apn], [apnu] y [apnp] para insertar los valores de su operador; deje usuario o contraseña en blanco si el operador no los requiere.
 - El dispositivo admite configurar el servidor por IP o por dominio. Si su firmware acepta dominios, puede usar d.plaspy.com en lugar de la IP.
 - Elija UDP o TCP según la preferencia del instalador o la compatibilidad del firmware; Plaspy acepta cualquiera de los dos en el puerto 8888 y detecta automáticamente el protocolo del rastreador.
 - La configuración por SMS es útil cuando el dispositivo está instalado en campo y no hay acceso inmediato a una consola, pero asegúrese de que la SIM tenga capacidad de SMS y señal suficiente.

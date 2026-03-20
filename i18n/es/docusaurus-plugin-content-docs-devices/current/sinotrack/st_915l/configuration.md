@@ -46,7 +46,7 @@ Este proceso prepara el ST-915L para enviar ubicación y telemetría a Plaspy me
 
 - Un ST-915L con batería y una tarjeta SIM operativa que tenga datos y SMS habilitados.
 - Acceso al método de configuración por SMS del equipo o a una herramienta aprobada por el fabricante para enviar comandos SMS de configuración.
-- Los ajustes APN del operador móvil para configurar el acceso GPRS usando los marcadores de posición {{apn}} {{apnu}} y {{apnp}}.
+- Los ajustes APN del operador móvil para configurar el acceso GPRS usando los marcadores de posición [apn] [apnu] y [apnp].
 - Conocimiento de si el firmware del dispositivo espera una dirección IP o un dominio para la configuración del servidor.
 - Una cuenta de prueba o acceso a Plaspy para confirmar que el dispositivo aparece y reporta tras la configuración.
 - Herramientas básicas para el envío de SMS, como un teléfono con capacidad de mensajes y el número del dispositivo.
@@ -88,9 +88,9 @@ RESET
 
 - Establecer el APN del operador usando marcadores de posición
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-Nota: Mantenga los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por el nombre APN del operador, el usuario APN y la contraseña APN según sea necesario. Si su operador no usa usuario ni contraseña, deje esos marcadores vacíos.
+Nota: Mantenga los marcadores de posición [apn], [apnu] y [apnp] y reemplácelos por el nombre APN del operador, el usuario APN y la contraseña APN según sea necesario. Si su operador no usa usuario ni contraseña, deje esos marcadores vacíos.
 
 - Configurar el servidor GPRS para apuntar a Plaspy usando la IP y el puerto de Plaspy
 ```text

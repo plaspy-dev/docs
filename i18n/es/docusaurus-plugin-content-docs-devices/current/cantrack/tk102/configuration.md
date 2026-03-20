@@ -51,7 +51,7 @@ Tenga en cuenta que Plaspy utiliza el mismo puerto para todos los dispositivos c
 - Un TK102 con batería cargada y/o fuente de alimentación conectada.
 - Una tarjeta SIM activa que soporte GSM y datos GPRS y que pueda enviar y recibir SMS.
 - Acceso al número telefónico del dispositivo para enviar comandos SMS de configuración.
-- El APN del operador y, opcionalmente, el usuario y la contraseña del APN (conserve marcadores como {{apn}}, {{apnu}} y {{apnp}} si se usan).
+- El APN del operador y, opcionalmente, el usuario y la contraseña del APN (conserve marcadores como [apn], [apnu] y [apnp] si se usan).
 - Documentación del fabricante o el manual del dispositivo para referencia de comandos SMS y notas específicas del firmware.
 - Opcional: una forma de monitorizar logs del servidor o la actividad del dispositivo en Plaspy para confirmar el reporte correcto.
 
@@ -91,9 +91,9 @@ El TK102 suele admitir configuración por SMS. Los comandos de ejemplo públicos
 
 - Establecer el APN del operador (reemplazar marcadores según corresponda)
 ```text
-#apn#123456#{{apn}}#{{apnu}}#{{apnp}}#
+#apn#123456#[apn]#[apnu]#[apnp]#
 ```
-Explicación: {{apn}} es el APN de su operador. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN; omítalos si su operador no los requiere.
+Explicación: [apn] es el APN de su operador. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN; omítalos si su operador no los requiere.
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
 ```text

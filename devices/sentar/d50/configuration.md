@@ -93,9 +93,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Set operator APN where {{apn}} is the APN name, {{apnu}} is the APN username, {{apnp}} is the APN password, and xxxyy is MCC+MNC if required
+- Set operator APN where [apn] is the APN name, [apnu] is the APN username, [apnp] is the APN password, and xxxyy is MCC+MNC if required
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Set GPRS server to Plaspy using the public IP and port
@@ -114,7 +114,7 @@ pw,123456,ts#
 ```
 
 Notes on placeholders and formatting:
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for your carrier APN name, APN username, and APN password. Replace them with your carrier values when sending commands.
+- [apn], [apnu], and [apnp] are placeholders for your carrier APN name, APN username, and APN password. Replace them with your carrier values when sending commands.
 - The sample device password shown above is 123456 as provided in the public setup content. Use the device’s current password if it has been changed.
 - The commands are presented as published. Syntax and separators can vary by firmware version. Confirm exact command syntax with Sentar documentation if a command is not accepted.
 

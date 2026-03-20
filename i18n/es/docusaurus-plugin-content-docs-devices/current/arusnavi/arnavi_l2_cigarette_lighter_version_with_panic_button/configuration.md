@@ -86,7 +86,7 @@ Si dispone de ejemplos de comandos o plantillas SMS proporcionadas por Arnavi, m
 
 - Las diferencias de firmware pueden cambiar los elementos del menú disponibles, los nombres de los campos y la ubicación exacta donde se ingresan el servidor y el puerto; verifique siempre la versión de firmware antes de seguir un flujo de trabajo.
 - Elija UDP o TCP según lo requiera la herramienta del fabricante; Plaspy acepta cualquiera de los dos transportes en el puerto 8888 y detectará el protocolo automáticamente.
-- Al usar una configuración basada en APN, conserve los marcadores de posición que proporcione la herramienta del proveedor como {{apn}}, {{apnu}} o {{apnp}} y reemplácelos por los valores de su operador de SIM.
+- Al usar una configuración basada en APN, conserve los marcadores de posición que proporcione la herramienta del proveedor como [apn], [apnu] o [apnp] y reemplácelos por los valores de su operador de SIM.
 - Si usa configuración por USB o BLE, asegúrese de que los controladores del dispositivo y las versiones de la app móvil coincidan con las recomendaciones del fabricante para evitar escrituras incompletas.
 - Confirme que el plan de la SIM soporte datos GPRS y que la cobertura de red sea suficiente para reportes en tiempo real y cargas de registros.
 

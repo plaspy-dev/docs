@@ -46,7 +46,7 @@ This configuration process prepares the V-SUN V-680 to communicate with Plaspy b
 
 - A working SIM card with data enabled and SMS capability placed in the V-680
 - Power for the device and access to the tracker phone number for SMS setup
-- Knowledge of the mobile operator APN; placeholders {{apn}}, {{apnu}}, and {{apnp}} are used below
+- Knowledge of the mobile operator APN; placeholders [apn], [apnu], and [apnp] are used below
 - Access to the manufacturer SMS configuration method or official configuration tool
 - The device password if it has been changed from the default 0000
 
@@ -78,9 +78,9 @@ The V-680 supports SMS based configuration. The public example commands below ar
 ```
 *RESET#0000##
 ```
-2. Set the operator APN. Replace {{apn}} with your operator APN. If your APN requires a username or password, include {{apnu}} and {{apnp}} respectively. The placeholder segments shown are optional depending on your operator.
+2. Set the operator APN. Replace [apn] with your operator APN. If your APN requires a username or password, include [apnu] and [apnp] respectively. The placeholder segments shown are optional depending on your operator.
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}#
+#803#0000#[apn]#[apnu]#[apnp]#
 ```
 3. Set the GPRS server using the Plaspy IP and port. This command uses the Plaspy server IP 54.85.159.138 and port 8888 shown in this guide.
 ```
@@ -104,8 +104,8 @@ The V-680 supports SMS based configuration. The public example commands below ar
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator Access Point Name required for GPRS data.
-- {{apnu}} and {{apnp}} are optional APN username and password fields if your operator requires them.
+- [apn] is the mobile operator Access Point Name required for GPRS data.
+- [apnu] and [apnp] are optional APN username and password fields if your operator requires them.
 - Replace the default password 0000 if the device password has been changed.
 
 ## Configuration Notes

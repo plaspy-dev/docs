@@ -68,7 +68,7 @@ When configured to report to Plaspy, the FMU125 sends GNSS based location update
 2. Enter the Plaspy server domain d.plaspy.com or the server IP 54.85.159.138 in the server or primary host parameter on the device.
 3. Set the device port to 8888 which is the common port used by Plaspy for all supported devices.
 4. Choose UDP or TCP on the device if a transport selection is required by the firmware.
-5. Provide APN credentials using placeholders such as {{apn}} {{apnu}} and {{apnp}} where needed for cellular data.
+5. Provide APN credentials using placeholders such as [apn] [apnu] and [apnp] where needed for cellular data.
 6. Apply or save the configuration in the Teltonika tool and restart the tracker if the tool or device requires a reboot.
 7. Validate that the device successfully reports to Plaspy by checking device status in the platform or by monitoring the device reply method available.
 
@@ -79,13 +79,13 @@ The following public batch command is commonly used to set basic network and ser
 - Batch command example
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - What the placeholders mean
-  - {{apn}} Replace with your SIM data APN name.
-  - {{apnu}} Replace with the APN username if your carrier requires one; leave blank if not used.
-  - {{apnp}} Replace with the APN password if required; leave blank if not used.
+  - [apn] Replace with your SIM data APN name.
+  - [apnu] Replace with the APN username if your carrier requires one; leave blank if not used.
+  - [apnp] Replace with the APN password if required; leave blank if not used.
 
 Note: This command sets APN placeholders and the Plaspy server domain d.plaspy.com with port 8888 in a single batch command. Parameter numbers map to Teltonika device parameters; consult Teltonika documentation for the exact parameter map and for meaning of parameter 2006 before applying.
 

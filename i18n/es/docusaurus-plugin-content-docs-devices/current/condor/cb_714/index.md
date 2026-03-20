@@ -1,6 +1,7 @@
 ---
 slug: /condor/cb_714
 id: cb_714
+sidebar_key: condocb_714_index_cb_714
 sidebar_label: CB-714
 title: Condor - CB-714
 sidebar_class_name: menu_item_tracker

@@ -77,7 +77,7 @@ El FM‑Pro4 se configura para enviar su telemetría y datos a bordo al endpoint
 
 Los comandos exactos y las plantillas SMS para el FM‑Pro4 dependen del firmware de Ruptela y de la herramienta de configuración que esté usando. Los fabricantes suelen proporcionar utilidades de configuración de escritorio y familias de comandos SMS. Dado que los comandos varían según el firmware y la distribución, use la documentación de Ruptela o la herramienta de configuración incluida para la sintaxis específica del dispositivo.
 
-Si planea configurar por SMS con un firmware FM‑Pro4 compatible, consulte la referencia de comandos SMS de Ruptela para obtener las plantillas y marcadores correctos. Los marcadores típicos que puede ver en los comandos incluyen tokens relacionados con el APN como {{apn}}, {{apnu}} y {{apnp}}, que deben reemplazarse por las credenciales de su proveedor de SIM cuando sea necesario.
+Si planea configurar por SMS con un firmware FM‑Pro4 compatible, consulte la referencia de comandos SMS de Ruptela para obtener las plantillas y marcadores correctos. Los marcadores típicos que puede ver en los comandos incluyen tokens relacionados con el APN como [apn], [apnu] y [apnp], que deben reemplazarse por las credenciales de su proveedor de SIM cuando sea necesario.
 
 ## Notas de configuración
 

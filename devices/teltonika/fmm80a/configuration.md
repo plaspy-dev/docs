@@ -79,13 +79,13 @@ The FMM80A can be configured using Teltonika SMS or bulk commands to set APN and
 - Example command to set APN and Plaspy server parameters
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders
-- {{apn}} — APN name provided by your cellular provider.
-- {{apnu}} — APN username if required by the provider; leave empty if not required.
-- {{apnp}} — APN password if required by the provider; leave empty if not required.
+- [apn] — APN name provided by your cellular provider.
+- [apnu] — APN username if required by the provider; leave empty if not required.
+- [apnp] — APN password if required by the provider; leave empty if not required.
 
 This example may be sent via SMS or applied through Teltonika Configurator depending on your chosen configuration workflow and device firmware.
 

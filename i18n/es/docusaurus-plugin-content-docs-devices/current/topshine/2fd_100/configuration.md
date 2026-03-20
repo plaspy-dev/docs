@@ -86,18 +86,18 @@ W000000,990,099###
 
 2. Configurar el Id del dispositivo
 - Use los primeros 14 dígitos del IMEI para el Id cuando el dispositivo requiera un id de 14 dígitos. TopShine indica que Plaspy utiliza el IMEI completo de 15 dígitos como identificador en la plataforma.
-- Reemplace <IMEI14> con los primeros 14 dígitos del IMEI de su dispositivo.
+- Reemplace \<IMEI14> con los primeros 14 dígitos del IMEI de su dispositivo.
 ```
 W000000,010,<IMEI14>
 ```
 
 3. Configurar el APN del operador
-- Reemplace {{apn}} con el APN de su operador.
-- Los marcadores opcionales {{apnu}} y {{apnp}} representan el usuario y la contraseña del APN si su operador los requiere.
+- Reemplace [apn] con el APN de su operador.
+- Los marcadores opcionales [apnu] y [apnp] representan el usuario y la contraseña del APN si su operador los requiere.
 ```
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-(Si su operador no requiere usuario o contraseña, deje {{apnu}} y {{apnp}} vacíos u omítalos según la sintaxis del dispositivo.)
+(Si su operador no requiere usuario o contraseña, deje [apnu] y [apnp] vacíos u omítalos según la sintaxis del dispositivo.)
 
 4. Configurar el servidor GPRS a Plaspy
 - Este comando apunta el dispositivo a la IP y puerto del servidor Plaspy. Plaspy también acepta conexiones a d.plaspy.com; use la IP o el dominio según la capacidad del dispositivo.
@@ -129,7 +129,7 @@ Mantenga los comandos en este orden durante el aprovisionamiento inicial para as
 - Las versiones de firmware y las revisiones de hardware pueden modificar la sintaxis de los comandos y las opciones disponibles; siempre verifique el formato de los comandos con el manual del dispositivo correspondiente a su firmware.
 - Elija TCP o UDP según el soporte del dispositivo y las condiciones de red; Plaspy acepta ambos y detectará automáticamente el protocolo usado por el rastreador.
 - Plaspy usa el puerto 8888 para simplificar el aprovisionamiento y el enrutamiento en la plataforma.
-- Preserve marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} al preparar comandos SMS y reemplácelos por los valores proporcionados por el operador cuando sea necesario.
+- Preserve marcadores de posición como [apn], [apnu] y [apnp] al preparar comandos SMS y reemplácelos por los valores proporcionados por el operador cuando sea necesario.
 
 ## Por qué usar Plaspy con esta configuración
 

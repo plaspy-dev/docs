@@ -95,13 +95,13 @@ AT$FORM=1,@P,0,""
 
 - Configurar el servidor GPRS y ajustes APN (se mantienen marcadores de posición):
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es el nombre del APN del operador móvil.  
-- {{apnu}} es el nombre de usuario del APN si lo requiere el operador.  
-- {{apnp}} es la contraseña del APN si lo requiere el operador.
+- [apn] es el nombre del APN del operador móvil.  
+- [apnu] es el nombre de usuario del APN si lo requiere el operador.  
+- [apnp] es la contraseña del APN si lo requiere el operador.
 
 - Para verificar el estado del dispositivo:
 ```text

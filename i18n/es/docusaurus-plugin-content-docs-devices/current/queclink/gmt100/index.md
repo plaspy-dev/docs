@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gmt100
 id: gmt100
+sidebar_key: queclingmt100_index_gmt100
 sidebar_label: GMT100
 title: QuecLink - GMT100
 sidebar_class_name: menu_item_tracker

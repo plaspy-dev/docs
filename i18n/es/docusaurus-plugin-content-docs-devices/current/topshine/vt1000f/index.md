@@ -1,6 +1,7 @@
 ---
 slug: /topshine/vt1000f
 id: vt1000f
+sidebar_key: topshinvt1000f_index_vt1000f
 sidebar_label: VT1000F
 title: TopShine - VT1000F
 sidebar_class_name: menu_item_tracker

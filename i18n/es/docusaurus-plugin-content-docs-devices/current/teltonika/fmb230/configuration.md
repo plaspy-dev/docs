@@ -80,13 +80,13 @@ El FMB230 puede configurarse con un comando por lotes de parámetros. El ejemplo
 - Comando por lotes de parámetros (ejemplo):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores y los campos anteriores:
-- {{apn}} = nombre del APN de su operador móvil
-- {{apnu}} = nombre de usuario del APN si su operador lo requiere
-- {{apnp}} = contraseña del APN si su operador lo requiere
+- [apn] = nombre del APN de su operador móvil
+- [apnu] = nombre de usuario del APN si su operador lo requiere
+- [apnp] = contraseña del APN si su operador lo requiere
 - 2004 establece la dirección del servidor a d.plaspy.com
 - 2005 establece el puerto de destino a 8888
 - 2006 es un selector de transporte o modo usado por el conjunto de parámetros del dispositivo; consulte la documentación de parámetros de Teltonika para el significado exacto de valores como 1

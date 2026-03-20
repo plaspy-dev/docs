@@ -87,19 +87,19 @@ FORMAT
 ```
 Etiqueta: Reinicio de fábrica inicial opcional. Usar únicamente si necesita restaurar la configuración a valores de fábrica.
 
-- Establecer APN del operador (reemplazar {{apn}} por el APN de su operador móvil):
+- Establecer APN del operador (reemplazar [apn] por el APN de su operador móvil):
 ```
-apn123456 {{apn}}
-```
-
-- Establecer usuario del APN (reemplazar {{apnu}} por el usuario del APN si es requerido):
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-- Establecer contraseña del APN (reemplazar {{apnp}} por la contraseña del APN si es requerida):
+- Establecer usuario del APN (reemplazar [apnu] por el usuario del APN si es requerido):
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+- Establecer contraseña del APN (reemplazar [apnp] por la contraseña del APN si es requerida):
+```
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS al servidor Plaspy usando la IP y el puerto públicos:
@@ -113,7 +113,7 @@ CXZT
 ```
 
 Notas sobre los comandos anteriores:
-- La sintaxis SMS y los prefijos de comando reflejan ejemplos públicos de ThingSys. Las cadenas {{apn}}, {{apnu}} y {{apnp}} son marcadores que debe reemplazar por los valores y credenciales de su operador.
+- La sintaxis SMS y los prefijos de comando reflejan ejemplos públicos de ThingSys. Las cadenas [apn], [apnu] y [apnp] son marcadores que debe reemplazar por los valores y credenciales de su operador.
 - El ejemplo usa un comando de servidor basado en IP según la guía pública de ThingSys. Algunas versiones de firmware aceptan un nombre de dominio en lugar de una IP; consulte la documentación de ThingSys para la sintaxis SMS exacta si desea usar un dominio como d.plaspy.com cuando esté soportado.
 - La configuración de muestra indica una contraseña por defecto del dispositivo de 123456. Incluya la contraseña en los comandos SMS cuando el firmware y las instrucciones de ThingSys lo requieran.
 
@@ -121,7 +121,7 @@ Notas sobre los comandos anteriores:
 
 - Diferencias de firmware y herramientas: Los formatos de comando SMS y los comportamientos de configuración pueden variar entre revisiones de firmware de ThingSys y variantes del dispositivo J16A y J16B.
 - Elección de transporte: El dispositivo puede permitir UDP o TCP; elija el transporte requerido por su red y confirme que los paquetes llegan a Plaspy usando el puerto 8888.
-- Marcadores de APN: Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} en los comandos y reemplácelos por los valores específicos del operador al enviar SMS.
+- Marcadores de APN: Mantenga los marcadores [apn], [apnu] y [apnp] en los comandos y reemplácelos por los valores específicos del operador al enviar SMS.
 - SMS versus software: Si dispone del software de configuración de ThingSys, este puede simplificar la configuración de múltiples equipos. Los comandos SMS son útiles para instalaciones remotas o en campo.
 - Verificación: Use el comando de verificación proporcionado y consulte Plaspy para asegurarse de que los paquetes del dispositivo son aceptados y el protocolo es detectado automáticamente.
 

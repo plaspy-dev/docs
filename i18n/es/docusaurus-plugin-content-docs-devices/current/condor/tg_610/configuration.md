@@ -76,16 +76,16 @@ El TG-610 envía ubicación y eventos de entradas/salidas por la red GPRS celula
 
 El Condor TG-610 publica comandos de configuración por SMS. El dispositivo usa la contraseña por defecto 0000 en estos ejemplos. Envíe estos comandos por SMS al número del TG-610 en el orden mostrado para configurar APN, alias, zona horaria, servidor Plaspy, intervalo de reporte y modo GPRS. Conserve los marcadores de posición cuando correspondan.
 
-- Establecer el APN del operador. Si su operador requiere usuario o contraseña APN, incluya los marcadores opcionales {{apnu}} y {{apnp}}.
+- Establecer el APN del operador. Si su operador requiere usuario o contraseña APN, incluya los marcadores opcionales [apnu] y [apnp].
 ```text
-APN,0000,{{apn}}
+APN,0000,[apn]
 ```
 Formato extendido opcional con usuario y contraseña:
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn],[apnu],[apnp]
 ```
 
-- Establecer un identificador de 5 dígitos para usar como alias. Use los últimos 5 dígitos del IMEI como alias. Reemplace <LAST5> por los cinco dígitos reales.
+- Establecer un identificador de 5 dígitos para usar como alias. Use los últimos 5 dígitos del IMEI como alias. Reemplace \<LAST5> por los cinco dígitos reales.
 ```text
 ALIAS,0000,<LAST5>#
 ```
@@ -120,9 +120,9 @@ CONEXION,0000#
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es la cadena APN del operador móvil necesaria para la conectividad de datos.
-- {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN; inclúyalos solo si su operador los requiere.
-- <LAST5> debe reemplazarse por los últimos cinco dígitos del IMEI del dispositivo según lo indica el fabricante.
+- [apn] es la cadena APN del operador móvil necesaria para la conectividad de datos.
+- [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN; inclúyalos solo si su operador los requiere.
+- \<LAST5> debe reemplazarse por los últimos cinco dígitos del IMEI del dispositivo según lo indica el fabricante.
 
 ## Notas de configuración
 

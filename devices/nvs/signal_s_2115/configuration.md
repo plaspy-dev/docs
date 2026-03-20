@@ -46,7 +46,7 @@ This configuration prepares the SIGNAL S-2115 to send position and device data t
 
 - A powered SIGNAL S-2115 unit with access to its SMS or manufacturer configuration interface.  
 - A SIM card with an active data plan and SMS capability configured in the device.  
-- The mobile operator APN value and optional APN username and password (placeholders shown below as {{apn}}, {{apnu}}, {{apnp}}).  
+- The mobile operator APN value and optional APN username and password (placeholders shown below as [apn], [apnu], [apnp]).  
 - Access to SMS sending from a phone or a manufacturer provisioning tool as specified by NVS.  
 - Knowledge of the device default password (public example below uses the default password 123456) and the ability to change it if needed.  
 - Manufacturer documentation or access to firmware notes in case the command syntax differs by firmware revision.
@@ -64,7 +64,7 @@ When configured, the SIGNAL S-2115 establishes a GPRS data session to the Plaspy
 ## Common Configuration Workflow
 
 1. Confirm the device is powered, has a working SIM with data and SMS enabled, and consult the official NVS configuration method or software.  
-2. Using NVS recommended tools or SMS commands, set the operator APN and optional APN credentials (use {{apn}}, {{apnu}}, {{apnp}} placeholders as required).  
+2. Using NVS recommended tools or SMS commands, set the operator APN and optional APN credentials (use [apn], [apnu], [apnp] placeholders as required).  
 3. Enter the Plaspy server endpoint by specifying d.plaspy.com or 54.85.159.138 on the device.  
 4. Set the port to 8888 on the tracker configuration page or via SMS and select UDP or TCP if the tracker requires transport selection.  
 5. Apply or save the configuration on the tracker and send any required commands to enable GPRS reporting mode.  
@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username and password if your operator requires them (replace placeholders as needed):
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the Plaspy IP and port 8888:
@@ -119,8 +119,8 @@ check123456
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator APN string required for data.  
-- {{apnu}} and {{apnp}} are the APN username and password when the operator requires credentialed access.
+- [apn] is the mobile operator APN string required for data.  
+- [apnu] and [apnp] are the APN username and password when the operator requires credentialed access.
 
 ## Configuration Notes
 

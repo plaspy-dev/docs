@@ -80,19 +80,19 @@ Los siguientes comandos SMS son ejemplos públicos para configurar un LK208. Est
 begin123456
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} con el APN de su operador)
+- Establecer el APN del operador (reemplace [apn] con el APN de su operador)
 ```
-apn123456 {{apn}}
-```
-
-- Establecer el nombre de usuario del APN (solo si el operador lo solicita; reemplace {{apnu}})
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-- Establecer la contraseña del APN (solo si el operador lo solicita; reemplace {{apnp}})
+- Establecer el nombre de usuario del APN (solo si el operador lo solicita; reemplace [apnu])
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+- Establecer la contraseña del APN (solo si el operador lo solicita; reemplace [apnp])
+```
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy por IP y puerto (Plaspy usa esta IP y puerto)
@@ -111,9 +111,9 @@ gprs123456
 ```
 
 Explicación de los marcadores:
-- {{apn}} — cadena APN del operador móvil requerida para acceso a datos.
-- {{apnu}} — nombre de usuario del APN si lo requiere el operador.
-- {{apnp}} — contraseña del APN si lo requiere el operador.
+- [apn] — cadena APN del operador móvil requerida para acceso a datos.
+- [apnu] — nombre de usuario del APN si lo requiere el operador.
+- [apnp] — contraseña del APN si lo requiere el operador.
 
 Nota: la contraseña por defecto en estos ejemplos públicos es 123456. Si la contraseña de su dispositivo ha sido cambiada, use la contraseña correcta en cada comando.
 

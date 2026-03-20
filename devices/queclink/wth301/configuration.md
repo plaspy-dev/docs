@@ -67,7 +67,7 @@ When deployed with a Plaspy-compatible BLE gateway or BLE-enabled tracker, the W
 2. Enter the Plaspy server domain d.plaspy.com or the server IP 54.85.159.138 in the device's GPRS/server settings.
 3. Set the server port to 8888. Remember that Plaspy uses the same port for all supported devices.
 4. Choose UDP or TCP if the device requires a transport selection.
-5. Configure the operator APN and any APN credentials using the placeholders {{apn}}, {{apnu}}, and {{apnp}} as required by your mobile operator.
+5. Configure the operator APN and any APN credentials using the placeholders [apn], [apnu], and [apnp] as required by your mobile operator.
 6. Apply or save the configuration and restart the device or gateway if required by the manufacturer.
 7. Validate that the device is reporting to Plaspy by checking for incoming telemetry in the Plaspy platform.
 
@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN (replace placeholders with your operator values):
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = your operator APN
-- {{apnu}} = APN username if required (leave blank if not used)
-- {{apnp}} = APN password if required (leave blank if not used)
+- [apn] = your operator APN
+- [apnu] = APN username if required (leave blank if not used)
+- [apnp] = APN password if required (leave blank if not used)
 
 4. Configure the GPRS server settings to report to Plaspy (domain and IP are both provided as an example):
 ```text

@@ -77,7 +77,7 @@ El T373B se conecta a Plaspy enviando posiciones GNSS y telemetría del vehícul
 
 El contenido modelConfiguration para el T373B no incluyó cadenas de comandos públicamente publicadas para la configuración. Los comandos exactos y el método para aplicarlos pueden variar según el firmware de Ulbotech, la herramienta móvil o la utilidad del proveedor. Use las herramientas oficiales de Ulbotech (app BLE o utilidad USB) o la documentación del proveedor para establecer el servidor en d.plaspy.com o 54.85.159.138, configurar el puerto 8888, elegir UDP o TCP si es necesario y guardar los ajustes.
 
-Si obtiene comandos del fabricante o cadenas SMS de la documentación de Ulbotech, siga el orden y los marcadores exactos que indique el proveedor. Mantenga los marcadores como {{apn}} u otros similares si aparecen en los ejemplos del proveedor y reemplácelos por los valores de su operador de SIM cuando se lo indiquen.
+Si obtiene comandos del fabricante o cadenas SMS de la documentación de Ulbotech, siga el orden y los marcadores exactos que indique el proveedor. Mantenga los marcadores como [apn] u otros similares si aparecen en los ejemplos del proveedor y reemplácelos por los valores de su operador de SIM cuando se lo indiquen.
 
 ## Notas de configuración
 

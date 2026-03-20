@@ -75,17 +75,17 @@ El WanWay G19S puede configurarse para reportar ubicación y estado usando GPRS 
 
 El WanWay G19S admite configuración por SMS. A continuación aparecen los comandos públicos más comunes publicados para el G19S. Conserve los marcadores de posición al enviar comandos.
 
-- Configure el APN del operador (reemplace {{apn}}, y si es necesario incluya usuario y contraseña):
+- Configure el APN del operador (reemplace [apn], y si es necesario incluya usuario y contraseña):
 ```text
-APN,{{apn}}{{# if apnu }} ,{{apnu}},{{apnp}}#{{/if}}
+APN,[apn]{{# if apnu }} ,[apnu],[apnp]#{{/if}}
 ```
 Ejemplo en la forma proporcionada:
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
 o cuando se requieren usuario y contraseña:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Configure el servidor GPRS para que reporte a Plaspy (entrada del servidor seguida del puerto y cualquier parámetro del dispositivo):
 ```text
@@ -110,7 +110,7 @@ STATUS#
 
 Notas sobre los comandos anteriores:
 - Mantenga el orden: APN primero, luego SERVER, después TIMER y por último habilitar GPRS. Esa secuencia ayuda a garantizar que el dispositivo tenga conectividad de red antes de apuntarlo al servidor Plaspy.  
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores de posición para su APN del operador, nombre de usuario del APN y contraseña del APN respectivamente. Reemplácelos por los valores exactos proporcionados por su operador móvil.  
+- [apn], [apnu] y [apnp] son marcadores de posición para su APN del operador, nombre de usuario del APN y contraseña del APN respectivamente. Reemplácelos por los valores exactos proporcionados por su operador móvil.  
 - El comando SERVER del ejemplo usa d.plaspy.com y el puerto 8888 según lo requerido por Plaspy.
 
 ## Observaciones sobre la configuración

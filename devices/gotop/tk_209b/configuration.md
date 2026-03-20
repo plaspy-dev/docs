@@ -79,11 +79,11 @@ The TK-209B sends location and event messages to a remote server so Plaspy can d
 
 The exact command syntax for the GOTOP TK-209B depends on the device firmware and the manufacturer tools you use. Many GOTOP devices support configuration via vendor software, a web interface, or SMS command strings. Because manufacturer command syntax can vary, consult the GOTOP documentation or the vendor tool for the precise commands to set a server domain or IP and port.
 
-When using a vendor SMS based method you may typically see placeholders for APN or other network parameters such as {{apn}}, {{apnu}}, or {{apnp}}. Keep those placeholders when applying them and replace them with values supplied by your mobile operator. Example placeholder explanation:
+When using a vendor SMS based method you may typically see placeholders for APN or other network parameters such as [apn], [apnu], or [apnp]. Keep those placeholders when applying them and replace them with values supplied by your mobile operator. Example placeholder explanation:
 
-- {{apn}} is the data APN provided by the SIM operator
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the data APN provided by the SIM operator
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 If you obtain manufacturer provided commands for the TK-209B, apply them in the order specified by GOTOP and verify connectivity to d.plaspy.com port 8888 over UDP or TCP.
 

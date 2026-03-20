@@ -77,17 +77,17 @@ The ST4345 reports GNSS position and event messages to the configured server end
 
 The ST4345 modelConfiguration provides SMS command templates for network and reporting setup. The device ID in these templates is the six digits immediately before the final IMEI digit (the last 6 numbers of the IMEI excluding the final check digit). For a 15-digit IMEI, that is the 6 digits in positions 9 through 14. Example: IMEI 123456789012345 -> device ID 901234.
 
-1) Set operator APN and GPRS server (replace {{device_id}}, {{apn}}, {{apnu}}, and {{apnp}} as required). Set auth flag to 1 if you supply {{apnu}} or {{apnp}}, otherwise use 0.
+1) Set operator APN and GPRS server (replace {{device_id}}, [apn], [apnu], and [apnp] as required). Set auth flag to 1 if you supply [apnu] or [apnp], otherwise use 0.
 
 ```
-SA200NTW;{{device_id}};02;{auth_flag};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{auth_flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - {{device_id}} — six digit device ID derived from the IMEI as described above.  
 - {auth_flag} — 1 if APN username or password is provided, otherwise 0.  
-- {{apn}} — operator APN name placeholder.  
-- {{apnu}} — APN username placeholder if required.  
-- {{apnp}} — APN password placeholder if required.
+- [apn] — operator APN name placeholder.  
+- [apnu] — APN username placeholder if required.  
+- [apnp] — APN password placeholder if required.
 
 2) Set the update/reporting interval to 60 seconds (reporting, heartbeat and movement intervals in this template are set to 60):
 

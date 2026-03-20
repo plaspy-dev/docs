@@ -68,7 +68,7 @@ Al configurarse, el T333L envía posiciones GNSS y eventos al endpoint y puerto 
 2. Introduzca la dirección del servidor Plaspy como d.plaspy.com o use la IP del servidor 54.85.159.138 cuando la herramienta o el comando requiera una IP.
 3. Configure el puerto del servidor en 8888. Recuerde que Plaspy usa este mismo puerto para todos los dispositivos compatibles.
 4. Elija UDP o TCP si el dispositivo requiere selección explícita de transporte; Plaspy acepta ambos y detecta el protocolo automáticamente.
-5. Proporcione las credenciales APN del dispositivo en los ajustes GPRS usando los marcadores {{apn}}, {{apnu}} y {{apnp}} cuando su comando o herramienta lo solicite.
+5. Proporcione las credenciales APN del dispositivo en los ajustes GPRS usando los marcadores [apn], [apnu] y [apnp] cuando su comando o herramienta lo solicite.
 6. Aplique o guarde la configuración y reinicie el dispositivo si el modelo o el firmware lo requieren.
 7. Valide que el dispositivo reporte a Plaspy confirmando que aparece en la plataforma y que se reciben mensajes recientes de posición y eventos.
 
@@ -82,9 +82,9 @@ El T333L puede configurarse con comandos SMS. Los siguientes ejemplos públicos 
 ```
 
 - Configurar el servidor GPRS a Plaspy usando la IP del servidor y el puerto y proporcionar los datos del APN
-  - Explicación de los marcadores: {{apn}} es el APN de la red móvil. {{apnu}} y {{apnp}} son el usuario y la contraseña del APN y pueden omitirse si el operador no los requiere.
+  - Explicación de los marcadores: [apn] es el APN de la red móvil. [apnu] y [apnp] son el usuario y la contraseña del APN y pueden omitirse si el operador no los requiere.
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Nota: Si prefiere usar el nombre de dominio en lugar de la IP numérica y el dispositivo acepta nombres de host, introduzca d.plaspy.com en la misma posición que la IP cuando la herramienta admita nombres DNS.
 
@@ -108,7 +108,7 @@ Nota: Si prefiere usar el nombre de dominio en lugar de la IP numérica y el dis
 - La configuración vía SMS está soportada según la guía pública mostrada arriba; asegúrese de que su SIM permita el envío de SMS de comandos si usa este método.
 - Las variaciones de firmware y las revisiones de hardware pueden cambiar la sintaxis de los comandos o los parámetros disponibles; verifique siempre los comandos con el firmware T333L instalado.
 - Elija UDP o TCP en función de la estabilidad de la red y el comportamiento del operador; Plaspy acepta ambos y detecta el protocolo automáticamente, pero el rendimiento de la red y el manejo de NAT pueden influir en qué transporte es preferible en su entorno.
-- Asegúrese de que las credenciales APN ({{apn}}, {{apnu}}, {{apnp}}) sean correctas para la SIM y el operador; ajustes de APN incorrectos impedirán las conexiones GPRS a d.plaspy.com o a 54.85.159.138.
+- Asegúrese de que las credenciales APN ([apn], [apnu], [apnp]) sean correctas para la SIM y el operador; ajustes de APN incorrectos impedirán las conexiones GPRS a d.plaspy.com o a 54.85.159.138.
 - Si utiliza el comando de restauración de fábrica, trátelo como un paso inicial de configuración o una medida de resolución de problemas y vuelva a aplicar los ajustes de servidor y APN después.
 
 ## Por qué usar Plaspy con esta configuración

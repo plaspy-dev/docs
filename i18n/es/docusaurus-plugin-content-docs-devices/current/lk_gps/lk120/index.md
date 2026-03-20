@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk120
 id: lk120
+sidebar_key: lk_gplk120_index_lk120
 sidebar_label: LK120
 title: LK-GPS - LK120
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tk720
 id: tk720
+sidebar_key: tk_statk720_index_tk720
 sidebar_label: TK720
 title: TK-Star - TK720
 sidebar_class_name: menu_item_tracker

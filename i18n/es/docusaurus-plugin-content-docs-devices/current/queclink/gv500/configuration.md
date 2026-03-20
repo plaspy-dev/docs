@@ -77,7 +77,7 @@ Si el dispositivo usa comandos SMS para la configuración, envíe los mensajes S
 
 ## Comandos de configuración de ejemplo
 
-Los siguientes comandos SMS públicos son un ejemplo común para dispositivos QuecLink GV500. Normalmente se envían por SMS al número del dispositivo. Los comandos de ejemplo usan la contraseña por defecto del dispositivo queclink cuando es requerida. Conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por su APN del operador, usuario del APN y contraseña del APN.
+Los siguientes comandos SMS públicos son un ejemplo común para dispositivos QuecLink GV500. Normalmente se envían por SMS al número del dispositivo. Los comandos de ejemplo usan la contraseña por defecto del dispositivo queclink cuando es requerida. Conserve los marcadores de posición [apn], [apnu] y [apnp] y reemplácelos por su APN del operador, usuario del APN y contraseña del APN.
 
 - Paso inicial opcional para restaurar valores de fábrica
 ```text
@@ -91,9 +91,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Establecer el APN del operador y credenciales opcionales del APN
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explicación: reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario o contraseña, reemplace {{apnu}} y {{apnp}} según corresponda. Si no son necesarios, deje esos marcadores vacíos según la sintaxis de comandos del dispositivo.
+Explicación: reemplace [apn] por el APN de su operador. Si su operador requiere usuario o contraseña, reemplace [apnu] y [apnp] según corresponda. Si no son necesarios, deje esos marcadores vacíos según la sintaxis de comandos del dispositivo.
 
 - Configurar el servidor GPRS a Plaspy usando dominio e IP con puerto 8888
 ```text

@@ -22,7 +22,7 @@ keywords:
 
 Esta página documenta el contexto público de configuración para usar el Xexun U02 con Plaspy. Se centra en los ajustes prácticos del servidor, el flujo de configuración habitual y los comandos SMS públicos para habilitar el reporte GPRS hacia la plataforma Plaspy. Use esta guía para preparar el dispositivo y entender los valores que debe reportar para que Plaspy lo muestre correctamente.
 
-Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador. Los pasos de configuración en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El U02 también admite configuración vía SMS según la documentación pública del fabricante; cuando se muestran comandos SMS más adelante, siguen el formato del fabricante y mantienen los marcadores {{apn}}, {{apnu}} y {{apnp}}.
+Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador. Los pasos de configuración en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El U02 también admite configuración vía SMS según la documentación pública del fabricante; cuando se muestran comandos SMS más adelante, siguen el formato del fabricante y mantienen los marcadores [apn], [apnu] y [apnp].
 
 ## Resumen de configuración
 
@@ -79,19 +79,19 @@ La configuración pública del U02 incluye comandos SMS que establecen el APN, c
 begin123456
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} por el APN de su operador):
+- Establecer el APN del operador (reemplazar [apn] por el APN de su operador):
 ```
-apn123456 {{apn}}
-```
-
-- Establecer el nombre de usuario del APN si su operador lo requiere (reemplazar {{apnu}} por el usuario APN):
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-- Establecer la contraseña del APN si su operador la requiere (reemplazar {{apnp}} por la contraseña APN):
+- Establecer el nombre de usuario del APN si su operador lo requiere (reemplazar [apnu] por el usuario APN):
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+- Establecer la contraseña del APN si su operador la requiere (reemplazar [apnp] por la contraseña APN):
+```
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS para reportar a Plaspy. Esto usa la IP y el puerto de Plaspy tal como se especifica públicamente:
@@ -110,8 +110,8 @@ t060s***n123456
 ```
 
 Notas sobre los marcadores y la contraseña:
-- {{apn}} es un marcador para el APN de su operador móvil.  
-- {{apnu}} y {{apnp}} son marcadores opcionales para el usuario y la contraseña del APN cuando el operador los requiere.  
+- [apn] es un marcador para el APN de su operador móvil.  
+- [apnu] y [apnp] son marcadores opcionales para el usuario y la contraseña del APN cuando el operador los requiere.  
 - 123456 aparece en el ejemplo público como la contraseña por defecto del dispositivo. Si su equipo tiene una contraseña diferente, utilice esa en cada comando donde aparezca la contraseña.
 
 ## Notas de configuración

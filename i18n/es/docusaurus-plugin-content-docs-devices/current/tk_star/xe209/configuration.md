@@ -82,19 +82,19 @@ El XE209 puede configurarse por SMS usando una secuencia de comandos públicos. 
 begin123456
 ```
 
-- Configurar el APN del operador (reemplace {{apn}} por el APN de su operador móvil):
+- Configurar el APN del operador (reemplace [apn] por el APN de su operador móvil):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer nombre de usuario APN si lo requiere su operador (reemplace {{apnu}} por el usuario APN):
+- Establecer nombre de usuario APN si lo requiere su operador (reemplace [apnu] por el usuario APN):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer contraseña APN si lo requiere su operador (reemplace {{apnp}} por la contraseña APN):
+- Establecer contraseña APN si lo requiere su operador (reemplace [apnp] por la contraseña APN):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS a la IP y puerto de Plaspy (este comando usa la IP pública mostrada en la documentación de Plaspy):
@@ -113,9 +113,9 @@ gprs123456
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es la cadena APN del operador móvil requerida para datos GPRS.
-- {{apnu}} es el nombre de usuario APN opcional si su operador lo solicita.
-- {{apnp}} es la contraseña APN opcional si su operador lo solicita.
+- [apn] es la cadena APN del operador móvil requerida para datos GPRS.
+- [apnu] es el nombre de usuario APN opcional si su operador lo solicita.
+- [apnp] es la contraseña APN opcional si su operador lo solicita.
 
 Siga el orden de los comandos cuando ese orden sea importante: por ejemplo, establezca los valores de APN antes de habilitar el modo GPRS. El comando de restauración de fábrica es opcional y debe usarse sólo cuando se necesite un reinicio inicial.
 

@@ -75,7 +75,7 @@ El D39B se configura para reportar posición y telemetría al endpoint y puerto 
 
 ## Comandos de configuración de ejemplo
 
-Los ejemplos públicos de configuración del D39B usan mensajes SMS para establecer opciones comunes. Los comandos de ejemplo a continuación se presentan en el mismo orden que la documentación del fabricante. La contraseña de ejemplo mostrada es 123456 y es la predeterminada en estos ejemplos. Mantenga los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} cuando sustituya los valores de su operador.
+Los ejemplos públicos de configuración del D39B usan mensajes SMS para establecer opciones comunes. Los comandos de ejemplo a continuación se presentan en el mismo orden que la documentación del fabricante. La contraseña de ejemplo mostrada es 123456 y es la predeterminada en estos ejemplos. Mantenga los marcadores de posición [apn], [apnu] y [apnp] cuando sustituya los valores de su operador.
 
 - Restauración de fábrica (paso inicial opcional)
 ```text
@@ -94,9 +94,9 @@ pw,123456,imsi#
 
 - Configurar el APN del operador donde xxx es MCC y yy es MNC (reemplazar los marcadores por los valores del operador)
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explicación: {{apn}} es el nombre del APN, {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Los caracteres finales xxxyy representan MCC y MNC según lo exige esta sintaxis de comando.
+Explicación: [apn] es el nombre del APN, [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Los caracteres finales xxxyy representan MCC y MNC según lo exige esta sintaxis de comando.
 
 - Establecer el servidor GPRS a Plaspy usando la IP y el puerto del servidor
 ```text
@@ -122,7 +122,7 @@ Si algún comando devuelve una respuesta inesperada, verifique el formato SMS ex
 - La configuración por SMS se muestra en los ejemplos públicos; algunos instaladores prefieren la herramienta del fabricante o un método de aprovisionamiento empresarial si está disponible para gestión masiva o remota.
 - Las variaciones de firmware y las revisiones regionales del dispositivo pueden cambiar la sintaxis SMS y el orden de parámetros requerido; verifique el formato de comando según la versión de firmware.
 - Elija UDP o TCP según su preferencia operativa; Plaspy soporta ambos transportes y detectará el protocolo automáticamente. Todos los dispositivos en Plaspy usan el puerto 8888.
-- Confirme que los marcadores {{apn}}, {{apnu}} y {{apnp}} se reemplazan por los valores del operador móvil y pruebe los datos móviles antes de apuntar el dispositivo a Plaspy.
+- Confirme que los marcadores [apn], [apnu] y [apnp] se reemplazan por los valores del operador móvil y pruebe los datos móviles antes de apuntar el dispositivo a Plaspy.
 - Si se utiliza una restauración de fábrica, considérela opcional y realícela sólo cuando sea necesario o cuando recupere un dispositivo a la configuración por defecto.
 
 ## Por qué usar Plaspy con esta configuración

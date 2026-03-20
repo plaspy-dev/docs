@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/tr_606
 id: tr_606
+sidebar_key: globalsatr_606_index_tr_606
 sidebar_label: TR-606
 title: GlobalSat - TR-606
 sidebar_class_name: menu_item_tracker

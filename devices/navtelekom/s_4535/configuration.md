@@ -86,7 +86,7 @@ If you are using a manufacturer tool it will typically present fields for server
 
 - Firmware differences may change menu labels, command syntax or available transport options; verify the device firmware version before applying instructions.
 - Choose UDP or TCP based on the manufacturer guidance and network performance; Plaspy supports both transports and will detect the device protocol automatically.
-- Ensure APN settings match the mobile operator for each SIM; placeholders such as {{apn}} are commonly replaced with your carrier APN in manufacturer tools.
+- Ensure APN settings match the mobile operator for each SIM; placeholders such as [apn] are commonly replaced with your carrier APN in manufacturer tools.
 - Installer practices vary by region and reseller; use Navtelekom recommended tools like NTC Configurator or the DRC remote system for fleet scale deployments.
 - Remember Plaspy uses a single shared port across devices so consistent port configuration simplifies onboarding.
 

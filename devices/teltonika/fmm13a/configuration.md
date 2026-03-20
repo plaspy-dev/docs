@@ -45,7 +45,7 @@ The goal of this configuration process is to prepare the FMM13A to send telemetr
 ## Typical Requirements Before Setup
 
 - Ensure the device has vehicle power applied and the internal backup battery is charged for safe setup and testing.  
-- Have a valid SIM card provisioned with a data plan and correct APN information. Replace placeholder {{apn}} with your operator APN.  
+- Have a valid SIM card provisioned with a data plan and correct APN information. Replace placeholder [apn] with your operator APN.  
 - Access to the manufacturer configuration method you prefer such as SMS commands, Teltonika configuration tools, or remote device management like FOTA WEB. The example below uses an SMS style parameter command.  
 - Know the device admin number or have the unit connected to a configuration cable or management system when required.  
 - Verify the device firmware revision and any release notes that may affect parameter IDs or command formats.  
@@ -77,13 +77,13 @@ The following public example command is a common Teltonika style parameter set t
 - Example parameter command:
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders and fields:
-  - {{apn}} = your mobile network APN string. Replace with your carrier APN.  
-  - {{apnu}} = APN username if required by your carrier; otherwise leave blank or use the device method to clear.  
-  - {{apnp}} = APN password if required by your carrier; otherwise leave blank or use the device method to clear.  
+  - [apn] = your mobile network APN string. Replace with your carrier APN.  
+  - [apnu] = APN username if required by your carrier; otherwise leave blank or use the device method to clear.  
+  - [apnp] = APN password if required by your carrier; otherwise leave blank or use the device method to clear.  
   - 2004 sets the server domain to d.plaspy.com so the device reports to Plaspy.  
   - 2005 sets the port to 8888 which Plaspy uses for all devices.  
   - 2006 sets a transport or related flag on the device; the exact meaning may vary by firmware so use the value required by your device or consult Teltonika documentation.

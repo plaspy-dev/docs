@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/ts101_basic_ev_can
 id: ts101_basic_ev_can
+sidebar_key: itrianglts101_basic_ev_can_index_ts101_basic_ev_can
 sidebar_label: TS101 Basic EV CAN
 title: iTriangle - TS101 Basic EV CAN
 sidebar_class_name: menu_item_tracker

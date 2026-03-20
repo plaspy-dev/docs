@@ -72,7 +72,7 @@ El VT150-L envía posición, estado y eventos a Plaspy a través de redes celula
 
 ## Ejemplos de comandos de configuración
 
-Para configurar el VT150-L mediante SMS, envíe los siguientes mensajes en el orden indicado. Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con los valores del operador cuando sea necesario. El restablecimiento de fábrica es opcional y recomendado sólo cuando se prepara el dispositivo para una base conocida.
+Para configurar el VT150-L mediante SMS, envíe los siguientes mensajes en el orden indicado. Mantenga los marcadores [apn], [apnu] y [apnp] y reemplácelos con los valores del operador cuando sea necesario. El restablecimiento de fábrica es opcional y recomendado sólo cuando se prepara el dispositivo para una base conocida.
 
 1. Restablecimiento de fábrica opcional para devolver el dispositivo a los ajustes predeterminados
 ```
@@ -84,9 +84,9 @@ FACTORY#
 GMT,E,0#
 ```
 
-3. Establecer el APN del operador. Reemplace {{apn}} con el APN de su operador. Si su operador requiere usuario o contraseña incluya {{apnu}} y {{apnp}} respectivamente.
+3. Establecer el APN del operador. Reemplace [apn] con el APN de su operador. Si su operador requiere usuario o contraseña incluya [apnu] y [apnp] respectivamente.
 ```
-APN,{{apn}}{{# if apnu or apnp }},{{apnu}},{{apnp}}{{/ if }}#
+APN,[apn]{{# if apnu or apnp }},[apnu],[apnp]{{/ if }}#
 ```
 (Si su herramienta o cliente SMS no soporta sintaxis de plantillas, envíe APN,apn# o APN,apn,username,password# según corresponda.)
 

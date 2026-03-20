@@ -75,7 +75,7 @@ Lommy Power envía paquetes GNSS y de telemetría a través de celular (LTE/2G) 
 
 Los comandos exactos y la sintaxis para configurar Lommy Power dependen del firmware de Flextrack y de la herramienta de aprovisionamiento que proporcionen. Lommy Power normalmente permite la configuración mediante el software del fabricante o cadenas de comandos SMS; consulte la documentación de Flextrack para el conjunto de comandos preciso para su versión de firmware. Si su instalador utiliza comandos SMS, normalmente enviará cadenas de configuración desde un número autorizado y luego verificará mediante la respuesta del dispositivo.
 
-Si dispone de cadenas de comandos específicas de Flextrack, aplíquelas siguiendo las instrucciones del fabricante en el orden recomendado y mantenga cualquier marcador de posición como {{apn}} o {{apnu}} exactamente como se proporcionó. Los marcadores representan valores que debe reemplazar por la configuración o credenciales de su operador celular.
+Si dispone de cadenas de comandos específicas de Flextrack, aplíquelas siguiendo las instrucciones del fabricante en el orden recomendado y mantenga cualquier marcador de posición como [apn] o [apnu] exactamente como se proporcionó. Los marcadores representan valores que debe reemplazar por la configuración o credenciales de su operador celular.
 
 ## Notas sobre la configuración
 

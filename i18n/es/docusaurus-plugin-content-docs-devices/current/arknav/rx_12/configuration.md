@@ -77,7 +77,7 @@ El RX-12 transmite posiciones GNSS y telemetría mediante LTE‑M o EGPRS al end
 
 Los comandos exactos y la sintaxis dependen de la utilidad de configuración de ArkNav, el conjunto de comandos SMS o la interfaz de depuración USB y pueden variar según el firmware. ArkNav suele proporcionar una lista de comandos o una utilidad para introducir dominio o IP del servidor, puerto, transporte, ajustes APN y otros parámetros. Consulte el manual del usuario del ArkNav RX-12 para los formatos de comando exactos y procedimientos paso a paso.
 
-Si dispone de ejemplos públicos de comandos ArkNav según firmware o una herramienta del proveedor, inclúyalos aquí siguiendo la guía del dispositivo. Mantenga los marcadores de posición como {{apn}} o {{apnu}} exactamente como los provea el fabricante y sustitúyalos por las credenciales APN de su operador durante la configuración.
+Si dispone de ejemplos públicos de comandos ArkNav según firmware o una herramienta del proveedor, inclúyalos aquí siguiendo la guía del dispositivo. Mantenga los marcadores de posición como [apn] o [apnu] exactamente como los provea el fabricante y sustitúyalos por las credenciales APN de su operador durante la configuración.
 
 ## Notas de configuración
 

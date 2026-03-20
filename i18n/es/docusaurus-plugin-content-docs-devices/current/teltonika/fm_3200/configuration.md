@@ -49,7 +49,7 @@ Use los siguientes ajustes públicos del servidor Plaspy al configurar el FM 320
 - Asegúrese de que el FM 3200 tenga una fuente de alimentación confiable y esté encendido
 - Una tarjeta SIM activa con datos habilitados y la configuración APN correcta para la red móvil
 - Acceso al método de configuración oficial de Teltonika aplicable a su dispositivo y firmware, como SMS, USB o herramientas de Teltonika
-- El nombre del APN y, opcionalmente, usuario y contraseña del APN listos para ingresar en los marcadores como {{apn}}, {{apnu}} y {{apnp}}
+- El nombre del APN y, opcionalmente, usuario y contraseña del APN listos para ingresar en los marcadores como [apn], [apnu] y [apnp]
 - Conocimiento de si su instalación requiere selección de transporte UDP o TCP
 - Método para probar la conectividad, por ejemplo verificar la obtención de posición GPS y el estado de la sesión GPRS a través de la interfaz del dispositivo o la plataforma
 
@@ -69,7 +69,7 @@ El FM 3200 envía datos de ubicación y telemetría al endpoint y puerto compart
 2. Ingrese el endpoint del servidor Plaspy usando el dominio d.plaspy.com o la IP del servidor 54.85.159.138.
 3. Configure el puerto del dispositivo en 8888 según lo requiere Plaspy.
 4. Seleccione el transporte UDP o TCP si el FM 3200 necesita una selección explícita.
-5. Proporcione las credenciales APN usando los campos o marcadores apropiados como {{apn}}, {{apnu}} y {{apnp}}.
+5. Proporcione las credenciales APN usando los campos o marcadores apropiados como [apn], [apnu] y [apnp].
 6. Aplique o guarde la configuración y reinicie el dispositivo si el método o el firmware exige un reinicio para aplicar los cambios.
 7. Valide que el dispositivo reporte a Plaspy y aparezca en la plataforma usando la actividad del dispositivo o los registros de conexión.
 
@@ -80,13 +80,13 @@ El FM 3200 puede configurarse con un comando por lotes que establece el APN y lo
 - Comando de configuración por lotes de ejemplo (SMS u otra entrada soportada por Teltonika):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores y el comando:
-- {{apn}} es el nombre del APN del proveedor celular
-- {{apnu}} es el nombre de usuario del APN si el operador lo requiere
-- {{apnp}} es la contraseña del APN si el operador lo requiere
+- [apn] es el nombre del APN del proveedor celular
+- [apnu] es el nombre de usuario del APN si el operador lo requiere
+- [apnp] es la contraseña del APN si el operador lo requiere
 - 2004 se configura aquí como d.plaspy.com y 2005 como puerto 8888 para apuntar el rastreador a Plaspy
 - 2006 está incluido en la secuencia de ejemplo; consulte la documentación de Teltonika para conocer el significado exacto de los números de parámetro según su firmware
 - Use el método de entrega soportado por Teltonika para este comando, como SMS o la herramienta oficial de configuración, según su instalación

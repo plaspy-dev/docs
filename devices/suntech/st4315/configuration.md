@@ -83,13 +83,13 @@ Note on device ID
 - The fourth field is 1 if an APN username or password is provided, otherwise 0. Replace DEVICEID with the six digit ID and keep APN placeholders as needed.
 
 ```
-SA200NTW;DEVICEID;02;[1 or 0];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;DEVICEID;02;[1 or 0];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Example with placeholders explained:
-- {{apn}} = your mobile operator APN
-- {{apnu}} = APN username if required by operator
-- {{apnp}} = APN password if required by operator
+- [apn] = your mobile operator APN
+- [apnu] = APN username if required by operator
+- [apnp] = APN password if required by operator
 - DEVICEID = six digit device ID derived from IMEI
 
 2) Set reporting/update intervals to 60 seconds

@@ -77,9 +77,9 @@ El fabricante del H29P proporciona comandos de configuración por SMS. Envíe es
 
 - Configure el APN del operador (reemplace los marcadores con los valores de su operador). El usuario y la contraseña del APN son opcionales si su operador los requiere:
 ```text
-APN,{{apn}}[,{{apnu}},{{apnp}}]#
+APN,[apn][,[apnu],[apnp]]#
 ```
-Explicación: {{apn}} es el APN de su operador. {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN cuando el operador los solicita.
+Explicación: [apn] es el APN de su operador. [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN cuando el operador los solicita.
 
 - Configure el servidor GPRS para apuntar a Plaspy en el puerto 8888:
 ```text

@@ -78,9 +78,9 @@ El contenido público del fabricante para el TR-520 muestra comandos basados en 
 
 Notas sobre los marcadores de posición
 - {{imei}} — el número IMEI del dispositivo usado en el comando SMS para dirigirse a ese rastreador específico.
-- {{apn}} — la cadena APN del operador celular de su SIM.
-- {{apnu}} — nombre de usuario del APN si el operador lo requiere.
-- {{apnp}} — contraseña del APN si el operador lo requiere.
+- [apn] — la cadena APN del operador celular de su SIM.
+- [apnu] — nombre de usuario del APN si el operador lo requiere.
+- [apnp] — contraseña del APN si el operador lo requiere.
 - {{checksum}} y {{checksumreeboot}} — valores checksum hexadecimales de dos caracteres calculados que requiere el protocolo SMS del equipo (vea la explicación del checksum más abajo).
 
 La cadena de formato referenciada por los materiales del fabricante incluye un ejemplo de cadena de formato usado por Plaspy:
@@ -88,7 +88,7 @@ TSPRXAB27GHKLMnaicz*U!
 
 Comando de configuración (reemplazar marcadores y calcular checksum):
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Comando de reinicio (opcional o cuando sea necesario para aplicar los cambios):

@@ -74,7 +74,7 @@ The AU7 is configured to report telemetry, events, and periodic location samples
 
 ## Example Configuration Commands
 
-The AU7 supports AT style configuration commands. The following public example commands show a practical sequence used to configure reporting rules, interval, binary format, and the GPRS server pointing to Plaspy. Replace placeholder values such as {{apn}}, {{apnu}}, and {{apnp}} with the values provided by your mobile operator.
+The AU7 supports AT style configuration commands. The following public example commands show a practical sequence used to configure reporting rules, interval, binary format, and the GPRS server pointing to Plaspy. Replace placeholder values such as [apn], [apnu], and [apnp] with the values provided by your mobile operator.
 
 1. Set ACC event and reporting actions
 ```
@@ -96,11 +96,11 @@ AT$FORM=1,@P,0,""
 
 4. Configure GPRS server pointing to Plaspy
 ```
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-- {{apn}} is the mobile data access point name
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required by the operator
+- [apn] is the mobile data access point name
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required by the operator
 
 5. Check device status and configuration
 ```
@@ -113,7 +113,7 @@ These commands are public examples and show how to point an AU7 to Plaspy using 
 
 - Firmware differences can change command syntax and supported parameters; always confirm commands against the AU7 firmware release notes.
 - Choose TCP or UDP according to installation needs and firmware support; TCP may offer session reliability while UDP is commonly used for lighter messaging.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} ready from the mobile operator; leaving them incorrect will prevent GPRS connectivity.
+- Keep APN placeholders [apn], [apnu], and [apnp] ready from the mobile operator; leaving them incorrect will prevent GPRS connectivity.
 - Some installations use SMS or vendor tools for configuration depending on site practices and the device firmware capabilities.
 - Plaspy uses the same port 8888 for all devices it supports and automatically detects the tracker protocol on arrival.
 

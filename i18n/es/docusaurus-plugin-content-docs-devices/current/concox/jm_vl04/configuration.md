@@ -47,7 +47,7 @@ El objetivo de esta configuración es dejar el dispositivo JM-VL04 listo para co
 - Asegúrese de que el JM-VL04 tenga una tarjeta SIM funcional con datos y SMS habilitados en la red objetivo y con los valores APN correctos.
 - Dispositivo encendido y conectado al puerto OBD del vehículo o a la fuente de alimentación adecuada para que acepte comandos de configuración.
 - Acceso al método de configuración del fabricante; para el JM-VL04 los comandos públicos por SMS son los más habituales.
-- Conocimiento de los valores APN de su operador móvil; pueden utilizarse los marcadores {{apn}}, {{apnu}} y {{apnp}} en los comandos.
+- Conocimiento de los valores APN de su operador móvil; pueden utilizarse los marcadores [apn], [apnu] y [apnp] en los comandos.
 - Un medio para enviar mensajes SMS al rastreador desde el teléfono del instalador o administrador.
 - Si está disponible y lo prefiere, también puede configurarse por BLE mediante la app o herramienta del fabricante según su manual.
 
@@ -87,9 +87,9 @@ GMT,E,0#
 
 3. Definir el APN de su operador móvil (conserve los marcadores)
 ```text
-APN,{{apn}}{{apnu ? ',' + {{apnu}} + ',' + {{apnp}} : ''}}#
+APN,[apn]{{apnu ? ',' + [apnu] + ',' + [apnp] : ''}}#
 ```
-- Explicación: Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario y contraseña, use los marcadores opcionales {{apnu}} y {{apnp}} que proporciona el fabricante. (Mantenga el formato separado por comas si se requieren credenciales.)
+- Explicación: Reemplace [apn] por el APN de su operador. Si su operador requiere usuario y contraseña, use los marcadores opcionales [apnu] y [apnp] que proporciona el fabricante. (Mantenga el formato separado por comas si se requieren credenciales.)
 
 4. Establecer el servidor GPRS para usar el dominio de Plaspy (la selección UDP/TCP se gestiona por la configuración de transporte del dispositivo)
 ```text

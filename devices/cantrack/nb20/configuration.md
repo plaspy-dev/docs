@@ -77,7 +77,7 @@ When configured, the NB20 sends its location and status uplinks to the shared Pl
 
 The NB20 model configuration may be performed using CanTrack tools, their mobile app, or SMS and cloud commands depending on firmware and vendor tools. Exact commands and menu names can vary by firmware and regional device variant. Consult CanTrack documentation for the manufacturer specific command syntax and examples.
 
-If you are using a command line or SMS based configuration method provided by CanTrack, follow the order recommended by the manufacturer, supplying the Plaspy server domain d.plaspy.com or IP 54.85.159.138 and port 8888. If placeholders such as {{apn}}, {{apnu}}, or {{apnp}} are required by the device command set, keep them as placeholders and replace them with your carrier APN values according to your mobile operator.
+If you are using a command line or SMS based configuration method provided by CanTrack, follow the order recommended by the manufacturer, supplying the Plaspy server domain d.plaspy.com or IP 54.85.159.138 and port 8888. If placeholders such as [apn], [apnu], or [apnp] are required by the device command set, keep them as placeholders and replace them with your carrier APN values according to your mobile operator.
 
 ## Configuration Notes
 

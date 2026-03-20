@@ -94,9 +94,9 @@ AT$FORM=1,@P,0,""
 ```
 
 - Configurar el servidor GPRS incluyendo marcadores de posición de APN y la IP y puerto de Plaspy
-Tenga en cuenta que los marcadores {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN de su SIM, el usuario APN y la contraseña APN respectivamente:
+Tenga en cuenta que los marcadores [apn], [apnu] y [apnp] deben reemplazarse por el APN de su SIM, el usuario APN y la contraseña APN respectivamente:
 ```
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 - Verificar estado y configuración del dispositivo:
@@ -105,9 +105,9 @@ AT$INFO=?
 ```
 
 Explicación de los marcadores:
-- {{apn}} es el nombre del APN de la red móvil requerido para el acceso a datos GPRS
-- {{apnu}} es el usuario APN cuando el operador móvil lo requiere
-- {{apnp}} es la contraseña APN cuando el operador móvil lo requiere
+- [apn] es el nombre del APN de la red móvil requerido para el acceso a datos GPRS
+- [apnu] es el usuario APN cuando el operador móvil lo requiere
+- [apnp] es la contraseña APN cuando el operador móvil lo requiere
 
 Estos comandos son la secuencia de ejemplo publicada para definir el comportamiento de reporte y el endpoint GPRS hacia Plaspy. Alternativamente, el dispositivo puede aceptar configuración mediante la herramienta oficial ATrack o por comandos SMS según el firmware y las herramientas disponibles.
 

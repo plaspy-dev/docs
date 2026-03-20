@@ -88,9 +88,9 @@ timezone123456 0
 
 - Set the operator APN
 ```
-apn123456 {{apn}} {{apnu}} {{apnp}}
+apn123456 [apn] [apnu] [apnp]
 ```
-Explanation: replace {{apn}} with your operator APN, {{apnu}} with the APN username if required, and {{apnp}} with the APN password if required. Leave placeholders empty if not used.
+Explanation: replace [apn] with your operator APN, [apnu] with the APN username if required, and [apnp] with the APN password if required. Leave placeholders empty if not used.
 
 - Set the update interval to 120 seconds
 ```

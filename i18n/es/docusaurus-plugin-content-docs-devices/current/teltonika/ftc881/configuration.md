@@ -78,13 +78,13 @@ Los dispositivos Teltonika aceptan comúnmente comandos de parámetros por lote.
 - Ejemplo de comando setparam por lote de Teltonika
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de marcadores y campos
-  - {{apn}} marcadores para el nombre del APN de su tarjeta SIM
-  - {{apnu}} marcador para el nombre de usuario del APN si el operador lo requiere
-  - {{apnp}} marcador para la contraseña del APN si el operador lo requiere
+  - [apn] marcadores para el nombre del APN de su tarjeta SIM
+  - [apnu] marcador para el nombre de usuario del APN si el operador lo requiere
+  - [apnp] marcador para la contraseña del APN si el operador lo requiere
   - 2004 configura el dominio del servidor a d.plaspy.com
   - 2005 configura el puerto a 8888
   - 2006 se usa comúnmente para ajustar transporte o flags de activación según el firmware; consulte la documentación de Teltonika para el significado exacto de este parámetro en su versión de firmware

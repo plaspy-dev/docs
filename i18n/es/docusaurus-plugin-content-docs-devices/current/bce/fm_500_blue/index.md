@@ -1,6 +1,7 @@
 ---
 slug: /bce/fm_500_blue
 id: fm_500_blue
+sidebar_key: bcfm_500_blue_index_fm_500_blue
 sidebar_label: FM-500 Blue
 title: BCE - FM-500 Blue
 sidebar_class_name: menu_item_tracker

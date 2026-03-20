@@ -83,14 +83,14 @@ El Suntech SNT 100 puede configurarse enviando comandos SMS al equipo. Los coman
   - Ejemplo: IMEI 123456789012345 -> device ID 901234
 
 1) Configurar APN del operador y servidor GPRS
-- Comando plantilla (envíe por SMS, reemplace <device_id> y los marcadores APN):
+- Comando plantilla (envíe por SMS, reemplace \<device_id> y los marcadores APN):
 ```
-SA200NTW;<device_id>;02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;<device_id>;02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notas:
-- {{apn}} es la cadena APN del operador
-- {{apnu}} es el usuario APN si el operador lo requiere; deje vacío si no se usa
-- {{apnp}} es la contraseña APN si el operador la requiere; deje vacío si no se usa
+- [apn] es la cadena APN del operador
+- [apnu] es el usuario APN si el operador lo requiere; deje vacío si no se usa
+- [apnp] es la contraseña APN si el operador la requiere; deje vacío si no se usa
 - Las banderas de transporte y modo en el formato del fabricante pueden variar según el firmware; los valores públicos importantes son la dirección del servidor Plaspy 54.85.159.138 y el puerto 8888
 
 2) Establecer intervalo de actualización/reporte a 60 segundos
@@ -107,7 +107,7 @@ SA200CMD;<device_id>;02;PresetA
 ```
 Este comando solicita al equipo que devuelva los valores actuales de PresetA para que usted pueda confirmar la configuración activa.
 
-Mantenga el orden de comandos al realizar una configuración inicial: primero configure APN y servidor, luego el intervalo de reporte y por último verifique los ajustes. Use el IMEI del equipo para calcular <device_id> antes de enviar los SMS.
+Mantenga el orden de comandos al realizar una configuración inicial: primero configure APN y servidor, luego el intervalo de reporte y por último verifique los ajustes. Use el IMEI del equipo para calcular \<device_id> antes de enviar los SMS.
 
 ## Notas de configuración
 

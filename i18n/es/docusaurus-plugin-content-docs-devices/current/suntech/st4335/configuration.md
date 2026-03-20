@@ -81,17 +81,17 @@ Nota sobre cómo obtener el ID de dispositivo
 
 1) Configurar el APN del operador y el servidor GPRS
 - Use 1 en la bandera APN si proporciona usuario o contraseña de APN, de lo contrario use 0.
-- Reemplace los marcadores {{device_id}}, {{apn}}, {{apnu}} y {{apnp}} antes de enviar.
+- Reemplace los marcadores {{device_id}}, [apn], [apnu] y [apnp] antes de enviar.
 
 ```
-SA200NTW;{{device_id}};02;{{apn_flag}};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{{apn_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Explicación de los marcadores
 - {{device_id}}  = últimos 6 dígitos del IMEI excluyendo el dígito final (ver nota arriba)
-- {{apn}}        = nombre del APN del operador
-- {{apnu}}       = usuario del APN si es requerido, de lo contrario dejar en blanco
-- {{apnp}}       = contraseña del APN si es requerida, de lo contrario dejar en blanco
+- [apn]        = nombre del APN del operador
+- [apnu]       = usuario del APN si es requerido, de lo contrario dejar en blanco
+- [apnp]       = contraseña del APN si es requerida, de lo contrario dejar en blanco
 - {{apn_flag}}   = 1 si se proporciona usuario o contraseña APN, de lo contrario 0
 
 2) Establecer el intervalo de reporte a 60 segundos

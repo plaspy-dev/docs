@@ -83,11 +83,11 @@ M000000,22,XXXXXXXXXXXXXXX
 
 2. Configurar el APN del operador (APN y usuario y contraseña opcionales)
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
-- {{apn}} es la cadena APN del operador móvil.
-- {{apnu}} es el usuario del APN si el operador lo requiere; deje vacío u omita si no se utiliza.
-- {{apnp}} es la contraseña del APN si es necesaria; deje vacío u omita si no se utiliza.
+- [apn] es la cadena APN del operador móvil.
+- [apnu] es el usuario del APN si el operador lo requiere; deje vacío u omita si no se utiliza.
+- [apnp] es la contraseña del APN si es necesaria; deje vacío u omita si no se utiliza.
 
 3. Establecer el intervalo de actualización a 60 segundos
 ```text

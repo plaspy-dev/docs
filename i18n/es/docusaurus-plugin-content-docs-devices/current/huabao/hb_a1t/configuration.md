@@ -81,8 +81,8 @@ Los comandos exactos y el método para enviarlos dependen del firmware de Huabao
 
 Si cuenta con un conjunto de comandos SMS o terminal de Huabao, aplique los ajustes de servidor indicados en esta guía y mantenga los marcadores de posición como valores APN si aparecen. Por ejemplo, el uso típico de marcadores de posición podría verse así en ejemplos del fabricante:
 
-- Reemplace {{apn}} con el APN del operador de su SIM
-- Reemplace {{apnu}} y {{apnp}} con el usuario y la contraseña del APN si son requeridos
+- Reemplace [apn] con el APN del operador de su SIM
+- Reemplace [apnu] y [apnp] con el usuario y la contraseña del APN si son requeridos
 
 Consulte la documentación de Huabao para la sintaxis exacta de SMS y el orden necesario según su versión de firmware.
 

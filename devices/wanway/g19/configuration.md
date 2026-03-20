@@ -72,17 +72,17 @@ When configured, the G19 sends its location and device status to the shared Plas
 
 ## Example Configuration Commands
 
-The G19 supports SMS configuration. Below are the public commands that can be sent via SMS in the shown order. Keep the placeholders as provided and replace {{apn}}, {{apnu}}, and {{apnp}} with your carrier values when required.
+The G19 supports SMS configuration. Below are the public commands that can be sent via SMS in the shown order. Keep the placeholders as provided and replace [apn], [apnu], and [apnp] with your carrier values when required.
 
 - Configure carrier APN (replace placeholders). If username and password are required include them after the APN separated by commas:
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If username and password are required, use the optional form:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the carrier APN string. {{apnu}} and {{apnp}} are the optional APN username and password fields.
+Note: [apn] is the carrier APN string. [apnu] and [apnp] are the optional APN username and password fields.
 
 - Set the GPRS server to Plaspy using the server domain and port (transport flag preserved as provided):
 ```text

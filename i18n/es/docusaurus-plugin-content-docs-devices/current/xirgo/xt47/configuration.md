@@ -76,11 +76,11 @@ El XT47 soporta configuración vía SMS. A continuación se muestran los comando
 
 1. Establecer el APN del operador (reemplace los marcadores con los valores de su operador)
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apnu}} es el usuario del APN si su SIM lo requiere
-- {{apnp}} es la contraseña del APN si su SIM lo requiere
-- {{apn}} es el nombre del APN del operador móvil
+- [apnu] es el usuario del APN si su SIM lo requiere
+- [apnp] es la contraseña del APN si su SIM lo requiere
+- [apn] es el nombre del APN del operador móvil
 
 2. Configurar el servidor GPRS a Plaspy (el puerto y la IP del servidor van explícitos en el comando)
 ```text
@@ -97,7 +97,7 @@ Nota: Envíe los comandos en el orden mostrado cuando siga un flujo de provisió
 - Las versiones de firmware y revisiones de hardware pueden alterar el formato de los comandos y las opciones disponibles; confirme la sintaxis exacta con Xirgo para su versión de firmware.
 - Plaspy utiliza el mismo puerto 8888 para todos los dispositivos soportados y detecta automáticamente el protocolo del rastreador, por lo que el uso consistente del puerto Plaspy simplifica la incorporación de equipos.
 - Elija UDP o TCP según la preferencia del instalador y las condiciones de red; Plaspy acepta ambos pero el comportamiento de la red puede variar según el transporte.
-- Mantenga los marcadores como {{apn}}, {{apnu}} y {{apnp}} cuando componga los comandos SMS y reemplácelos por los valores específicos de su operador.
+- Mantenga los marcadores como [apn], [apnu] y [apnp] cuando componga los comandos SMS y reemplácelos por los valores específicos de su operador.
 
 ## Por qué usar Plaspy con esta configuración
 

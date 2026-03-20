@@ -1,6 +1,7 @@
 ---
 slug: /topshine/ublox_7
 id: ublox_7
+sidebar_key: topshinublox_7_index_ublox_7
 sidebar_label: Ublox 7
 title: TopShine - Ublox 7
 sidebar_class_name: menu_item_tracker

@@ -82,11 +82,11 @@ GMT,0000,0#
 ```
 
 - Configurar el APN del operador. Reemplace los marcadores con los valores de su operador:
-  - {{apn}} = nombre del APN de su operador móvil
-  - {{apnu}} = usuario del APN si es requerido (dejar vacío si no se usa)
-  - {{apnp}} = contraseña del APN si es requerida (dejar vacío si no se usa)
+  - [apn] = nombre del APN de su operador móvil
+  - [apnu] = usuario del APN si es requerido (dejar vacío si no se usa)
+  - [apnp] = contraseña del APN si es requerida (dejar vacío si no se usa)
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS usando la IP y el puerto de Plaspy
@@ -101,7 +101,7 @@ TIMER,0000,60:60:0:0#
 
 Notas sobre estos comandos:
 - La contraseña por defecto del dispositivo usada en estos ejemplos es 0000. Si ha cambiado la contraseña del equipo, reemplace 0000 por su contraseña actual.
-- Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} cuando prepare plantillas de SMS y reemplácelos por las credenciales reales de su operador.
+- Conserve los marcadores [apn], [apnu] y [apnp] cuando prepare plantillas de SMS y reemplácelos por las credenciales reales de su operador.
 - Algunos instaladores prefieren usar un nombre de dominio en lugar de la IP si el firmware del dispositivo lo soporta; si va a usar un dominio, siga las instrucciones de TopFly para la sintaxis de dominio.
 
 ## Notas de configuración

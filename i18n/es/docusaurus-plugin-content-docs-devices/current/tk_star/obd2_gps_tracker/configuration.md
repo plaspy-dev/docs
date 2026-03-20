@@ -79,19 +79,19 @@ El rastreador OBD2 TK-Star puede configurarse mediante comandos SMS. Los comando
 begin123456
 ```
 
-2. Establecer el APN del operador (reemplace {{apn}} con el APN de su operador)
+2. Establecer el APN del operador (reemplace [apn] con el APN de su operador)
 ```
-apn123456 {{apn}}
-```
-
-3. Establecer el nombre de usuario del APN si lo requiere su operador (reemplace {{apnu}} con el usuario)
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-4. Establecer la contraseña del APN si lo requiere su operador (reemplace {{apnp}} con la contraseña)
+3. Establecer el nombre de usuario del APN si lo requiere su operador (reemplace [apnu] con el usuario)
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+4. Establecer la contraseña del APN si lo requiere su operador (reemplace [apnp] con la contraseña)
+```
+apnpasswd123456 [apnp]
 ```
 
 5. Configurar el servidor GPRS a Plaspy por IP y puerto (apunta el dispositivo a Plaspy)
@@ -110,7 +110,7 @@ gprs123456
 ```
 
 Notas sobre marcadores de posición y comandos:
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores de posición para el APN del operador, el nombre de usuario del APN y la contraseña del APN respectivamente. Sustituya estos valores por los correctos para la SIM en el dispositivo.
+- [apn], [apnu] y [apnp] son marcadores de posición para el APN del operador, el nombre de usuario del APN y la contraseña del APN respectivamente. Sustituya estos valores por los correctos para la SIM en el dispositivo.
 - La contraseña numérica 123456 en estos ejemplos es la contraseña por defecto pública del dispositivo. Si ha cambiado la contraseña, use la contraseña actual.
 - El comando adminip anterior usa la IP y el puerto del servidor Plaspy. Alternativamente puede apuntar a d.plaspy.com si el dispositivo acepta nombres de host.
 

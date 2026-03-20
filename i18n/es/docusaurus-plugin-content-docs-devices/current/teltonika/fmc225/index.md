@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmc225
 id: fmc225
+sidebar_key: teltonikfmc225_index_fmc225
 sidebar_label: FMC225
 title: Teltonika - FMC225
 sidebar_class_name: menu_item_tracker

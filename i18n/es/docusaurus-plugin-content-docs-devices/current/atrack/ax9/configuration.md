@@ -47,7 +47,7 @@ Esta guía ofrece un camino práctico y conciso para preparar una unidad AX9 y q
 - Una unidad AX9 instalada y con alimentación, con acceso al método o herramienta de configuración del fabricante.
 - Una tarjeta SIM activa y un plan de datos móviles compatible con la capacidad de red del dispositivo.
 - Documentación del fabricante o acceso a la consola de configuración para enviar comandos estilo AT o usar software del proveedor.
-- Conocimientos básicos de los parámetros APN del proveedor de SIM para completar los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}}.
+- Conocimientos básicos de los parámetros APN del proveedor de SIM para completar los marcadores de posición como [apn], [apnu] y [apnp].
 - La posibilidad de reiniciar o cortar la alimentación del equipo después de la configuración para aplicar los nuevos ajustes.
 - Acceso a Plaspy para validar que el dispositivo aparezca en línea tras la configuración.
 
@@ -67,7 +67,7 @@ Al configurarse para Plaspy, el AX9 abre una conexión GPRS y envía paquetes de
 2. Ingrese el dominio de servidor de Plaspy d.plaspy.com o la IP del servidor 54.85.159.138 en los campos de servidor/GPRS.
 3. Configure el puerto de comunicación en 8888 según lo requiere Plaspy.
 4. Seleccione UDP o TCP si el dispositivo solicita elegir el transporte.
-5. Configure el APN y otros parámetros GPRS (use los marcadores {{apn}}, {{apnu}}, {{apnp}} donde corresponda).
+5. Configure el APN y otros parámetros GPRS (use los marcadores [apn], [apnu], [apnp] donde corresponda).
 6. Aplique o guarde la configuración y reinicie o corte la alimentación del AX9 si el procedimiento lo requiere.
 7. Valide que el equipo reporte a Plaspy comprobando el estado del dispositivo en la plataforma o usando el comando de verificación del dispositivo.
 
@@ -98,12 +98,12 @@ AT$FORM=1,@P,0,""
 ```
 - Configure el servidor GPRS apuntando a Plaspy. Reemplace los marcadores por las credenciales APN de su SIM según sea necesario:
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 Explicación de los marcadores:
-- {{apn}} es el APN de la red móvil proporcionado por su operador de SIM.
-- {{apnu}} es el nombre de usuario del APN si el operador lo requiere; dejar en blanco si no es necesario.
-- {{apnp}} es la contraseña del APN si el operador la requiere; dejar en blanco si no es necesario.
+- [apn] es el APN de la red móvil proporcionado por su operador de SIM.
+- [apnu] es el nombre de usuario del APN si el operador lo requiere; dejar en blanco si no es necesario.
+- [apnp] es la contraseña del APN si el operador la requiere; dejar en blanco si no es necesario.
 
 - Compruebe el estado y la configuración del equipo:
 ```text
@@ -116,7 +116,7 @@ Nota: el ejemplo usa la IP del servidor Plaspy 54.85.159.138 y el puerto 8888. P
 
 - Las revisiones de firmware y hardware pueden cambiar los comandos AT disponibles o el formato de los parámetros; verifique los comandos con la documentación del firmware del AX9.
 - El equipo puede configurarse para TCP o UDP; seleccione el transporte que se ajuste a su práctica de instalación y requisitos de red.
-- Las credenciales APN varían según el operador. Tenga listos los marcadores {{apn}}, {{apnu}} y {{apnp}} y complételos con los datos del operador.
+- Las credenciales APN varían según el operador. Tenga listos los marcadores [apn], [apnu] y [apnp] y complételos con los datos del operador.
 - Use la herramienta del fabricante o el canal seguro recomendado por ATrack para aprovisionamiento masivo o remoto cuando esté disponible.
 - Tras aplicar los ajustes, puede ser necesario reiniciar o cortar la alimentación del dispositivo para que los cambios tengan efecto.
 

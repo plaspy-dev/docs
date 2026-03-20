@@ -50,7 +50,7 @@ All devices reporting to Plaspy use the same port and Plaspy will detect the pro
 
 - Confirm the AT500 has adequate battery charge or is connected to power for initial provisioning and testing.
 - Ensure cellular coverage for the device region and that the eSIM or SIM is provisioned and allowed to access packet data and SMS as required.
-- Have APN credentials available if the network requires username or password authentication (placeholders such as {{apn}}, {{apnu}}, and {{apnp}} may be used in commands).
+- Have APN credentials available if the network requires username or password authentication (placeholders such as [apn], [apnu], and [apnp] may be used in commands).
 - Access to the AT500 configuration method you prefer (SMS commands, BLE provisioning app, or vendor software) and any required administrative credentials.
 - A phone capable of sending SMS messages from the installer or a BLE-enabled smartphone for local provisioning where supported.
 - Access to Plaspy account or fleet console credentials to validate device reporting after configuration.
@@ -79,19 +79,19 @@ The AT500 reports GNSS position and device telemetry over cellular networks to t
 
 The AT500 can be configured using SMS commands. Below are the public SMS commands published for basic APN and server configuration. Preserve placeholders when inserting carrier information.
 
-- Set the operator APN (replace {{apn}} with your carrier APN)
+- Set the operator APN (replace [apn] with your carrier APN)
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 
-- Set the username for the APN if required (replace {{apnu}} with the APN username)
+- Set the username for the APN if required (replace [apnu] with the APN username)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 
-- Set the password for the APN if required (replace {{apnp}} with the APN password)
+- Set the password for the APN if required (replace [apnp] with the APN password)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP (public command sets the IP directly)
@@ -105,9 +105,9 @@ $PORT,8888
 ```
 
 Notes on placeholders:
-- {{apn}} is your mobile network operator APN value.
-- {{apnu}} is the APN username if your operator requires one.
-- {{apnp}} is the APN password if your operator requires one.
+- [apn] is your mobile network operator APN value.
+- [apnu] is the APN username if your operator requires one.
+- [apnp] is the APN password if your operator requires one.
 
 If your provisioning path supports entering a domain name instead of an IP, you can point the tracker to the Plaspy domain d.plaspy.com using your manufacturer tool or app. The exact SMS command syntax for a domain value is dependent on firmware; use the manufacturer's documentation or BLE tool when available.
 

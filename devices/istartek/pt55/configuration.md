@@ -48,7 +48,7 @@ Use these public Plaspy server settings when configuring the PT55. Plaspy uses t
 
 - A charged PT55 device with SIM installed and active mobile data plan if using GPRS reporting.
 - SMS capability to send configuration SMS messages to the device phone number for remote setup.
-- APN credentials for the mobile operator (keep {{apn}}, {{apnu}}, and {{apnp}} placeholders handy if required).
+- APN credentials for the mobile operator (keep [apn], [apnu], and [apnp] placeholders handy if required).
 - Access to the official iStartek configuration instructions or installer tool for firmware-specific guidance.
 - A procedure for validating device visibility in Plaspy once configuration is applied.
 
@@ -89,13 +89,13 @@ GMT,E,0#
 3. Set the operator APN
 - Minimal APN only:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
-- APN with optional username and password (include {{apnu}} and {{apnp}} if required by your operator):
+- APN with optional username and password (include [apnu] and [apnp] if required by your operator):
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the mobile operator APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders. Keep those placeholders if your carrier requires authentication.
+Note: [apn] is the mobile operator APN. [apnu] and [apnp] are optional APN username and password placeholders. Keep those placeholders if your carrier requires authentication.
 
 4. Set the GPRS server to use Plaspy by domain (UDP/TCP on port 8888)
 ```
@@ -122,7 +122,7 @@ PARAM#
 - SMS-based setup is supported and commonly used for the PT55, but some deployments may prefer vendor tools or wired configuration if available.
 - Firmware versions and hardware revisions can affect exact command syntax and available parameters; consult the official iStartek documentation for firmware-specific notes.
 - Choose UDP or TCP based on network reliability and operator behavior; Plaspy accepts both and will auto-detect the protocol.
-- Preserve APN placeholders {{apn}}, {{apnu}}, and {{apnp}} when preparing commands; replace them with your carrier values.
+- Preserve APN placeholders [apn], [apnu], and [apnp] when preparing commands; replace them with your carrier values.
 - Plaspy uses the same port 8888 for all supported devices and will detect the protocol automatically when the device sends data.
 
 ## Why Use Plaspy with This Configuration

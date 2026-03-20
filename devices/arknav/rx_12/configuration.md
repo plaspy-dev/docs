@@ -77,7 +77,7 @@ The RX-12 transmits GNSS positions and telemetry over LTE‑M or EGPRS to the Pl
 
 The exact configuration commands and syntax depend on the ArkNav configuration utility, SMS command set, or USB debug interface and can vary by firmware. ArkNav typically provides a command list or configuration utility for entering server domain or IP, port, transport, APN settings, and other parameters. Consult the ArkNav RX-12 user manual for exact command formats and step by step procedures.
 
-If you have ArkNav public command examples from firmware or a vendor tool, include them here following the device guide. Keep placeholders such as {{apn}} or {{apnu}} exactly as provided by the manufacturer and substitute them with your operator APN credentials during configuration.
+If you have ArkNav public command examples from firmware or a vendor tool, include them here following the device guide. Keep placeholders such as [apn] or [apnu] exactly as provided by the manufacturer and substitute them with your operator APN credentials during configuration.
 
 ## Configuration Notes
 

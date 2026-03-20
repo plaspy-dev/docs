@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/smart5
 id: smart5
+sidebar_key: ruptelsmart5_index_smart5
 sidebar_label: Smart5
 title: Ruptela - Smart5
 sidebar_class_name: menu_item_tracker

@@ -83,12 +83,12 @@ The HI-602 can be configured by sending SMS messages to the device. The public s
    - Purpose: configure the mobile network APN and optional username or password for GPRS
    - Command format (replace placeholders with your operator values):
 ```text
-#0000,200,{{apn}},{{apnu}},{{apnp}}
+#0000,200,[apn],[apnu],[apnp]
 ```
    - Explanation of placeholders:
-     - {{apn}} is the access point name for the SIM operator
-     - {{apnu}} is the APN username if required by the operator; leave empty if not used
-     - {{apnp}} is the APN password if required; leave empty if not used
+     - [apn] is the access point name for the SIM operator
+     - [apnu] is the APN username if required by the operator; leave empty if not used
+     - [apnp] is the APN password if required; leave empty if not used
 
 2. Set the GPRS server to Plaspy
    - Purpose: point the device to Plaspy server IP and port so data is sent to Plaspy
@@ -113,7 +113,7 @@ Notes about these commands:
 - Firmware and hardware revisions can change command formats or available parameters; verify commands against your device firmware documentation.
 - Choose UDP or TCP according to network reliability and device support; Plaspy accepts both transports on port 8888.
 - SMS based configuration is supported and commonly used for initial setup when PC tools are not available.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} ready and confirm exact operator values before sending commands.
+- Keep APN placeholders [apn], [apnu], and [apnp] ready and confirm exact operator values before sending commands.
 - Remember that all devices in Plaspy use the same port and the platform will automatically detect the device protocol once the tracker communicates with the server.
 
 ## Why Use Plaspy with This Configuration

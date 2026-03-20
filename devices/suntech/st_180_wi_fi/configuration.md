@@ -84,36 +84,36 @@ Configuration commands (send by SMS to the device)
 
 1) Set operator APN and the GPRS server pointing to Plaspy
 - The fourth field is a flag set to 1 if APN username or password are provided, otherwise 0.
-- Replace <device_id> with the six digit ID derived from the IMEI.
-- Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and substitute actual APN values when needed.
+- Replace \<device_id> with the six digit ID derived from the IMEI.
+- Keep the placeholders [apn], [apnu], and [apnp] and substitute actual APN values when needed.
 
 ```
-SA200NTW;<device_id>;02;<apn_flag>;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;<device_id>;02;<apn_flag>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Example with flag explanation
-- If you provide APN username or password set <apn_flag> to 1
-- If no username or password set <apn_flag> to 0
+- If you provide APN username or password set \<apn_flag> to 1
+- If no username or password set \<apn_flag> to 0
 
 2) Set the update/reporting interval to 60 seconds
-- Replace <device_id> with your device ID.
+- Replace \<device_id> with your device ID.
 
 ```
 SA200RPT;<device_id>;02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Check settings (verification command)
-- Replace <device_id> with your device ID.
+- Replace \<device_id> with your device ID.
 
 ```
 SA200CMD;<device_id>;02;PresetA
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
-- <apn_flag> should be 1 when APN username or password fields are used and 0 when they are empty
+- [apn] is the mobile operator APN
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
+- \<apn_flag> should be 1 when APN username or password fields are used and 0 when they are empty
 
 Send these SMS commands in the order shown to apply network settings and reporting intervals, then restart or wait for the device to apply settings per the device behavior.
 

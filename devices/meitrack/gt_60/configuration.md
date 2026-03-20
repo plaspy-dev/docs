@@ -46,7 +46,7 @@ Preparing a GT-60 for use with Plaspy means setting the device to send its locat
 
 - A charged GT-60 device and physical access to it for SMS based configuration or to a device administrator
 - An active SIM card installed in the device with a valid data plan or SMS capability as required
-- Knowledge of the APN settings for the SIM carrier to populate the {{apn}} placeholder and optional {{apnu}} and {{apnp}} values
+- Knowledge of the APN settings for the SIM carrier to populate the [apn] placeholder and optional [apnu] and [apnp] values
 - Access to a mobile phone capable of sending SMS commands to the GT-60 using the device password
 - The default device password if unchanged is shown in the example commands as 0000
 - Access to Meitrack official configuration documentation or tools for reference and firmware specific details
@@ -83,10 +83,10 @@ Use this only if you want to restore factory settings before applying new config
 
 2. Set the GPRS server to Plaspy using IP and port with APN placeholder
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 - This command sets the GPRS server to the Plaspy server IP and port. The example includes placeholders for APN settings.
-- {{apn}} is your carrier APN. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders. If your carrier requires no username or password, you may omit those values according to device rules.
+- [apn] is your carrier APN. [apnu] and [apnp] are optional APN username and APN password placeholders. If your carrier requires no username or password, you may omit those values according to device rules.
 
 3. Set the time zone to UTC 0
 ```
@@ -107,7 +107,7 @@ Use this only if you want to restore factory settings before applying new config
 - This command sets event reporting per the GT-60 public command set. Adjust parameters as needed for your event preferences.
 
 Note on placeholders and formatting
-- Keep placeholders {{apn}} {{apnu}} and {{apnp}} when preparing commands and replace them with your carrier values before sending SMS
+- Keep placeholders [apn] [apnu] and [apnp] when preparing commands and replace them with your carrier values before sending SMS
 - The examples preserve the command order that is important for initial configuration
 
 ## Configuration Notes

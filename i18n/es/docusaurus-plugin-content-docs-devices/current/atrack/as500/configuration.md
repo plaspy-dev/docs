@@ -46,7 +46,7 @@ El objetivo al configurar un AS500 para Plaspy es dejar el rastreador listo para
 
 - Dispositivo encendido y accesible mediante la interfaz de configuración del fabricante que use (ADM, UART o consola de comandos según aplique).
 - SIM de datos celular activa o eSIM aprovisionada para el dispositivo con las credenciales APN correctas.
-- Valores de APN disponibles para insertar en la configuración del equipo, como los marcadores {{apn}}, {{apnu}} y {{apnp}} si son necesarios.
+- Valores de APN disponibles para insertar en la configuración del equipo, como los marcadores [apn], [apnu] y [apnp] si son necesarios.
 - Conocimiento del método de configuración del dispositivo en su despliegue para enviar comandos AT o utilizar las herramientas del fabricante.
 - Un plan básico de verificación para confirmar que el dispositivo alcanza el servidor Plaspy y que los datos aparecen en la plataforma.
 - Acceso del instalador al equipo físico en caso de que sea necesario reiniciar o cortar la alimentación tras aplicar los ajustes.
@@ -73,7 +73,7 @@ El AS500 envía datos de ubicación y sensores al endpoint y puerto de Plaspy qu
 
 ## Comandos de configuración de ejemplo
 
-El AS500 soporta comandos estilo AT para la configuración. El siguiente ejemplo público muestra un orden de comandos comúnmente usado para preparar el dispositivo para Plaspy. Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador cuando aplique el comando GPRS.
+El AS500 soporta comandos estilo AT para la configuración. El siguiente ejemplo público muestra un orden de comandos comúnmente usado para preparar el dispositivo para Plaspy. Conserve los marcadores [apn], [apnu] y [apnp] con los valores de su operador cuando aplique el comando GPRS.
 
 - Configurar manejo de evento ACC y reglas de reporte relacionadas
 ```text
@@ -95,7 +95,7 @@ AT$FORM=1,@P,0,""
 
 - Configurar el servidor GPRS a Plaspy usando marcadores para las credenciales APN
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 - Verificar estado del dispositivo
@@ -104,9 +104,9 @@ AT$INFO=?
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es el nombre APN de su operador.
-- {{apnu}} es el usuario APN cuando el operador lo requiere.
-- {{apnp}} es la contraseña APN cuando el operador la solicita.
+- [apn] es el nombre APN de su operador.
+- [apnu] es el usuario APN cuando el operador lo requiere.
+- [apnp] es la contraseña APN cuando el operador la solicita.
 Reemplace los marcadores con los valores correctos para su SIM o perfil eSIM antes de aplicar el comando GPRS.
 
 ## Notas de configuración

@@ -84,13 +84,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your SIM card provider APN. If required, include {{apnu}} and {{apnp}} for APN username and password:
+- Set the operator APN. Replace [apn] with your SIM card provider APN. If required, include [apnu] and [apnp] for APN username and password:
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If your operator requires username and password:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to Plaspy by domain (recommended) and port 8888:
@@ -114,8 +114,8 @@ PARAM#
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator access point name required for data connectivity.
-- {{apnu}} and {{apnp}} are optional APN username and password fields; include them only if your operator requires credentials.
+- [apn] is the mobile operator access point name required for data connectivity.
+- [apnu] and [apnp] are optional APN username and password fields; include them only if your operator requires credentials.
 - When sending SMS commands, ensure you follow iStartek's format and that the sending number is authorized if the device enforces SMS control lists.
 
 ## Configuration Notes

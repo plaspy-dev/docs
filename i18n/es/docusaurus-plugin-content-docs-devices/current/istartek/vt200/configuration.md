@@ -88,13 +88,13 @@ GMT,E,0#
 
 - Establecer el APN del operador. Solo APN básico:
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 - Establecer el APN del operador con usuario y contraseña opcionales (si el operador lo requiere). Mantenga los marcadores tal como están:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Explicación: reemplace {{apn}} con el APN del operador móvil. Use {{apnu}} y {{apnp}} solo si el APN requiere usuario y contraseña.)
+(Explicación: reemplace [apn] con el APN del operador móvil. Use [apnu] y [apnp] solo si el APN requiere usuario y contraseña.)
 
 - Configurar el servidor GPRS usando el dominio de Plaspy (preferido para manejo de IP dinámica):
 ```text
@@ -126,7 +126,7 @@ Notas:
 - Las versiones de firmware y las revisiones de hardware pueden cambiar la sintaxis de los comandos o los parámetros disponibles; siempre verifique la compatibilidad de comandos con su firmware VT200.
 - La configuración por SMS es habitual para unidades VT200; si dispone de una herramienta de aprovisionamiento del proveedor, considérela para configuraciones masivas.
 - Elija UDP o TCP según su entorno de red y los requerimientos del dispositivo; Plaspy acepta ambos transportes, pero el lado del dispositivo debe quedar correctamente configurado.
-- Mantenga los marcadores de APN ({{apn}}, {{apnu}}, {{apnp}}) tal como están en la documentación y reemplácelos por los valores específicos del operador durante el aprovisionamiento.
+- Mantenga los marcadores de APN ([apn], [apnu], [apnp]) tal como están en la documentación y reemplácelos por los valores específicos del operador durante el aprovisionamiento.
 - Después de aplicar los ajustes, use PARAM# o la propia plataforma para confirmar que el dispositivo aparece en Plaspy y está reportando como se espera.
 
 ## Por qué usar Plaspy con esta configuración

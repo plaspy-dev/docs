@@ -76,12 +76,12 @@ El XG37 admite configuración vía SMS. A continuación figuran los comandos SMS
 
 - Configure el APN del operador. Reemplace los marcadores con los valores de su operador:
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explicación de los marcadores:
-- {{apn}} — el nombre del APN proporcionado por el operador móvil.  
-- {{apnu}} — el nombre de usuario del APN si el operador lo requiere; dejar vacío si no es necesario.  
-- {{apnp}} — la contraseña del APN si el operador lo requiere; dejar vacío si no es necesario.
+- [apn] — el nombre del APN proporcionado por el operador móvil.  
+- [apnu] — el nombre de usuario del APN si el operador lo requiere; dejar vacío si no es necesario.  
+- [apnp] — la contraseña del APN si el operador lo requiere; dejar vacío si no es necesario.
 
 - Configure el servidor GPRS hacia Plaspy usando la IP del servidor y el puerto 8888. Este comando configura la entrada de servidor del dispositivo para apuntar a Plaspy:
 ```text
@@ -97,7 +97,7 @@ Notas:
 - La configuración por SMS está soportada por los comandos públicos mostrados aquí, pero muchos instaladores usan la herramienta de configuración del fabricante cuando está disponible.  
 - Cuando tenga opción, seleccione UDP o TCP conforme a la capacidad del firmware y las condiciones de red; Plaspy detectará el protocolo automáticamente al conectarse.  
 - Plaspy utiliza el mismo puerto 8888 para todos los dispositivos, por lo que el valor del puerto de servidor es consistente entre modelos.  
-- Confirme siempre los marcadores como {{apn}}, {{apnu}} y {{apnp}} con su operador móvil o instalador antes de enviar SMS de configuración.
+- Confirme siempre los marcadores como [apn], [apnu] y [apnp] con su operador móvil o instalador antes de enviar SMS de configuración.
 
 ## Por qué usar Plaspy con esta configuración
 

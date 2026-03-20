@@ -94,9 +94,9 @@ AT$FORM=1,@P,0,""
 ```
 
 - Configure the GPRS server including APN placeholders and Plaspy server IP and port
-Note that placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your SIM APN, APN username, and APN password respectively:
+Note that placeholders [apn], [apnu], and [apnp] must be replaced with your SIM APN, APN username, and APN password respectively:
 ```
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 - Check device status and configuration:
@@ -105,9 +105,9 @@ AT$INFO=?
 ```
 
 Explanation of placeholders:
-- {{apn}} is the mobile network APN name required for GPRS data access
-- {{apnu}} is the APN username when required by the mobile operator
-- {{apnp}} is the APN password when required by the mobile operator
+- [apn] is the mobile network APN name required for GPRS data access
+- [apnu] is the APN username when required by the mobile operator
+- [apnp] is the APN password when required by the mobile operator
 
 These commands are the published example sequence for setting the reporting behavior and the GPRS endpoint to Plaspy. The device may alternatively accept configuration through the official ATrack tool or SMS commands depending on firmware and tooling.
 

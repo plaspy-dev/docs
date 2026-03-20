@@ -78,17 +78,17 @@ Al configurarse para Plaspy, el TZ-AVL09 utiliza GPRS para entregar datos de ubi
 Para configurar el TZ-AVL09 por SMS, envíe los siguientes comandos en el orden indicado. Estos ejemplos respetan el prefijo admin por defecto del fabricante. Reemplace los marcadores por los valores de su operador.
 
 1. Configurar el APN del operador
-   - Reemplace {{apn}} por el APN de su operador móvil
-   - Opcionalmente {{apnu}} es el usuario APN y {{apnp}} la contraseña APN si su operador lo requiere
+   - Reemplace [apn] por el APN de su operador móvil
+   - Opcionalmente [apnu] es el usuario APN y [apnp] la contraseña APN si su operador lo requiere
 
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
-Nota: Si no se requiere usuario ni contraseña APN omita la porción ,{{apnu}},{{apnp}} para que el comando quede así:
+Nota: Si no se requiere usuario ni contraseña APN omita la porción ,[apnu],[apnp] para que el comando quede así:
 
 ```text
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 2. Establecer el intervalo de actualización a 60 segundos

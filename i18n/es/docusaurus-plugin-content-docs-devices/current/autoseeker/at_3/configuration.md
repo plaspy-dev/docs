@@ -76,7 +76,7 @@ El AT-3 transmite fixes de posición GNSS y telemetría de estado a través de l
 
 Los comandos exactos y el formato dependen de la herramienta de configuración Autoseeker, el firmware o el conjunto de comandos SMS que proporcione el fabricante. Como los métodos del fabricante varían, siga las instrucciones oficiales de Autoseeker o la herramienta del proveedor para establecer servidor y puerto. Plaspy acepta datos del dispositivo cuando está configurado para enviar a d.plaspy.com o a 54.85.159.138 en el puerto 8888 usando UDP o TCP.
 
-Si recibe comandos públicos del fabricante destinados a la configuración del dispositivo, aplíquelos en el orden que especifique el fabricante y preserve los marcadores de posición como {{apn}} u otros según lo requiera el equipo.
+Si recibe comandos públicos del fabricante destinados a la configuración del dispositivo, aplíquelos en el orden que especifique el fabricante y preserve los marcadores de posición como [apn] u otros según lo requiera el equipo.
 
 ## Notas de configuración
 

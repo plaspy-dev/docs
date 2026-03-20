@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt400
 id: mt400
+sidebar_key: megastemt400_index_mt400
 sidebar_label: MT400
 title: Megastek - MT400
 sidebar_class_name: menu_item_tracker

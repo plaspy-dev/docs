@@ -78,11 +78,11 @@ The EV manufacturer documents SMS-based setup for EV-04. The sample commands bel
 123456L+00
 ```
 
-- Set the operator APN (replace {{apn}}, and include {{apnu}} and {{apnp}} if your operator requires username and password)
+- Set the operator APN (replace [apn], and include [apnu] and [apnp] if your operator requires username and password)
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the mobile operator APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders used only if your operator requires them.
+Explanation: [apn] is the mobile operator APN. [apnu] and [apnp] are optional APN username and password placeholders used only if your operator requires them.
 
 - Set the server IP and port to Plaspy (manufacturer note: you may need to request server change enablement from the manufacturer)
 ```text
@@ -97,7 +97,7 @@ Notes:
 - SMS-based configuration is supported in the public commands shown; confirm the device in-hand uses the same SMS command set and default password before sending commands.
 - Firmware or hardware revisions may change command syntax or default passwords; verify against the manufacturer documentation or support.
 - Choose UDP or TCP according to your device's configuration menu; Plaspy will accept either transport on port 8888 and will automatically detect the correct protocol.
-- Confirm APN values with your mobile operator and preserve placeholders {{apn}}, {{apnu}}, and {{apnp}} as shown when applicable.
+- Confirm APN values with your mobile operator and preserve placeholders [apn], [apnu], and [apnp] as shown when applicable.
 - Contact the manufacturer or vendor if the device does not accept server changes; some units require an enablement step or dealer activation.
 
 ## Why Use Plaspy with This Configuration

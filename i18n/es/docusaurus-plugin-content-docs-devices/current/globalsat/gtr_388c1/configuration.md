@@ -64,7 +64,7 @@ Al configurarse, el GTR-388C1 envía posiciones GNSS y telemetría de eventos al
 ## Flujo común de configuración
 
 1. Acceda al método oficial de configuración de GlobalSat para el GTR-388C1, ya sean comandos SMS o la herramienta del proveedor indicada en la documentación del fabricante.
-2. Prepare la cadena de comando reemplazando los marcadores como el IMEI del dispositivo y los valores APN {{apn}}, {{apnu}} y {{apnp}}.
+2. Prepare la cadena de comando reemplazando los marcadores como el IMEI del dispositivo y los valores APN [apn], [apnu] y [apnp].
 3. Introduzca d.plaspy.com o la IP del servidor Plaspy 54.85.159.138 como destino del servidor en el comando.
 4. Configure el puerto en 8888 y elija UDP o TCP si el dispositivo requiere la selección explícita del transporte.
 5. Envíe el SMS de configuración al dispositivo y aplique o guarde los ajustes según el procedimiento del equipo.
@@ -79,10 +79,10 @@ Format note shown in the public content
 TSPRXAB27GHKLMnaicz*U!
 
 Primary setup command
-Replace {{imei}} with the device IMEI and {{apn}}, {{apnu}}, {{apnp}} with your operator APN settings. Compute the checksum for the characters before the asterisk and place the two-character uppercase hex checksum in the {{checksum}} placeholder.
+Replace {{imei}} with the device IMEI and [apn], [apnu], [apnp] with your operator APN settings. Compute the checksum for the characters before the asterisk and place the two-character uppercase hex checksum in the {{checksum}} placeholder.
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Optional reboot command
@@ -97,9 +97,9 @@ Explicación del checksum
 
 Descripción breve de los marcadores
 - {{imei}} — número IMEI del dispositivo usado para dirigir el SMS al rastreador
-- {{apn}} — Nombre del Punto de Acceso (APN) del operador de la SIM
-- {{apnu}} — Nombre de usuario del APN si el operador lo requiere
-- {{apnp}} — Contraseña del APN si el operador lo requiere
+- [apn] — Nombre del Punto de Acceso (APN) del operador de la SIM
+- [apnu] — Nombre de usuario del APN si el operador lo requiere
+- [apnp] — Contraseña del APN si el operador lo requiere
 - {{checksum}} y {{checksumreeboot}} — valores de checksum en hexadecimal de dos caracteres en mayúsculas, computados a partir del texto del comando antes del asterisco
 
 ## Notas de configuración

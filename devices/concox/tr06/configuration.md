@@ -89,13 +89,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN, and include {{apnu}} and {{apnp}} if your carrier requires username and password):
+- Set the operator APN (replace [apn] with your carrier APN, and include [apnu] and [apnp] if your carrier requires username and password):
 
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
-Note: keep the placeholders {{apn}}, {{apnu}}, {{apnp}} as applicable. If your APN requires only the APN name, send only APN,{{apn}}#.
+Note: keep the placeholders [apn], [apnu], [apnp] as applicable. If your APN requires only the APN name, send only APN,[apn]#.
 
 - Set the GPRS server using the Plaspy domain (UDP or TCP selection is handled separately on some firmware):
 

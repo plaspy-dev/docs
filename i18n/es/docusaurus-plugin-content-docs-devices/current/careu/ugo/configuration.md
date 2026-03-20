@@ -78,7 +78,7 @@ Cuando está configurado para Plaspy, el CAREU Ugo envía posiciones GNSS y tele
 
 El método exacto de configuración para CAREU Ugo puede variar según el firmware y la herramienta del proveedor. Algunos instaladores usan una utilidad de configuración de escritorio o una app móvil, mientras que otros pueden usar SMS o provisionamiento remoto basado en herramientas CAREU. Debido a que las herramientas del fabricante varían por región y firmware, siga las instrucciones oficiales de CAREU para la sintaxis de comandos y los procedimientos exactos.
 
-Si dispone de un conjunto de comandos públicos de CAREU en la documentación del proveedor, ejecútelos en el orden especificado por CAREU e incluya los ajustes de servidor de Plaspy indicados arriba. Para campos de marcador de posición en comandos del fabricante, mantenga los placeholders como {{apn}} o {{apnu}} tal como aparecen y reemplácelos por los valores específicos de su red cuando se lo indiquen.
+Si dispone de un conjunto de comandos públicos de CAREU en la documentación del proveedor, ejecútelos en el orden especificado por CAREU e incluya los ajustes de servidor de Plaspy indicados arriba. Para campos de marcador de posición en comandos del fabricante, mantenga los placeholders como [apn] o [apnu] tal como aparecen y reemplácelos por los valores específicos de su red cuando se lo indiquen.
 
 ## Notas de configuración
 

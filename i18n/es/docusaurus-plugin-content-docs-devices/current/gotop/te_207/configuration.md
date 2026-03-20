@@ -78,8 +78,8 @@ La documentación del fabricante del TE-207 y las herramientas del proveedor det
 
 Si su proveedor facilita ejemplos por SMS o línea de comandos, normalmente incluyen marcadores de posición como valores de APN o credenciales. Mantenga los marcadores tal como aparecen y reemplácelos por los valores de su operador o cuenta al enviar los comandos. Por ejemplo, un patrón común que puede aparecer en documentación pública del proveedor es:
 
-- Reemplace {{apn}} por el APN de su operador al configurar GPRS
-- Reemplace {{apnu}} y {{apnp}} por el usuario y la contraseña del APN si son requeridos
+- Reemplace [apn] por el APN de su operador al configurar GPRS
+- Reemplace [apnu] y [apnp] por el usuario y la contraseña del APN si son requeridos
 
 Confirme siempre el formato exacto de los comandos en la documentación oficial del GOTOP TE-207 antes de enviar configuraciones.
 

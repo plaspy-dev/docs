@@ -83,9 +83,9 @@ The TorchX 310 supports SMS configuration commands. The sample below uses the de
 GMT,0000,0#
 ```
 
-2. Set the operator APN. Replace the placeholders as follows: {{apn}} for the APN name, {{apnu}} for APN username if required, and {{apnp}} for APN password if required.
+2. Set the operator APN. Replace the placeholders as follows: [apn] for the APN name, [apnu] for APN username if required, and [apnp] for APN password if required.
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
 
 3. Set the GPRS server to the Plaspy server IP and port. Plaspy also accepts the server domain d.plaspy.com if preferred.
@@ -108,7 +108,7 @@ Notes on the commands above:
 - Manufacturer firmware versions and regional device variants can change the exact command syntax and supported parameters; consult TopFly documentation for firmware specific details.
 - SMS based configuration is commonly supported but requires the SIM to accept SMS and the installer to know the device configuration password.
 - Choose UDP or TCP based on your deployment needs; Plaspy will accept either on port 8888 and detect the protocol automatically.
-- When using placeholders such as {{apn}}, {{apnu}}, and {{apnp}} replace them with the operator specific APN and credentials required by the SIM card.
+- When using placeholders such as [apn], [apnu], and [apnp] replace them with the operator specific APN and credentials required by the SIM card.
 - After applying configuration, allow time for the device to register on the cellular network and for buffered points to upload to Plaspy.
 
 ## Why Use Plaspy with This Configuration

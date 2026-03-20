@@ -88,9 +88,9 @@ The TK102B supports SMS-based configuration. The following commands are the publ
 
 - Set the operator APN (replace placeholders with your operator values)
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-Explanation: {{apn}} is the operator APN. {{apnu}} is the APN username if required. {{apnp}} is the APN password if required. If your operator does not require username or password, you can omit those placeholders per device behavior.
+Explanation: [apn] is the operator APN. [apnu] is the APN username if required. [apnp] is the APN password if required. If your operator does not require username or password, you can omit those placeholders per device behavior.
 
 - Set the GPRS server to Plaspy (use numeric IP and port)
 ```text

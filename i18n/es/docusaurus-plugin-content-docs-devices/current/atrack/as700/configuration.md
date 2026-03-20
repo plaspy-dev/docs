@@ -47,7 +47,7 @@ Configurar el AS700 para Plaspy significa preparar el dispositivo para enviar te
 - Un AS700 cargado con energía solar o de batería suficiente para pruebas y configuración.
 - Una suscripción celular activa en una SIM o eSIM compatible y los valores de APN correctos para la red móvil.
 - Acceso a herramientas de configuración del fabricante como ATrack Device Management (ADM) vía Bluetooth o USB Type-C, o una interfaz de comandos AT según lo descrito en la documentación del dispositivo.
-- Los valores de APN, nombre de usuario APN y contraseña APN de su proveedor para rellenar los marcadores {{apn}}, {{apnu}}, {{apnp}} si se requieren.
+- Los valores de APN, nombre de usuario APN y contraseña APN de su proveedor para rellenar los marcadores [apn], [apnu], [apnp] si se requieren.
 - Conocimientos básicos sobre si usará UDP o TCP como transporte para poder seleccionar el protocolo al configurar el dispositivo.
 - Acceso administrativo a Plaspy para verificar que el dispositivo aparece en la plataforma tras la configuración.
 
@@ -67,7 +67,7 @@ El AS700 transmite telemetría de ubicación, sensores y energía a través del 
 2. Ingrese el servidor Plaspy como el dominio d.plaspy.com o la IP del servidor 54.85.159.138 en la configuración de servidor o GPRS del dispositivo.
 3. Establezca el puerto en 8888 que Plaspy utiliza para todos los dispositivos.
 4. Elija el protocolo de transporte UDP o TCP si el dispositivo solicita selección de transporte.
-5. Configure los ajustes de APN incluyendo {{apn}}, {{apnu}} y {{apnp}} según lo provea su operador móvil.
+5. Configure los ajustes de APN incluyendo [apn], [apnu] y [apnp] según lo provea su operador móvil.
 6. Aplique o guarde la configuración y reinicie el dispositivo si las instrucciones del fabricante requieren reinicio para activar los ajustes de red.
 7. Valide que el dispositivo reporte a Plaspy revisando el estado del dispositivo en la plataforma y confirmando telemetría reciente.
 
@@ -93,9 +93,9 @@ AT$TRAC=1,60,,,,,2
 AT$FORM=1,@P,0,""
 ```
 
-- Configurar servidor GPRS y ajustes de APN apuntando a Plaspy. Reemplace {{apn}}, {{apnu}}, {{apnp}} con los valores de su operador. Este ejemplo usa la IP del servidor Plaspy y el puerto 8888:
+- Configurar servidor GPRS y ajustes de APN apuntando a Plaspy. Reemplace [apn], [apnu], [apnp] con los valores de su operador. Este ejemplo usa la IP del servidor Plaspy y el puerto 8888:
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 - Consultar estado del dispositivo e información básica:
@@ -104,9 +104,9 @@ AT$INFO=?
 ```
 
 Notas sobre los marcadores
-- {{apn}} es el APN de su red móvil.
-- {{apnu}} es el nombre de usuario del APN cuando el operador lo requiere.
-- {{apnp}} es la contraseña del APN cuando el operador lo requiere.
+- [apn] es el APN de su red móvil.
+- [apnu] es el nombre de usuario del APN cuando el operador lo requiere.
+- [apnp] es la contraseña del APN cuando el operador lo requiere.
 
 Estos comandos reflejan ejemplos públicos de configuración. Use ADM o la herramienta del fabricante si prefiere un método de configuración gráfica.
 

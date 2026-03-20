@@ -97,9 +97,9 @@ pw,123456,imsi#
 
 - Set the operator APN
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explanation: {{apn}} is the operator APN name, {{apnu}} is the APN username, {{apnp}} is the APN password. Replace xxxyy with the mobile network MCC and MNC concatenated as provided by the operator.
+Explanation: [apn] is the operator APN name, [apnu] is the APN username, [apnp] is the APN password. Replace xxxyy with the mobile network MCC and MNC concatenated as provided by the operator.
 
 - Set GPRS server to Plaspy by IP and port
 ```text
@@ -125,7 +125,7 @@ If your device uses slightly different separators or parameters in SMS commands,
 - SMS based configuration is a common public method for the D31 but vendor tools or provisioning software may also be available; use the official Sentar tools when possible.
 - Choose UDP or TCP according to device requirements; Plaspy accepts both transports on the shared port.
 - Plaspy uses port 8888 for all devices and automatically detects the tracker protocol, so you only need to ensure the device points to the correct endpoint.
-- When setting APN values keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} until you replace them with operator values; incorrect APN settings will prevent data uploads.
+- When setting APN values keep placeholders such as [apn], [apnu], and [apnp] until you replace them with operator values; incorrect APN settings will prevent data uploads.
 
 ## Why Use Plaspy with This Configuration
 

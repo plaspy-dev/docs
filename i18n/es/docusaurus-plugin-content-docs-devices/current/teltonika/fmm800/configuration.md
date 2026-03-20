@@ -82,13 +82,13 @@ El siguiente ejemplo público muestra un comando de parámetros por lotes de Tel
 - Ejemplo de comando SMS o batch setparam
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explicación de los marcadores de posición y campos
-- {{apn}} Reemplace con el nombre del APN de la red móvil para la SIM.
-- {{apnu}} Reemplace con el usuario APN si lo requiere el operador. Deje vacío si no es necesario.
-- {{apnp}} Reemplace con la contraseña APN si lo requiere el operador. Deje vacío si no es necesario.
+- [apn] Reemplace con el nombre del APN de la red móvil para la SIM.
+- [apnu] Reemplace con el usuario APN si lo requiere el operador. Deje vacío si no es necesario.
+- [apnp] Reemplace con la contraseña APN si lo requiere el operador. Deje vacío si no es necesario.
 - 2004 en el comando está establecido en d.plaspy.com, el dominio de Plaspy usado para reporte.
 - 2005 en el comando está establecido en 8888, el puerto de Plaspy usado en todos los dispositivos.
 - 2006 en este ejemplo selecciona un modo de transporte. Verifique los valores numéricos para UDP o TCP en la documentación Teltonika o en la referencia de parámetros del dispositivo según su firmware.
@@ -100,7 +100,7 @@ Si su flujo de aprovisionamiento requiere la IP del servidor en lugar del domini
 - Las versiones de firmware de Teltonika y los códigos de parámetros pueden variar; confirme los números de parámetro y los valores aceptados en Teltonika Configurator o en la referencia de parámetros oficial para su revisión de firmware.
 - El comando de ejemplo muestra el aprovisionamiento por SMS o por lotes, que es comúnmente compatible con las herramientas Teltonika; use Teltonika Configurator o FOTA WEB para aprovisionamiento centralizado a escala.
 - Elija UDP o TCP de acuerdo con sus necesidades de red y operativas; Plaspy admite ambos y detecta el protocolo automáticamente cuando el rastreador se conecta.
-- Conserve marcadores de posición como {{apn}} {{apnu}} y {{apnp}} al preparar comandos y reemplácelos por las credenciales de su operador antes de enviarlos.
+- Conserve marcadores de posición como [apn] [apnu] y [apnp] al preparar comandos y reemplácelos por las credenciales de su operador antes de enviarlos.
 - Tras aplicar los ajustes, valide la conectividad y la telemetría en Plaspy para asegurar que el equipo sea visible y reporte según lo esperado.
 
 ## Por qué usar Plaspy con esta configuración

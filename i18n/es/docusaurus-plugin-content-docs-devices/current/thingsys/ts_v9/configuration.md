@@ -78,7 +78,7 @@ Si utiliza SMS para la configuración inicial, incluya la contraseña del dispos
 
 ## Comandos de configuración de ejemplo
 
-El TS-V9 admite configuración por SMS usando la contraseña del dispositivo. Los comandos públicos de ejemplo que siguen reflejan el orden y los marcadores de posición que se usan comúnmente. La contraseña por defecto del dispositivo que aparece en el ejemplo público es 123456. Conserve marcadores como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores del APN de su operador.
+El TS-V9 admite configuración por SMS usando la contraseña del dispositivo. Los comandos públicos de ejemplo que siguen reflejan el orden y los marcadores de posición que se usan comúnmente. La contraseña por defecto del dispositivo que aparece en el ejemplo público es 123456. Conserve marcadores como [apn], [apnu] y [apnp] y reemplácelos por los valores del APN de su operador.
 
 1. Opcional: restablecimiento inicial de fábrica (solo cuando sea necesario)
 ```
@@ -88,21 +88,21 @@ Etiqueta: configuración inicial opcional o cuando se requiere un restablecimien
 
 2. Establecer el APN del operador
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Reemplace {{apn}} con la cadena APN de su operador.
+Reemplace [apn] con la cadena APN de su operador.
 
 3. Establecer el usuario APN
 ```
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-Reemplace {{apnu}} con el usuario del APN si su operador lo requiere. Deje en blanco u omita si no es necesario.
+Reemplace [apnu] con el usuario del APN si su operador lo requiere. Deje en blanco u omita si no es necesario.
 
 4. Establecer la contraseña del APN
 ```
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-Reemplace {{apnp}} con la contraseña del APN si el operador la exige.
+Reemplace [apnp] con la contraseña del APN si el operador la exige.
 
 5. Establecer el servidor GPRS (IP y puerto)
 ```
@@ -116,7 +116,7 @@ CXZT
 ```
 Use este comando de verificación para solicitar detalles de configuración actuales al dispositivo cuando esté soportado.
 
-Notas sobre los marcadores: {{apn}} es el APN del operador. {{apnu}} y {{apnp}} son los marcadores para usuario y contraseña del APN. Mantenga el prefijo de contraseña del dispositivo (123456 en el ejemplo público) en el formato del comando si el dispositivo requiere autenticación para la configuración por SMS.
+Notas sobre los marcadores: [apn] es el APN del operador. [apnu] y [apnp] son los marcadores para usuario y contraseña del APN. Mantenga el prefijo de contraseña del dispositivo (123456 en el ejemplo público) en el formato del comando si el dispositivo requiere autenticación para la configuración por SMS.
 
 ## Notas sobre la configuración
 

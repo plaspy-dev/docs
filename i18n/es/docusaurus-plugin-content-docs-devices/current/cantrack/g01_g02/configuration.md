@@ -84,7 +84,7 @@ En términos generales usted deberá suministrar el endpoint y el puerto de Plas
 - Establecer servidor por IP
   - 54.85.159.138 puerto 8888 usando TCP o UDP según se requiera
 
-Si su equipo utiliza configuración por SMS con plantillas, la documentación del fabricante explicará cómo reemplazar valores como APN o credenciales de usuario. Mantenga marcadores de posición como {{apn}}, {{apnu}} o {{apnp}} tal como los muestre el proveedor y sustitúyalos por los valores apropiados para su SIM y operador.
+Si su equipo utiliza configuración por SMS con plantillas, la documentación del fabricante explicará cómo reemplazar valores como APN o credenciales de usuario. Mantenga marcadores de posición como [apn], [apnu] o [apnp] tal como los muestre el proveedor y sustitúyalos por los valores apropiados para su SIM y operador.
 
 ## Notas de configuración
 

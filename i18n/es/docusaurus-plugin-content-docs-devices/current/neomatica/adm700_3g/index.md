@@ -1,6 +1,7 @@
 ---
 slug: /neomatica/adm700_3g
 id: adm700_3g
+sidebar_key: neomaticadm700_3g_index_adm700_3g
 sidebar_label: ADM700 3G
 title: Neomatica - ADM700 3G
 sidebar_class_name: menu_item_tracker

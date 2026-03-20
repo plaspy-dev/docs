@@ -75,7 +75,7 @@ El GTU100 transmite datos de ubicación, movimiento y sensores a Plaspy enviando
 
 El modelConfiguration público para el GTU100 no incluye cadenas de comando específicas en esta versión. Los comandos exactos de configuración y el método para aplicarlos varían según la herramienta del fabricante, el firmware y las compilaciones regionales. Las herramientas proporcionadas por Gosafe, como GICUS, utilidades USB o conjuntos de comandos SMS, se usan comúnmente para establecer hostnames de servidor, direcciones IP, puertos y transporte.
 
-Si necesita ejemplos de comandos para un firmware o flujo de provisión particular, consulte la guía de configuración oficial de Gosafe o la documentación de provisión del proveedor. El fabricante normalmente proporciona la sintaxis de comandos explícita, marcadores de posición para valores de APN como {{apn}} o credenciales como {{apnu}} y {{apnp}} cuando aplique, e instrucciones para pasos opcionales de reinicio.
+Si necesita ejemplos de comandos para un firmware o flujo de provisión particular, consulte la guía de configuración oficial de Gosafe o la documentación de provisión del proveedor. El fabricante normalmente proporciona la sintaxis de comandos explícita, marcadores de posición para valores de APN como [apn] o credenciales como [apnu] y [apnp] cuando aplique, e instrucciones para pasos opcionales de reinicio.
 
 ## Notas de configuración
 

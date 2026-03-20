@@ -1,6 +1,7 @@
 ---
 slug: /goome/u9
 id: u9
+sidebar_key: goomu9_index_u9
 sidebar_label: U9
 title: Goome - U9
 sidebar_class_name: menu_item_tracker

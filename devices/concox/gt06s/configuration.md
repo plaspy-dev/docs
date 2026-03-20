@@ -86,13 +86,13 @@ GMT,E,0#
 ```
 
 - Set the operator APN
-Use your operator APN and optionally APN username and APN password. Replace {{apn}} with your operator APN. If required include {{apnu}} and {{apnp}} as username and password placeholders.
+Use your operator APN and optionally APN username and APN password. Replace [apn] with your operator APN. If required include [apnu] and [apnp] as username and password placeholders.
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 or with username and password placeholders
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server using domain (preferred)

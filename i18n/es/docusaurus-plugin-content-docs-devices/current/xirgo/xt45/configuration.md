@@ -79,11 +79,11 @@ Para configurar el rastreador, envíe los siguientes comandos por SMS en el orde
 
 1. Configure el APN del operador (reemplace los valores entre llaves por los de su operador):
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apn}} = Nombre del punto de acceso (APN) suministrado por el operador móvil.
-- {{apnu}} = Nombre de usuario del APN si el operador lo requiere; de lo contrario, deje el campo vacío o use la convención de campo vacío del dispositivo.
-- {{apnp}} = Contraseña del APN si el operador lo requiere; de lo contrario, deje el campo vacío o use la convención de campo vacío del dispositivo.
+- [apn] = Nombre del punto de acceso (APN) suministrado por el operador móvil.
+- [apnu] = Nombre de usuario del APN si el operador lo requiere; de lo contrario, deje el campo vacío o use la convención de campo vacío del dispositivo.
+- [apnp] = Contraseña del APN si el operador lo requiere; de lo contrario, deje el campo vacío o use la convención de campo vacío del dispositivo.
 
 2. Configure el servidor GPRS para apuntar a Plaspy (el puerto y la IP son explícitos):
 ```text

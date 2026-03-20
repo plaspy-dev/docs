@@ -50,7 +50,7 @@ Use the following Plaspy connection settings when configuring the MPIP-618-WA:
 - A valid SIM card with active GPRS data service and the correct APN for your mobile carrier.
 - Ability to send SMS commands to the device or access to the manufacturer's PC software or COTA update method.
 - The device identification information needed to derive the SMS secret key if required by the tracker.
-- Basic familiarity with APN placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when applying SMS templates.
+- Basic familiarity with APN placeholders such as [apn], [apnu], and [apnp] when applying SMS templates.
 - A short period to validate and test after configuration so you can confirm the device reports to Plaspy.
 
 ## How This Tracker Connects to Plaspy
@@ -79,10 +79,10 @@ The MPIP-618-WA supports SMS based configuration. The manufacturer documents tha
 
 Set the GPRS APN and server destination
 - Replace {{SecretKey}} with the device SMS secret key
-- Replace {{apn}}, {{apnu}}, {{apnp}} with your carrier APN, APN user, and APN password as needed
+- Replace [apn], [apnu], [apnp] with your carrier APN, APN user, and APN password as needed
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 Verify the GPRS configuration on the device
@@ -93,7 +93,7 @@ Verify the GPRS configuration on the device
 
 Notes on placeholders and usage
 - {{SecretKey}} is the SMS command password; by default it is the last 6 ASCII characters of the device ID for this tracker.
-- {{apn}} is the Access Point Name for the SIM card carrier; {{apnu}} and {{apnp}} are optional carrier user and password fields.
+- [apn] is the Access Point Name for the SIM card carrier; [apnu] and [apnp] are optional carrier user and password fields.
 - Send these commands as plain SMS text to the device number assigned to the tracker.
 - The order of parameters in the set command is important and follows the manufacturer syntax: APN, APN user, APN password, server IP, server port.
 

@@ -84,9 +84,9 @@ The EV-05 supports SMS-based configuration. The following commands are examples 
 123456L+00
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN; optionally include {{apnu}} and {{apnp}} for APN username and password)
+- Set the operator APN (replace [apn] with your carrier APN; optionally include [apnu] and [apnp] for APN username and password)
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
 Explanation: S1 sets APN for data. Keep the placeholders exactly as shown and replace only the values required by your mobile operator.
 

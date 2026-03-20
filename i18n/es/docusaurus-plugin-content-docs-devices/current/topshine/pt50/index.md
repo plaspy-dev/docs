@@ -1,6 +1,7 @@
 ---
 slug: /topshine/pt50
 id: pt50
+sidebar_key: topshinpt50_index_pt50
 sidebar_label: PT50
 title: TopShine - PT50
 sidebar_class_name: menu_item_tracker

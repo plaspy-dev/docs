@@ -1,6 +1,7 @@
 ---
 slug: /eelink/tk121s
 id: tk121s
+sidebar_key: eelintk121s_index_tk121s
 sidebar_label: TK121‑S
 title: EElink - TK121‑S
 sidebar_class_name: menu_item_tracker

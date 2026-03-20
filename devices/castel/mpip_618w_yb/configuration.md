@@ -78,14 +78,14 @@ The MPIP-618W-YB supports SMS based configuration in the public manufacturer ins
 - Set GPRS APN and point the tracker to the Plaspy server IP and port
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 Explanation:
 - {{SecretKey}} — SMS secret key for commands. Default is the last 6 ASCII characters of the device ID unless changed.
-- {{apn}} — APN name for the SIM operator.
-- {{apnu}} — APN username if required by the operator; leave empty if not required.
-- {{apnp}} — APN password if required by the operator; leave empty if not required.
+- [apn] — APN name for the SIM operator.
+- [apnu] — APN username if required by the operator; leave empty if not required.
+- [apnp] — APN password if required by the operator; leave empty if not required.
 - The command sets the APN and configures the device to send data to Plaspy at 54.85.159.138 on port 8888.
 
 - Query current GPRS settings to verify configuration

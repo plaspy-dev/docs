@@ -79,7 +79,7 @@ The Disha 9320 can be configured via the official Fortuna Impex configuration so
 
 If your firmware or vendor guide includes SMS configuration, you will typically set the server and port and then restart the device. Keep the following in mind when using commands or SMS methods:
 - Use the official Fortuna Impex command reference for exact syntax.
-- When placeholders such as {{apn}} appear in commands, replace them with your mobile operator APN value.
+- When placeholders such as [apn] appear in commands, replace them with your mobile operator APN value.
 - Verify a successful response or status message from the device after applying commands.
 
 ## Configuration Notes

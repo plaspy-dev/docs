@@ -79,19 +79,19 @@ The TK-Star OBD2 GPS Tracker can be configured using SMS commands. The sample co
 begin123456
 ```
 
-2. Set the operator APN (replace {{apn}} with your operator APN)
+2. Set the operator APN (replace [apn] with your operator APN)
 ```
-apn123456 {{apn}}
-```
-
-3. Set the APN username if required by your operator (replace {{apnu}} with the username)
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-4. Set the APN password if required by your operator (replace {{apnp}} with the password)
+3. Set the APN username if required by your operator (replace [apnu] with the username)
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+4. Set the APN password if required by your operator (replace [apnp] with the password)
+```
+apnpasswd123456 [apnp]
 ```
 
 5. Set the GPRS server to Plaspy by IP and port (this points the device to Plaspy)
@@ -110,7 +110,7 @@ gprs123456
 ```
 
 Notes about placeholders and commands:
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for your mobile operator APN, APN username, and APN password respectively. Replace these with the correct values for the SIM in the device.
+- [apn], [apnu], and [apnp] are placeholders for your mobile operator APN, APN username, and APN password respectively. Replace these with the correct values for the SIM in the device.
 - The numeric password 123456 in these examples is the device default password shown in the public commands. If you have changed the device password, use the current password instead.
 - The adminip command above uses the Plaspy server IP and port. You may alternatively point to d.plaspy.com if the device accepts hostnames.
 

@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set APN username and password (replace {{apnu}} and {{apnp}} with credentials if required):
+- Set APN username and password (replace [apnu] and [apnp] with credentials if required):
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server by IP and port to report to Plaspy (public example uses Plaspy IP and port):
@@ -128,9 +128,9 @@ protocol123456 18
 ```
 
 Placeholders explanation:
-- {{apn}} = operator APN name required for mobile data
-- {{apnu}} = APN username if required by operator
-- {{apnp}} = APN password if required by operator
+- [apn] = operator APN name required for mobile data
+- [apnu] = APN username if required by operator
+- [apnp] = APN password if required by operator
 
 Always confirm command syntax for your device firmware version and region before sending SMS commands.
 

@@ -1,6 +1,7 @@
 ---
 slug: /neomatica/adm50
 id: adm50
+sidebar_key: neomaticadm50_index_adm50
 sidebar_label: ADM50
 title: Neomatica - ADM50
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st_600r
 id: st_600r
+sidebar_key: suntecst_600r_index_st_600r
 sidebar_label: ST 600R
 title: Suntech - ST 600R
 sidebar_class_name: menu_item_tracker

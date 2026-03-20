@@ -89,13 +89,13 @@ GMT,E,0#
 3. Set the operator APN
 - Basic APN only
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 - APN with username and password if required
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explanation: {{apn}} is the cellular operator APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+Explanation: [apn] is the cellular operator APN. [apnu] and [apnp] are optional APN username and password placeholders.
 
 4. Set the GPRS server using DNS name (preferred)
 ```

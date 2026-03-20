@@ -78,13 +78,13 @@ El FMC650 puede configurarse mediante comandos SMS por lotes en muchos flujos de
 - Comando SMS por lotes de ejemplo para establecer APN y parámetros del servidor Plaspy
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando anterior:
-- Reemplace {{apn}} por el APN de su operador móvil.
-- Reemplace {{apnu}} por el usuario APN si su operador lo exige; deje vacío si no aplica.
-- Reemplace {{apnp}} por la contraseña APN si su operador la requiere; deje vacío si no aplica.
+- Reemplace [apn] por el APN de su operador móvil.
+- Reemplace [apnu] por el usuario APN si su operador lo exige; deje vacío si no aplica.
+- Reemplace [apnp] por la contraseña APN si su operador la requiere; deje vacío si no aplica.
 - El comando incluye d.plaspy.com y el puerto 8888 para que el rastreador apunte al endpoint de Plaspy.
 - El parámetro final 2006:1 forma parte del lote de parámetros; consulte la documentación de parámetros de Teltonika para el significado exacto de los códigos numéricos antes de modificar otros códigos.
 

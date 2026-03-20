@@ -73,13 +73,13 @@ El AR-2CX se configura para enviar datos de ubicación y eventos al endpoint y p
 
 ## Comandos de configuración de ejemplo
 
-Los siguientes comandos AT de muestra se tomaron de contenido de configuración público de la serie AR y se muestran en el orden original cuando el orden puede ser importante. Estos comandos ilustran cómo se puede apuntar un AR-2CX a Plaspy y afinar sus reportes. Mantenga marcadores de posición como {{apn}} tal como se muestran y reemplácelos con el APN de su red al configurar el dispositivo.
+Los siguientes comandos AT de muestra se tomaron de contenido de configuración público de la serie AR y se muestran en el orden original cuando el orden puede ser importante. Estos comandos ilustran cómo se puede apuntar un AR-2CX a Plaspy y afinar sus reportes. Mantenga marcadores de posición como [apn] tal como se muestran y reemplácelos con el APN de su red al configurar el dispositivo.
 
 - Conjunto completo de comandos de ejemplo
 
 ```text
 AT+XRFD
-AT+XAPN=1"{{apn}}"
+AT+XAPN=1"[apn]"
 AT+XIP="54.85.159.138",8888
 AT+XBUB=1
 AT+XBUBE=3,30
@@ -139,7 +139,7 @@ AT+XRST=2
 ```
 
 Notas sobre los comandos anteriores:
-- AT+XAPN incluye el marcador de posición {{apn}}. Reemplace {{apn}} con la cadena APN de su proveedor celular.
+- AT+XAPN incluye el marcador de posición [apn]. Reemplace [apn] con la cadena APN de su proveedor celular.
 - AT+XIP establece la IP y el puerto del servidor Plaspy a 54.85.159.138 y 8888. También puede configurar el servidor a d.plaspy.com cuando el dispositivo soporta nombres de dominio.
 - AT+XRST=1 y AT+XRST=2 son comandos de reinicio presentes al final del ejemplo. Trate los comandos de reinicio como pasos opcionales de reinicio inicial o final cuando el dispositivo o firmware lo requiera.
 

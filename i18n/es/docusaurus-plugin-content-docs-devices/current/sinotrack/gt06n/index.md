@@ -1,6 +1,7 @@
 ---
 slug: /sinotrack/gt06n
 id: gt06n
+sidebar_key: sinotracgt06n_index_gt06n
 sidebar_label: GT06N
 title: SinoTrack - GT06N
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /tzone/tz_avl19
 id: tz_avl19
+sidebar_key: tzontz_avl19_index_tz_avl19
 sidebar_label: TZ-AVL19
 title: TZone - TZ-AVL19
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /telic/nt910_g1
 id: nt910_g1
+sidebar_key: telint910_g1_index_nt910_g1
 sidebar_label: NT910-G1
 title: Telic - NT910-G1
 sidebar_class_name: menu_item_tracker

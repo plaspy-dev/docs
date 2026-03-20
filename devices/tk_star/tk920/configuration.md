@@ -82,19 +82,19 @@ The TK920 publicly supports SMS-based configuration. Below are the manufacturer'
 begin123456
 ```
 
-- Set operator APN (replace {{apn}} with your operator APN)
+- Set operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set APN username if required by the operator (replace {{apnu}} with APN username)
+- Set APN username if required by the operator (replace [apnu] with APN username)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set APN password if required by the operator (replace {{apnp}} with APN password)
+- Set APN password if required by the operator (replace [apnp] with APN password)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy by IP and port (this example uses the public Plaspy IP and port)
@@ -113,9 +113,9 @@ gprs123456
 ```
 
 Notes on placeholders:
-- {{apn}} — your mobile operator APN string (required for data).
-- {{apnu}} — optional APN username if your operator requires it.
-- {{apnp}} — optional APN password if your operator requires it.
+- [apn] — your mobile operator APN string (required for data).
+- [apnu] — optional APN username if your operator requires it.
+- [apnp] — optional APN password if your operator requires it.
 - Replace 123456 with your device password if it was changed from the factory default.
 
 If your installation or a later firmware supports domain-based server settings, you can point the device at d.plaspy.com in place of the IP when the device accepts a domain name. The example commands above are the manufacturer-published SMS commands and should be sent in the given order when following the vendor guidelines.

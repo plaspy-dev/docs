@@ -1,6 +1,7 @@
 ---
 slug: /sentar/d38_x2
 id: d38_x2
+sidebar_key: sentad38_x2_index_d38_x2
 sidebar_label: D38-X2
 title: Sentar - D38-X2
 sidebar_class_name: menu_item_tracker

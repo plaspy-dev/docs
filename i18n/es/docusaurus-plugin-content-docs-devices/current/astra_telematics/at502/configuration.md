@@ -81,15 +81,15 @@ Para configurar el rastreador por SMS, Astra Telematics publica los siguientes c
 
 - Establecer el APN del operador
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 - Establecer el nombre de usuario del APN del operador (opcional, use si su APN requiere usuario)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 - Establecer la contraseña del APN del operador (opcional, use si su APN requiere contraseña)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 - Establecer el servidor GPRS (IP del servidor Plaspy)
 ```text
@@ -101,9 +101,9 @@ $PORT,8888
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es la cadena APN del operador móvil requerida para la conectividad de datos.
-- {{apnu}} es el nombre de usuario opcional del APN cuando lo proporciona el operador.
-- {{apnp}} es la contraseña opcional del APN cuando lo proporciona el operador.
+- [apn] es la cadena APN del operador móvil requerida para la conectividad de datos.
+- [apnu] es el nombre de usuario opcional del APN cuando lo proporciona el operador.
+- [apnp] es la contraseña opcional del APN cuando lo proporciona el operador.
 
 Si su dispositivo o versión de firmware admite apuntar a un dominio en lugar de la IP, puede introducir d.plaspy.com usando el método de configuración del fabricante. Algunos firmwares pueden requerir un comando separado o una interfaz BLE/firmware para seleccionar UDP versus TCP; consulte la documentación de Astra Telematics para la sintaxis exacta si la necesita.
 

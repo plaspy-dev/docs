@@ -82,13 +82,13 @@ El modelo VT06 admite configuración vía SMS. Los siguientes comandos son la se
 clear
 ```
 
-2. Configure el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} respectivamente.
+2. Configure el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario y contraseña, incluya [apnu] y [apnp] respectivamente.
 ```
-APN,{{apn}},{{apnu}},{{apnp}}
+APN,[apn],[apnu],[apnp]
 ```
-Nota: Si no se requiere usuario ni contraseña del APN, omita los marcadores {{apnu}} y {{apnp}} y envíe:
+Nota: Si no se requiere usuario ni contraseña del APN, omita los marcadores [apnu] y [apnp] y envíe:
 ```
-APN,{{apn}}
+APN,[apn]
 ```
 
 3. Configure el servidor GPRS hacia Plaspy usando la IP y el puerto. Esto indica al VT06 que envíe los datos a Plaspy.

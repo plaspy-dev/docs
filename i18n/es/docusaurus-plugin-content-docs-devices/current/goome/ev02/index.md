@@ -1,6 +1,7 @@
 ---
 slug: /goome/ev02
 id: ev02
+sidebar_key: goomev02_index_ev02
 sidebar_label: EV02
 title: Goome - EV02
 sidebar_class_name: menu_item_tracker

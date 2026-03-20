@@ -73,15 +73,15 @@ El EV02 se conecta a Plaspy estableciendo una sesión GPRS y enviando datos de u
 
 ## Comandos de configuración de ejemplo
 
-El EV02 soporta configuración por SMS. Envíe estos comandos desde un número de teléfono autorizado al dispositivo en el orden indicado. Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador al enviarlos.
+El EV02 soporta configuración por SMS. Envíe estos comandos desde un número de teléfono autorizado al dispositivo en el orden indicado. Preserve los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador al enviarlos.
 
 - Configure el APN del operador (reemplace los marcadores con los valores de su proveedor):
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 Si su operador requiere usuario y contraseña, inclúyalos:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Configure el servidor GPRS a Plaspy (entrada de servidor 1 apuntando a d.plaspy.com en el puerto 8888):
 ```
@@ -105,8 +105,8 @@ STATUS#
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es la cadena APN del operador necesaria para abrir una sesión GPRS.  
-- {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN cuando el operador requiere credenciales.
+- [apn] es la cadena APN del operador necesaria para abrir una sesión GPRS.  
+- [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN cuando el operador requiere credenciales.
 
 ## Observaciones de configuración
 

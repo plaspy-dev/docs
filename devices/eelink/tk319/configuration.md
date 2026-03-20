@@ -89,13 +89,13 @@ GMT,E,0#
 
 - Set the operator APN. Replace the placeholders with your operator values:
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
-If your APN requires a username or password include the following form where {{apnu}} is the APN username and {{apnp}} is the APN password:
+If your APN requires a username or password include the following form where [apnu] is the APN username and [apnp] is the APN password:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your actual operator values.
+Note: keep the placeholders [apn], [apnu], and [apnp] and replace them with your actual operator values.
 
 - Set the GPRS server to use the Plaspy domain on the shared Plaspy port:
 ```text
@@ -117,7 +117,7 @@ TIMER,60#
 PARAM#
 ```
 
-Follow the manufacturer SMS syntax exactly. Placeholders such as {{apn}} must be replaced by your operator APN. The examples above preserve the public command order where relevant.
+Follow the manufacturer SMS syntax exactly. Placeholders such as [apn] must be replaced by your operator APN. The examples above preserve the public command order where relevant.
 
 ## Configuration Notes
 

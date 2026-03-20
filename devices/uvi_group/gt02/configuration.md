@@ -73,7 +73,7 @@ The GT02 uses its GSM/GPRS connection to send GPS positions and device status me
 
 ## Example Configuration Commands
 
-The GT02 manufacturer documentation provides a set of SMS commands for public configuration. These examples use the default device password shown in the public documentation, 666666. Preserve any placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN, user, and password as required.
+The GT02 manufacturer documentation provides a set of SMS commands for public configuration. These examples use the default device password shown in the public documentation, 666666. Preserve any placeholders such as [apn], [apnu], and [apnp] and replace them with your operator APN, user, and password as required.
 
 - Optional initial factory reset (use only if you intend to restore factory settings):
 ```text
@@ -85,11 +85,11 @@ FACTORY,666666#
 gmt,666666,e,0#
 ```
 
-- Set the operator APN (replace {{apn}} and optionally {{apnu}} and {{apnp}}):
+- Set the operator APN (replace [apn] and optionally [apnu] and [apnp]):
 ```text
-APN,666666,{{apn}},{{apnu}},{{apnp}}#
+APN,666666,[apn],[apnu],[apnp]#
 ```
-Note: Keep placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier APN, username, and password when required. If no username or password are needed, omit those placeholders according to the device syntax.
+Note: Keep placeholders [apn], [apnu], and [apnp] and replace them with your carrier APN, username, and password when required. If no username or password are needed, omit those placeholders according to the device syntax.
 
 - Configure the GPRS server to point to Plaspy by IP and port (public example uses the Plaspy IP and port):
 ```text
@@ -120,7 +120,7 @@ Follow the command order when performing an initial setup as shown above if you 
 - Firmware and hardware revisions can change available command syntax or parameter order; always verify the exact SMS formatting in the device's current manual.
 - You may choose UDP or TCP for the transport. The GT02 documentation shows server configuration with numeric parameters; follow manufacturer guidance for transport selection.
 - Plaspy uses the same port 8888 for all supported devices and automatically detects the tracker protocol on connect.
-- Fill the APN placeholders with your carrier APN details. If your carrier requires an APN username or password, provide {{apnu}} and {{apnp}} as shown in the APN command.
+- Fill the APN placeholders with your carrier APN details. If your carrier requires an APN username or password, provide [apnu] and [apnp] as shown in the APN command.
 
 ## Why Use Plaspy with This Configuration
 

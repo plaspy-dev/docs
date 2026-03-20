@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv75mg
 id: gv75mg
+sidebar_key: queclingv75mg_index_gv75mg
 sidebar_label: GV75MG
 title: QuecLink - GV75MG
 sidebar_class_name: menu_item_tracker

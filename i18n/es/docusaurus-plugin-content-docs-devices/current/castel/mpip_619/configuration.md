@@ -78,7 +78,7 @@ El MPIP-619 admite configuración por SMS. La clave secreta SMS por defecto del 
 - Establecer el APN y el servidor IP y puerto de Plaspy (reemplazar marcadores según corresponda):
 
 ```text
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Consultar la configuración GPRS actual:
@@ -88,9 +88,9 @@ El MPIP-619 admite configuración por SMS. La clave secreta SMS por defecto del 
 ```
 
 Notas sobre los marcadores:
-- {{apn}} = APN del operador (por ejemplo internet o el APN específico del operador)  
-- {{apnu}} = usuario del APN si el operador lo solicita (dejar vacío si no aplica)  
-- {{apnp}} = contraseña del APN si el operador la solicita (dejar vacía si no aplica)
+- [apn] = APN del operador (por ejemplo internet o el APN específico del operador)  
+- [apnu] = usuario del APN si el operador lo solicita (dejar vacío si no aplica)  
+- [apnp] = contraseña del APN si el operador la solicita (dejar vacía si no aplica)
 
 Envíe estos SMS desde un número autorizado o de acuerdo con las reglas de autorización SMS de Castel. El orden de los comandos es importante: configure GPRS primero y luego verifique con get gprs.
 

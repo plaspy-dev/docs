@@ -1,6 +1,7 @@
 ---
 slug: /sentar/v80
 id: v80
+sidebar_key: sentav80_index_v80
 sidebar_label: V80
 title: Sentar - V80
 sidebar_class_name: menu_item_tracker

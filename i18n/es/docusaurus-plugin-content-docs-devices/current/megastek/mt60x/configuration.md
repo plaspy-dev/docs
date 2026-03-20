@@ -101,15 +101,15 @@ M000000,22,123456789012345
 ```
 
 2. Establecer el APN del operador
-   - Reemplace {{apn}} por el APN de su SIM. Si su operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} respectivamente
+   - Reemplace [apn] por el APN de su SIM. Si su operador requiere usuario y contraseña, incluya [apnu] y [apnp] respectivamente
 
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
    o con usuario y contraseña del APN
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Establecer el intervalo de reporte a 60 segundos

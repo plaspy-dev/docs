@@ -82,11 +82,11 @@ Los siguientes comandos son los comandos públicos de configuración por SMS inc
 
 1. Configure el APN del operador. Reemplace los marcadores con los valores de su operador:
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apnu}} es el nombre de usuario del APN si su operador lo requiere.
-- {{apnp}} es la contraseña del APN si su operador la requiere.
-- {{apn}} es el nombre del APN del operador celular.
+- [apnu] es el nombre de usuario del APN si su operador lo requiere.
+- [apnp] es la contraseña del APN si su operador la requiere.
+- [apn] es el nombre del APN del operador celular.
 
 2. Configure el servidor GPRS para apuntar a Plaspy usando el puerto 8888 y la IP del servidor Plaspy:
 ```text
@@ -102,7 +102,7 @@ Si prefiere usar el dominio en lugar de la IP y la herramienta del fabricante lo
 - Plaspy acepta conexiones en el puerto 8888 para todos los dispositivos y detecta automáticamente el protocolo del rastreador, lo que reduce la necesidad de seleccionar el protocolo manualmente en muchos casos.
 - Elija UDP o TCP según las opciones del dispositivo y la preferencia del instalador; algunas instalaciones prefieren UDP por su menor sobrecarga y otras optan por TCP por la fiabilidad de sesión.
 - La configuración por SMS está soportada para el XT21 como se muestra arriba, pero muchos instaladores emplean herramientas del proveedor o servicios de provisión cuando gestionan múltiples dispositivos.
-- Si utiliza los marcadores {{apn}}, {{apnu}} y {{apnp}}, confirme las credenciales del APN con su operador móvil.
+- Si utiliza los marcadores [apn], [apnu] y [apnp], confirme las credenciales del APN con su operador móvil.
 
 ## Por qué usar Plaspy con esta configuración
 

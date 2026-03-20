@@ -76,7 +76,7 @@ The SE+ Beacon sends GNSS positions and event telemetry over GPRS to the Plaspy 
 
 The SE+ Beacon configuration method and exact commands depend on AutoFon firmware and the vendor tool used. Because manufacturer commands can vary, consult the AutoFon configuration manual for command syntax and examples specific to your firmware. Typical configuration paths include the device configuration utility, SMS-based commands, or a serial configuration tool.
 
-If you have manufacturer-provided SMS commands or a configuration script from AutoFon, follow the order recommended by the manual: set APN, set server domain or IP, set port 8888, select transport if needed, save settings, and then reboot the device. Preserve placeholders such as {{apn}} or {{apnu}} if they appear in manufacturer examples and replace them with your network values as instructed by AutoFon.
+If you have manufacturer-provided SMS commands or a configuration script from AutoFon, follow the order recommended by the manual: set APN, set server domain or IP, set port 8888, select transport if needed, save settings, and then reboot the device. Preserve placeholders such as [apn] or [apnu] if they appear in manufacturer examples and replace them with your network values as instructed by AutoFon.
 
 ## Configuration Notes
 

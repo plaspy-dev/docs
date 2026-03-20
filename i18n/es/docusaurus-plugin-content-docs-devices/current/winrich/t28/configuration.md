@@ -87,16 +87,16 @@ Para configurar el rastreador envíe los siguientes comandos por SMS en el orden
 
 3. Configurar el APN del operador
 - Reemplace los marcadores con los valores de su operador
-- {{apn}} es el nombre del APN
-- {{apnu}} es el usuario del APN si se requiere
-- {{apnp}} es la contraseña del APN si se requiere
+- [apn] es el nombre del APN
+- [apnu] es el usuario del APN si se requiere
+- [apnp] es la contraseña del APN si se requiere
 - Use la forma corta si no se necesita usuario ni contraseña
 ```
-802#{{apn}}#
+802#[apn]#
 ```
 o con usuario y contraseña
 ```
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 
 4. Establecer el servidor GPRS hacia Plaspy usando la IP numérica y el puerto compartido
@@ -121,7 +121,7 @@ o con usuario y contraseña
 ```
 
 Nota sobre los marcadores
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} tal como aparecen y sustituya los valores reales de su operador. Si su operador no requiere credenciales de APN, omita los campos de usuario y contraseña como en el ejemplo corto.
+- Mantenga los marcadores [apn], [apnu] y [apnp] tal como aparecen y sustituya los valores reales de su operador. Si su operador no requiere credenciales de APN, omita los campos de usuario y contraseña como en el ejemplo corto.
 
 ## Observaciones sobre la configuración
 

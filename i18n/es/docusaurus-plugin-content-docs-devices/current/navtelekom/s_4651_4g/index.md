@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/s_4651_4g
 id: s_4651_4g
+sidebar_key: navtelekos_4651_4g_index_s_4651_4g
 sidebar_label: СИГНАЛ S-4651 (4G)
 title: Navtelekom - СИГНАЛ S-4651 (4G)
 sidebar_class_name: menu_item_tracker

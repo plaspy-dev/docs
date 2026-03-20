@@ -73,7 +73,7 @@ El SBC3 IO se configura para enviar su ubicación y datos de E/S por GPRS al end
 
 ## Comandos de configuración de ejemplo
 
-El SBC3 IO puede configurarse mediante comandos SMS. Los siguientes comandos públicos se presentan en el orden recomendado para la configuración inicial. El ejemplo usa la contraseña por defecto 123456 indicada en ejemplos públicos de Telic. Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} con el APN y las credenciales de su operador.
+El SBC3 IO puede configurarse mediante comandos SMS. Los siguientes comandos públicos se presentan en el orden recomendado para la configuración inicial. El ejemplo usa la contraseña por defecto 123456 indicada en ejemplos públicos de Telic. Reemplace los marcadores como [apn], [apnu] y [apnp] con el APN y las credenciales de su operador.
 
 1. Reinicio de fábrica opcional (usar solo si es necesario un restablecimiento completo)
 ```text
@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-3. Configurar el APN del operador (reemplace {{apn}} por el APN de su operador)
+3. Configurar el APN del operador (reemplace [apn] por el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Configurar usuario y contraseña del APN si son requeridos (reemplace los marcadores según corresponda)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
@@ -119,9 +119,9 @@ check123456
 ```
 
 Notas sobre los marcadores
-- {{apn}} es el nombre del punto de acceso del operador.
-- {{apnu}} es el nombre de usuario del APN si lo proporciona el operador móvil.
-- {{apnp}} es la contraseña del APN si la requiere el operador.
+- [apn] es el nombre del punto de acceso del operador.
+- [apnu] es el nombre de usuario del APN si lo proporciona el operador móvil.
+- [apnp] es la contraseña del APN si la requiere el operador.
 
 ## Notas de configuración
 

@@ -1,6 +1,7 @@
 ---
 slug: /autoseeker/at_3
 id: at_3
+sidebar_key: autoseekeat_3_index_at_3
 sidebar_label: AT-3
 title: Autoseeker - AT-3
 sidebar_class_name: menu_item_tracker

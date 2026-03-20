@@ -85,21 +85,21 @@ begin123456
 
 - Configurar el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Explanation: replace {{apn}} with your mobile operator APN string.
+Explanation: replace [apn] with your mobile operator APN string.
 
 - Configurar el usuario del APN
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-Explanation: replace {{apnu}} with the APN username if required by your operator. Omit if not used.
+Explanation: replace [apnu] with the APN username if required by your operator. Omit if not used.
 
 - Configurar la contraseña del APN
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-Explanation: replace {{apnp}} with the APN password if required by your operator. Omit if not used.
+Explanation: replace [apnp] with the APN password if required by your operator. Omit if not used.
 
 - Configurar el servidor GPRS a Plaspy usando la IP pública y el puerto
 ```text

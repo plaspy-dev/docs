@@ -1,6 +1,7 @@
 ---
 slug: /jointech/gp4000
 id: gp4000
+sidebar_key: jointecgp4000_index_gp4000
 sidebar_label: GP4000
 title: Jointech - GP4000
 sidebar_class_name: menu_item_tracker

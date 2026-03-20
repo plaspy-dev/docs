@@ -46,7 +46,7 @@ The goal of this configuration is to prepare the SolarGuardX 120 to send securit
 
 - A powered SolarGuardX 120 unit with access to its SMS or manufacturer configuration method
 - A SIM card with data and SMS enabled and the correct APN values for your mobile operator
-- The APN, APN user, and APN password values for your mobile network provider (placeholders shown as {{apn}}, {{apnu}}, {{apnp}})
+- The APN, APN user, and APN password values for your mobile network provider (placeholders shown as [apn], [apnu], [apnp])
 - Access to the installer or integrator documentation from TopFly for device specific SMS or tool based commands
 - A Plaspy account or access to the Plaspy platform where you can confirm the device reports successfully
 
@@ -81,9 +81,9 @@ GMT,0000,0#
 
 - Set the mobile network APN and optional APN user and password
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explanation: replace {{apn}} with your operator APN. If your APN requires a username or password fill {{apnu}} and {{apnp}} respectively, otherwise leave those placeholders empty according to the device SMS syntax required by TopFly.
+Explanation: replace [apn] with your operator APN. If your APN requires a username or password fill [apnu] and [apnp] respectively, otherwise leave those placeholders empty according to the device SMS syntax required by TopFly.
 
 - Set the GPRS server using the Plaspy server IP and port
 ```
@@ -103,7 +103,7 @@ Explanation: this command configures the device reporting timer per the public e
 - Manufacturer firmware versions and tool syntax vary; commands and field order may differ by revision or by market specific firmware
 - SMS based setup is shown in the public example here; some installations may use a USB or vendor tool when SMS is not available
 - Choose UDP or TCP based on installer preference and network reliability; Plaspy accepts both transports on port 8888 and auto detects protocol
-- Always verify APN values and replace the {{apn}}, {{apnu}}, and {{apnp}} placeholders with operator specific credentials
+- Always verify APN values and replace the [apn], [apnu], and [apnp] placeholders with operator specific credentials
 
 ## Why Use Plaspy with This Configuration
 

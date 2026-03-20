@@ -73,7 +73,7 @@ Al configurarlo, el VG102 envía posición GNSS, alertas de eventos y estado del
 
 ## Ejemplos de comandos de configuración
 
-Para configurar el VG102 por SMS, envíe los siguientes comandos en el orden indicado. Estos son los comandos públicos provistos por el fabricante. Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores del APN del operador al enviar.
+Para configurar el VG102 por SMS, envíe los siguientes comandos en el orden indicado. Estos son los comandos públicos provistos por el fabricante. Preserve los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los valores del APN del operador al enviar.
 
 - Reinicio de fábrica opcional cuando sea necesario
 ```text
@@ -87,11 +87,11 @@ GMT,E,0#
 
 - Configurar el APN del operador
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 Si su APN requiere usuario y contraseña, inclúyalos como marcadores
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS para usar el dominio de Plaspy y el puerto (se puede usar UDP o TCP en el puerto 8888)
@@ -123,8 +123,8 @@ GPRSSET#
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es el dominio APN del operador, por ejemplo internet u otro APN específico del operador.
-- {{apnu}} y {{apnp}} son usuario y contraseña opcionales del APN cuando el operador los requiere.
+- [apn] es el dominio APN del operador, por ejemplo internet u otro APN específico del operador.
+- [apnu] y [apnp] son usuario y contraseña opcionales del APN cuando el operador los requiere.
 
 ## Notas de configuración
 

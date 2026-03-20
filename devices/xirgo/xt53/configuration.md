@@ -80,9 +80,9 @@ The XT53 can be configured using SMS commands. The following public commands are
 
 - Set the operator APN (replace placeholders with your carrier values)
 ```
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-Explanation: {{apnu}} is the APN username if required, {{apnp}} is the APN password if required, and {{apn}} is the operator APN string. Provide empty values for username or password if your carrier does not require them.
+Explanation: [apnu] is the APN username if required, [apnp] is the APN password if required, and [apn] is the operator APN string. Provide empty values for username or password if your carrier does not require them.
 
 - Set the GPRS server to point the device to Plaspy
 ```

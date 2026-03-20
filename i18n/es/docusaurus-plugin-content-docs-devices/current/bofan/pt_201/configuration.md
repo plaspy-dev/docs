@@ -91,12 +91,12 @@ Ejemplo: si los últimos 14 dígitos del IMEI son 12345678901234, envíe:
 
 - Configurar el APN del operador móvil. Conserve los marcadores de posición para usuario y contraseña si el operador los requiere:
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
 Explicación de los marcadores:
-- {{apn}} = nombre del APN del operador
-- {{apnu}} = usuario del APN, si el operador lo solicita (dejar en blanco si no aplica)
-- {{apnp}} = contraseña del APN, si el operador la solicita (dejar en blanco si no aplica)
+- [apn] = nombre del APN del operador
+- [apnu] = usuario del APN, si el operador lo solicita (dejar en blanco si no aplica)
+- [apnp] = contraseña del APN, si el operador la solicita (dejar en blanco si no aplica)
 
 - Configurar el servidor GPRS para apuntar a Plaspy. Este ejemplo usa la IP pública y el puerto de Plaspy:
 ```text

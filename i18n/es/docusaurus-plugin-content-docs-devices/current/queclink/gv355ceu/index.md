@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv355ceu
 id: gv355ceu
+sidebar_key: queclingv355ceu_index_gv355ceu
 sidebar_label: GV355CEU
 title: QuecLink - GV355CEU
 sidebar_class_name: menu_item_tracker

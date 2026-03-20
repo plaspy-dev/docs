@@ -1,6 +1,7 @@
 ---
 slug: /arknav/rx_8w
 id: rx_8w
+sidebar_key: arknarx_8w_index_rx_8w
 sidebar_label: RX-8W
 title: ArkNav - RX-8W
 sidebar_class_name: menu_item_tracker

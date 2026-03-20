@@ -1,6 +1,7 @@
 ---
 slug: /skypatrol/tt_8750
 id: tt_8750
+sidebar_key: skypatrott_8750_index_tt_8750
 sidebar_label: TT 8750+
 title: SkyPatrol - TT 8750+
 sidebar_class_name: menu_item_tracker

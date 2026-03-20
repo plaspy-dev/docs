@@ -69,7 +69,7 @@ The SC350MG is configured to send GPRS reports to the Plaspy server endpoint and
 2. Enter the Plaspy server domain d.plaspy.com or the server IP 54.85.159.138 when setting the GPRS server entry.
 3. Set the server port to 8888 as required by Plaspy.
 4. Choose UDP or TCP transport on the device if the device requires an explicit transport selection.
-5. Provide APN settings for the cellular operator using the device APN command (use placeholders like {{apn}}, {{apnu}}, {{apnp}} where applicable).
+5. Provide APN settings for the cellular operator using the device APN command (use placeholders like [apn], [apnu], [apnp] where applicable).
 6. Apply or save the configuration on the tracker and restart the device if required by the firmware.
 7. Validate that the device reports to Plaspy by checking for incoming telemetry and location updates in the platform.
 
@@ -78,7 +78,7 @@ The SC350MG is configured to send GPRS reports to the Plaspy server endpoint and
 The SC350MG supports SMS configuration. The following public SMS commands are provided in the QuecLink example configuration. Send each line as an SMS to the device phone number. The default device password used in these commands is queclink.
 
 Notes:
-- If a command contains placeholders such as {{apn}}, {{apnu}}, or {{apnp}}, replace them with your operator APN, APN username, and APN password respectively.
+- If a command contains placeholders such as [apn], [apnu], or [apnp], replace them with your operator APN, APN username, and APN password respectively.
 - The first command shown restores factory settings and is optional; use only when required.
 
 1. Restore factory settings (optional initial reset)
@@ -93,11 +93,11 @@ Notes:
 
 3. Set the operator APN (replace placeholders)
    ```text
-   AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+   AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
    ```
-   - {{apn}} = your network APN
-   - {{apnu}} = APN username if required
-   - {{apnp}} = APN password if required
+   - [apn] = your network APN
+   - [apnu] = APN username if required
+   - [apnp] = APN password if required
 
 4. Set the GPRS server for Plaspy using both domain and IP entry (domain and IP are included in the command)
    ```text

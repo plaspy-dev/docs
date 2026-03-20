@@ -80,7 +80,7 @@ Si dispone de una referencia de comandos del fabricante, aplique los valores pú
 - Puerto: 8888
 - Transporte: UDP o TCP (según se requiera)
 
-Conserve los marcadores de posición en los ejemplos del fabricante (por ejemplo un placeholder de APN como {{apn}}) y reemplácelos con los datos de su proveedor de SIM cuando la documentación de GOTOP lo indique.
+Conserve los marcadores de posición en los ejemplos del fabricante (por ejemplo un placeholder de APN como [apn]) y reemplácelos con los datos de su proveedor de SIM cuando la documentación de GOTOP lo indique.
 
 ## Notas sobre la configuración
 

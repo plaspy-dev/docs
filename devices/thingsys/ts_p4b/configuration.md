@@ -82,20 +82,20 @@ FORMAT
 ```
 Note: FORMAT is a factory reset command in the public instructions and should be used only when required.
 
-- Set the operator APN (replace {{apn}} with your mobile operator APN)
+- Set the operator APN (replace [apn] with your mobile operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-This command demonstrates the pattern where 123456 is the device password prefix. Keep the placeholder {{apn}} and replace it with the operator APN string.
+This command demonstrates the pattern where 123456 is the device password prefix. Keep the placeholder [apn] and replace it with the operator APN string.
 
-- Set the APN username (replace {{apnu}} with your APN username if required)
+- Set the APN username (replace [apnu] with your APN username if required)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (replace {{apnp}} with your APN password if required)
+- Set the APN password (replace [apnp] with your APN password if required)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP and port
@@ -111,9 +111,9 @@ CXZT
 Send CXZT to request a settings report from the device where supported by the firmware.
 
 Placeholders explanation:
-- {{apn}} is the APN provided by your mobile network operator.
-- {{apnu}} is the APN username if the operator requires one.
-- {{apnp}} is the APN password if the operator requires one.
+- [apn] is the APN provided by your mobile network operator.
+- [apnu] is the APN username if the operator requires one.
+- [apnp] is the APN password if the operator requires one.
 - 123456 is shown in the public instructions as the device default password used in SMS command prefixes.
 
 ## Configuration Notes

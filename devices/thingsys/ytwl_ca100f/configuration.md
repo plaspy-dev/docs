@@ -92,15 +92,15 @@ Explanation: set the timezone string to the desired offset. The example sets UTC
 
 - Set the operator APN
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-Explanation: replace {{apn}} with your mobile operator APN name.
+Explanation: replace [apn] with your mobile operator APN name.
 
 - Set the APN username and password
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
-Explanation: replace {{apnu}} and {{apnp}} with your APN username and password if required. If the operator has no username or password, some firmware permit leaving these blank.
+Explanation: replace [apnu] and [apnp] with your APN username and password if required. If the operator has no username or password, some firmware permit leaving these blank.
 
 - Set the GPRS server IP and port to Plaspy
 ```text

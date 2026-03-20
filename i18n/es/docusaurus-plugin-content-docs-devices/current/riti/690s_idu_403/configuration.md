@@ -78,7 +78,7 @@ El Locator 690s se configura para enviar su ubicación y telemetría al endpoint
 El Riti 690s puede ser configurado mediante las herramientas del proveedor, una utilidad de configuración web o de escritorio, o por comandos SMS del operador según el firmware y las herramientas que Riti suministre. Dado que los comandos de configuración y la sintaxis exacta varían según el firmware y el conjunto de herramientas, no se incluyen comandos concretos aquí. Al realizar la configuración:
 
 - Use la utilidad de configuración de Riti o el conjunto oficial de comandos SMS de Riti para cambiar el host del servidor a d.plaspy.com o 54.85.159.138 y establezca el puerto a 8888.
-- Si su herramienta de instalación requiere marcadores de posición para credenciales APN, reemplace marcadores como {{apn}}, {{apnu}} o {{apnp}} con los datos de su proveedor de SIM según lo documentado por Riti o su operador.
+- Si su herramienta de instalación requiere marcadores de posición para credenciales APN, reemplace marcadores como [apn], [apnu] o [apnp] con los datos de su proveedor de SIM según lo documentado por Riti o su operador.
 
 Siga siempre la referencia de comandos o la guía de configuración suministrada por Riti para la sintaxis precisa y el orden correcto de las operaciones.
 

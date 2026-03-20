@@ -77,22 +77,22 @@ Cuando está configurado, el S921 actúa como pasarela de presencia y nodo de re
 
 Los ejemplos públicos de configuración del S921 se envían con frecuencia por SMS. El ejemplo del fabricante utiliza la contraseña por defecto 000000 en estos mensajes. Reemplace 000000 por la contraseña del dispositivo si ha sido cambiada. Use el IMEI de su dispositivo donde se indique.
 
-- Configure el ID del dispositivo usando el IMEI. Reemplace <IMEI15> con el IMEI del dispositivo formateado según lo requiera el fabricante (el ejemplo del fabricante usa los últimos 15 dígitos):
+- Configure el ID del dispositivo usando el IMEI. Reemplace \<IMEI15> con el IMEI del dispositivo formateado según lo requiera el fabricante (el ejemplo del fabricante usa los últimos 15 dígitos):
 
 ```
 M000000,22,<IMEI15>
 ```
 
-- Configure el APN del operador. Reemplace {{apn}} con el APN del operador. Si su operador requiere usuario y contraseña del APN incluya {{apnu}} y {{apnp}}:
+- Configure el APN del operador. Reemplace [apn] con el APN del operador. Si su operador requiere usuario y contraseña del APN incluya [apnu] y [apnp]:
 
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
 O con usuario y contraseña opcionales:
 
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 - Establezca el intervalo de actualización a 60 segundos:
@@ -114,7 +114,7 @@ M000000,21,2
 ```
 
 Notas sobre marcadores y valores por defecto:
-- {{apn}} es la cadena APN del operador móvil. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN.
+- [apn] es la cadena APN del operador móvil. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN.
 - 000000 es la contraseña por defecto usada en los comandos de ejemplo. Si su contraseña es distinta, reemplace 000000 por la contraseña correcta.
 - El primer comando usa el IMEI del dispositivo para establecer el ID. Use los valores de IMEI de su equipo según lo requiera Megastek.
 

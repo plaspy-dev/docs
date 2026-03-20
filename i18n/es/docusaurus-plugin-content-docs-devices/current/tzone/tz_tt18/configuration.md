@@ -75,16 +75,16 @@ El TZ-TT18 recolecta muestras de temperatura y humedad y las reporta a Plaspy us
 
 El TZ-TT18 puede configurarse enviando mensajes SMS. Los siguientes comandos SMS públicos aparecen en la documentación del fabricante y muestran un orden común para la configuración inicial. Mantenga los marcadores de posición y reemplace con sus valores de operador según corresponda.
 
-1. Configure el APN del operador (el usuario y la contraseña del APN son opcionales). Reemplace {{apn}} por el APN de su SIM y opcionalmente proporcione {{apnu}} y {{apnp}} si su operador los requiere.
+1. Configure el APN del operador (el usuario y la contraseña del APN son opcionales). Reemplace [apn] por el APN de su SIM y opcionalmente proporcione [apnu] y [apnp] si su operador los requiere.
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
 Si no se necesita usuario ni contraseña, use la forma más simple:
 
 ```
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 2. Establezca el intervalo de actualización a 60 segundos (este ejemplo fija el intervalo y un parámetro de reintento o modo según lo usa el dispositivo).
@@ -108,9 +108,9 @@ También puede apuntar el dispositivo al dominio en lugar de la IP si el disposi
 ```
 
 Notas sobre marcadores de posición y valores:
-- {{apn}} es la cadena APN de su operador móvil.  
-- {{apnu}} es el usuario del APN cuando el operador lo exige.  
-- {{apnp}} es la contraseña del APN cuando el operador lo exige.  
+- [apn] es la cadena APN de su operador móvil.  
+- [apnu] es el usuario del APN cuando el operador lo exige.  
+- [apnp] es la contraseña del APN cuando el operador lo exige.  
 - La secuencia numérica inicial 000000 en estos ejemplos es la contraseña de comandos del dispositivo según las formas públicas; confirme la contraseña correcta para su unidad en la documentación del fabricante o con el proveedor.
 
 ## Observaciones sobre la configuración

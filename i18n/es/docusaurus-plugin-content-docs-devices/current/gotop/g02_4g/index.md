@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g02_4g
 id: g02_4g
+sidebar_key: gotog02_4g_index_g02_4g
 sidebar_label: G02-4G
 title: GOTOP - G02-4G
 sidebar_class_name: menu_item_tracker

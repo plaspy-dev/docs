@@ -79,12 +79,12 @@ El XT31 puede configurarse por SMS en instalaciones que permiten el aprovisionam
 
 - Establecer el APN del operador (reemplace los marcadores de posición por los valores de su operador)
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explicación de los marcadores de posición
-- {{apn}} el nombre del APN proporcionado por el operador móvil
-- {{apnu}} usuario del APN si es requerido, de lo contrario dejar en blanco o cero según las instrucciones del operador
-- {{apnp}} contraseña del APN si es requerida, de lo contrario dejar en blanco o cero según las instrucciones del operador
+- [apn] el nombre del APN proporcionado por el operador móvil
+- [apnu] usuario del APN si es requerido, de lo contrario dejar en blanco o cero según las instrucciones del operador
+- [apnp] contraseña del APN si es requerida, de lo contrario dejar en blanco o cero según las instrucciones del operador
 
 - Establecer el servidor GPRS para Plaspy (este comando usa la IP del servidor Plaspy y el puerto 8888)
 ```text

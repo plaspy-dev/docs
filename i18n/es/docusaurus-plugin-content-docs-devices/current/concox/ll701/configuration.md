@@ -89,13 +89,13 @@ GMT,E,0#
 
 - Set the operator APN
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 If your operator requires an APN username and password, include them as placeholders:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Replace {{apn}} with the mobile operator APN. Replace {{apnu}} and {{apnp}} with APN username and APN password if required.)
+(Replace [apn] with the mobile operator APN. Replace [apnu] and [apnp] with APN username and APN password if required.)
 
 - Set the GPRS server to use the Plaspy domain (UDP or TCP choice is made by transport setting)
 ```text
@@ -132,7 +132,7 @@ Envíe estos comandos SMS al número del dispositivo asociado con el LL701 en el
 
 - Revisiones de firmware y hardware pueden alterar el comportamiento de los comandos o las opciones disponibles; verifique siempre con la documentación más reciente de Concox.
 - El LL701 admite la configuración por SMS mostrada y también configuración por Bluetooth mediante la app móvil de Concox para una configuración local más rápida.
-- Use los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} exactamente como lo requiera su operador móvil; deje usuario y contraseña en blanco si no son necesarios.
+- Use los marcadores de posición [apn], [apnu] y [apnp] exactamente como lo requiera su operador móvil; deje usuario y contraseña en blanco si no son necesarios.
 - Elija UDP o TCP según la preferencia del instalador; Plaspy detectará automáticamente el protocolo del dispositivo una vez que el rastreador se conecte a d.plaspy.com en el puerto 8888.
 - Plaspy emplea el mismo puerto para todos los dispositivos compatibles, lo que simplifica la incorporación de dispositivos en una flota mixta.
 

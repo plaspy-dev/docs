@@ -49,7 +49,7 @@ El objetivo es dejar al MXT-140 listo para enviar su ubicación y mensajes de di
 - El IMEI del dispositivo o identificador del rastreador (trackerID) para que Plaspy pueda identificar el equipo y sustituirlo en los marcadores del SMS.
 - Acceso al método de configuración del fabricante o a la documentación del MXT-140 (comandos SMS o herramienta del proveedor).
 - Una cuenta en Plaspy o el flujo de registro de dispositivos para confirmar que el equipo aparece una vez que empieza a reportar.
-- Conocimientos básicos sobre los marcadores de APN como {{apn}}, {{apnu}} y {{apnp}} para reemplazarlos con los valores de su red.
+- Conocimientos básicos sobre los marcadores de APN como [apn], [apnu] y [apnp] para reemplazarlos con los valores de su red.
 
 ## Cómo se conecta este rastreador a Plaspy
 
@@ -78,13 +78,13 @@ El MXT-140 puede configurarse enviando comandos públicos por SMS al dispositivo
 - Envíe este SMS al número del rastreador (reemplace los marcadores antes de enviar):
 
 ```text
-0000,{{trackerID}},2,0,{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888,,.
+0000,{{trackerID}},2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
 ```
 
 Notas sobre el comando:
 - 0000 es la contraseña por defecto mostrada en el ejemplo público. Si su equipo usa otra contraseña, sustitúyala.
 - {{trackerID}} debe reemplazarse por el IMEI del dispositivo o por el identificador configurado del rastreador.
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores para el APN del operador, el usuario del APN y la contraseña del APN. Reemplace con los valores correctos para la SIM instalada.
+- [apn], [apnu] y [apnp] son marcadores para el APN del operador, el usuario del APN y la contraseña del APN. Reemplace con los valores correctos para la SIM instalada.
 - El comando establece la IP del servidor en 54.85.159.138 y el puerto en 8888, que corresponden a Plaspy. No elimine estos valores salvo indicación de la documentación oficial de Maxtrack.
 - Este formato es un ejemplo público de configuración por SMS; siga el procedimiento y la sintaxis exacta del fabricante según su versión de firmware.
 

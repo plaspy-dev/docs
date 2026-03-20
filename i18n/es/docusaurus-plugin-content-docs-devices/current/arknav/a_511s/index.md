@@ -1,6 +1,7 @@
 ---
 slug: /arknav/a_511s
 id: a_511s
+sidebar_key: arknaa_511s_index_a_511s
 sidebar_label: A-511S
 title: ArkNav - A-511S
 sidebar_class_name: menu_item_tracker

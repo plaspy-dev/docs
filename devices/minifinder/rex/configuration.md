@@ -85,9 +85,9 @@ tz+00
 
 - Set the operator APN (replace placeholders with your operator values)
 ```
-S1,{{apn}}{{apnu_and_apnp_if_required}}
+S1,[apn]{{apnu_and_apnp_if_required}}
 ```
-Explanation: Replace {{apn}} with your operator APN. If your operator requires username and password, use the optional placeholders {{apnu}} and {{apnp}} where supported by the command syntax. The example shows how APN fields are represented; consult the manufacturer guide for exact formatted SMS if username or password must be supplied.
+Explanation: Replace [apn] with your operator APN. If your operator requires username and password, use the optional placeholders [apnu] and [apnp] where supported by the command syntax. The example shows how APN fields are represented; consult the manufacturer guide for exact formatted SMS if username or password must be supplied.
 
 - Set the GPRS server to Plaspy by IP and port
 ```
@@ -105,7 +105,7 @@ Notes on the commands above:
 - SMS versus software setup: Rex may support both SMS-based and app or PC-based configuration; use the method recommended for your firmware and installer workflow.
 - Transport choice: choose UDP or TCP on port 8888 as required by your installation; Plaspy accepts both and auto-detects the protocol from incoming messages.
 - Single port policy: Plaspy uses port 8888 for all supported devices, simplifying configuration across device models.
-- APN placeholders: keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when preparing SMS commands; replace them with your carrier values.
+- APN placeholders: keep placeholders such as [apn], [apnu], and [apnp] when preparing SMS commands; replace them with your carrier values.
 
 ## Why Use Plaspy with This Configuration
 

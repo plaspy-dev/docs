@@ -1,6 +1,7 @@
 ---
 slug: /uvi_group/gt06
 id: gt06
+sidebar_key: uvi_grougt06_index_gt06
 sidebar_label: GT06
 title: UVI Group - GT06
 sidebar_class_name: menu_item_tracker

@@ -79,16 +79,16 @@ The following example SMS commands are taken from public device configuration gu
 - Set the operator APN
   - APN only form
   ```
-  *APN#000000#{{apn}}#
+  *APN#000000#[apn]#
   ```
   - APN with username and password form
   ```
-  *APN#000000#{{apn}}#{{apnu}}#{{apnp}}#
+  *APN#000000#[apn]#[apnu]#[apnp]#
   ```
   Explanation of placeholders
-  - {{apn}} is the mobile operator APN required for GPRS data
-  - {{apnu}} is the optional APN username if your operator requires it
-  - {{apnp}} is the optional APN password if your operator requires it
+  - [apn] is the mobile operator APN required for GPRS data
+  - [apnu] is the optional APN username if your operator requires it
+  - [apnp] is the optional APN password if your operator requires it
 
 - Set the GPRS server to Plaspy by IP and port
 ```

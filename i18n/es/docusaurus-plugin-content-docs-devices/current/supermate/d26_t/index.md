@@ -1,6 +1,7 @@
 ---
 slug: /supermate/d26_t
 id: d26_t
+sidebar_key: supermatd26_t_index_d26_t
 sidebar_label: D26-T
 title: Supermate - D26-T
 sidebar_class_name: menu_item_tracker

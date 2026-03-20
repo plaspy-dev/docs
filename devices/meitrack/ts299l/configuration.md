@@ -22,7 +22,7 @@ keywords:
 
 This page provides public configuration guidance for using the Meitrack TS299L with the Plaspy fleet management platform. It focuses on the shared server settings Plaspy requires and includes practical SMS command examples drawn from the device public configuration format to help guide setup and validation.
 
-Plaspy uses shared server endpoints and a single listening port for all supported trackers and detects the tracker protocol automatically. Manufacturer side steps for the TS299L can vary by firmware version, hardware revision, installation type, or vendor configuration tools. The examples below use the device SMS configuration method shown in public device documentation and preserve placeholders such as {{apn}} for your carrier settings.
+Plaspy uses shared server endpoints and a single listening port for all supported trackers and detects the tracker protocol automatically. Manufacturer side steps for the TS299L can vary by firmware version, hardware revision, installation type, or vendor configuration tools. The examples below use the device SMS configuration method shown in public device documentation and preserve placeholders such as [apn] for your carrier settings.
 
 ## Configuration Overview
 
@@ -71,7 +71,7 @@ When configured, the TS299L establishes a GPRS data session and sends GNSS fixes
 
 ## Example Configuration Commands
 
-The TS299L supports SMS based configuration. The following public sample commands show a common setup sequence. The sample device password used in these commands is 0000 which is the factory default in the public example. Preserve the placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier APN, APN username, and APN password when required.
+The TS299L supports SMS based configuration. The following public sample commands show a common setup sequence. The sample device password used in these commands is 0000 which is the factory default in the public example. Preserve the placeholders such as [apn], [apnu], and [apnp] and replace them with your carrier APN, APN username, and APN password when required.
 
 - Optional initial factory reset or factory settings command
 ```sms
@@ -81,12 +81,12 @@ Label: Optional initial setup or factory settings reset. Use only when you inten
 
 - Set the GPRS server to the Plaspy endpoint using IP and port and include the carrier APN
 ```sms
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Notes:
 - This command sets the device GPRS server to 54.85.159.138 on port 8888 as shown in the public example.
 - The numeric parameter after A21 in the example (2) is part of the device SMS format used in the public sample. Keep the command syntax exactly as the device documentation prescribes.
-- {{apn}} is a required placeholder for your mobile carrier APN. {{apnu}} and {{apnp}} are optional placeholders for APN username and APN password and should be included only if your carrier requires them.
+- [apn] is a required placeholder for your mobile carrier APN. [apnu] and [apnp] are optional placeholders for APN username and APN password and should be included only if your carrier requires them.
 
 - Set the time zone to UTC 0
 ```sms
@@ -110,7 +110,7 @@ Note: This command reflects the public example for event configuration. Refer to
 - SMS based setup is a supported public configuration method for the TS299L. Use SMS commands only if you have cellular coverage and SMS privileges on the device SIM.
 - Manufacturer firmware revisions or regional hardware variants can change SMS syntax and available parameters. Always cross check with the official Meitrack documentation for your device firmware version.
 - Plaspy supports both UDP and TCP on the shared port 8888. Choose the transport the device requires and ensure the command syntax matches the device SMS or tool format.
-- Preserve APN placeholders {{apn}}, {{apnu}}, and {{apnp}} when copying example commands and replace them with carrier values as needed.
+- Preserve APN placeholders [apn], [apnu], and [apnp] when copying example commands and replace them with carrier values as needed.
 - The sample commands show the default device password 0000 in the public example. If you have changed the device password, use the current password in commands.
 
 ## Why Use Plaspy with This Configuration

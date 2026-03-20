@@ -84,12 +84,12 @@ TopTen proporciona comandos de configuración por SMS para el TK108. Los siguien
 
 - Ejemplo de comando SMS para establecer el APN GPRS y el servidor Plaspy por IP con puerto 8888:
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explicación de los marcadores de posición:
-- {{apn}} es el nombre del APN de su operador móvil.
-- {{apnu}} es el usuario del APN si lo requiere el operador; puede quedar vacío en muchos casos.
-- {{apnp}} es la contraseña del APN si la requiere el operador; puede quedar vacía en muchos casos.
+- [apn] es el nombre del APN de su operador móvil.
+- [apnu] es el usuario del APN si lo requiere el operador; puede quedar vacío en muchos casos.
+- [apnp] es la contraseña del APN si la requiere el operador; puede quedar vacía en muchos casos.
 
 - Ejemplo de comando para solicitar y comprobar la configuración actual en el dispositivo:
 ```text

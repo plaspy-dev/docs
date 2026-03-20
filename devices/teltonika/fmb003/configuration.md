@@ -75,19 +75,19 @@ When configured, the FMB003 forwards position and OEM OBD telemetry to the Plasp
 The FMB003 can be configured using a batch SMS command format. The public example below sets APN parameters and includes the Plaspy server domain and port. Keep the placeholders as shown and replace them with your actual APN values.
 
 - Replace the placeholders:
-  - {{apn}} with your mobile operator APN
-  - {{apnu}} with APN username if required
-  - {{apnp}} with APN password if required
+  - [apn] with your mobile operator APN
+  - [apnu] with APN username if required
+  - [apnp] with APN password if required
 
 Example SMS batch command:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes for this example command:
 - The command includes the Plaspy server domain d.plaspy.com and port 8888 so the device can report to Plaspy.
-- The placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your operator APN settings.
+- The placeholders [apn], [apnu], and [apnp] must be replaced with your operator APN settings.
 - The final parameter in the batch indicates a transport or related flag; follow Teltonika guidance for the correct value depending on whether you choose UDP or TCP.
 
 If you use Teltonika Configurator or FOTA WEB instead of SMS, the same server domain and port values should be entered in the corresponding server fields.

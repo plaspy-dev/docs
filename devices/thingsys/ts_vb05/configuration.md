@@ -83,21 +83,21 @@ Note: This resets device settings to factory defaults. Use only if required.
 
 2. Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} is a placeholder for the mobile operator APN name. Replace with your operator APN string.
+- [apn] is a placeholder for the mobile operator APN name. Replace with your operator APN string.
 
 3. Set the APN username
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- {{apnu}} is a placeholder for the APN username if the carrier requires one. Leave blank or omit if not required.
+- [apnu] is a placeholder for the APN username if the carrier requires one. Leave blank or omit if not required.
 
 4. Set the APN password
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-- {{apnp}} is a placeholder for the APN password if required by the carrier.
+- [apnp] is a placeholder for the APN password if required by the carrier.
 
 5. Set the GPRS server and port (server example uses the Plaspy IP and port)
 ```text
@@ -111,7 +111,7 @@ CXZT
 ```
 - Use CXZT to query and verify the current device configuration where supported by firmware.
 
-Important: The sample SMS commands above include the default device password 123456 in the command prefixes. Do not remove required password prefixes if the device enforces them. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with the values provided by your mobile operator.
+Important: The sample SMS commands above include the default device password 123456 in the command prefixes. Do not remove required password prefixes if the device enforces them. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with the values provided by your mobile operator.
 
 ## Configuration Notes
 

@@ -77,7 +77,7 @@ Siga estos pasos prácticos para configurar un Sentar Q60 y que se comunique con
 
 ## Comandos de configuración de ejemplo
 
-El Sentar Q60 puede configurarse mediante comandos SMS. Los siguientes comandos públicos se proporcionan en la muestra de configuración del fabricante. Los comandos asumen que la contraseña del dispositivo es 123456 (el valor por defecto en la muestra pública). Use el formato de comando exacto requerido por su firmware y conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} al reemplazar los valores del APN.
+El Sentar Q60 puede configurarse mediante comandos SMS. Los siguientes comandos públicos se proporcionan en la muestra de configuración del fabricante. Los comandos asumen que la contraseña del dispositivo es 123456 (el valor por defecto en la muestra pública). Use el formato de comando exacto requerido por su firmware y conserve los marcadores de posición [apn], [apnu] y [apnp] al reemplazar los valores del APN.
 
 - Restablecer a valores de fábrica (paso inicial opcional; úselo solo si necesita restaurar los valores de fábrica)
 ```text
@@ -96,9 +96,9 @@ pw,123456,imsi#
 
 - Establecer el APN del operador donde xxx es MCC y yy es MNC
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explicación: {{apn}} es el APN del operador, {{apnu}} es el usuario del APN si es necesario, y {{apnp}} es la contraseña del APN si corresponde. Reemplace xxxyy por la concatenación del MCC y MNC si su dispositivo lo requiere.
+Explicación: [apn] es el APN del operador, [apnu] es el usuario del APN si es necesario, y [apnp] es la contraseña del APN si corresponde. Reemplace xxxyy por la concatenación del MCC y MNC si su dispositivo lo requiere.
 
 - Establecer servidor GPRS a Plaspy por IP y puerto
 ```text
@@ -124,7 +124,7 @@ Use el comando de verificación para confirmar que el dispositivo aplicó los aj
 - Los comandos de ejemplo arriba usan la contraseña por defecto 123456; cambie la contraseña después de la configuración inicial si su política de seguridad lo requiere.
 - Plaspy acepta tanto UDP como TCP en el puerto 8888; elija el modo de transporte soportado por su dispositivo y su red. Plaspy detectará el protocolo usado automáticamente.
 - La configuración por SMS está soportada por los comandos públicos arriba; algunos instaladores prefieren las herramientas del proveedor o software de PC: utilice el método que corresponda al firmware de su dispositivo.
-- Reemplace los marcadores de APN ({{apn}}, {{apnu}}, {{apnp}}) con los valores proporcionados por su operador móvil. La comprobación e ingreso de MCC/MNC puede ser necesaria en ciertas regiones.
+- Reemplace los marcadores de APN ([apn], [apnu], [apnp]) con los valores proporcionados por su operador móvil. La comprobación e ingreso de MCC/MNC puede ser necesaria en ciertas regiones.
 
 ## Por qué usar Plaspy con esta configuración
 

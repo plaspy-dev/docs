@@ -77,7 +77,7 @@ When configured, the D50 sends location updates and device events over GPRS to P
 
 No public device-specific commands are included here. The D50 supports standard GPRS reporting and may offer multiple configuration interfaces such as a GOTOP configuration app, web portal, or SMS-based commands. Exact command syntax and the available configuration interface depend on GOTOP firmware and the regional model.
 
-If you have manufacturer-provided command examples or a configuration guide from GOTOP, apply the server settings shown on this page (d.plaspy.com or 54.85.159.138 and port 8888) within those commands or the manufacturer tool. Preserve any placeholders provided by GOTOP such as APN fields (for example {{apn}}, {{apnu}}, {{apnp}}) and replace them with your SIM operator values when required.
+If you have manufacturer-provided command examples or a configuration guide from GOTOP, apply the server settings shown on this page (d.plaspy.com or 54.85.159.138 and port 8888) within those commands or the manufacturer tool. Preserve any placeholders provided by GOTOP such as APN fields (for example [apn], [apnu], [apnp]) and replace them with your SIM operator values when required.
 
 ## Configuration Notes
 

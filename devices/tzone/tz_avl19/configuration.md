@@ -82,13 +82,13 @@ The TZ-AVL19 can be configured using SMS commands. The following public SMS comm
 - Set the operator APN
   - Basic form (APN only):
   ```
-  *000000,011,{{apn}}#
+  *000000,011,[apn]#
   ```
   - With APN username and password (if required by operator):
   ```
-  *000000,011,{{apn}},{{apnu}},{{apnp}}#
+  *000000,011,[apn],[apnu],[apnp]#
   ```
-  - Explanation: replace {{apn}} with your operator APN. If your operator requires a username and password, replace {{apnu}} and {{apnp}} with those values; otherwise omit them where supported.
+  - Explanation: replace [apn] with your operator APN. If your operator requires a username and password, replace [apnu] and [apnp] with those values; otherwise omit them where supported.
 
 - Set the update interval to 60 seconds
   ```

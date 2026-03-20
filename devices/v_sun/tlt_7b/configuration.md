@@ -81,14 +81,14 @@ The TLT-7B is commonly configured by sending SMS messages from a phone to the de
 ```
 
 2. Set the mobile operator APN
-- Replace {{apn}} with your operator APN.
-- Optionally include {{apnu}} and {{apnp}} for APN username and APN password if required by the carrier.
+- Replace [apn] with your operator APN.
+- Optionally include [apnu] and [apnp] for APN username and APN password if required by the carrier.
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
 (If your operator does not require APN username or password, send it without the optional fields:
 ```
-#803#0000#{{apn}}##
+#803#0000#[apn]##
 ```)
 
 3. Set the GPRS server to Plaspy using the numeric IP and port
@@ -117,8 +117,8 @@ The TLT-7B is commonly configured by sending SMS messages from a phone to the de
 ```
 
 Note on placeholders
-- {{apn}} is your mobile operator APN string.
-- {{apnu}} and {{apnp}} are optional APN username and password fields and should only be included if your operator requires them.
+- [apn] is your mobile operator APN string.
+- [apnu] and [apnp] are optional APN username and password fields and should only be included if your operator requires them.
 
 ## Configuration Notes
 

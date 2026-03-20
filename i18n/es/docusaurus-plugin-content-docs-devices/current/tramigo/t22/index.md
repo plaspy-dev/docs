@@ -1,6 +1,7 @@
 ---
 slug: /tramigo/t22
 id: t22
+sidebar_key: tramigt22_index_t22
 sidebar_label: T22
 title: Tramigo - T22
 sidebar_class_name: menu_item_tracker

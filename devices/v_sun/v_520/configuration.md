@@ -81,9 +81,9 @@ The V-520 supports SMS based configuration using the device password. The public
 ```text
 *RESET#0000##
 ```
-- Set the operator APN. Replace {{apn}} with your operator APN. If your APN requires username or password, replace {{apnu}} and {{apnp}} respectively. Use the format shown and include the extra fields only if required by your operator.
+- Set the operator APN. Replace [apn] with your operator APN. If your APN requires username or password, replace [apnu] and [apnp] respectively. Use the format shown and include the extra fields only if required by your operator.
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
 - Set the GPRS server to the Plaspy IP and port. This points the tracker to Plaspy for GPRS uploads.
 ```text
@@ -107,9 +107,9 @@ The V-520 supports SMS based configuration using the device password. The public
 ```
 
 Notes on the placeholders
-- {{apn}} is the operator APN string required for mobile data connectivity.
-- {{apnu}} is the APN username when required by the operator.
-- {{apnp}} is the APN password when required by the operator.
+- [apn] is the operator APN string required for mobile data connectivity.
+- [apnu] is the APN username when required by the operator.
+- [apnp] is the APN password when required by the operator.
 
 Send each SMS from an authorized phone number if the device is configured to accept commands only from predefined numbers. After sending server and APN settings, enabling GPRS mode and restarting the device often helps ensure the new settings take effect.
 

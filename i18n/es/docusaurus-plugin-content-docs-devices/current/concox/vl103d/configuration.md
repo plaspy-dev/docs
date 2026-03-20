@@ -88,12 +88,12 @@ GMT,E,0#
 ```
 
 3. Establecer el APN del operador
-- Reemplace {{apn}} por el APN de su operador
-- Si es necesario incluya {{apnu}} y {{apnp}} para usuario y contraseña del APN
+- Reemplace [apn] por el APN de su operador
+- Si es necesario incluya [apnu] y [apnp] para usuario y contraseña del APN
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: Si su APN no requiere usuario ni contraseña puede enviar solo `APN,{{apn}}#`.
+Nota: Si su APN no requiere usuario ni contraseña puede enviar solo `APN,[apn]#`.
 
 4. Configurar el servidor GPRS usando el dominio de Plaspy y el puerto
 ```
@@ -124,7 +124,7 @@ GPRSON,1#
 GPRSSET#
 ```
 
-Conserve los marcadores de posición exactamente como aparecen. {{apn}} es el nombre del punto de acceso del operador. {{apnu}} y {{apnp}} son el usuario y la contraseña opcionales que algunos operadores requieren.
+Conserve los marcadores de posición exactamente como aparecen. [apn] es el nombre del punto de acceso del operador. [apnu] y [apnp] son el usuario y la contraseña opcionales que algunos operadores requieren.
 
 ## Notas de configuración
 

@@ -77,13 +77,13 @@ The FMM130 can be configured using a batch parameter command format. The followi
 - Example batch setparam command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command and placeholders:
-- {{apn}} is the mobile network APN name required by your SIM
-- {{apnu}} is the APN username if your carrier requires one
-- {{apnp}} is the APN password if your carrier requires one
+- [apn] is the mobile network APN name required by your SIM
+- [apnu] is the APN username if your carrier requires one
+- [apnp] is the APN password if your carrier requires one
 - 2004 in this command points the device to d.plaspy.com and 2005 sets port 8888
 - 2006 is included in the example command as a device parameter flag; verify the exact meaning for your firmware in Teltonika documentation
 - This command may be applied via SMS or Teltonika configuration utilities depending on your setup and firmware

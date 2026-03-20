@@ -78,17 +78,17 @@ When configured for Plaspy the TZ-AVL09 uses GPRS to deliver location and event 
 To set the TZ-AVL09 by SMS, send the following commands in the order shown. These examples preserve the tracker default admin prefix used by the manufacturer. Replace placeholders with your operator values.
 
 1. Set the operator APN
-   - Replace {{apn}} with your mobile operator APN
-   - Optional {{apnu}} is the APN username and {{apnp}} is the APN password if required by your operator
+   - Replace [apn] with your mobile operator APN
+   - Optional [apnu] is the APN username and [apnp] is the APN password if required by your operator
 
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
-Note: If no APN username or password is required omit the ,{{apnu}},{{apnp}} portion so the command looks like:
+Note: If no APN username or password is required omit the ,[apnu],[apnp] portion so the command looks like:
 
 ```text
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 2. Set the update interval to 60 seconds

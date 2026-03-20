@@ -88,10 +88,10 @@ GMT,E,0#
 
 3. Set the mobile operator APN. Replace placeholders as required:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- {{apn}} is the mobile data APN for the SIM.  
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders; include them only if required by your operator.
+- [apn] is the mobile data APN for the SIM.  
+- [apnu] and [apnp] are optional APN username and password placeholders; include them only if required by your operator.
 
 4. Set the GPRS server using the Plaspy domain (preferred by hostname):
 ```
@@ -129,7 +129,7 @@ Note: Keep the command order when performing an initial setup (for example, set 
 - SMS-based configuration is a commonly published Concox method; follow the exact command syntax required by the GV20 firmware.  
 - Firmware revisions and regional hardware variants may change available commands or required command formats; consult Concox documentation if a command does not behave as expected.  
 - Choose UDP or TCP based on your installation needs; Plaspy accepts either transport on port 8888 and auto-detects the protocol.  
-- Remember to replace APN placeholders ({{apn}}, {{apnu}}, {{apnp}}) with your mobile operator values when sending APN commands.  
+- Remember to replace APN placeholders ([apn], [apnu], [apnp]) with your mobile operator values when sending APN commands.  
 - All devices in Plaspy use the same port and Plaspy automatically detects the tracker protocol, so the main unique settings per device are the APN, transport selection, and reporting interval.
 
 ## Why Use Plaspy with This Configuration

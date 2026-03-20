@@ -72,7 +72,7 @@ The GT02 sends location and device data over GPRS to the Plaspy shared server en
 
 ## Example Configuration Commands
 
-The Concox GT02 supports SMS-based configuration commands. Below are the common public commands in the order often used during setup. Keep placeholders as shown and replace {{apn}}, {{apnu}}, and {{apnp}} with your operator APN values when required.
+The Concox GT02 supports SMS-based configuration commands. Below are the common public commands in the order often used during setup. Keep placeholders as shown and replace [apn], [apnu], and [apnp] with your operator APN values when required.
 
 - Optional initial factory reset (use only when you need to return the device to factory defaults):
 ```
@@ -84,13 +84,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your APN. If your operator requires a username and password include {{apnu}} and {{apnp}}:
+- Set the operator APN. Replace [apn] with your APN. If your operator requires a username and password include [apnu] and [apnp]:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 or with credentials:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to use Plaspy by domain (UDP/TCP choice is device-level; port is 8888):
@@ -122,9 +122,9 @@ GPRSSET#
 ```
 
 Notes on placeholders:
-- {{apn}} is the APN string provided by the mobile operator.
-- {{apnu}} is the APN username when required.
-- {{apnp}} is the APN password when required.
+- [apn] is the APN string provided by the mobile operator.
+- [apnu] is the APN username when required.
+- [apnp] is the APN password when required.
 
 Send each command as an individual SMS to the GT02 device number following the device documentation for SMS formatting and any required syntax such as command terminators.
 

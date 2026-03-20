@@ -84,7 +84,7 @@ In general you will supply the Plaspy endpoint and port in the manufacturer tool
 - Set server by IP
   - 54.85.159.138 port 8888 using TCP or UDP as required
 
-If your device uses SMS configuration with template placeholders the manufacturer documentation will explain how to replace values such as APN or user credentials. Keep placeholders such as {{apn}}, {{apnu}}, or {{apnp}} as shown by the vendor and substitute the values appropriate for your SIM card and carrier.
+If your device uses SMS configuration with template placeholders the manufacturer documentation will explain how to replace values such as APN or user credentials. Keep placeholders such as [apn], [apnu], or [apnp] as shown by the vendor and substitute the values appropriate for your SIM card and carrier.
 
 ## Configuration Notes
 

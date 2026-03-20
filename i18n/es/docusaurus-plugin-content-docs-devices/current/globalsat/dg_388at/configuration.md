@@ -80,13 +80,13 @@ Si su despliegue de DG-388AT usa el flujo estándar BLE + GPX, empareje con ez-C
 Los siguientes comandos de ejemplo se extraen de contenido de configuración publicado por el fabricante. Usan marcadores de posición que debe reemplazar por valores específicos del dispositivo antes de enviarlos. Preserve los marcadores de posición al preparar los comandos:
 
 - {{imei}} — reemplace con el IMEI del dispositivo cuando el formato del comando lo requiera.
-- {{apn}}, {{apnu}}, {{apnp}} — marcadores para valores APN en variantes celulares; solo relevantes si su unidad admite configuración celular o por SMS.
+- [apn], [apnu], [apnp] — marcadores para valores APN en variantes celulares; solo relevantes si su unidad admite configuración celular o por SMS.
 - {{checksum}} y {{checksumreeboot}} — valores de suma de comprobación hexadecimal calculados sobre el texto del comando antes del carácter '*'.
 
 Comando principal de configuración (reemplazar marcadores y calcular checksum como se describe abajo):
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Comando opcional de reinicio (etiquételo como reinicio o paso de aplicación si es necesario):

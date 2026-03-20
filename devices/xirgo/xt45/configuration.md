@@ -79,11 +79,11 @@ To set the tracker send the following commands by SMS messages in the order show
 
 1. Set the operator APN (replace placeholders with your operator values):
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apn}} = Access Point Name supplied by the mobile operator.
-- {{apnu}} = APN username if required by the operator, otherwise leave blank or use the device-specific empty field convention.
-- {{apnp}} = APN password if required by the operator, otherwise leave blank or use the device-specific empty field convention.
+- [apn] = Access Point Name supplied by the mobile operator.
+- [apnu] = APN username if required by the operator, otherwise leave blank or use the device-specific empty field convention.
+- [apnp] = APN password if required by the operator, otherwise leave blank or use the device-specific empty field convention.
 
 2. Set the GPRS server to point to Plaspy (port and IP are explicit):
 ```text

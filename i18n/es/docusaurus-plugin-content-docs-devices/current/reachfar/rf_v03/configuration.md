@@ -79,7 +79,7 @@ Los comandos exactos y la sintaxis para configurar un RF-V03 varían según el f
 - Si su dispositivo utiliza una herramienta USB o de escritorio, use esa herramienta para establecer el servidor en d.plaspy.com o 54.85.159.138 y el puerto 8888, luego guarde y empuje los ajustes al dispositivo.
 - Si se usa un portal móvil o web, siga los campos del portal para ingresar el dominio o IP del servidor y el puerto 8888, seleccione UDP o TCP y guarde.
 
-Si dispone de ejemplos de comandos proporcionados por Reachfar o un distribuidor, aplíquelos en el mismo orden: configurar servidor, establecer puerto, seleccionar transporte, aplicar y luego reiniciar. Preserve cualquier marcador de posición que proporcione el fabricante como {{apn}} y reemplácelo por el APN de su operador cuando sea necesario.
+Si dispone de ejemplos de comandos proporcionados por Reachfar o un distribuidor, aplíquelos en el mismo orden: configurar servidor, establecer puerto, seleccionar transporte, aplicar y luego reiniciar. Preserve cualquier marcador de posición que proporcione el fabricante como [apn] y reemplácelo por el APN de su operador cuando sea necesario.
 
 ## Notas de configuración
 

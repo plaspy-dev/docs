@@ -1,6 +1,7 @@
 ---
 slug: /tzone/tz_rd05
 id: tz_rd05
+sidebar_key: tzontz_rd05_index_tz_rd05
 sidebar_label: TZ-RD05
 title: TZone - TZ-RD05
 sidebar_class_name: menu_item_tracker

@@ -87,17 +87,17 @@ GMT,E,0#
 ```
 
 3. Set the operator APN. Replace the placeholders with your operator values:
-- Required: {{apn}}
-- Optional username: {{apnu}}
-- Optional password: {{apnp}}
+- Required: [apn]
+- Optional username: [apnu]
+- Optional password: [apnp]
 
 Common variants:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 or with username and password:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Set the GPRS server to Plaspy by domain (recommended for easier DNS changes):
@@ -120,7 +120,7 @@ TIMER,60#
 PARAM#
 ```
 
-Notes on placeholders: keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} as shown and replace them with your mobile operator APN, username and password when required. The APN username and password are optional and only needed if your SIM operator requires them.
+Notes on placeholders: keep the placeholders [apn], [apnu], and [apnp] as shown and replace them with your mobile operator APN, username and password when required. The APN username and password are optional and only needed if your SIM operator requires them.
 
 ## Configuration Notes
 

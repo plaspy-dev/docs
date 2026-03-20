@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fm_3200
 id: fm_3200
+sidebar_key: teltonikfm_3200_index_fm_3200
 sidebar_label: FM 3200
 title: Teltonika - FM 3200
 sidebar_class_name: menu_item_tracker

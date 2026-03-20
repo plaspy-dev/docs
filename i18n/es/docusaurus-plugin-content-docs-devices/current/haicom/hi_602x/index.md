@@ -1,6 +1,7 @@
 ---
 slug: /haicom/hi_602x
 id: hi_602x
+sidebar_key: haicohi_602x_index_hi_602x
 sidebar_label: HI-602X
 title: Haicom - HI-602X
 sidebar_class_name: menu_item_tracker

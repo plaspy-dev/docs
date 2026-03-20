@@ -78,12 +78,12 @@ The XT63 can be configured by SMS. The manufacturer provides the following publi
 
 1. Set the operator APN
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 - Explanation of placeholders
-  - {{apn}} is the operator access point name
-  - {{apnu}} is the APN username where applicable
-  - {{apnp}} is the APN password where applicable
+  - [apn] is the operator access point name
+  - [apnu] is the APN username where applicable
+  - [apnp] is the APN password where applicable
 - Fill each placeholder with the values provided by your SIM operator or leave username and password empty if not required
 
 2. Set the GPRS server endpoint and transport parameters

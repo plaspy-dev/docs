@@ -76,15 +76,15 @@ The GT06N is configured to send location and event data to the Plaspy endpoint s
 The GT06N supports SMS based configuration. Below are commonly used SMS commands in the typical order required for setup. Replace placeholders as noted.
 
 - Configure your carrier APN
-  - Use this command to set the APN. Replace {{apn}} with the carrier APN. If your APN requires a username and password, include {{apnu}} and {{apnp}} where shown.
+  - Use this command to set the APN. Replace [apn] with the carrier APN. If your APN requires a username and password, include [apnu] and [apnp] where shown.
   ```text
-  APN,{{apn}}# 
+  APN,[apn]# 
   ```
   or with username and password:
   ```text
-  APN,{{apn}},{{apnu}},{{apnp}}#
+  APN,[apn],[apnu],[apnp]#
   ```
-  Explanation: {{apn}} = carrier APN, {{apnu}} = APN username if required, {{apnp}} = APN password if required.
+  Explanation: [apn] = carrier APN, [apnu] = APN username if required, [apnp] = APN password if required.
 
 - Setup the GPRS server to report to Plaspy
   ```text

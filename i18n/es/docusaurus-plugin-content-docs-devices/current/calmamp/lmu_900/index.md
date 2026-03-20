@@ -1,6 +1,7 @@
 ---
 slug: /calmamp/lmu_900
 id: lmu_900
+sidebar_key: calmamlmu_900_index_lmu_900
 sidebar_label: LMU-900
 title: CalmAmp - LMU-900
 sidebar_class_name: menu_item_tracker

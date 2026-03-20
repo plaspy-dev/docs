@@ -82,9 +82,9 @@ Si utiliza los comandos de ejemplo del fabricante que figuran más abajo, envíe
 La configuración de muestra del GT-89 puede realizarse por SMS. Los siguientes comandos públicos se proporcionan en el ejemplo del fabricante. El ejemplo utiliza la contraseña del dispositivo 000000 por defecto. Reemplace la contraseña si la ha cambiado.
 
 - Notas sobre los marcadores de posición
-  - Sustituya <IMEI> por el IMEI de 15 dígitos del dispositivo cuando se requiera.
-  - {{apn}} es el marcador del APN del operador móvil.
-  - {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN; inclúyalos solo si su operador los requiere.
+  - Sustituya \<IMEI> por el IMEI de 15 dígitos del dispositivo cuando se requiera.
+  - [apn] es el marcador del APN del operador móvil.
+  - [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN; inclúyalos solo si su operador los requiere.
 
 1. Establecer la identidad del equipo
    - Reemplace XXXXXXXXXXXXXXX por el IMEI del dispositivo o por el identificador de 15 dígitos requerido por sus herramientas de proveedor.
@@ -93,13 +93,13 @@ La configuración de muestra del GT-89 puede realizarse por SMS. Los siguientes 
    ```
 
 2. Configurar el APN del operador
-   - Sustituya {{apn}} por el APN de su operador. Si es necesario, incluya {{apnu}} y {{apnp}} para usuario y contraseña del APN.
+   - Sustituya [apn] por el APN de su operador. Si es necesario, incluya [apnu] y [apnp] para usuario y contraseña del APN.
    ```sms
-   M000000,23,{{apn}}{{,{{apnu}},{{apnp}}}}
+   M000000,23,[apn]{{,[apnu],[apnp]}}
    ```
    Ejemplo con los campos opcionales visibles:
    ```sms
-   M000000,23,{{apn}},{{apnu}},{{apnp}}
+   M000000,23,[apn],[apnu],[apnp]
    ```
 
 3. Establecer el intervalo de actualización a 60 segundos

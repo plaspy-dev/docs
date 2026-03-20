@@ -76,14 +76,14 @@ The Lite S will be configured to send periodic and event-driven reports to the s
 
 The exact configuration commands and their syntax depend on the Laipac firmware and the chosen configuration method (web tool, vendor software, or SMS). Because manufacturer tools and command formats vary, consult the official Laipac manual for the exact SMS strings or tool fields. Typical tasks you will perform in the manufacturer tool include entering the server domain or IP, setting port 8888, and choosing UDP or TCP for transport.
 
-If your installation uses SMS commands, refer to the Laipac command list for the precise message format. Placeholders such as {{apn}} are commonly used in manufacturer guides to indicate where to insert carrier APN values.
+If your installation uses SMS commands, refer to the Laipac command list for the precise message format. Placeholders such as [apn] are commonly used in manufacturer guides to indicate where to insert carrier APN values.
 
 ## Configuration Notes
 
 - Firmware differences and hardware revisions can change available menus and SMS command formats; always verify commands against the device manual for your firmware version.
 - TCP and UDP both work with Plaspy on port 8888; choose the transport that matches your reliability and latency preferences or installer guidance.
 - Plaspy uses the same port for all supported devices and automatically detects the protocol when a tracker connects, so use port 8888 consistently.
-- If using a cellular SIM, ensure the APN and SIM credentials are correct; manufacturer tools often use placeholders such as {{apn}} for these values.
+- If using a cellular SIM, ensure the APN and SIM credentials are correct; manufacturer tools often use placeholders such as [apn] for these values.
 - Keep a copy of any original device settings before applying changes so you can revert if necessary.
 
 ## Why Use Plaspy with This Configuration

@@ -83,7 +83,7 @@ Use these SMS command templates, replacing placeholders as described below:
 
 - APN and server set command
 ```text
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verify current GPRS settings
@@ -93,9 +93,9 @@ Use these SMS command templates, replacing placeholders as described below:
 
 Placeholders explained:
 - {{SecretKey}} — the device SMS password, by default the last 6 ASCII characters of the device ID
-- {{apn}} — the cellular operator APN string
-- {{apnu}} — the APN username if required by the operator
-- {{apnp}} — the APN password if required by the operator
+- [apn] — the cellular operator APN string
+- [apnu] — the APN username if required by the operator
+- [apnp] — the APN password if required by the operator
 
 Send these SMS messages to the PT-720 device phone number. If your device or firmware requires selecting UDP or TCP explicitly, use the manufacturer method to set transport in addition to the server and port parameters.
 

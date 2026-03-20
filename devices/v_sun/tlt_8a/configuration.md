@@ -89,11 +89,11 @@ Note: If the device password has been changed from the factory default, use the 
 
 2. Set the operator APN (replace placeholders as needed)
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
-- {{apn}} = your mobile operator APN  
-- {{apnu}} = APN username if required by the operator (leave blank or remove if not required)  
-- {{apnp}} = APN password if required by the operator (leave blank or remove if not required)
+- [apn] = your mobile operator APN  
+- [apnu] = APN username if required by the operator (leave blank or remove if not required)  
+- [apnp] = APN password if required by the operator (leave blank or remove if not required)
 
 3. Set the GPRS server to Plaspy using the Plaspy server IP and port
 ```text

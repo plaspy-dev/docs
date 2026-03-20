@@ -74,9 +74,9 @@ When configured with the Plaspy server settings, the VT05S sends location and de
 
 The VT05S supports SMS-based configuration. Use these public SMS command examples in order when performing an SMS setup. Keep placeholders as shown and replace them with your carrier details.
 
-- Configure the carrier APN (replace {{apn}} with your carrier APN; {{apnu}} and {{apnp}} are optional APN username and password placeholders):
+- Configure the carrier APN (replace [apn] with your carrier APN; [apnu] and [apnp] are optional APN username and password placeholders):
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
 Note: If your carrier requires an APN username and password include them as shown. The placeholder syntax here preserves the required fields for substitution.
 

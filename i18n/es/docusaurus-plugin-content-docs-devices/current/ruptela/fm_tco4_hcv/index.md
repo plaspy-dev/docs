@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/fm_tco4_hcv
 id: fm_tco4_hcv
+sidebar_key: ruptelfm_tco4_hcv_index_fm_tco4_hcv
 sidebar_label: FM-Tco4 HCV
 title: Ruptela - FM-Tco4 HCV
 sidebar_class_name: menu_item_tracker

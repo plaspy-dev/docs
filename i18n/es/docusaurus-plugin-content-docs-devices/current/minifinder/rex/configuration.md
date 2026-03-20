@@ -85,9 +85,9 @@ tz+00
 
 - Establecer el APN del operador (reemplazar los marcadores con los valores de su operador)
 ```
-S1,{{apn}}{{apnu_and_apnp_if_required}}
+S1,[apn]{{apnu_and_apnp_if_required}}
 ```
-Explicación: Reemplace {{apn}} con el APN de su operador. Si su operador requiere usuario y contraseña, use los marcadores opcionales {{apnu}} y {{apnp}} cuando la sintaxis del comando lo soporte. El ejemplo muestra cómo se representan los campos del APN; consulte la guía del fabricante para el SMS formateado exacto si debe suministrarse usuario o contraseña.
+Explicación: Reemplace [apn] con el APN de su operador. Si su operador requiere usuario y contraseña, use los marcadores opcionales [apnu] y [apnp] cuando la sintaxis del comando lo soporte. El ejemplo muestra cómo se representan los campos del APN; consulte la guía del fabricante para el SMS formateado exacto si debe suministrarse usuario o contraseña.
 
 - Establecer el servidor GPRS a Plaspy por IP y puerto
 ```
@@ -105,7 +105,7 @@ Notas sobre los comandos anteriores:
 - SMS versus configuración por software: Rex puede soportar configuración tanto por SMS como por app o PC; use el método recomendado para su firmware y flujo de instalación.
 - Elección del transporte: elija UDP o TCP en el puerto 8888 según lo requiera su instalación; Plaspy acepta ambos y detecta automáticamente el protocolo a partir de los mensajes entrantes.
 - Política de puerto único: Plaspy utiliza el puerto 8888 para todos los dispositivos compatibles, lo que simplifica la configuración entre distintos modelos.
-- Marcadores de APN: conserve marcadores como {{apn}}, {{apnu}} y {{apnp}} al preparar comandos SMS; reemplácelos por los valores de su operador.
+- Marcadores de APN: conserve marcadores como [apn], [apnu] y [apnp] al preparar comandos SMS; reemplácelos por los valores de su operador.
 
 ## Por qué usar Plaspy con esta configuración
 

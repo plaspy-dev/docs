@@ -77,21 +77,21 @@ The ST4945B public configuration uses SMS to set network and reporting parameter
 
 - Placeholders used in the commands
   - {{device_id}} the six digit device ID derived from the IMEI as described above
-  - {{apn}} the operator APN
-  - {{apnu}} the APN username if required
-  - {{apnp}} the APN password if required
+  - [apn] the operator APN
+  - [apnu] the APN username if required
+  - [apnp] the APN password if required
 
 1) Set the operator APN and Plaspy GPRS server
 Send this SMS to the device phone number. The fourth numeric field should be 1 if you supply an APN username or password, otherwise use 0.
 
 ```
-SA200NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 If you do not need APN authentication, use:
 
 ```
-SA200NTW;{{device_id}};02;0;{{apn}};;;54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 
 2) Set the periodic update interval to 60 seconds
@@ -110,7 +110,7 @@ SA200CMD;{{device_id}};02;PresetA
 
 Notes about sending commands
 - Send the SMS messages to the phone number of the SIM inside the ST4945B.
-- Replace {{device_id}}, {{apn}}, {{apnu}}, and {{apnp}} with your values.
+- Replace {{device_id}}, [apn], [apnu], and [apnp] with your values.
 - The server host in these commands uses the Plaspy IP 54.85.159.138 and port 8888 as required by Plaspy.
 
 ## Configuration Notes

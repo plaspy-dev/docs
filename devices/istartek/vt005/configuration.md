@@ -87,14 +87,14 @@ GMT,E,0#
 ```
 
 3. Set the operator APN
-- Replace {{apn}} with your mobile operator APN.
-- If your operator requires APN username or password, supply {{apnu}} and {{apnp}} respectively. Keep the placeholders if you will substitute real values.
+- Replace [apn] with your mobile operator APN.
+- If your operator requires APN username or password, supply [apnu] and [apnp] respectively. Keep the placeholders if you will substitute real values.
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Or, if username and password are needed:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Set the GPRS server to use Plaspy domain on port 8888 (TCP or UDP choice is device-dependent)
@@ -119,7 +119,7 @@ PARAM#
 
 Notes on these commands:
 - Keep the order when deploying initial settings: APN first, then SERVER, then TIMER and verification.
-- The APN command shows placeholders {{apn}}, {{apnu}}, and {{apnp}} that must be replaced with your operator values if required.
+- The APN command shows placeholders [apn], [apnu], and [apnp] that must be replaced with your operator values if required.
 - The SERVER command is shown both as a domain-based form and as an IP-based form; use the one appropriate for your environment.
 
 ## Configuration Notes
@@ -127,7 +127,7 @@ Notes on these commands:
 - SMS-based setup is publicly documented for the VT005 and is useful when a device has no immediate data connection; ensure SMS credits or plan allows for outbound/ inbound SMS during configuration.
 - Firmware and hardware revisions can change available commands or command syntax; always verify the command set against the device firmware release notes when possible.
 - Choose TCP or UDP according to installation needs; Plaspy accepts both on port 8888 and will auto-detect the device protocol when the tracker connects.
-- APN username and password are optional in many regions but required by some operators; include {{apnu}} and {{apnp}} when prompted by your carrier.
+- APN username and password are optional in many regions but required by some operators; include [apnu] and [apnp] when prompted by your carrier.
 - Because Plaspy uses the same port for all supported devices, confirming the correct port (8888) and server address is critical for immediate visibility in the platform.
 
 ## Why Use Plaspy with This Configuration

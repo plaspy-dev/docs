@@ -1,6 +1,7 @@
 ---
 slug: /protrack/vt05c
 id: vt05c
+sidebar_key: protracvt05c_index_vt05c
 sidebar_label: VT05C
 title: Protrack - VT05C
 sidebar_class_name: menu_item_tracker

@@ -105,11 +105,11 @@ AT$FORM=1,@P,0,""
 
 4. Configure el servidor GPRS y los parámetros APN para Plaspy
 ``` 
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-- {{apn}} es la cadena APN del operador necesaria para establecer GPRS.
-- {{apnu}} es el nombre de usuario APN cuando el operador requiere autenticación.
-- {{apnp}} es la contraseña APN cuando el operador requiere autenticación.
+- [apn] es la cadena APN del operador necesaria para establecer GPRS.
+- [apnu] es el nombre de usuario APN cuando el operador requiere autenticación.
+- [apnp] es la contraseña APN cuando el operador requiere autenticación.
 
 5. Verifique el estado del dispositivo
 ``` 
@@ -122,7 +122,7 @@ Nota: Mantenga los comandos en el mismo orden si aplica todo como un único scri
 
 - Diferentes revisiones de firmware o variantes de hardware del AS11 pueden usar una sintaxis AT ligeramente distinta o parámetros adicionales; consulte las notas de la versión del dispositivo antes de aplicar comandos.
 - Si el equipo soporta UDP y TCP, elija el transporte que mejor se adapte a su entorno de red y al comportamiento del operador; UDP se usa comúnmente por su menor overhead, mientras que TCP aporta fiabilidad de sesión.
-- Preserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} al documentar scripts; sustitúyalos por los valores del operador durante la configuración.
+- Preserve los marcadores de posición [apn], [apnu] y [apnp] al documentar scripts; sustitúyalos por los valores del operador durante la configuración.
 - Algunos instaladores prefieren el dominio d.plaspy.com por facilidad de mantenimiento, mientras que otros usan la IP numérica 54.85.159.138 para evitar dependencia de DNS; ambos son válidos para Plaspy.
 - Si la configuración se puede realizar por SMS o gestión remota, verifique que los comandos sean aceptados por el firmware vigente antes de desplegar masivamente.
 

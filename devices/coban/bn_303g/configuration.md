@@ -73,7 +73,7 @@ When configured, the BN-303G sends location and event messages to the shared Pla
 
 ## Example Configuration Commands
 
-The BN-303G public documentation provides SMS commands for basic setup. The example commands below use the device password 123456 as shown in the public guidance. Replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator APN, APN username, and APN password respectively.
+The BN-303G public documentation provides SMS commands for basic setup. The example commands below use the device password 123456 as shown in the public guidance. Replace [apn], [apnu], and [apnp] with your mobile operator APN, APN username, and APN password respectively.
 
 - Optional initial factory reset (use only if you need to return the device to factory defaults):
 ```
@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username and password (replace {{apnu}} and {{apnp}} with APN credentials or leave blank if not required):
+- Set the APN username and password (replace [apnu] and [apnp] with APN credentials or leave blank if not required):
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the numeric IP and port (this command points the device to Plaspy):
@@ -125,9 +125,9 @@ protocol123456 18
 ```
 
 Notes on placeholders and password:
-- {{apn}} is the mobile operator APN string required for GPRS data.
-- {{apnu}} is the APN username if your operator requires one; use an empty value if not required.
-- {{apnp}} is the APN password if required by your operator.
+- [apn] is the mobile operator APN string required for GPRS data.
+- [apnu] is the APN username if your operator requires one; use an empty value if not required.
+- [apnp] is the APN password if required by your operator.
 - The example SMS commands use the password 123456 as shown in the public manufacturer examples. If your device has a different password or it has been changed, use that password instead.
 
 ## Configuration Notes

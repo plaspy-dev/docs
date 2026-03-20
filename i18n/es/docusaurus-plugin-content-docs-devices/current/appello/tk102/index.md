@@ -1,6 +1,7 @@
 ---
 slug: /appello/tk102
 id: tk102
+sidebar_key: appelltk102_index_tk102
 sidebar_label: TK102
 title: Appello - TK102
 sidebar_class_name: menu_item_tracker

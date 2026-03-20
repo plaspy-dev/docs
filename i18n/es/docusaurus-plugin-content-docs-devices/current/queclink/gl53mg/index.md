@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gl53mg
 id: gl53mg
+sidebar_key: queclingl53mg_index_gl53mg
 sidebar_label: GL53MG
 title: QuecLink - GL53MG
 sidebar_class_name: menu_item_tracker

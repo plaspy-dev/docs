@@ -81,21 +81,21 @@ The ST8300 public configuration supports SMS commands. The device ID used in the
 
 Important placeholders
 - {{device_id}} = last 6 digits of IMEI excluding the final IMEI digit (compute per example above).
-- {{apn}} = your cellular operator APN.
-- {{apnu}} = APN username if required by operator; leave blank if not needed.
-- {{apnp}} = APN password if required by operator; leave blank if not needed.
+- [apn] = your cellular operator APN.
+- [apnu] = APN username if required by operator; leave blank if not needed.
+- [apnp] = APN password if required by operator; leave blank if not needed.
 
 1) Set the operator APN and GPRS server
-- Use authentication flag 1 if you include {{apnu}} or {{apnp}} otherwise use 0.
+- Use authentication flag 1 if you include [apnu] or [apnp] otherwise use 0.
 
 ```
-SA200NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Or if no APN username/password:
 
 ```
-SA200NTW;{{device_id}};02;0;{{apn}};;;54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 
 2) Set the update interval to 60 seconds

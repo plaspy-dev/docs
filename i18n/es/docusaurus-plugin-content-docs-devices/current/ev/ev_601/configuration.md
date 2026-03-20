@@ -84,9 +84,9 @@ Los ejemplos públicos de configuración del EV-601 se proporcionan como comando
 123456L+00
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} con el APN de su operador. Si su operador requiere usuario o contraseña para el APN, incluya {{apnu}} y {{apnp}} respectivamente. Los campos de usuario y contraseña son opcionales y solo deben incluirse si su proveedor los exige:
+- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si su operador requiere usuario o contraseña para el APN, incluya [apnu] y [apnp] respectivamente. Los campos de usuario y contraseña son opcionales y solo deben incluirse si su proveedor los exige:
 ```
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
 
 - Establecer la IP del servidor y el puerto para Plaspy. Tenga en cuenta que la documentación del fabricante indica que puede necesitar contactar al fabricante para habilitar la opción de cambiar el servidor antes de que este comando sea aceptado:
@@ -105,7 +105,7 @@ Notas importantes sobre los comandos anteriores:
 - El EV-601 soporta la configuración por SMS en los ejemplos públicos, lo cual es útil cuando no hay acceso directo a una herramienta de configuración.  
 - Elija UDP o TCP según el comportamiento de la red; Plaspy acepta ambos en el puerto 8888 y detectará el protocolo automáticamente.  
 - Algunas unidades EV-601 pueden requerir que el vendedor o el fabricante habilite la opción de cambiar el servidor antes de aceptar comandos de servidor personalizados. Contacte al vendedor si es necesario.  
-- Mantenga las credenciales de APN seguras; los marcadores {{apn}}, {{apnu}} y {{apnp}} representan el APN, el usuario del APN y la contraseña del APN respectivamente y deben completarse con los valores de su operador.
+- Mantenga las credenciales de APN seguras; los marcadores [apn], [apnu] y [apnp] representan el APN, el usuario del APN y la contraseña del APN respectivamente y deben completarse con los valores de su operador.
 
 ## Por qué usar Plaspy con esta configuración
 

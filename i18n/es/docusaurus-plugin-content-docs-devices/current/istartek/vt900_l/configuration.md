@@ -74,7 +74,7 @@ El VT900-L se configura para enviar datos de ubicación y telemetría al endpoin
 
 ## Ejemplos de comandos de configuración
 
-El VT900-L puede configurarse enviando mensajes SMS con los siguientes comandos públicos. Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} al adaptar los comandos a su operador. Los comandos se muestran en el orden comúnmente usado para la configuración inicial.
+El VT900-L puede configurarse enviando mensajes SMS con los siguientes comandos públicos. Preserve los marcadores de posición como [apn], [apnu] y [apnp] al adaptar los comandos a su operador. Los comandos se muestran en el orden comúnmente usado para la configuración inicial.
 
 - Optional factory reset (use when beginning fresh setup or troubleshooting):
 ```
@@ -88,9 +88,9 @@ GMT,E,0#
 
 - Set the operator APN (replace placeholders with your operator values; keep the comma separated format; include APN username and password only if required):
 ```
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Nota: Use APN,{{apn}}# si no se requieren usuario/contraseña. Si su proveedor exige credenciales, incluya ,{{apnu}},{{apnp}} después del APN como se muestra en los ejemplos del fabricante.
+Nota: Use APN,[apn]# si no se requieren usuario/contraseña. Si su proveedor exige credenciales, incluya ,[apnu],[apnp] después del APN como se muestra en los ejemplos del fabricante.
 
 - Set the GPRS server using the Plaspy domain (recommended) and port 8888:
 ```
@@ -120,7 +120,7 @@ Envíe estos SMS desde el número de teléfono administrador que el dispositivo 
 - Use la configuración por SMS para instalaciones remotas o dentro del vehículo cuando el acceso físico al software de configuración sea limitado; los comandos SMS mostrados son ejemplos públicos de la guía del fabricante.  
 - Elija TCP o UDP según la fiabilidad de la red y sus necesidades operativas; Plaspy soporta ambos y detectará automáticamente el protocolo del dispositivo al llegar los mensajes.  
 - Todos los dispositivos Plaspy usan el mismo puerto, por lo que la consistencia en el valor del puerto SERVER (8888) simplifica las implementaciones.  
-- Etiquete claramente los marcadores de posición ({{apn}}, {{apnu}}, {{apnp}}) y confirme las credenciales del APN con el operador móvil antes de enviar los comandos de configuración.
+- Etiquete claramente los marcadores de posición ([apn], [apnu], [apnp]) y confirme las credenciales del APN con el operador móvil antes de enviar los comandos de configuración.
 
 ## Por qué usar Plaspy con esta configuración
 

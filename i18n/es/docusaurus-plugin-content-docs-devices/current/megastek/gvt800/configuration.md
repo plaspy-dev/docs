@@ -80,13 +80,13 @@ El flujo público de comandos SMS de Megastek para la configuración inicial nor
 M000000,22,{{IMEI15}}
 ```
 
-2. Configurar el APN del operador. Reemplace {{apn}} con el APN de su operador. Opcionalmente incluya {{apnu}} y {{apnp}} para usuario y contraseña del APN si su operador los requiere.
+2. Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Opcionalmente incluya [apnu] y [apnp] para usuario y contraseña del APN si su operador los requiere.
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Forma opcional con usuario y contraseña del APN
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Establecer el intervalo de envío de posición a 60 segundos
@@ -107,8 +107,8 @@ M000000,21,2
 
 Notas sobre los marcadores
 - {{IMEI15}} debe reemplazarse con el IMEI del dispositivo compuesto por 15 dígitos.
-- {{apn}} es el APN del operador móvil requerido para datos.
-- {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña del APN y pueden omitirse si el operador no los exige.
+- [apn] es el APN del operador móvil requerido para datos.
+- [apnu] y [apnp] son campos opcionales de usuario y contraseña del APN y pueden omitirse si el operador no los exige.
 
 ## Notas de configuración
 

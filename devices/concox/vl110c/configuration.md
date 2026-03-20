@@ -86,15 +86,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your mobile operator APN. If your provider requires username or password, include {{apnu}} and {{apnp}} after the APN:
+- Set the operator APN. Replace [apn] with your mobile operator APN. If your provider requires username or password, include [apnu] and [apnp] after the APN:
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Or with optional username/password:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Placeholders: {{apn}} = APN string; {{apnu}} = APN username; {{apnp}} = APN password)
+(Placeholders: [apn] = APN string; [apnu] = APN username; [apnp] = APN password)
 
 - Set the GPRS server to Plaspy using domain on port 8888 (UDP/TCP choice is per device setting):
 ```text
@@ -132,7 +132,7 @@ Send each command as a separate SMS as required by the device. After changing se
 - Commands above are SMS based and come from public Concox VL110C configuration documentation; you can also use the Concox PC tool or vendor utilities where available.
 - Firmware and hardware revisions may change command syntax or supported parameters; confirm command support on your device firmware.
 - Choose UDP or TCP based on network reliability and your monitoring needs. The device can be set to use either transport when configuring the server and port 8888.
-- Preserve APN placeholders ({{apn}}, {{apnu}}, {{apnp}}) and supply your operator credentials where necessary.
+- Preserve APN placeholders ([apn], [apnu], [apnp]) and supply your operator credentials where necessary.
 - Use the verification command (GPRSSET#) or check Plaspy to confirm the device is reporting after configuration.
 
 ## Why Use Plaspy with This Configuration

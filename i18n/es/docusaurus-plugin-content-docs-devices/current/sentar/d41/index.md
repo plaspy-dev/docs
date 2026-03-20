@@ -1,6 +1,7 @@
 ---
 slug: /sentar/d41
 id: d41
+sidebar_key: sentad41_index_d41
 sidebar_label: D41
 title: Sentar - D41
 sidebar_class_name: menu_item_tracker

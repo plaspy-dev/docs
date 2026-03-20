@@ -81,7 +81,7 @@ A continuación, se listan los campos clave que normalmente configurará en la h
 - Puerto del servidor: 8888
 - Transporte: UDP o TCP
 
-Si su despliegue utiliza configuración por SMS o comandos de texto de Ruptela, consulte la documentación oficial de Ruptela para el formato exacto de los comandos y mantenga los marcadores de posición como {{apn}}, {{apnu}} o {{apnp}} al configurar credenciales APN mediante comandos. Siga siempre el orden de comandos de Ruptela al realizar una configuración inicial o un reinicio opcional.
+Si su despliegue utiliza configuración por SMS o comandos de texto de Ruptela, consulte la documentación oficial de Ruptela para el formato exacto de los comandos y mantenga los marcadores de posición como [apn], [apnu] o [apnp] al configurar credenciales APN mediante comandos. Siga siempre el orden de comandos de Ruptela al realizar una configuración inicial o un reinicio opcional.
 
 ## Notas de configuración
 

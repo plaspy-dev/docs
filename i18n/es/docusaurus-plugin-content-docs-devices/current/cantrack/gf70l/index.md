@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/gf70l
 id: gf70l
+sidebar_key: cantracgf70l_index_gf70l
 sidebar_label: GF70L
 title: CanTrack - GF70L
 sidebar_class_name: menu_item_tracker

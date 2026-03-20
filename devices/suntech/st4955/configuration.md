@@ -76,16 +76,16 @@ The ST4955 transmits GNSS fixes and sensor telemetry over cellular networks to t
 The ST4955 public configuration examples use SMS commands. The device ID used in templates is derived from the IMEI: remove the final IMEI digit, then take the last 6 digits of the remaining string (for example, if IMEI is 123456789012345 then device ID becomes 901234).
 
 - Placeholders:
-  - {{apn}} = your mobile operator APN
-  - {{apnu}} = APN username if required (leave blank or 0 if not used)
-  - {{apnp}} = APN password if required (leave blank or 0 if not used)
-  - <device_id> = computed device ID based on the IMEI as described above
+  - [apn] = your mobile operator APN
+  - [apnu] = APN username if required (leave blank or 0 if not used)
+  - [apnp] = APN password if required (leave blank or 0 if not used)
+  - \<device_id> = computed device ID based on the IMEI as described above
 
 Send the following SMS commands in order to set network, server, and reporting interval:
 
-1) Set operator APN and GPRS server (replace <device_id>, {{apn}}, {{apnu}}, {{apnp}} as required)
+1) Set operator APN and GPRS server (replace \<device_id>, [apn], [apnu], [apnp] as required)
 ```text
-SA200NTW;<device_id>;02;0;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;<device_id>;02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notes:
 - The example template in the device UI may include a flag to enable APN username/password fields. Set the fields accordingly.

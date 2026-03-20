@@ -68,7 +68,7 @@ El TR-151SP se puede configurar para enviar sus datos a Plaspy actualizando sus 
 2. Introduzca el endpoint de Plaspy usando el dominio d.plaspy.com o la IP 54.85.159.138 según requiera la interfaz del equipo.
 3. Ajuste el puerto a 8888 (Plaspy usa el mismo puerto para todos los dispositivos).
 4. Elija UDP o TCP si el rastreador solicita selección de transporte durante la configuración.
-5. Proporcione APN, usuario APN y contraseña APN según necesite su SIM usando {{apn}}, {{apnu}} y {{apnp}}.
+5. Proporcione APN, usuario APN y contraseña APN según necesite su SIM usando [apn], [apnu] y [apnp].
 6. Aplique o guarde la configuración y luego reinicie o haga un arranque si el firmware del dispositivo lo requiere.
 7. Valide que el TR-151SP reporte a Plaspy y que los datos aparezcan en la plataforma Plaspy.
 
@@ -80,7 +80,7 @@ Para configurar el rastreador, envíe los siguientes comandos por mensajes SMS. 
 Envíe este SMS (reemplace los marcadores y calcule la suma de verificación como se explica abajo):
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Comando de reinicio (opcional, úselo cuando sea necesario reiniciar para aplicar los ajustes)
@@ -91,9 +91,9 @@ GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
 
 Notas sobre los marcadores y la suma de verificación:
 - {{imei}} — reemplace con el IMEI del dispositivo.
-- {{apn}} — reemplace con el APN del proveedor de la SIM.
-- {{apnu}} — reemplace con el usuario APN si es requerido, o deje en blanco si no aplica.
-- {{apnp}} — reemplace con la contraseña APN si es requerida, o deje en blanco si no aplica.
+- [apn] — reemplace con el APN del proveedor de la SIM.
+- [apnu] — reemplace con el usuario APN si es requerido, o deje en blanco si no aplica.
+- [apnp] — reemplace con la contraseña APN si es requerida, o deje en blanco si no aplica.
 - {{checksum}} y {{checksumreeboot}} — el comando requiere una suma de verificación que se añade después del asterisco. La rutina pública de checksum calcula un XOR de los caracteres del comando antes del asterisco y produce un valor hexadecimal de dos dígitos en mayúsculas. Asegúrese de calcular la suma de verificación para la porción del comando anterior al * y añadirla como se muestra.
 
 El ejemplo público original también mencionó un formato global de envoltura SMS usado por Plaspy para mensajes por lotes. Cuando use configuración por SMS individual, envíe los comandos exactamente como se muestran arriba con el checksum correcto.

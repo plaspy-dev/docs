@@ -73,7 +73,7 @@ The TK510 is configured to report to Plaspy by sending GPRS data packets to the 
 
 ## Example Configuration Commands
 
-The TK510 public guidance shows SMS based commands. The following commands are taken from manufacturer published examples and preserved in order. Keep placeholders as provided and replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator APN name, username, and password if required.
+The TK510 public guidance shows SMS based commands. The following commands are taken from manufacturer published examples and preserved in order. Keep placeholders as provided and replace [apn], [apnu], and [apnp] with your mobile operator APN name, username, and password if required.
 
 - Optional initial reset to factory settings
 ```text
@@ -83,11 +83,11 @@ Label: Optional initial restore of factory settings when you need a clean config
 
 - Set up APN and GPRS server to report to Plaspy
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Notes:
 - This command sets the server IP to 54.85.159.138 and port to 8888 for Plaspy reporting.
-- Replace {{apn}} with your operator APN name. If the operator provides an APN username and password, replace {{apnu}} and {{apnp}} respectively. If not required, leave them empty or omit if the device firmware allows.
+- Replace [apn] with your operator APN name. If the operator provides an APN username and password, replace [apnu] and [apnp] respectively. If not required, leave them empty or omit if the device firmware allows.
 - RPT, SLP, and RUN parameters are included in the published example; preserve their order when sending this public command.
 
 - Verification command to check stored settings

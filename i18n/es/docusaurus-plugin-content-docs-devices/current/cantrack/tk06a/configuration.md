@@ -73,7 +73,7 @@ El TK06A envía datos GPS y de estado del dispositivo a través de la red GSM us
 
 ## Comandos de ejemplo de configuración
 
-El TK06A puede configurarse mediante comandos SMS según ejemplos públicos del fabricante. Los comandos a continuación conservan los marcadores de posición públicos y la contraseña por defecto del dispositivo usada en el ejemplo. Reemplace {{apn}}, {{apnu}} y {{apnp}} con la APN, el nombre de usuario de la APN y la contraseña de la APN de su operador según corresponda.
+El TK06A puede configurarse mediante comandos SMS según ejemplos públicos del fabricante. Los comandos a continuación conservan los marcadores de posición públicos y la contraseña por defecto del dispositivo usada en el ejemplo. Reemplace [apn], [apnu] y [apnp] con la APN, el nombre de usuario de la APN y la contraseña de la APN de su operador según corresponda.
 
 1. Restaurar ajustes de fábrica (paso inicial opcional)
 ```
@@ -87,11 +87,11 @@ El TK06A puede configurarse mediante comandos SMS según ejemplos públicos del 
 
 3. Configurar la APN del operador (reemplazar los marcadores según sea necesario)
 ```
-#apn#123456#{{apn}}#{{apnu}}#{{apnp}}#
+#apn#123456#[apn]#[apnu]#[apnp]#
 ```
-- {{apn}} = la APN de su operador móvil
-- {{apnu}} = nombre de usuario de la APN si el operador lo requiere (dejar en blanco si no)
-- {{apnp}} = contraseña de la APN si el operador la requiere (dejar en blanco si no)
+- [apn] = la APN de su operador móvil
+- [apnu] = nombre de usuario de la APN si el operador lo requiere (dejar en blanco si no)
+- [apnp] = contraseña de la APN si el operador la requiere (dejar en blanco si no)
 
 4. Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
 ```
@@ -111,7 +111,7 @@ Nota: Los comandos de muestra usan la contraseña por defecto del dispositivo 12
 - Las versiones de firmware y las revisiones de hardware del fabricante pueden cambiar los formatos de comandos o las opciones disponibles; confirme siempre con la documentación del fabricante.
 - La configuración por SMS es comúnmente soportada según los ejemplos públicos del TK06A; las herramientas del proveedor o el software de configuración pueden ofrecer flujos alternativos.
 - Al seleccionar el transporte, UDP puede ser preferible por su menor sobrecarga, mientras que TCP puede ofrecer entrega más fiable en ciertas redes; elija según el comportamiento de la red.
-- Mantenga los marcadores de APN {{apnu}} y {{apnp}} solo si su operador los exige; de lo contrario, omítalos o déjelos en blanco conforme al formato de comandos del dispositivo.
+- Mantenga los marcadores de APN [apnu] y [apnp] solo si su operador los exige; de lo contrario, omítalos o déjelos en blanco conforme al formato de comandos del dispositivo.
 - Plaspy usa el mismo puerto entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador, así que apunte el dispositivo a d.plaspy.com o a la IP y puerto del servidor indicados más arriba.
 
 ## Por qué usar Plaspy con esta configuración

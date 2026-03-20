@@ -85,10 +85,10 @@ The manufacturer provides a sample Syrus SB script that can be saved as a .tmf f
 >SRT;CONFIG<
 >SXADP**U<
 # configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 # The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 # A Destination Address holding the server destination
@@ -103,10 +103,10 @@ The manufacturer provides a sample Syrus SB script that can be saved as a .tmf f
 ```
 
 Notes on the commands and placeholders:
-- {{apn}} is a placeholder for the network APN string your SIM or satellite gateway requires.  
-- {{apnu}} and {{apnp}} are placeholders for APN username and password if your network requires authentication.  
+- [apn] is a placeholder for the network APN string your SIM or satellite gateway requires.  
+- [apnu] and [apnp] are placeholders for APN username and password if your network requires authentication.  
 - The line starting with SXADP0000 sets the remote server to d.plaspy.com on port 8888. You may instead use the IP 54.85.159.138 if you prefer IP addressing.  
-- The SRT;CONFIG< command appears to clear previous configuration; treat it as optional or initial setup when preparing a device. Confirm with manufacturer documentation when to run reset or delete commands.
+- The SRT;CONFIG\< command appears to clear previous configuration; treat it as optional or initial setup when preparing a device. Confirm with manufacturer documentation when to run reset or delete commands.
 
 ## Configuration Notes
 

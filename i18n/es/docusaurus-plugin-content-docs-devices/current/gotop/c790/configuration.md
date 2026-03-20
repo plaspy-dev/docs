@@ -77,7 +77,7 @@ El GOTOP C790 envía datos de ubicación y eventos por GPRS al endpoint y puerto
 
 Los comandos exactos o las pantallas de configuración para el GOTOP C790 varían según la versión de firmware y la herramienta del fabricante que utilice. Dado que los métodos del fabricante difieren, consulte la guía de configuración de GOTOP o las herramientas de soporte para la sintaxis exacta de los comandos. Plaspy requiere los mismos endpoint y puerto que se muestran arriba (d.plaspy.com o 54.85.159.138 en el puerto 8888) y acepta conexiones por UDP o TCP.
 
-Si dispone de cadenas de comandos GOTOP o de una interfaz SMS para configuración según la documentación oficial, aplique el dominio o IP y el puerto exactamente como se indica y luego guarde y reinicie el equipo. Mantenga los marcadores de posición como APN, APN user y APN password (por ejemplo {{apn}}, {{apnu}}, {{apnp}}) si los comandos del fabricante los utilizan, y reemplace esos marcadores con los valores de su operador de SIM.
+Si dispone de cadenas de comandos GOTOP o de una interfaz SMS para configuración según la documentación oficial, aplique el dominio o IP y el puerto exactamente como se indica y luego guarde y reinicie el equipo. Mantenga los marcadores de posición como APN, APN user y APN password (por ejemplo [apn], [apnu], [apnp]) si los comandos del fabricante los utilizan, y reemplace esos marcadores con los valores de su operador de SIM.
 
 ## Notas sobre la configuración
 

@@ -78,13 +78,13 @@ Teltonika devices commonly accept batch parameter commands. The following public
 - Example Teltonika batch setparam command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders and fields
-  - {{apn}} placeholder for your SIM card APN name
-  - {{apnu}} placeholder for APN username if required by the mobile operator
-  - {{apnp}} placeholder for APN password if required by the mobile operator
+  - [apn] placeholder for your SIM card APN name
+  - [apnu] placeholder for APN username if required by the mobile operator
+  - [apnp] placeholder for APN password if required by the mobile operator
   - 2004 sets the server domain to d.plaspy.com
   - 2005 sets the port to 8888
   - 2006 is commonly used to set transport or activation flags depending on firmware; follow Teltonika documentation for exact parameter meanings on your firmware

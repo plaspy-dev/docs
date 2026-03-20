@@ -78,13 +78,13 @@ The FMP100 can be configured using an SMS style parameter command as documented 
 - Example SMS configuration command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command above:
-- {{apn}} is the mobile operator APN name.
-- {{apnu}} is the APN username if required by your operator; leave empty or omit if not required.
-- {{apnp}} is the APN password if required; leave empty or omit if not required.
+- [apn] is the mobile operator APN name.
+- [apnu] is the APN username if required by your operator; leave empty or omit if not required.
+- [apnp] is the APN password if required; leave empty or omit if not required.
 - The command sets the Plaspy server domain d.plaspy.com and port 8888 as public values for reporting.
 - The final parameter 2006 is the transport selection in this example; consult Teltonika documentation for the numeric mapping of transport options on your firmware.
 - Send this command via the manufacturer recommended method for your device (SMS to the SIM number in the tracker or via Teltonika configuration tools). Confirm exact send format with Teltonika documentation.

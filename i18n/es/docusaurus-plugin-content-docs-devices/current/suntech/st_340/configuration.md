@@ -86,14 +86,14 @@ Reemplace DEVICEID con el ID de dispositivo de 9 dígitos derivado cuando envíe
 ST300CMD;DEVICEID;02;Reset
 ```
 
-2. Establecer APN del operador y servidor GPRS. El cuarto campo es 1 si incluye nombre de usuario o contraseña del APN, de lo contrario ponga 0. Reemplace {{apn}}, {{apnu}} y {{apnp}} por el APN del operador, el usuario del APN y la contraseña del APN según corresponda. El comando apunta el dispositivo a Plaspy por IP y puerto.
+2. Establecer APN del operador y servidor GPRS. El cuarto campo es 1 si incluye nombre de usuario o contraseña del APN, de lo contrario ponga 0. Reemplace [apn], [apnu] y [apnp] por el APN del operador, el usuario del APN y la contraseña del APN según corresponda. El comando apunta el dispositivo a Plaspy por IP y puerto.
 
 ```
-ST300NTW;DEVICEID;02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;DEVICEID;02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Notas:
-- Si no proporciona usuario o contraseña del APN, cambie el 1 a 0 y deje {{apnu}} y {{apnp}} vacíos.
+- Si no proporciona usuario o contraseña del APN, cambie el 1 a 0 y deje [apnu] y [apnp] vacíos.
 - También puede sustituir d.plaspy.com por la IP si el dispositivo acepta un nombre de host en su comando de red.
 
 3. Establecer el intervalo de reporte a 60 segundos (ejemplo de configuración de reporte):
@@ -115,7 +115,7 @@ Envíe estos comandos como mensajes SMS al rastreador desde un número autorizad
 - Los ejemplos del fabricante para el ST 340 usan configuración por SMS; confirme si su firmware soporta SMS, una herramienta web o una utilidad de escritorio.
 - Derive el ID de dispositivo a partir del IMEI exactamente como se muestra en el ejemplo del fabricante: últimos 9 dígitos excluyendo el dígito de control final del IMEI.
 - Elija TCP o UDP según la preferencia del instalador y el soporte del firmware; Plaspy admite ambos y detectará el protocolo automáticamente.
-- Mantenga los marcadores de posición {{apnu}} y {{apnp}} si su operador los requiere; de lo contrario, use 0 para la bandera de usuario/contraseña.
+- Mantenga los marcadores de posición [apnu] y [apnp] si su operador los requiere; de lo contrario, use 0 para la bandera de usuario/contraseña.
 - Las revisiones de firmware y las herramientas del proveedor pueden cambiar el formato de comandos o añadir parámetros; consulte la documentación del fabricante ante cualquier duda.
 
 ## Por qué usar Plaspy con esta configuración

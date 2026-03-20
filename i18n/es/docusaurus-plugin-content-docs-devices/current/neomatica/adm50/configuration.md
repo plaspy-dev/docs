@@ -77,7 +77,7 @@ El ADM50 transmite coordenadas GNSS, telemetría de eventos y señales de alarma
 
 La documentación y las herramientas de configuración de ADM50 pueden ofrecer métodos por línea de comandos, SMS o utilitarios. La sintaxis exacta varía según el firmware y la versión de la herramienta. Como los comandos públicos del fabricante no se incluyen en esta guía, siga la utilidad de configuración de Neomatica o la referencia oficial de comandos al aplicar los ajustes de dirección de servidor y puerto. En todos los métodos debe configurar el destino como d.plaspy.com o 54.85.159.138, establecer el puerto 8888 y seleccionar UDP o TCP si el dispositivo requiere elegir transporte.
 
-Si obtiene ejemplos de comandos de Neomatica de fuentes oficiales, use bloques de comando en su documentación interna y preserve los marcadores de posición como {{apn}} o {{apnu}} donde sean requeridos por la sintaxis del comando del dispositivo.
+Si obtiene ejemplos de comandos de Neomatica de fuentes oficiales, use bloques de comando en su documentación interna y preserve los marcadores de posición como [apn] o [apnu] donde sean requeridos por la sintaxis del comando del dispositivo.
 
 ## Notas de configuración
 

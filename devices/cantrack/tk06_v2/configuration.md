@@ -81,12 +81,12 @@ begin123456
 
 - Set the operator APN. Replace the placeholders with your operator APN, APN username, and APN password as required by your SIM.
 ```text
-apn123456 {{apn}} {{apnu}} {{apnp}}
+apn123456 [apn] [apnu] [apnp]
 ```
 Explanation of placeholders:
-- {{apn}} is the mobile operator APN string
-- {{apnu}} is the APN username if required (leave blank or omit if not used)
-- {{apnp}} is the APN password if required (leave blank or omit if not used)
+- [apn] is the mobile operator APN string
+- [apnu] is the APN username if required (leave blank or omit if not used)
+- [apnp] is the APN password if required (leave blank or omit if not used)
 
 - Set the timezone to UTC0 (example uses value 0 for UTC)
 ```text

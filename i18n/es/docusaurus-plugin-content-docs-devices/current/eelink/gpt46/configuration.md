@@ -74,7 +74,7 @@ El GPT46 envía fijaciones de ubicación y paquetes de telemetría a Plaspy util
 
 ## Comandos de configuración de ejemplo
 
-El fabricante proporciona comandos basados en SMS para el GPT46. Envíe estos mensajes SMS al número del dispositivo en el orden que requiera su despliegue. Los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN del operador, el usuario del APN y la contraseña del APN respectivamente.
+El fabricante proporciona comandos basados en SMS para el GPT46. Envíe estos mensajes SMS al número del dispositivo en el orden que requiera su despliegue. Los marcadores de posición como [apn], [apnu] y [apnp] deben reemplazarse por el APN del operador, el usuario del APN y la contraseña del APN respectivamente.
 
 - Reinicio de fábrica opcional (usar solo si necesita restaurar valores por defecto):
 ```text
@@ -86,13 +86,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador (reemplazar marcadores según sea necesario). Si su operador requiere usuario o contraseña, incluya {{apnu}} y {{apnp}}:
+- Configurar el APN del operador (reemplazar marcadores según sea necesario). Si su operador requiere usuario o contraseña, incluya [apnu] y [apnp]:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 Nota: Si su APN no requiere usuario ni contraseña, envíe:
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 
 - Configurar el servidor GPRS por dominio en Plaspy y el puerto 8888:
@@ -122,7 +122,7 @@ Envíe cada comando como un SMS al dispositivo. El orden anterior es práctico p
 - El método SMS del fabricante es un canal público de configuración mostrado aquí; también pueden existir herramientas del dispositivo o utilitarios USB según la versión de firmware y variantes del modelo.
 - El comportamiento y la sintaxis exacta de los comandos pueden diferir entre versiones de firmware y revisiones de hardware. Verifique siempre los comandos con la documentación del dispositivo para su firmware específico.
 - La selección TCP frente a UDP puede afectar garantías de entrega y sobrecarga; elija según la preferencia del instalador y las condiciones de red.
-- Conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} cuando prepare los comandos y reemplácelos por los valores del operador según corresponda.
+- Conserve los marcadores de posición [apn], [apnu] y [apnp] cuando prepare los comandos y reemplácelos por los valores del operador según corresponda.
 - Use PARAM# después de la configuración para confirmar los ajustes y verificar que el servidor, APN y valores del timer se hayan aplicado correctamente.
 
 ## Por qué usar Plaspy con esta configuración

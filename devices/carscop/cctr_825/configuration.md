@@ -90,15 +90,15 @@ TIMEZONE*123456*+00
 
 - Set the operator APN
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-Replace {{apn}} with your mobile operator APN string.
+Replace [apn] with your mobile operator APN string.
 
 - Set the APN username and password
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
-Replace {{apnu}} with the APN username and {{apnp}} with the APN password. Include this command only if your operator requires APN credentials.
+Replace [apnu] with the APN username and [apnp] with the APN password. Include this command only if your operator requires APN credentials.
 
 - Set the GPRS server to Plaspy by IP and port
 ```text
@@ -117,7 +117,7 @@ This command requests the device to maintain its online reporting behavior as co
 - SMS based commands are commonly used for remote setup but availability and exact syntax can vary by firmware version and local vendor customizations.
 - Where possible use the domain d.plaspy.com or the IP 54.85.159.138 and set the port to 8888 as Plaspy uses the same port for all supported devices.
 - Choose UDP or TCP according to device firmware capability and network conditions; Plaspy automatically detects the tracker protocol at its ingest endpoint.
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when composing real commands and replace them with operator specific values.
+- Preserve placeholders such as [apn], [apnu], and [apnp] when composing real commands and replace them with operator specific values.
 - Consult manufacturer documentation for any device specific differences, command confirmation messages, or additional required steps for your firmware version.
 
 ## Why Use Plaspy with This Configuration

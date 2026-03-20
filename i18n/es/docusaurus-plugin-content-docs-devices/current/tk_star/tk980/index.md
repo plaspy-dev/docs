@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tk980
 id: tk980
+sidebar_key: tk_statk980_index_tk980
 sidebar_label: TK980
 title: TK-Star - TK980
 sidebar_class_name: menu_item_tracker

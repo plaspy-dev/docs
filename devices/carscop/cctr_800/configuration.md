@@ -89,14 +89,14 @@ RESET*123456
 TIMEZONE*123456*+00
 ```
 
-- Set operator APN (replace {{apn}} with your operator APN)
+- Set operator APN (replace [apn] with your operator APN)
 ```
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
-- Set APN username and password (optional; replace {{apnu}} and {{apnp}} with credentials)
+- Set APN username and password (optional; replace [apnu] and [apnp] with credentials)
 ```
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Set the GPRS server to Plaspy by IP and port
@@ -110,9 +110,9 @@ KEEPONLINE*123456
 ```
 
 Notes on placeholders
-- {{apn}} — your mobile operator APN value
-- {{apnu}} — APN username if required by your operator
-- {{apnp}} — APN password if required by your operator
+- [apn] — your mobile operator APN value
+- [apnu] — APN username if required by your operator
+- [apnp] — APN password if required by your operator
 
 The order above reflects a common sequence: optional reset, time zone, APN, APN credentials, server endpoint, and keepalive. Use the device replies to confirm each command succeeded.
 

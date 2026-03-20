@@ -76,7 +76,7 @@ The Sentar V82S is configured to send location and device data to the shared Pla
 
 ## Example Configuration Commands
 
-The following SMS commands are taken from the public Sentar V82S configuration content. The device password used in these examples is the documented default 123456. Keep the placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values. The MCC and MNC placeholders xxxyy are operator specific and optional depending on command syntax.
+The following SMS commands are taken from the public Sentar V82S configuration content. The device password used in these examples is the documented default 123456. Keep the placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values. The MCC and MNC placeholders xxxyy are operator specific and optional depending on command syntax.
 
 - Optional initial factory reset (use only if you need to restore defaults)
 ```text
@@ -93,9 +93,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Set the operator APN where {{apn}} is the APN name and {{apnu}} and {{apnp}} are the APN username and password respectively; replace xxxyy with MCC and MNC if required by the device
+- Set the operator APN where [apn] is the APN name and [apnu] and [apnp] are the APN username and password respectively; replace xxxyy with MCC and MNC if required by the device
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port shown in this guide
@@ -114,7 +114,7 @@ pw,123456,ts#
 ```
 
 Notes on the commands above:
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with the APN values supplied by your mobile operator. If no username or password are required, leave those fields blank or follow the manufacturer syntax.
+- Replace [apn], [apnu], and [apnp] with the APN values supplied by your mobile operator. If no username or password are required, leave those fields blank or follow the manufacturer syntax.
 - The default device password shown in public documentation is 123456. Change the device password after initial configuration if supported.
 - The GPRS server entry points the device to the Plaspy server IP 54.85.159.138 on port 8888 as used by Plaspy. You may alternatively use the domain d.plaspy.com where the device supports domain names.
 

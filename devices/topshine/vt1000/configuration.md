@@ -95,16 +95,16 @@ W000000,010,{{device_id14}}
 - Set the operator APN
   - If only an APN is required:
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
   - If APN username and password are required, include these placeholders:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
   - Explanation of placeholders:
-    - {{apn}} = cellular data APN for the SIM operator
-    - {{apnu}} = APN username if required
-    - {{apnp}} = APN password if required
+    - [apn] = cellular data APN for the SIM operator
+    - [apnu] = APN username if required
+    - [apnp] = APN password if required
 
 - Set the GPRS server and port pointing to Plaspy
 ```text

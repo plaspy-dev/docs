@@ -78,13 +78,13 @@ El siguiente ejemplo es un comando SMS en lote publicado por Teltonika para una 
 
 - Ejemplo de comando SMS en lote
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Notas sobre el comando
-  - {{apn}} es un marcador para el APN de su operador móvil.
-  - {{apnu}} es un marcador para el nombre de usuario APN cuando sea requerido.
-  - {{apnp}} es un marcador para la contraseña APN cuando sea requerido.
+  - [apn] es un marcador para el APN de su operador móvil.
+  - [apnu] es un marcador para el nombre de usuario APN cuando sea requerido.
+  - [apnp] es un marcador para la contraseña APN cuando sea requerido.
   - El comando incluye d.plaspy.com y el puerto 8888 para apuntar el dispositivo al servidor de Plaspy.
   - El parámetro 2006 aparece en el ejemplo; confirme el valor correcto para la selección de transporte u otras banderas con la documentación o las herramientas de Teltonika antes de usarlo.
   - Puede usar el dominio d.plaspy.com tal como se muestra o reemplazarlo con la IP del servidor Plaspy 54.85.159.138 si su método de configuración requiere un endpoint numérico.

@@ -84,13 +84,13 @@ The TLT-1B commonly accepts SMS commands for configuration. The following are th
 2. Set the operator APN
 - APN only:
 ```
-#803#0000#{{apn}}##
+#803#0000#[apn]##
 ```
 - APN with username and password:
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
-Explanation: {{apn}} is your mobile operator APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders if your carrier requires them.
+Explanation: [apn] is your mobile operator APN. [apnu] and [apnp] are optional APN username and password placeholders if your carrier requires them.
 
 3. Set the GPRS server to the Plaspy IP and port (public example uses IP and port as provided)
 ```

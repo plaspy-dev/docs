@@ -81,22 +81,22 @@ Los siguientes comandos SMS son el conjunto público de ejemplo proporcionado po
 begin123456
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} con el APN de su operador):
+- Establecer el APN del operador (reemplace [apn] con el APN de su operador):
 
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario APN si su operador lo requiere (reemplace {{apnu}} con su usuario APN):
+- Establecer el usuario APN si su operador lo requiere (reemplace [apnu] con su usuario APN):
 
 ```
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña APN si su operador la requiere (reemplace {{apnp}} con su contraseña APN):
+- Establecer la contraseña APN si su operador la requiere (reemplace [apnp] con su contraseña APN):
 
 ```
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto 8888:
@@ -118,8 +118,8 @@ gprs123456
 ```
 
 Notas sobre marcadores de posición y comandos:
-- {{apn}} es la cadena APN del operador móvil necesaria para datos GPRS.
-- {{apnu}} y {{apnp}} son marcadores opcionales para el usuario y la contraseña APN si su operador los exige.
+- [apn] es la cadena APN del operador móvil necesaria para datos GPRS.
+- [apnu] y [apnp] son marcadores opcionales para el usuario y la contraseña APN si su operador los exige.
 - La contraseña predeterminada usada en estos ejemplos es 123456. Reemplace la contraseña en cada SMS si la ha cambiado en el dispositivo.
 
 ## Observaciones de configuración

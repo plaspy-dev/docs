@@ -88,15 +88,15 @@ time zone123456 0
 
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Note: replace {{apn}} with your operator APN string.
+Note: replace [apn] with your operator APN string.
 
 - Set the APN username and password (optional)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Note: replace {{apnu}} and {{apnp}} with your APN username and password if required by your operator.
+Note: replace [apnu] and [apnp] with your APN username and password if required by your operator.
 
 - Set the GPRS server to the Plaspy server IP and port
 ```text
@@ -122,7 +122,7 @@ Keep the command order where shown if following a fresh provisioning flow. The f
 - SMS based setup is shown in public documentation for this model, but some vendors provide a configuration tool or USB/serial access instead.
 - When available, using the domain d.plaspy.com or the IP 54.85.159.138 are equivalent for pointing the tracker to Plaspy; the provided example uses the IP address as shown in public commands.
 - Choose UDP or TCP depending on installer preference and device support; Plaspy accepts either and will detect the protocol automatically.
-- The example commands include placeholders such as {{apn}}, {{apnu}}, and {{apnp}} — replace those with your operator values when sending SMS commands.
+- The example commands include placeholders such as [apn], [apnu], and [apnp] — replace those with your operator values when sending SMS commands.
 
 ## Why Use Plaspy with This Configuration
 

@@ -75,7 +75,7 @@ When configured, the T361 sends its GPS and vehicle telemetry streams over GPRS 
 
 The T361 may be configured using Ulbotech tools, a micro USB service interface, or the configuration channel provided by your installer. Exact command formats and the available parameters vary by firmware and vendor tool, so specific SMS or serial command examples are not provided here. When configuring, ensure the device is pointed to d.plaspy.com or 54.85.159.138 and set to port 8888 using UDP or TCP as required. Plaspy will automatically detect the tracker protocol when telemetry arrives.
 
-If you have manufacturer provided commands or an installation guide from Ulbotech, follow those public commands and replace the destination host with d.plaspy.com or the IP 54.85.159.138 and use port 8888. If the manufacturer supplies placeholders such as {{apn}} keep them and provide the correct APN values from your mobile operator.
+If you have manufacturer provided commands or an installation guide from Ulbotech, follow those public commands and replace the destination host with d.plaspy.com or the IP 54.85.159.138 and use port 8888. If the manufacturer supplies placeholders such as [apn] keep them and provide the correct APN values from your mobile operator.
 
 ## Configuration Notes
 

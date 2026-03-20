@@ -88,13 +88,13 @@ El PT-100 acepta comúnmente comandos SMS para la configuración básica. Los ej
 ```text
 000000GID{{imei_last14}}
 ```
-- Establecer el APN de su operador. Reemplace {{apn}} por el APN del operador. Si su operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} separados por comas:
+- Establecer el APN de su operador. Reemplace [apn] por el APN del operador. Si su operador requiere usuario y contraseña, incluya [apnu] y [apnp] separados por comas:
 ```text
-000000APN{{apn}}
+000000APN[apn]
 ```
 o con usuario y contraseña opcionales
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
 - Establecer el servidor GPRS para apuntar el rastreador a Plaspy (este ejemplo utiliza la IP y puerto públicos de Plaspy):
 ```text
@@ -107,7 +107,7 @@ o con usuario y contraseña opcionales
 
 Notas sobre los marcadores:
 - {{imei_last14}} significa el identificador de 14 dígitos que elija, típicamente los últimos 14 dígitos del IMEI del dispositivo.
-- {{apn}} es la cadena APN del operador. {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN cuando el operador los requiere.
+- [apn] es la cadena APN del operador. [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN cuando el operador los requiere.
 
 Si el PT-100 acepta un nombre de host en lugar de IP para el comando SVR, puede usar d.plaspy.com en lugar de 54.85.159.138 donde el firmware lo permita. Use la forma IP anterior si el dispositivo requiere direcciones numéricas.
 

@@ -76,7 +76,7 @@ Cuando se configura para Plaspy, el L17 PRO envía ubicación y telemetría al e
 
 El contenido de configuración del modelo L17 PRO que se ofrece aquí no incluye cadenas de comandos específicas del fabricante. Los comandos exactos o las secuencias de configuración por SMS varían según el firmware GOTOP y la herramienta de provisión. Use la aplicación de configuración GOTOP, el portal web del proveedor o el manual oficial de GOTOP para los formatos de comando y herramientas específicas del dispositivo.
 
-Si su proveedor facilita comandos por SMS o estilo AT para la provisión, siga el orden documentado y reemplace los marcadores de posición según se indique. Algunos marcadores comunes que podría encontrar incluyen valores como {{apn}} para nombres de APN cuando se requiere un APN manual; mantenga estos marcadores intactos y sustituya por los valores de su operador cuando la documentación del proveedor lo solicite.
+Si su proveedor facilita comandos por SMS o estilo AT para la provisión, siga el orden documentado y reemplace los marcadores de posición según se indique. Algunos marcadores comunes que podría encontrar incluyen valores como [apn] para nombres de APN cuando se requiere un APN manual; mantenga estos marcadores intactos y sustituya por los valores de su operador cuando la documentación del proveedor lo solicite.
 
 ## Notas de configuración
 

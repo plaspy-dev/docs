@@ -69,7 +69,7 @@ The M508 can be configured to send data to Plaspy by directing its reporting to 
 2. Enter the Plaspy server domain d.plaspy.com or the server IP 54.85.159.138 in the device server settings.  
 3. Set the device port to 8888, which Plaspy uses for all supported devices.  
 4. Choose UDP or TCP transport if the device requires a transport selection during configuration.  
-5. Provide APN and any credential placeholders required by the device, replacing placeholders such as {{apn}} with your SIM APN.  
+5. Provide APN and any credential placeholders required by the device, replacing placeholders such as [apn] with your SIM APN.  
 6. Apply or save the configuration and send the SMS commands if using SMS based setup.  
 7. Restart the device if required by the manufacturer to apply new settings.  
 8. Validate that the device reports to Plaspy by confirming it appears in your Plaspy account and is sending location updates.
@@ -80,18 +80,18 @@ The Gator M508 manufacturer sample uses SMS commands to set the GPRS server and 
 
 1) Template when APN username and password are required
 ```
-SS,*{{apn}}*,*{{apnu}}*,*{{apnp}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 2) Template when only APN is required
 ```
-S,*{{apn}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 Notes on placeholders
-- {{apn}} — your SIM card APN name.  
-- {{apnu}} — APN username if required by your mobile operator.  
-- {{apnp}} — APN password if required by your mobile operator.  
+- [apn] — your SIM card APN name.  
+- [apnu] — APN username if required by your mobile operator.  
+- [apnp] — APN password if required by your mobile operator.  
 - {{DeviceID}} — the tracker device identifier, commonly the IMEI.  
 - {{phoneNumberUser}} — the phone number to associate for alerts or admin SMS.  
 - 123456 — the sample device password shown in the manufacturer example and the default password included in the sample command. Replace with the device password in use if different.

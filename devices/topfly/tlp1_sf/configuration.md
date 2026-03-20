@@ -87,11 +87,11 @@ GMT,0000,0#
 
 2. Set the APN and optional APN username and password
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-- {{apn}} is the operator APN string.
-- {{apnu}} is the APN username if required, otherwise leave blank.
-- {{apnp}} is the APN password if required, otherwise leave blank.
+- [apn] is the operator APN string.
+- [apnu] is the APN username if required, otherwise leave blank.
+- [apnp] is the APN password if required, otherwise leave blank.
 
 3. Set the GPRS server to the Plaspy IP and port
 ```

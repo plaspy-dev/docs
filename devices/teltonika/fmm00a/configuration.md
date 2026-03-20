@@ -49,7 +49,7 @@ Note that Plaspy uses the same port for all supported devices and automatically 
 - A powered and installed FMM00A in the vehicle OBD II port or appropriate mounting location.
 - An active SIM card with a data plan and the correct APN values for your mobile operator.
 - Access to Teltonika configuration methods or tools such as Teltonika remote management or local configuration utilities described by the manufacturer.
-- The APN placeholders or values you will use such as {{apn}} {{apnu}} and {{apnp}} to populate the device APN fields.
+- The APN placeholders or values you will use such as [apn] [apnu] and [apnp] to populate the device APN fields.
 - Basic access to Plaspy so you can validate the device appears and telemetry is received after configuration.
 
 ## How This Tracker Connects to Plaspy
@@ -68,7 +68,7 @@ The FMM00A transmits GNSS and OBD telemetry over the cellular network to the Pla
 2. Enter the Plaspy server domain d.plaspy.com or the server IP 54.85.159.138 in the device server field.
 3. Set the server port to 8888 which Plaspy uses for all supported devices.
 4. Choose UDP or TCP if the device requires a transport selection during setup.
-5. Provide the operator APN values using the APN placeholders such as {{apn}} {{apnu}} and {{apnp}} when prompted.
+5. Provide the operator APN values using the APN placeholders such as [apn] [apnu] and [apnp] when prompted.
 6. Apply or save the configuration and restart the device if your tool or firmware requires a reboot for changes to take effect.
 7. Validate that the device reports to Plaspy by checking device activity and telemetry in your Plaspy account.
 
@@ -79,13 +79,13 @@ To configure the basic parameters on your Teltonika device, the following public
 - set APN and Plaspy server parameters using the Teltonika setparam style command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explanation of placeholders and fields in the command above
-- {{apn}} is your cellular data APN
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required
+- [apn] is your cellular data APN
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required
 - d.plaspy.com is the Plaspy server domain used to receive telemetry
 - 8888 is the Plaspy port used by all devices
 - 2006 is the transport selection parameter in this command string use the manufacturer documentation to confirm numeric values for UDP or TCP if needed

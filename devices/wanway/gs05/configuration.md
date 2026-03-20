@@ -77,15 +77,15 @@ The GS05 model supports SMS based configuration. Send these commands as text mes
 
 1. Configure the carrier APN
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 If your carrier requires APN username and password, use:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- {{apn}} is the carrier APN name
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the carrier APN name
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 2. Setup the GPRS server to point to Plaspy
 ```text

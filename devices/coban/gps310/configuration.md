@@ -75,9 +75,9 @@ When configured, the GPS310 uses the cellular network and GPRS service to open a
 The GPS310 is commonly configured via SMS commands. The following commands are taken from public device configuration examples. The sample commands use the device password 123456 as published. Replace placeholders and password values as appropriate for your device.
 
 Note on placeholders:
-- {{apn}} = your mobile operator APN string
-- {{apnu}} = APN username if required by the operator
-- {{apnp}} = APN password if required by the operator
+- [apn] = your mobile operator APN string
+- [apnu] = APN username if required by the operator
+- [apnp] = APN password if required by the operator
 
 1. Optional initial factory reset (use only when you need to reset device settings):
 ```
@@ -91,12 +91,12 @@ time zone123456 0
 
 3. Set the operator APN:
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Set the APN username and password (if required by your carrier):
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Set the GPRS server to the Plaspy IP and port:

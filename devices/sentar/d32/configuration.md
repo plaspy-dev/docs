@@ -93,11 +93,11 @@ pw,123456,imsi#
 4. Set the operator APN where xxx is MCC and yy is MNC
 Note: these placeholders must be replaced with values from the SIM operator. Preserve the APN placeholders as shown.
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-- {{apn}} = APN name for the carrier
-- {{apnu}} = APN username if required
-- {{apnp}} = APN password if required
+- [apn] = APN name for the carrier
+- [apnu] = APN username if required
+- [apnp] = APN password if required
 - xxxyy = combined MCC and MNC digits when this format is required by the device
 
 5. Set the GPRS server to point to Plaspy (direct IP example)
@@ -119,7 +119,7 @@ pw,123456,upload,300#
 pw,123456,ts#
 ```
 
-If your device uses a different SMS syntax or a configuration tool from Sentar, follow that method and apply these same server domain or IP and port values. Replace placeholders like {{apn}}, {{apnu}}, and {{apnp}} with your carrier details.
+If your device uses a different SMS syntax or a configuration tool from Sentar, follow that method and apply these same server domain or IP and port values. Replace placeholders like [apn], [apnu], and [apnp] with your carrier details.
 
 ## Configuration Notes
 

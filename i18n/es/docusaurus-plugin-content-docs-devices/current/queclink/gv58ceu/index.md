@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv58ceu
 id: gv58ceu
+sidebar_key: queclingv58ceu_index_gv58ceu
 sidebar_label: GV58CEU
 title: QuecLink - GV58CEU
 sidebar_class_name: menu_item_tracker

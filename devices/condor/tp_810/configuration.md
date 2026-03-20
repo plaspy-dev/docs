@@ -76,13 +76,13 @@ The TP-810 can be configured to send GPRS position and event data to the shared 
 The TP-810 documentation provides an SMS based configuration sequence. The device default password used in these examples is 0000. Replace placeholders and values as described below before sending each SMS.
 
 - APN setup  
-  Use this command to set the operator APN. Replace {{apn}} with the operator APN. If your operator requires username and password, include {{apnu}} and {{apnp}} where supported by the device.
+  Use this command to set the operator APN. Replace [apn] with the operator APN. If your operator requires username and password, include [apnu] and [apnp] where supported by the device.
   ```
-  APN,0000,{{apn}}
+  APN,0000,[apn]
   ```
   Optional with username and password:
   ```
-  APN,0000,{{apn}},{{apnu}},{{apnp}}
+  APN,0000,[apn],[apnu],[apnp]
   ```
 
 - Set a 5 digit identifier (alias)  
@@ -126,7 +126,7 @@ Keep the command order when initialising the device to ensure connectivity and r
 - The SMS command syntax and available parameters can vary by firmware revision and vendor tool, so verify commands against the current Condor TP-810 documentation.  
 - Some trackers accept domain names and some require an IP address in the server command. The public example uses the Plaspy IP 54.85.159.138 but d.plaspy.com is also the canonical domain for Plaspy.  
 - TCP versus UDP selection affects transport behavior; choose the transport supported by your network and device, and remember Plaspy listens on port 8888 for both transports.  
-- APN, APN username, and APN password are operator specific; preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values.  
+- APN, APN username, and APN password are operator specific; preserve the placeholders [apn], [apnu], and [apnp] and replace them with your operator values.  
 - SMS based setup is convenient for field deployments but confirm the device has adequate data and SMS access before relying on GPRS reporting.
 
 ## Why Use Plaspy with This Configuration

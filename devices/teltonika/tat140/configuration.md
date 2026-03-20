@@ -80,14 +80,14 @@ If your device supports SMS-based configuration, you can apply the parameter bat
 The TAT140 public configuration content includes a parameter batch command that can be used to set APN values and the Plaspy server endpoint. Preserve the placeholders and replace them with your operator APN values before sending.
 
 - Replace the placeholders:
-  - {{apn}} = your SIM operator APN
-  - {{apnu}} = APN username if required
-  - {{apnp}} = APN password if required
+  - [apn] = your SIM operator APN
+  - [apnu] = APN username if required
+  - [apnp] = APN password if required
 
 Example SMS batch command:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the example command:

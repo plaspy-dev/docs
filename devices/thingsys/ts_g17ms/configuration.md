@@ -80,19 +80,19 @@ The TS-G17Ms supports SMS-based configuration. The following public commands are
 FORMAT
 ```
 
-2. Set the operator APN (replace {{apn}} with your mobile operator APN)
+2. Set the operator APN (replace [apn] with your mobile operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-3. Set the APN username (replace {{apnu}} with your APN username; leave blank if not required)
+3. Set the APN username (replace [apnu] with your APN username; leave blank if not required)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-4. Set the APN password (replace {{apnp}} with your APN password; leave blank if not required)
+4. Set the APN password (replace [apnp] with your APN password; leave blank if not required)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 5. Set the GPRS server to point to Plaspy. This example uses the public server IP and port for Plaspy
@@ -106,9 +106,9 @@ CXZT
 ```
 
 Notes about placeholders
-- {{apn}} is the mobile operator APN string required for data connectivity.
-- {{apnu}} is the APN username if your operator requires one.
-- {{apnp}} is the APN password if your operator requires one.
+- [apn] is the mobile operator APN string required for data connectivity.
+- [apnu] is the APN username if your operator requires one.
+- [apnp] is the APN password if your operator requires one.
 - Keep the order above when following an initial setup sequence, and only run a factory reset if explicitly needed.
 
 ## Configuration Notes

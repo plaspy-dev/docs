@@ -77,9 +77,9 @@ The H29P manufacturer provides SMS-based configuration commands. Send these SMS 
 
 - Configure the carrier APN (replace placeholders with your carrier values). The APN username and password are optional if your carrier requires them:
 ```text
-APN,{{apn}}[,{{apnu}},{{apnp}}]#
+APN,[apn][,[apnu],[apnp]]#
 ```
-Explanation: {{apn}} is your carrier APN. {{apnu}} and {{apnp}} are optional APN username and password fields when required by the operator.
+Explanation: [apn] is your carrier APN. [apnu] and [apnp] are optional APN username and password fields when required by the operator.
 
 - Set the GPRS server to point to Plaspy on port 8888:
 ```text

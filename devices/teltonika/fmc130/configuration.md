@@ -48,7 +48,7 @@ Note: Plaspy uses the same port for all supported devices and will detect the tr
 
 - Access to the FMC130 and the Teltonika configuration method you plan to use (SMS commands, Teltonika Configurator, or FOTA WEB where applicable).
 - A powered and installed device with a working SIM card and active data service (APN and credentials available).
-- Knowledge of your operator APN, username, and password to populate placeholders such as {{apn}}, {{apnu}}, and {{apnp}}.
+- Knowledge of your operator APN, username, and password to populate placeholders such as [apn], [apnu], and [apnp].
 - A way to restart or cycle power on the device if firmware or connection testing requires a reboot.
 - Access to Plaspy account or onboarding instructions so you can confirm device visibility after configuration.
 - Manufacturer documentation for FMC130 firmware notes and parameter reference.
@@ -66,7 +66,7 @@ When configured, the FMC130 sends position and telemetry over the cellular data 
 ## Common Configuration Workflow
 
 1. Access the official Teltonika configuration method or software you prefer (SMS, Teltonika Configurator, or FOTA WEB) to modify device parameters.
-2. Enter your operator APN credentials where required, using placeholders like {{apn}}, {{apnu}}, and {{apnp}}.
+2. Enter your operator APN credentials where required, using placeholders like [apn], [apnu], and [apnp].
 3. Configure the server address by entering d.plaspy.com or the server IP 54.85.159.138 into the device server parameter.
 4. Set the server port to 8888 and choose UDP or TCP if the device requires a transport selection.
 5. Apply or save the configuration and send any required batch or SMS commands to commit the changes.
@@ -75,18 +75,18 @@ When configured, the FMC130 sends position and telemetry over the cellular data 
 
 ## Example Configuration Commands
 
-The following example is a common Teltonika batch command format used to set basic parameters including APN credentials and the Plaspy server endpoint. This example preserves placeholders for APN values; replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator values.
+The following example is a common Teltonika batch command format used to set basic parameters including APN credentials and the Plaspy server endpoint. This example preserves placeholders for APN values; replace [apn], [apnu], and [apnp] with your mobile operator values.
 
 - Example SMS batch command to set APN and Plaspy server values
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explanation of placeholders:
-- {{apn}} — your cellular data APN name
-- {{apnu}} — APN username if required by your operator
-- {{apnp}} — APN password if required by your operator
+- [apn] — your cellular data APN name
+- [apnu] — APN username if required by your operator
+- [apnp] — APN password if required by your operator
 
 This command sets the device APN fields and assigns the Plaspy server domain d.plaspy.com with port 8888. Parameter 2006 in the example is included by the manufacturer command template; confirm the exact meaning and transport selection in the FMC130 parameter reference in official Teltonika documentation before use.
 

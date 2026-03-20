@@ -1,6 +1,7 @@
 ---
 slug: /concox/gt06n
 id: gt06n
+sidebar_key: concogt06n_index_gt06n
 sidebar_label: GT06N
 title: Concox - GT06N
 sidebar_class_name: menu_item_tracker

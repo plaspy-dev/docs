@@ -82,13 +82,13 @@ The public Teltonika command example below shows a concise parameter update that
 - set APN values and Plaspy server endpoint using a single command
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders and fields
-  - {{apn}} is your mobile operator APN name
-  - {{apnu}} is the APN username if required by your carrier
-  - {{apnp}} is the APN password if required by your carrier
+  - [apn] is your mobile operator APN name
+  - [apnu] is the APN username if required by your carrier
+  - [apnp] is the APN password if required by your carrier
   - d.plaspy.com is the Plaspy server domain used by the platform
   - 8888 is the Plaspy port used by all devices
   - If you use SMS based configuration, send the command according to Teltonika SMS command rules or use the Teltonika Configurator or FOTA tools to apply the same parameter set

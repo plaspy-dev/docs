@@ -72,7 +72,7 @@ The P99L is configured to send location and basic telemetry to Plaspy by pointin
 
 ## Example Configuration Commands
 
-The P99L supports SMS based configuration. Below are public example SMS commands used to configure the device for Plaspy. The sample commands use the device default password 0000. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator APN and credentials.
+The P99L supports SMS based configuration. Below are public example SMS commands used to configure the device for Plaspy. The sample commands use the device default password 0000. Replace placeholders such as [apn], [apnu], and [apnp] with your operator APN and credentials.
 
 - Optional initial factory reset or restore to known baseline (use only when required):
 ```text
@@ -80,11 +80,11 @@ The P99L supports SMS based configuration. Below are public example SMS commands
 ```
 - Set the GPRS server to use Plaspy by IP and port. Basic form with APN only:
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 - Alternate server command including APN username and password placeholders:
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 - Set the time zone to UTC 0:
 ```text
@@ -100,15 +100,15 @@ The P99L supports SMS based configuration. Below are public example SMS commands
 ```
 
 Notes on placeholders:
-- {{apn}} — replace with your SIM operator APN.
-- {{apnu}} — replace with the APN username if required by the operator; omit if not needed.
-- {{apnp}} — replace with the APN password if required; omit if not needed.
+- [apn] — replace with your SIM operator APN.
+- [apnu] — replace with the APN username if required by the operator; omit if not needed.
+- [apnp] — replace with the APN password if required; omit if not needed.
 
 ## Configuration Notes
 
 - SMS based setup is a common and supported method for Meitrack devices; firmware differences can change supported commands or parameter formats.
 - Choose UDP or TCP based on your operational preference; Plaspy supports both and automatically detects the incoming protocol.
-- Always confirm and replace placeholders like {{apn}}, {{apnu}}, and {{apnp}} with operator specific values.
+- Always confirm and replace placeholders like [apn], [apnu], and [apnp] with operator specific values.
 - The default device password used in the examples is 0000; change the device password after initial setup for operational security.
 - Regional firmware and radio variants may change the exact command syntax or available server parameters; consult manufacturer documentation when in doubt.
 

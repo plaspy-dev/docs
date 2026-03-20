@@ -81,7 +81,7 @@ The G900LM-4G family commonly supports SMS and platform commands for APN, server
 
 - Set APN (placeholder APN must be replaced with your carrier APN):
 ```
-APN,{{apn}}
+APN,[apn]
 ```
 - Set server by domain or IP and port (replace placeholders with actual values if using a specific syntax required by your firmware):
 ```

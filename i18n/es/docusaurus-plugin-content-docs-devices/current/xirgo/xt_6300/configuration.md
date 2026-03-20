@@ -80,11 +80,11 @@ El XT-6300 puede configurarse por SMS usando los comandos públicos que se muest
 
 1. Establezca el APN del operador. Reemplace los marcadores con los valores de su operador:
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apn}} es la cadena APN de su operador móvil.
-- {{apnu}} es el nombre de usuario APN si su operador lo requiere.
-- {{apnp}} es la contraseña APN si su operador la requiere.
+- [apn] es la cadena APN de su operador móvil.
+- [apnu] es el nombre de usuario APN si su operador lo requiere.
+- [apnp] es la contraseña APN si su operador la requiere.
 
 2. Configure el servidor GPRS para apuntar el rastreador a Plaspy. Este comando incluye el puerto y la IP del servidor Plaspy:
 ```text
@@ -100,7 +100,7 @@ Envíe estos mensajes SMS siguiendo el flujo de trabajo de instalación descrito
 - La selección del transporte UDP o TCP puede afectar el comportamiento en distintos entornos de red; elija el transporte que su instalación requiera y asegúrese de que coincida con las reglas de firewall.
 - Plaspy utiliza el mismo puerto 8888 para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador en las conexiones entrantes.
 - Las versiones de firmware y las opciones de hardware como OBDII, JBUS o Bluetooth opcional pueden cambiar los comandos o las interfaces disponibles. Verifique los comandos con la versión de firmware del dispositivo.
-- Al usar marcadores como {{apn}}, asegúrese de que las credenciales del operador sean correctas y pruebe la conectividad antes de un despliegue a gran escala.
+- Al usar marcadores como [apn], asegúrese de que las credenciales del operador sean correctas y pruebe la conectividad antes de un despliegue a gran escala.
 
 ## Por qué usar Plaspy con esta configuración
 

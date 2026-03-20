@@ -95,7 +95,7 @@ or
 settransport tcp
 ```
 
-Note: The above blocks are illustrative patterns. Use the exact command syntax from the Reachfar instruction manual or your vendor tool. If placeholders such as {{apn}}, {{apnu}} or {{apnp}} appear in vendor commands, leave them as provided and replace them with your cellular carrier APN, APN username and APN password when required by the device.
+Note: The above blocks are illustrative patterns. Use the exact command syntax from the Reachfar instruction manual or your vendor tool. If placeholders such as [apn], [apnu] or [apnp] appear in vendor commands, leave them as provided and replace them with your cellular carrier APN, APN username and APN password when required by the device.
 
 ## Configuration Notes
 

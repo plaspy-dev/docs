@@ -80,13 +80,13 @@ El FMB001 admite el ajuste de parámetros vía SMS con los formatos de comando c
 - Comando SMS único para establecer credenciales APN y servidor Plaspy
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explicación de marcadores y campos
-- {{apn}} = nombre del APN de su operador celular
-- {{apnu}} = nombre de usuario del APN si su operador lo requiere, de lo contrario deje en blanco u omita si es compatible
-- {{apnp}} = contraseña del APN si su operador la requiere, de lo contrario deje en blanco u omita si es compatible
+- [apn] = nombre del APN de su operador celular
+- [apnu] = nombre de usuario del APN si su operador lo requiere, de lo contrario deje en blanco u omita si es compatible
+- [apnp] = contraseña del APN si su operador la requiere, de lo contrario deje en blanco u omita si es compatible
 - 2004 establece el dominio del servidor a d.plaspy.com
 - 2005 establece el puerto del servidor a 8888
 - 2006 normalmente controla el transporte o un valor índice en los conjuntos de parámetros de Teltonika; confirme su significado en la documentación de Teltonika o en la vista del Configurator
@@ -98,7 +98,7 @@ Nota: Este ejemplo es el comando público de estilo SMS tomado del ejemplo de co
 - Las diferencias de firmware y las variantes regionales del dispositivo pueden cambiar los ID de los parámetros y las opciones de configuración disponibles; verifique los números de parámetro en Teltonika Configurator según su versión de firmware.
 - La configuración por SMS es compatible con el comando de ejemplo anterior, pero el aprovisionamiento a gran escala suele ser más sencillo con Teltonika Configurator o FOTA WEB.
 - Elija UDP o TCP según la fiabilidad de la red y su preferencia operativa; Plaspy acepta ambos y detectará automáticamente el protocolo.
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} tal como se muestran y sustitúyalos por los valores reales de su operador al aplicar el comando.
+- Mantenga los marcadores [apn], [apnu] y [apnp] tal como se muestran y sustitúyalos por los valores reales de su operador al aplicar el comando.
 - El FMB001 tiene información de estado de fin de vida (EOL) comunicada por el fabricante; confirme la disponibilidad actual y las recomendaciones de reemplazo con Teltonika antes de hacer despliegues a gran escala.
 
 ## Por qué usar Plaspy con esta configuración

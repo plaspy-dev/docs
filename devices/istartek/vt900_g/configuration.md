@@ -83,13 +83,13 @@ FACTORY#
 ```text
 GMT,E,0#
 ```
-- Set the operator APN. Replace {{apn}} with your operator APN. If required, include username {{apnu}} and password {{apnp}} separated by commas
+- Set the operator APN. Replace [apn] with your operator APN. If required, include username [apnu] and password [apnp] separated by commas
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 - Example with optional APN username and password
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Configure the GPRS server using the Plaspy domain and shared port
 ```text
@@ -109,8 +109,8 @@ PARAM#
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN string required for GPRS or 3G data.
-- {{apnu}} and {{apnp}} are optional APN username and password fields if your operator requires them.
+- [apn] is the mobile operator APN string required for GPRS or 3G data.
+- [apnu] and [apnp] are optional APN username and password fields if your operator requires them.
 
 ## Configuration Notes
 

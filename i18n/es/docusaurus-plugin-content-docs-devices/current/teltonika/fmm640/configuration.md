@@ -78,13 +78,13 @@ El siguiente ejemplo se deriva de comandos setparam en el estilo publicado por T
 - Formato de ejemplo de comando SMS en lote proporcionado por la documentación del dispositivo:
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores de posición y campos
-- {{apn}} es el nombre del APN de la red móvil para su SIM.
-- {{apnu}} es el usuario del APN si el operador lo requiere.
-- {{apnp}} es la contraseña del APN si el operador la requiere.
+- [apn] es el nombre del APN de la red móvil para su SIM.
+- [apnu] es el usuario del APN si el operador lo requiere.
+- [apnp] es la contraseña del APN si el operador la requiere.
 - El comando establece el dominio del servidor en d.plaspy.com y el puerto del servidor en 8888 tal como lo requiere Plaspy.
 - El parámetro final 2006 se incluye en el ejemplo publicado; consulte la documentación de Teltonika para confirmar qué valor de transporte o modo se espera para su firmware y si debe usar UDP o TCP.
 

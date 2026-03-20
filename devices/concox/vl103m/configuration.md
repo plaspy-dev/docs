@@ -84,15 +84,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your APN. If your operator requires a username and password, include {{apnu}} and {{apnp}} respectively
+- Set the operator APN. Replace [apn] with your APN. If your operator requires a username and password, include [apnu] and [apnp] respectively
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 or with username and password
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Placeholders: {{apn}} = APN name, {{apnu}} = APN username, {{apnp}} = APN password)
+(Placeholders: [apn] = APN name, [apnu] = APN username, [apnp] = APN password)
 
 - Set the GPRS server to use the Plaspy domain on port 8888
 ```

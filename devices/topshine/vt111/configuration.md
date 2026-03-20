@@ -51,7 +51,7 @@ All devices in Plaspy use the same port and the platform will automatically dete
 - A working SIM card with data enabled and the correct APN for the mobile operator.
 - Access to the device IMEI and the device password for SMS configuration (the example commands below use the public default password 000000 as shown in the manufacturer sample).
 - Ability to send and receive SMS messages to the device or access to the manufacturer's configuration tool if provided.
-- Knowledge of the operator APN values to populate the {{apn}}, {{apnu}}, and {{apnp}} placeholders when required.
+- Knowledge of the operator APN values to populate the [apn], [apnu], and [apnp] placeholders when required.
 - A plan to verify the tracker appears in Plaspy after configuration.
 
 ## How This Tracker Connects to Plaspy
@@ -87,16 +87,16 @@ W000000,990,099###
 ```text
 W000000,010,<14 digit device id derived from IMEI>
 ```
-- Note: Replace <14 digit device id derived from IMEI> with the first 14 digits from the IMEI as the manufacturer example indicates.
+- Note: Replace \<14 digit device id derived from IMEI> with the first 14 digits from the IMEI as the manufacturer example indicates.
 
-3. Set the operator APN and optional APN user and password. Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator values. apnu and apnp are optional and only required for some operators.
+3. Set the operator APN and optional APN user and password. Replace [apn], [apnu], and [apnp] with your operator values. apnu and apnp are optional and only required for some operators.
 ```text
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
 - Explanation of placeholders:
-  - {{apn}} = operator APN name
-  - {{apnu}} = optional APN username
-  - {{apnp}} = optional APN password
+  - [apn] = operator APN name
+  - [apnu] = optional APN username
+  - [apnp] = optional APN password
 
 4. Set the GPRS server using the public Plaspy IP and port shown in the manufacturer example.
 ```text
@@ -130,7 +130,7 @@ Follow manufacturer guidance when sending SMS commands. Replace the default pass
 - Manufacturer firmware and command behavior can vary by hardware revision and firmware version. Confirm which SMS commands your VT111 firmware accepts before large scale deployment.
 - The VT111 sample commands use SMS to set APN and server values. If you have access to a vendor configuration tool, that tool may offer a more convenient workflow.
 - Choose UDP or TCP based on what your device firmware supports; behavior may differ for retransmissions and session handling.
-- Keep APN credential placeholders {{apn}}, {{apnu}}, and {{apnp}} and fill them with operator specific values; some carriers require username and password fields while others do not.
+- Keep APN credential placeholders [apn], [apnu], and [apnp] and fill them with operator specific values; some carriers require username and password fields while others do not.
 - The default password 000000 is present in the public example. Change it if your security policy requires a different device password.
 
 ## Why Use Plaspy with This Configuration

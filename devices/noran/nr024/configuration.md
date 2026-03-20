@@ -77,16 +77,16 @@ The NR024 is configured to send real time location and device status over GPRS t
 
 The following SMS commands are the publicly provided NR024 examples for SMS-based setup. The sample setup uses the device password 000000 in these commands. Preserve placeholders where shown and replace them with your operator values.
 
-- Set the operator APN. Replace {{apn}} with your operator APN. Optionally include {{apnu}} and {{apnp}} if your APN requires a username and password.
+- Set the operator APN. Replace [apn] with your operator APN. Optionally include [apnu] and [apnp] if your APN requires a username and password.
 
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 
 Optional extended APN command with username and password placeholders:
 
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public Plaspy IP and port. This points the device to the Plaspy server endpoint and port 8888.
@@ -108,9 +108,9 @@ A000000,004
 ```
 
 Notes on placeholders and defaults:
-- {{apn}} is the mobile operator APN.  
-- {{apnu}} is the APN username, if required.  
-- {{apnp}} is the APN password, if required.  
+- [apn] is the mobile operator APN.  
+- [apnu] is the APN username, if required.  
+- [apnp] is the APN password, if required.  
 - The example commands use the default device password 000000 as shown in public Noran documentation. If your device password differs, substitute it in the same position.
 
 ## Configuration Notes

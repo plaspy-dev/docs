@@ -47,7 +47,7 @@ Configuring the FMB010 for Plaspy is primarily about setting the device to repor
 - Confirm the FMB010 is powered and properly connected via OBD-II or the recommended power cable for the installation.
 - Ensure a working SIM card with an active data plan and the correct APN values are installed in the device.
 - Access to the official Teltonika configuration method for your unit (SMS commands, Teltonika Configurator, or other vendor tools).
-- Knowledge of the APN placeholders or credentials that your mobile operator requires (you will replace {{apn}}, {{apnu}}, {{apnp}} as needed).
+- Knowledge of the APN placeholders or credentials that your mobile operator requires (you will replace [apn], [apnu], [apnp] as needed).
 - A way to receive device logs or check device reporting in Plaspy to validate successful connection.
 
 ## How This Tracker Connects to Plaspy
@@ -66,7 +66,7 @@ When configured, the FMB010 sends location and telemetry to Plaspy's shared serv
 2. Enter the Plaspy server address either as the domain d.plaspy.com or the server IP 54.85.159.138.
 3. Set the device port to 8888 (Plaspy uses the same port for all supported devices).
 4. Choose UDP or TCP if the device requires a transport selection and the configuration interface exposes that option.
-5. Provide APN parameters and any SIM credentials required for cellular data connectivity (replace placeholders such as {{apn}}, {{apnu}}, {{apnp}}).
+5. Provide APN parameters and any SIM credentials required for cellular data connectivity (replace placeholders such as [apn], [apnu], [apnp]).
 6. Apply or save the configuration and restart the device if the manufacturer tool requires a reboot to apply settings.
 7. Validate that the device reports to Plaspy by checking device appearance and telemetry on the Plaspy dashboard.
 
@@ -77,13 +77,13 @@ The public Teltonika configuration example provided below shows a consolidated p
 - Description: Set APN credentials and point the tracker to Plaspy using the shared server domain and port.
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command and placeholders:
-- {{apn}} is the mobile network APN name required by your carrier.
-- {{apnu}} is the APN username if your carrier requires one; leave blank or remove if not required.
-- {{apnp}} is the APN password if required; leave blank if not required.
+- [apn] is the mobile network APN name required by your carrier.
+- [apnu] is the APN username if your carrier requires one; leave blank or remove if not required.
+- [apnp] is the APN password if required; leave blank if not required.
 - The command sets the server to d.plaspy.com and the port to 8888 as required by Plaspy.
 - Parameter numbers correspond to Teltonika device parameters; consult Teltonika documentation or your configuration tool to confirm parameter meanings and whether the command should be sent via SMS or through a configuration utility.
 

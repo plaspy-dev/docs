@@ -77,16 +77,16 @@ El TZ-BC02 se configura para establecer una conexión GPRS y enviar actualizacio
 El TZ-BC02 soporta configuración vía SMS. Los siguientes comandos SMS públicos se encuentran en la documentación del fabricante y deben enviarse desde un número autorizado al dispositivo. Conserve los marcadores de posición cuando reemplace con los valores de su operador.
 
 1. Establecer el APN del operador
-- Use este comando para definir el APN y el usuario y contraseña opcionales del APN. Reemplace {{apn}} con el APN de su operador. Si su operador requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} respectivamente.
+- Use este comando para definir el APN y el usuario y contraseña opcionales del APN. Reemplace [apn] con el APN de su operador. Si su operador requiere usuario o contraseña, incluya [apnu] y [apnp] respectivamente.
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
 - Si no se requiere usuario ni contraseña del APN, envíe:
 
 ```
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 2. Establecer el intervalo de actualización a 60 segundos
@@ -115,7 +115,7 @@ El TZ-BC02 soporta configuración vía SMS. Los siguientes comandos SMS público
 Notas sobre estos comandos
 - El orden importa: configure primero el APN, luego el servidor y el intervalo de reporte, y finalmente active GPRS.
 - El prefijo 000000 en estos ejemplos es la contraseña de comando del dispositivo mostrada en ejemplos públicos. Verifique la contraseña de su equipo antes de enviar comandos.
-- Marcadores de posición: {{apn}} es el APN del operador móvil, {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Omita usuario y contraseña si no son requeridos.
+- Marcadores de posición: [apn] es el APN del operador móvil, [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Omita usuario y contraseña si no son requeridos.
 
 ## Notas de configuración
 

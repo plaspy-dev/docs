@@ -85,19 +85,19 @@ The Appello Master can be configured by SMS. The sample commands below use the d
 123456time zone 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN; include username and password if required)
+- Set the operator APN (replace [apn] with your operator APN; include username and password if required)
 ```text
-123456apn {{apn}} {{apnu}} {{apnp}}
+123456apn [apn] [apnu] [apnp]
 ```
 
 - Set the APN username
 ```text
-123456apnuser {{apnu}}
+123456apnuser [apnu]
 ```
 
 - Set the APN password
 ```text
-123456apnpasswd {{apnp}}
+123456apnpasswd [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the server IP and port
@@ -116,9 +116,9 @@ The Appello Master can be configured by SMS. The sample commands below use the d
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator APN string you must provide for GPRS data.
-- {{apnu}} is the APN username when required by the operator.
-- {{apnp}} is the APN password when required by the operator.
+- [apn] is the mobile operator APN string you must provide for GPRS data.
+- [apnu] is the APN username when required by the operator.
+- [apnp] is the APN password when required by the operator.
 These placeholders must be replaced with your operator credentials when sending commands.
 
 ## Configuration Notes

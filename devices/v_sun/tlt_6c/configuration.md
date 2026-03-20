@@ -84,11 +84,11 @@ The TLT-6C public configuration guidance shows SMS commands used to prepare the 
 
 2. Set the operator APN. Replace the placeholders as needed:
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
-- {{apn}} is the mobile operator APN.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is the mobile operator APN.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
 - Omit the username and password placeholders if your operator only requires an APN.
 
 3. Set the GPRS server to the Plaspy endpoint and port:

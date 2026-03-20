@@ -1,6 +1,7 @@
 ---
 slug: /queclink/wth301
 id: wth301
+sidebar_key: queclinwth301_index_wth301
 sidebar_label: WTH301
 title: QuecLink - WTH301
 sidebar_class_name: menu_item_tracker

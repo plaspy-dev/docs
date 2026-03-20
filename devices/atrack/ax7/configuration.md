@@ -95,9 +95,9 @@ AT$FORM=1,@P,0,""
 
 - Configure GPRS server to Plaspy using APN placeholders and Plaspy server IP and port
 ```
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-Note: {{apn}} is the operator APN name. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders. Replace these placeholders with the SIM operator credentials required by your mobile service.
+Note: [apn] is the operator APN name. [apnu] and [apnp] are optional APN username and APN password placeholders. Replace these placeholders with the SIM operator credentials required by your mobile service.
 
 - Check device status
 ```

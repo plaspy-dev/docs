@@ -80,19 +80,19 @@ El XT-013 puede configurarse enviando comandos por SMS. Los comandos de ejemplo 
 begin123456
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} con el APN de su operador)
+- Establecer el APN del operador (reemplace [apn] con el APN de su operador)
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el nombre de usuario del APN si se requiere (reemplace {{apnu}} con el usuario APN)
+- Establecer el nombre de usuario del APN si se requiere (reemplace [apnu] con el usuario APN)
 ```sms
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN si se requiere (reemplace {{apnp}} con la contraseña APN)
+- Establecer la contraseña del APN si se requiere (reemplace [apnp] con la contraseña APN)
 ```sms
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS al endpoint y puerto de Plaspy (este ejemplo usa la IP y el puerto de Plaspy)
@@ -110,7 +110,7 @@ gprsmode123456
 t060s***n123456
 ```
 
-Notas sobre los marcadores de posición: {{apn}} es la cadena APN de su operador móvil. {{apnu}} y {{apnp}} son campos opcionales para usuario y contraseña del APN si su operador los exige. Reemplácelo exactamente con los valores del operador al enviar los SMS.
+Notas sobre los marcadores de posición: [apn] es la cadena APN de su operador móvil. [apnu] y [apnp] son campos opcionales para usuario y contraseña del APN si su operador los exige. Reemplácelo exactamente con los valores del operador al enviar los SMS.
 
 ## Notas de configuración
 

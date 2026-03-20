@@ -71,7 +71,7 @@ The GV57MG is configured to report GNSS positions, status updates, and alarm eve
 
 ## Example Configuration Commands
 
-The GV57MG can be configured using SMS commands. The following public example commands are provided in their typical order. The sample commands use the device password queclink which is the default in this example. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, user name, and password as needed.
+The GV57MG can be configured using SMS commands. The following public example commands are provided in their typical order. The sample commands use the device password queclink which is the default in this example. Replace placeholders such as [apn], [apnu], and [apnp] with your operator APN, user name, and password as needed.
 
 1. Optional initial step to restore factory settings (use only if you need a clean configuration)
 ```
@@ -85,11 +85,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configure the operator APN
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = your mobile network APN
-- {{apnu}} = APN user name if required by your operator
-- {{apnp}} = APN password if required by your operator
+- [apn] = your mobile network APN
+- [apnu] = APN user name if required by your operator
+- [apnp] = APN password if required by your operator
 
 4. Set the GPRS server to point to Plaspy (hostname and IP are both included)
 ```

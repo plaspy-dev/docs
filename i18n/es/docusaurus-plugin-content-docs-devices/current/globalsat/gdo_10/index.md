@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/gdo_10
 id: gdo_10
+sidebar_key: globalsagdo_10_index_gdo_10
 sidebar_label: GDO-10
 title: GlobalSat - GDO-10
 sidebar_class_name: menu_item_tracker

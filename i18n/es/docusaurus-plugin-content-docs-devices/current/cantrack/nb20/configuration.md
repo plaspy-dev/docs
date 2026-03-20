@@ -77,7 +77,7 @@ Una vez configurado, el NB20 envía sus uplinks de ubicación y estado al endpoi
 
 La configuración del modelo NB20 puede realizarse usando las herramientas de CanTrack, su app móvil, o comandos SMS y en la nube según el firmware y las herramientas del proveedor. Los comandos exactos y los nombres de menú pueden variar según el firmware y la variante regional del equipo. Consulte la documentación de CanTrack para la sintaxis de comandos específica del fabricante y ejemplos.
 
-Si utiliza un método de configuración por línea de comandos o SMS proporcionado por CanTrack, siga el orden recomendado por el fabricante, suministrando el dominio del servidor Plaspy d.plaspy.com o la IP 54.85.159.138 y el puerto 8888. Si el conjunto de comandos del dispositivo requiere marcadores de posición como {{apn}}, {{apnu}} o {{apnp}}, manténgalos como marcadores y reemplácelos por los valores APN de su operador móvil según corresponda.
+Si utiliza un método de configuración por línea de comandos o SMS proporcionado por CanTrack, siga el orden recomendado por el fabricante, suministrando el dominio del servidor Plaspy d.plaspy.com o la IP 54.85.159.138 y el puerto 8888. Si el conjunto de comandos del dispositivo requiere marcadores de posición como [apn], [apnu] o [apnp], manténgalos como marcadores y reemplácelos por los valores APN de su operador móvil según corresponda.
 
 ## Notas de configuración
 

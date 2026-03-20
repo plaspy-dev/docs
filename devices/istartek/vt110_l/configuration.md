@@ -72,7 +72,7 @@ The VT110-L is configured to report position, status, and event data to the shar
 
 ## Example Configuration Commands
 
-The VT110-L supports SMS based configuration. The following public commands are provided in the device documentation. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN values where applicable.
+The VT110-L supports SMS based configuration. The following public commands are provided in the device documentation. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your operator APN values where applicable.
 
 1. Optional initial factory reset (use only if a reset is required for initial setup):
 ```
@@ -84,13 +84,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-3. Set the operator APN. Replace {{apn}} with your operator APN. If your operator requires a username or password, the optional placeholders {{apnu}} and {{apnp}} can be included.
+3. Set the operator APN. Replace [apn] with your operator APN. If your operator requires a username or password, the optional placeholders [apnu] and [apnp] can be included.
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 Or, if username and password are required:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Set the GPRS server to the Plaspy domain and port using SERVER with domain (example uses server index 1):
@@ -113,7 +113,7 @@ TIMER,60#
 PARAM#
 ```
 
-Notes on placeholders: {{apn}} is the carrier access point name for data. {{apnu}} and {{apnp}} are optional APN username and APN password fields when required by the mobile operator.
+Notes on placeholders: [apn] is the carrier access point name for data. [apnu] and [apnp] are optional APN username and APN password fields when required by the mobile operator.
 
 ## Configuration Notes
 

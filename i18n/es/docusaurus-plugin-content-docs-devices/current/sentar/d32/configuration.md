@@ -93,11 +93,11 @@ pw,123456,imsi#
 4. Configurar el APN del operador donde xxx es MCC y yy es MNC
 Nota: estos marcadores de posición deben reemplazarse por los valores del operador de la SIM. Mantenga los marcadores de APN tal como aparecen.
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-- {{apn}} = nombre APN del operador
-- {{apnu}} = usuario APN si se requiere
-- {{apnp}} = contraseña APN si se requiere
+- [apn] = nombre APN del operador
+- [apnu] = usuario APN si se requiere
+- [apnp] = contraseña APN si se requiere
 - xxxyy = dígitos combinados de MCC y MNC cuando el dispositivo requiere este formato
 
 5. Establecer el servidor GPRS para apuntar a Plaspy (ejemplo con IP directa)
@@ -119,7 +119,7 @@ pw,123456,upload,300#
 pw,123456,ts#
 ```
 
-Si su dispositivo utiliza una sintaxis SMS diferente o cuenta con una herramienta de configuración de Sentar, siga ese método y aplique los mismos valores de dominio o IP y puerto mostrados aquí. Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} con los datos de su operador.
+Si su dispositivo utiliza una sintaxis SMS diferente o cuenta con una herramienta de configuración de Sentar, siga ese método y aplique los mismos valores de dominio o IP y puerto mostrados aquí. Reemplace los marcadores como [apn], [apnu] y [apnp] con los datos de su operador.
 
 ## Notas de configuración
 

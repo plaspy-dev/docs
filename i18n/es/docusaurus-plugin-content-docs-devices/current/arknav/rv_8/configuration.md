@@ -77,7 +77,7 @@ El RV-8 obtiene fijaciones GNSS y telemetría del vehículo y transmite esos paq
 
 El RV-8 puede configurarse utilizando las herramientas de ArkNav, una interfaz de instalador o métodos SMS/comando del proveedor según el firmware y el embalaje. Los comandos y la sintaxis exacta varían según la herramienta del fabricante y la versión de firmware. Dado que los conjuntos de comandos específicos del modelo los proporciona ArkNav, consulte la guía de configuración oficial de ArkNav o el utilitario incluido con el dispositivo para el formato preciso de los comandos para ingresar servidor, puerto y valores APN.
 
-Si usa comandos SMS o CLI suministrados por ArkNav, mantenga marcadores como {{apn}}, {{apnu}} o {{apnp}} intactos al pegar valores. Esos marcadores representan el nombre del APN, el usuario del APN y la contraseña del APN respectivamente y deben reemplazarse por los datos de su operador móvil solo cuando sea necesario.
+Si usa comandos SMS o CLI suministrados por ArkNav, mantenga marcadores como [apn], [apnu] o [apnp] intactos al pegar valores. Esos marcadores representan el nombre del APN, el usuario del APN y la contraseña del APN respectivamente y deben reemplazarse por los datos de su operador móvil solo cuando sea necesario.
 
 ## Notas sobre la configuración
 

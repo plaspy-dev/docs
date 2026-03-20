@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/s_2437
 id: s_2437
+sidebar_key: navtelekos_2437_index_s_2437
 sidebar_label: СМАРТ S-2437
 title: Navtelekom - СМАРТ S-2437
 sidebar_class_name: menu_item_tracker

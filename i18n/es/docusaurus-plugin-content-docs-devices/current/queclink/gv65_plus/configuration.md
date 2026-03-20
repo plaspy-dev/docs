@@ -22,7 +22,7 @@ keywords:
 
 Esta página documenta el contexto público de configuración para usar el rastreador QuecLink GV65 Plus con Plaspy. Resume los ajustes de servidor de Plaspy que debe aplicar, los requisitos comunes previos a la instalación y ejemplos de comandos SMS frecuentemente usados con este modelo. Use esta guía para alinear el dispositivo con Plaspy y que el rastreador informe ubicación y eventos a su cuenta.
 
-Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador; los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El GV65 Plus soporta modos de reporte por SMS y por datos móviles; los comandos de ejemplo a continuación muestran un flujo común basado en SMS e incluyen marcadores como {{apn}} que usted debe reemplazar por los valores de su operador.
+Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador; los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El GV65 Plus soporta modos de reporte por SMS y por datos móviles; los comandos de ejemplo a continuación muestran un flujo común basado en SMS e incluyen marcadores como [apn] que usted debe reemplazar por los valores de su operador.
 
 ## Resumen de configuración
 
@@ -67,13 +67,13 @@ Cuando se configura para Plaspy, el GV65 Plus envía datos de posición y evento
 2. Ingrese el dominio de servidor de Plaspy d.plaspy.com o la IP alternativa 54.85.159.138 en el campo servidor/servidor GPRS.
 3. Establezca el puerto del servidor en 8888 como puerto de destino para los reportes del rastreador.
 4. Elija UDP o TCP como transporte si el dispositivo requiere selección explícita.
-5. Configure el APN del dispositivo y cualquier valor de autenticación para que GPRS conecte (reemplace marcadores como {{apn}} con los valores de su operador).
+5. Configure el APN del dispositivo y cualquier valor de autenticación para que GPRS conecte (reemplace marcadores como [apn] con los valores de su operador).
 6. Aplique o guarde la configuración y reinicie o realice un ciclo de energía del dispositivo si el firmware lo requiere.
 7. Valide que el GV65 Plus reporte a Plaspy verificando la actividad del dispositivo y las actualizaciones de posición en la plataforma.
 
 ## Comandos de configuración de ejemplo
 
-El GV65 Plus puede configurarse mediante comandos SMS. Los siguientes ejemplos se presentan en el orden de uso común. La contraseña de dispositivo mostrada como ejemplo es queclink, que es el valor por defecto en este caso. Reemplace {{apn}}, {{apnu}} y {{apnp}} por el APN, el usuario APN y la contraseña APN de su operador cuando sea necesario.
+El GV65 Plus puede configurarse mediante comandos SMS. Los siguientes ejemplos se presentan en el orden de uso común. La contraseña de dispositivo mostrada como ejemplo es queclink, que es el valor por defecto en este caso. Reemplace [apn], [apnu] y [apnp] por el APN, el usuario APN y la contraseña APN de su operador cuando sea necesario.
 
 1. Paso inicial opcional Restaurar ajustes de fábrica (marcar como opcional o configuración inicial)
 ```
@@ -87,9 +87,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Establecer el APN del operador (reemplace los marcadores)
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- Explicación: {{apn}} es el APN del operador. {{apnu}} y {{apnp}} son el usuario y la contraseña del APN, opcionales si su operador los requiere.
+- Explicación: [apn] es el APN del operador. [apnu] y [apnp] son el usuario y la contraseña del APN, opcionales si su operador los requiere.
 
 4. Configurar el servidor GPRS a Plaspy por dominio e IP con puerto 8888
 ```

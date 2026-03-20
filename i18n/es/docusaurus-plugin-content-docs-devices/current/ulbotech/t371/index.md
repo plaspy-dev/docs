@@ -1,6 +1,7 @@
 ---
 slug: /ulbotech/t371
 id: t371
+sidebar_key: ulbotect371_index_t371
 sidebar_label: T371
 title: Ulbotech - T371
 sidebar_class_name: menu_item_tracker

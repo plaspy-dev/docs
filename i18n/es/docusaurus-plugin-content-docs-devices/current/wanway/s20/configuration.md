@@ -77,9 +77,9 @@ El S20 se configura para enviar actualizaciones de ubicación y estado al endpoi
 
 El S20 soporta configuración vía SMS según la guía pública provista por WanWay. Envíe estos comandos SMS desde el número de teléfono autorizado para configurar el dispositivo. Conserve los marcadores de posición al reemplazarlos por valores específicos del operador.
 
-- Configure el APN del operador (reemplazar {{apn}} y, si corresponde, incluir {{apnu}} y {{apnp}} para usuario y contraseña del APN):
+- Configure el APN del operador (reemplazar [apn] y, si corresponde, incluir [apnu] y [apnp] para usuario y contraseña del APN):
 ```text
-APN,{{apn}}{{apnu}},{{apnp}}#
+APN,[apn][apnu],[apnp]#
 ```
 Nota: Si el dispositivo soporta los campos opcionales de usuario y contraseña, use el formato mostrado en el manual del equipo. Mantenga los marcadores de posición exactamente según sea necesario.
 

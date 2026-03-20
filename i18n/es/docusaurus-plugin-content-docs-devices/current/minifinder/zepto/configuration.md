@@ -89,13 +89,13 @@ tz+00
 
 - Establecer el APN del operador
 ```
-S1,{{apn}}
+S1,[apn]
 ```
 o, si su APN requiere usuario y contraseña
 ```
-S1,{{apn}},{{apnu}},{{apnp}}
+S1,[apn],[apnu],[apnp]
 ```
-Explicación: {{apn}} es el nombre del punto de acceso de la red para su SIM. {{apnu}} y {{apnp}} son marcadores opcionales para el usuario y la contraseña del APN cuando el operador los exige.
+Explicación: [apn] es el nombre del punto de acceso de la red para su SIM. [apnu] y [apnp] son marcadores opcionales para el usuario y la contraseña del APN cuando el operador los exige.
 
 - Establecer el servidor GPRS/Plaspy a la IP pública y puerto de Plaspy
 ```
@@ -111,7 +111,7 @@ Notas sobre los comandos:
 - Las variantes de firmware y regionales pueden cambiar la sintaxis de los comandos o las funciones disponibles; confirme los comandos con la documentación de MiniFinder para la revisión exacta de su dispositivo.
 - Elija UDP o TCP según el firmware del dispositivo y las condiciones de la red; ambos transportes son aceptados por Plaspy en el puerto 8888 y Plaspy detecta automáticamente el protocolo.
 - La configuración por SMS es un método común del fabricante para Zepto, pero puede complementarse o reemplazarse por las herramientas de escritorio o móvil de MiniFinder según el firmware.
-- Si su operador de SIM requiere autenticación, incluya {{apnu}} y {{apnp}} en el comando S1 exactamente como lo especifica su operador.
+- Si su operador de SIM requiere autenticación, incluya [apnu] y [apnp] en el comando S1 exactamente como lo especifica su operador.
 - Verifique siempre la visibilidad del dispositivo en Plaspy después de aplicar la configuración para confirmar que el rastreador está informando como se espera.
 
 ## Por qué usar Plaspy con esta configuración

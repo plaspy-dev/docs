@@ -78,32 +78,32 @@ Al configurar el JT705C para usar Plaspy, el dispositivo envía su telemetría y
 El JT705C admite configuración vía SMS. Los comandos públicos para handset que se muestran a continuación se ofrecen en el orden indicado por ejemplos de configuración de Jointech. Reemplace los marcadores por los valores específicos de su dispositivo.
 
 - Reemplace {{trackerID}} por el ID del dispositivo (IMEI o identificador configurado).
-- Reemplace {{apn}} por el APN de su operador móvil.
-- Si su APN requiere autenticación, reemplace {{apnu}} y {{apnp}} por el usuario y la contraseña del APN. El comando de usuario y contraseña del APN es opcional cuando el operador no lo exige.
+- Reemplace [apn] por el APN de su operador móvil.
+- Si su APN requiere autenticación, reemplace [apnu] y [apnp] por el usuario y la contraseña del APN. El comando de usuario y contraseña del APN es opcional cuando el operador no lo exige.
 
 1) Establecer el servidor GPRS y el APN (envíe este SMS al dispositivo):
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 También puede usar la forma con dominio cuando el dispositivo soporte nombres de dominio (reemplace la IP por el dominio si la unidad resuelve dominios):
 
 ```
-({{trackerID}},2,S02,129,1,d.plaspy.com,8888,{{apn}})
+({{trackerID}},2,S02,129,1,d.plaspy.com,8888,[apn])
 ```
 
 2) Opcional: Establecer usuario y contraseña del APN (envíe solo si su APN requiere credenciales):
 
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notas sobre los marcadores:
 - {{trackerID}} — el ID del dispositivo o IMEI usado por los comandos Jointech.
-- {{apn}} — la cadena APN del operador requerida para GPRS/datos.
-- {{apnu}} — usuario del APN si el operador lo solicita.
-- {{apnp}} — contraseña del APN si el operador la solicita.
+- [apn] — la cadena APN del operador requerida para GPRS/datos.
+- [apnu] — usuario del APN si el operador lo solicita.
+- [apnp] — contraseña del APN si el operador la solicita.
 
 Si en su instalación utiliza una herramienta de configuración de Jointech en lugar de SMS, aplique los valores equivalentes de servidor, puerto y APN en esa herramienta siguiendo el mismo orden.
 

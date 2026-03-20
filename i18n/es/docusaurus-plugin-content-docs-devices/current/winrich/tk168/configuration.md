@@ -89,11 +89,11 @@ El TK168 puede configurarse enviando comandos SMS al equipo. Los comandos que si
 
 - Configurar el APN del operador
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 Notas sobre los marcadores de APN
-- {{apn}} es el nombre del APN del operador requerido para datos GPRS
-- {{apnu}} y {{apnp}} son el nombre de usuario y la contraseña del APN, opcionales y deben incluirse solo si su operador los requiere
+- [apn] es el nombre del APN del operador requerido para datos GPRS
+- [apnu] y [apnp] son el nombre de usuario y la contraseña del APN, opcionales y deben incluirse solo si su operador los requiere
 
 - Configurar el servidor GPRS con la IP y el puerto de Plaspy
 ```text
@@ -126,7 +126,7 @@ Envíe cada SMS como un único mensaje al número del dispositivo. Mantenga el o
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis exacta de los SMS o los comandos soportados por el TK168. Verifique siempre la sintaxis de los comandos con la documentación del equipo.
 - El TK168 soporta métodos de configuración por SMS y GPRS como se muestra en los comandos anteriores. Use SMS cuando el acceso local al equipo sea el método preferido.
 - Elija UDP o TCP en el equipo solo si este solicita explícitamente un transporte. Plaspy detectará el protocolo automáticamente en su lado.
-- Las credenciales APN son específicas del operador. Use {{apn}} e incluya {{apnu}} o {{apnp}} solo si el proveedor móvil lo requiere.
+- Las credenciales APN son específicas del operador. Use [apn] e incluya [apnu] o [apnp] solo si el proveedor móvil lo requiere.
 - Plaspy utiliza el mismo puerto 8888 para todos los dispositivos, por lo que los únicos valores necesarios en el lado del servidor son el dominio o la IP y el puerto mostrados arriba.
 
 ## Por qué usar Plaspy con esta configuración

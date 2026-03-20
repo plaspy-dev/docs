@@ -79,21 +79,21 @@ El LMU-700 puede configurarse mediante comandos SMS. El ID del dispositivo usado
 
 - Establecer el APN del operador
   ```
-  !RP,2306,0,{{apn}}
+  !RP,2306,0,[apn]
   ```
-  Reemplace {{apn}} por la cadena APN de su operador móvil.
+  Reemplace [apn] por la cadena APN de su operador móvil.
 
 - Establecer el nombre de usuario del APN (opcional)
   ```
-  !RP,2314,0,{{apnu}}
+  !RP,2314,0,[apnu]
   ```
-  Reemplace {{apnu}} por el usuario del APN si su operador lo requiere.
+  Reemplace [apnu] por el usuario del APN si su operador lo requiere.
 
 - Establecer la contraseña del APN (opcional)
   ```
-  !RP,2315,0,{{apnp}}
+  !RP,2315,0,[apnp]
   ```
-  Reemplace {{apnp}} por la contraseña del APN si su operador lo requiere.
+  Reemplace [apnp] por la contraseña del APN si su operador lo requiere.
 
 - Configurar el servidor GPRS a la IP del servidor Plaspy
   ```
@@ -117,7 +117,7 @@ El LMU-700 puede configurarse mediante comandos SMS. El ID del dispositivo usado
   ```
   Use este comando de verificación para listar los valores de configuración actuales que el dispositivo devuelve.
 
-Notas sobre los marcadores de posición: {{apn}} es obligatorio para la conectividad de datos. {{apnu}} y {{apnp}} son opcionales y solo necesarios si su operador exige usuario o contraseña para el APN.
+Notas sobre los marcadores de posición: [apn] es obligatorio para la conectividad de datos. [apnu] y [apnp] son opcionales y solo necesarios si su operador exige usuario o contraseña para el APN.
 
 ## Notas de configuración
 

@@ -78,13 +78,13 @@ The VT05C can be configured via SMS commands sent from a mobile phone. Preserve 
 
 - Configure your carrier APN
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 or, if username and password are required:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explanation: Replace {{apn}} with the carrier APN. Use {{apnu}} and {{apnp}} if your SIM requires an APN username and password.
+Explanation: Replace [apn] with the carrier APN. Use [apnu] and [apnp] if your SIM requires an APN username and password.
 
 - Setup the GPRS server to point to Plaspy (domain and port)
 ```text

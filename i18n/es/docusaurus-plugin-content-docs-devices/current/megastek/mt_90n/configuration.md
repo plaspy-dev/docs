@@ -78,23 +78,23 @@ El MT-90N puede configurarse para enviar ubicación y telemetría al endpoint y 
 El MT-90N suele soportar configuración por SMS. Los ejemplos públicos de comandos que se presentan a continuación reflejan los formatos SMS del fabricante y la contraseña predeterminada del dispositivo usada en el ejemplo. La contraseña por defecto mostrada es 000000 y debe reemplazarse si su dispositivo tiene otra contraseña configurada.
 
 - Notas sobre los marcadores usados en los comandos
-  - Reemplace <15-digit IMEI> por el IMEI del rastreador o el identificador de 15 dígitos requerido por el comando.
-  - {{apn}} es la cadena APN del operador móvil.
-  - {{apnu}} es el usuario del APN si lo requiere el operador.
-  - {{apnp}} es la contraseña del APN si lo requiere el operador.
+  - Reemplace \<15-digit IMEI> por el IMEI del rastreador o el identificador de 15 dígitos requerido por el comando.
+  - [apn] es la cadena APN del operador móvil.
+  - [apnu] es el usuario del APN si lo requiere el operador.
+  - [apnp] es la contraseña del APN si lo requiere el operador.
 
-1. Establecer el ID del dispositivo (reemplazar <15-digit IMEI> por el IMEI)
+1. Establecer el ID del dispositivo (reemplazar \<15-digit IMEI> por el IMEI)
 ```text
 M000000,22,<15-digit IMEI>
 ```
 
 2. Establecer el APN del operador. Use el usuario y la contraseña del APN si son necesarios
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 O con usuario y contraseña del APN
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Establecer el intervalo de actualización a 60 segundos

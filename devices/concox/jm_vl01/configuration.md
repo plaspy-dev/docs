@@ -88,13 +88,13 @@ GMT,E,0#
 ```
 
 - Set the operator APN
-Note that {{apn}} is a placeholder for your mobile operator APN. If your operator requires an APN username or password use the optional placeholders {{apnu}} and {{apnp}} as shown.
+Note that [apn] is a placeholder for your mobile operator APN. If your operator requires an APN username or password use the optional placeholders [apnu] and [apnp] as shown.
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 or with username and password placeholders
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to use the Plaspy domain on port 8888
@@ -126,7 +126,7 @@ GPRSON,1#
 GPRSSET#
 ```
 
-Preserve placeholders when composing APN commands. Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator values before sending.
+Preserve placeholders when composing APN commands. Replace [apn], [apnu], and [apnp] with your operator values before sending.
 
 ## Configuration Notes
 

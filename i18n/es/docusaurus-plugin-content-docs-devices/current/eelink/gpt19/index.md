@@ -1,6 +1,7 @@
 ---
 slug: /eelink/gpt19
 id: gpt19
+sidebar_key: eelingpt19_index_gpt19
 sidebar_label: GPT19
 title: EElink - GPT19
 sidebar_class_name: menu_item_tracker

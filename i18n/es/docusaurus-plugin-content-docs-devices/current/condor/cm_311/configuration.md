@@ -79,16 +79,16 @@ Si utiliza el flujo por SMS del CM-311 que se muestra a continuación, siga el o
 
 El CM-311 admite configuración mediante SMS. Los siguientes comandos de ejemplo se toman del patrón público de configuración del CM-311. La contraseña predeterminada del dispositivo que se muestra en estos ejemplos es 0000. Envíe cada línea como un SMS al número del dispositivo (la SIM del equipo). Preserve los marcadores de posición y reemplácelos con sus valores reales.
 
-1. Configure el APN del operador (reemplazar {{apn}} por el APN de su operador; incluya {{apnu}} y {{apnp}} solo si su operador exige usuario y contraseña del APN)
+1. Configure el APN del operador (reemplazar [apn] por el APN de su operador; incluya [apnu] y [apnp] solo si su operador exige usuario y contraseña del APN)
 ```text
-APN,0000,{{apn}}
+APN,0000,[apn]
 ```
 O con usuario y contraseña
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn],[apnu],[apnp]
 ```
 
-2. Defina un identificador alias de 5 dígitos para el equipo. Use los últimos 5 dígitos del IMEI para crear este alias. Reemplace <last5imei> con ese valor e incluya la almohadilla final
+2. Defina un identificador alias de 5 dígitos para el equipo. Use los últimos 5 dígitos del IMEI para crear este alias. Reemplace \<last5imei> con ese valor e incluya la almohadilla final
 ```text
 ALIAS,0000,<last5imei>#
 ```
@@ -128,7 +128,7 @@ CONEXION,0000#
 
 Importante:
 - La contraseña numérica 0000 en los ejemplos es la contraseña predeterminada del dispositivo mostrada en el contenido público de configuración. Si la contraseña del equipo ha sido cambiada, use la contraseña actual.
-- Reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador. Use <last5imei> tal y como se describió al establecer el alias.
+- Reemplace marcadores como [apn], [apnu] y [apnp] con los valores de su operador. Use \<last5imei> tal y como se describió al establecer el alias.
 
 ## Notas de configuración
 

@@ -76,10 +76,10 @@ El fabricante del AVL-05 provee comandos SMS para configurar el rastreador. Env�
 
 1. Establecer el APN del operador
 ```text
-*000000,011,{{apn}}{{,{{apnu}},{{apnp}}}}#
+*000000,011,[apn]{{,[apnu],[apnp]}}#
 ```
-- Reemplace {{apn}} por el APN de su operador móvil.
-- Opcionalmente incluya {{apnu}} y {{apnp}} si su SIM requiere un nombre de usuario y contraseña para el APN. El comando puede enviarse solo con APN o con APN más usuario y contraseña.
+- Reemplace [apn] por el APN de su operador móvil.
+- Opcionalmente incluya [apnu] y [apnp] si su SIM requiere un nombre de usuario y contraseña para el APN. El comando puede enviarse solo con APN o con APN más usuario y contraseña.
 
 2. Ajustar el intervalo de actualización a 60 segundos
 ```text

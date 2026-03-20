@@ -78,14 +78,14 @@ When configured, the TAT141 sends periodic location and telemetry reports to the
 To configure the basic parameters on your Teltonika device, use the following public command pattern. This command includes APN placeholders you must replace with your operator details:
 
 - The placeholders:
-  - {{apn}} is the APN string provided by your mobile operator.
-  - {{apnu}} is the APN username if required by your operator.
-  - {{apnp}} is the APN password if required by your operator.
+  - [apn] is the APN string provided by your mobile operator.
+  - [apnu] is the APN username if required by your operator.
+  - [apnp] is the APN password if required by your operator.
 
 Send or apply this command using the manufacturer supported method (SMS or Teltonika configuration tool):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command:

@@ -74,7 +74,7 @@ When configured, the JM-VG02 is instructed to report location and event data to 
 
 ## Example Configuration Commands
 
-The JM-VG02 can be configured by sending SMS messages to the device. The following commands are public, shown in the same logical order as typical setup flows. Labeling and parameters are preserved; placeholders such as {{apn}}, {{apnu}}, and {{apnp}} are used where you must provide the operator specific values.
+The JM-VG02 can be configured by sending SMS messages to the device. The following commands are public, shown in the same logical order as typical setup flows. Labeling and parameters are preserved; placeholders such as [apn], [apnu], and [apnp] are used where you must provide the operator specific values.
 
 - Optional initial factory reset (use only when you want to restore defaults)
 ```text
@@ -87,13 +87,13 @@ GMT,E,0#
 ```
 
 - Set the operator APN
-Use {{apn}} for the APN name. If your operator requires an APN username and password include {{apnu}} and {{apnp}} after the APN.
+Use [apn] for the APN name. If your operator requires an APN username and password include [apnu] and [apnp] after the APN.
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 Or with username and password
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server using domain (preferred readable form)
@@ -126,8 +126,8 @@ GPRSSET#
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile data APN name provided by your SIM operator.
-- {{apnu}} and {{apnp}} represent optional APN username and APN password if required by the operator.
+- [apn] is the mobile data APN name provided by your SIM operator.
+- [apnu] and [apnp] represent optional APN username and APN password if required by the operator.
 - Use the domain form SERVER,1,d.plaspy.com,8888,0# to reference the Plaspy domain, or SERVER,0,54.85.159.138,8888,0# to use the numeric IP.
 
 ## Configuration Notes

@@ -82,15 +82,15 @@ The GT-30i can be configured by sending SMS commands. The sample commands below 
 
 2. Set the GPRS server and APN. This example uses the Plaspy server IP. You may replace the IP with d.plaspy.com if the device accepts domain names.
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 If your SIM requires APN username and password include them as additional comma separated fields:
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-- {{apn}} is the mobile network APN
-- {{apnu}} is the APN username when required by the operator
-- {{apnp}} is the APN password when required by the operator
+- [apn] is the mobile network APN
+- [apnu] is the APN username when required by the operator
+- [apnp] is the APN password when required by the operator
 
 3. Set the time zone to UTC 0
 ```

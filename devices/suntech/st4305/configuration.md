@@ -22,7 +22,7 @@ keywords:
 
 This page covers the public configuration context for using the Suntech ST4305 series tracker with Plaspy. It collects the practical server settings, SMS command templates, and workflow guidance that are publicly available for preparing an ST4305 device to report into the Plaspy platform. Use this page as a hands‑on reference when integrating ST4305 devices into your Plaspy fleet.
 
-Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol on connection, but exact manufacturer side setup steps can vary by firmware version, hardware revision, installation type, and vendor tools. The ST4305 supports SMS configuration in its public guidance; this page includes those SMS command templates and explains how to derive the required device ID and placeholders such as {{apn}}, {{apnu}}, and {{apnp}}.
+Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol on connection, but exact manufacturer side setup steps can vary by firmware version, hardware revision, installation type, and vendor tools. The ST4305 supports SMS configuration in its public guidance; this page includes those SMS command templates and explains how to derive the required device ID and placeholders such as [apn], [apnu], and [apnp].
 
 ## Configuration Overview
 
@@ -48,7 +48,7 @@ These exact values are the public Plaspy settings to use when configuring an ST4
 
 - A powered and accessible ST4305 unit with its IMEI available (IMEI is required to derive the tracker device ID).  
 - A working SIM card with appropriate data and SMS capabilities for the target mobile network and device variant.  
-- APN and optional APN username and password information from the SIM operator to populate {{apn}}, {{apnu}}, and {{apnp}} placeholders.  
+- APN and optional APN username and password information from the SIM operator to populate [apn], [apnu], and [apnp] placeholders.  
 - Access to the manufacturer's recommended configuration method (SMS commands, service tool, or configuration utility) so settings can be applied.  
 - Basic knowledge of whether the device should use UDP or TCP for the connection if the device requires selecting transport.  
 - Access to Plaspy account or onboarding steps to confirm the device appears in the platform once reporting begins.
@@ -76,15 +76,15 @@ The ST4305 is configured to send its location and telemetry to the Plaspy platfo
 
 ## Example Configuration Commands
 
-The ST4305 public guidance provides SMS command templates for network and reporting setup. The manufacturer uses a device ID derived from the IMEI (last 6 digits prior to the final IMEI digit). The placeholders {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your SIM operator APN, APN username, and APN password when required. Replace {{device_id}} with the six digit ID derived from the IMEI as described above.
+The ST4305 public guidance provides SMS command templates for network and reporting setup. The manufacturer uses a device ID derived from the IMEI (last 6 digits prior to the final IMEI digit). The placeholders [apn], [apnu], and [apnp] should be replaced with your SIM operator APN, APN username, and APN password when required. Replace {{device_id}} with the six digit ID derived from the IMEI as described above.
 
 1) Set the operator APN and GPRS server (includes Plaspy server IP and port)
 ```text
-SA200NTW;{{device_id}};02;0;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Notes:  
   - {{device_id}} is the device ID derived from IMEI (last 6 digits excluding final IMEI digit).  
-  - The APN fields {{apn}}, {{apnu}}, and {{apnp}} must be filled with your operator values.  
+  - The APN fields [apn], [apnu], and [apnp] must be filled with your operator values.  
   - The command includes the Plaspy server IP 54.85.159.138 and port 8888. You may substitute d.plaspy.com in place of the IP if the device accepts domain names.
 
 2) Set the reporting interval to 60 seconds
@@ -106,7 +106,7 @@ Preserve the order above when applying these commands if the device expects netw
 - The exact SMS syntax and parameter order may vary by firmware version and regional device variant; always verify the command format with the manufacturer's documentation for your device revision.  
 - The ST4305 public flow uses SMS commands in these examples, so ensure the SIM can receive SMS and the device has GSM connectivity during configuration.  
 - Choose UDP or TCP according to installation and network conditions; some installers prefer UDP for lower overhead while others use TCP for guaranteed delivery. Plaspy supports both and auto detects the protocol.  
-- The APN placeholders {{apn}}, {{apnu}}, and {{apnp}} must be filled with operator values. If your SIM does not require username or password, leave {{apnu}} and {{apnp}} empty as allowed by the device syntax.  
+- The APN placeholders [apn], [apnu], and [apnp] must be filled with operator values. If your SIM does not require username or password, leave [apnu] and [apnp] empty as allowed by the device syntax.  
 - The device ID is derived from the IMEI using the manufacturer rule shown above; incorrect device IDs will prevent Plaspy from associating telemetry with the proper asset.
 
 ## Why Use Plaspy with This Configuration

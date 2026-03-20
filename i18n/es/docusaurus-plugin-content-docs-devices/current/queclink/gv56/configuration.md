@@ -93,12 +93,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Establecer el APN del operador
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 - Reemplace los marcadores:
-  - {{apn}} = nombre del APN del operador de la SIM
-  - {{apnu}} = nombre de usuario del APN (si el operador lo requiere)
-  - {{apnp}} = contraseña del APN (si es necesaria)
+  - [apn] = nombre del APN del operador de la SIM
+  - [apnu] = nombre de usuario del APN (si el operador lo requiere)
+  - [apnp] = contraseña del APN (si es necesaria)
 - Si el operador no solicita usuario o contraseña, deje esos marcadores vacíos según el formato del comando del dispositivo.
 
 4. Configurar el servidor GPRS y los puertos para Plaspy
@@ -127,7 +127,7 @@ Nota: Mantenga la contraseña del dispositivo correcta para los comandos SMS. El
 - El GV56 soporta tanto configuración por SMS como herramientas del proveedor; elija el método que coincida con sus prácticas operativas y permisos del instalador.
 - Al elegir TCP frente a UDP, considere los requisitos de red y servidor; Plaspy acepta ambos transportes en el puerto 8888 y detectará el protocolo automáticamente.
 - Todos los dispositivos Plaspy usan el mismo puerto 8888, por lo que una configuración de puerto consistente simplifica la provisión de flotas.
-- Conserve los marcadores como {{apn}}, {{apnu}} y {{apnp}} al preparar comandos SMS y reemplace con las credenciales del operador según sea necesario.
+- Conserve los marcadores como [apn], [apnu] y [apnp] al preparar comandos SMS y reemplace con las credenciales del operador según sea necesario.
 
 ## Por qué usar Plaspy con esta configuración
 

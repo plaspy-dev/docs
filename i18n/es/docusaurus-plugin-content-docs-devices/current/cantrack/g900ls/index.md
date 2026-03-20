@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/g900ls
 id: g900ls
+sidebar_key: cantracg900ls_index_g900ls
 sidebar_label: G900LS
 title: CanTrack - G900LS
 sidebar_class_name: menu_item_tracker

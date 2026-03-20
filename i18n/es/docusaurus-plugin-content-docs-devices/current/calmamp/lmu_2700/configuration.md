@@ -74,26 +74,26 @@ El LMU-2700 envía mensajes de posición y eventos desde el vehículo a Plaspy c
 
 ## Ejemplos de comandos de configuración
 
-El LMU-2700 soporta comandos de configuración basados en SMS. El ID en estos comandos es el MID de 10 dígitos que devuelve el comando inicial !R0. Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} al sustituir los valores de su operador.
+El LMU-2700 soporta comandos de configuración basados en SMS. El ID en estos comandos es el MID de 10 dígitos que devuelve el comando inicial !R0. Conserve los marcadores [apn], [apnu] y [apnp] al sustituir los valores de su operador.
 
 To request the device ID (MID):
 ```
 !R0
 ```
 
-Set the operator APN (replace {{apn}} with your carrier APN):
+Set the operator APN (replace [apn] with your carrier APN):
 ```
-!RP,2306,0,{{apn}}
-```
-
-Set the APN username (replace {{apnu}} with the username if required):
-```
-!RP,2314,0,{{apnu}}
+!RP,2306,0,[apn]
 ```
 
-Set the APN password (replace {{apnp}} with the password if required):
+Set the APN username (replace [apnu] with the username if required):
 ```
-!RP,2315,0,{{apnp}}
+!RP,2314,0,[apnu]
+```
+
+Set the APN password (replace [apnp] with the password if required):
+```
+!RP,2315,0,[apnp]
 ```
 
 Set the GPRS server IP to Plaspy:
@@ -119,7 +119,7 @@ Check current settings on the device:
 Notas sobre los comandos anteriores:
 - Los comandos deben enviarse por SMS al LMU-2700 según la lista pública de comandos.
 - El dispositivo responde a los comandos y el MID devuelto por !R0 se usa como ID objetivo en algunos flujos de trabajo.
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} intactos al reemplazarlos con los valores de su operador.
+- Mantenga los marcadores [apn], [apnu] y [apnp] intactos al reemplazarlos con los valores de su operador.
 
 ## Notas sobre la configuración
 

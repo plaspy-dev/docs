@@ -77,9 +77,9 @@ The S20 is configured to send location and status updates to the Plaspy server e
 
 The S20 supports SMS based configuration in the public guidance provided by WanWay. Send these SMS commands from the phone number allowed to configure the device. Preserve the placeholders when replacing with carrier-specific values.
 
-- Configure the carrier APN (replace {{apn}}, and if required include {{apnu}} and {{apnp}} for APN username and password):
+- Configure the carrier APN (replace [apn], and if required include [apnu] and [apnp] for APN username and password):
 ```text
-APN,{{apn}}{{apnu}},{{apnp}}#
+APN,[apn][apnu],[apnp]#
 ```
 Note: If the device supports the optional username and password fields, use the format shown by your device manual. Keep the placeholders exactly as needed.
 

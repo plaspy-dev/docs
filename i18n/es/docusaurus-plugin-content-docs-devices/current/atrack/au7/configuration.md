@@ -74,7 +74,7 @@ El AU7 se configura para enviar telemetría, eventos y muestras periódicas de u
 
 ## Comandos de configuración de ejemplo
 
-El AU7 soporta comandos de configuración estilo AT. Los siguientes ejemplos públicos muestran una secuencia práctica para configurar reglas de reporte, intervalo, formato binario y apuntar el servidor GPRS a Plaspy. Reemplace los valores de marcador de posición como {{apn}}, {{apnu}} y {{apnp}} por los provistos por su operador móvil.
+El AU7 soporta comandos de configuración estilo AT. Los siguientes ejemplos públicos muestran una secuencia práctica para configurar reglas de reporte, intervalo, formato binario y apuntar el servidor GPRS a Plaspy. Reemplace los valores de marcador de posición como [apn], [apnu] y [apnp] por los provistos por su operador móvil.
 
 1. Configurar evento ACC y acciones de reporte
 ```
@@ -96,11 +96,11 @@ AT$FORM=1,@P,0,""
 
 4. Configurar servidor GPRS apuntando a Plaspy
 ```
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-- {{apn}} es el nombre de punto de acceso de datos móviles
-- {{apnu}} es el nombre de usuario del APN si lo requiere el operador
-- {{apnp}} es la contraseña del APN si lo requiere el operador
+- [apn] es el nombre de punto de acceso de datos móviles
+- [apnu] es el nombre de usuario del APN si lo requiere el operador
+- [apnp] es la contraseña del APN si lo requiere el operador
 
 5. Comprobar estado y configuración del dispositivo
 ```
@@ -113,7 +113,7 @@ Estos comandos son ejemplos públicos que muestran cómo apuntar un AU7 a Plaspy
 
 - Las diferencias de firmware pueden cambiar la sintaxis de los comandos y los parámetros soportados; siempre confirme los comandos con las notas de la versión del firmware del AU7.
 - Elija TCP o UDP según las necesidades de la instalación y el soporte del firmware; TCP puede ofrecer mayor confiabilidad de sesión mientras que UDP suele utilizarse para mensajes más livianos.
-- Tenga a la mano los marcadores de APN {{apn}}, {{apnu}} y {{apnp}} provistos por el operador; si están incorrectos no habrá conectividad GPRS.
+- Tenga a la mano los marcadores de APN [apn], [apnu] y [apnp] provistos por el operador; si están incorrectos no habrá conectividad GPRS.
 - Algunas instalaciones utilizan SMS o herramientas del proveedor para la configuración, según prácticas del sitio y capacidades del firmware del dispositivo.
 - Plaspy usa el mismo puerto 8888 para todos los dispositivos que soporta y detecta automáticamente el protocolo del rastreador al recibir los mensajes.
 

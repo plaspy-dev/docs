@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/hcv5_lite
 id: hcv5_lite
+sidebar_key: ruptelhcv5_lite_index_hcv5_lite
 sidebar_label: HCV5 Lite
 title: Ruptela - HCV5 Lite
 sidebar_class_name: menu_item_tracker

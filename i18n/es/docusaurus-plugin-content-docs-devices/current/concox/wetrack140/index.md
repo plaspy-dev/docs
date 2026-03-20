@@ -1,6 +1,7 @@
 ---
 slug: /concox/wetrack140
 id: wetrack140
+sidebar_key: concowetrack140_index_wetrack140
 sidebar_label: WeTrack140
 title: Concox - WeTrack140
 sidebar_class_name: menu_item_tracker

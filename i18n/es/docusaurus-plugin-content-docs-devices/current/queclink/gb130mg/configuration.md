@@ -72,7 +72,7 @@ El GB130MG envía posición y telemetría de eventos a Plaspy dirigiendo su sali
 
 ## Ejemplos de comandos de configuración
 
-Los siguientes comandos SMS son extraídos del contenido público de configuración de QuecLink para el GB130MG. Se muestran en el orden proporcionado y emplean la contraseña de ejemplo queclink, indicada como valor por defecto en las instrucciones públicas. Si su contraseña difiere, reemplace queclink por la contraseña real. Los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} deben sustituirse por los valores del APN de su operador.
+Los siguientes comandos SMS son extraídos del contenido público de configuración de QuecLink para el GB130MG. Se muestran en el orden proporcionado y emplean la contraseña de ejemplo queclink, indicada como valor por defecto en las instrucciones públicas. Si su contraseña difiere, reemplace queclink por la contraseña real. Los marcadores de posición como [apn], [apnu] y [apnp] deben sustituirse por los valores del APN de su operador.
 
 1. Paso inicial opcional Restaurar ajustes de fábrica (usar solo cuando corresponda)
 ```
@@ -86,11 +86,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Establecer el APN del operador
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = nombre del APN del operador
-- {{apnu}} = usuario del APN (si se requiere)
-- {{apnp}} = contraseña del APN (si se requiere)
+- [apn] = nombre del APN del operador
+- [apnu] = usuario del APN (si se requiere)
+- [apnp] = contraseña del APN (si se requiere)
 
 4. Configurar el servidor GPRS a Plaspy usando dominio e IP con puerto 8888
 ```

@@ -80,14 +80,14 @@ El fabricante publica un formato de comando SMS para la configuración inicial. 
 
 - Notas sobre los marcadores
   - {{trackerID}} Reemplace con el IMEI del dispositivo o el identificador del rastreador según lo requiera el equipo.
-  - {{apn}} Reemplace con el nombre del APN de su operador móvil.
-  - {{apnu}} Reemplace con el usuario del APN si es necesario; de lo contrario, use un valor vacío.
-  - {{apnp}} Reemplace con la contraseña del APN si es necesario; de lo contrario, use un valor vacío.
+  - [apn] Reemplace con el nombre del APN de su operador móvil.
+  - [apnu] Reemplace con el usuario del APN si es necesario; de lo contrario, use un valor vacío.
+  - [apnp] Reemplace con la contraseña del APN si es necesario; de lo contrario, use un valor vacío.
 
 SMS ejemplo de comando (envíe al rastreador desde un número autorizado):
 
 ```
-0000,{{trackerID}},2,0,{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888,,.
+0000,{{trackerID}},2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
 ```
 
 - Este único SMS establece el prefijo de contraseña del dispositivo, el campo de ID del rastreador, los parámetros APN y la IP y puerto del servidor Plaspy tal como se muestran arriba.

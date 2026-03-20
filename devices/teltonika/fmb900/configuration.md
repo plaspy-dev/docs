@@ -77,13 +77,13 @@ The public model configuration example provided for Teltonika devices can be use
 - Example combined parameter command (preserve placeholders):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 What the placeholders mean:
-- {{apn}} — Replace with your cellular operator APN name.  
-- {{apnu}} — Replace with your APN username if required by the operator. Leave empty if not used.  
-- {{apnp}} — Replace with your APN password if required by the operator. Leave empty if not used.
+- [apn] — Replace with your cellular operator APN name.  
+- [apnu] — Replace with your APN username if required by the operator. Leave empty if not used.  
+- [apnp] — Replace with your APN password if required by the operator. Leave empty if not used.
 
 Notes on the command:
 - This public example sets APN credentials and points the device to d.plaspy.com on port 8888.  

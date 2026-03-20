@@ -86,11 +86,11 @@ GMT,E,0#
 ```
 
 - Set the operator APN
-Note: replace {{apn}} with your operator APN. If your APN requires username and password, include {{apnu}} and {{apnp}} respectively.
+Note: replace [apn] with your operator APN. If your APN requires username and password, include [apnu] and [apnp] respectively.
 ```text
-APN,{{apn}}{{apnu ? ',' + {{apnu}} : ''}}{{apnp ? ',' + {{apnp}} : ''}}#
+APN,[apn]{{apnu ? ',' + [apnu] : ''}}{{apnp ? ',' + [apnp] : ''}}#
 ```
-(Manufacturer shorthand: APN,{{apn}},{{apnu}},{{apnp}}# — include the optional fields as needed)
+(Manufacturer shorthand: APN,[apn],[apnu],[apnp]# — include the optional fields as needed)
 
 - Set the GPRS server using domain on Plaspy
 ```text
@@ -121,7 +121,7 @@ GPRSON,1#
 GPRSSET#
 ```
 
-Note on placeholders: {{apn}} is the mobile network APN string provided by your SIM operator. {{apnu}} and {{apnp}} are optional APN username and password fields sometimes required by certain operators.
+Note on placeholders: [apn] is the mobile network APN string provided by your SIM operator. [apnu] and [apnp] are optional APN username and password fields sometimes required by certain operators.
 
 ## Notas de configuración
 

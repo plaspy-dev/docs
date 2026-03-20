@@ -72,7 +72,7 @@ Cuando se configura para Plaspy, el MU201S1 usa su conexión de datos GPRS para 
 
 ## Ejemplos de comandos de configuración
 
-El MU201S1 soporta configuración vía SMS. Los ejemplos públicos del fabricante usan una contraseña por defecto del dispositivo igual a 0000. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de APN de su operador.
+El MU201S1 soporta configuración vía SMS. Los ejemplos públicos del fabricante usan una contraseña por defecto del dispositivo igual a 0000. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los valores de APN de su operador.
 
 - Comando opcional de reseteo a fábrica inicial (usar solo si necesita restaurar la configuración):
 ```text
@@ -81,9 +81,9 @@ El MU201S1 soporta configuración vía SMS. Los ejemplos públicos del fabricant
 
 - Configurar el APN del operador usando marcadores de posición para APN, nombre de usuario y contraseña:
 ```text
-#username,0000,3,{{apn}},{{apnu}},{{apnp}}*
+#username,0000,3,[apn],[apnu],[apnp]*
 ```
-Explicación: Reemplace {{apn}} por el APN de su operador móvil, {{apnu}} por el nombre de usuario APN si se requiere y {{apnp}} por la contraseña APN si se requiere. Si el operador no solicita usuario o contraseña, esos campos pueden quedar vacíos según cómo interprete los comandos el dispositivo.
+Explicación: Reemplace [apn] por el APN de su operador móvil, [apnu] por el nombre de usuario APN si se requiere y [apnp] por la contraseña APN si se requiere. Si el operador no solicita usuario o contraseña, esos campos pueden quedar vacíos según cómo interprete los comandos el dispositivo.
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto:
 ```text
@@ -112,7 +112,7 @@ Notas sobre estos comandos:
 
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis o el comportamiento de los comandos. Verifique la sintaxis SMS exacta para la versión de firmware de su dispositivo en la documentación oficial.
 - La configuración vía SMS es útil para ajustes en campo, pero se requiere verificación por GPRS para confirmar el reporte a Plaspy.
-- Confirme los valores de APN con el operador móvil y utilice las credenciales correctas en lugar de los marcadores {{apn}}, {{apnu}} y {{apnp}}.
+- Confirme los valores de APN con el operador móvil y utilice las credenciales correctas en lugar de los marcadores [apn], [apnu] y [apnp].
 - Elija UDP o TCP según los requisitos del dispositivo y las condiciones de red; Plaspy soporta ambos y detectará automáticamente el protocolo entrante.
 - Recuerde que la contraseña por defecto mostrada en ejemplos públicos es 0000; cambie las contraseñas del dispositivo cuando corresponda por seguridad operativa.
 

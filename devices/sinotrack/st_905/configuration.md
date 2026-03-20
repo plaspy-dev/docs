@@ -90,12 +90,12 @@ RESET
 
 - Set the APN of the operator. Replace the placeholders with your operator values
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 Explanation of placeholders
-- {{apn}} is the APN name for your mobile operator
-- {{apnu}} is the APN username if required by the operator, otherwise leave blank or send an empty placeholder as instructed by the vendor
-- {{apnp}} is the APN password if required
+- [apn] is the APN name for your mobile operator
+- [apnu] is the APN username if required by the operator, otherwise leave blank or send an empty placeholder as instructed by the vendor
+- [apnp] is the APN password if required
 
 - Set up the GPRS server to point to Plaspy using the numeric IP and port shown in SinoTrack documentation
 ```text

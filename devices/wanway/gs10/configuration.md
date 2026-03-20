@@ -72,13 +72,13 @@ The GS10 is configured to report location and device status to the shared Plaspy
 
 ## Example Configuration Commands
 
-The WanWay GS10 supports SMS-based configuration. Send these commands as text messages to the device number in the order shown where appropriate. Preserve {{apn}}, {{apnu}}, and {{apnp}} placeholders and replace them with your carrier APN, username, and password if required by your operator.
+The WanWay GS10 supports SMS-based configuration. Send these commands as text messages to the device number in the order shown where appropriate. Preserve [apn], [apnu], and [apnp] placeholders and replace them with your carrier APN, username, and password if required by your operator.
 
 1. Configure your carrier APN
 ```sms
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-- Replace {{apn}} with your network APN. If your APN requires a username and password, include {{apnu}} and {{apnp}} as shown. The variant with username and password is optional depending on carrier requirements.
+- Replace [apn] with your network APN. If your APN requires a username and password, include [apnu] and [apnp] as shown. The variant with username and password is optional depending on carrier requirements.
 
 2. Setup the GPRS server pointing to Plaspy
 ```sms
@@ -116,7 +116,7 @@ Note: Send commands exactly as required by the GS10 firmware. Maintain the order
 - The GS10 supports SMS-based configuration as shown, but installers may prefer WanWay tools where available.
 - Choose UDP or TCP according to installer preference or site requirements; Plaspy will accept connections on port 8888 and detect the used protocol automatically.
 - Plaspy uses the same port for all supported devices which simplifies server configuration.
-- If commands include placeholders like {{apn}}, {{apnu}}, or {{apnp}}, replace them with carrier-specific values; do not leave placeholders in live devices.
+- If commands include placeholders like [apn], [apnu], or [apnp], replace them with carrier-specific values; do not leave placeholders in live devices.
 
 ## Why Use Plaspy with This Configuration
 

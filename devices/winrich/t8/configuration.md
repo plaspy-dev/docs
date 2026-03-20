@@ -89,9 +89,9 @@ The T8 supports SMS-based configuration. The following public SMS commands are c
 
 - Set the operator APN (replace placeholders with your operator values):
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-Explanation: {{apn}} is the APN name, {{apnu}} is the APN username (optional), and {{apnp}} is the APN password (optional). If your operator does not require username or password, send only the APN in place of {{apn}} and omit the other placeholders.
+Explanation: [apn] is the APN name, [apnu] is the APN username (optional), and [apnp] is the APN password (optional). If your operator does not require username or password, send only the APN in place of [apn] and omit the other placeholders.
 
 - Set the GPRS server to the Plaspy endpoint and port:
 ```text

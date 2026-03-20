@@ -1,6 +1,7 @@
 ---
 slug: /gotop/d22
 id: d22
+sidebar_key: gotod22_index_d22
 sidebar_label: D22
 title: GOTOP - D22
 sidebar_class_name: menu_item_tracker

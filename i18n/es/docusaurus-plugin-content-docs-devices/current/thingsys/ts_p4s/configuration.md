@@ -32,7 +32,7 @@ El objetivo de la configuración es preparar el TS-P4s para que envíe de forma 
 - Establezca el endpoint del servidor para que los reportes se envíen a Plaspy en el servidor y puerto compartidos.
 - Elija el transporte (UDP o TCP) si el rastreador requiere una selección de transporte para el envío.
 - Aplique y guarde la configuración, luego verifique que el dispositivo se registre y reporte a Plaspy.
-- Use los comandos SMS publicados por el fabricante para dispositivos que acepten configuración por aire y conserve los marcadores de posición como {{apn}} según sea necesario.
+- Use los comandos SMS publicados por el fabricante para dispositivos que acepten configuración por aire y conserve los marcadores de posición como [apn] según sea necesario.
 
 ## Ajustes del servidor Plaspy
 
@@ -80,19 +80,19 @@ Los siguientes comandos SMS están publicados en el material de configuración p
 FORMAT
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} con el APN de su operador)
+- Establecer el APN del operador (reemplace [apn] con el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario APN (reemplace {{apnu}} con su usuario APN si es requerido)
+- Establecer el usuario APN (reemplace [apnu] con su usuario APN si es requerido)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña APN (reemplace {{apnp}} con su contraseña APN si es requerida)
+- Establecer la contraseña APN (reemplace [apnp] con su contraseña APN si es requerida)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS usando la IP y el puerto publicados para Plaspy (este comando usa la forma IP mostrada en el material público)
@@ -107,7 +107,7 @@ CXZT
 
 Notas sobre los comandos anteriores:
 - La contraseña predeterminada del dispositivo mostrada en el material público es 123456; inclúyala donde el dispositivo requiera autenticación en formato SMS.
-- Los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} deben ser reemplazados por los valores de su operador móvil.
+- Los marcadores de posición [apn], [apnu] y [apnp] deben ser reemplazados por los valores de su operador móvil.
 - El ejemplo público usa la IP del servidor 54.85.159.138 y el puerto 8888. Si su dispositivo admite nombres de dominio y el fabricante documenta esa opción, puede usar d.plaspy.com con el mismo puerto; de lo contrario use la forma IP provista por ThingSys.
 
 ## Notas de configuración

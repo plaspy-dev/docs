@@ -84,19 +84,19 @@ Los comandos SMS públicos del CalmAmp LMU-400 pueden usarse para establecer APN
 !R0
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} por el APN de su operador)
+- Establecer el APN del operador (reemplazar [apn] por el APN de su operador)
 ```
-!RP,2306,0,{{apn}}
-```
-
-- Establecer el usuario del APN si es necesario (reemplazar {{apnu}} por el usuario APN)
-```
-!RP,2314,0,{{apnu}}
+!RP,2306,0,[apn]
 ```
 
-- Establecer la contraseña del APN si es necesario (reemplazar {{apnp}} por la contraseña APN)
+- Establecer el usuario del APN si es necesario (reemplazar [apnu] por el usuario APN)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2314,0,[apnu]
+```
+
+- Establecer la contraseña del APN si es necesario (reemplazar [apnp] por la contraseña APN)
+```
+!RP,2315,0,[apnp]
 ```
 
 - Establecer el servidor GPRS a la dirección IP de Plaspy
@@ -121,9 +121,9 @@ Etiqueta: Normalmente se requiere reiniciar para aplicar los cambios; considére
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} — la cadena APN del operador celular
-- {{apnu}} — usuario APN si el operador requiere autenticación
-- {{apnp}} — contraseña APN si el operador requiere autenticación
+- [apn] — la cadena APN del operador celular
+- [apnu] — usuario APN si el operador requiere autenticación
+- [apnp] — contraseña APN si el operador requiere autenticación
 
 ## Notas de configuración
 

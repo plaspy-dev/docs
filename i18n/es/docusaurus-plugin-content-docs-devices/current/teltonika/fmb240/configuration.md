@@ -22,7 +22,7 @@ keywords:
 
 Esta página describe el contexto público de configuración para usar el rastreador Teltonika FMB240 con Plaspy. Resume los ajustes de servidor prácticos, los pasos de preparación habituales y un comando de ejemplo comúnmente utilizado para apuntar un FMB240 hacia Plaspy. El FMB240 es un dispositivo compacto con clasificación IP67, lectura de bus CAN y soporte Bluetooth LE; esta guía explica cómo prepararlo para la integración con Plaspy usando parámetros de configuración públicos.
 
-Plaspy utiliza ajustes de servidor compartidos para los dispositivos soportados y detecta automáticamente el protocolo del rastreador, aunque los pasos exactos del lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Cuando está disponible, incluimos el comando de estilo SMS más habitual para establecer parámetros de servidor y conservamos los marcadores como {{apn}} para que usted pueda sustituir los valores del operador según sea necesario.
+Plaspy utiliza ajustes de servidor compartidos para los dispositivos soportados y detecta automáticamente el protocolo del rastreador, aunque los pasos exactos del lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Cuando está disponible, incluimos el comando de estilo SMS más habitual para establecer parámetros de servidor y conservamos los marcadores como [apn] para que usted pueda sustituir los valores del operador según sea necesario.
 
 ## Resumen de configuración
 
@@ -47,7 +47,7 @@ Aplicar la configuración prepara al FMB240 para enviar ubicación y telemetría
 - Un FMB240 alimentado y operativo, instalado o accesible para la configuración
 - Una tarjeta SIM activa con plan de datos y los datos APN correctos del operador móvil
 - Acceso al método de configuración oficial de Teltonika, ya sea comandos SMS o la herramienta de configuración del fabricante
-- Conocimiento de los valores APN requeridos por su proveedor para completar marcadores como {{apn}} {{apnu}} y {{apnp}}
+- Conocimiento de los valores APN requeridos por su proveedor para completar marcadores como [apn] [apnu] y [apnp]
 - Un área de prueba con cobertura celular para las bandas que soporta el dispositivo
 - Acceso administrativo a Plaspy para confirmar que el dispositivo aparece después de la configuración
 
@@ -78,13 +78,13 @@ El siguiente comando público de ejemplo se usa comúnmente para establecer par�
 - Comando de ejemplo estilo SMS
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre marcadores y parámetros
-- {{apn}} es el Access Point Name de datos móviles para su operador celular
-- {{apnu}} es el nombre de usuario del APN si lo exige el operador
-- {{apnp}} es la contraseña del APN si lo exige el operador
+- [apn] es el Access Point Name de datos móviles para su operador celular
+- [apnu] es el nombre de usuario del APN si lo exige el operador
+- [apnp] es la contraseña del APN si lo exige el operador
 - 2004 configura el dominio del servidor a d.plaspy.com, que es el dominio público de Plaspy
 - 2005 configura el puerto del servidor a 8888, que Plaspy usa para todos los dispositivos soportados
 - 2006 es un parámetro de selección de transporte en el esquema setparam de Teltonika; consulte la documentación de Teltonika para confirmar los valores numéricos para UDP o TCP si es necesario

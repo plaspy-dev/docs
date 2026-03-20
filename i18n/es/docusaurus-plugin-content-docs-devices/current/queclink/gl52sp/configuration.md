@@ -48,7 +48,7 @@ Esta configuración prepara al GL52SP para comunicarse con Plaspy, de modo que e
 - Asegurar que el dispositivo esté provisionado en una red soportada para su región (registro Sigfox para GL52SP o servicio celular si usa métodos SMS/GPRS)
 - Tener acceso al método de configuración del fabricante que vaya a utilizar (comandos SMS, herramienta USB o software del proveedor)
 - Conocer las credenciales necesarias o la contraseña del dispositivo (el ejemplo de contraseña por defecto que se muestra abajo es queclink cuando aplique)
-- Preparar la información del APN si se usa configuración GPRS (se usan marcadores como {{apn}}, {{apnu}}, {{apnp}} cuando corresponda)
+- Preparar la información del APN si se usa configuración GPRS (se usan marcadores como [apn], [apnu], [apnp] cuando corresponda)
 - Tener un método para validar los reportes del dispositivo en Plaspy tras la configuración
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -77,7 +77,7 @@ Los siguientes comandos públicos de ejemplo se muestran como comandos AT estilo
 
 - Notas:
   - La contraseña de dispositivo de muestra en estos comandos es queclink y se muestra como valor por defecto.
-  - Los marcadores como {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por los valores APN de su operador celular cuando corresponda.
+  - Los marcadores como [apn], [apnu] y [apnp] deben reemplazarse por los valores APN de su operador celular cuando corresponda.
   - Estos comandos son ejemplos públicos. Verifique que su firmware GL52SP soporte configuración por SMS AT antes de enviarlos.
 
 1. (Opcional) Restaurar configuración de fábrica
@@ -92,7 +92,7 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configurar el APN del operador (reemplazar marcadores según sea necesario)
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4. Configurar el servidor GPRS a Plaspy (se proporcionan dominio e IP)
@@ -115,7 +115,7 @@ AT+GTSOS=queclink,2,2,,0,0,0,0,0,0,,,FFFF$
 - El GL52SP es un rastreador de activos Sigfox; confirme si los comandos AT por SMS o estilo GPRS aplican a su unidad y firmware antes de utilizarlos.
 - Las revisiones de firmware y las variantes de hardware pueden cambiar el soporte y el comportamiento de los comandos; pruebe en un equipo antes de desplegar masivamente.
 - Elija TCP o UDP según la capacidad del dispositivo. Plaspy soporta ambos en el puerto 8888 y detecta el protocolo automáticamente.
-- Los marcadores como {{apn}}, {{apnu}} y {{apnp}} deben rellenarse con los datos correctos del operador al configurar datos celulares.
+- Los marcadores como [apn], [apnu] y [apnp] deben rellenarse con los datos correctos del operador al configurar datos celulares.
 - Priorice la documentación oficial de QuecLink y las herramientas de configuración del fabricante para instrucciones específicas del dispositivo y la referencia de comandos más actualizada.
 
 ## Por qué usar Plaspy con esta configuración

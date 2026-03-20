@@ -74,7 +74,7 @@ The SafeDrive is configured to send its data sessions to the shared Plaspy serve
 
 ## Example Configuration Commands
 
-The SafeDrive supports SMS based configuration. The commands below are the public examples used to prepare the device for Plaspy. The sample default device password used in these examples is 123456. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator specific values.
+The SafeDrive supports SMS based configuration. The commands below are the public examples used to prepare the device for Plaspy. The sample default device password used in these examples is 123456. Replace placeholders such as [apn], [apnu], and [apnp] with your operator specific values.
 
 - Factory reset command (optional initial reset)
 ```text
@@ -88,14 +88,14 @@ time zone123456 0
 
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username and password if required by the operator
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Note: {{apnu}} is the APN username placeholder and {{apnp}} is the APN password placeholder. If your SIM operator does not require credentials, this command can be skipped.
+Note: [apnu] is the APN username placeholder and [apnp] is the APN password placeholder. If your SIM operator does not require credentials, this command can be skipped.
 
 - Set the GPRS server to Plaspy using the server IP and port
 ```text

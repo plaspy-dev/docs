@@ -79,13 +79,13 @@ The following public command is a commonly used single line parameter update for
 - To set APN and server parameters via SMS or the device batch command use:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Brief explanation of placeholders and fields
-  - {{apn}} placeholder is for your mobile data provider APN name
-  - {{apnu}} placeholder is for the APN username if required by the SIM
-  - {{apnp}} placeholder is for the APN password if required by the SIM
+  - [apn] placeholder is for your mobile data provider APN name
+  - [apnu] placeholder is for the APN username if required by the SIM
+  - [apnp] placeholder is for the APN password if required by the SIM
   - 2004 is the server host set to d.plaspy.com
   - 2005 is the server port set to 8888
   - Keep placeholders in place until you substitute values appropriate for your SIM and network

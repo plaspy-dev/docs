@@ -85,7 +85,7 @@ The AT-15 configuration method can vary by firmware and vendor tools. Because mo
 - SMS configuration commands if the device supports SMS setup (consult Autoseeker documentation for exact SMS syntax).
 - A web or serial configuration interface when provided by the vendor.
 
-If you have a set of public Autoseeker AT-15 commands from your vendor or firmware release, include them here following the device manual. Keep placeholders such as {{apn}} or similar exactly as provided by the manufacturer when using those commands.
+If you have a set of public Autoseeker AT-15 commands from your vendor or firmware release, include them here following the device manual. Keep placeholders such as [apn] or similar exactly as provided by the manufacturer when using those commands.
 
 ## Configuration Notes
 

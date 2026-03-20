@@ -1,6 +1,7 @@
 ---
 slug: /totemtech/at04
 id: at04
+sidebar_key: totemtecat04_index_at04
 sidebar_label: AT04
 title: Totemtech - AT04
 sidebar_class_name: menu_item_tracker

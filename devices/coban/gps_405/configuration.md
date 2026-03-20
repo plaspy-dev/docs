@@ -89,15 +89,15 @@ time zone123456 0
 
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-  - Placeholder {{apn}} should be replaced with the mobile operator APN string for your SIM.
+  - Placeholder [apn] should be replaced with the mobile operator APN string for your SIM.
 
 - Set the APN username and password
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-  - Placeholders {{apnu}} and {{apnp}} are the APN username and password and can be left empty if the operator does not require them.
+  - Placeholders [apnu] and [apnp] are the APN username and password and can be left empty if the operator does not require them.
 
 - Set the GPRS server to the Plaspy IP and port
 ```text
@@ -137,7 +137,7 @@ Follow the exact SMS formatting required by your firmware and confirm the device
 
 - Firmware and hardware revisions can change command availability and syntax; always confirm with the device firmware notes or Coban documentation.
 - SMS based configuration is commonly used for the GPS-405 and is shown above; vendor configuration tools may offer alternate methods.
-- When setting APN values, use the correct operator APN, username, and password; placeholders {{apn}}, {{apnu}}, and {{apnp}} are used above and must be replaced with operator values.
+- When setting APN values, use the correct operator APN, username, and password; placeholders [apn], [apnu], and [apnp] are used above and must be replaced with operator values.
 - Choose UDP or TCP based on installation needs; Plaspy accepts both and will automatically detect the incoming protocol.
 - The default password 123456 is used in the public command examples; if your device password has been changed, use the current device password.
 

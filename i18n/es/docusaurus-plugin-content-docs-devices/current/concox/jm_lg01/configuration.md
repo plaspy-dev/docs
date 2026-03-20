@@ -72,7 +72,7 @@ El JM-LG01 se configura para enviar posiciones GNSS y telemetría a Plaspy trans
 
 ## Comandos de configuración de ejemplo
 
-El JM-LG01 admite configuración vía SMS. El fabricante facilita los siguientes comandos SMS públicos. Preservar los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplazarlos por los valores de su operador al enviar.
+El JM-LG01 admite configuración vía SMS. El fabricante facilita los siguientes comandos SMS públicos. Preservar los marcadores de posición como [apn], [apnu] y [apnp] y reemplazarlos por los valores de su operador al enviar.
 
 - Resetear a configuración de fábrica (paso inicial opcional)
 ```text
@@ -85,9 +85,9 @@ GMT,E,0#
 ```
 
 - Configurar el APN del operador
-Nota: {{apn}} es obligatorio. {{apnu}} y {{apnp}} son opcionales y representan usuario y contraseña del APN respectivamente.
+Nota: [apn] es obligatorio. [apnu] y [apnp] son opcionales y representan usuario y contraseña del APN respectivamente.
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS usando el dominio de Plaspy (la selección UDP o TCP se gestiona por separado)

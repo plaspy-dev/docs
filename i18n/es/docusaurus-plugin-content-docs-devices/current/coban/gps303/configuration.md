@@ -89,14 +89,14 @@ begin123456
 time zone123456 0
 ```
 
-- Configurar el APN del operador (reemplace {{apn}} por el APN de su operador)
+- Configurar el APN del operador (reemplace [apn] por el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Configurar usuario y contraseña del APN (reemplace {{apnu}} y {{apnp}} según sea necesario)
+- Configurar usuario y contraseña del APN (reemplace [apnu] y [apnp] según sea necesario)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Establecer el servidor GPRS con la IP y el puerto de Plaspy
@@ -130,9 +130,9 @@ protocol123456 18
 ```
 
 Explicación de marcadores de posición:
-- {{apn}} — nombre del APN de su operador móvil
-- {{apnu}} — usuario del APN si el operador lo requiere
-- {{apnp}} — contraseña del APN si el operador lo requiere
+- [apn] — nombre del APN de su operador móvil
+- [apnu] — usuario del APN si el operador lo requiere
+- [apnp] — contraseña del APN si el operador lo requiere
 
 Use el comando check123456 para verificar los ajustes después de aplicarlos. Si realiza un restablecimiento de fábrica con begin123456, considérelo como un paso opcional inicial para restaurar los valores por defecto.
 

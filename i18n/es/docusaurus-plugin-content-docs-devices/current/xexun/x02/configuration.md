@@ -80,19 +80,19 @@ El X02 admite configuración vía SMS. Los comandos públicos de ejemplo a conti
 begin123456
 ```
 
-- Establecer el APN del operador. Reemplace {{apn}} por la cadena APN de su operador:
+- Establecer el APN del operador. Reemplace [apn] por la cadena APN de su operador:
 ```
-apn123456 {{apn}}
-```
-
-- Establecer el usuario del APN si su operador lo requiere. Reemplace {{apnu}} por el usuario APN:
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-- Establecer la contraseña del APN si es necesaria. Reemplace {{apnp}} por la contraseña APN:
+- Establecer el usuario del APN si su operador lo requiere. Reemplace [apnu] por el usuario APN:
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+- Establecer la contraseña del APN si es necesaria. Reemplace [apnp] por la contraseña APN:
+```
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS con la IP y el puerto de Plaspy. Esto apunta el dispositivo a Plaspy:
@@ -112,7 +112,7 @@ t060s***n123456
 
 Notas sobre los comandos anteriores:
 - La contraseña de ejemplo 123456 es el valor por defecto en la muestra pública. Si la contraseña de su dispositivo fue cambiada, sustituya la contraseña correcta.
-- Los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN del operador, el usuario APN y la contraseña APN respectivamente.
+- Los marcadores de posición [apn], [apnu] y [apnp] deben reemplazarse por el APN del operador, el usuario APN y la contraseña APN respectivamente.
 - Envíe estos comandos por SMS desde un número autorizado o mediante el método requerido por el firmware del X02 y las instrucciones del fabricante.
 - Solo ejecute el comando de restauración de fábrica cuando realmente desee restablecer el dispositivo a sus valores por defecto.
 

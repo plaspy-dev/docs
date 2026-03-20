@@ -91,17 +91,17 @@ FORMAT
 
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
 - Set the APN password
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server using the public Plaspy IP and port
@@ -116,7 +116,7 @@ CXZT
 
 Notes on the commands above
 - The examples show the public SMS syntax as documented. Keep the command order when applying the initial network configuration.
-- Placeholders explained: {{apn}} is the mobile operator APN string, {{apnu}} is the APN username when required, and {{apnp}} is the APN password when required.
+- Placeholders explained: [apn] is the mobile operator APN string, [apnu] is the APN username when required, and [apnp] is the APN password when required.
 - If your firmware supports specifying a DNS name instead of an IP, point the server to d.plaspy.com on port 8888 using the manufacturer recommended syntax or tool. Do not change the port; Plaspy uses port 8888 for all supported devices.
 
 ## Configuration Notes

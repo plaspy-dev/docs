@@ -77,7 +77,7 @@ Al configurarse, el D50 envía actualizaciones de ubicación y eventos del dispo
 
 No se incluyen comandos específicos públicos del dispositivo aquí. El D50 admite reporte GPRS estándar y puede ofrecer varias interfaces de configuración como la app de GOTOP, un portal web o comandos por SMS. La sintaxis exacta de los comandos y la interfaz disponible dependen del firmware GOTOP y del modelo regional.
 
-Si dispone de ejemplos de comandos proporcionados por el fabricante o una guía de configuración de GOTOP, aplique los ajustes de servidor mostrados en esta página (d.plaspy.com o 54.85.159.138 y puerto 8888) dentro de esos comandos o en la herramienta del fabricante. Conserve cualquier marcador de posición que proporcione GOTOP, como campos APN (por ejemplo {{apn}}, {{apnu}}, {{apnp}}) y reemplácelos por los valores de su operador cuando sea necesario.
+Si dispone de ejemplos de comandos proporcionados por el fabricante o una guía de configuración de GOTOP, aplique los ajustes de servidor mostrados en esta página (d.plaspy.com o 54.85.159.138 y puerto 8888) dentro de esos comandos o en la herramienta del fabricante. Conserve cualquier marcador de posición que proporcione GOTOP, como campos APN (por ejemplo [apn], [apnu], [apnp]) y reemplácelos por los valores de su operador cuando sea necesario.
 
 ## Notas de configuración
 

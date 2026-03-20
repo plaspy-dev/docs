@@ -1,6 +1,7 @@
 ---
 slug: /topten/lt02
 id: lt02
+sidebar_key: toptelt02_index_lt02
 sidebar_label: LT02
 title: TopTen - LT02
 sidebar_class_name: menu_item_tracker

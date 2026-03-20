@@ -1,6 +1,7 @@
 ---
 slug: /gotop/tk_120
 id: tk_120
+sidebar_key: gototk_120_index_tk_120
 sidebar_label: TK-120
 title: GOTOP - TK-120
 sidebar_class_name: menu_item_tracker

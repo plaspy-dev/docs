@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/gtu5000
 id: gtu5000
+sidebar_key: gosafgtu5000_index_gtu5000
 sidebar_label: GTU5000
 title: Gosafe - GTU5000
 sidebar_class_name: menu_item_tracker

@@ -89,13 +89,13 @@ GMT,E,0#
 3. Configurar el APN del operador
 - APN básico solamente
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 - APN con usuario y contraseña si es necesario
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} es el APN del operador móvil. {{apnu}} y {{apnp}} son marcadores de posición opcionales para usuario y contraseña del APN.
+Explicación: [apn] es el APN del operador móvil. [apnu] y [apnp] son marcadores de posición opcionales para usuario y contraseña del APN.
 
 4. Establecer el servidor GPRS usando nombre DNS (recomendado)
 ```

@@ -66,7 +66,7 @@ Cuando está configurado, el FMB130 envía su posición y la telemetría disponi
 2. Ingrese el dominio del servidor Plaspy d.plaspy.com o la IP del servidor 54.85.159.138 en los ajustes de servidor del dispositivo.
 3. Establezca el puerto en 8888 como el puerto compartido usado por Plaspy para todos los dispositivos.
 4. Elija UDP o TCP si el dispositivo requiere selección del transporte durante la configuración.
-5. Configure el APN y las credenciales del operador usando marcadores como {{apn}}, {{apnu}} y {{apnp}} donde sea necesario.
+5. Configure el APN y las credenciales del operador usando marcadores como [apn], [apnu] y [apnp] donde sea necesario.
 6. Aplique o guarde la configuración y reinicie el dispositivo si la herramienta o el dispositivo solicita un reinicio.
 7. Valide que el dispositivo está reportando a Plaspy comprobando la lista de dispositivos o el feed de posiciones en vivo en su cuenta Plaspy.
 
@@ -76,13 +76,13 @@ El comando de ejemplo público de Teltonika para establecer parámetros principa
 
 - Example Teltonika setparam command:
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando:
-- {{apn}} es la cadena APN de su operador móvil.
-- {{apnu}} es el nombre de usuario del APN si su operador lo requiere; déjelo en blanco si no es necesario.
-- {{apnp}} es la contraseña del APN si su operador la requiere; déjela en blanco si no es necesaria.
+- [apn] es la cadena APN de su operador móvil.
+- [apnu] es el nombre de usuario del APN si su operador lo requiere; déjelo en blanco si no es necesario.
+- [apnp] es la contraseña del APN si su operador la requiere; déjela en blanco si no es necesaria.
 - 2004 configura el dominio del servidor a d.plaspy.com y 2005 establece el puerto en 8888.
 - 2006 es un parámetro de dispositivo incluido en el ejemplo; consulte la documentación de parámetros de Teltonika para el mapeo exacto de los IDs numéricos a las opciones de configuración según su firmware.
 - Este comando puede enviarse por SMS al dispositivo o aplicarse a través de Teltonika Configurator según la práctica de despliegue.

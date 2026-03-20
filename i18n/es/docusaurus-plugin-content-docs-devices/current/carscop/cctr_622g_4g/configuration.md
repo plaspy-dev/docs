@@ -91,12 +91,12 @@ TIMEZONE*123456*+00
 
 - Establecer el APN del operador
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
 - Establecer usuario y contraseña del APN (inclúyalo solo si su operador requiere autenticación)
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Configurar el servidor GPRS a Plaspy por IP y puerto
@@ -110,8 +110,8 @@ KEEPONLINE*123456
 ```
 
 Notas sobre marcadores de posición y valores por defecto:
-- {{apn}} debe reemplazarse por la cadena APN de su operador móvil.
-- {{apnu}} y {{apnp}} son marcadores para el usuario y la contraseña del APN cuando el operador los solicita; omita el comando USERNAME si no se requieren credenciales.
+- [apn] debe reemplazarse por la cadena APN de su operador móvil.
+- [apnu] y [apnp] son marcadores para el usuario y la contraseña del APN cuando el operador los solicita; omita el comando USERNAME si no se requieren credenciales.
 - La contraseña de ejemplo 123456 se muestra como valor de fábrica en estos ejemplos públicos; utilice la contraseña configurada para su despliegue.
 
 ## Notas de configuración

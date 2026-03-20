@@ -1,6 +1,7 @@
 ---
 slug: /reachfar/v51
 id: v51
+sidebar_key: reachfav51_index_v51
 sidebar_label: V51
 title: Reachfar - V51
 sidebar_class_name: menu_item_tracker

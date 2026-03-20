@@ -79,9 +79,9 @@ If you plan to use SMS based setup, use the example SMS commands below as docume
 The VT-400 manufacturer provides SMS commands for configuration. The example commands below use the factory default device password 0000. If your device password has been changed, replace 0000 with the current device password.
 
 Note on placeholders
-- {{apn}} is the mobile network Access Point Name required for GPRS data
-- {{apnu}} is the APN username when required by the SIM provider
-- {{apnp}} is the APN password when required by the SIM provider
+- [apn] is the mobile network Access Point Name required for GPRS data
+- [apnu] is the APN username when required by the SIM provider
+- [apnp] is the APN password when required by the SIM provider
 
 1. Optional initial factory settings reset
 ```
@@ -91,9 +91,9 @@ Label: Optional initial factory settings reset. Use this command only when you i
 
 2. Set the GPRS server to Plaspy using IP and port and include APN placeholders
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-Explanation: Configure the GPRS server mode 2 with the Plaspy server IP 54.85.159.138 and port 8888. Replace {{apn}}, {{apnu}}, and {{apnp}} with your SIM operator values. If your workflow prefers the domain, the equivalent server domain is d.plaspy.com.
+Explanation: Configure the GPRS server mode 2 with the Plaspy server IP 54.85.159.138 and port 8888. Replace [apn], [apnu], and [apnp] with your SIM operator values. If your workflow prefers the domain, the equivalent server domain is d.plaspy.com.
 
 3. Set the time zone to UTC 0
 ```
@@ -120,7 +120,7 @@ Send these commands as SMS messages to the VT-400 following the manufacturer ins
 - Firmware and hardware revisions can change command formats and available parameters. Always confirm the exact syntax with the manufacturer documentation for your firmware.
 - The VT-400 supports SMS based configuration as shown above and GPRS TCP or UDP reporting to Plaspy. Use the transport option that best suits your network and operational needs.
 - Plaspy uses the same port 8888 for all devices and automatically detects tracker protocol so you can point the device to the shared server without needing protocol specific ports.
-- When using APN credentials, preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} until replaced with your operator details.
+- When using APN credentials, preserve placeholders such as [apn], [apnu], and [apnp] until replaced with your operator details.
 - Test configuration on a single device before mass provisioning to verify APN, transport, and reporting interval behavior.
 
 ## Why Use Plaspy with This Configuration

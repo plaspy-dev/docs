@@ -75,7 +75,7 @@ When configured, the G602 sends its position, event and sensor data to the Plasp
 
 The exact commands and syntax for configuring the G602 are provided by Gosafe and can vary by firmware and regional device variant. Configuration is commonly done with the official Gosafe configuration tool, by USB or micro USB connection, or by SMS commands when supported. Consult the Gosafe configuration guide for exact command formats and example strings before issuing commands.
 
-If you are using SMS based configuration the manufacturer may provide templates such as placeholders for APN or credentials in the format {{apn}} {{apnu}} {{apnp}}. Keep placeholders intact and replace them with your network operator values when required.
+If you are using SMS based configuration the manufacturer may provide templates such as placeholders for APN or credentials in the format [apn] [apnu] [apnp]. Keep placeholders intact and replace them with your network operator values when required.
 
 ## Configuration Notes
 

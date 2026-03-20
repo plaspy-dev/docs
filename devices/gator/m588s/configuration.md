@@ -75,26 +75,26 @@ When configured, the M588S sends its location and status updates to Plaspy's sha
 
 The Gator M588S is commonly configured by SMS. The public command examples below use the device default password 123456 and include placeholders you must replace:
 
-- {{apn}} = your mobile network APN
-- {{apnu}} = APN username if required (optional)
-- {{apnp}} = APN password if required (optional)
+- [apn] = your mobile network APN
+- [apnu] = APN username if required (optional)
+- [apnp] = APN password if required (optional)
 - {{DeviceID}} = the device identifier or IMEI used by the tracker
 - {{phoneNumberUser}} = your phone number for SOS or monitoring as required by the command syntax
 
 If your APN requires username and password, send the following SMS command (preserve the sequence and commas as required by the device):
 
 ```text
-SS,*{{apn}}*,*{{apnu}}*,*{{apnp}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 If your APN does not require username or password, use this shorter command variant:
 
 ```text
-S,*{{apn}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 Notes on these commands:
-- Replace each placeholder (for example {{apn}}) with the actual value for your SIM/network and device.
+- Replace each placeholder (for example [apn]) with the actual value for your SIM/network and device.
 - The final value in both commands is the device password; public guidance for this model shows 123456 as the default password.
 - Send SMS commands from an authorized phone number and wait for the device confirmation SMS if provided by the device firmware.
 - If the device confirms the new server settings, proceed to power-cycle the unit if required.

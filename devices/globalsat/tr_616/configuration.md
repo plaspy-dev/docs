@@ -46,7 +46,7 @@ This configuration process prepares a TR-616 to send location and status data to
 
 - A powered TR-616 unit with a working SIM card that has data and SMS capability
 - The device IMEI number available for use in SMS configuration or manufacturer tools
-- APN settings for the SIM card provider to be filled into the placeholders {{apn}}, {{apnu}}, and {{apnp}}
+- APN settings for the SIM card provider to be filled into the placeholders [apn], [apnu], and [apnp]
 - An SMS capable phone or the manufacturer configuration tool to send configuration SMS commands
 - Access to the official GlobalSat documentation or support tools for firmware specific guidance
 - Basic knowledge of whether the deployment requires UDP or TCP transport
@@ -66,7 +66,7 @@ The TR-616 can be configured to send position and device data to the Plaspy serv
 2. Enter the Plaspy server address either as the server domain or the server IP. Use d.plaspy.com or 54.85.159.138 when prompted for server endpoint.
 3. Set the server port to 8888 as required by Plaspy.
 4. Choose UDP or TCP transport if the device requires an explicit transport selection.
-5. Populate APN values and any required authentication placeholders such as {{apn}}, {{apnu}}, and {{apnp}}.
+5. Populate APN values and any required authentication placeholders such as [apn], [apnu], and [apnp].
 6. Send or apply the configuration and save settings on the device.
 7. Restart or reboot the device if required by the manufacturer to apply changes.
 8. Validate that the device reports to Plaspy and appears in the platform's device list.
@@ -77,11 +77,11 @@ The TR-616 manufacturer content includes an SMS configuration command template. 
 
 Setup command template
 - Replace {{imei}} with the device IMEI
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with your SIM APN, APN username, and APN password respectively
+- Replace [apn], [apnu], and [apnp] with your SIM APN, APN username, and APN password respectively
 - This template sets the server IP to Plaspy and the port to 8888
 
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Reboot command template (optional after configuration)

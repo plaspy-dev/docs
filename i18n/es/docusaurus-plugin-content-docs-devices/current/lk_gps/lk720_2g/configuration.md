@@ -77,7 +77,7 @@ El LK720-2G transmite coordenadas GPS y telemetría del dispositivo a través de
 
 Los comandos y la sintaxis exacta para el LK720-2G dependen del firmware del fabricante y del método de configuración que utilice. Algunas instalaciones usan comandos SMS, otras usan herramientas web o móviles del proveedor. Dado que el LK720-2G admite configuración por SMS como alternativa, consulte el manual del dispositivo para el formato preciso de los comandos SMS y los marcadores de posición.
 
-Si recibe comandos SMS proporcionados por el fabricante o una lista de comandos, aplíquelos en el orden indicado por el fabricante y conserve cualquier marcador de posición como APN o valores de cuenta. Explicación de marcador de posición de ejemplo: si un comando incluye {{apn}} o similar, reemplace ese marcador por la cadena APN de su operador SIM.
+Si recibe comandos SMS proporcionados por el fabricante o una lista de comandos, aplíquelos en el orden indicado por el fabricante y conserve cualquier marcador de posición como APN o valores de cuenta. Explicación de marcador de posición de ejemplo: si un comando incluye [apn] o similar, reemplace ese marcador por la cadena APN de su operador SIM.
 
 ## Notas de configuración
 

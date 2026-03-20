@@ -75,15 +75,15 @@ When configured, the ST8310UM opens a connection to the shared Plaspy server end
 
 The ST8310UM public configuration uses SMS commands. The device ID for these commands is the last six digits of the IMEI excluding the final IMEI digit. For example if the IMEI is 123456789012345 the device ID would be 901234 using the example pattern provided in the manufacturer template. Commands are sent as SMS to the device.
 
-1) Set the operator APN and GPRS server pointing to Plaspy. Replace {{device_id}} with the computed device ID and preserve the APN placeholders {{apn}}, {{apnu}}, {{apnp}}:
+1) Set the operator APN and GPRS server pointing to Plaspy. Replace {{device_id}} with the computed device ID and preserve the APN placeholders [apn], [apnu], [apnp]:
 
 ```text
-SA200NTW;{{device_id}};02;{GPRS mode flag};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{GPRS mode flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Notes:
-- The manufacturer template uses a field to indicate whether APN username or password are present; in many setups set that flag to 1 if you provide {{apnu}} or {{apnp}} otherwise set it to 0.
-- {{apn}} is the operator APN. {{apnu}} is the APN username and {{apnp}} is the APN password. Keep these placeholders and replace them with the values from your SIM operator.
+- The manufacturer template uses a field to indicate whether APN username or password are present; in many setups set that flag to 1 if you provide [apnu] or [apnp] otherwise set it to 0.
+- [apn] is the operator APN. [apnu] is the APN username and [apnp] is the APN password. Keep these placeholders and replace them with the values from your SIM operator.
 
 2) Set the reporting interval to 60 seconds using the manufacturer reporting command format:
 
@@ -105,7 +105,7 @@ Send each command as an SMS message to the device phone number. Use the example 
 - The ST8310UM supports SMS based setup in the public template above. If you prefer configuration tools offered by Suntech or your vendor, follow those tools while ensuring the Plaspy server and port values are entered as shown.
 - When choosing TCP versus UDP consider network conditions and operator GPRS behavior. Plaspy accepts either transport and automatically detects the tracker protocol.
 - The Plaspy port 8888 is shared by all devices in Plaspy and should be used exactly as shown when configuring the device server entry.
-- Always verify APN, username, and password placeholders ({{apn}}, {{apnu}}, {{apnp}}) with your cellular provider to ensure data sessions can be established.
+- Always verify APN, username, and password placeholders ([apn], [apnu], [apnp]) with your cellular provider to ensure data sessions can be established.
 
 ## Why Use Plaspy with This Configuration
 

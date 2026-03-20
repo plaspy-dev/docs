@@ -49,7 +49,7 @@ Note that Plaspy uses the same port 8888 for all supported devices and its platf
 - Active SIM with a data plan and correct APN settings for the installed mobile operator
 - Power to the GSM 5108 and access to its configuration interface or vendor configuration tool
 - Access to the device console or SMS command channel if the device supports AT or SMS based configuration
-- Knowledge of the APN, and optional APN username and password to populate placeholders such as {{apn}}, {{apnu}}, and {{apnp}}
+- Knowledge of the APN, and optional APN username and password to populate placeholders such as [apn], [apnu], and [apnp]
 - A plan for event reporting and reporting intervals to match monitoring needs
 - Access to official Enfora documentation or support channels for firmware specific variations
 
@@ -90,13 +90,13 @@ AT&W
 
 - Set PDP context with operator APN
 ```text
-AT+CGDCONT=1,"IP","{{apn}}"
+AT+CGDCONT=1,"IP","[apn]"
 ```
 If the APN requires username or password, the following placeholder command may be used where supported:
 ```text
-AT%CGPCO=1,"{{apnu}},{{apnp}}",0
+AT%CGPCO=1,"[apnu],[apnp]",0
 ```
-(Explanation: {{apn}} is the APN string for your mobile operator. {{apnu}} and {{apnp}} are optional APN username and password.)
+(Explanation: [apn] is the APN string for your mobile operator. [apnu] and [apnp] are optional APN username and password.)
 
 Plaspy server and transport settings
 - Register a friend or target server IP for some firmware families
@@ -187,7 +187,7 @@ Note: The AT$RESET command is typically used to restart the device so saved sett
 ## Configuration Notes
 
 - AT command support and exact parameter syntax may vary by firmware revision; confirm the correct commands for your device firmware.
-- Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator values as required. If no username or password is needed, omit or leave the placeholders blank per device syntax.
+- Replace placeholders such as [apn], [apnu], and [apnp] with your mobile operator values as required. If no username or password is needed, omit or leave the placeholders blank per device syntax.
 - Choose UDP or TCP based on network reliability and device support; Plaspy accepts both on port 8888 and will detect protocol automatically.
 - The example commands show common event rules patterns. Adjust event IDs and parameters to match your installation and reporting policy.
 - Manufacturer tools, SMS commands, or serial configuration interfaces may be available; use the official Enfora configuration method that matches your installation.

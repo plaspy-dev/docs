@@ -79,7 +79,7 @@ The following public command templates are provided in manufacturer and vendor m
 
 - Setup command template (set server, port, APN placeholders if applicable)
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Reboot command template (optional, use if a reboot is required)
@@ -89,7 +89,7 @@ GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
 
 Notes on placeholders and checksum:
 - {{imei}} — replace with the device IMEI or identifier used by your vendor tool or command format.
-- {{apn}}, {{apnu}}, {{apnp}} — APN, APN username, and APN password placeholders. Include them only if your device variant requires cellular data configuration; for the DG-388 data logger these fields may not be applicable unless you are configuring a cellular-enabled variant or an associated modem.
+- [apn], [apnu], [apnp] — APN, APN username, and APN password placeholders. Include them only if your device variant requires cellular data configuration; for the DG-388 data logger these fields may not be applicable unless you are configuring a cellular-enabled variant or an associated modem.
 - {{checksum}} and {{checksumreeboot}} — the checksum is calculated over the command text up to but not including the '*' character. The public checksum method provided in manufacturer samples is a bytewise XOR of each ASCII character in the command string. The resulting checksum is formatted as an uppercase two-digit hexadecimal value and appended where shown.
 - These commands are intended for SMS-based configuration flows where supported. If your unit does not support SMS, apply server settings through the official PC tool and export/import workflow.
 

@@ -76,7 +76,7 @@ Si configura varios dispositivos, aplique este flujo de trabajo de forma consist
 
 ## Comandos de configuración de ejemplo
 
-El AT07-4G puede configurarse usando comandos SMS. A continuación se muestran los comandos públicos por SMS proporcionados por el fabricante en el orden comúnmente utilizado. El ejemplo asume que la contraseña SMS por defecto del dispositivo es 000000. Reemplace {{apn}}, {{apnu}} y {{apnp}} por el nombre del APN del operador, el usuario del APN y la contraseña del APN según sea necesario.
+El AT07-4G puede configurarse usando comandos SMS. A continuación se muestran los comandos públicos por SMS proporcionados por el fabricante en el orden comúnmente utilizado. El ejemplo asume que la contraseña SMS por defecto del dispositivo es 000000. Reemplace [apn], [apnu] y [apnp] por el nombre del APN del operador, el usuario del APN y la contraseña del APN según sea necesario.
 
 - Comando opcional de reinicio de fábrica inicial usando la contraseña por defecto
 ```text
@@ -85,9 +85,9 @@ El AT07-4G puede configurarse usando comandos SMS. A continuación se muestran l
 
 - Establecer el APN del operador incluyendo usuario y contraseña opcionales
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-Explicación: reemplace {{apn}} por el APN del operador móvil y opcionalmente {{apnu}} y {{apnp}} por el usuario y la contraseña del APN si el operador los requiere.
+Explicación: reemplace [apn] por el APN del operador móvil y opcionalmente [apnu] y [apnp] por el usuario y la contraseña del APN si el operador los requiere.
 
 - Establecer el servidor GPRS para que reporte a Plaspy por IP y puerto
 ```text

@@ -80,12 +80,12 @@ The ST8310U can be configured by SMS using the public command format shown below
 
 - Set operator APN and GPRS server
 ```text
-SA200NTW;{{ID}};02;{0 or 1};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{ID}};02;{0 or 1};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Notes on the APN command
   - Replace {{ID}} with the device ID derived from the IMEI as explained above.
   - The fourth field should be 1 if you supply an APN username or password, otherwise 0.
-  - Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} if you plan to substitute your operator APN, APN username, and APN password.
+  - Keep the placeholders [apn], [apnu], and [apnp] if you plan to substitute your operator APN, APN username, and APN password.
 
 - Set the reporting interval to 60 seconds
 ```text
@@ -104,7 +104,7 @@ Send these SMS commands from the authorized phone number if the device requires 
 - Firmware variations may change exact parameter order or available fields. Always cross check with the Suntech firmware notes for your device revision.
 - The device supports SMS based configuration as shown here, and may also support OTA or vendor tool configuration depending on your hardware and firmware.
 - Choose UDP or TCP according to installation requirements. TCP can offer session reliability while UDP is simpler and often used for lightweight telemetry.
-- The APN username and password placeholders {{apnu}} and {{apnp}} are optional for many operators. Set the fourth flag field to 1 when supplying them.
+- The APN username and password placeholders [apnu] and [apnp] are optional for many operators. Set the fourth flag field to 1 when supplying them.
 - Plaspy uses the same port 8888 for all supported devices and automatically detects the tracker protocol so server side changes are unnecessary.
 
 ## Why Use Plaspy with This Configuration

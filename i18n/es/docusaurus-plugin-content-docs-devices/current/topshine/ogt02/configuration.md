@@ -81,9 +81,9 @@ Si utiliza comandos SMS para la configuración, siga la secuencia recomendada po
 El proveedor del OGT02 ofrece comandos SMS públicos para configurar el dispositivo. Los comandos de ejemplo abajo usan la contraseña por defecto 000000. Si la contraseña de su dispositivo ha sido cambiada, reemplace 000000 por la contraseña activa.
 
 Nota sobre los marcadores
-- {{apn}} es la cadena APN del operador móvil
-- {{apnu}} es el usuario del APN cuando se requiere
-- {{apnp}} es la contraseña del APN cuando se requiere
+- [apn] es la cadena APN del operador móvil
+- [apnu] es el usuario del APN cuando se requiere
+- [apnp] es la contraseña del APN cuando se requiere
 - IMEI debe sustituirse por el valor IMEI del dispositivo cuando se solicite
 
 Comandos en el orden comúnmente usado para la configuración inicial:
@@ -98,9 +98,9 @@ W000000,990,099###
 W000000,010,IMEI14
 ```
 
-3. Establecer el APN del operador y las credenciales opcionales del APN. Reemplace {{apn}} y las opcionales {{apnu}} y {{apnp}} por los valores de su operador SIM.
+3. Establecer el APN del operador y las credenciales opcionales del APN. Reemplace [apn] y las opcionales [apnu] y [apnp] por los valores de su operador SIM.
 ```
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
 (Si no se requiere usuario ni contraseña del APN, envíe solo el APN. Los corchetes indican campos opcionales.)
 

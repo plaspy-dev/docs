@@ -77,13 +77,13 @@ To configure the basic parameters on your Teltonika device, a common single comm
 - Example batch parameter command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explanation of placeholders and fields
-- {{apn}} is the carrier APN required for cellular data.
-- {{apnu}} is the APN username when your carrier requires it.
-- {{apnp}} is the APN password when your carrier requires it.
+- [apn] is the carrier APN required for cellular data.
+- [apnu] is the APN username when your carrier requires it.
+- [apnp] is the APN password when your carrier requires it.
 - 2004:d.plaspy.com sets the device to report to the Plaspy server domain.
 - 2005:8888 sets the shared Plaspy port used by all devices.
 - 2006:1 is included in this example parameter string as part of the device parameter set. Consult Teltonika documentation for the exact meaning of each numeric parameter index on your firmware version.

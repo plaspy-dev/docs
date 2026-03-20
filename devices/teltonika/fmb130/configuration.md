@@ -66,7 +66,7 @@ When configured, the FMB130 sends its position and available telemetry to Plaspy
 2. Enter the Plaspy server domain d.plaspy.com or the server IP 54.85.159.138 in the device server settings.
 3. Set the port to 8888 as the shared port used by Plaspy for all devices.
 4. Choose UDP or TCP if the device requires a transport selection during setup.
-5. Configure APN and any operator credentials using placeholders such as {{apn}}, {{apnu}}, and {{apnp}} where required.
+5. Configure APN and any operator credentials using placeholders such as [apn], [apnu], and [apnp] where required.
 6. Apply or save the configuration and restart the device if the tool or device prompts for a reboot.
 7. Validate that the device is reporting to Plaspy by checking the device list or live position feed in your Plaspy account.
 
@@ -76,13 +76,13 @@ The public Teltonika example command for setting core parameters can be used as 
 
 - Example Teltonika setparam command:
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command:
-- {{apn}} is the mobile operator APN string.
-- {{apnu}} is the APN username if required by your operator; leave blank if not needed.
-- {{apnp}} is the APN password if required by your operator; leave blank if not needed.
+- [apn] is the mobile operator APN string.
+- [apnu] is the APN username if required by your operator; leave blank if not needed.
+- [apnp] is the APN password if required by your operator; leave blank if not needed.
 - 2004 sets the server domain to d.plaspy.com and 2005 sets the port to 8888.
 - 2006 is a device parameter included in the example; consult Teltonika parameter documentation for the exact mapping of numeric parameter IDs to configuration options on your firmware.
 - This command may be sent by SMS to the device or applied through Teltonika Configurator depending on your deployment practice.

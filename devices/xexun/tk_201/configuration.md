@@ -82,21 +82,21 @@ begin123456
 
 2. Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} placeholder should be replaced with your mobile operator APN string.
+- [apn] placeholder should be replaced with your mobile operator APN string.
 
 3. Set the APN username (if required)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- {{apnu}} placeholder should be replaced with the APN username if your operator requires one.
+- [apnu] placeholder should be replaced with the APN username if your operator requires one.
 
 4. Set the APN password (if required)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-- {{apnp}} placeholder should be replaced with the APN password if required by the operator.
+- [apnp] placeholder should be replaced with the APN password if required by the operator.
 
 5. Set the GPRS server to Plaspy by IP and port
 ```text

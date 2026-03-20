@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the mobile operator APN and credentials
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} is the operator APN
-- {{apnu}} is the APN username if required; leave blank if not used
-- {{apnp}} is the APN password if required; leave blank if not used
+- [apn] is the operator APN
+- [apnu] is the APN username if required; leave blank if not used
+- [apnp] is the APN password if required; leave blank if not used
 
 4. Configure the GPRS reporting server to Plaspy using both domain and IP for redundancy
 ```text

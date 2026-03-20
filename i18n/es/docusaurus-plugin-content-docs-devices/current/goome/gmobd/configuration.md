@@ -79,10 +79,10 @@ El GMOBD puede configurarse enviando comandos SMS al dispositivo. Los siguientes
 ```
 FACTORY#
 ```
-2. Establecer el APN del operador. Reemplace {{apn}} por el APN de su operador. Si es necesario, incluya {{apnu}} y {{apnp}} para usuario y contraseña del APN.
+2. Establecer el APN del operador. Reemplace [apn] por el APN de su operador. Si es necesario, incluya [apnu] y [apnp] para usuario y contraseña del APN.
 ```
-APN,{{apn}}
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn]
+APN,[apn],[apnu],[apnp]#
 ```
 (Use la segunda forma si su APN requiere usuario y contraseña. Mantenga los marcadores de posición tal como aparecen y sustituya por las credenciales del operador.)
 
@@ -110,7 +110,7 @@ Nota: Estos comandos son las opciones públicas de configuración por SMS sumini
 - Las revisiones de firmware y hardware pueden cambiar los formatos de comando o las funciones disponibles; siempre confirme que su dispositivo acepta los comandos mostrados aquí.
 - El GMOBD soporta configuración por SMS según los comandos públicos anteriores; algunas implementaciones pueden preferir las herramientas del proveedor o actualizaciones por aire.
 - Elija UDP o TCP según las opciones del firmware y la confiabilidad de la red; Plaspy soporta ambos transportes en el puerto 8888.
-- Asegúrese de reemplazar los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} con las credenciales del operador, o use la forma corta de APN si no se requiere usuario ni contraseña.
+- Asegúrese de reemplazar los marcadores de posición [apn], [apnu] y [apnp] con las credenciales del operador, o use la forma corta de APN si no se requiere usuario ni contraseña.
 - Si los comandos fallan, verifique la conectividad de la SIM, la intensidad de la señal y que el rastreador tenga energía estable antes de reintentar.
 
 ## Por qué usar Plaspy con esta configuración

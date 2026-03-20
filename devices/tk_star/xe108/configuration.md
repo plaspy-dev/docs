@@ -82,19 +82,19 @@ The XE108 supports SMS based configuration. The manufacturer provides the follow
 begin123456
 ```
 
-2. Set the operator APN (replace {{apn}} with your mobile operator APN)
+2. Set the operator APN (replace [apn] with your mobile operator APN)
 ```
-apn123456 {{apn}}
-```
-
-3. Set the APN username if required by your operator (replace {{apnu}} with the username)
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-4. Set the APN password if required by your operator (replace {{apnp}} with the APN password)
+3. Set the APN username if required by your operator (replace [apnu] with the username)
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+4. Set the APN password if required by your operator (replace [apnp] with the APN password)
+```
+apnpasswd123456 [apnp]
 ```
 
 5. Set the GPRS server to the Plaspy endpoint using the direct IP and port
@@ -113,7 +113,7 @@ gprs123456
 ```
 
 Notes on placeholders and commands:
-- Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} as shown and replace them with your operator values when sending SMS.
+- Keep the placeholders [apn], [apnu], and [apnp] as shown and replace them with your operator values when sending SMS.
 - The command that points the server uses the Plaspy IP and the required port 8888. You may also provide d.plaspy.com in place of the IP if the device supports domain names.
 - The restore factory command begins with begin followed by the device password. Use that only when a factory reset is needed.
 

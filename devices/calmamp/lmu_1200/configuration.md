@@ -77,21 +77,21 @@ The LMU-1200 is configured to send its location and device data to the shared Pl
 
 ## Example Configuration Commands
 
-To set the tracker send the following commands by SMS messages. The device ID is the MID 10 digits replied by the !R0 command. The placeholders {{apn}}, {{apnu}}, and {{apnp}} represent your mobile operator APN, APN username, and APN password respectively.
+To set the tracker send the following commands by SMS messages. The device ID is the MID 10 digits replied by the !R0 command. The placeholders [apn], [apnu], and [apnp] represent your mobile operator APN, APN username, and APN password respectively.
 
 1. Set the operator APN
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 2. Set the APN operator username (if required)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 3. Set the APN operator password (if required)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 4. Set the GPRS server to Plaspy by IP
@@ -116,9 +116,9 @@ Verification command to check current settings
 ```
 
 Notes about placeholders
-- {{apn}} Replace with your operator APN string.
-- {{apnu}} Replace with APN username if your operator requires authentication.
-- {{apnp}} Replace with APN password if required.
+- [apn] Replace with your operator APN string.
+- [apnu] Replace with APN username if your operator requires authentication.
+- [apnp] Replace with APN password if required.
 
 ## Configuration Notes
 

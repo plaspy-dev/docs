@@ -83,10 +83,10 @@ Full example Syrus SB script (.tmf)
 >SRT;CONFIG<
 >SXADP**U<
 #configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 #The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 #A Destination Address holding the server destination
@@ -111,13 +111,13 @@ Key command notes and individual lines
 ```
 - APN settings with placeholders
 ```
->SRFA{{apn}}<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFA[apn]<
+>SRFL[apnu]<
+>SRFP[apnp]<
 ```
-  - {{apn}} is the network APN string for your SIM provider  
-  - {{apnu}} is the APN username if required by the carrier  
-  - {{apnp}} is the APN password if required by the carrier
+  - [apn] is the network APN string for your SIM provider  
+  - [apnu] is the APN username if required by the carrier  
+  - [apnp] is the APN password if required by the carrier
 - Point device to the Plaspy server and port
 ```
 >SXADP0000d.plaspy.com;8888<
@@ -136,7 +136,7 @@ Note: The exact command set and sequence may vary slightly by Syrus firmware or 
 
 - Firmware differences can change command availability and syntax. Verify the correct command set for your device firmware before saving scripts.  
 - Choose UDP or TCP based on network conditions and your organization policies; both transports are supported by Plaspy on port 8888.  
-- The example script uses APN placeholders; replace {{apn}}, {{apnu}}, and {{apnp}} with your carrier values before uploading.  
+- The example script uses APN placeholders; replace [apn], [apnu], and [apnp] with your carrier values before uploading.  
 - Syrus Desk is commonly used to load .tmf scripts but follow DCT instructions for your exact toolchain.  
 - Backup satellite communication and PEGASUS Gateway OTA configuration are part of the Syrus product ecosystem and may require additional accessories or vendor tools.
 

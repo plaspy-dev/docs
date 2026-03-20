@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/obd2_gps_tracker
 id: obd2_gps_tracker
+sidebar_key: tk_staobd2_gps_tracker_index_obd2_gps_tracker
 sidebar_label: OBD2 GPS Tracker
 title: TK-Star - OBD2 GPS Tracker
 sidebar_class_name: menu_item_tracker

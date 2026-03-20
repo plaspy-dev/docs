@@ -80,13 +80,13 @@ El siguiente ejemplo se extrae del contenido público de configuración de Telto
 - Comando de ejemplo (una sola línea):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores y su uso:
-- {{apn}} es el nombre del APN de la red celular requerido por la SIM
-- {{apnu}} es el usuario del APN si la red lo solicita; déjelo vacío si no se usa
-- {{apnp}} es la contraseña del APN si lo requiere el operador
+- [apn] es el nombre del APN de la red celular requerido por la SIM
+- [apnu] es el usuario del APN si la red lo solicita; déjelo vacío si no se usa
+- [apnp] es la contraseña del APN si lo requiere el operador
 - El comando establece el dominio del servidor Plaspy d.plaspy.com y el puerto 8888 tal como se muestra
 - Dependiendo de la herramienta Teltonika o de la interfaz SMS que utilice, envíe este comando con el formato recomendado por ese método
 - Ajuste el transporte u otros parámetros adicionales según la documentación de Teltonika o su plan de aprovisionamiento

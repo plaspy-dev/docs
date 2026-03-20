@@ -1,6 +1,7 @@
 ---
 slug: /wp/spt_10
 id: spt_10
+sidebar_key: wspt_10_index_spt_10
 sidebar_label: SPT-10
 title: WP - SPT-10
 sidebar_class_name: menu_item_tracker

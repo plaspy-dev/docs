@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt_100
 id: mt_100
+sidebar_key: megastemt_100_index_mt_100
 sidebar_label: MT-100
 title: Megastek - MT-100
 sidebar_class_name: menu_item_tracker

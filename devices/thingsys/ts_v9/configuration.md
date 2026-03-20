@@ -78,7 +78,7 @@ If you use SMS for initial setup, include the device password in SMS commands wh
 
 ## Example Configuration Commands
 
-The TS-V9 supports SMS-based configuration using the device password. The sample public SMS commands below reflect the order and placeholders that are commonly used. The device default password shown in the public configuration content is 123456. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier APN values.
+The TS-V9 supports SMS-based configuration using the device password. The sample public SMS commands below reflect the order and placeholders that are commonly used. The device default password shown in the public configuration content is 123456. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your carrier APN values.
 
 1. Optional initial factory reset (only when needed)
 ```
@@ -88,21 +88,21 @@ Label: optional initial setup or when a full factory reset is required before re
 
 2. Set the operator APN
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Replace {{apn}} with your carrier APN string.
+Replace [apn] with your carrier APN string.
 
 3. Set the APN username
 ```
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-Replace {{apnu}} with the APN username if your carrier requires one. Leave blank or omit if not required.
+Replace [apnu] with the APN username if your carrier requires one. Leave blank or omit if not required.
 
 4. Set the APN password
 ```
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-Replace {{apnp}} with the APN password if required by the carrier.
+Replace [apnp] with the APN password if required by the carrier.
 
 5. Set the GPRS server (IP and port)
 ```
@@ -116,7 +116,7 @@ CXZT
 ```
 Use this verification command to request current configuration details from the device where supported.
 
-Notes on placeholders: {{apn}} is the carrier APN. {{apnu}} and {{apnp}} are the APN username and password placeholders. Keep the device password (123456 in the public example) present in the command format if the device requires authentication for SMS configuration.
+Notes on placeholders: [apn] is the carrier APN. [apnu] and [apnp] are the APN username and password placeholders. Keep the device password (123456 in the public example) present in the command format if the device requires authentication for SMS configuration.
 
 ## Configuration Notes
 

@@ -1,6 +1,7 @@
 ---
 slug: /xexun/tk_203
 id: tk_203
+sidebar_key: xexutk_203_index_tk_203
 sidebar_label: TK-203
 title: Xexun - TK-203
 sidebar_class_name: menu_item_tracker

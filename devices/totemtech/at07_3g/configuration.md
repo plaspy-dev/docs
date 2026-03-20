@@ -82,10 +82,10 @@ The following SMS commands are public examples for the AT07-3G. These commands u
 *000000,007#
 ```
 
-- Set the operator APN. Replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator APN, username, and password as needed. If username or password are not required, use empty values or follow the device SMS rules.
+- Set the operator APN. Replace [apn], [apnu], and [apnp] with your mobile operator APN, username, and password as needed. If username or password are not required, use empty values or follow the device SMS rules.
 
 ```
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to Plaspy using the public server IP and port 8888. The final value "1" in this command is vendor specific to the device command syntax and appears in the published sequence.
@@ -108,7 +108,7 @@ The following SMS commands are public examples for the AT07-3G. These commands u
 
 Notes on placeholders and password
 - The example commands use the default password 000000 as shown in the public commands. If your device password differs, replace 000000 with the correct password.
-- Placeholders {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your mobile operator APN settings. Keep the placeholders visible in documentation until replaced for your deployment.
+- Placeholders [apn], [apnu], and [apnp] should be replaced with your mobile operator APN settings. Keep the placeholders visible in documentation until replaced for your deployment.
 
 ## Configuration Notes
 

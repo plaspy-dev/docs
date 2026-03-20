@@ -79,7 +79,7 @@ Al configurarse, el G500M envía telemetría de ubicación y eventos por GSM/GPR
 
 El G500M puede configurarse mediante las herramientas del fabricante, conjuntos de comandos SMS o software proporcionado por el proveedor. Los comandos exactos y la sintaxis varían según el firmware y la utilidad del proveedor. Dado que el contenido modelConfiguration no se proporciona aquí, no es posible listar cadenas de comandos precisas de forma genérica.
 
-Si dispone de la documentación de comandos SMS del fabricante o de una herramienta del proveedor, úsela para establecer el servidor d.plaspy.com o 54.85.159.138 y el puerto 8888, y seleccione UDP o TCP según sea necesario. Conserve los marcadores de posición del fabricante como {{apn}}, {{apnu}} o {{apnp}} si aparecen, y reemplácelos por las credenciales APN de su SIM cuando corresponda.
+Si dispone de la documentación de comandos SMS del fabricante o de una herramienta del proveedor, úsela para establecer el servidor d.plaspy.com o 54.85.159.138 y el puerto 8888, y seleccione UDP o TCP según sea necesario. Conserve los marcadores de posición del fabricante como [apn], [apnu] o [apnp] si aparecen, y reemplácelos por las credenciales APN de su SIM cuando corresponda.
 
 ## Notas de configuración
 

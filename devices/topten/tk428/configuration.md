@@ -80,9 +80,9 @@ The TopTen public configuration supports SMS-based commands. The following comma
 111111CLR
 ```
 
-- Set APN and GPRS server to point the device to Plaspy. This command sets the server IP, the port, and APN parameters. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your SIM card APN name, username, and password as required:
+- Set APN and GPRS server to point the device to Plaspy. This command sets the server IP, the port, and APN parameters. Preserve the placeholders [apn], [apnu], and [apnp] and replace them with your SIM card APN name, username, and password as required:
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 
 - Verify or check the current WWW server settings on the device:
@@ -91,9 +91,9 @@ The TopTen public configuration supports SMS-based commands. The following comma
 ```
 
 Notes about placeholders:
-- {{apn}} is the APN name for your mobile operator.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is the APN name for your mobile operator.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
 
 The manufacturer documentation indicates the tracker ID used by Plaspy corresponds to the last 14 digits of the 15 digit IMEI. For example, if the IMEI is 15 digits long, the identifier is IMEI characters 2 through 15.
 

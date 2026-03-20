@@ -89,12 +89,12 @@ RESET
 
 - Set the APN and credentials
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 Explanation: keep the placeholders as follows:
-- {{apn}} = your mobile operator APN
-- {{apnu}} = APN username if required (omit or leave blank if not required)
-- {{apnp}} = APN password if required (omit or leave blank if not required)
+- [apn] = your mobile operator APN
+- [apnu] = APN username if required (omit or leave blank if not required)
+- [apnp] = APN password if required (omit or leave blank if not required)
 
 - Set the GPRS server to the Plaspy IP and port
 ```text

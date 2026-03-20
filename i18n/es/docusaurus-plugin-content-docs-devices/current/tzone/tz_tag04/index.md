@@ -1,6 +1,7 @@
 ---
 slug: /tzone/tz_tag04
 id: tz_tag04
+sidebar_key: tzontz_tag04_index_tz_tag04
 sidebar_label: TZ-Tag04
 title: TZone - TZ-Tag04
 sidebar_class_name: menu_item_tracker

@@ -46,7 +46,7 @@ Configuring the GS300 for Plaspy prepares the tracker to send its location and e
 ## Typical Requirements Before Setup
 
 - A charged GS300 with an active SIM card and a data plan or SMS capability as required by the chosen configuration method.  
-- Carrier APN details for the SIM card to enable GPRS data. Use placeholders such as {{apn}} where appropriate.  
+- Carrier APN details for the SIM card to enable GPRS data. Use placeholders such as [apn] where appropriate.  
 - Access to the WanWay GS300 configuration method documented by the manufacturer (SMS or vendor tool).  
 - A Plaspy account and the ability to confirm device visibility in your Plaspy instance.  
 - Basic SMS capability from your phone or access to the vendor desktop tool if the device is configured by software.  
@@ -76,13 +76,13 @@ When configured for Plaspy, the GS300 opens a GPRS data session to the shared Pl
 
 The WanWay GS300 public configuration supports SMS commands. Send these commands via text message to the device number in the order indicated when using SMS based setup.
 
-- Configure the carrier APN (replace {{apn}} and optional {{apnu}} and {{apnp}} with your carrier values):
+- Configure the carrier APN (replace [apn] and optional [apnu] and [apnp] with your carrier values):
 ```
-APN,{{apn}}
+APN,[apn]
 ```
 or, if username and password are required:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Set the GPRS server to Plaspy using the domain and port shown here:
 ```
@@ -106,8 +106,8 @@ STATUS#
 ```
 
 Notes on placeholders and commands:
-- {{apn}} is the carrier APN string required to open a data session.  
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders when your carrier requires authentication.  
+- [apn] is the carrier APN string required to open a data session.  
+- [apnu] and [apnp] are optional APN username and password placeholders when your carrier requires authentication.  
 - The SERVER command shown points to d.plaspy.com and port 8888, which are the public Plaspy server settings. Preserve the command order when you apply the sequence for initial setup.
 
 ## Configuration Notes

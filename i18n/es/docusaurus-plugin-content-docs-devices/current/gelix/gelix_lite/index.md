@@ -1,6 +1,7 @@
 ---
 slug: /gelix/gelix_lite
 id: gelix_lite
+sidebar_key: geligelix_lite_index_gelix_lite
 sidebar_label: Gelix Lite
 title: Gelix - Gelix Lite
 sidebar_class_name: menu_item_tracker

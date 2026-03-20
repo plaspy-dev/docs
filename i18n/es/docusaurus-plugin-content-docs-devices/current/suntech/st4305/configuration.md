@@ -22,7 +22,7 @@ keywords:
 
 Esta página reúne el contexto público de configuración para usar la serie Suntech ST4305 con Plaspy. Contiene los ajustes de servidor prácticos, plantillas de comandos SMS y las indicaciones de flujo de trabajo que están disponibles públicamente para preparar un dispositivo ST4305 y que reporte en la plataforma Plaspy. Utilice esta página como referencia práctica al integrar dispositivos ST4305 en su flota Plaspy.
 
-Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador al conectarse, pero los pasos exactos del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El ST4305 soporta configuración por SMS en su guía pública; esta página incluye esas plantillas de comandos SMS y explica cómo obtener el ID de dispositivo requerido y los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}}.
+Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador al conectarse, pero los pasos exactos del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El ST4305 soporta configuración por SMS en su guía pública; esta página incluye esas plantillas de comandos SMS y explica cómo obtener el ID de dispositivo requerido y los marcadores de posición como [apn], [apnu] y [apnp].
 
 ## Resumen de configuración
 
@@ -48,7 +48,7 @@ Estos son los valores públicos de Plaspy que debe usar al configurar un ST4305 
 
 - Una unidad ST4305 alimentada y accesible con su IMEI disponible (el IMEI es necesario para derivar el ID del rastreador).  
 - Una tarjeta SIM activa con datos y capacidad de SMS apropiada para la red móvil y la variante de dispositivo objetivo.  
-- Información del APN y, opcionalmente, usuario y contraseña del APN proporcionada por el operador para completar los marcadores {{apn}}, {{apnu}} y {{apnp}}.  
+- Información del APN y, opcionalmente, usuario y contraseña del APN proporcionada por el operador para completar los marcadores [apn], [apnu] y [apnp].  
 - Acceso al método de configuración recomendado por el fabricante (comandos SMS, herramienta de servicio o utilidad de configuración) para aplicar los ajustes.  
 - Conocimientos básicos sobre si el dispositivo debe usar UDP o TCP para la conexión, en caso de que sea necesario seleccionar el transporte.  
 - Acceso a una cuenta Plaspy o pasos de onboarding para confirmar que el dispositivo aparece en la plataforma una vez que empiece a reportar.
@@ -76,15 +76,15 @@ El ST4305 se configura para enviar su ubicación y telemetría a la plataforma P
 
 ## Ejemplos de comandos de configuración
 
-La guía pública del ST4305 proporciona plantillas de comandos SMS para la configuración de red y reporte. El fabricante usa un ID de dispositivo derivado del IMEI (los seis dígitos previos al último dígito del IMEI). Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben sustituirse por el APN, usuario y contraseña del operador cuando sea necesario. Reemplace {{device_id}} con el ID de seis dígitos derivado del IMEI como se describió arriba.
+La guía pública del ST4305 proporciona plantillas de comandos SMS para la configuración de red y reporte. El fabricante usa un ID de dispositivo derivado del IMEI (los seis dígitos previos al último dígito del IMEI). Los marcadores [apn], [apnu] y [apnp] deben sustituirse por el APN, usuario y contraseña del operador cuando sea necesario. Reemplace {{device_id}} con el ID de seis dígitos derivado del IMEI como se describió arriba.
 
 1) Configurar el APN del operador y el servidor GPRS (incluye la IP y el puerto de Plaspy)
 ```text
-SA200NTW;{{device_id}};02;0;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Notas:  
   - {{device_id}} es el ID derivado del IMEI (los últimos 6 dígitos excluyendo el dígito final del IMEI).  
-  - Los campos de APN {{apn}}, {{apnu}} y {{apnp}} deben rellenarse con los valores de su operador.  
+  - Los campos de APN [apn], [apnu] y [apnp] deben rellenarse con los valores de su operador.  
   - El comando incluye la IP del servidor Plaspy 54.85.159.138 y el puerto 8888. Puede sustituir d.plaspy.com en lugar de la IP si el dispositivo acepta nombres de dominio.
 
 2) Establecer el intervalo de reporte a 60 segundos
@@ -106,7 +106,7 @@ Conserve el orden anterior al aplicar estos comandos si el dispositivo espera qu
 - La sintaxis exacta de los SMS y el orden de los parámetros pueden variar según la versión de firmware y la variante regional del dispositivo; siempre verifique el formato de comando con la documentación del fabricante para su revisión de dispositivo.  
 - El flujo público del ST4305 en estos ejemplos usa comandos SMS, por lo que debe asegurarse de que la SIM pueda recibir SMS y de que el dispositivo tenga conectividad GSM durante la configuración.  
 - Elija UDP o TCP según las condiciones de la instalación y la red; algunos instaladores prefieren UDP por menor overhead y otros usan TCP por su entrega garantizada. Plaspy soporta ambos y detecta el protocolo automáticamente.  
-- Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben completarse con los valores del operador. Si su SIM no requiere usuario o contraseña, deje {{apnu}} y {{apnp}} vacíos según lo permita la sintaxis del dispositivo.  
+- Los marcadores [apn], [apnu] y [apnp] deben completarse con los valores del operador. Si su SIM no requiere usuario o contraseña, deje [apnu] y [apnp] vacíos según lo permita la sintaxis del dispositivo.  
 - El ID del dispositivo se deriva del IMEI usando la regla del fabricante mostrada arriba; un ID incorrecto impedirá que Plaspy asocie la telemetría con el activo correspondiente.
 
 ## Por qué usar Plaspy con esta configuración

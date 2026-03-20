@@ -78,9 +78,9 @@ El Tramigo T23 ofrece un flujo de configuración por SMS en documentación públ
 
 - Establecer el APN del operador y el nombre de usuario y contraseña opcionales
 ```text
-GPRS,APN,{{apn}},{{apnu}},{{apnp}}
+GPRS,APN,[apn],[apnu],[apnp]
 ```
-Explicación: Reemplace {{apn}} por el APN de su operador. Use {{apnu}} y {{apnp}} si su operador requiere nombre de usuario y contraseña del APN. Si no son necesarios deje los marcadores vacíos o omita si el dispositivo acepta una forma más corta.
+Explicación: Reemplace [apn] por el APN de su operador. Use [apnu] y [apnp] si su operador requiere nombre de usuario y contraseña del APN. Si no son necesarios deje los marcadores vacíos o omita si el dispositivo acepta una forma más corta.
 
 - Activar el reporte FIND con intervalo de reporte de 1 minuto
 ```text

@@ -86,7 +86,7 @@ Si dispone de la lista oficial de comandos de Intellitrack proporcionada por su 
 - transporte a UDP o TCP
 - APN y cualquier credencial de red requerida
 
-Conserve los marcadores de posición de las plantillas del fabricante como {{apn}} o {{apnu}} al aplicar los comandos y reemplácelos por los valores específicos del operador.
+Conserve los marcadores de posición de las plantillas del fabricante como [apn] o [apnu] al aplicar los comandos y reemplácelos por los valores específicos del operador.
 
 ## Notas de configuración
 

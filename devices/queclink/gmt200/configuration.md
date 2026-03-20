@@ -78,7 +78,7 @@ The GMT200 can be configured using SMS AT style commands. The following example 
 
 Notes
 - The first command is a factory settings restore and is optional or used when starting from an unknown state.
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for your SIM APN name, APN username, and APN password respectively.
+- [apn], [apnu], and [apnp] are placeholders for your SIM APN name, APN username, and APN password respectively.
 
 1. Optional initial factory reset command
 ```text
@@ -92,10 +92,10 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN with placeholders for APN values
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- Replace {{apn}} with your cellular provider APN name
-- Replace {{apnu}} and {{apnp}} with APN username and password if required by the operator
+- Replace [apn] with your cellular provider APN name
+- Replace [apnu] and [apnp] with APN username and password if required by the operator
 
 4. Configure the GPRS server to point to Plaspy
 ```text

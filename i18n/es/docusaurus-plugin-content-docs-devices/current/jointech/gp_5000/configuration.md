@@ -80,19 +80,19 @@ Para configurar el rastreador, envíe los siguientes comandos por SMS. Inicie ca
 
 1) Establecer servidor GPRS y APN
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 2) Establecer usuario y contraseña del APN (envíe solo si su APN requiere usuario o contraseña)
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notas sobre los marcadores:
 - {{trackerID}} — el ID del dispositivo o prefijo IMEI requerido por el formato de comando SMS del GP 5000
-- {{apn}} — el nombre del APN de su operador móvil
-- {{apnu}} — usuario del APN si el operador lo requiere; deje vacío si no aplica
-- {{apnp}} — contraseña del APN si el operador la requiere; deje vacío si no aplica
+- [apn] — el nombre del APN de su operador móvil
+- [apnu] — usuario del APN si el operador lo requiere; deje vacío si no aplica
+- [apnp] — contraseña del APN si el operador la requiere; deje vacío si no aplica
 
 Envíe estos comandos SMS desde un número autorizado al número de la SIM del dispositivo. Confirme el éxito revisando la respuesta por SMS del dispositivo (si está disponible) o validando que el equipo aparezca en Plaspy después de aplicar la configuración.
 

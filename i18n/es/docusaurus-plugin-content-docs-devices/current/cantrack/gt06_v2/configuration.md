@@ -82,9 +82,9 @@ begin123456
 
 - Configurar el APN del operador
 ```text
-apn123456 {{apn}} {{apnu}} {{apnp}}
+apn123456 [apn] [apnu] [apnp]
 ```
-Explicación: reemplace {{apn}} por la cadena APN del operador, {{apnu}} por el nombre de usuario del APN si se requiere y {{apnp}} por la contraseña del APN si se requiere. Deje el usuario o la contraseña en blanco si no se usan.
+Explicación: reemplace [apn] por la cadena APN del operador, [apnu] por el nombre de usuario del APN si se requiere y [apnp] por la contraseña del APN si se requiere. Deje el usuario o la contraseña en blanco si no se usan.
 
 - Establecer la zona horaria a UTC0 (ejemplo)
 ```text
@@ -107,7 +107,7 @@ check123456
 - La configuración por SMS es un método público común para el GT06 v2, pero también pueden existir herramientas del proveedor o utilidades de firmware para aprovisionamiento masivo
 - Diferentes versiones de firmware o revisiones de hardware pueden aceptar formatos de comando ligeramente distintos o tener contraseñas por defecto y comportamientos diferentes
 - Elija UDP o TCP según la preferencia del instalador y las condiciones de la red; Plaspy soporta ambos y detectará el protocolo automáticamente
-- Conserve los marcadores de posición como {{apn}} {{apnu}} y {{apnp}} y sustituya por los valores proporcionados por su operador móvil
+- Conserve los marcadores de posición como [apn] [apnu] y [apnp] y sustituya por los valores proporcionados por su operador móvil
 - Si realiza un reinicio de fábrica como paso inicial, vuelva a aplicar APN y ajustes del servidor después
 
 ## Por qué usar Plaspy con esta configuración

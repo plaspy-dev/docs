@@ -1,6 +1,7 @@
 ---
 slug: /gotop/tl_201
 id: tl_201
+sidebar_key: gototl_201_index_tl_201
 sidebar_label: TL-201
 title: GOTOP - TL-201
 sidebar_class_name: menu_item_tracker

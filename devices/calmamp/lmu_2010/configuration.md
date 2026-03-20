@@ -84,17 +84,17 @@ The LMU-2010 can be configured by SMS using the public commands shown below. The
 ```text
 !R0
 ```
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
-- Set the APN username if required (replace {{apnu}} with the username):
+- Set the APN username if required (replace [apnu] with the username):
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
-- Set the APN password if required (replace {{apnp}} with the password):
+- Set the APN password if required (replace [apnp] with the password):
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 - Set the GPRS server to the Plaspy server IP:
 ```text
@@ -114,9 +114,9 @@ The LMU-2010 can be configured by SMS using the public commands shown below. The
 ```
 
 Notes on placeholders and usage:
-- {{apn}} is a placeholder for the mobile operator APN string.
-- {{apnu}} is a placeholder for the APN username if the operator requires one.
-- {{apnp}} is a placeholder for the APN password if the operator requires one.
+- [apn] is a placeholder for the mobile operator APN string.
+- [apnu] is a placeholder for the APN username if the operator requires one.
+- [apnp] is a placeholder for the APN password if the operator requires one.
 - The command order above is important: set network credentials and server values before rebooting.
 - The reboot command is included to apply new settings; treat it as required when your workflow or firmware documentation indicates a restart is necessary.
 

@@ -90,9 +90,9 @@ GMT,E,0#
 
 - Establecer el APN del operador
 ```text
-APN,{{apn}}{{apnu}},{{apnp}}#
+APN,[apn][apnu],[apnp]#
 ```
-Explicación: mantenga los marcadores de posición tal como aparecen en la documentación del dispositivo. Reemplace {{apn}} por el nombre del APN de su operador. Use {{apnu}} para el nombre de usuario del APN y {{apnp}} para la contraseña del APN si su operador lo exige. Si no se requieren usuario y contraseña, el comando APN puede enviarse solo con {{apn}}.
+Explicación: mantenga los marcadores de posición tal como aparecen en la documentación del dispositivo. Reemplace [apn] por el nombre del APN de su operador. Use [apnu] para el nombre de usuario del APN y [apnp] para la contraseña del APN si su operador lo exige. Si no se requieren usuario y contraseña, el comando APN puede enviarse solo con [apn].
 
 - Establecer el servidor GPRS por dominio usando el dominio de Plaspy y el puerto
 ```text
@@ -122,7 +122,7 @@ Envíe estos mensajes SMS desde el número autorizado para el dispositivo, sigui
 - Las versiones de firmware pueden cambiar el análisis de comandos y las opciones disponibles; verifique la sintaxis si los comandos no son aceptados.
 - La elección entre UDP y TCP depende de las opciones del dispositivo; Plaspy acepta ambos y detecta automáticamente el protocolo cuando llegan mensajes al puerto 8888.
 - Plaspy utiliza el mismo puerto para todos los dispositivos compatibles, lo que simplifica la configuración del servidor y permite que la detección automática de protocolo gestione distintos protocolos de rastreadores.
-- Al usar marcadores de posición APN como {{apn}}, {{apnu}} y {{apnp}}, confirme el formato exacto requerido por su operador e incluya credenciales solo cuando sean necesarias.
+- Al usar marcadores de posición APN como [apn], [apnu] y [apnp], confirme el formato exacto requerido por su operador e incluya credenciales solo cuando sean necesarias.
 
 ## Por qué usar Plaspy con esta configuración
 

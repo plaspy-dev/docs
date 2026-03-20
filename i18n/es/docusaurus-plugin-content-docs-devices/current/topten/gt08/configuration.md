@@ -83,12 +83,12 @@ Etiqueta: restauración inicial opcional a valores de fábrica. Use esto solo si
 
 - Configure el APN y el servidor GPRS para apuntar el rastreador a Plaspy (el ejemplo usa la IP y puerto del servidor Plaspy). Reemplace los marcadores de posición con los valores de su operador.
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explicación:
-- {{apn}} = nombre del APN de su operador  
-- {{apnu}} = usuario del APN si es requerido (dejar vacío o eliminar si no se usa)  
-- {{apnp}} = contraseña del APN si es requerida (dejar vacío o eliminar si no se usa)  
+- [apn] = nombre del APN de su operador  
+- [apnu] = usuario del APN si es requerido (dejar vacío o eliminar si no se usa)  
+- [apnp] = contraseña del APN si es requerida (dejar vacío o eliminar si no se usa)  
 - Los parámetros RPT, SLP y RUN forman parte de la sintaxis del fabricante y controlan intervalos de reporte y ciclos según lo publicado por TopTen.
 
 - Verificar o consultar la configuración WWW/GPRS
@@ -105,7 +105,7 @@ Nota: El GT08 utiliza el ID del rastreador que corresponde a los últimos 14 dí
 - El GT08 admite provisión basada en SMS como se muestra arriba; asegúrese de que el número emisor de SMS tenga permiso para gestionar el dispositivo si así lo exige la configuración.  
 - Al configurar el servidor puede usar tanto el dominio d.plaspy.com como la IP 54.85.159.138; ambos deberían apuntar a Plaspy en el puerto 8888.  
 - Elija UDP o TCP según la capacidad del equipo; Plaspy detectará automáticamente el protocolo después de que el dispositivo se conecte.  
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} como plantillas al preparar los comandos; reemplácelos por los valores suministrados por su operador móvil.
+- Mantenga los marcadores [apn], [apnu] y [apnp] como plantillas al preparar los comandos; reemplácelos por los valores suministrados por su operador móvil.
 
 ## Por qué usar Plaspy con esta configuración
 

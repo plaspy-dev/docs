@@ -1,6 +1,7 @@
 ---
 slug: /thingsys/ls500
 id: ls500
+sidebar_key: thingsyls500_index_ls500
 sidebar_label: LS500
 title: ThingSys - LS500
 sidebar_class_name: menu_item_tracker

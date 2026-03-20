@@ -76,9 +76,9 @@ The VT200 supports SMS based configuration. The public example commands below us
 
 - Set the operator APN
 ```sms
-(Set,888888,apn,{{apn}},{{apnu}},{{apnp}})
+(Set,888888,apn,[apn],[apnu],[apnp])
 ```
-Explanation: Replace {{apn}} with your mobile operator APN. If your operator requires a username or password include {{apnu}} and {{apnp}} respectively. If no username or password are required, you may omit those placeholders according to the device SMS format.
+Explanation: Replace [apn] with your mobile operator APN. If your operator requires a username or password include [apnu] and [apnp] respectively. If no username or password are required, you may omit those placeholders according to the device SMS format.
 
 - Set the GPRS server to Plaspy by IP and port
 ```sms

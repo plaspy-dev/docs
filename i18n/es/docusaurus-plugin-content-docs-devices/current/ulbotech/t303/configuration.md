@@ -80,7 +80,7 @@ El T303 transmite fijaciones GNSS y telemetría mediante GPRS a Plaspy usando el
 
 Los comandos de configuración exactos y el método para enviarlos dependen de las herramientas de Ulbotech y del firmware del dispositivo. Algunas instalaciones usan una herramienta USB, una aplicación de escritorio del fabricante o cadenas de comandos via SMS. Debido a que las herramientas del fabricante y las versiones de firmware varían, siga la guía de configuración oficial de Ulbotech para comandos y sintaxis específicos. Si su método de instalación admite SMS o configuración por línea de comandos, aplique el endpoint de Plaspy (d.plaspy.com o 54.85.159.138) y el puerto 8888 exactamente como se indican en la herramienta del dispositivo.
 
-Si dispone de una lista de comandos Ulbotech proporcionada por el vendedor, aplique el dominio o la IP del servidor y el puerto en el mismo orden que recomienda Ulbotech, luego guarde y reinicie el dispositivo. Conserve los marcadores de posición de los ejemplos del fabricante como {{apn}} o {{apnu}} y reemplácelos por los valores de su operador cuando esté indicado.
+Si dispone de una lista de comandos Ulbotech proporcionada por el vendedor, aplique el dominio o la IP del servidor y el puerto en el mismo orden que recomienda Ulbotech, luego guarde y reinicie el dispositivo. Conserve los marcadores de posición de los ejemplos del fabricante como [apn] o [apnu] y reemplácelos por los valores de su operador cuando esté indicado.
 
 ## Notas de configuración
 

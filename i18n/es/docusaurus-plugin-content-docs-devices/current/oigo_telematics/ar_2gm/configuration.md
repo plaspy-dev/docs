@@ -80,7 +80,7 @@ Si utiliza la secuencia de comandos AT de ejemplo mostrada a continuación, ejec
 La secuencia pública de comandos AT del AR-2GM que aparece a continuación se ofrece como ejemplo extraído de contenido público del fabricante. Estos comandos AT se aplican habitualmente mediante la herramienta de configuración del fabricante, la interfaz serial o por SMS, según su equipo. Mantenga el orden cuando el orden de comandos sea importante.
 
 Puntos clave:
-- AT+XAPN incluye un marcador de posición {{apn}}. Reemplace {{apn}} por el APN de su operador móvil.
+- AT+XAPN incluye un marcador de posición [apn]. Reemplace [apn] por el APN de su operador móvil.
 - AT+XIP especifica la IP y el puerto del servidor Plaspy.
 - Los comandos finales AT+XRST son reinicios del dispositivo; considérelos opcionales o parte de la configuración inicial cuando corresponda.
 
@@ -88,7 +88,7 @@ Puntos clave:
 
 ```
 AT+XRFD
-AT+XAPN=1"{{apn}}"
+AT+XAPN=1"[apn]"
 AT+XIP="54.85.159.138",8888
 AT+XBUB=1
 AT+XBUBE=3,30
@@ -148,7 +148,7 @@ AT+XRST=2
 ```
 
 Marcadores de posición y notas:
-- {{apn}} es un marcador de posición para la cadena APN de la red móvil requerida por la SIM instalada. Reemplácelo por el APN de su operador.
+- [apn] es un marcador de posición para la cadena APN de la red móvil requerida por la SIM instalada. Reemplácelo por el APN de su operador.
 - El comando AT+XIP anterior apunta el dispositivo a Plaspy usando la IP pública y el puerto. Puede usar el dominio d.plaspy.com en herramientas del fabricante que acepten un dominio en lugar de una IP.
 - Los comandos AT+XRST son operaciones de reinicio del dispositivo mostradas en la secuencia; utilícelas como parte de la configuración inicial o cuando el fabricante recomiende un reinicio para aplicar ajustes.
 

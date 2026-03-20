@@ -93,11 +93,11 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Establecer el APN del operador donde {{apn}} es el nombre del APN, {{apnu}} es el usuario APN, {{apnp}} es la contraseña APN, y xxxyy son los dígitos MCC y MNC
+- Establecer el APN del operador donde [apn] es el nombre del APN, [apnu] es el usuario APN, [apnp] es la contraseña APN, y xxxyy son los dígitos MCC y MNC
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explicación: mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y cámbielos por los valores del operador. Reemplace xxxyy por los dígitos combinados MCC y MNC según sea necesario.
+Explicación: mantenga los marcadores [apn], [apnu] y [apnp] y cámbielos por los valores del operador. Reemplace xxxyy por los dígitos combinados MCC y MNC según sea necesario.
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
 ```text

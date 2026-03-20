@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/gh5200
 id: gh5200
+sidebar_key: teltonikgh5200_index_gh5200
 sidebar_label: GH5200
 title: Teltonika - GH5200
 sidebar_class_name: menu_item_tracker

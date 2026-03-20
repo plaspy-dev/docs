@@ -84,10 +84,10 @@ Save as a new text file with a .tmf extension and load it with Syrus Desk.
 >SRT;CONFIG<
 >SXADP**U<
 #configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 #The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 #A Destination Address holding the server destination
@@ -102,18 +102,18 @@ Save as a new text file with a .tmf extension and load it with Syrus Desk.
 ```
 
 Notes on the script and placeholders:
-- The initial block marked "Delete any previous configuration" (for example >SRT;CONFIG< and >SXADP**U<) clears or resets configuration entries and should be used as an initial setup step where appropriate. Treat reset commands as optional for existing installations and use them when you need a clean configuration.  
-- {{apn}} is a placeholder for your mobile operator APN. Replace it with the operator APN string.  
-- {{apnu}} is a placeholder for the APN username if required by the operator. Leave empty or remove if not required.  
-- {{apnp}} is a placeholder for the APN password if required by the operator. Leave empty or remove if not required.  
-- The server line >SXADP0000d.plaspy.com;8888< points the device to Plaspy using the shared port 8888. You may also use the IP 54.85.159.138 if DNS is not preferred in your network.  
+- The initial block marked "Delete any previous configuration" (for example >SRT;CONFIG\< and >SXADP**U\<) clears or resets configuration entries and should be used as an initial setup step where appropriate. Treat reset commands as optional for existing installations and use them when you need a clean configuration.  
+- [apn] is a placeholder for your mobile operator APN. Replace it with the operator APN string.  
+- [apnu] is a placeholder for the APN username if required by the operator. Leave empty or remove if not required.  
+- [apnp] is a placeholder for the APN password if required by the operator. Leave empty or remove if not required.  
+- The server line >SXADP0000d.plaspy.com;8888\< points the device to Plaspy using the shared port 8888. You may also use the IP 54.85.159.138 if DNS is not preferred in your network.  
 - After loading the script in Syrus Desk, save and reboot the device if required to start reporting.
 
 ## Configuration Notes
 
 - Firmware variations and different Syrus Desk versions may require slightly different command syntax or load procedures; always confirm the syntax for your specific firmware.  
 - Choose UDP or TCP based on your network and device requirements; Plaspy will detect the protocol used by the tracker.  
-- If your operator requires APN credentials, fill {{apnu}} and {{apnp}}; if not required, leave those fields blank.  
+- If your operator requires APN credentials, fill [apnu] and [apnp]; if not required, leave those fields blank.  
 - When reusing or modifying public scripts, back up the device configuration before applying resets or deletion commands.  
 - Consult DCT product documentation for device-specific details and for any changes to command names or supported TMF script options.
 

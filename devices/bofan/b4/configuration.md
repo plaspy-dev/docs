@@ -82,17 +82,17 @@ The Bofan public guidance includes SMS commands that are sent to the device to c
 000000DFT
 ```
 
-- Set the 14-digit identifier (GID) used with Plaspy. Replace \<14-digit-id> with the last 14 digits of the device IMEI:
+- Set the 14-digit identifier (GID) used with Plaspy. Replace \\<14-digit-id> with the last 14 digits of the device IMEI:
 ```text
 000000GID<14-digit-id>
 ```
 Explanation: Use the last 14 digits of the IMEI as the identifier when requested by Plaspy.
 
-- Set the APN of the mobile operator. Replace {{apn}} with your operator APN and include {{apnu}} and {{apnp}} if username or password are required:
+- Set the APN of the mobile operator. Replace [apn] with your operator APN and include [apnu] and [apnp] if username or password are required:
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the APN string from the SIM operator. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+Explanation: [apn] is the APN string from the SIM operator. [apnu] and [apnp] are optional APN username and password placeholders.
 
 - Set the GPRS server to point to Plaspy. This uses the public Plaspy server IP and port:
 ```text

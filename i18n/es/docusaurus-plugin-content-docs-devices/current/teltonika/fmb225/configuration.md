@@ -78,13 +78,13 @@ El siguiente comando es un lote de parámetros en estilo Teltonika, público, ut
 - Ejemplo de comando en un solo lote
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores y campos
-- {{apn}} — sustituya por el nombre APN de su operador móvil.
-- {{apnu}} — sustituya por el usuario APN si su operador lo requiere; deje en blanco si no es necesario.
-- {{apnp}} — sustituya por la contraseña APN si su operador la requiere; deje en blanco si no es necesario.
+- [apn] — sustituya por el nombre APN de su operador móvil.
+- [apnu] — sustituya por el usuario APN si su operador lo requiere; deje en blanco si no es necesario.
+- [apnp] — sustituya por la contraseña APN si su operador la requiere; deje en blanco si no es necesario.
 - El comando establece el dominio del servidor en d.plaspy.com y el puerto del servidor en 8888, tal como exige Plaspy.
 - El parámetro final 2006:1 aparece en el ejemplo público; consulte la documentación de Teltonika para conocer su significado exacto según su firmware o manténgalo si está documentado para su dispositivo.
 

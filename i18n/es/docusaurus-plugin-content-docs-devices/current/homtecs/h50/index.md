@@ -1,6 +1,7 @@
 ---
 slug: /homtecs/h50
 id: h50
+sidebar_key: homtech50_index_h50
 sidebar_label: H50
 title: Homtecs - H50
 sidebar_class_name: menu_item_tracker

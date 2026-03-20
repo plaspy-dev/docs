@@ -72,7 +72,7 @@ The AT09-4G is configured to send GNSS and telemetry data to the shared Plaspy s
 
 ## Example Configuration Commands
 
-The AT09-4G provides an SMS based configuration option. The following public SMS commands are examples extracted from the device documentation. The sample commands use the default device password 000000. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with operator specific values when required.
+The AT09-4G provides an SMS based configuration option. The following public SMS commands are examples extracted from the device documentation. The sample commands use the default device password 000000. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with operator specific values when required.
 
 - Optional initial factory reset using default password
 ```text
@@ -82,9 +82,9 @@ Label: factory reset optional or for initial setup only
 
 - Set the operator APN including username and password placeholders
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-Explanation: replace {{apn}} with the mobile operator APN string. If the APN requires a username use {{apnu}} and a password use {{apnp}} otherwise leave placeholders empty per the device SMS syntax.
+Explanation: replace [apn] with the mobile operator APN string. If the APN requires a username use [apnu] and a password use [apnp] otherwise leave placeholders empty per the device SMS syntax.
 
 - Set the GPRS server to Plaspy by IP with port and server index
 ```text
@@ -112,7 +112,7 @@ Note: Keep the default password 000000 unless changed by your installation proce
 - Firmware and hardware revisions may change command syntax or available parameters. Always confirm the exact SMS format for your device firmware version.
 - Choose TCP or UDP based on your reliability and firewall requirements. Plaspy supports both and automatically detects protocol, but the transport you select should match your network design.
 - All Plaspy devices use the same port 8888 which simplifies server configuration when registering multiple device models.
-- If APN credentials are required use the correct {{apn}}, {{apnu}}, and {{apnp}} values from your mobile operator; leaving username or password empty is acceptable when the operator does not require them.
+- If APN credentials are required use the correct [apn], [apnu], and [apnp] values from your mobile operator; leaving username or password empty is acceptable when the operator does not require them.
 
 ## Why Use Plaspy with This Configuration
 

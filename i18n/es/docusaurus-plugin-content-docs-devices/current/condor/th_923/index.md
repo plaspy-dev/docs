@@ -1,6 +1,7 @@
 ---
 slug: /condor/th_923
 id: th_923
+sidebar_key: condoth_923_index_th_923
 sidebar_label: TH-923
 title: Condor - TH-923
 sidebar_class_name: menu_item_tracker

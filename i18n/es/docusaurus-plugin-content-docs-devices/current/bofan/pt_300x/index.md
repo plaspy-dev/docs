@@ -1,6 +1,7 @@
 ---
 slug: /bofan/pt_300x
 id: pt_300x
+sidebar_key: bofapt_300x_index_pt_300x
 sidebar_label: PT-300X
 title: Bofan - PT-300X
 sidebar_class_name: menu_item_tracker

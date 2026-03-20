@@ -79,17 +79,17 @@ The following SMS commands are the public, manufacturer-provided examples for th
 ```
 begin123456
 ```
-2. Set the operator APN (replace {{apn}} with your carrier APN)
+2. Set the operator APN (replace [apn] with your carrier APN)
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-3. Set the APN username (replace {{apnu}} with the APN username if required)
+3. Set the APN username (replace [apnu] with the APN username if required)
 ```
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-4. Set the APN password (replace {{apnp}} with the APN password if required)
+4. Set the APN password (replace [apnp] with the APN password if required)
 ```
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 5. Set the GPRS server to Plaspy by IP and port
 ```
@@ -107,9 +107,9 @@ gprs123456
 ```
 
 Placeholders explanation:
-- {{apn}} — your mobile operator APN string
-- {{apnu}} — APN username if required by the operator
-- {{apnp}} — APN password if required by the operator
+- [apn] — your mobile operator APN string
+- [apnu] — APN username if required by the operator
+- [apnp] — APN password if required by the operator
 
 Keep the default password value only for testing or initial provisioning. Replace it with your device password if it was changed from factory settings.
 

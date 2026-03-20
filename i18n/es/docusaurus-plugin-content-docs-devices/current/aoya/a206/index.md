@@ -1,6 +1,7 @@
 ---
 slug: /aoya/a206
 id: a206
+sidebar_key: aoya206_index_a206
 sidebar_label: A206
 title: AoYa - A206
 sidebar_class_name: menu_item_tracker

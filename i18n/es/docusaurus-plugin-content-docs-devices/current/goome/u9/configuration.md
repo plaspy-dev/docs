@@ -80,11 +80,11 @@ Para configurar el U9 vía SMS, envíe los comandos siguientes en el orden indic
 FACTORY#
 ```
 
-2. Establecer el APN del operador. Reemplace {{apn}} por el APN de su operador. Si el APN requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} en ese orden separados por comas.
+2. Establecer el APN del operador. Reemplace [apn] por el APN de su operador. Si el APN requiere usuario o contraseña, incluya [apnu] y [apnp] en ese orden separados por comas.
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- Explicación: {{apn}} es la cadena del APN de datos móviles. {{apnu}} es el marcador de usuario del APN. {{apnp}} es el marcador de contraseña del APN. Si no se requiere usuario o contraseña, puede omitir los marcadores finales al enviar el SMS.
+- Explicación: [apn] es la cadena del APN de datos móviles. [apnu] es el marcador de usuario del APN. [apnp] es el marcador de contraseña del APN. Si no se requiere usuario o contraseña, puede omitir los marcadores finales al enviar el SMS.
 
 3. Configurar el servidor GPRS a Plaspy usando la IP y el puerto. Esto apunta el dispositivo a Plaspy en el puerto 8888.
 ```

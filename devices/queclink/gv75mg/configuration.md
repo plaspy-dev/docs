@@ -66,7 +66,7 @@ The GV75MG is configured to report location fixes and device events to the share
 2. Enter the Plaspy server domain d.plaspy.com or the server IP 54.85.159.138 in the device GPRS/server settings.  
 3. Set the server port to 8888.  
 4. Choose UDP or TCP if the device requires a transport selection.  
-5. Configure the APN and APN credentials for the SIM in the device (use placeholders such as {{apn}}, {{apnu}}, {{apnp}} when scripting).  
+5. Configure the APN and APN credentials for the SIM in the device (use placeholders such as [apn], [apnu], [apnp] when scripting).  
 6. Apply or save the configuration and restart the device if the firmware requires a reboot for changes to take effect.  
 7. Validate that the device reports to Plaspy by checking device connectivity and messages on the platform.
 
@@ -86,9 +86,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Set the operator APN (replace placeholders with your operator values):
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explanation: {{apn}} is the operator APN name, {{apnu}} is the APN username if required, {{apnp}} is the APN password if required. Leave username/password empty if not used by the operator.
+Explanation: [apn] is the operator APN name, [apnu] is the APN username if required, [apnp] is the APN password if required. Leave username/password empty if not used by the operator.
 
 - Set the GPRS server to Plaspy using the domain and IP with port 8888 (device configured to use Plaspy endpoint and port):
 ```
@@ -112,7 +112,7 @@ Note: Send these strings as SMS messages to the device number. Keep the default 
 - SMS based configuration is supported and shown above, but manufacturer tools or a USB/serial configuration interface may also be available; choose the approach that matches your installation workflow.  
 - Firmware versions and hardware revisions can change command syntax or available features; always verify commands for your specific GV75MG firmware.  
 - You may choose UDP or TCP transport; Plaspy supports both and listens on port 8888 for all devices while auto detecting the protocol.  
-- When using APN placeholders such as {{apn}}, {{apnu}}, and {{apnp}}, supply operator-specific values; omit username/password fields if your SIM operator does not require them.  
+- When using APN placeholders such as [apn], [apnu], and [apnp], supply operator-specific values; omit username/password fields if your SIM operator does not require them.  
 - After applying configuration changes, restart the device if the manufacturer recommends a reboot to ensure new settings take effect.
 
 ## Why Use Plaspy with This Configuration

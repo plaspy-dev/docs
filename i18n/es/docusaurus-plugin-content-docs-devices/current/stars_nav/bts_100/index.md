@@ -1,6 +1,7 @@
 ---
 slug: /stars_nav/bts_100
 id: bts_100
+sidebar_key: stars_nabts_100_index_bts_100
 sidebar_label: BTS-100
 title: Stars Nav - BTS-100
 sidebar_class_name: menu_item_tracker

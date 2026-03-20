@@ -89,14 +89,14 @@ begin123456
 time zone123456 0
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} con el APN de su operador)
+- Establecer el APN del operador (reemplace [apn] con el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Establecer el usuario y la contraseña del APN (reemplace los marcadores con las credenciales del operador)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Configurar el servidor GPRS a la IP y puerto de Plaspy
@@ -130,8 +130,8 @@ protocol123456 18
 ```
 
 Notas sobre marcadores y comandos:
-- {{apn}} es la cadena APN del operador móvil necesaria para datos GPRS.
-- {{apnu}} y {{apnp}} son el nombre de usuario y la contraseña del APN cuando el operador requiere acceso con credenciales.
+- [apn] es la cadena APN del operador móvil necesaria para datos GPRS.
+- [apnu] y [apnp] son el nombre de usuario y la contraseña del APN cuando el operador requiere acceso con credenciales.
 - Use el comando adminip para establecer la IP y el puerto del servidor. Si su firmware admite nombres de dominio, puede ser posible establecer d.plaspy.com en lugar de la IP; consulte la documentación del fabricante para comandos con dominio.
 
 ## Observaciones de configuración

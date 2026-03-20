@@ -79,19 +79,19 @@ When configured, the MT500 uses its cellular link to transmit GNSS positions and
 
 The MT500 can be configured via SMS commands sent from an authorized phone number. The commands below are based on public example SMS commands. The device sample uses a default device password of 000000 in these examples. Replace placeholders as noted.
 
-- Set the device ID using the device IMEI (replace <IMEI15> with the device 15 digit IMEI). This associates the IMEI with the device ID field.
+- Set the device ID using the device IMEI (replace \<IMEI15> with the device 15 digit IMEI). This associates the IMEI with the device ID field.
 
 ```
 M000000,22,<IMEI15>
 ```
 
-- Set the operator APN. Replace {{apn}} with your carrier APN. If your APN needs a username or password, include {{apnu}} and {{apnp}} where shown.
+- Set the operator APN. Replace [apn] with your carrier APN. If your APN needs a username or password, include [apnu] and [apnp] where shown.
 
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
-Explanation: {{apn}} is the access point name required by the cellular operator. {{apnu}} is the APN username and {{apnp}} is the APN password. If no APN username or password is required by the operator, omit those placeholders.
+Explanation: [apn] is the access point name required by the cellular operator. [apnu] is the APN username and [apnp] is the APN password. If no APN username or password is required by the operator, omit those placeholders.
 
 - Set the update interval to 60 seconds. Adjust the numeric interval as needed for your monitoring policy.
 

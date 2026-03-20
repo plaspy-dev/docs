@@ -92,13 +92,13 @@ El PT-80 se suele configurar mediante comandos SMS. Los comandos de muestra púb
 ```
 
 - Configurar el APN para el operador móvil
-  - Conserve los marcadores de posición para APN, usuario APN y contraseña APN cuando corresponda. Reemplace {{apn}} por el APN de su operador. Si necesita usuario o contraseña del APN incluya {{apnu}} y {{apnp}}.
+  - Conserve los marcadores de posición para APN, usuario APN y contraseña APN cuando corresponda. Reemplace [apn] por el APN de su operador. Si necesita usuario o contraseña del APN incluya [apnu] y [apnp].
 
 ```
-000000APN{{apn}}{{,{{apnu}},{{apnp}}}}
+000000APN[apn]{{,[apnu],[apnp]}}
 ```
 
-  - Explicación: envíe 000000APN seguido de su APN. Si se requiere usuario y contraseña del APN inclúyalos después del APN separados por comas. Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por los valores de su operador.
+  - Explicación: envíe 000000APN seguido de su APN. Si se requiere usuario y contraseña del APN inclúyalos después del APN separados por comas. Los marcadores [apn], [apnu] y [apnp] deben reemplazarse por los valores de su operador.
 
 - Configurar el servidor GPRS a Plaspy usando IP y puerto
   - Este comando configura el dispositivo para enviar datos a Plaspy. Plaspy también acepta el dominio d.plaspy.com pero en la muestra pública se usa la IP.

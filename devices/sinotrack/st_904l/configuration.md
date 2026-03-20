@@ -59,7 +59,7 @@ These values are the public endpoint and port that the ST-904L should report to 
 - A charged ST-904L with working battery or external power applied.
 - Active SIM card in the device with a data plan and SMS capability and correct APN credentials.
 - Access to the device installer or owner to send SMS configuration commands.
-- Knowledge of the operator APN values for placeholders such as {{apn}}, {{apnu}}, and {{apnp}}.
+- Knowledge of the operator APN values for placeholders such as [apn], [apnu], and [apnp].
 - A Plaspy account or administrative access so you can verify the device appears after configuration.
 - Ability to query device settings via the RCONF command to confirm configuration.
 
@@ -100,12 +100,12 @@ RESET
 
 - Set the APN of the operator (replace placeholders with your operator values):
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 Explanation of placeholders:
-- {{apn}} = APN name provided by mobile operator
-- {{apnu}} = APN username if required (leave blank if not used)
-- {{apnp}} = APN password if required (leave blank if not used)
+- [apn] = APN name provided by mobile operator
+- [apnu] = APN username if required (leave blank if not used)
+- [apnp] = APN password if required (leave blank if not used)
 
 - Set up the GPRS server to Plaspy using the public Plaspy IP and port:
 ```text

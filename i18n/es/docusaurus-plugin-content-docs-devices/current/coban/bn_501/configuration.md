@@ -76,7 +76,7 @@ El BN-501 se configura para enviar localizaciones, alarmas y telemetría al endp
 
 ## Ejemplos de comandos de configuración
 
-El BN-501 soporta provisión por SMS. A continuación se muestran ejemplos públicos de comandos SMS proporcionados por el fabricante. La contraseña por defecto mostrada aquí es 123456; si la ha cambiado, use su contraseña de dispositivo. Reemplace los marcadores {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador.
+El BN-501 soporta provisión por SMS. A continuación se muestran ejemplos públicos de comandos SMS proporcionados por el fabricante. La contraseña por defecto mostrada aquí es 123456; si la ha cambiado, use su contraseña de dispositivo. Reemplace los marcadores [apn], [apnu] y [apnp] por los valores de su operador.
 
 1. Reinicio opcional a valores de fábrica (usar solo si necesita restaurar por defecto)
 ```
@@ -90,16 +90,16 @@ time zone123456 0
 
 3. Establecer el APN del operador
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} = cadena APN de su operador móvil
+- [apn] = cadena APN de su operador móvil
 
 4. Establecer usuario y contraseña del APN
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-- {{apnu}} = usuario APN (dejar en blanco si no aplica)
-- {{apnp}} = contraseña APN (dejar en blanco si no aplica)
+- [apnu] = usuario APN (dejar en blanco si no aplica)
+- [apnp] = contraseña APN (dejar en blanco si no aplica)
 
 5. Establecer el servidor GPRS a la IP y puerto de Plaspy
 ```
@@ -139,7 +139,7 @@ protocol123456 18
 - Las revisiones de firmware y hardware pueden cambiar el formato exacto de los comandos SMS y los parámetros disponibles; siempre verifique con el manual del dispositivo para su versión de firmware.
 - El dispositivo admite provisión por SMS y configuración por Bluetooth; use el método que mejor se adapte al acceso en campo y a las consideraciones de seguridad.
 - La selección TCP versus UDP puede afectar el comportamiento de entrega y retransmisión; elija según las condiciones de red y las capacidades del firmware del equipo.
-- Reemplace los tokens marcadores como {{apn}}, {{apnu}} y {{apnp}} con las credenciales de su operador. Si algún campo no es necesario, déjelo en blanco según la sintaxis del fabricante.
+- Reemplace los tokens marcadores como [apn], [apnu] y [apnp] con las credenciales de su operador. Si algún campo no es necesario, déjelo en blanco según la sintaxis del fabricante.
 - Considere cambiar la contraseña por defecto 123456 después de la configuración inicial para mejorar la seguridad, si el dispositivo lo permite.
 
 ## Por qué usar Plaspy con esta configuración

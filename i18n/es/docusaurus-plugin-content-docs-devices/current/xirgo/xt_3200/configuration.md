@@ -80,9 +80,9 @@ El XT-3200 admite configuración por SMS. Los comandos SMS públicos comúnmente
 
 1. Configurar el APN del operador
 ```
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- Explicación: Reemplace los marcadores de posición por los valores de su operador. {{apn}} suele ser el nombre del APN. {{apnu}} y {{apnp}} representan el usuario y la contraseña del APN, opcionales si su operador los exige.
+- Explicación: Reemplace los marcadores de posición por los valores de su operador. [apn] suele ser el nombre del APN. [apnu] y [apnp] representan el usuario y la contraseña del APN, opcionales si su operador los exige.
 
 2. Configurar el servidor GPRS para que apunte a Plaspy
 ```

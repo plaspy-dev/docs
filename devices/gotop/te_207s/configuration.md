@@ -86,7 +86,7 @@ If you receive a manufacturer SMS command list from GOTOP, you will commonly fin
 
 - Firmware versions and hardware revisions can change command syntax and menu locations; verify commands and options against the TE-207S manual for your device revision.
 - Choose UDP or TCP based on your deployment needs; Plaspy will accept either transport on port 8888 and will detect the tracker protocol automatically.
-- Ensure APN, username, and password are set correctly for the SIM in use; placeholders such as {{apn}}, {{apnu}}, or {{apnp}} are commonly used in manufacturer templates to indicate where your carrier APN values belong.
+- Ensure APN, username, and password are set correctly for the SIM in use; placeholders such as [apn], [apnu], or [apnp] are commonly used in manufacturer templates to indicate where your carrier APN values belong.
 - If you use SMS-based configuration, confirm that the SIM can send SMS and that SMS commands are allowed by your deployment policy.
 - Test SOS and alarm events after configuration to confirm they are forwarded and visible in Plaspy.
 

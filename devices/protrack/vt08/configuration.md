@@ -79,9 +79,9 @@ The VT08 can be configured with SMS commands. Below are the commonly used public
 
 - Configure the carrier APN
 ```text
-APN,{{apn}}{{# or ,{{apnu}},{{apnp}} if username and password are required}}#
+APN,[apn]{{# or ,[apnu],[apnp] if username and password are required}}#
 ```
-Explanation: Replace {{apn}} with your SIM card APN. If your carrier requires an APN username and password, include {{apnu}} and {{apnp}} in the comma separated format as shown by your device documentation.
+Explanation: Replace [apn] with your SIM card APN. If your carrier requires an APN username and password, include [apnu] and [apnp] in the comma separated format as shown by your device documentation.
 
 - Set the GPRS server to Plaspy using the domain
 ```text

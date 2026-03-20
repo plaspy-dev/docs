@@ -78,7 +78,7 @@ The LK209 is configured to send periodic location updates and event notification
 
 The exact command set or configuration interface for the LK209 depends on the manufacturer tools and firmware version. Some vendors provide SMS command strings, some use a desktop/mobile configuration tool, and others use a web interface. Because LK-GPS provides multiple configuration methods, follow the LK209 manual for the exact syntax and order required by your device.
 
-If you are using SMS or command-line configuration provided by LK-GPS, obtain the official commands from the LK209 user manual and replace any operator-specific placeholders such as an APN with your operator values. For example, where manufacturers use placeholders like {{apn}} or {{apnu}}, those should be replaced with your SIM operator APN and credentials. Always test a single configuration change and verify connectivity before applying mass changes.
+If you are using SMS or command-line configuration provided by LK-GPS, obtain the official commands from the LK209 user manual and replace any operator-specific placeholders such as an APN with your operator values. For example, where manufacturers use placeholders like [apn] or [apnu], those should be replaced with your SIM operator APN and credentials. Always test a single configuration change and verify connectivity before applying mass changes.
 
 ## Configuration Notes
 

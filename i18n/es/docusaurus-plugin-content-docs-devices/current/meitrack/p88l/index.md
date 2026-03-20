@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/p88l
 id: p88l
+sidebar_key: meitracp88l_index_p88l
 sidebar_label: P88L
 title: Meitrack - P88L
 sidebar_class_name: menu_item_tracker

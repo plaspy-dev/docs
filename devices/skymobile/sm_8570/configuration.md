@@ -48,7 +48,7 @@ This configuration process prepares the SM-8570 to communicate with Plaspy by se
 - An active SIM card provisioned for data and SMS as required by the device and your network.
 - Ability to send SMS configuration commands or access to the official manufacturer configuration software or tool.
 - Knowledge of the device password for SMS configuration (the public example here uses the default password SM8570).
-- Confirmed APN values from the SIM operator to fill {{apn}}, {{apnu}}, and {{apnp}} placeholders.
+- Confirmed APN values from the SIM operator to fill [apn], [apnu], and [apnp] placeholders.
 - Access to the manufacturer's documentation or vendor support for firmware specific behaviors.
 
 ## How This Tracker Connects to Plaspy
@@ -73,11 +73,11 @@ The SM-8570 is configured to send location and event data to a centralized Plasp
 
 ## Example Configuration Commands
 
-The SM-8570 can be configured by sending SMS commands to the device. The public example commands below preserve the sequence shown in manufacturer examples. The device password in these commands is the default SM8570. Replace the placeholders {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, username, and password as required.
+The SM-8570 can be configured by sending SMS commands to the device. The public example commands below preserve the sequence shown in manufacturer examples. The device password in these commands is the default SM8570. Replace the placeholders [apn], [apnu], and [apnp] with your operator APN, username, and password as required.
 
 - Set the operator APN (replace placeholders as needed)
 ```text
-AT+GTBSI=SM8570,{{apn}},{{apnu}},{{apnp}},,,,,0002$
+AT+GTBSI=SM8570,[apn],[apnu],[apnp],,,,,0002$
 ```
 
 - Set the GPRS server to point at Plaspy (domain and IP provided)
@@ -101,9 +101,9 @@ AT+GTNMD=SM8570,8,3,2,3,1800,1800,,,,,,,,0005$
 ```
 
 Notes on placeholders and usage:
-- {{apn}} is the operator APN string required for GPRS data.
-- {{apnu}} is the APN username if the operator requires one; leave empty if not required.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is the operator APN string required for GPRS data.
+- [apnu] is the APN username if the operator requires one; leave empty if not required.
+- [apnp] is the APN password if required by the operator.
 - Send each command as an SMS to the device from an authorized number, or use the official configuration tool if available.
 - Keep the default password SM8570 if your device still uses it; change the password according to vendor guidance after setup if desired.
 

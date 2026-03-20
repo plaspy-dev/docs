@@ -74,13 +74,13 @@ The Appello 5P sends position and device status over the mobile data network (GP
 
 The Appello 5P can be configured using SMS commands. The following public commands are the published sample SMS messages for initial setup. The example commands use the device default password 00000 as shown in the manufacturer's public guidance.
 
-- Set the operator APN ({{apn}} placeholder required; {{apnu}} and {{apnp}} are optional username and password placeholders):
+- Set the operator APN ([apn] placeholder required; [apnu] and [apnp] are optional username and password placeholders):
 
 ```
-00000,apn,{{apn}},{{apnu}},{{apnp}}
+00000,apn,[apn],[apnu],[apnp]
 ```
 
-Explanation: replace {{apn}} with your carrier APN. If your carrier requires an APN username or password, include {{apnu}} and {{apnp}} respectively; omit those values if they are not required.
+Explanation: replace [apn] with your carrier APN. If your carrier requires an APN username or password, include [apnu] and [apnp] respectively; omit those values if they are not required.
 
 - Set the GPRS server to the Plaspy server IP and port:
 
@@ -103,7 +103,7 @@ Preserve the command order when applying these SMS settings if recommended by th
 - Firmware versions and hardware revisions can slightly change SMS syntax or feature availability — confirm the exact SMS format in the manufacturer's documentation for your device firmware.  
 - The Appello 5P supports SMS-based configuration in public guidance; use SMS only from a trusted phone and confirm the correct device password before sending commands.  
 - Choose UDP or TCP according to installation needs; Plaspy supports both transports on port 8888 and will accept messages over either transport.  
-- APN placeholders {{apn}}, {{apnu}}, and {{apnp}} represent your carrier APN, username, and password; leave username/password blank if not required.  
+- APN placeholders [apn], [apnu], and [apnp] represent your carrier APN, username, and password; leave username/password blank if not required.  
 - All devices in Plaspy use the same server port (8888) and Plaspy auto-detects the protocol, so once the device can reach d.plaspy.com or 54.85.159.138 on that port, the platform should recognize the tracker.
 
 ## Why Use Plaspy with This Configuration

@@ -82,16 +82,16 @@ The public T633L setup can be performed with SMS commands. The sample sequence b
 0000,F11
 ```
 
-- Set the GPRS server to Plaspy using the Plaspy server IP and port. Replace {{apn}} with your carrier APN. Optionally include APN username {{apnu}} and APN password {{apnp}} if required by your SIM.
+- Set the GPRS server to Plaspy using the Plaspy server IP and port. Replace [apn] with your carrier APN. Optionally include APN username [apnu] and APN password [apnp] if required by your SIM.
 
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 
 - If your setup requires APN username and password include them as follows
 
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 
 - Set the device time zone to UTC 0
@@ -113,9 +113,9 @@ The public T633L setup can be performed with SMS commands. The sample sequence b
 ```
 
 Notes on placeholders
-- {{apn}} is the carrier Access Point Name required for GPRS data.
-- {{apnu}} is the APN username when required by the carrier.
-- {{apnp}} is the APN password when required by the carrier.
+- [apn] is the carrier Access Point Name required for GPRS data.
+- [apnu] is the APN username when required by the carrier.
+- [apnp] is the APN password when required by the carrier.
 - The initial factory reset command 0000,F11 is optional and should only be used when preparing a device for a new deployment or when instructed by your installer.
 
 ## Configuration Notes

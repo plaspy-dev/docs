@@ -80,13 +80,13 @@ Para configurar parámetros básicos en un FMB110, los dispositivos Teltonika su
 - Comando de ejemplo por lotes de parámetros (conservar marcadores de posición):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Qué significan los marcadores de posición
-  - {{apn}} : nombre del APN del proveedor de la tarjeta SIM
-  - {{apnu}} : nombre de usuario del APN si el operador lo exige
-  - {{apnp}} : contraseña del APN si el operador lo exige
+  - [apn] : nombre del APN del proveedor de la tarjeta SIM
+  - [apnu] : nombre de usuario del APN si el operador lo exige
+  - [apnp] : contraseña del APN si el operador lo exige
 
 Nota: Este ejemplo usa d.plaspy.com y el puerto 8888 tal como lo requiere Plaspy. El último parámetro en el lote suele seleccionar el modo de transporte u otro comportamiento del dispositivo. Consulte la documentación de Teltonika o el Configurator para conocer el significado exacto de los parámetros numerados y los valores admitidos según su versión de firmware.
 

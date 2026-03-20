@@ -48,7 +48,7 @@ This configuration prepares the GL52SP to communicate with Plaspy so the device 
 - Ensure the device is provisioned on a supported network for your region (Sigfox registration for GL52SP or cellular service if using SMS/GPRS configuration methods)
 - Have access to the manufacturer configuration method you intend to use (SMS commands, USB tool, or vendor software)
 - Know any required credentials or the device password (example default password shown below is queclink where applicable)
-- Prepare APN information if using a GPRS configuration method (placeholders such as {{apn}}, {{apnu}}, {{apnp}} are used when applicable)
+- Prepare APN information if using a GPRS configuration method (placeholders such as [apn], [apnu], [apnp] are used when applicable)
 - A way to validate device reporting in Plaspy after configuration
 
 ## How This Tracker Connects to Plaspy
@@ -77,7 +77,7 @@ The following public example commands are provided as typical SMS AT style comma
 
 - Notes:
   - The sample device password in these commands is queclink and is shown as the default.
-  - Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your cellular operator APN values when applicable.
+  - Placeholders such as [apn], [apnu], and [apnp] must be replaced with your cellular operator APN values when applicable.
   - These commands are public examples. Verify that your GL52SP firmware supports SMS AT configuration before sending.
 
 1. (Optional) Restore factory settings
@@ -92,7 +92,7 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN (replace placeholders as needed)
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4. Set the GPRS server to Plaspy (server domain and IP both provided)
@@ -115,7 +115,7 @@ AT+GTSOS=queclink,2,2,,0,0,0,0,0,0,,,FFFF$
 - The GL52SP is a Sigfox asset tracker; confirm whether SMS or GPRS style SMS AT commands apply to your unit and firmware before use.
 - Firmware revisions and hardware variants can change command support and behaviour; test on a single device before mass deployment.
 - Choose TCP or UDP transport based on device capability. Plaspy supports both on port 8888 and will detect protocol automatically.
-- Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} must be filled with correct operator details when configuring cellular data.
+- Placeholders such as [apn], [apnu], and [apnp] must be filled with correct operator details when configuring cellular data.
 - Prefer official QuecLink documentation and configuration tools for device-specific instructions and the most current command reference.
 
 ## Why Use Plaspy with This Configuration

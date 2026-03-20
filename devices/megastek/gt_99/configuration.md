@@ -83,16 +83,16 @@ The GT-99 can be configured by sending SMS commands to the device. The sample ma
 M000000,22,{{IMEI_LAST15}}
 ```
 
-- Set the operator APN. Use {{apn}} as the APN name. If your operator requires an APN username or password include {{apnu}} and {{apnp}} as needed.
+- Set the operator APN. Use [apn] as the APN name. If your operator requires an APN username or password include [apnu] and [apnp] as needed.
 
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
 or with APN username and password
 
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 - Set the update interval to 60 seconds
@@ -123,9 +123,9 @@ M000000,21,2
 
 Notes on placeholders
 - {{IMEI_LAST15}} means the 15 digit identifier derived from the device IMEI as shown in manufacturer examples.
-- {{apn}} is the operator APN string required for GPRS.
-- {{apnu}} and {{apnp}} are optional APN username and APN password placeholders if your operator requires them.
-- Replace M000000 with M<your_password> if the device password is not the default 000000.
+- [apn] is the operator APN string required for GPRS.
+- [apnu] and [apnp] are optional APN username and APN password placeholders if your operator requires them.
+- Replace M000000 with M\<your_password> if the device password is not the default 000000.
 
 ## Configuration Notes
 

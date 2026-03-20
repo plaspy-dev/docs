@@ -83,13 +83,13 @@ El fabricante proporciona comandos de configuración vía SMS. Los comandos de e
 ```
 W000000,990,099###
 ```
-- Establecer el ID del dispositivo (usar los primeros 14 dígitos del IMEI en este comando). Reemplace <device_id_14> con los primeros 14 dígitos del IMEI
+- Establecer el ID del dispositivo (usar los primeros 14 dígitos del IMEI en este comando). Reemplace \<device_id_14> con los primeros 14 dígitos del IMEI
 ```
 W000000,010,<device_id_14>
 ```
-- Establecer el APN del operador. Reemplace {{apn}} con el APN del operador. Si es necesario, incluya usuario y contraseña opcionales del APN como {{apnu}} y {{apnp}}
+- Establecer el APN del operador. Reemplace [apn] con el APN del operador. Si es necesario, incluya usuario y contraseña opcionales del APN como [apnu] y [apnp]
 ```
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
 - Configurar el servidor GPRS hacia Plaspy usando la IP pública y el puerto
 ```
@@ -109,9 +109,9 @@ W000000,601
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es el APN del operador móvil y debe reemplazarse por la cadena APN del operador de la SIM.
-- {{apnu}} y {{apnp}} son el usuario y la contraseña opcionales del APN cuando el operador requiere credenciales.
-- <device_id_14> representa los primeros 14 dígitos derivados del IMEI según lo requiere la secuencia de comandos SMS. El ejemplo del fabricante hace referencia al procesamiento del IMEI para crear el ID del dispositivo.
+- [apn] es el APN del operador móvil y debe reemplazarse por la cadena APN del operador de la SIM.
+- [apnu] y [apnp] son el usuario y la contraseña opcionales del APN cuando el operador requiere credenciales.
+- \<device_id_14> representa los primeros 14 dígitos derivados del IMEI según lo requiere la secuencia de comandos SMS. El ejemplo del fabricante hace referencia al procesamiento del IMEI para crear el ID del dispositivo.
 
 ## Notas de configuración
 

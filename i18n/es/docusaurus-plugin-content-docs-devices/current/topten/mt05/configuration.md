@@ -83,14 +83,14 @@ El MT05 puede configurarse vía SMS usando el formato de comandos provisto por T
 111111CLR
 ```
 
-- Establecer APN y servidor GPRS de Plaspy (ejemplo). Mantenga los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por los valores de su proveedor de SIM:
+- Establecer APN y servidor GPRS de Plaspy (ejemplo). Mantenga los marcadores de posición [apn], [apnu] y [apnp] y sustitúyalos por los valores de su proveedor de SIM:
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explicación de marcadores de posición:
-- {{apn}} — nombre del APN de su operador móvil
-- {{apnu}} — usuario del APN si es requerido (dejar vacío si no aplica)
-- {{apnp}} — contraseña del APN si es requerida (dejar vacío si no aplica)
+- [apn] — nombre del APN de su operador móvil
+- [apnu] — usuario del APN si es requerido (dejar vacío si no aplica)
+- [apnp] — contraseña del APN si es requerida (dejar vacío si no aplica)
 
 - Comprobar o consultar los ajustes WWW/GPRS actuales:
 ```text

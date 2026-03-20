@@ -74,7 +74,7 @@ El OTK01 puede enviar posición y telemetría del vehículo a Plaspy subiendo da
 
 ## Comandos de configuración de ejemplo
 
-Los siguientes comandos SMS son los públicos provistos con la guía de configuración del OTK01. Los comandos se muestran en el orden comúnmente usado durante la configuración inicial. La contraseña por defecto del dispositivo en estos ejemplos es 000000 según el fabricante. Mantenga los marcadores como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por su APN, usuario APN y contraseña APN del operador cuando corresponda.
+Los siguientes comandos SMS son los públicos provistos con la guía de configuración del OTK01. Los comandos se muestran en el orden comúnmente usado durante la configuración inicial. La contraseña por defecto del dispositivo en estos ejemplos es 000000 según el fabricante. Mantenga los marcadores como [apn], [apnu] y [apnp] y reemplácelos por su APN, usuario APN y contraseña APN del operador cuando corresponda.
 
 - Reinicio opcional a fábrica inicial (usar solo cuando pretenda restaurar los valores de fábrica):
 ```text
@@ -86,9 +86,9 @@ W000000,990,099###
 W000000,010,<first_14_digits_of_IMEI>
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su APN requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} después del APN.
+- Configurar el APN del operador. Reemplace [apn] por el APN de su operador. Si su APN requiere usuario o contraseña, incluya [apnu] y [apnp] después del APN.
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 
 - Establecer el servidor GPRS al endpoint de Plaspy usando la IP pública y el puerto.
@@ -112,10 +112,10 @@ W000000,601
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es la cadena APN de su operador de red móvil.
-- {{apnu}} es el usuario del APN si el operador lo exige.
-- {{apnp}} es la contraseña del APN si el operador la exige.
-- Reemplace <first_14_digits_of_IMEI> por los dígitos reales del IMEI del dispositivo según se indica.
+- [apn] es la cadena APN de su operador de red móvil.
+- [apnu] es el usuario del APN si el operador lo exige.
+- [apnp] es la contraseña del APN si el operador la exige.
+- Reemplace \<first_14_digits_of_IMEI> por los dígitos reales del IMEI del dispositivo según se indica.
 
 ## Notas de configuración
 

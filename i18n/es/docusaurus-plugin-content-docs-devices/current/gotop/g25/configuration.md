@@ -79,7 +79,7 @@ Al configurarse para Plaspy, el G25 enviará sus actualizaciones de posición y 
 
 El GOTOP G25 soporta ajustes por parámetros vía SMS y funciones de consulta, pero los comandos y la sintaxis exactos pueden variar según firmware y herramientas del proveedor. Debido a que los conjuntos de comandos son específicos por modelo, siga la documentación oficial de GOTOP o la herramienta de configuración suministrada por su proveedor para los comandos SMS o de software precisos para establecer servidor, puerto y transporte.
 
-Al usar configuración por SMS, normalmente establecerá el dominio o la IP del servidor y el puerto. Por ejemplo, la sintaxis SMS del dispositivo suele incluir marcadores de posición similares a {{apn}} para el valor del APN. Conserve los marcadores si copia ejemplos de la documentación del fabricante y reemplácelos por los valores de su operador o cuenta.
+Al usar configuración por SMS, normalmente establecerá el dominio o la IP del servidor y el puerto. Por ejemplo, la sintaxis SMS del dispositivo suele incluir marcadores de posición similares a [apn] para el valor del APN. Conserve los marcadores si copia ejemplos de la documentación del fabricante y reemplácelos por los valores de su operador o cuenta.
 
 ## Notas de configuración
 

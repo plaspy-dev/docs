@@ -77,14 +77,14 @@ Once configured, the FMB204 uses its cellular connection to send position and se
 To configure basic parameters on Teltonika devices via SMS, the following public command format is commonly used. Replace the APN placeholders with your operator values before sending.
 
 - Explanation of placeholders
-  - {{apn}} is the APN name provided by your mobile operator
-  - {{apnu}} is the APN username if required by the operator
-  - {{apnp}} is the APN password if required by the operator
+  - [apn] is the APN name provided by your mobile operator
+  - [apnu] is the APN username if required by the operator
+  - [apnp] is the APN password if required by the operator
 
 FMB204 example SMS command:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - 2001  APN placeholder

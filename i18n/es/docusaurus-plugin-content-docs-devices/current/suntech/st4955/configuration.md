@@ -76,16 +76,16 @@ El ST4955 transmite posiciones GNSS y telemetría de sensores a través de redes
 Los ejemplos públicos de configuración del ST4955 usan comandos SMS. El ID del dispositivo que se emplea en las plantillas se deriva del IMEI: elimine el último dígito del IMEI y luego tome los últimos 6 dígitos de la cadena resultante (por ejemplo, si el IMEI es 123456789012345, el ID del dispositivo será 901234).
 
 - Placeholders:
-  - {{apn}} = el APN de su operador móvil
-  - {{apnu}} = usuario del APN si se requiere (dejar en blanco o 0 si no se usa)
-  - {{apnp}} = contraseña del APN si se requiere (dejar en blanco o 0 si no se usa)
-  - <device_id> = ID del dispositivo calculado a partir del IMEI como se describió arriba
+  - [apn] = el APN de su operador móvil
+  - [apnu] = usuario del APN si se requiere (dejar en blanco o 0 si no se usa)
+  - [apnp] = contraseña del APN si se requiere (dejar en blanco o 0 si no se usa)
+  - \<device_id> = ID del dispositivo calculado a partir del IMEI como se describió arriba
 
 Envíe los siguientes comandos SMS en orden para configurar la red, el servidor y el intervalo de reporte:
 
-1) Configure el APN del operador y el servidor GPRS (reemplazar <device_id>, {{apn}}, {{apnu}}, {{apnp}} según corresponda)
+1) Configure el APN del operador y el servidor GPRS (reemplazar \<device_id>, [apn], [apnu], [apnp] según corresponda)
 ```text
-SA200NTW;<device_id>;02;0;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;<device_id>;02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notas:
 - La plantilla de ejemplo en la interfaz del dispositivo puede incluir una opción para habilitar campos de usuario/contraseña del APN. Complete los campos según sea necesario.

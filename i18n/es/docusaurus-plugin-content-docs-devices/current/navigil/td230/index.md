@@ -1,6 +1,7 @@
 ---
 slug: /navigil/td230
 id: td230
+sidebar_key: navigitd230_index_td230
 sidebar_label: TD230
 title: Navigil - TD230
 sidebar_class_name: menu_item_tracker

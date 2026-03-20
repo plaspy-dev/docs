@@ -77,16 +77,16 @@ The TH-923 is configured to report location and event data to Plaspy by pointing
 
 The TH-923 public configuration material includes SMS commands that can be sent to the device to set APN, server, interval, timezone, alias and to verify connection. The commands below preserve the placeholders as provided in the public content. Send each command via SMS to the device phone number. The example uses the default SMS configuration password 0000 as shown in the public material.
 
-- Set the operator APN. Replace {{apn}} with the carrier APN. If the APN requires username and password include {{apnu}} and {{apnp}}.
+- Set the operator APN. Replace [apn] with the carrier APN. If the APN requires username and password include [apnu] and [apnp].
 
 ```
-APN,0000,{{apn}}
+APN,0000,[apn]
 ```
 
 Optional form with APN username and password:
 
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn],[apnu],[apnp]
 ```
 
 - Set a 5 digit identifier (alias). Use the last five digits of the device IMEI in place of {{imei_last5}}:
@@ -126,8 +126,8 @@ CONEXION,0000#
 ```
 
 Notes on placeholders and values:
-- {{apn}} is the mobile operator APN for the installed SIM.
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders; include them only if required by the operator.
+- [apn] is the mobile operator APN for the installed SIM.
+- [apnu] and [apnp] are optional APN username and password placeholders; include them only if required by the operator.
 - {{imei_last5}} represents the last five digits of the device IMEI; the public material recommends using those digits as the device identifier.
 - The default SMS configuration password in the provided public content is 0000; verify if your device has a different password before sending commands.
 

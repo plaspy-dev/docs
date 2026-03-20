@@ -86,9 +86,9 @@ GMT,0000,0#
 
 - Establecer el APN del operador
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explicación: reemplace {{apn}} con el nombre del APN de su operador, {{apnu}} con el usuario del APN si es necesario, y {{apnp}} con la contraseña del APN si aplica. Deje usuario o contraseña vacíos si no se usan.
+Explicación: reemplace [apn] con el nombre del APN de su operador, [apnu] con el usuario del APN si es necesario, y [apnp] con la contraseña del APN si aplica. Deje usuario o contraseña vacíos si no se usan.
 
 - Configurar el servidor GPRS usando la IP y el puerto de Plaspy
 ```text
@@ -108,7 +108,7 @@ Envíe estos comandos en el orden mostrado para una configuración inicial típi
 - Las variantes de firmware y regionales pueden cambiar los comandos disponibles o la sintaxis; confirme siempre la sintaxis con la documentación más reciente de TopFly.  
 - La configuración por SMS es común en instalaciones remotas; cuando sea posible, use la herramienta del proveedor o el puerto USB para configuraciones por lote y actualizaciones FOTA.  
 - Elija UDP o TCP según la fiabilidad de la red y sus preferencias de plataforma; Plaspy acepta ambos y detecta el protocolo automáticamente.  
-- Asegúrese de que los marcadores {{apn}}, {{apnu}} y {{apnp}} estén completados con las credenciales correctas del operador o se dejen vacíos cuando no sean necesarios.  
+- Asegúrese de que los marcadores [apn], [apnu] y [apnp] estén completados con las credenciales correctas del operador o se dejen vacíos cuando no sean necesarios.  
 - Anote la contraseña por defecto indicada por el fabricante y cámbiela si el dispositivo permite una alternativa más segura.
 
 ## Por qué usar Plaspy con esta configuración

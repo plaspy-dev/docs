@@ -91,11 +91,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} por su APN. Si su APN requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} según lo proporcione su operador:
+- Configurar el APN del operador. Reemplace [apn] por su APN. Si su APN requiere usuario o contraseña, incluya [apnu] y [apnp] según lo proporcione su operador:
 ```
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Nota: Use la forma del comando APN que corresponda a su dispositivo. Si no se requiere usuario ni contraseña, envíe solo APN,{{apn}}#.
+Nota: Use la forma del comando APN que corresponda a su dispositivo. Si no se requiere usuario ni contraseña, envíe solo APN,[apn]#.
 
 - Establecer el servidor GPRS a Plaspy por dominio en el puerto 8888:
 ```
@@ -131,7 +131,7 @@ Estos comandos reflejan la secuencia pública de configuración por SMS. Reempla
 ## Notas de configuración
 
 - La configuración basada en SMS es compatible y es un método público habitual para configurar el GT710. Use el formato de comandos oficial del proveedor cuando esté disponible.
-- El comando APN utiliza los marcadores de posición {{apn}}, {{apnu}} y {{apnp}}. {{apn}} es la cadena del APN del operador, {{apnu}} es el usuario del APN y {{apnp}} la contraseña del APN. Solo incluya usuario y contraseña cuando su operador lo requiera.
+- El comando APN utiliza los marcadores de posición [apn], [apnu] y [apnp]. [apn] es la cadena del APN del operador, [apnu] es el usuario del APN y [apnp] la contraseña del APN. Solo incluya usuario y contraseña cuando su operador lo requiera.
 - Algunas versiones de firmware aceptan formatos alternativos de TIMER. Utilice el formato que coincida con el firmware de su dispositivo.
 - Puede establecer el servidor por dominio o por IP. Tanto d.plaspy.com como 54.85.159.138 en el puerto 8888 son opciones aceptadas para Plaspy.
 - Elija UDP o TCP si el rastreador requiere una selección explícita de transporte. Plaspy detectará automáticamente el protocolo del dispositivo.

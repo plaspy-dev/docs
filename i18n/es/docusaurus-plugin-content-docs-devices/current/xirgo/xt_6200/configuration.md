@@ -79,12 +79,12 @@ El XT-6200 permite configuración por SMS. El fabricante proporciona comandos SM
 
 - Configure el APN del operador. Reemplace los marcadores con los valores de su operador:
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explicación de los marcadores
-- {{apn}} es el nombre del APN proporcionado por el operador móvil
-- {{apnu}} es el usuario del APN cuando el operador lo solicita; si no aplica, dejar en blanco
-- {{apnp}} es la contraseña del APN cuando el operador lo solicita; si no aplica, dejar en blanco
+- [apn] es el nombre del APN proporcionado por el operador móvil
+- [apnu] es el usuario del APN cuando el operador lo solicita; si no aplica, dejar en blanco
+- [apnp] es la contraseña del APN cuando el operador lo solicita; si no aplica, dejar en blanco
 
 - Configure el servidor GPRS a Plaspy. Esto apunta el dispositivo a Plaspy usando el puerto 8888 y la IP del servidor:
 ```text

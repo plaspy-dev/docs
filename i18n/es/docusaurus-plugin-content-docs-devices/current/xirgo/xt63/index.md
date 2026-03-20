@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt63
 id: xt63
+sidebar_key: xirgxt63_index_xt63
 sidebar_label: XT63
 title: Xirgo - XT63
 sidebar_class_name: menu_item_tracker

@@ -83,11 +83,11 @@ El MiniFinder Nano puede configurarse por SMS según los comandos públicos que 
 tz+00
 ```
 
-- Configurar el APN del operador (reemplace {{apn}} con su APN; incluya {{apnu}} y {{apnp}} solo si su proveedor requiere usuario y contraseña)
+- Configurar el APN del operador (reemplace [apn] con su APN; incluya [apnu] y [apnp] solo si su proveedor requiere usuario y contraseña)
 ```
-S1,{{apn}},{{apnu}},{{apnp}}
+S1,[apn],[apnu],[apnp]
 ```
-Explicación: S1 establece el APN primario. Si su operador no requiere usuario o contraseña, puede enviar S1,{{apn}} sin los marcadores adicionales.
+Explicación: S1 establece el APN primario. Si su operador no requiere usuario o contraseña, puede enviar S1,[apn] sin los marcadores adicionales.
 
 - Configurar el servidor GPRS a Plaspy por IP y puerto
 ```
@@ -100,7 +100,7 @@ Notas: El fabricante también permite entradas de dominio en algunas herramienta
 - Las diferencias de firmware pueden cambiar la sintaxis exacta de los comandos o el comportamiento de los SMS; siempre confirme la sintaxis para la revisión de firmware de su Nano.
 - La configuración por SMS es una opción pública común mostrada por MiniFinder, pero también pueden existir herramientas del vendedor o portales de gestión remota para el Nano.
 - Cuando el dispositivo requiere la selección de transporte, pruebe ambos modos UDP y TCP si encuentra problemas de entrega; Plaspy soporta ambos transportes y detecta automáticamente el protocolo del dispositivo al recibir datos.
-- Preserve los marcadores APN como {{apn}}, {{apnu}} y {{apnp}} al redactar comandos y sustitúyalos por las credenciales de su operador móvil.
+- Preserve los marcadores APN como [apn], [apnu] y [apnp] al redactar comandos y sustitúyalos por las credenciales de su operador móvil.
 - Mantenga el dispositivo alimentado y asegúrese de la conectividad celular durante la configuración para que el rastreador pueda registrarse y transmitir de inmediato.
 
 ## Por qué usar Plaspy con esta configuración

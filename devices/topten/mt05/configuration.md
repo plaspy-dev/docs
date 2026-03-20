@@ -83,14 +83,14 @@ The MT05 can be configured via SMS using the command format provided by TopTen. 
 111111CLR
 ```
 
-- Set APN and Plaspy GPRS server (example). Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your SIM provider values:
+- Set APN and Plaspy GPRS server (example). Preserve the placeholders [apn], [apnu], and [apnp] and replace them with your SIM provider values:
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explanation of placeholders:
-- {{apn}} — your mobile network APN name
-- {{apnu}} — APN username if required (leave empty if not used)
-- {{apnp}} — APN password if required (leave empty if not used)
+- [apn] — your mobile network APN name
+- [apnu] — APN username if required (leave empty if not used)
+- [apnp] — APN password if required (leave empty if not used)
 
 - Check or query current WWW/GPRS settings:
 ```text

@@ -90,7 +90,7 @@ Refer to LK-GPS official documentation for the precise SMS syntax or PC tool com
 - Firmware variations can change command syntax, available settings, and which transport modes are supported; verify your device firmware version before applying instructions.
 - Choose UDP when low overhead is preferred and the network is stable; choose TCP if a persistent, connection-oriented session is required by your deployment or supported by the firmware.
 - Plaspy automatically detects the tracker protocol once the device connects to d.plaspy.com on port 8888, so focus on correct server, port, and connectivity details.
-- Ensure APN parameters are correct for the SIM in use; placeholders like {{apn}}, {{apnu}}, or {{apnp}} are commonly used in manufacturer documentation to indicate your carrier values.
+- Ensure APN parameters are correct for the SIM in use; placeholders like [apn], [apnu], or [apnp] are commonly used in manufacturer documentation to indicate your carrier values.
 - If using SMS commands for configuration, test with a single device first and confirm behavior before deploying at scale.
 
 ## Why Use Plaspy with This Configuration

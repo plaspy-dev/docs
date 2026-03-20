@@ -76,30 +76,30 @@ The Syrus 4G Lite is configured to open a connection toward the Plaspy server en
 The Syrus 4G Lite accepts Syrus SB script files that can be loaded with Syrus Desk. Below is an example script adapted from a public Syrus SB example. Save this content as a plain text file with a .tmf extension and load it into Syrus Desk for the device.
 
 - The script includes an optional initial delete or reset step to clear previous configuration.
-- Placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your carrier APN, APN username, and APN password as needed. If no username or password is required, leave the corresponding placeholder empty.
+- Placeholders [apn], [apnu], and [apnp] must be replaced with your carrier APN, APN username, and APN password as needed. If no username or password is required, leave the corresponding placeholder empty.
 
 Example Syrus SB script for Syrus Desk:
 
 #Syrus SB script
 #Getting Started example
 #Delete any previous configuration
->SRT;CONFIG<
->SXADP**U<
+>SRT;CONFIG\<
+>SXADP**U\<
 #configuring the APN
->SRFA{{apn}}<
->SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFA[apn]\<
+>SRFI\<
+>SRFL[apnu]\<
+>SRFP[apnp]\<
 #The remote AVL server address and port
->SXADP0000d.plaspy.com;8888<
+>SXADP0000d.plaspy.com;8888\<
 #A Destination Address holding the server destination
->SDA4;P00<
+>SDA4;P00\<
 #Time-only Time And Distance signal definition
->STD80300<
+>STD80300\<
 #Event triggered by T&D signal
->SED37NV4;TD8+<
+>SED37NV4;TD8+\<
 #Input report event
->SED05NV4;IP3+<
+>SED05NV4;IP3+\<
 #end
 
 For clarity, the same server endpoint may be specified by IP where your workflow prefers numeric addressing. Plaspy accepts connections to 54.85.159.138 on port 8888 as an alternative to d.plaspy.com.
@@ -108,7 +108,7 @@ For clarity, the same server endpoint may be specified by IP where your workflow
 
 - The exact command syntax and available script directives depend on Syrus firmware and Syrus Desk versions; verify compatibility before mass deployment.
 - Choose TCP or UDP according to your installation needs; both are supported by Plaspy on port 8888 and the platform will automatically detect the protocol used by the tracker.
-- Replace {{apn}}, {{apnu}} and {{apnp}} with carrier specific values. If the APN credentials are not required, leave username and password blank.
+- Replace [apn], [apnu] and [apnp] with carrier specific values. If the APN credentials are not required, leave username and password blank.
 - Loading a .tmf file via Syrus Desk is a common method for bulk provisioning and for applying consistent profiles across many devices.
 - Always confirm after configuration that the device reports to Plaspy and that events and positions appear as expected in the platform.
 

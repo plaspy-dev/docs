@@ -85,11 +85,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your carrier APN. If your carrier requires a username or password, include {{apnu}} and {{apnp}} where supported by the device:
+- Set the operator APN. Replace [apn] with your carrier APN. If your carrier requires a username or password, include [apnu] and [apnp] where supported by the device:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(If only APN is required, send APN,{{apn}}#)
+(If only APN is required, send APN,[apn]#)
 
 - Configure the GPRS server using the Plaspy domain (recommended for most setups):
 ```
@@ -112,9 +112,9 @@ PARAM#
 ```
 
 Notes on placeholders:
-- {{apn}} = your mobile provider APN string
-- {{apnu}} = APN username if required
-- {{apnp}} = APN password if required
+- [apn] = your mobile provider APN string
+- [apnu] = APN username if required
+- [apnp] = APN password if required
 
 Send these commands in the order shown when following a standard setup flow: APN first, then SERVER, then TIMER, then PARAM# to verify. Use FACTORY# only when an explicit reset is needed.
 

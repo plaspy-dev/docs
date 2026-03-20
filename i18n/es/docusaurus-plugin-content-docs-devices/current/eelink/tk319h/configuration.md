@@ -88,9 +88,9 @@ GMT,E,0#
 
 - Configurar el APN del operador
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Nota: El comando APN puede incluir opcionalmente el nombre de usuario y la contraseña del APN. Mantenga los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por el APN del operador, el usuario APN y la contraseña APN según lo requiera su operador móvil.
+Nota: El comando APN puede incluir opcionalmente el nombre de usuario y la contraseña del APN. Mantenga los marcadores de posición [apn], [apnu] y [apnp] y sustitúyalos por el APN del operador, el usuario APN y la contraseña APN según lo requiera su operador móvil.
 
 - Configurar el servidor GPRS al dominio de Plaspy usando la ranura de servidor primaria 1
 ```text
@@ -119,7 +119,7 @@ Envíe estos comandos SMS al número telefónico correspondiente a la SIM instal
 - Las versiones de firmware y las revisiones de hardware de EElink pueden cambiar la sintaxis de comandos o las funciones soportadas; consulte siempre el manual específico del dispositivo para la sintaxis SMS exacta si algo no responde como se espera
 - El dispositivo soporta modos de transporte UDP y TCP; elija según la fiabilidad de la red y sus necesidades operativas, pero tenga en cuenta que Plaspy acepta ambos en el puerto 8888
 - La configuración por SMS es útil para instalaciones remotas, pero confirme la entrega de SMS y la capacidad de respuesta del dispositivo antes de depender únicamente de la configuración remota
-- Reemplace los marcadores de posición del APN por los valores reales del operador; si su operador requiere usuario y contraseña incluya los valores {{apnu}} y {{apnp}} en el comando APN
+- Reemplace los marcadores de posición del APN por los valores reales del operador; si su operador requiere usuario y contraseña incluya los valores [apnu] y [apnp] en el comando APN
 - Plaspy utiliza el mismo puerto para todos los dispositivos y realiza la detección automática de protocolo, por lo que una vez configurados el servidor y el puerto, la plataforma identificará y procesará los mensajes entrantes
 
 ## Por qué usar Plaspy con esta configuración

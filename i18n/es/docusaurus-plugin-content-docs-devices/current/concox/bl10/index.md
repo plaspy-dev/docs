@@ -1,6 +1,7 @@
 ---
 slug: /concox/bl10
 id: bl10
+sidebar_key: concobl10_index_bl10
 sidebar_label: BL10
 title: Concox - BL10
 sidebar_class_name: menu_item_tracker

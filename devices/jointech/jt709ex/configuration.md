@@ -77,24 +77,24 @@ The JT709Ex is configured to report status messages and events to the shared Pla
 The JT709Ex public configuration includes SMS provisioning commands for setting the GPRS server and APN. Replace the placeholders with your device values before sending.
 
 - Set the GPRS server and APN
-Send this SMS to the device, replacing {{trackerID}} with the device ID and {{apn}} with your mobile operator APN.
+Send this SMS to the device, replacing {{trackerID}} with the device ID and [apn] with your mobile operator APN.
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 - Set the APN user and password
-If your APN requires a username and password, send this SMS replacing {{trackerID}}, {{apnu}} and {{apnp}} as needed. If your APN has no credentials, this step may be skipped.
+If your APN requires a username and password, send this SMS replacing {{trackerID}}, [apnu] and [apnp] as needed. If your APN has no credentials, this step may be skipped.
 
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notes on placeholders
 - {{trackerID}} — the unique device ID required by the tracker for SMS provisioning.
-- {{apn}} — the APN string from your mobile operator.
-- {{apnu}} — APN username where required by the operator.
-- {{apnp}} — APN password where required by the operator.
+- [apn] — the APN string from your mobile operator.
+- [apnu] — APN username where required by the operator.
+- [apnp] — APN password where required by the operator.
 
 Send these SMS bodies to the device phone number using your phone or an SMS gateway as documented by Jointech. The exact SMS syntax and required scope may vary by firmware version.
 

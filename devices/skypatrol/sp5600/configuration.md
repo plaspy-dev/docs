@@ -77,7 +77,7 @@ When configured for Plaspy, the SP5600 sends periodic location and device status
 
 The exact commands or SMS strings used to configure an SP5600 vary with SkyPatrol firmware and the vendor configuration tool in use. Because no public command list for this model is provided here, follow the manufacturer documentation or the vendor configuration interface for precise syntax. Typical manufacturer tools will include fields for server address, port, transport, and reporting intervals that correspond to the Plaspy settings above.
 
-If you receive or locate public command examples from the manufacturer or vendor, apply them in the order recommended by SkyPatrol and preserve any placeholders such as {{apn}} or {{apnu}} as instructed. Always verify commands against official SkyPatrol documentation before applying them to production devices.
+If you receive or locate public command examples from the manufacturer or vendor, apply them in the order recommended by SkyPatrol and preserve any placeholders such as [apn] or [apnu] as instructed. Always verify commands against official SkyPatrol documentation before applying them to production devices.
 
 ## Configuration Notes
 

@@ -86,7 +86,7 @@ Si dispone de la lista oficial de comandos o de la cadena de configuración de O
 - Establecer transporte UDP o TCP si es requerido
 - Guardar y reiniciar o enviar un comando de aplicar
 
-Conserve los marcadores de posición que provea el fabricante como {{apn}}, {{apnu}} o {{apnp}} cuando estén presentes; representan los valores de APN y credenciales APN requeridos para GPRS.
+Conserve los marcadores de posición que provea el fabricante como [apn], [apnu] o [apnp] cuando estén presentes; representan los valores de APN y credenciales APN requeridos para GPRS.
 
 ## Notas de configuración
 

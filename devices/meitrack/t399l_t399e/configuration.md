@@ -83,16 +83,16 @@ Note: The factory reset command can be used during initial setup when you want t
 
 - Set the GPRS server to Plaspy using server IP and port with APN placeholder
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
-- If your APN requires username and password include the optional placeholders {{apnu}} and {{apnp}} after the APN
+- If your APN requires username and password include the optional placeholders [apnu] and [apnp] after the APN
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Explanation of placeholders
-- {{apn}} is the mobile data APN for the SIM card
-- {{apnu}} is the APN username if required by your mobile operator
-- {{apnp}} is the APN password if required by your mobile operator
+- [apn] is the mobile data APN for the SIM card
+- [apnu] is the APN username if required by your mobile operator
+- [apnp] is the APN password if required by your mobile operator
 
 - Set the time zone to UTC 0
 ```text

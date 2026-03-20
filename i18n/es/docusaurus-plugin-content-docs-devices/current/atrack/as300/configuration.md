@@ -77,7 +77,7 @@ Si su guía de configuración del modelo AS300 incluye comandos específicos (a 
 
 ## Ejemplos de comandos de configuración
 
-Los siguientes comandos públicos están incluidos en la configuración del modelo AS300 y pueden usarse con la interfaz de comandos admitida por ATrack. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con el APN, usuario y contraseña de su operador cuando sea necesario.
+Los siguientes comandos públicos están incluidos en la configuración del modelo AS300 y pueden usarse con la interfaz de comandos admitida por ATrack. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos con el APN, usuario y contraseña de su operador cuando sea necesario.
 
 - Configurar comportamiento de evento ACC y reglas de reporte
 ```text
@@ -99,9 +99,9 @@ AT$FORM=1,@P,0,""
 
 - Configurar el servidor GPRS y ajustes APN para apuntar a Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-Nota: {{apn}} es el APN del operador, {{apnu}} es el usuario del APN (si lo requiere) y {{apnp}} es la contraseña del APN (si lo requiere). Reemplace los marcadores por las credenciales de su operador.
+Nota: [apn] es el APN del operador, [apnu] es el usuario del APN (si lo requiere) y [apnp] es la contraseña del APN (si lo requiere). Reemplace los marcadores por las credenciales de su operador.
 
 - Consultar estado del dispositivo
 ```text

@@ -93,15 +93,15 @@ The BN-401B public configuration commands are commonly sent by SMS. The sample c
 
 - Set the operator APN
   ```
-  apn123456 {{apn}}
+  apn123456 [apn]
   ```
-  Note: replace {{apn}} with your mobile operator APN name.
+  Note: replace [apn] with your mobile operator APN name.
 
 - Set the APN username and password
   ```
-  up123456 {{apnu}} {{apnp}}
+  up123456 [apnu] [apnp]
   ```
-  Note: replace {{apnu}} with the APN username and {{apnp}} with the APN password if required by your operator. Use blank values if the operator does not require credentials.
+  Note: replace [apnu] with the APN username and [apnp] with the APN password if required by your operator. Use blank values if the operator does not require credentials.
 
 - Set the GPRS server by IP and port pointing to Plaspy
   ```
@@ -141,7 +141,7 @@ The BN-401B public configuration commands are commonly sent by SMS. The sample c
 - SMS configuration is shown in the public commands above; you can also use Bluetooth or vendor tools for local setup depending on your unit and installer preferences.
 - Firmware versions and regional variants can change command syntax and capabilities; always confirm the exact command formats for your BN-401B firmware.
 - Choose UDP or TCP transport according to your network and reliability preferences; Plaspy accepts either and will detect protocol automatically.
-- When using APN placeholders such as {{apn}}, {{apnu}}, and {{apnp}}, substitute values from your mobile operator. If credentials are not required, leave them blank as allowed by the operator.
+- When using APN placeholders such as [apn], [apnu], and [apnp], substitute values from your mobile operator. If credentials are not required, leave them blank as allowed by the operator.
 - Use the factory reset command only when needed during initial setup or troubleshooting, and be aware this may clear previous settings.
 
 ## Why Use Plaspy with This Configuration

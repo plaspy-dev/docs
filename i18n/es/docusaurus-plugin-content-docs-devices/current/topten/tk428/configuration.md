@@ -80,9 +80,9 @@ La configuración pública de TopTen admite comandos vía SMS. Los siguientes so
 111111CLR
 ```
 
-- Establecer APN y servidor GPRS para apuntar el dispositivo a Plaspy. Este comando define la IP del servidor, el puerto y los parámetros APN. Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por el APN, usuario y contraseña de su SIM según sea necesario:
+- Establecer APN y servidor GPRS para apuntar el dispositivo a Plaspy. Este comando define la IP del servidor, el puerto y los parámetros APN. Conserve los marcadores [apn], [apnu] y [apnp] y reemplácelos por el APN, usuario y contraseña de su SIM según sea necesario:
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 
 - Verificar o consultar la configuración WWW actual en el dispositivo:
@@ -91,9 +91,9 @@ La configuración pública de TopTen admite comandos vía SMS. Los siguientes so
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es el nombre del APN de su operador móvil.
-- {{apnu}} es el nombre de usuario del APN si su operador lo requiere.
-- {{apnp}} es la contraseña del APN si su operador la requiere.
+- [apn] es el nombre del APN de su operador móvil.
+- [apnu] es el nombre de usuario del APN si su operador lo requiere.
+- [apnp] es la contraseña del APN si su operador la requiere.
 
 La documentación del fabricante indica que el ID del rastreador usado por Plaspy corresponde a los últimos 14 dígitos del IMEI de 15 dígitos. Por ejemplo, si el IMEI tiene 15 dígitos, el identificador son los caracteres IMEI del 2 al 15.
 

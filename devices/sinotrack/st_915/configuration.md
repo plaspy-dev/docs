@@ -86,9 +86,9 @@ RESET
 ```
 
 - Set the APN of the operator
-Note: replace the placeholders with your operator values. {{apn}} is the APN name. {{apnu}} is the APN username and {{apnp}} is the APN password. If your operator does not require a username or password, leave those placeholders blank per the device rules.
+Note: replace the placeholders with your operator values. [apn] is the APN name. [apnu] is the APN username and [apnp] is the APN password. If your operator does not require a username or password, leave those placeholders blank per the device rules.
 ```
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 
 - Set up the GPRS server to point to Plaspy using the public server IP and port

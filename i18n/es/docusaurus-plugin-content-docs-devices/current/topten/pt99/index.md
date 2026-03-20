@@ -1,6 +1,7 @@
 ---
 slug: /topten/pt99
 id: pt99
+sidebar_key: toptept99_index_pt99
 sidebar_label: PT99
 title: TopTen - PT99
 sidebar_class_name: menu_item_tracker

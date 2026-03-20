@@ -82,12 +82,12 @@ TSPRXAB27GHKLMnaicz*U!
 
 Setup command (replace placeholders and compute checksum before sending):
 - Replace {{imei}} with the device IMEI.
-- Replace {{apn}}, {{apnu}}, {{apnp}} with APN, APN username, and APN password if required by your device configuration. For devices using Amazon Sidewalk exclusively, APN fields may be unused or ignored; verify with the manufacturer.
+- Replace [apn], [apnu], [apnp] with APN, APN username, and APN password if required by your device configuration. For devices using Amazon Sidewalk exclusively, APN fields may be unused or ignored; verify with the manufacturer.
 - Compute {{checksum}} as the XOR checksum of the command characters from the start of the inner command up to but not including the '*' character, expressed as an uppercase two-digit hexadecimal value.
 
 Example setup SMS command:
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Optional reboot command (use when the device documentation indicates a reboot is required or recommended):
@@ -102,9 +102,9 @@ Checksum calculation
 
 Notes about placeholders
 - {{imei}} — device IMEI number, required to address the specific tracker.
-- {{apn}} — APN name placeholder; include only if your installation and device configuration require APN values.
-- {{apnu}} — APN username placeholder.
-- {{apnp}} — APN password placeholder.
+- [apn] — APN name placeholder; include only if your installation and device configuration require APN values.
+- [apnu] — APN username placeholder.
+- [apnp] — APN password placeholder.
 
 Always verify the exact SMS command syntax and checksum method from the official GlobalSat documentation before sending commands in production.
 

@@ -78,13 +78,13 @@ The following example command is a public Teltonika style SMS batch command for 
 - Example SMS batch command to set APN and Plaspy server parameters
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders
-  - {{apn}} should be replaced with your mobile operator APN name
-  - {{apnu}} is the APN username if required by the operator; leave blank if not needed
-  - {{apnp}} is the APN password if required by the operator; leave blank if not needed
+  - [apn] should be replaced with your mobile operator APN name
+  - [apnu] is the APN username if required by the operator; leave blank if not needed
+  - [apnp] is the APN password if required by the operator; leave blank if not needed
 
 Notes on usage
 - The command above is commonly sent as an SMS batch command to the device or applied via Teltonika Configurator when supported by the firmware and workflow.

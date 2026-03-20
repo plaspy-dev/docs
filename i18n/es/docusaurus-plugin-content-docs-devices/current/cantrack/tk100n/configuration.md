@@ -84,7 +84,7 @@ Dado que los comandos del fabricante pueden cambiar y existen múltiples herrami
 - Las diferencias de firmware y las variantes regionales de hardware pueden cambiar las opciones de configuración disponibles y la sintaxis de comandos; confirme siempre los comandos con la documentación del dispositivo.
 - Si su herramienta de configuración permite TCP y UDP, pruebe ambos modos de transporte si la conectividad es intermitente; Plaspy acepta cualquiera de los dos en el puerto 8888.
 - El respaldo por SMS es útil para resolución remota cuando GPRS no está disponible, pero suele ser más lento y puede no incluir telemetría completa.
-- Asegúrese de ingresar correctamente los ajustes APN de su operador móvil cuando el dispositivo requiera APN; los marcadores de posición como {{apn}} {{apnu}} o {{apnp}} pueden aparecer en herramientas y deben reemplazarse por los valores del operador.
+- Asegúrese de ingresar correctamente los ajustes APN de su operador móvil cuando el dispositivo requiera APN; los marcadores de posición como [apn] [apnu] o [apnp] pueden aparecer en herramientas y deben reemplazarse por los valores del operador.
 - Mantenga un registro del IMEI del dispositivo y de la configuración aplicada para la gestión a largo plazo de la flota y la resolución de problemas.
 
 ## Por qué usar Plaspy con esta configuración

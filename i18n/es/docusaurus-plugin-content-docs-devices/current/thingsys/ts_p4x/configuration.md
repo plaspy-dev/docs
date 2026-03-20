@@ -81,19 +81,19 @@ FORMAT
 ```
 Este comando restablece los ajustes del equipo a los valores de fábrica. Considere este paso como opcional y utilícelo únicamente cuando sea necesario arrancar desde una configuración limpia.
 
-2. Establecer el APN del operador (reemplace {{apn}} con el APN de su operador):
+2. Establecer el APN del operador (reemplace [apn] con el APN de su operador):
 ```
-apn123456 {{apn}}
-```
-
-3. Establecer el usuario del APN (reemplace {{apnu}} con el usuario del APN si es requerido):
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-4. Establecer la contraseña del APN (reemplace {{apnp}} con la contraseña del APN si es requerido):
+3. Establecer el usuario del APN (reemplace [apnu] con el usuario del APN si es requerido):
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+4. Establecer la contraseña del APN (reemplace [apnp] con la contraseña del APN si es requerido):
+```
+apnpasswd123456 [apnp]
 ```
 
 5. Configurar el servidor GPRS a Plaspy con la IP pública y el puerto:
@@ -109,9 +109,9 @@ CXZT
 Este comando de verificación recupera los valores de configuración actuales del dispositivo para que pueda confirmar los parámetros de APN y servidor.
 
 Notas sobre los marcadores de posición
-- {{apn}} es la cadena APN del operador móvil.
-- {{apnu}} es el usuario del APN cuando el operador lo requiere.
-- {{apnp}} es la contraseña del APN cuando el operador lo requiere.
+- [apn] es la cadena APN del operador móvil.
+- [apnu] es el usuario del APN cuando el operador lo requiere.
+- [apnp] es la contraseña del APN cuando el operador lo requiere.
 Conserve estos marcadores de posición y reemplace con los valores de su operador al enviar los SMS.
 
 ## Observaciones de configuración

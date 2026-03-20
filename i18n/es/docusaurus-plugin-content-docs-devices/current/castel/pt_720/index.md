@@ -1,6 +1,7 @@
 ---
 slug: /castel/pt_720
 id: pt_720
+sidebar_key: castept_720_index_pt_720
 sidebar_label: PT-720
 title: Castel - PT-720
 sidebar_class_name: menu_item_tracker

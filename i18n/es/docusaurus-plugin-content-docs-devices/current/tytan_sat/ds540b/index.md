@@ -1,6 +1,7 @@
 ---
 slug: /tytan_sat/ds540b
 id: ds540b
+sidebar_key: tytan_sads540b_index_ds540b
 sidebar_label: DS540B
 title: Tytan SAT - DS540B
 sidebar_class_name: menu_item_tracker

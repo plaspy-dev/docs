@@ -75,7 +75,7 @@ El GT103 envía mensajes de posición y estado por 2G GPRS al endpoint y puerto 
 
 ## Comandos de configuración de ejemplo
 
-El GT103 admite configuración basada en SMS. Los comandos SMS públicos que aparecen a continuación se presentan en el orden en que se usan comúnmente. La contraseña SMS del dispositivo en estos ejemplos es la predeterminada de fábrica 000000. Reemplace los marcadores de posición como {{apn}}, {{apnu}}, {{apnp}} y fragmentos de IMEI según necesite para su instalación.
+El GT103 admite configuración basada en SMS. Los comandos SMS públicos que aparecen a continuación se presentan en el orden en que se usan comúnmente. La contraseña SMS del dispositivo en estos ejemplos es la predeterminada de fábrica 000000. Reemplace los marcadores de posición como [apn], [apnu], [apnp] y fragmentos de IMEI según necesite para su instalación.
 
 - Restablecer el dispositivo a valores de fábrica (paso inicial opcional):
 ```text
@@ -90,9 +90,9 @@ Explicación: reemplace {{IMIE_FIRST_14_DIGITS}} con los primeros 14 dígitos de
 
 - Establecer el APN del operador. Mantenga los marcadores si su APN requiere usuario o contraseña:
 ```text
-W000000,011,{{apn}}{{,{{apnu}},{{apnp}}}}
+W000000,011,[apn]{{,[apnu],[apnp]}}
 ```
-Explicación: {{apn}} es el APN proporcionado por su operador móvil. Si el operador requiere usuario y contraseña del APN, incluya {{apnu}} y {{apnp}} respectivamente. Si no son necesarios, envíe solo el APN.
+Explicación: [apn] es el APN proporcionado por su operador móvil. Si el operador requiere usuario y contraseña del APN, incluya [apnu] y [apnp] respectivamente. Si no son necesarios, envíe solo el APN.
 
 - Configurar el servidor GPRS hacia Plaspy usando la IP del servidor Plaspy y el puerto 8888:
 ```text
@@ -117,7 +117,7 @@ W000000,601
 
 Notas sobre marcadores y valores por defecto:
 - La contraseña SMS por defecto mostrada en ejemplos públicos es 000000. Si la contraseña de su dispositivo fue cambiada, use la contraseña activa en lugar de 000000.
-- Mantenga marcadores como {{apn}}, {{apnu}} y {{apnp}} al preparar mensajes SMS para recordar qué valores del operador son necesarios.
+- Mantenga marcadores como [apn], [apnu] y [apnp] al preparar mensajes SMS para recordar qué valores del operador son necesarios.
 - Si su dispositivo admite el uso de nombre de dominio, puede establecer d.plaspy.com en lugar de la dirección IP.
 
 ## Observaciones sobre la configuración
@@ -126,7 +126,7 @@ Notas sobre marcadores y valores por defecto:
 - El GT103 soporta tanto configuración por SMS como por GPRS en la documentación pública; use el método que mejor se adapte a su despliegue y flujo de trabajo del instalador.
 - Elija TCP o UDP según las opciones del firmware del dispositivo; Plaspy detectará automáticamente el protocolo del rastreador una vez que los datos lleguen a la plataforma.
 - Use el puerto compartido de Plaspy 8888 para todas las entradas de dispositivos — Plaspy espera dispositivos en ese puerto y aceptará conexiones de cualquier rastreador compatible usando ese puerto.
-- Las credenciales del APN son específicas del operador. Si se requiere usuario o contraseña para el APN, incluya {{apnu}} y {{apnp}} al configurar el APN.
+- Las credenciales del APN son específicas del operador. Si se requiere usuario o contraseña para el APN, incluya [apnu] y [apnp] al configurar el APN.
 
 ## Por qué usar Plaspy con esta configuración
 

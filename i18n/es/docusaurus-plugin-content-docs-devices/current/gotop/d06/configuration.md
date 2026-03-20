@@ -75,7 +75,7 @@ Al configurarse, el D06 envía sus datos GPS y de estado al punto final y puerto
 
 El conjunto exacto de comandos y la sintaxis para el GOTOP D06 varían según el firmware y el método de configuración elegido. Algunos instaladores usan la aplicación de configuración del fabricante, un cable USB de configuración o comandos SMS documentados para establecer los valores de servidor y transporte. En general, deberá proporcionar el dominio d.plaspy.com o la IP del servidor 54.85.159.138 y fijar el puerto en 8888, seleccionando UDP o TCP cuando la herramienta del dispositivo lo solicite.
 
-Si tiene acceso a comandos SMS de GOTOP o a una herramienta de configuración del fabricante, siga esa documentación del proveedor para ingresar el dominio o la IP y el puerto. Conserve cualquier marcador de posición en ejemplos del proveedor como {{apn}}, {{apnu}} o {{apnp}} si aparecen, reemplazándolos por los valores de su operador según corresponda.
+Si tiene acceso a comandos SMS de GOTOP o a una herramienta de configuración del fabricante, siga esa documentación del proveedor para ingresar el dominio o la IP y el puerto. Conserve cualquier marcador de posición en ejemplos del proveedor como [apn], [apnu] o [apnp] si aparecen, reemplazándolos por los valores de su operador según corresponda.
 
 ## Notas sobre la configuración
 

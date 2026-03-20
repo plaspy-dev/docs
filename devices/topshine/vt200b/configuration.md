@@ -78,9 +78,9 @@ The VT200B sends GPS coordinates and telemetry to the Plaspy shared server endpo
 
 ## Example Configuration Commands
 
-The VT200B supports SMS command configuration. The manufacturer sample commands and placeholders are shown below. The example uses the default device password 000000 where <password> appears in commands.
+The VT200B supports SMS command configuration. The manufacturer sample commands and placeholders are shown below. The example uses the default device password 000000 where \<password> appears in commands.
 
-Note: Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} unchanged and replace them with your operator APN, APN username, and APN password as needed.
+Note: Keep placeholders such as [apn], [apnu], and [apnp] unchanged and replace them with your operator APN, APN username, and APN password as needed.
 
 - Reset to factory settings (optional initial step):
 
@@ -88,22 +88,22 @@ Note: Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} unchanged and re
 W000000,990,099###
 ```
 
-- Set the device ID using the first 14 digits derived from the IMEI (replace <14-digit-imei> with the actual 14-digit value):
+- Set the device ID using the first 14 digits derived from the IMEI (replace \<14-digit-imei> with the actual 14-digit value):
 
 ```text
 W000000,010,<14-digit-imei>
 ```
 
-- Set the operator APN (replace {{apn}} with your APN; include optional APN username and password if required using {{apnu}} and {{apnp}}):
+- Set the operator APN (replace [apn] with your APN; include optional APN username and password if required using [apnu] and [apnp]):
 
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 
 Optional extended APN command with username and password:
 
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP and port as provided by Plaspy:
@@ -136,7 +136,7 @@ W000000,014,6
 W000000,601
 ```
 
-Replace the initial 000000 password with the actual device password if it has been changed from the factory default. When using the APN command, replace the placeholders {{apn}}, {{apnu}}, and {{apnp}} with your operator values.
+Replace the initial 000000 password with the actual device password if it has been changed from the factory default. When using the APN command, replace the placeholders [apn], [apnu], and [apnp] with your operator values.
 
 ## Configuration Notes
 

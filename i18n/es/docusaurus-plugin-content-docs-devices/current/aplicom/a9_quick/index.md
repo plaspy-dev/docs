@@ -1,6 +1,7 @@
 ---
 slug: /aplicom/a9_quick
 id: a9_quick
+sidebar_key: aplicoa9_quick_index_a9_quick
 sidebar_label: A9 Quick
 title: Aplicom - A9 Quick
 sidebar_class_name: menu_item_tracker

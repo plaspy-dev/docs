@@ -82,7 +82,7 @@ The YG119 model configuration commands vary by CanTrack firmware and the vendor 
 - Use port 8888
 - Select UDP or TCP if required
 
-If you receive manufacturer supplied command examples from CanTrack that include placeholders such as {{apn}}, {{apnu}}, or {{apnp}}, keep those placeholders when issuing commands and replace them with your mobile carrier APN settings. Consult the CanTrack documentation for command examples appropriate to your firmware.
+If you receive manufacturer supplied command examples from CanTrack that include placeholders such as [apn], [apnu], or [apnp], keep those placeholders when issuing commands and replace them with your mobile carrier APN settings. Consult the CanTrack documentation for command examples appropriate to your firmware.
 
 ## Configuration Notes
 

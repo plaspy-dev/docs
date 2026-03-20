@@ -83,21 +83,21 @@ Nota: Esto restablece la configuración del dispositivo a los valores de fábric
 
 2. Configurar el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} es un marcador de posición para el nombre del APN del operador móvil. Reemplace con la cadena de APN de su operador.
+- [apn] es un marcador de posición para el nombre del APN del operador móvil. Reemplace con la cadena de APN de su operador.
 
 3. Configurar el usuario del APN
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- {{apnu}} es un marcador de posición para el usuario del APN si el operador lo requiere. Déjelo en blanco o omítalo si no es necesario.
+- [apnu] es un marcador de posición para el usuario del APN si el operador lo requiere. Déjelo en blanco o omítalo si no es necesario.
 
 4. Configurar la contraseña del APN
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-- {{apnp}} es un marcador de posición para la contraseña del APN si el operador la solicita.
+- [apnp] es un marcador de posición para la contraseña del APN si el operador la solicita.
 
 5. Configurar el servidor GPRS y el puerto (el ejemplo usa la IP y el puerto de Plaspy)
 ```text
@@ -111,7 +111,7 @@ CXZT
 ```
 - Use CXZT para consultar y verificar la configuración actual del dispositivo cuando el firmware lo soporte.
 
-Importante: Los comandos SMS de ejemplo arriba incluyen el prefijo con la contraseña predeterminada del dispositivo 123456. No elimine los prefijos de contraseña requeridos si el dispositivo los aplica. Conserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con los valores proporcionados por su operador móvil.
+Importante: Los comandos SMS de ejemplo arriba incluyen el prefijo con la contraseña predeterminada del dispositivo 123456. No elimine los prefijos de contraseña requeridos si el dispositivo los aplica. Conserve los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos con los valores proporcionados por su operador móvil.
 
 ## Notas de configuración
 

@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st_180_wi_fi
 id: st_180_wi_fi
+sidebar_key: suntecst_180_wi_fi_index_st_180_wi_fi
 sidebar_label: ST 180 Wi-FI
 title: Suntech - ST 180 Wi-FI
 sidebar_class_name: menu_item_tracker

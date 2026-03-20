@@ -83,19 +83,19 @@ The TK720 supports SMS-based setup using commands. The following example command
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN):
+- Set the operator APN (replace [apn] with your carrier APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if required (replace {{apnu}} with the APN username):
+- Set the APN username if required (replace [apnu] with the APN username):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if required (replace {{apnp}} with the APN password):
+- Set the APN password if required (replace [apnp] with the APN password):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port:
@@ -115,9 +115,9 @@ gprs123456
 ```
 
 Placeholders explained:
-- {{apn}} — your mobile operator APN string required for data connectivity.  
-- {{apnu}} — APN username if your operator requires one.  
-- {{apnp}} — APN password if your operator requires one.
+- [apn] — your mobile operator APN string required for data connectivity.  
+- [apnu] — APN username if your operator requires one.  
+- [apnp] — APN password if your operator requires one.
 
 Send each command as a separate SMS message unless your tool or provisioning method supports batch commands. Confirm command success via the device reply messages or via reporting in Plaspy.
 

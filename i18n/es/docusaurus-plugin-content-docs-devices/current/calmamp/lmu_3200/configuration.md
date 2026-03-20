@@ -88,17 +88,17 @@ Nota: el dispositivo responderá con su MID, que es un identificador de 10 dígi
 
 - Establecer el APN del operador
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Establecer el nombre de usuario del APN
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Establecer la contraseña del APN
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Establecer el servidor GPRS a la IP de Plaspy
@@ -122,9 +122,9 @@ Label: Reboot command to apply configuration changes; perform this after saving 
 !RO
 ```
 Nota: Explicación de los marcadores
-- {{apn}} es el APN del operador de red móvil
-- {{apnu}} es el nombre de usuario del APN cuando se requiere
-- {{apnp}} es la contraseña del APN cuando se requiere
+- [apn] es el APN del operador de red móvil
+- [apnu] es el nombre de usuario del APN cuando se requiere
+- [apnp] es la contraseña del APN cuando se requiere
 
 Envíe los mensajes SMS de configuración según su proceso de instalación y referenciando el MID que el dispositivo devuelve. El formato exacto de los mensajes SMS y si el MID debe anteponer el comando puede variar según el firmware y el método de aprovisionamiento, por lo que debe seguir las instrucciones del fabricante para la sintaxis SMS correcta.
 

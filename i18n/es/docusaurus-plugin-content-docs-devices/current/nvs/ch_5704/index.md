@@ -1,6 +1,7 @@
 ---
 slug: /nvs/ch_5704
 id: ch_5704
+sidebar_key: nvch_5704_index_ch_5704
 sidebar_label: CH-5704
 title: NVS - CH-5704
 sidebar_class_name: menu_item_tracker

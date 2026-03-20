@@ -81,19 +81,19 @@ The Xexun X04 public configuration allows SMS commands for setup. The following 
 begin123456
 ```
 
-- Set the mobile operator APN. Replace {{apn}} with your SIM operator APN string:
+- Set the mobile operator APN. Replace [apn] with your SIM operator APN string:
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if your operator requires one. Replace {{apnu}} with the APN username:
+- Set the APN username if your operator requires one. Replace [apnu] with the APN username:
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if needed. Replace {{apnp}} with the APN password:
+- Set the APN password if needed. Replace [apnp] with the APN password:
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server endpoint to Plaspy using the public server IP and port shown in Plaspy documentation:
@@ -113,9 +113,9 @@ t060s***n123456
 ```
 
 Placeholders explanation:
-- {{apn}} is the mobile operator APN string required for the device to use cellular data.
-- {{apnu}} is an optional APN username when the operator requires authentication.
-- {{apnp}} is an optional APN password when the operator requires authentication.
+- [apn] is the mobile operator APN string required for the device to use cellular data.
+- [apnu] is an optional APN username when the operator requires authentication.
+- [apnp] is an optional APN password when the operator requires authentication.
 
 Follow manufacturer guidance for sending SMS commands, and ensure you use the correct device password when issuing commands.
 

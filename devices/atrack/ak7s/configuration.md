@@ -94,12 +94,12 @@ AT$FORM=1,@P,0,""
 
 - Configure GPRS server with APN placeholders and Plaspy server IP and port
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 Explanation of placeholders:
-- {{apn}} is the mobile operator APN name
-- {{apnu}} is the APN username if required by the operator; leave empty if not needed
-- {{apnp}} is the APN password if required by the operator; leave empty if not needed
+- [apn] is the mobile operator APN name
+- [apnu] is the APN username if required by the operator; leave empty if not needed
+- [apnp] is the APN password if required by the operator; leave empty if not needed
 
 - Check device status
 ```text

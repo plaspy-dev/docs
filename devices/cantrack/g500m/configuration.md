@@ -79,7 +79,7 @@ When configured, the G500M sends location and event telemetry over GSM/GPRS usin
 
 The G500M may be configured using manufacturer tools, SMS command sets, or vendor-provided software. Exact commands and syntax vary by firmware and the vendor utility. Because modelConfiguration content is not provided here, the precise command strings cannot be listed generically.
 
-If you have manufacturer SMS command documentation or a vendor tool, use it to set server d.plaspy.com or 54.85.159.138 and port 8888, and select UDP or TCP as needed. Preserve placeholders from the manufacturer documentation such as {{apn}}, {{apnu}} or {{apnp}} if they appear, and replace them with your SIM APN credentials when required.
+If you have manufacturer SMS command documentation or a vendor tool, use it to set server d.plaspy.com or 54.85.159.138 and port 8888, and select UDP or TCP as needed. Preserve placeholders from the manufacturer documentation such as [apn], [apnu] or [apnp] if they appear, and replace them with your SIM APN credentials when required.
 
 ## Configuration Notes
 

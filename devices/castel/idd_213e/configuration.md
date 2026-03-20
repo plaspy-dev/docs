@@ -73,18 +73,18 @@ The IDD-213E is configured to report its location and diagnostic information to 
 
 ## Example Configuration Commands
 
-The IDD-213E supports SMS based configuration. The public SMS commands below show how to set APN and server values and how to query the current GPRS settings. The default secret key for SMS instructions is the last 6 ASCII characters of the device ID. Replace {{SecretKey}} with that value and {{apn}}, {{apnu}}, {{apnp}} with your operator APN, username, and password as needed.
+The IDD-213E supports SMS based configuration. The public SMS commands below show how to set APN and server values and how to query the current GPRS settings. The default secret key for SMS instructions is the last 6 ASCII characters of the device ID. Replace {{SecretKey}} with that value and [apn], [apnu], [apnp] with your operator APN, username, and password as needed.
 
 - Set APN and server IP or domain (example uses Plaspy IP and port). Replace placeholders before sending:
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 or, if you prefer to use the Plaspy domain:
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},d.plaspy.com,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],d.plaspy.com,8888*
 ```
 
 - Check current GPRS settings on the device:
@@ -95,8 +95,8 @@ or, if you prefer to use the Plaspy domain:
 
 Notes on placeholders:
 - {{SecretKey}}: the device SMS password, by default the last 6 ASCII characters of the device ID.
-- {{apn}}: the mobile operator APN string required for data.
-- {{apnu}} and {{apnp}}: optional APN username and password if your operator requires them.
+- [apn]: the mobile operator APN string required for data.
+- [apnu] and [apnp]: optional APN username and password if your operator requires them.
 
 ## Configuration Notes
 

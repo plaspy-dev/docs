@@ -75,7 +75,7 @@ When configured, the D06 sends its GPS and device state data to the Plaspy serve
 
 The exact command set and syntax for the GOTOP D06 vary by firmware and the chosen configuration method. Some installers use the manufacturer's configuration application, a USB configuration cable, or documented SMS commands to set server and transport values. In general, you will provide either the domain d.plaspy.com or the server IP 54.85.159.138 and set the port to 8888, selecting UDP or TCP where prompted by the device tool.
 
-If you have access to GOTOP SMS commands or a configuration tool from the manufacturer, follow that vendor documentation to enter the server domain or IP and port. Preserve any placeholders in vendor examples such as {{apn}}, {{apnu}}, or {{apnp}} if they appear, replacing them with your network operator values as required.
+If you have access to GOTOP SMS commands or a configuration tool from the manufacturer, follow that vendor documentation to enter the server domain or IP and port. Preserve any placeholders in vendor examples such as [apn], [apnu], or [apnp] if they appear, replacing them with your network operator values as required.
 
 ## Configuration Notes
 

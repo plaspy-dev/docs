@@ -46,7 +46,7 @@ Configurar el GS300 para Plaspy prepara el rastreador para enviar su ubicación 
 ## Requisitos habituales antes de comenzar
 
 - Un GS300 con batería cargada y una tarjeta SIM activa con plan de datos o capacidad SMS según el método de configuración elegido.  
-- Datos del APN del operador para la SIM, necesarios para habilitar GPRS. Use marcadores como {{apn}} donde corresponda.  
+- Datos del APN del operador para la SIM, necesarios para habilitar GPRS. Use marcadores como [apn] donde corresponda.  
 - Acceso al método de configuración del WanWay GS300 documentado por el fabricante (SMS o herramienta del proveedor).  
 - Una cuenta en Plaspy y la posibilidad de confirmar la visibilidad del dispositivo en su instancia de Plaspy.  
 - Capacidad básica para enviar SMS desde su teléfono o acceso a la herramienta de escritorio del proveedor si la configuración se hace por software.  
@@ -76,13 +76,13 @@ Al configurarlo para Plaspy, el GS300 abre una sesión de datos GPRS hacia el en
 
 El WanWay GS300 soporta comandos SMS públicos. Envíe estos comandos por mensaje de texto al número del dispositivo en el orden indicado cuando utilice la configuración por SMS.
 
-- Configure el APN del operador (reemplace {{apn}} y opcionalmente {{apnu}} y {{apnp}} por los valores de su operador):
+- Configure el APN del operador (reemplace [apn] y opcionalmente [apnu] y [apnp] por los valores de su operador):
 ```
-APN,{{apn}}
+APN,[apn]
 ```
 o, si se requiere usuario y contraseña:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Configure el servidor GPRS a Plaspy usando el dominio y puerto indicados:
 ```
@@ -106,8 +106,8 @@ STATUS#
 ```
 
 Notas sobre marcadores y comandos:
-- {{apn}} es la cadena APN del operador necesaria para abrir la sesión de datos.  
-- {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN cuando su operador exige autenticación.  
+- [apn] es la cadena APN del operador necesaria para abrir la sesión de datos.  
+- [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN cuando su operador exige autenticación.  
 - El comando SERVER mostrado apunta a d.plaspy.com y al puerto 8888, que son los ajustes públicos de servidor de Plaspy. Mantenga el orden de comandos cuando aplique la secuencia para la configuración inicial.
 
 ## Observaciones sobre la configuración

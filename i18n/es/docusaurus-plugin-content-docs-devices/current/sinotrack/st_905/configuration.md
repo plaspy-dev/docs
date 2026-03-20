@@ -90,12 +90,12 @@ RESET
 
 - Configurar el APN del operador. Reemplace los marcadores de posición con los valores de su operador
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 Explicación de los marcadores de posición
-- {{apn}} es el nombre del APN del operador móvil
-- {{apnu}} es el usuario del APN si el operador lo requiere; de lo contrario deje en blanco o envíe un marcador vacío según indique el proveedor
-- {{apnp}} es la contraseña del APN si el operador la exige
+- [apn] es el nombre del APN del operador móvil
+- [apnu] es el usuario del APN si el operador lo requiere; de lo contrario deje en blanco o envíe un marcador vacío según indique el proveedor
+- [apnp] es la contraseña del APN si el operador la exige
 
 - Configurar el servidor GPRS para apuntar a Plaspy usando la IP numérica y el puerto mostrados en la documentación de SinoTrack
 ```text

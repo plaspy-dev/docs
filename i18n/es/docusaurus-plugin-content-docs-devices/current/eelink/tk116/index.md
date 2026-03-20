@@ -1,6 +1,7 @@
 ---
 slug: /eelink/tk116
 id: tk116
+sidebar_key: eelintk116_index_tk116
 sidebar_label: TK116
 title: EElink - TK116
 sidebar_class_name: menu_item_tracker

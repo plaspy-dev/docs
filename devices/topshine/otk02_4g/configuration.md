@@ -89,9 +89,9 @@ Explanation: Set the device id using the first 14 digits derived from the IMEI. 
 
 - Set the operator APN (use your operator values; username and password optional)
 ```
-W000000,011,{{apn}}{{,{{apnu}},{{apnp}}}}
+W000000,011,[apn]{{,[apnu],[apnp]}}
 ```
-Explanation: {{apn}} is the mobile operator APN. If your operator requires a username and password include {{apnu}} and {{apnp}} respectively. Keep the placeholders as needed for your SIM configuration.
+Explanation: [apn] is the mobile operator APN. If your operator requires a username and password include [apnu] and [apnp] respectively. Keep the placeholders as needed for your SIM configuration.
 
 - Set the GPRS server to Plaspy using the provided IP and port
 ```

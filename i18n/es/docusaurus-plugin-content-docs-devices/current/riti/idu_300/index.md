@@ -1,6 +1,7 @@
 ---
 slug: /riti/idu_300
 id: idu_300
+sidebar_key: ritidu_300_index_idu_300
 sidebar_label: IDU-300
 title: Riti - IDU-300
 sidebar_class_name: menu_item_tracker

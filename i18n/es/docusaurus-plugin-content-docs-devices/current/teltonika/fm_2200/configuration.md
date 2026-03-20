@@ -79,14 +79,14 @@ El FM 2200 puede aceptar comandos de parámetros por lotes para una configuraci�
 - Comando por lotes para la configuración básica
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explicación de los marcadores de posición y campos
 
-- {{apn}} es el nombre del APN de su operador de red móvil
-- {{apnu}} es el usuario del APN si su operador lo requiere; de lo contrario, déjelo en blanco
-- {{apnp}} es la contraseña del APN si su operador lo requiere; de lo contrario, déjelo en blanco
+- [apn] es el nombre del APN de su operador de red móvil
+- [apnu] es el usuario del APN si su operador lo requiere; de lo contrario, déjelo en blanco
+- [apnp] es la contraseña del APN si su operador lo requiere; de lo contrario, déjelo en blanco
 - 2004 establece el dominio del servidor a d.plaspy.com, que es el servidor de Plaspy
 - 2005 establece el puerto en 8888 que usa Plaspy para todos los dispositivos
 - 2006 puede ser una bandera de transporte o habilitación según el firmware del FM 2200; consulte el mapeo oficial de parámetros en la documentación de Teltonika para confirmar su significado

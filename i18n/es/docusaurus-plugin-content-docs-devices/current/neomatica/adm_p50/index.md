@@ -1,6 +1,7 @@
 ---
 slug: /neomatica/adm_p50
 id: adm_p50
+sidebar_key: neomaticadm_p50_index_adm_p50
 sidebar_label: ADM P50
 title: Neomatica - ADM P50
 sidebar_class_name: menu_item_tracker

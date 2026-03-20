@@ -81,19 +81,19 @@ The LMU-4520 can be configured by SMS using public commands. The tracker replies
 ```
 Send this command by SMS to the device. The device typically replies with an MID (10 digits) used for identification in subsequent command flows.
 
-- Set the operator APN (replace {{apn}} with your carrier APN)
+- Set the operator APN (replace [apn] with your carrier APN)
 ```
-!RP,2306,0,{{apn}}
-```
-
-- (Optional) Set the APN username if required by the operator (replace {{apnu}})
-```
-!RP,2314,0,{{apnu}}
+!RP,2306,0,[apn]
 ```
 
-- (Optional) Set the APN password if required by the operator (replace {{apnp}})
+- (Optional) Set the APN username if required by the operator (replace [apnu])
 ```
-!RP,2315,0,{{apnp}}
+!RP,2314,0,[apnu]
+```
+
+- (Optional) Set the APN password if required by the operator (replace [apnp])
+```
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public server IP
@@ -117,8 +117,8 @@ Send this command by SMS to the device. The device typically replies with an MID
 ```
 
 Notes on placeholders
-- {{apn}} is your mobile operator APN string.
-- {{apnu}} and {{apnp}} are optional APN username and password fields used when the operator requires authentication.
+- [apn] is your mobile operator APN string.
+- [apnu] and [apnp] are optional APN username and password fields used when the operator requires authentication.
 - Keep command order when applying settings by SMS, and reboot if the device or workflow requires reinitialization.
 
 ## Configuration Notes

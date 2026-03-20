@@ -81,7 +81,7 @@ Los comandos y cadenas exactas dependen de la herramienta de configuración de G
   - Puerto: 8888
   - Transporte: UDP o TCP
 
-Si utiliza una interfaz de comandos por SMS del fabricante o un archivo de comandos de texto, siga la sintaxis exacta proporcionada por Gosafe para su firmware. Los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} son usados por algunos fabricantes para configuraciones APN; si aparecen en su documentación de Gosafe, respételos y reemplace con los valores APN del operador cuando sea necesario.
+Si utiliza una interfaz de comandos por SMS del fabricante o un archivo de comandos de texto, siga la sintaxis exacta proporcionada por Gosafe para su firmware. Los marcadores de posición [apn], [apnu] y [apnp] son usados por algunos fabricantes para configuraciones APN; si aparecen en su documentación de Gosafe, respételos y reemplace con los valores APN del operador cuando sea necesario.
 
 ## Notas de configuración
 

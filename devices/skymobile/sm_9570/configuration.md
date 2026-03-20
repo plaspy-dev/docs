@@ -87,9 +87,9 @@ AT+GTTMA=SM9570,+,0,0,0,,,,,,FFFF$
 
 - Set the operator APN
 ```text
-AT+GTBSI=SM9570,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=SM9570,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explanation: Replace {{apn}} with your mobile operator APN. If your operator requires an APN username or password, replace {{apnu}} and {{apnp}} accordingly. Leave placeholders blank if not required by the operator.
+Explanation: Replace [apn] with your mobile operator APN. If your operator requires an APN username or password, replace [apnu] and [apnp] accordingly. Leave placeholders blank if not required by the operator.
 
 - Set the GPRS server to Plaspy using both domain and IP with port 8888
 ```text
@@ -120,7 +120,7 @@ Send each command as an SMS message to the device. Keep the order of commands wh
 - The public examples above use SMS based configuration. If your installation uses a vendor configuration tool or USB interface, consult the manufacturer documentation for equivalent steps.
 - Choose UDP or TCP according to network and server requirements. Plaspy supports both and will detect the tracker protocol automatically.
 - Plaspy uses the same port 8888 for all devices supported by the platform. Use that port when configuring server settings for the SM-9570.
-- Preserve APN placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when preparing commands and replace them with operator specific values.
+- Preserve APN placeholders such as [apn], [apnu], and [apnp] when preparing commands and replace them with operator specific values.
 
 ## Why Use Plaspy with This Configuration
 

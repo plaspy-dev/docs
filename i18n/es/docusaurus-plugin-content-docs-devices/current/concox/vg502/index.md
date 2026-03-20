@@ -1,6 +1,7 @@
 ---
 slug: /concox/vg502
 id: vg502
+sidebar_key: concovg502_index_vg502
 sidebar_label: VG502
 title: Concox - VG502
 sidebar_class_name: menu_item_tracker

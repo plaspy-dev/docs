@@ -77,7 +77,7 @@ When configured, the Bharat101 Plus 4G with CAN sends GNSS position fixes, CAN b
 
 The Bharat101 Plus 4G with CAN may be configured via multiple manufacturer methods including USB, BLE, SMS, or vendor software. Exact command syntax and configuration commands are determined by the iTriangle firmware and configuration tool, and they vary across releases. Because command sets differ by firmware and vendor tool, consult the iTriangle configuration manual or the vendor software for exact commands and example sequences.
 
-If you are using the iTriangle SMS or serial command set, follow the official command reference from iTriangle and replace any APN or placeholder values with your network details. Preserve placeholders such as {{apn}} or {{apnu}} if shown by the manufacturer command examples and consult the device manual for correct substitution.
+If you are using the iTriangle SMS or serial command set, follow the official command reference from iTriangle and replace any APN or placeholder values with your network details. Preserve placeholders such as [apn] or [apnu] if shown by the manufacturer command examples and consult the device manual for correct substitution.
 
 ## Configuration Notes
 

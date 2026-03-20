@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv200
 id: gv200
+sidebar_key: queclingv200_index_gv200
 sidebar_label: GV200
 title: QuecLink - GV200
 sidebar_class_name: menu_item_tracker

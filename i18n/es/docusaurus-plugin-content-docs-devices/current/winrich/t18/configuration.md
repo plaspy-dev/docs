@@ -89,9 +89,9 @@ El Winrich T18 soporta configuración por SMS. A continuación se muestran los c
 ```
 
 - Configurar el APN del operador
-Nota: Reemplace {{apn}} con el APN de su operador. Si el operador requiere usuario y contraseña para el APN, incluya {{apnu}} y {{apnp}} según lo proporcionado por su operador.
+Nota: Reemplace [apn] con el APN de su operador. Si el operador requiere usuario y contraseña para el APN, incluya [apnu] y [apnp] según lo proporcionado por su operador.
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy

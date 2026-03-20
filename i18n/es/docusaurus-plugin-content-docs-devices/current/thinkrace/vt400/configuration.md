@@ -84,18 +84,18 @@ El ThinkRace VT400 puede configurarse mediante comandos SMS en muchas instalacio
 1) Establecer el APN del operador (usuario y contraseña del APN son opcionales). Reemplace los marcadores con los valores de su operador.
 
 ```
-(Set,888888,apn,{{apn}})
+(Set,888888,apn,[apn])
 ```
 
 O si su operador requiere usuario y contraseña del APN:
 
 ```
-(Set,888888,apn,{{apn}},{{apnu}},{{apnp}})
+(Set,888888,apn,[apn],[apnu],[apnp])
 ```
 
-- {{apn}} = el APN de su operador móvil  
-- {{apnu}} = usuario APN opcional si el operador lo requiere  
-- {{apnp}} = contraseña APN opcional si el operador lo requiere
+- [apn] = el APN de su operador móvil  
+- [apnu] = usuario APN opcional si el operador lo requiere  
+- [apnp] = contraseña APN opcional si el operador lo requiere
 
 2) Configure el servidor GPRS para apuntar a Plaspy (use el dominio o la IP según lo permita el equipo).
 

@@ -1,6 +1,7 @@
 ---
 slug: /sentar/d33_2g
 id: d33_2g
+sidebar_key: sentad33_2g_index_d33_2g
 sidebar_label: D33-2G
 title: Sentar - D33-2G
 sidebar_class_name: menu_item_tracker

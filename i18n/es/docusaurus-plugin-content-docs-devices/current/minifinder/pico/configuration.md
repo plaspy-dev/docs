@@ -87,9 +87,9 @@ tz+00
 
 - Configurar el APN del operador. Reemplace los valores con los datos de su operador
 ```
-S1,{{apn}},{{apnu}},{{apnp}}
+S1,[apn],[apnu],[apnp]
 ```
-Explicación: {{apn}} es el nombre del APN. {{apnu}} y {{apnp}} son usuario y contraseña opcionales para autenticación del APN del operador. Si no se requiere usuario ni contraseña, puede omitir esos campos o dejarlos vacíos según la sintaxis de comandos del dispositivo.
+Explicación: [apn] es el nombre del APN. [apnu] y [apnp] son usuario y contraseña opcionales para autenticación del APN del operador. Si no se requiere usuario ni contraseña, puede omitir esos campos o dejarlos vacíos según la sintaxis de comandos del dispositivo.
 
 - Configurar el servidor GPRS a Plaspy usando la IP pública y el puerto
 ```
@@ -105,7 +105,7 @@ Conserve siempre el orden de comandos cuando el dispositivo lo requiera. Consult
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis de los comandos o los parámetros admitidos; verifique la sintaxis contra la documentación actual de MiniFinder.
 - Elija UDP o TCP de acuerdo con la capacidad del dispositivo y la fiabilidad de la red en su área de despliegue; Plaspy soporta ambos transportes y detectará el protocolo automáticamente.
 - Todos los dispositivos soportados por Plaspy usan el puerto 8888 para conexiones entrantes, por lo que no necesita puertos diferentes por dispositivo.
-- Conserve los marcadores de posición como {{apn}} exactamente y reemplácelos con los datos del operador apropiados para su SIM.
+- Conserve los marcadores de posición como [apn] exactamente y reemplácelos con los datos del operador apropiados para su SIM.
 
 ## Por qué usar Plaspy con esta configuración
 

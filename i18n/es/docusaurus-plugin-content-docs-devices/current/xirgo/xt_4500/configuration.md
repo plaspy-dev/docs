@@ -79,12 +79,12 @@ El XT-4500 se configura para enviar sus datos de ubicación y estado al endpoint
 La documentación pública de configuración del XT-4500 incluye comandos SMS para ajustar el APN del operador y configurar el servidor GPRS. Envíe estos comandos como mensajes SMS individuales al número del dispositivo según las instrucciones de Xirgo. Mantenga los marcadores de posición tal como están hasta sustituirlos por los valores de su operador.
 
 - Configure el APN del operador. Reemplace los marcadores con los valores de su operador. Los marcadores son:
-  - {{apnu}} para el nombre de usuario APN si se requiere
-  - {{apnp}} para la contraseña APN si se requiere
-  - {{apn}} para el nombre del APN del operador
+  - [apnu] para el nombre de usuario APN si se requiere
+  - [apnp] para la contraseña APN si se requiere
+  - [apn] para el nombre del APN del operador
 
 ```
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 
 - Configure el servidor GPRS hacia Plaspy. Este comando establece el servidor IP o dominio y el puerto que el dispositivo usará para conectarse a Plaspy. El ejemplo usa el puerto 8888 y la IP pública de Plaspy.

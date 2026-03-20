@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/gtr_388
 id: gtr_388
+sidebar_key: globalsagtr_388_index_gtr_388
 sidebar_label: GTR-388
 title: GlobalSat - GTR-388
 sidebar_class_name: menu_item_tracker

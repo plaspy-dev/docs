@@ -84,13 +84,13 @@ M000000,22,{{IMEI_LAST_15_DIGITS}}
 
 2) Establecer el APN del operador
 - Propósito: Configurar el APN del operador móvil y el usuario y contraseña opcionales.
-- Reemplace {{apn}} {{apnu}} y {{apnp}} con el APN de su SIM y las credenciales de acceso si son necesarias.
+- Reemplace [apn] [apnu] y [apnp] con el APN de su SIM y las credenciales de acceso si son necesarias.
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 o si se requieren usuario y contraseña:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3) Establecer el intervalo de actualización a 60 segundos
@@ -113,7 +113,7 @@ M000000,21,2
 ```
 
 Notas importantes sobre los marcadores de posición y la contraseña:
-- {{apn}} es el APN de su operador móvil. {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN cuando su operador los requiere.
+- [apn] es el APN de su operador móvil. [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN cuando su operador los requiere.
 - {{IMEI_LAST_15_DIGITS}} significa los últimos 15 dígitos del IMEI del dispositivo; sustitúyalos por el IMEI real para el comando.
 - El ejemplo público utiliza la contraseña de administrador por defecto 000000 en el prefijo del comando SMS. Si su contraseña fue modificada, use la contraseña actual.
 

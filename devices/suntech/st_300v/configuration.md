@@ -84,9 +84,9 @@ ST300CMD;{{device_id}};02;Reset
 Label this command optional or use only when a factory reset is required.
 
 - Set operator APN and GPRS server
-Notes: The fourth field is 1 if APN username or password are provided, otherwise use 0. Preserve the APN placeholders {{apn}}, {{apnu}}, and {{apnp}} exactly and replace them with the operator APN, username, and password as needed.
+Notes: The fourth field is 1 if APN username or password are provided, otherwise use 0. Preserve the APN placeholders [apn], [apnu], and [apnp] exactly and replace them with the operator APN, username, and password as needed.
 ```text
-ST300NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;
+ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;
 ```
 If you do not have a username or password for your APN, set the fourth field to 0 and keep the username and password fields empty.
 
@@ -107,7 +107,7 @@ Use an SMS-capable phone to send these commands to the device or adapt them for 
 - Firmware and hardware revisions can change command syntax or behavior; confirm syntax with the Suntech ST 300V documentation for your firmware.
 - The device supports both SMS-based and GPRS/server-based configuration; use SMS when remote provisioning is required or the vendor tool when available.
 - Choose UDP or TCP according to your network reliability needs; Plaspy accepts connections on both transports and will auto-detect the protocol.
-- Ensure the APN and any operator credentials are entered correctly; the ST300NTW command includes placeholders {{apn}}, {{apnu}}, and {{apnp}} for these values.
+- Ensure the APN and any operator credentials are entered correctly; the ST300NTW command includes placeholders [apn], [apnu], and [apnp] for these values.
 - All devices in Plaspy use the same port and the platform will detect the tracker protocol automatically when the tracker connects.
 
 ## Why Use Plaspy with This Configuration

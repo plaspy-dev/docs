@@ -84,16 +84,16 @@ The EV-100 supports SMS-based configuration. The sample commands below use the d
 2. Set operator APN
 - Minimum command with APN only:
 ```
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 - If your carrier requires APN username and password, include them as placeholders:
 ```
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
 Explanation of placeholders:
-- {{apn}} = your mobile operator APN string
-- {{apnu}} = APN username if required by carrier
-- {{apnp}} = APN password if required by carrier
+- [apn] = your mobile operator APN string
+- [apnu] = APN username if required by carrier
+- [apnp] = APN password if required by carrier
 
 3. Set server address and port
 - The manufacturer notes that server-change may need to be enabled by them first. Once enabled, use:

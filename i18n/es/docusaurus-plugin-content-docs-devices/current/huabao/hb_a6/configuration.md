@@ -83,8 +83,8 @@ El HB-A6 puede configurarse usando las herramientas oficiales de Huabao o comand
 
 Si su proveedor suministra comandos de configuración por SMS o un conjunto de comandos seriales para el HB-A6, aplique los ajustes del servidor Plaspy mostrados más arriba (d.plaspy.com o 54.85.159.138 y puerto 8888) en los parámetros correspondientes. Por ejemplo, un patrón de comando genérico utilizado por algunos dispositivos Huabao podría aceptar el servidor y el puerto como parámetros; adapte este patrón según el manual del equipo:
 
-- Reemplace <server> con d.plaspy.com o 54.85.159.138
-- Reemplace <port> con 8888
+- Reemplace \<server> con d.plaspy.com o 54.85.159.138
+- Reemplace \<port> con 8888
 - Elija TCP o UDP según lo requiera su instalación
 
 Debido a que la sintaxis de comandos difiere entre versiones de firmware, utilice la documentación oficial de Huabao o la utilidad de configuración proporcionada por su proveedor para formatear y enviar los comandos.

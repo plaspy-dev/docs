@@ -87,9 +87,9 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the mobile operator APN. Replace {{apn}} with your operator APN. If your operator requires username or password use {{apnu}} and {{apnp}} respectively:
+- Set the mobile operator APN. Replace [apn] with your operator APN. If your operator requires username or password use [apnu] and [apnp] respectively:
 ```
-APN,{{apn}}[,{{apnu}},{{apnp}}]#
+APN,[apn][,[apnu],[apnp]]#
 ```
 Note: The bracketed comma and placeholders indicate the optional username and password fields. Use the exact format required by your device firmware (for example APN,myoperator,username,password#).
 
@@ -130,7 +130,7 @@ When sending SMS commands, ensure you use the format expected by the device firm
 - The X3 supports both SMS-based and vendor tool configuration in many deployments. Use SMS for quick field provisioning or vendor software for bulk or secure provisioning.
 - Choose TCP or UDP transport according to the installation or operator guidance; Plaspy supports both and will auto-detect the protocol used by the device.
 - Plaspy uses the same port for all supported devices. Set port 8888 in the device so it can send data to the Plaspy ingest endpoint.
-- When using placeholders such as {{apn}}, {{apnu}}, or {{apnp}}, replace them with the operator APN, APN username, and APN password respectively as required by your SIM provider.
+- When using placeholders such as [apn], [apnu], or [apnp], replace them with the operator APN, APN username, and APN password respectively as required by your SIM provider.
 
 ## Why Use Plaspy with This Configuration
 

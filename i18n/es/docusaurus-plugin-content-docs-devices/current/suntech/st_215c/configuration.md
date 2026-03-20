@@ -77,22 +77,22 @@ Las siguientes plantillas públicas de comandos SMS se derivan de ejemplos propo
 
 Notas sobre los marcadores usados abajo:
 - {{device_id}} = ID de dispositivo de seis dígitos derivado de los dígitos 9 a 14 del IMEI como se describió arriba.
-- {{apn}} = nombre del APN de la red móvil para el operador de la SIM.
-- {{apnu}} = usuario del APN si lo requiere el operador, de lo contrario dejar vacío.
-- {{apnp}} = contraseña del APN si lo requiere el operador, de lo contrario dejar vacío.
-- <APN_FLAG> = usar 1 si suministra usuario o contraseña, de lo contrario 0. Esta bandera habilita el envío de credenciales en el comando APN.
+- [apn] = nombre del APN de la red móvil para el operador de la SIM.
+- [apnu] = usuario del APN si lo requiere el operador, de lo contrario dejar vacío.
+- [apnp] = contraseña del APN si lo requiere el operador, de lo contrario dejar vacío.
+- \<APN_FLAG> = usar 1 si suministra usuario o contraseña, de lo contrario 0. Esta bandera habilita el envío de credenciales en el comando APN.
 
 1) Configure el APN del operador y el servidor GPRS
 - Plantilla (enviar como SMS al número del dispositivo):
 
 ```
-SA200NTW;{{device_id}};02;<APN_FLAG>;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;<APN_FLAG>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Explicación
   - Reemplace {{device_id}} con el ID de seis dígitos del IMEI.
-  - Reemplace {{apn}}, {{apnu}} y {{apnp}} con el APN del operador y las credenciales opcionales.
-  - Ajuste <APN_FLAG> a 1 cuando proporcione usuario o contraseña, de lo contrario ponga 0.
+  - Reemplace [apn], [apnu] y [apnp] con el APN del operador y las credenciales opcionales.
+  - Ajuste \<APN_FLAG> a 1 cuando proporcione usuario o contraseña, de lo contrario ponga 0.
   - El comando apunta el dispositivo a la IP del servidor Plaspy 54.85.159.138 y al puerto 8888. Puede sustituir d.plaspy.com en herramientas del dispositivo que acepten nombres de host en lugar de la IP.
 
 2) Establezca el intervalo de actualización a 60 segundos
@@ -122,7 +122,7 @@ Si utiliza software de configuración del proveedor en lugar de SMS, ingrese los
 - El ST 215C admite tanto TCP como UDP sobre GPRS. Elija el transporte que se ajuste a su red y requisitos de confiabilidad; Plaspy aceptará ambos y detectará el protocolo automáticamente.
 - La configuración vía SMS se usa habitualmente para la puesta en marcha en campo cuando no hay un computador o una herramienta del proveedor disponible. Asegúrese de enviar los comandos SMS desde un número que el dispositivo acepte como origen de configuración si aplica.
 - Diferentes revisiones de firmware o lotes de hardware pueden esperar un orden de parámetros o banderas ligeramente distinto. Verifique siempre la sintaxis de los comandos con el manual del equipo que está configurando.
-- Cuando suministre usuario o contraseña del APN, asegúrese de establecer la bandera APN (el parámetro del comando indicado como <APN_FLAG>) para que el dispositivo incluya las credenciales.
+- Cuando suministre usuario o contraseña del APN, asegúrese de establecer la bandera APN (el parámetro del comando indicado como \<APN_FLAG>) para que el dispositivo incluya las credenciales.
 - Tras aplicar nuevos ajustes, puede ser necesario reiniciar el dispositivo para que los cambios surtan efecto. Confirme con la respuesta del equipo o observando que el dispositivo aparece en línea en Plaspy.
 
 ## Por qué usar Plaspy con esta configuración

@@ -79,12 +79,12 @@ The XT-6200 supports SMS based configuration. The manufacturer provides public S
 
 - Set the operator APN. Replace placeholders with your operator values:
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explanation of placeholders
-- {{apn}} is the APN name provided by the mobile operator
-- {{apnu}} is the APN username when required by the operator, otherwise leave blank if not required
-- {{apnp}} is the APN password when required by the operator, otherwise leave blank if not required
+- [apn] is the APN name provided by the mobile operator
+- [apnu] is the APN username when required by the operator, otherwise leave blank if not required
+- [apnp] is the APN password when required by the operator, otherwise leave blank if not required
 
 - Set the GPRS server to Plaspy. This points the device to Plaspy using port 8888 and the Plaspy server IP:
 ```text

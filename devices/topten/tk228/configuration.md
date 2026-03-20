@@ -83,7 +83,7 @@ The TK228 supports SMS based configuration. The public commands below show the c
 ```
 - Set APN and GPRS server to point to Plaspy by IP with port and APN placeholders
 ```sms
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 - Verify or query current server settings
 ```sms
@@ -92,7 +92,7 @@ The TK228 supports SMS based configuration. The public commands below show the c
 
 Notes on the commands above
 - The prefix 111111 in these examples is the command password shown in the public command set. Replace it with your device password if different.
-- {{apn}} is the APN name required by your mobile network. {{apnu}} is the APN username and {{apnp}} is the APN password. Keep these placeholders and substitute them with your operator values.
+- [apn] is the APN name required by your mobile network. [apnu] is the APN username and [apnp] is the APN password. Keep these placeholders and substitute them with your operator values.
 - The order of commands matters when you are restoring defaults before applying network settings. The factory reset command is optional and should be used only when needed.
 
 ## Configuration Notes

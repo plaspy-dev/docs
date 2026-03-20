@@ -1,6 +1,7 @@
 ---
 slug: /condor/tp_810
 id: tp_810
+sidebar_key: condotp_810_index_tp_810
 sidebar_label: TP-810
 title: Condor - TP-810
 sidebar_class_name: menu_item_tracker

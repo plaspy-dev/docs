@@ -84,13 +84,13 @@ Label: Optional initial reset to clear previous settings.
 
 2. Set operator APN and Plaspy GPRS server
 - The fourth parameter after the device id is an APN flag: use 1 if you provide an APN username or password, otherwise use 0.
-- Replace placeholders {{apn}}, {{apnu}}, {{apnp}} with your operator APN, APN username, and APN password as needed.
+- Replace placeholders [apn], [apnu], [apnp] with your operator APN, APN username, and APN password as needed.
 ```
-ST300NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 If you do not have an APN username or password, set the APN flag to 0:
 ```
-ST300NTW;{{device_id}};02;0;{{apn}};;;54.85.159.138;8888;;;;
+ST300NTW;{{device_id}};02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 
 3. Set reporting interval to 60 seconds (example)
@@ -105,9 +105,9 @@ ST300CMD;{{device_id}};02;PresetA
 
 Notes on placeholders:
 - {{device_id}} — the 9 digit device id derived from the IMEI (digits 6 to 14 of the full IMEI).
-- {{apn}} — operator APN string.
-- {{apnu}} — APN username placeholder.
-- {{apnp}} — APN password placeholder.
+- [apn] — operator APN string.
+- [apnu] — APN username placeholder.
+- [apnp] — APN password placeholder.
 
 Send each line above as an SMS to the device's SIM number. Preserve the order when performing initial setup: reset (optional), network/server configuration, reporting interval, and then verification.
 

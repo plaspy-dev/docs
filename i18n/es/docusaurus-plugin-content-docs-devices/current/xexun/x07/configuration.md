@@ -80,19 +80,19 @@ El X07 puede configurarse enviando comandos SMS al dispositivo. Los siguientes c
 begin123456
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} con el APN de su operador):
+- Establecer el APN del operador (reemplazar [apn] con el APN de su operador):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario del APN si su operador lo requiere (reemplazar {{apnu}} con el usuario APN):
+- Establecer el usuario del APN si su operador lo requiere (reemplazar [apnu] con el usuario APN):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN si su operador lo requiere (reemplazar {{apnp}} con la contraseña APN):
+- Establecer la contraseña del APN si su operador lo requiere (reemplazar [apnp] con la contraseña APN):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS a Plaspy usando la IP pública y el puerto:
@@ -111,9 +111,9 @@ t060s***n123456
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es la cadena APN del operador móvil necesaria para datos.
-- {{apnu}} es el usuario del APN si su operador lo exige.
-- {{apnp}} es la contraseña del APN si su operador la exige.
+- [apn] es la cadena APN del operador móvil necesaria para datos.
+- [apnu] es el usuario del APN si su operador lo exige.
+- [apnp] es la contraseña del APN si su operador la exige.
 
 Conserve la sustitución correcta de la contraseña al enviar comandos SMS y asegúrese de que su firmware acepte configuración por SMS.
 

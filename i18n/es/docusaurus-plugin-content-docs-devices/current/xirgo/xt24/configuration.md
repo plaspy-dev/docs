@@ -82,12 +82,12 @@ El XT24 puede configurarse enviando comandos SMS al dispositivo. Los siguientes 
 1. Establecer el APN del operador
 - Envíe este SMS para establecer el APN y los marcadores opcionales de usuario y contraseña:
 ```
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explicación:
-- {{apn}} es la cadena APN proporcionada por su operador móvil.
-- {{apnu}} es el nombre de usuario del APN si es requerido, o deje el marcador vacío si no se usa.
-- {{apnp}} es la contraseña del APN si es requerida, o deje el marcador vacío si no se usa.
+- [apn] es la cadena APN proporcionada por su operador móvil.
+- [apnu] es el nombre de usuario del APN si es requerido, o deje el marcador vacío si no se usa.
+- [apnp] es la contraseña del APN si es requerida, o deje el marcador vacío si no se usa.
 
 2. Establecer el servidor GPRS apuntando a Plaspy
 - Envíe este SMS para apuntar el rastreador a Plaspy en el puerto compartido. El orden importa para la configuración de servidor y puerto:

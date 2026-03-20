@@ -45,7 +45,7 @@ Preparar el MT-90 para su uso con Plaspy implica configurar el equipo para que r
 ## Requisitos típicos antes de la configuración
 
 - Una unidad MT-90 cargada y operativa con acceso a SMS o al método de configuración del fabricante.
-- Una tarjeta SIM válida con datos habilitados y los detalles APN del operador disponibles para los marcadores {{apn}}, {{apnu}} y {{apnp}}.
+- Una tarjeta SIM válida con datos habilitados y los detalles APN del operador disponibles para los marcadores [apn], [apnu] y [apnp].
 - Capacidad para enviar comandos SMS al dispositivo o acceso al software de configuración de Meitrack si lo prefiere.
 - Conocimiento básico de la contraseña del dispositivo usada para comandos SMS; el ejemplo público usa 0000 como valor por defecto.
 - Fuente de energía estable o batería cargada durante la configuración inicial para evitar interrupciones.
@@ -82,16 +82,16 @@ Este comando restablece la configuración de fábrica y se usa comúnmente como 
 
 - Configure el servidor GPRS a Plaspy usando la IP del servidor, el puerto y los marcadores de APN
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Explicación:
 - 0000 es la contraseña por defecto del dispositivo en el ejemplo público.
 - A21 establece la entrada del servidor GPRS.
 - 2 indica el tipo de servidor primario según la sintaxis del equipo en la documentación de Meitrack.
 - 54.85.159.138 y 8888 son la IP y el puerto del servidor Plaspy.
-- {{apn}} es el marcador para el nombre APN del operador.
-- {{apnu}} es un marcador opcional para el usuario APN.
-- {{apnp}} es un marcador opcional para la contraseña APN.
+- [apn] es el marcador para el nombre APN del operador.
+- [apnu] es un marcador opcional para el usuario APN.
+- [apnp] es un marcador opcional para la contraseña APN.
 
 - Establecer la zona horaria a UTC 0
 ```text
@@ -111,7 +111,7 @@ Esto configura comúnmente el comportamiento de reporte periódico por GPS; cons
 Esto ajusta las opciones de reporte de eventos; refiérase a la documentación de Meitrack para los detalles del bitmask de eventos.
 
 Nota sobre los marcadores
-- Reemplace {{apn}} por el valor APN de su operador móvil. Si su operador requiere credenciales, reemplace {{apnu}} y {{apnp}} con el usuario y la contraseña. Si no se requieren credenciales, esos marcadores normalmente pueden omitirse.
+- Reemplace [apn] por el valor APN de su operador móvil. Si su operador requiere credenciales, reemplace [apnu] y [apnp] con el usuario y la contraseña. Si no se requieren credenciales, esos marcadores normalmente pueden omitirse.
 
 ## Notas de configuración
 

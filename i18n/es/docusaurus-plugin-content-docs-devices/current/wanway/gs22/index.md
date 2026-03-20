@@ -1,6 +1,7 @@
 ---
 slug: /wanway/gs22
 id: gs22
+sidebar_key: wanwags22_index_gs22
 sidebar_label: GS22
 title: WanWay - GS22
 sidebar_class_name: menu_item_tracker

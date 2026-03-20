@@ -74,9 +74,9 @@ Cuando se configura con los ajustes del servidor de Plaspy, el VT05S envía ubic
 
 El VT05S soporta configuración vía SMS. Use estos ejemplos de comandos SMS públicos en el orden indicado cuando realice una configuración por SMS. Mantenga los marcadores de posición tal como aparecen y reemplácelos con los datos de su operador.
 
-- Configure el APN del operador (reemplaze {{apn}} con el APN de su operador; {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN):
+- Configure el APN del operador (reemplaze [apn] con el APN de su operador; [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN):
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
 Nota: Si su operador requiere usuario y contraseña del APN inclúyalos como se muestra. La sintaxis de ejemplo preserva los campos necesarios para la sustitución.
 

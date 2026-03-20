@@ -67,7 +67,7 @@ The MSP500 is configured to deliver location and event messages to Plaspy’s sh
 2. Enter the Plaspy server domain d.plaspy.com or use the Plaspy server IP 54.85.159.138 in the server address field.  
 3. Set the server port to 8888.  
 4. Choose UDP or TCP on the device if the tracker requires a transport selection.  
-5. Configure APN details for the SIM using your carrier values (replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}}).  
+5. Configure APN details for the SIM using your carrier values (replace placeholders such as [apn], [apnu], and [apnp]).  
 6. Apply or save the configuration, then restart the device if the manufacturer workflow requires a reboot for settings to take effect.  
 7. Validate that the MSP500 reports to Plaspy by checking device connectivity and visibility in the Plaspy platform.
 
@@ -78,13 +78,13 @@ The MSP500 supports sending configuration as a batch command. The public example
 - Example bulk setparam command (preserve placeholders and replace before use):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command:
-- {{apn}} = your carrier APN name.  
-- {{apnu}} = APN username if required, otherwise leave empty.  
-- {{apnp}} = APN password if required, otherwise leave empty.  
+- [apn] = your carrier APN name.  
+- [apnu] = APN username if required, otherwise leave empty.  
+- [apnp] = APN password if required, otherwise leave empty.  
 - The parameters 2004 and 2005 in this example set the server domain and port to the Plaspy values shown earlier.  
 - 2006 appears as an additional device option in this public example; consult Teltonika documentation for the exact meaning of individual numeric parameters.  
 - This command may be sent via SMS, GPRS, or applied through Teltonika Configurator depending on your preferred configuration method.

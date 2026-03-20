@@ -48,7 +48,7 @@ Nota: Plaspy usa el mismo puerto para todos los dispositivos soportados y detect
 
 - Acceso al FMC130 y al método de configuración Teltonika que planea usar (comandos SMS, Teltonika Configurator o FOTA WEB cuando aplique).
 - Un dispositivo instalado y con alimentación, con una tarjeta SIM funcional y servicio de datos activo (con APN y credenciales disponibles).
-- Conocer el APN de su operador, nombre de usuario y contraseña para completar los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}}.
+- Conocer el APN de su operador, nombre de usuario y contraseña para completar los marcadores de posición como [apn], [apnu] y [apnp].
 - Una forma de reiniciar o cortar la alimentación del dispositivo si las pruebas de firmware o conexión requieren un reinicio.
 - Acceso a la cuenta Plaspy o instrucciones de onboarding para poder confirmar la visibilidad del dispositivo después de la configuración.
 - Documentación del fabricante sobre notas de firmware y referencia de parámetros del FMC130.
@@ -66,7 +66,7 @@ Cuando está configurado, el FMC130 envía posición y telemetría a través del
 ## Flujo de trabajo típico de configuración
 
 1. Acceda al método o software oficial de Teltonika que prefiera (SMS, Teltonika Configurator o FOTA WEB) para modificar parámetros del dispositivo.
-2. Ingrese las credenciales del APN de su operador donde corresponda, usando marcadores como {{apn}}, {{apnu}} y {{apnp}}.
+2. Ingrese las credenciales del APN de su operador donde corresponda, usando marcadores como [apn], [apnu] y [apnp].
 3. Configure la dirección del servidor ingresando d.plaspy.com o la IP 54.85.159.138 en el parámetro de servidor del dispositivo.
 4. Establezca el puerto del servidor en 8888 y seleccione UDP o TCP si el dispositivo requiere elegir el transporte.
 5. Aplique o guarde la configuración y envíe los comandos por lote o SMS necesarios para confirmar los cambios.
@@ -75,18 +75,18 @@ Cuando está configurado, el FMC130 envía posición y telemetría a través del
 
 ## Comandos de ejemplo para configuración
 
-El siguiente ejemplo es un formato de comando por lote común de Teltonika usado para establecer parámetros básicos, incluidos las credenciales APN y el endpoint del servidor Plaspy. Este ejemplo conserva los marcadores de posición para los valores del APN; reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador móvil.
+El siguiente ejemplo es un formato de comando por lote común de Teltonika usado para establecer parámetros básicos, incluidos las credenciales APN y el endpoint del servidor Plaspy. Este ejemplo conserva los marcadores de posición para los valores del APN; reemplace [apn], [apnu] y [apnp] con los valores de su operador móvil.
 
 - Ejemplo de comando por lote vía SMS para configurar APN y valores del servidor Plaspy
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explicación de los marcadores:
-- {{apn}} — nombre del APN de datos celulares
-- {{apnu}} — nombre de usuario APN si su operador lo requiere
-- {{apnp}} — contraseña APN si su operador la requiere
+- [apn] — nombre del APN de datos celulares
+- [apnu] — nombre de usuario APN si su operador lo requiere
+- [apnp] — contraseña APN si su operador la requiere
 
 Este comando establece los campos APN del dispositivo y asigna el dominio del servidor Plaspy d.plaspy.com con el puerto 8888. El parámetro 2006 en el ejemplo forma parte de la plantilla de comandos del fabricante; confirme el significado exacto y la selección de transporte en la referencia de parámetros del FMC130 en la documentación oficial de Teltonika antes de usarlo.
 

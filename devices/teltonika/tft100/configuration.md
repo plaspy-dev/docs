@@ -78,12 +78,12 @@ When configured correctly, the TFT100 sends location and telemetry streams to th
 To configure the basic parameters on your Teltonika device via the device command interface, use the example command below. This command sets APN parameters and directs the tracker to the Plaspy server and port. Replace the placeholders with your carrier credentials.
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
-- {{apn}} = your mobile network APN name
-- {{apnu}} = APN username if required by your carrier
-- {{apnp}} = APN password if required by your carrier
+- [apn] = your mobile network APN name
+- [apnu] = APN username if required by your carrier
+- [apnp] = APN password if required by your carrier
 
 This single command example configures APN fields and points the tracker to d.plaspy.com on port 8888. You can also enter the server as the IP 54.85.159.138 if required by your configuration process. If you use Teltonika Configurator or FOTA WEB, enter the same values in the corresponding server and APN fields. If a restart is required after applying settings, perform it to ensure the new configuration is active.
 

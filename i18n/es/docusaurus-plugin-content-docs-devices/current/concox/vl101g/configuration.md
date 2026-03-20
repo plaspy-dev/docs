@@ -73,7 +73,7 @@ Una vez configurado, el VL101G utiliza su enlace celular para abrir una sesión 
 
 ## Ejemplo de comandos de configuración
 
-Los siguientes comandos SMS son un ejemplo público de secuencia para configurar el VL101G. Preserve los marcadores de posición al enviar comandos y reemplace {{apn}} {{apnu}} y {{apnp}} con los valores de su operador según corresponda. Tenga en cuenta que el comando de reinicio inicial es opcional y debe usarse solo si desea restaurar los valores de fábrica.
+Los siguientes comandos SMS son un ejemplo público de secuencia para configurar el VL101G. Preserve los marcadores de posición al enviar comandos y reemplace [apn] [apnu] y [apnp] con los valores de su operador según corresponda. Tenga en cuenta que el comando de reinicio inicial es opcional y debe usarse solo si desea restaurar los valores de fábrica.
 
 1. Reinicio de fábrica opcional
 ```
@@ -86,13 +86,13 @@ GMT,E,0#
 ```
 
 3. Establecer el APN del operador
-Reemplace {{apn}} con su APN. Si su proveedor requiere usuario y contraseña incluya {{apnu}} y {{apnp}} respectivamente.
+Reemplace [apn] con su APN. Si su proveedor requiere usuario y contraseña incluya [apnu] y [apnp] respectivamente.
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 O con marcadores de usuario y contraseña
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Establecer el servidor GPRS usando el dominio de Plaspy en el puerto 8888 (UDP o TCP puede seleccionarse en el equipo si es necesario)

@@ -80,15 +80,15 @@ Los siguientes comandos SMS se toman de ejemplos públicos de configuración del
 *RESET#0000##
 ```
 
-2. Establecer el APN del operador (reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador)
-- Si su APN no requiere usuario ni contraseña, omita los campos {{apnu}} y {{apnp}} cuando el proveedor soporte esa sintaxis.
+2. Establecer el APN del operador (reemplace [apn], [apnu] y [apnp] con los valores de su operador)
+- Si su APN no requiere usuario ni contraseña, omita los campos [apnu] y [apnp] cuando el proveedor soporte esa sintaxis.
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
 - Explicación de los marcadores:
-  - {{apn}} = nombre del APN del operador
-  - {{apnu}} = usuario del APN (dejar en blanco u omitir si no es requerido)
-  - {{apnp}} = contraseña del APN (dejar en blanco u omitir si no es requerido)
+  - [apn] = nombre del APN del operador
+  - [apnu] = usuario del APN (dejar en blanco u omitir si no es requerido)
+  - [apnp] = contraseña del APN (dejar en blanco u omitir si no es requerido)
 
 3. Configurar el servidor GPRS hacia Plaspy usando la IP del servidor Plaspy y el puerto 8888
 ```text

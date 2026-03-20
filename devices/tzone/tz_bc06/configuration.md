@@ -77,9 +77,9 @@ The TZ-BC06 is configured to report to the shared Plaspy server endpoint and por
 
 The TZ-BC06 can be configured via SMS with the following public commands. These commands are presented in the order they are typically used. The examples use the device password 000000 as shown in the public command set.
 
-- Set the operator APN. Replace {{apn}} with your operator APN. Optional fields {{apnu}} and {{apnp}} represent APN username and APN password if required by your operator.
+- Set the operator APN. Replace [apn] with your operator APN. Optional fields [apnu] and [apnp] represent APN username and APN password if required by your operator.
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
 - Set the update interval to 60 seconds. The second parameter sets the interval in seconds and the third parameter may be used for validity or mode according to the device documentation.
@@ -98,9 +98,9 @@ The TZ-BC06 can be configured via SMS with the following public commands. These 
 ```
 
 Notes on placeholders and values
-- {{apn}} is your mobile operator APN string. Replace with the APN required for data access.
-- {{apnu}} is the APN username if your operator requires one. Leave blank if not required.
-- {{apnp}} is the APN password if required by your operator. Leave blank if not required.
+- [apn] is your mobile operator APN string. Replace with the APN required for data access.
+- [apnu] is the APN username if your operator requires one. Leave blank if not required.
+- [apnp] is the APN password if required by your operator. Leave blank if not required.
 - The example commands include the device password 000000 as shown in the public command set. If your device uses a different password, replace 000000 with the correct device password.
 
 ## Configuration Notes

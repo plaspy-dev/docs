@@ -83,7 +83,7 @@ Los comandos y métodos de configuración del fabricante para el T366 varían se
 - Enviar las cadenas SMS oficiales de configuración cuando el firmware del dispositivo soporte configuración por SMS.
 - Configurar ajustes mediante un portal web o en la nube suministrado por su proveedor.
 
-Consulte la guía de configuración de Ulbotech que se entrega con su equipo o pida a su proveedor las cadenas SMS exactas o los pasos de configuración USB para establecer el servidor en d.plaspy.com (o 54.85.159.138) y el puerto 8888. Preserve cualquier marcador de posición que le proporcione el proveedor, por ejemplo {{apn}} para valores del APN del operador, y reemplácelo con sus datos de red.
+Consulte la guía de configuración de Ulbotech que se entrega con su equipo o pida a su proveedor las cadenas SMS exactas o los pasos de configuración USB para establecer el servidor en d.plaspy.com (o 54.85.159.138) y el puerto 8888. Preserve cualquier marcador de posición que le proporcione el proveedor, por ejemplo [apn] para valores del APN del operador, y reemplácelo con sus datos de red.
 
 ## Notas de configuración
 

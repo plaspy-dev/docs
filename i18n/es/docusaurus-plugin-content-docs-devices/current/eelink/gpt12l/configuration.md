@@ -66,7 +66,7 @@ Cuando está configurado para reportar a Plaspy, el GPT12‑L envía posiciones 
 ## Flujo típico de configuración
 
 1. Acceda al método oficial de configuración de EElink para el GPT12‑L, como la interfaz de comandos SMS o el software de configuración documentado por el fabricante.
-2. Configure el APN de su operador móvil usando el comando APN correspondiente o el campo de la herramienta. Use los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} si el formato del comando los requiere.
+2. Configure el APN de su operador móvil usando el comando APN correspondiente o el campo de la herramienta. Use los marcadores de posición [apn], [apnu] y [apnp] si el formato del comando los requiere.
 3. Ingrese el endpoint de servidor de Plaspy ya sea como el dominio d.plaspy.com o la IP 54.85.159.138 y establezca el puerto en 8888.
 4. Elija UDP o TCP como transporte si el dispositivo requiere una selección explícita para el reporte al servidor.
 5. Defina el intervalo de reporte y las reglas de eventos o geocercas que necesite, luego aplique o guarde la configuración.
@@ -89,13 +89,13 @@ GMT,E,0#
 
 3. Configurar el APN del operador
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Si su APN requiere usuario y contraseña inclúyalos como campos adicionales separados por comas:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: {{apn}} es el nombre del punto de acceso del operador móvil. {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN cuando se requiera.
+Nota: [apn] es el nombre del punto de acceso del operador móvil. [apnu] es el usuario del APN y [apnp] es la contraseña del APN cuando se requiera.
 
 4. Configurar el servidor GPRS apuntando a Plaspy por dominio
 ```

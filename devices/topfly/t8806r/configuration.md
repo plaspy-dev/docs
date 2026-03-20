@@ -86,11 +86,11 @@ GMT,0000,0#
 
 2) Set the operator APN
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-- {{apn}} is the mobile data access point name provided by your SIM operator.
-- {{apnu}} is the APN username if required by the carrier. Leave blank if not needed.
-- {{apnp}} is the APN password if required by the carrier. Leave blank if not needed.
+- [apn] is the mobile data access point name provided by your SIM operator.
+- [apnu] is the APN username if required by the carrier. Leave blank if not needed.
+- [apnp] is the APN password if required by the carrier. Leave blank if not needed.
 
 3) Set the GPRS server IP and port to the Plaspy server
 ```
@@ -112,7 +112,7 @@ Note: These SMS commands reflect the public TopFly example and use the default d
 - Firmware and hardware revisions can change available commands or command syntax. Confirm the exact command format for your unit before mass deployment.
 - Plaspy accepts both UDP and TCP transports on the shared port 8888. Choose the transport supported by the device and by your network.
 - If your device supports using a domain name for the server, d.plaspy.com is the Plaspy domain to use; the provided SMS example configures the IP address directly.
-- Always verify APN values and credentials with the SIM provider and preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when preparing SMS templates.
+- Always verify APN values and credentials with the SIM provider and preserve placeholders such as [apn], [apnu], and [apnp] when preparing SMS templates.
 
 ## Why Use Plaspy with This Configuration
 

@@ -87,9 +87,9 @@ El Winrich Q50 puede configurarse por SMS usando los comandos del fabricante pub
 
 - Configurar el APN del operador
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-Nota: {{apn}} es el APN del operador. {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN si su operador los requiere. Si su APN no usa usuario ni contraseña, envíe marcadores vacíos según indique la documentación de su dispositivo.
+Nota: [apn] es el APN del operador. [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN si su operador los requiere. Si su APN no usa usuario ni contraseña, envíe marcadores vacíos según indique la documentación de su dispositivo.
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
 ```text

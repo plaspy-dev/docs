@@ -73,12 +73,12 @@ When configured for Plaspy, the ST4955LCBW transmits location fixes and telemetr
 
 ## Example Configuration Commands
 
-The following SMS templates are taken from public Suntech configuration content and show how to set APN, the Plaspy server, reporting intervals, and how to request a preset check. Replace DEVICEID with the six digit device ID derived from the IMEI as described above. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and substitute them with your carrier values.
+The following SMS templates are taken from public Suntech configuration content and show how to set APN, the Plaspy server, reporting intervals, and how to request a preset check. Replace DEVICEID with the six digit device ID derived from the IMEI as described above. Preserve placeholders such as [apn], [apnu], and [apnp] and substitute them with your carrier values.
 
 - Set operator APN and GPRS server (server set to Plaspy IP and port). The fourth field is 1 when APN username or password are provided, otherwise 0.
 
 ```
-SA200NTW;DEVICEID;02;[0 or 1];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;DEVICEID;02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Set the update interval to 60 seconds (example reporting profile).
@@ -95,9 +95,9 @@ SA200CMD;DEVICEID;02;PresetA
 
 Notes on placeholders and device ID:
 - DEVICEID: the six digits immediately before the final IMEI digit. For example, if the IMEI is 123456789012345 the DEVICEID would be 901234 in the example provided by the manufacturer.  
-- {{apn}}: your carrier APN string.  
-- {{apnu}}: APN username if required by the carrier; leave blank if not used.  
-- {{apnp}}: APN password if required; leave blank if not used.  
+- [apn]: your carrier APN string.  
+- [apnu]: APN username if required by the carrier; leave blank if not used.  
+- [apnp]: APN password if required; leave blank if not used.  
 - The transport, server IP, and server port fields above point the tracker to Plaspy using the public values 54.85.159.138 and 8888. Alternatively the domain d.plaspy.com may be used where domain resolution is supported by the device.
 
 ## Configuration Notes

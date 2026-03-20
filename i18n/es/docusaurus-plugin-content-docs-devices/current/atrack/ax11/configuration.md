@@ -47,7 +47,7 @@ El objetivo de la configuración es preparar el AX11 para que se comunique de ma
 - Acceso físico al conector OBDII del vehículo para la instalación y verificación del dispositivo.
 - Un AX11 alimentado con una SIM activa y datos móviles habilitados para conectividad GPRS o LTE.
 - Acceso a la interfaz de configuración de ATrack o al canal de comandos usado por su variante de dispositivo, como ADM, SMS o USB.
-- El APN, usuario y contraseña del operador móvil para la SIM, para completar los marcadores {{apn}}, {{apnu}} y {{apnp}}.
+- El APN, usuario y contraseña del operador móvil para la SIM, para completar los marcadores [apn], [apnu] y [apnp].
 - Un terminal o herramienta de configuración capaz de enviar comandos estilo AT o el software del fabricante para aplicar los ajustes.
 - La posibilidad de reiniciar el dispositivo después de aplicar la configuración si el firmware lo requiere.
 
@@ -67,7 +67,7 @@ El AX11 envía posiciones GNSS, telemetría del bus del vehículo y mensajes de 
 2. Ingrese la dirección del servidor Plaspy usando d.plaspy.com o el endpoint numérico 54.85.159.138 según sea necesario.
 3. Establezca el puerto del servidor en 8888.
 4. Elija UDP o TCP si el dispositivo requiere una selección explícita del transporte.
-5. Configure los ajustes de APN y las credenciales necesarias usando los valores del operador para {{apn}}, {{apnu}} y {{apnp}}.
+5. Configure los ajustes de APN y las credenciales necesarias usando los valores del operador para [apn], [apnu] y [apnp].
 6. Aplique o guarde la configuración en el dispositivo y reinícielo si el procedimiento exige un reboot.
 7. Valide que el dispositivo reporta a Plaspy comprobando el estado local del equipo y confirmando la llegada de datos en Plaspy.
 
@@ -95,13 +95,13 @@ AT$FORM=1,@P,0,""
 
 - Configurar el GPRS incluyendo los marcadores de APN y la IP y puerto del servidor Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 Notas sobre los marcadores
-- {{apn}} es el nombre de punto de acceso (APN) del operador requerido por la SIM.
-- {{apnu}} es el usuario del APN cuando el operador requiere autenticación.
-- {{apnp}} es la contraseña del APN cuando se solicita.
+- [apn] es el nombre de punto de acceso (APN) del operador requerido por la SIM.
+- [apnu] es el usuario del APN cuando el operador requiere autenticación.
+- [apnp] es la contraseña del APN cuando se solicita.
 
 - Comprobar estado y configuración del dispositivo
 ```text

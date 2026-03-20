@@ -81,16 +81,16 @@ El TZ-AVL11 soporta configuración mediante SMS. Los siguientes comandos públic
 
 1. Configurar el APN del operador
    - Use este comando para establecer el APN y opcionalmente usuario y contraseña del APN.
-   - {{apn}} es la cadena del APN del operador. {{apnu}} y {{apnp}} son el usuario y la contraseña del APN opcionales.
+   - [apn] es la cadena del APN del operador. [apnu] y [apnp] son el usuario y la contraseña del APN opcionales.
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
    - Si no necesita usuario ni contraseña para el APN, envíe:
 
 ```
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 2. Establecer el intervalo de actualización a 60 segundos
@@ -112,8 +112,8 @@ El TZ-AVL11 soporta configuración mediante SMS. Los siguientes comandos públic
 ```
 
 Notas sobre marcadores de posición y valores por defecto:
-- {{apn}} debe reemplazarse por el APN del operador móvil asociado a la SIM del dispositivo.
-- {{apnu}} y {{apnp}} son opcionales y deben incluirse solo si su operador los requiere.
+- [apn] debe reemplazarse por el APN del operador móvil asociado a la SIM del dispositivo.
+- [apnu] y [apnp] son opcionales y deben incluirse solo si su operador los requiere.
 - La contraseña numérica inicial 000000 en estos comandos de ejemplo es la contraseña de fábrica que aparece en el conjunto de comandos público. Confirme la contraseña correcta de su unidad si fue modificada.
 
 ## Notas de configuración

@@ -79,13 +79,13 @@ El TZ-DP070 se configura para enviar datos al endpoint y puerto del servidor Pla
 
 El TZ-DP070 puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos públicos por SMS están tomados del contenido del fabricante y se muestran en el orden en que deben aplicarse. Reemplace los marcadores y la contraseña del dispositivo según corresponda para su instalación.
 
-- Configure el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su APN requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} respectivamente. Envíe este SMS al número del dispositivo:
+- Configure el APN del operador. Reemplace [apn] por el APN de su operador. Si su APN requiere usuario o contraseña, incluya [apnu] y [apnp] respectivamente. Envíe este SMS al número del dispositivo:
 ```text
-*000000,011,{{apn}}{{# if apnu or apnp then }},{{apnu}},{{apnp}}{{# end }}#
+*000000,011,[apn]{{# if apnu or apnp then }},[apnu],[apnp]{{# end }}#
 ```
 Ejemplo sin usuario y contraseña:
 ```text
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 - Establezca el intervalo de actualización a 60 segundos (y un segundo parámetro usado por el dispositivo). Envíe:
@@ -106,7 +106,7 @@ Como alternativa, puede apuntar al dominio d.plaspy.com si su dispositivo acepta
 
 Notas sobre el formato de los comandos
 - Los comandos de ejemplo usan 000000 como la contraseña de configuración por SMS mostrada en el contenido público. Reemplace 000000 por la contraseña de su dispositivo si se ha cambiado.  
-- Los marcadores entre llaves como {{apn}}, {{apnu}} y {{apnp}} deben sustituirse por el APN del operador, el usuario del APN y la contraseña del APN respectivamente. Omita campos opcionales si no los requiere su operador.  
+- Los marcadores entre llaves como [apn], [apnu] y [apnp] deben sustituirse por el APN del operador, el usuario del APN y la contraseña del APN respectivamente. Omita campos opcionales si no los requiere su operador.  
 - Envíe los comandos como mensajes SMS normales al número de control del dispositivo. Espere un breve intervalo después de cada comando para que el dispositivo procese y aplique los ajustes.
 
 ## Notas de configuración

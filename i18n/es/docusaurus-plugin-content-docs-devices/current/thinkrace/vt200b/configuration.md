@@ -76,16 +76,16 @@ El VT200B se configura para enviar su telemetría y mensajes de diagnóstico OBD
 
 El VT200B admite configuración vía SMS. Los siguientes comandos SMS públicos se proporcionan como ejemplo. La contraseña de muestra en estos comandos es 888888, que es la contraseña por defecto documentada públicamente para el flujo de ejemplo.
 
-1. Configure el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su APN requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} como se muestra; en caso contrario omita esos parámetros.
+1. Configure el APN del operador. Reemplace [apn] por el APN de su operador. Si su APN requiere usuario y contraseña, incluya [apnu] y [apnp] como se muestra; en caso contrario omita esos parámetros.
 
 ```
-(Set,888888,apn,{{apn}})
+(Set,888888,apn,[apn])
 ```
 
 Forma opcional con usuario y contraseña del APN:
 
 ```
-(Set,888888,apn,{{apn}},{{apnu}},{{apnp}})
+(Set,888888,apn,[apn],[apnu],[apnp])
 ```
 
 2. Configure el servidor GPRS para apuntar el rastreador a Plaspy. Este comando establece la IP del servidor Plaspy y el puerto 8888.
@@ -97,7 +97,7 @@ Forma opcional con usuario y contraseña del APN:
 Notas sobre estos comandos:
 - Envíe cada comando como un SMS separado desde un número autorizado si el firmware del dispositivo requiere autorización.
 - Mantenga el orden de los comandos cuando realice la configuración inicial: primero el APN y luego los ajustes del servidor.
-- El marcador {{apn}} debe ser reemplazado por la cadena APN de su operador. Los marcadores {{apnu}} y {{apnp}} representan el usuario y la contraseña del APN y son opcionales si su operador los requiere.
+- El marcador [apn] debe ser reemplazado por la cadena APN de su operador. Los marcadores [apnu] y [apnp] representan el usuario y la contraseña del APN y son opcionales si su operador los requiere.
 - Si su firmware admite establecer el servidor por nombre de host en lugar de IP, puede usar d.plaspy.com donde esté soportado; de lo contrario utilice la IP del servidor indicada arriba.
 
 ## Notas sobre la configuración

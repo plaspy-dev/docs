@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st4410g
 id: st4410g
+sidebar_key: suntecst4410g_index_st4410g
 sidebar_label: ST4410G
 title: Suntech - ST4410G
 sidebar_class_name: menu_item_tracker

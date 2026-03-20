@@ -86,9 +86,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Set the operator APN
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explanation: replace {{apn}} with your mobile operator APN, {{apnu}} with APN username if required, and {{apnp}} with APN password if required. If no username or password are needed, leave the placeholders blank as appropriate.
+Explanation: replace [apn] with your mobile operator APN, [apnu] with APN username if required, and [apnp] with APN password if required. If no username or password are needed, leave the placeholders blank as appropriate.
 
 - Set the GPRS server to Plaspy using both domain and IP with port 8888
 ```text
@@ -114,7 +114,7 @@ After sending these SMS commands, verify the device responds and then confirm th
 - The GV57CEU supports SMS based configuration as shown here; some deployments prefer manufacturer software or micro USB configuration tools for bulk or encrypted provisioning.
 - TCP and UDP are both supported by Plaspy. Choose the transport that matches your network and firmware needs; Plaspy will detect the tracker protocol automatically.
 - Plaspy uses the same port for all supported devices. Set port 8888 as shown in the example server command.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} ready and only populate them with credentials from your mobile operator.
+- Keep APN placeholders [apn], [apnu], and [apnp] ready and only populate them with credentials from your mobile operator.
 
 ## Why Use Plaspy with This Configuration
 

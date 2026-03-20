@@ -82,21 +82,21 @@ Label: optional initial setup or recovery reset. Use only when you intend to res
 
 2. Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} placeholder should be replaced with your mobile operator APN string.
+- [apn] placeholder should be replaced with your mobile operator APN string.
 
 3. (Optional) Set the APN username
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- {{apnu}} is the APN username placeholder used when the mobile operator requires authentication.
+- [apnu] is the APN username placeholder used when the mobile operator requires authentication.
 
 4. (Optional) Set the APN password
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-- {{apnp}} is the APN password placeholder used when the mobile operator requires authentication.
+- [apnp] is the APN password placeholder used when the mobile operator requires authentication.
 
 5. Set the GPRS server to Plaspy using the public server IP and port
 ```text
@@ -117,7 +117,7 @@ gprs123456
 
 Notes on placeholders and password
 - The default device password shown in these commands is 123456; use the device password configured for your unit.
-- Keep placeholders such as {{apn}}, {{apnu}} and {{apnp}} as-is and replace them with your operator credentials during actual configuration.
+- Keep placeholders such as [apn], [apnu] and [apnp] as-is and replace them with your operator credentials during actual configuration.
 
 ## Configuration Notes
 

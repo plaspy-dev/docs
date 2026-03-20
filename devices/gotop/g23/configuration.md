@@ -78,7 +78,7 @@ When configured, the GOTOP G23 sends GNSS positions and event telemetry over its
 
 The G23 model configuration is typically performed through the manufacturer’s serial configuration utility or vendor command set. Exact command syntax can vary by firmware and vendor tool, so there are no universal public commands provided here. Use the GOTOP configuration instructions or serial protocol document supplied with the device to update the server domain or IP, set port 8888, and choose UDP or TCP.
 
-If you have the device command list from the vendor, follow the order required by that documentation: set server address, set server port to 8888, set transport to UDP or TCP, save settings, and reboot. Preserve any placeholders shown in vendor commands such as {{apn}} if present and replace them with your network APN values.
+If you have the device command list from the vendor, follow the order required by that documentation: set server address, set server port to 8888, set transport to UDP or TCP, save settings, and reboot. Preserve any placeholders shown in vendor commands such as [apn] if present and replace them with your network APN values.
 
 ## Configuration Notes
 

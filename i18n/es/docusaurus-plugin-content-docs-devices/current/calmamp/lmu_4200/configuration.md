@@ -77,17 +77,17 @@ Envíe los siguientes comandos por mensajes SMS. El ID del dispositivo es el MID
 
 - Establecer el APN del operador
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Establecer el usuario del APN si es requerido
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Establecer la contraseña del APN si es requerida
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Configurar el servidor GPRS a Plaspy usando la IP pública del servidor
@@ -112,9 +112,9 @@ Tenga en cuenta que el comando de reinicio suele ser necesario para aplicar camb
 ```
 
 Explicación de los marcadores
-- {{apn}} es el APN de su operador móvil
-- {{apnu}} es el usuario del APN si su operador lo requiere
-- {{apnp}} es la contraseña del APN si es necesaria
+- [apn] es el APN de su operador móvil
+- [apnu] es el usuario del APN si su operador lo requiere
+- [apnp] es la contraseña del APN si es necesaria
 Mantenga estos marcadores y reemplácelos por los valores proporcionados por su operador móvil.
 
 ## Notas de configuración

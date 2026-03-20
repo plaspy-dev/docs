@@ -78,13 +78,13 @@ El siguiente comando de ejemplo es un comando público estilo SMS en lote de Tel
 - Comando SMS en lote de ejemplo para establecer APN y parámetros del servidor Plaspy
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de los marcadores
-  - {{apn}} debe reemplazarse por el nombre APN de su operador móvil
-  - {{apnu}} es el nombre de usuario del APN si el operador lo requiere; dejar en blanco si no aplica
-  - {{apnp}} es la contraseña del APN si el operador la requiere; dejar en blanco si no aplica
+  - [apn] debe reemplazarse por el nombre APN de su operador móvil
+  - [apnu] es el nombre de usuario del APN si el operador lo requiere; dejar en blanco si no aplica
+  - [apnp] es la contraseña del APN si el operador la requiere; dejar en blanco si no aplica
 
 Notas de uso
 - El comando anterior se envía comúnmente como un SMS en lote al dispositivo o se aplica mediante Teltonika Configurator cuando el firmware y el flujo de trabajo lo soportan.

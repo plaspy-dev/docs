@@ -86,9 +86,9 @@ El TLT-1D puede configurarse enviando comandos SMS. Los siguientes comandos púb
 ```
 
 2. Establecer el APN del operador
-   - Reemplace los marcadores con los valores del APN de su operador. {{apn}} es el nombre del APN. {{apnu}} es el usuario del APN si se requiere. {{apnp}} es la contraseña del APN si se requiere. Si su operador no exige usuario o contraseña deje esos campos vacíos según las reglas del comando del dispositivo.
+   - Reemplace los marcadores con los valores del APN de su operador. [apn] es el nombre del APN. [apnu] es el usuario del APN si se requiere. [apnp] es la contraseña del APN si se requiere. Si su operador no exige usuario o contraseña deje esos campos vacíos según las reglas del comando del dispositivo.
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}#
+#803#0000#[apn]#[apnu]#[apnp]#
 ```
 
 3. Establecer el servidor de reporte GPRS y el puerto
@@ -122,7 +122,7 @@ El TLT-1D puede configurarse enviando comandos SMS. Los siguientes comandos púb
 ```
 
 Nota sobre marcadores y verificación
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} tal como aparecen y sustitúyalos por los datos de su operador. La contraseña por defecto del dispositivo en los comandos públicos es 0000. Confirme cualquier diferencia en su equipo antes de enviar los comandos.
+- Mantenga los marcadores [apn], [apnu] y [apnp] tal como aparecen y sustitúyalos por los datos de su operador. La contraseña por defecto del dispositivo en los comandos públicos es 0000. Confirme cualquier diferencia en su equipo antes de enviar los comandos.
 
 ## Observaciones de configuración
 

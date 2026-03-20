@@ -89,15 +89,15 @@ time zone123456 0
 
 - Configurar el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-  - El marcador {{apn}} debe reemplazarse por la cadena APN del operador móvil de su SIM.
+  - El marcador [apn] debe reemplazarse por la cadena APN del operador móvil de su SIM.
 
 - Establecer usuario y contraseña del APN
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-  - Los marcadores {{apnu}} y {{apnp}} son el usuario y la contraseña del APN y pueden dejarse vacíos si el operador no los requiere.
+  - Los marcadores [apnu] y [apnp] son el usuario y la contraseña del APN y pueden dejarse vacíos si el operador no los requiere.
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
 ```text
@@ -137,7 +137,7 @@ Siga el formato SMS exacto requerido por su firmware y confirme que el dispositi
 
 - Las revisiones de firmware y hardware pueden cambiar la disponibilidad y la sintaxis de los comandos; confirme siempre con las notas de firmware del dispositivo o la documentación de Coban.
 - La configuración por SMS es un método común para el GPS-405 y se muestra arriba; las herramientas del proveedor pueden ofrecer métodos alternativos.
-- Al establecer valores de APN, use el APN, usuario y contraseña correctos del operador; los marcadores {{apn}}, {{apnu}} y {{apnp}} se usan arriba y deben reemplazarse por los valores del operador.
+- Al establecer valores de APN, use el APN, usuario y contraseña correctos del operador; los marcadores [apn], [apnu] y [apnp] se usan arriba y deben reemplazarse por los valores del operador.
 - Elija UDP o TCP según las necesidades de la instalación; Plaspy acepta ambos y detectará automáticamente el protocolo entrante.
 - La contraseña por defecto 123456 se utiliza en los ejemplos públicos; si la contraseña de su dispositivo ha sido cambiada, use la contraseña actual del dispositivo.
 

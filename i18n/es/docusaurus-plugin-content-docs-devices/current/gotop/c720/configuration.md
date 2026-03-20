@@ -89,7 +89,7 @@ Consulte la documentación de GOTOP para el texto exacto del SMS o los campos de
 
 - Revisiones de firmware y hardware pueden modificar los comandos SMS exactos o los campos de configuración; siempre verifique con el manual GOTOP correspondiente a su unidad.
 - Elegir TCP frente a UDP puede afectar la semántica de entrega; si el dispositivo soporta ambos, seleccione el transporte recomendado según su instalación y condiciones de red.
-- Asegúrese de que APN, usuario y contraseña sean correctos para la SIM; mantenga marcadores como {{apn}}, {{apnu}} o {{apnp}} si su herramienta de configuración los requiere y reemplácelos por los valores del operador.
+- Asegúrese de que APN, usuario y contraseña sean correctos para la SIM; mantenga marcadores como [apn], [apnu] o [apnp] si su herramienta de configuración los requiere y reemplácelos por los valores del operador.
 - Para instalaciones ocultas, verifique la intensidad de la señal GSM y pruebe la conectividad de datos antes de fijar la ubicación final de montaje.
 - Si depende de un respaldo por SMS, confirme que los mensajes de alarma estén correctamente formateados para Plaspy o coordine con su proveedor para la entrega SMS-a-plataforma.
 

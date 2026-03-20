@@ -82,13 +82,13 @@ The TZ-BR04 accepts SMS configuration commands for GPRS setup. The commands belo
 1. Set the operator APN
 - Basic form when only APN is needed:
 ```text
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 - If your APN requires username and password include those placeholders:
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
-Explanation: {{apn}} is your operator APN. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders used only if your carrier requires credentials.
+Explanation: [apn] is your operator APN. [apnu] and [apnp] are optional APN username and APN password placeholders used only if your carrier requires credentials.
 
 2. Set the update interval to 60 seconds
 ```text

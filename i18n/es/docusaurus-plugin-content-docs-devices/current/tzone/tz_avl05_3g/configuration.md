@@ -77,11 +77,11 @@ El TZ-AVL05 3G se configura para iniciar sesiones GPRS y enviar datos de posici�
 El TZ-AVL05 3G puede configurarse enviando comandos SMS al dispositivo. Los comandos que siguen se suministran en el orden típicamente usado para la configuración GPRS inicial. Reemplace los marcadores de posición según sea necesario.
 
 1. Establecer el APN del operador
-   - Formato del comando (reemplace {{apn}} y otros marcadores según corresponda):
+   - Formato del comando (reemplace [apn] y otros marcadores según corresponda):
    ```sms
-   *000000,011,{{apn}}{{#if apnu}},{{apnu}}{{/if}}{{#if apnp}},{{apnp}}{{/if}}#
+   *000000,011,[apn]{{#if apnu}},[apnu]{{/if}}{{#if apnp}},[apnp]{{/if}}#
    ```
-   - Explicación: Sustituya {{apn}} por el APN de su operador. Si su APN requiere usuario o contraseña, provea {{apnu}} y {{apnp}} respectivamente. Si la contraseña del dispositivo se cambió desde el valor de fábrica, reemplace el 000000 inicial por la contraseña actual del equipo.
+   - Explicación: Sustituya [apn] por el APN de su operador. Si su APN requiere usuario o contraseña, provea [apnu] y [apnp] respectivamente. Si la contraseña del dispositivo se cambió desde el valor de fábrica, reemplace el 000000 inicial por la contraseña actual del equipo.
 
 2. Establecer el intervalo de actualización a 60 segundos
    ```sms
@@ -101,7 +101,7 @@ El TZ-AVL05 3G puede configurarse enviando comandos SMS al dispositivo. Los coma
    ```
    - Explicación: Habilita el modo GPRS para que el equipo use el servidor GPRS configurado para el reporte.
 
-Nota: La secuencia numérica inicial en estos ejemplos (000000) suele ser la contraseña del dispositivo usada en los comandos SMS. Si la contraseña de su equipo fue cambiada, utilice la contraseña actual. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por los valores específicos del operador.
+Nota: La secuencia numérica inicial en estos ejemplos (000000) suele ser la contraseña del dispositivo usada en los comandos SMS. Si la contraseña de su equipo fue cambiada, utilice la contraseña actual. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y sustitúyalos por los valores específicos del operador.
 
 ## Notas de configuración
 

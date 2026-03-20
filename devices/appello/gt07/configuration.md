@@ -91,9 +91,9 @@ The GT07 supports SMS based configuration. The following public commands are the
 
 - Set the operator APN
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-Explanation: Replace {{apn}} with the mobile operator APN. If your operator requires an APN username or password, replace {{apnu}} and {{apnp}} with those values. If username and password are not required, some devices accept the APN alone.
+Explanation: Replace [apn] with the mobile operator APN. If your operator requires an APN username or password, replace [apnu] and [apnp] with those values. If username and password are not required, some devices accept the APN alone.
 
 - Set the GPRS server to Plaspy (server IP and port)
 ```text

@@ -48,7 +48,7 @@ The goal of this configuration is to prepare the CAREU Ueco to communicate relia
 - Confirm the Ueco has a working SIM card with data enabled and sufficient credit or data plan for mobile reporting.
 - Ensure the device has power connected and is fully functional according to manufacturer diagnostics.
 - Have access to the official CAREU configuration method or software provided by the vendor for sending server and APN settings.
-- Know any APN, username, and password values required by the cellular provider (preserve them as {{apn}}, {{apnu}}, {{apnp}} in tools that accept placeholders).
+- Know any APN, username, and password values required by the cellular provider (preserve them as [apn], [apnu], [apnp] in tools that accept placeholders).
 - Confirm firmware version and any vendor notes that affect remote configuration or transport selection.
 - A method to restart or power cycle the tracker after applying settings, if required.
 
@@ -80,7 +80,7 @@ The CAREU Ueco can be configured using manufacturer tools, SMS command sets, or 
 
 - Firmware matters: different firmware or hardware revisions may change command syntax, supported transports, or remote configuration capabilities.
 - Transport choice: TCP and UDP are both supported on port 8888; choose the transport that matches your provisioning method or local network conditions.
-- APN placeholders: many tools use placeholders such as {{apn}}, {{apnu}}, and {{apnp}} for cellular settings; preserve these placeholders when required by the configuration interface.
+- APN placeholders: many tools use placeholders such as [apn], [apnu], and [apnp] for cellular settings; preserve these placeholders when required by the configuration interface.
 - FOTA and updates: the Ueco supports FOTA via FTP per manufacturer documentation; ensure any FOTA process does not overwrite server settings unintentionally.
 - Verify vendor documentation for SMS versus software configuration options and any optional features such as two way voice or additional GNSS systems.
 

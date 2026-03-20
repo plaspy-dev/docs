@@ -80,20 +80,20 @@ If you prefer SMS-based configuration, use the commands shown below in the Examp
 
 The TR-203 can be configured by sending SMS commands in the device's expected format. The model's public instructions include a setup command that sets APN and server fields and a reboot command. The command format example shown in the device model notes was: TSPRXAB27GHKLMnaicz*U!
 
-Important: replace {{imei}} with the device IMEI, and keep placeholders {{apn}}, {{apnu}}, and {{apnp}} for your SIM operator values. The command requires a checksum value after the asterisk. The checksum is the XOR of all characters in the command string before the asterisk, expressed as a two digit uppercase hexadecimal value.
+Important: replace {{imei}} with the device IMEI, and keep placeholders [apn], [apnu], and [apnp] for your SIM operator values. The command requires a checksum value after the asterisk. The checksum is the XOR of all characters in the command string before the asterisk, expressed as a two digit uppercase hexadecimal value.
 
 1) Setup command (configure APN and server)
 - Template SMS command to configure APN and Plaspy server
 - Replace placeholders and compute the checksum as described above
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - {{imei}} = the device IMEI number
-- {{apn}} = APN name provided by your SIM operator
-- {{apnu}} = APN username if required by the operator (leave blank if not used)
-- {{apnp}} = APN password if required by the operator (leave blank if not used)
+- [apn] = APN name provided by your SIM operator
+- [apnu] = APN username if required by the operator (leave blank if not used)
+- [apnp] = APN password if required by the operator (leave blank if not used)
 - {{checksum}} = two digit uppercase hexadecimal XOR checksum of the command text before the asterisk
 
 2) Optional reboot command (apply settings immediately)

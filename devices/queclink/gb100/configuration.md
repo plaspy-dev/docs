@@ -69,7 +69,7 @@ The GB100 reports position and telemetry to the Plaspy endpoint using GPRS data 
 2. Supply or confirm the device password; public SMS examples use the default password queclink.
 3. Enter the Plaspy server address either as the domain d.plaspy.com or the server IP 54.85.159.138.
 4. Set the destination port to 8888 and choose UDP or TCP if the device requires a transport selection.
-5. Configure the device APN and operator settings using the correct {{apn}}, {{apnu}}, and {{apnp}} placeholders for your operator.
+5. Configure the device APN and operator settings using the correct [apn], [apnu], and [apnp] placeholders for your operator.
 6. Apply or save the configuration and restart the device when required by the vendor procedure.
 7. Validate the device reports to Plaspy by checking connectivity logs or the platform for incoming telemetry.
 
@@ -89,11 +89,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} is the mobile data APN name for your SIM.
-- {{apnu}} is the APN username if required by the operator; leave blank if not needed.
-- {{apnp}} is the APN password if required by the operator; leave blank if not needed.
+- [apn] is the mobile data APN name for your SIM.
+- [apnu] is the APN username if required by the operator; leave blank if not needed.
+- [apnp] is the APN password if required by the operator; leave blank if not needed.
 
 4. Set the GPRS server to Plaspy using both domain and IP examples and the port 8888
 ```text

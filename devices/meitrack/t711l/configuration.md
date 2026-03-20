@@ -74,7 +74,7 @@ The T711L is configured to report location and device events to the shared Plasp
 
 ## Example Configuration Commands
 
-The following example SMS commands are drawn from publicly available Meitrack command formats. The example uses the device SMS password 0000 which is shown as the default in the public configuration sample. Replace {{apn}}, {{apnu}}, and {{apnp}} with your SIM operator APN, APN username, and APN password as required.
+The following example SMS commands are drawn from publicly available Meitrack command formats. The example uses the device SMS password 0000 which is shown as the default in the public configuration sample. Replace [apn], [apnu], and [apnp] with your SIM operator APN, APN username, and APN password as required.
 
 Note that the example sets the GPRS server using the server IP 54.85.159.138 and port 8888. If you prefer to use the Plaspy domain instead, verify that your firmware accepts domain names in place of the IP in the server command.
 
@@ -85,13 +85,13 @@ Note that the example sets the GPRS server using the server IP 54.85.159.138 and
 
 2. Set the GPRS server to Plaspy using IP and APN placeholder
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 - Explanation of placeholders
-  - {{apn}} is the mobile data APN provided by your SIM operator
-  - {{apnu}} is the APN username if required
-  - {{apnp}} is the APN password if required
-- If your SIM operator does not require APN credentials, omit {{apnu}} and {{apnp}} as supported by the device format
+  - [apn] is the mobile data APN provided by your SIM operator
+  - [apnu] is the APN username if required
+  - [apnp] is the APN password if required
+- If your SIM operator does not require APN credentials, omit [apnu] and [apnp] as supported by the device format
 
 3. Set the time zone to UTC 0
 ```text
@@ -117,7 +117,7 @@ If you use the Meitrack configuration tool instead of SMS, enter the same server
 - Firmware versions and hardware revisions can change command formats and parameter behavior; verify command syntax for your exact firmware before mass deployment
 - Choose UDP or TCP based on your network reliability and preferences; both transports are supported on port 8888
 - The default SMS password 0000 is used in the public examples; change the device password after initial setup for operational security
-- APN placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your operator values when required
+- APN placeholders [apn], [apnu], and [apnp] must be replaced with your operator values when required
 
 ## Why Use Plaspy with This Configuration
 

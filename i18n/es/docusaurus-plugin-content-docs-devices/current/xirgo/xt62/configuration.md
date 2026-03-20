@@ -78,7 +78,7 @@ El XT62 soporta configuración por SMS en materiales públicos. Los comandos sig
 - Configure el APN del operador (reemplace los valores entre llaves con los de su operador)
 
 ```
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 
 - Configure el servidor GPRS a Plaspy usando la IP del servidor Plaspy y el puerto 8888
@@ -88,9 +88,9 @@ El XT62 soporta configuración por SMS en materiales públicos. Los comandos sig
 ```
 
 Notas sobre marcadores y uso de comandos:
-- {{apn}} es la cadena APN del operador requerida para acceso a datos.
-- {{apnu}} es el usuario del APN cuando lo exige el operador.
-- {{apnp}} es la contraseña del APN cuando lo exige el operador.
+- [apn] es la cadena APN del operador requerida para acceso a datos.
+- [apnu] es el usuario del APN cuando lo exige el operador.
+- [apnp] es la contraseña del APN cuando lo exige el operador.
 - Envíe primero el comando APN antes del comando de servidor GPRS para que el dispositivo pueda establecer sesión de datos.
 - Estos comandos son ejemplos públicos y pueden variar según el firmware. Confirme la sintaxis exacta con la documentación de Xirgo.
 

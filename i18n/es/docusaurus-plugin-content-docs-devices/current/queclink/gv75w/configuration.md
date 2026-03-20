@@ -86,12 +86,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Configurar el APN del operador
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 Explicación de marcadores APN
-- {{apn}} es el nombre del APN del operador móvil.
-- {{apnu}} es el nombre de usuario del APN si se requiere; si no, dejar en blanco.
-- {{apnp}} es la contraseña del APN si se requiere; si no, dejar en blanco.
+- [apn] es el nombre del APN del operador móvil.
+- [apnu] es el nombre de usuario del APN si se requiere; si no, dejar en blanco.
+- [apnp] es la contraseña del APN si se requiere; si no, dejar en blanco.
 
 - Configurar el servidor GPRS a Plaspy
 ```

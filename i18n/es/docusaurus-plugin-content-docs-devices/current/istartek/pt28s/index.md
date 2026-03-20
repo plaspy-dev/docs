@@ -1,6 +1,7 @@
 ---
 slug: /istartek/pt28s
 id: pt28s
+sidebar_key: istartept28s_index_pt28s
 sidebar_label: PT28S
 title: iStartek - PT28S
 sidebar_class_name: menu_item_tracker

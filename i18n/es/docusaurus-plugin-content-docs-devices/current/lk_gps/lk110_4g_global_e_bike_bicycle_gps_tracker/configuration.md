@@ -85,7 +85,7 @@ Si dispone de una referencia de comandos LK-GPS del fabricante, utilice los coma
 - transport a UDP o TCP
 - cualquier APN o ajustes relacionados con la SIM según el operador
 
-Conserve exactamente los marcadores de posición como {{apn}} o similares tal como los provea el fabricante al seguir sus plantillas de comando.
+Conserve exactamente los marcadores de posición como [apn] o similares tal como los provea el fabricante al seguir sus plantillas de comando.
 
 ## Notas de configuración
 

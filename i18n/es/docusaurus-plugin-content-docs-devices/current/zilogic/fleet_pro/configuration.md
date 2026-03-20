@@ -83,12 +83,12 @@ SET TZ +00:00
 
 - Establecer el APN del operador usando marcadores de posición. Reemplace los marcadores con los valores de su operador:
 ```
-SET APN {{apn}},{{apnu}},{{apnp}}
+SET APN [apn],[apnu],[apnp]
 ```
 Explicación de los marcadores:
-- {{apn}} = nombre del APN proporcionado por su operador móvil
-- {{apnu}} = nombre de usuario del APN si el operador lo requiere (dejar en blanco si no aplica)
-- {{apnp}} = contraseña del APN si el operador la requiere (dejar en blanco si no aplica)
+- [apn] = nombre del APN proporcionado por su operador móvil
+- [apnu] = nombre de usuario del APN si el operador lo requiere (dejar en blanco si no aplica)
+- [apnp] = contraseña del APN si el operador la requiere (dejar en blanco si no aplica)
 
 - Establecer el servidor GPRS al endpoint de Plaspy usando la IP pública y el puerto:
 ```
@@ -134,7 +134,7 @@ Estos comandos son los públicos provistos por el fabricante y se usan comúnmen
 - Fleet Pro documenta métodos de configuración por SMS y por GPRS; use SMS cuando el equipo esté remoto o no se disponga de una herramienta de configuración.
 - Elija TCP o UDP según la fiabilidad de la red y sus necesidades operativas; Plaspy soporta ambos y detecta el protocolo automáticamente.
 - Use el dominio d.plaspy.com o la IP 54.85.159.138 con el puerto 8888; Plaspy mantiene el mismo puerto para simplificar la configuración entre múltiples dispositivos.
-- Tenga listos los marcadores {{apn}}, {{apnu}} y {{apnp}} antes de enviar comandos para poder ingresar las credenciales del operador con precisión.
+- Tenga listos los marcadores [apn], [apnu] y [apnp] antes de enviar comandos para poder ingresar las credenciales del operador con precisión.
 
 ## Por qué usar Plaspy con esta configuración
 

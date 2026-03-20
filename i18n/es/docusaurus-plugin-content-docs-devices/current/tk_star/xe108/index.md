@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/xe108
 id: xe108
+sidebar_key: tk_staxe108_index_xe108
 sidebar_label: XE108
 title: TK-Star - XE108
 sidebar_class_name: menu_item_tracker

@@ -78,7 +78,7 @@ El GMT200 puede configurarse usando comandos AT estilo SMS. Los siguientes coman
 
 Notas
 - El primer comando es una restauración de configuraciones de fábrica y es opcional o se usa cuando se parte de un estado desconocido.
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores de posición para el nombre APN de su SIM, el usuario APN y la contraseña APN respectivamente.
+- [apn], [apnu] y [apnp] son marcadores de posición para el nombre APN de su SIM, el usuario APN y la contraseña APN respectivamente.
 
 1. Comando opcional de reinicio a configuración de fábrica
 ```text
@@ -92,10 +92,10 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configurar el APN del operador con marcadores de posición para los valores APN
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- Reemplace {{apn}} con el nombre APN de su proveedor celular
-- Reemplace {{apnu}} y {{apnp}} con el usuario y la contraseña del APN si el operador lo requiere
+- Reemplace [apn] con el nombre APN de su proveedor celular
+- Reemplace [apnu] y [apnp] con el usuario y la contraseña del APN si el operador lo requiere
 
 4. Configurar el servidor GPRS para apuntar a Plaspy
 ```text

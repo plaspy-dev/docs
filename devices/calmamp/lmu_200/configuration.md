@@ -79,22 +79,22 @@ The LMU-200 can be configured using SMS commands. The following public commands 
 
 Notes:
 - The device ID for SMS commands is the MID 10 digits returned by the !R0 command.
-- Placeholders: {{apn}} is your carrier APN, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required.
+- Placeholders: [apn] is your carrier APN, [apnu] is the APN username if required, and [apnp] is the APN password if required.
 - The reboot command is included and should be used when required by your installation workflow.
 
 1. Set the operator APN
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 2. Set the APN operator username (use only if your APN requires a username)
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 3. Set the APN operator password (use only if your APN requires a password)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 4. Set the GPRS server to Plaspy by IP
@@ -124,7 +124,7 @@ Use these commands in the order shown when order is important. If your firmware 
 - Configuration via SMS is publicly documented here; however, some installations use CalAmp management tools or over the air updates for bulk provisioning.
 - Firmware or hardware revisions may change command numbers or behavior. Confirm command syntax for your firmware level before mass configuration.
 - Choose UDP or TCP based on the stability requirements of the installation and any guidance from your carrier or integration team.
-- Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with the correct values for your SIM card and operator.
+- Preserve the placeholders [apn], [apnu], and [apnp] and replace them with the correct values for your SIM card and operator.
 - Plaspy uses the same port for all supported devices and performs automatic protocol detection so you do not normally need to specify a protocol mapping in Plaspy.
 
 ## Why Use Plaspy with This Configuration

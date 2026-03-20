@@ -1,6 +1,7 @@
 ---
 slug: /laipac/starfinder_datalogger
 id: starfinder_datalogger
+sidebar_key: laipastarfinder_datalogger_index_starfinder_datalogger
 sidebar_label: Starfinder Datalogger
 title: Laipac - Starfinder Datalogger
 sidebar_class_name: menu_item_tracker

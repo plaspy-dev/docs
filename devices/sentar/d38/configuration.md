@@ -48,7 +48,7 @@ Note: Plaspy uses the same port for all supported devices and will detect the pr
 
 - A charged D38 device with a working Nano SIM card and active data service
 - Access to the device SMS configuration method or the official Sentar configuration tool
-- Knowledge of the carrier APN, username, and password for the SIM (placeholders {{apn}}, {{apnu}}, {{apnp}} are used below)
+- Knowledge of the carrier APN, username, and password for the SIM (placeholders [apn], [apnu], [apnp] are used below)
 - The device default SMS password 123456 or the device password if it has been changed
 - A means to receive verification replies from the device (device SMS responses or monitoring Plaspy for the first reports)
 
@@ -93,11 +93,11 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Set the operator APN where {{apn}} {{apnu}} and {{apnp}} are the APN, username and password and xxxyy represents concatenated MCC MNC
+- Set the operator APN where [apn] [apnu] and [apnp] are the APN, username and password and xxxyy represents concatenated MCC MNC
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explanation: replace {{apn}}, {{apnu}}, {{apnp}} with your carrier APN, username, and password. Replace xxxyy with the carrier MCC and MNC digits.
+Explanation: replace [apn], [apnu], [apnp] with your carrier APN, username, and password. Replace xxxyy with the carrier MCC and MNC digits.
 
 - Set GPRS server to Plaspy using the public server IP and port
 ```text

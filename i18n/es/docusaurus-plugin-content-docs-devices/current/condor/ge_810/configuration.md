@@ -79,10 +79,10 @@ El GE-810 transmite eventos del dispositivo, estado y registros de eventos de vo
 
 El GE-810 admite configuración vía SMS. Los siguientes comandos SMS públicos muestran un flujo de configuración típico. La contraseña de ejemplo usada en estos comandos es 0000, que es el valor predeterminado documentado en el contenido público. Reemplace los marcadores antes de enviar.
 
-- Configure el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario o contraseña de APN, incluya {{apnu}} y {{apnp}} donde se indica.
+- Configure el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario o contraseña de APN, incluya [apnu] y [apnp] donde se indica.
 ```
-APN,0000,{{apn}}
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn]
+APN,0000,[apn],[apnu],[apnp]
 ```
 - Establezca un identificador de 5 dígitos (alias) para identificar el dispositivo en su sistema. Use los últimos 5 dígitos del IMEI. Ejemplo si el IMEI termina en 67890:
 ```
@@ -110,7 +110,7 @@ CONEXION,0000#
 ```
 
 Notas sobre marcadores de posición y valores
-- {{apn}}, {{apnu}}, {{apnp}}: mantenga estos marcadores y reemplácelos con el APN, usuario APN y contraseña APN de su operador móvil según sea necesario.
+- [apn], [apnu], [apnp]: mantenga estos marcadores y reemplácelos con el APN, usuario APN y contraseña APN de su operador móvil según sea necesario.
 - Formato del alias: reemplace el alias de ejemplo por los últimos cinco dígitos reales del IMEI del dispositivo.
 - El comando SERVIDOR anterior usa la IP pública de Plaspy y el puerto compartido 8888 e incluye un indicador de transporte; conserve el orden que se muestra al emitir los comandos.
 

@@ -83,13 +83,13 @@ FACTORY#
 ```text
 GMT,E,0#
 ```
-- Configurar el APN del operador. Reemplace {{apn}} por el APN de su operador. Si es necesario, incluya usuario {{apnu}} y contraseña {{apnp}} separados por comas
+- Configurar el APN del operador. Reemplace [apn] por el APN de su operador. Si es necesario, incluya usuario [apnu] y contraseña [apnp] separados por comas
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 - Ejemplo con usuario y contraseña de APN opcionales
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Configurar el servidor GPRS usando el dominio Plaspy y el puerto compartido
 ```text
@@ -109,8 +109,8 @@ PARAM#
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es la cadena APN del operador móvil necesaria para datos GPRS o 3G.
-- {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña del APN si su operador los requiere.
+- [apn] es la cadena APN del operador móvil necesaria para datos GPRS o 3G.
+- [apnu] y [apnp] son campos opcionales de usuario y contraseña del APN si su operador los requiere.
 
 ## Notas de configuración
 

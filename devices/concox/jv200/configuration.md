@@ -88,12 +88,12 @@ GMT,E,0#
 ```
 
 - Configure the operator APN. Replace the placeholders with your operator APN details.
-  - {{apn}} : operator APN name (required)
-  - {{apnu}} : APN username (optional)
-  - {{apnp}} : APN password (optional)
+  - [apn] : operator APN name (required)
+  - [apnu] : APN username (optional)
+  - [apnp] : APN password (optional)
 
 ```text
-APN,{{apn}}{{apnu ? ',' + {{apnu}} : ''}}{{apnp ? ',' + {{apnp}} : ''}}#
+APN,[apn]{{apnu ? ',' + [apnu] : ''}}{{apnp ? ',' + [apnp] : ''}}#
 ```
 
 - Set the GPRS server by domain (preferred) or by IP. Both point the device to Plaspy on port 8888.
@@ -133,7 +133,7 @@ GPRSSET#
 ```
 
 Notes on the example commands
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when composing SMS commands. Replace them with your operator values.
+- Preserve placeholders such as [apn], [apnu], and [apnp] when composing SMS commands. Replace them with your operator values.
 - The SERVER command above shows both domain and IP options. Using d.plaspy.com is recommended for easier maintenance, but the IP 54.85.159.138 is available if required.
 - Port 8888 is used for Plaspy across all supported devices.
 

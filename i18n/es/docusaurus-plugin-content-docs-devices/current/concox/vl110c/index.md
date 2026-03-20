@@ -1,6 +1,7 @@
 ---
 slug: /concox/vl110c
 id: vl110c
+sidebar_key: concovl110c_index_vl110c
 sidebar_label: VL110C
 title: Concox - VL110C
 sidebar_class_name: menu_item_tracker

@@ -80,13 +80,13 @@ The public Megastek SMS command flow for initial setup is commonly performed by 
 M000000,22,{{IMEI15}}
 ```
 
-2. Set the operator APN. Replace {{apn}} with your operator APN. Optionally include {{apnu}} and {{apnp}} for APN username and APN password if required by your carrier.
+2. Set the operator APN. Replace [apn] with your operator APN. Optionally include [apnu] and [apnp] for APN username and APN password if required by your carrier.
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Optional form with APN username and password
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Set the position upload interval to 60 seconds
@@ -107,8 +107,8 @@ M000000,21,2
 
 Notes on placeholders
 - {{IMEI15}} should be replaced with the device IMEI composed of 15 digits.
-- {{apn}} is the mobile operator APN required for data.
-- {{apnu}} and {{apnp}} are optional APN username and APN password fields and may be omitted if not required by the carrier.
+- [apn] is the mobile operator APN required for data.
+- [apnu] and [apnp] are optional APN username and APN password fields and may be omitted if not required by the carrier.
 
 ## Configuration Notes
 

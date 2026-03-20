@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv75w
 id: gv75w
+sidebar_key: queclingv75w_index_gv75w
 sidebar_label: GV75W
 title: QuecLink - GV75W
 sidebar_class_name: menu_item_tracker

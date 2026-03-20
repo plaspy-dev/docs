@@ -77,18 +77,18 @@ El MT60PRO puede configurarse para subir datos GPRS al endpoint y puerto compart
 
 Los ejemplos públicos de configuración del MT60PRO usan comandos SMS. La contraseña predeterminada mostrada en ejemplos públicos es 000000 — confirme y cambie esta contraseña según su política de seguridad después del aprovisionamiento inicial.
 
-1. Establecer ID del dispositivo (reemplazar <IMEI> con el IMEI de 15 dígitos del dispositivo)
+1. Establecer ID del dispositivo (reemplazar \<IMEI> con el IMEI de 15 dígitos del dispositivo)
 ```text
 M000000,22,<IMEI>
 ```
 
-2. Establecer APN del operador (reemplazar {{apn}} con el APN de su operador; opcionalmente {{apnu}} y {{apnp}} son usuario y contraseña del APN)
+2. Establecer APN del operador (reemplazar [apn] con el APN de su operador; opcionalmente [apnu] y [apnp] son usuario y contraseña del APN)
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Si su APN requiere usuario o contraseña:
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Establecer intervalo de actualización a 60 segundos
@@ -109,7 +109,7 @@ M000000,21,2
 
 Notas importantes sobre estos comandos:
 - 000000 se muestra como la contraseña de ejemplo en ejemplos públicos; reemplácela con la contraseña real del dispositivo o cámbiela tras el aprovisionamiento.  
-- Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}}; deben ser reemplazados por los valores del APN de su operador.  
+- Mantenga los marcadores de posición como [apn], [apnu] y [apnp]; deben ser reemplazados por los valores del APN de su operador.  
 - El orden de los comandos importa en el aprovisionamiento inicial: configure primero el APN, luego el servidor y finalmente el modo de reporte.  
 - Si su método de aprovisionamiento admite el dominio d.plaspy.com, puede usarlo en lugar de la IP; ambos, dominio e IP, se proporcionan públicamente.
 

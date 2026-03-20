@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv300can
 id: gv300can
+sidebar_key: queclingv300can_index_gv300can
 sidebar_label: GV300CAN
 title: QuecLink - GV300CAN
 sidebar_class_name: menu_item_tracker

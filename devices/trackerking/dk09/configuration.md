@@ -79,7 +79,7 @@ The DK09 sends its GNSS position and event telemetry over cellular data to the P
 
 The DK09 manufacturer may provide multiple configuration methods (web tools, desktop utilities, SMS commands, or OTA configuration). Exact commands and parameter names depend on the TrackerKing firmware and provisioning tool. Because model-specific commands are provided by TrackerKing, consult the official configuration guide from the manufacturer for exact command syntax.
 
-Common manufacturer actions you will perform include specifying the server domain or IP and port (d.plaspy.com or 54.85.159.138 and 8888) and selecting UDP or TCP if required. If you receive command examples from TrackerKing or your distributor, follow their order and syntax, and retain placeholders such as {{apn}} or {{apnu}} if provided; those placeholders should be replaced with your network APN credentials when required.
+Common manufacturer actions you will perform include specifying the server domain or IP and port (d.plaspy.com or 54.85.159.138 and 8888) and selecting UDP or TCP if required. If you receive command examples from TrackerKing or your distributor, follow their order and syntax, and retain placeholders such as [apn] or [apnu] if provided; those placeholders should be replaced with your network APN credentials when required.
 
 ## Configuration Notes
 

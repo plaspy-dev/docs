@@ -78,23 +78,23 @@ The MT-90N can be configured to send location and telemetry to Plaspy over the n
 The MT-90N commonly supports SMS based configuration. The public command examples below reflect the manufacturer SMS formats and the default device password used in the sample configuration. The default password shown is 000000 and should be replaced if your device has a different password set.
 
 - Notes on placeholders used in the commands
-  - Replace <15-digit IMEI> with the tracker IMEI or the 15 digit device identifier required by the command.
-  - {{apn}} is the mobile operator APN string.
-  - {{apnu}} is the APN username if required by the operator.
-  - {{apnp}} is the APN password if required by the operator.
+  - Replace \<15-digit IMEI> with the tracker IMEI or the 15 digit device identifier required by the command.
+  - [apn] is the mobile operator APN string.
+  - [apnu] is the APN username if required by the operator.
+  - [apnp] is the APN password if required by the operator.
 
-1. Set the device ID (replace <15-digit IMEI> with the device IMEI)
+1. Set the device ID (replace \<15-digit IMEI> with the device IMEI)
 ```text
 M000000,22,<15-digit IMEI>
 ```
 
 2. Set the operator APN. Use the optional APN username and password if required
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Or with APN username and password
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Set the update interval to 60 seconds

@@ -79,9 +79,9 @@ Si el dispositivo o gateway admite configuración por SMS, use los ejemplos de c
 Los siguientes comandos son ejemplos públicos de configuración por SMS para QuecLink. Se muestran en la secuencia original tal como se aplican comúnmente. La muestra usa la contraseña por defecto del dispositivo queclink. Los marcadores de posición permanecen donde las muestras públicas requieren entrada del operador.
 
 - Notas sobre los marcadores de posición
-  - {{apn}} es el nombre APN utilizado por el operador celular.
-  - {{apnu}} es el nombre de usuario del APN cuando el operador lo requiere.
-  - {{apnp}} es la contraseña del APN cuando el operador la requiere.
+  - [apn] es el nombre APN utilizado por el operador celular.
+  - [apnu] es el nombre de usuario del APN cuando el operador lo requiere.
+  - [apnp] es la contraseña del APN cuando el operador la requiere.
 
 - Ejemplos de comandos (enviar por SMS cuando aplique)
 
@@ -97,7 +97,7 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Establecer el APN del operador con marcadores de posición para APN, usuario y contraseña
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4. Configurar el servidor GPRS para apuntar a Plaspy por dominio e IP con puerto 8888
@@ -122,7 +122,7 @@ Estos comandos son ejemplos públicos y pueden aplicarse cuando se configuran di
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis exacta de los comandos o las opciones disponibles. Confirme siempre con las notas de firmware para su número de serie y revisión.
 - Los comandos de ejemplo anteriores usan estilo de configuración por SMS; en algunos despliegues se utiliza una interfaz web o una herramienta de configuración del proveedor. Use el método que corresponda a su hardware.
 - Plaspy usa el mismo puerto 8888 para todos los dispositivos soportados y detecta automáticamente el protocolo del rastreador, por lo que debe centrarse en el host del servidor y la selección de transporte correctos.
-- Al configurar valores APN tenga listos los marcadores {{apn}}, {{apnu}} y {{apnp}} y confirme con el operador si se requiere usuario o contraseña.
+- Al configurar valores APN tenga listos los marcadores [apn], [apnu] y [apnp] y confirme con el operador si se requiere usuario o contraseña.
 - Dado que el WTS100 es un sensor de temperatura por radio integrado vía receptores o gateways, asegúrese de que el receptor o gateway esté configurado para reenviar la telemetría del sensor a Plaspy usando los ajustes de servidor indicados arriba.
 
 ## Por qué usar Plaspy con esta configuración

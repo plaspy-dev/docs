@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/tr_350
 id: tr_350
+sidebar_key: globalsatr_350_index_tr_350
 sidebar_label: TR-350
 title: GlobalSat - TR-350
 sidebar_class_name: menu_item_tracker

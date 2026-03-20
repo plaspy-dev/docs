@@ -84,9 +84,9 @@ The AT07 supports SMS configuration. The following public SMS commands demonstra
 
 - Set the operator APN (replace placeholders with your operator values)
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-Explanation: {{apn}} is the access point name, {{apnu}} is the APN username, and {{apnp}} is the APN password. Fill or omit username and password according to your SIM operator requirements.
+Explanation: [apn] is the access point name, [apnu] is the APN username, and [apnp] is the APN password. Fill or omit username and password according to your SIM operator requirements.
 
 - Set the GPRS server to Plaspy using the public IP and port
 ```text

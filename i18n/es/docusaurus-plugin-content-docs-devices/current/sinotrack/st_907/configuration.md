@@ -89,11 +89,11 @@ RESET
 
 3. Configurar APN y credenciales opcionales del APN
 ```
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-- {{apn}} = APN del operador
-- {{apnu}} = usuario del APN (dejar en blanco si no es obligatorio)
-- {{apnp}} = contraseña del APN (dejar en blanco si no es obligatoria)
+- [apn] = APN del operador
+- [apnu] = usuario del APN (dejar en blanco si no es obligatorio)
+- [apnp] = contraseña del APN (dejar en blanco si no es obligatoria)
 
 4. Establecer el servidor GPRS a Plaspy usando la IP y el puerto
 ```

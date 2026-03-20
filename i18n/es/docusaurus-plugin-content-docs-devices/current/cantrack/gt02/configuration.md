@@ -88,12 +88,12 @@ Este comando restaura la configuración de fábrica y normalmente se usa solo cu
 
 - Configurar el APN del operador
 ```text
-#apn#123456#{{apn}}#{{apnu}}#{{apnp}}#
+#apn#123456#[apn]#[apnu]#[apnp]#
 ```
 Placeholders:
-- {{apn}} es el nombre del APN del operador móvil
-- {{apnu}} es el usuario del APN si el operador lo requiere
-- {{apnp}} es la contraseña del APN si el operador lo requiere
+- [apn] es el nombre del APN del operador móvil
+- [apnu] es el usuario del APN si el operador lo requiere
+- [apnp] es la contraseña del APN si el operador lo requiere
 Si el usuario o la contraseña no son necesarios, algunos firmwares aceptan valores vacíos o los placeholders pueden omitirse según la sintaxis del dispositivo.
 
 - Establecer el servidor GPRS a Plaspy

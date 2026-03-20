@@ -75,7 +75,7 @@ The S-2117 sends GNSS position and telemetry messages over the GSM link to the c
 
 The public model configuration content provided here does not include device specific command strings. Exact configuration commands and their syntax vary by Navtelekom firmware and by the configuration method you use (PC configurator, SMS commands, or vendor service tool). When using manufacturer commands or tools, follow the official Navtelekom instructions to set the server address and port to d.plaspy.com or 54.85.159.138 and port 8888, and choose UDP or TCP as appropriate.
 
-If you have vendor supplied command examples from Navtelekom or an official configurator export, include them in the order required by the vendor tool and preserve any placeholders. Placeholders such as {{apn}}, {{apnu}}, or {{apnp}} should be kept and replaced with your cellular operator details when required by the device setup.
+If you have vendor supplied command examples from Navtelekom or an official configurator export, include them in the order required by the vendor tool and preserve any placeholders. Placeholders such as [apn], [apnu], or [apnp] should be kept and replaced with your cellular operator details when required by the device setup.
 
 ## Configuration Notes
 

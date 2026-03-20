@@ -1,6 +1,7 @@
 ---
 slug: /istartek/pt60_l
 id: pt60_l
+sidebar_key: istartept60_l_index_pt60_l
 sidebar_label: PT60-L
 title: iStartek - PT60-L
 sidebar_class_name: menu_item_tracker

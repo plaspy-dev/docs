@@ -80,7 +80,7 @@ El CT‑X8 transmite posiciones GPS y eventos de manipulación vía celular al e
 
 Los comandos exactos de configuración dependen del firmware de ArkNav y de la interfaz que utilice (por ejemplo, software del fabricante, consola serial USB o SMS). Dado que los comandos varían según el firmware y la cadena de herramientas, lo recomendado es usar la utilidad oficial de ArkNav o el conjunto de comandos SMS/serial documentado por el fabricante. Las acciones típicas que realizará con esas herramientas incluyen apuntar el servidor a d.plaspy.com o 54.85.159.138 y establecer el puerto 8888 junto con la selección de transporte.
 
-Si dispone de cadenas de comando proporcionadas por ArkNav o de un conjunto de comandos SMS del manual del equipo, aplíquelos en la secuencia que documenta ArkNav y conserve cualquier marcador de posición que el fabricante incluya al ingresar APN o credenciales. Por ejemplo, si una plantilla SMS del fabricante usa marcadores como {{apn}}, {{apnu}} o {{apnp}}, mantenga esos marcadores y reemplácelos por los datos de APN de su operador cuando así lo indique la documentación de ArkNav.
+Si dispone de cadenas de comando proporcionadas por ArkNav o de un conjunto de comandos SMS del manual del equipo, aplíquelos en la secuencia que documenta ArkNav y conserve cualquier marcador de posición que el fabricante incluya al ingresar APN o credenciales. Por ejemplo, si una plantilla SMS del fabricante usa marcadores como [apn], [apnu] o [apnp], mantenga esos marcadores y reemplácelos por los datos de APN de su operador cuando así lo indique la documentación de ArkNav.
 
 ## Notas de configuración
 

@@ -67,7 +67,7 @@ El MSP500 se configura para enviar mensajes de ubicación y eventos al endpoint 
 2. Ingrese el dominio del servidor Plaspy d.plaspy.com o use la IP del servidor Plaspy 54.85.159.138 en el campo de dirección del servidor.  
 3. Establezca el puerto del servidor en 8888.  
 4. Seleccione UDP o TCP en el dispositivo si el rastreador requiere elección de transporte.  
-5. Configure los datos del APN para la SIM usando los valores de su operador (reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}}).  
+5. Configure los datos del APN para la SIM usando los valores de su operador (reemplace marcadores como [apn], [apnu] y [apnp]).  
 6. Aplique o guarde la configuración y reinicie el equipo si el procedimiento del fabricante requiere un reinicio para que los cambios surtan efecto.  
 7. Valide que el MSP500 reporte a Plaspy verificando la conectividad y la visibilidad del dispositivo en la plataforma Plaspy.
 
@@ -78,13 +78,13 @@ El MSP500 permite enviar la configuración como un comando en bloque. El ejemplo
 - Example bulk setparam command (preserve placeholders and replace before use):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando:
-- {{apn}} = nombre del APN de su operador.  
-- {{apnu}} = nombre de usuario del APN si se requiere; de lo contrario dejar vacío.  
-- {{apnp}} = contraseña del APN si se requiere; de lo contrario dejar vacío.  
+- [apn] = nombre del APN de su operador.  
+- [apnu] = nombre de usuario del APN si se requiere; de lo contrario dejar vacío.  
+- [apnp] = contraseña del APN si se requiere; de lo contrario dejar vacío.  
 - Los parámetros 2004 y 2005 en este ejemplo establecen el dominio del servidor y el puerto con los valores de Plaspy mostrados arriba.  
 - 2006 aparece como una opción adicional del dispositivo en este ejemplo público; consulte la documentación de Teltonika para el significado exacto de cada parámetro numérico.  
 - Este comando puede enviarse por SMS, GPRS o aplicarse mediante Teltonika Configurator según el método de configuración que prefiera.

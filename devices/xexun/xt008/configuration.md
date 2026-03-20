@@ -77,7 +77,7 @@ The XT008 is configured to report location and status data to the shared Plaspy 
 
 ## Example Configuration Commands
 
-The XT008 public configuration can be performed by SMS commands. The sample commands below use the default device password 123456. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your operator APN, APN username, and APN password respectively.
+The XT008 public configuration can be performed by SMS commands. The sample commands below use the default device password 123456. Placeholders such as [apn], [apnu], and [apnp] should be replaced with your operator APN, APN username, and APN password respectively.
 
 - Optional initial factory restore command (use only if needed to reset settings):
 ```text
@@ -86,17 +86,17 @@ begin123456
 
 - Set the operator APN:
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username (if required by your operator):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
 - Set the APN password (if required by your operator):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server and port to Plaspy (public example uses the server IP and port):
@@ -117,7 +117,7 @@ t060s***n123456
 Notes about these commands:
 - The default password 123456 is included in the example commands and should be changed according to your security practices if the device allows.
 - If your device firmware accepts a domain name in the server command, you can substitute d.plaspy.com for the IP address; consult Xexun documentation or test with a single command before wide deployment.
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator values. These placeholders are deliberately preserved in the commands.
+- Replace [apn], [apnu], and [apnp] with your mobile operator values. These placeholders are deliberately preserved in the commands.
 
 ## Configuration Notes
 

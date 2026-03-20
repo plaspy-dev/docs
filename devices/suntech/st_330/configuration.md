@@ -86,17 +86,17 @@ Label: Reset factory settings (optional initial step).
 2) Set operator APN and GPRS server
 - If the SIM provider does not require APN username or password, set the authentication flag to 0:
 ```
-ST300NTW;{DEVICE_ID};02;0;{{apn}};;;54.85.159.138;8888;;;;
+ST300NTW;{DEVICE_ID};02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 - If the SIM provider requires APN username or password, set the authentication flag to 1 and include credentials:
 ```
-ST300NTW;{DEVICE_ID};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;{DEVICE_ID};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notes:
 - {DEVICE_ID} is the last 9 digits of the IMEI excluding the final digit.
-- {{apn}} is the operator APN placeholder.
-- {{apnu}} is the APN username placeholder.
-- {{apnp}} is the APN password placeholder.
+- [apn] is the operator APN placeholder.
+- [apnu] is the APN username placeholder.
+- [apnp] is the APN password placeholder.
 - You may substitute d.plaspy.com for 54.85.159.138 if the device accepts hostnames.
 
 3) Set update/report interval to 60 seconds (example reporting cadence):

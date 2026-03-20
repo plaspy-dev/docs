@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st_340lc
 id: st_340lc
+sidebar_key: suntecst_340lc_index_st_340lc
 sidebar_label: ST 340LC
 title: Suntech - ST 340LC
 sidebar_class_name: menu_item_tracker

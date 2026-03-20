@@ -79,7 +79,7 @@ The exact configuration commands and their syntax vary by Aplicom firmware and t
 - Use port 8888 for the server setting  
 - Select UDP or TCP as required by the device tool
 
-If you are using an Aplicom provided command interface or SMS based setup, follow the manufacturer documentation for the correct command format and order. Placeholders such as {{apn}}, {{apnu}}, or {{apnp}} are used in some manufacturer templates to indicate APN settings and should be replaced with the operator supplied values when required.
+If you are using an Aplicom provided command interface or SMS based setup, follow the manufacturer documentation for the correct command format and order. Placeholders such as [apn], [apnu], or [apnp] are used in some manufacturer templates to indicate APN settings and should be replaced with the operator supplied values when required.
 
 ## Configuration Notes
 

@@ -83,27 +83,27 @@ The JT 600 can be configured by sending SMS commands to the device. Replace {{tr
 Send this SMS to the tracker, replacing placeholders as needed:
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 You may alternatively use the server domain in the same command if the device accepts a hostname:
 
 ```
-({{trackerID}},2,S02,129,1,d.plaspy.com,8888,{{apn}})
+({{trackerID}},2,S02,129,1,d.plaspy.com,8888,[apn])
 ```
 
 2. (Optional) Set the APN user and password
 If your APN requires credentials, send this SMS:
 
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notes on placeholders
 - {{trackerID}} — Replace with the device ID or IMEI as required by the tracker.
-- {{apn}} — Replace with your mobile operator APN name.
-- {{apnu}} — Replace with the APN username if required by your operator.
-- {{apnp}} — Replace with the APN password if required by your operator.
+- [apn] — Replace with your mobile operator APN name.
+- [apnu] — Replace with the APN username if required by your operator.
+- [apnp] — Replace with the APN password if required by your operator.
 
 Follow the manufacturer order when sending commands; the server/APN command typically should be applied before optional credential commands.
 

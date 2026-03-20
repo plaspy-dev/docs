@@ -80,11 +80,11 @@ The XT-2400 supports SMS based configuration. The following public SMS commands 
 
 1. Set the operator APN. Replace the placeholders with your operator values:
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apn}} is the APN name provided by the mobile operator.
-- {{apnu}} is the APN username if required, or leave blank if not required.
-- {{apnp}} is the APN password if required, or leave blank if not required.
+- [apn] is the APN name provided by the mobile operator.
+- [apnu] is the APN username if required, or leave blank if not required.
+- [apnp] is the APN password if required, or leave blank if not required.
 
 2. Set the GPRS server to Plaspy. This sets port 8888 and the Plaspy server IP:
 ```text
@@ -101,7 +101,7 @@ If you prefer vendor software or a provisioning tool, use equivalent fields to e
 - The XT-2400 supports SMS based setup as shown, but many installers use a vendor provisioning tool or configuration app instead of SMS.
 - Choose UDP or TCP based on network characteristics or installer guidance; Plaspy will accept either and detect the protocol automatically.
 - Plaspy uses the same port 8888 for all supported devices, so ensure consistency when provisioning multiple devices.
-- Keep a record of any placeholders you replace such as {{apn}}, {{apnu}}, and {{apnp}} for future maintenance.
+- Keep a record of any placeholders you replace such as [apn], [apnu], and [apnp] for future maintenance.
 
 ## Why Use Plaspy with This Configuration
 

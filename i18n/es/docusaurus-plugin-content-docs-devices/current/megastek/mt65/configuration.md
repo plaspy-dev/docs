@@ -82,16 +82,16 @@ El fabricante proporciona plantillas SMS para la configuración básica. El ejem
 M000000,22,{{imei}}
 ```
 
-2. Configurar el APN del operador. Mantenga {{apnu}} y {{apnp}} solo si su APN requiere usuario o contraseña. Ejemplo:
+2. Configurar el APN del operador. Mantenga [apnu] y [apnp] solo si su APN requiere usuario o contraseña. Ejemplo:
 
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
 Con usuario y contraseña opcionales incluidos:
 
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Establecer el intervalo de actualización a 60 segundos:
@@ -120,9 +120,9 @@ M000000,21,2
 
 Notas sobre los marcadores
 - {{imei}} Reemplácelo con el IMEI del dispositivo o con los últimos 15 dígitos según lo requiera el dispositivo.
-- {{apn}} Reemplace con la cadena APN del operador.
-- {{apnu}} Usuario APN opcional cuando lo requiera el operador.
-- {{apnp}} Contraseña APN opcional cuando lo requiera el operador.
+- [apn] Reemplace con la cadena APN del operador.
+- [apnu] Usuario APN opcional cuando lo requiera el operador.
+- [apnp] Contraseña APN opcional cuando lo requiera el operador.
 
 Siempre confirme el formato SMS correcto para su versión de firmware antes de enviar comandos. Algunas variantes de firmware requieren diferencias leves en el formato o parámetros adicionales.
 

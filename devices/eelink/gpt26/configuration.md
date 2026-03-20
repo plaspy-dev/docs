@@ -89,13 +89,13 @@ GMT,E,0#
 ```
 
 - Set the operator APN
-Note: {{apn}} is a placeholder for your mobile operator APN. If your operator requires an APN username and password include {{apnu}} and {{apnp}} where needed.
+Note: [apn] is a placeholder for your mobile operator APN. If your operator requires an APN username and password include [apnu] and [apnp] where needed.
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Or, if username and password are required:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to Plaspy by domain and port (uses Plaspy domain):
@@ -118,7 +118,7 @@ TIMER,60#
 PARAM#
 ```
 
-Send these SMS commands to the GPT26 device number. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator values before sending.
+Send these SMS commands to the GPT26 device number. Replace placeholders such as [apn], [apnu], and [apnp] with your operator values before sending.
 
 ## Configuration Notes
 

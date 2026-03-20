@@ -84,7 +84,7 @@ Because manufacturer commands can change and there are multiple vendor tools, co
 - Firmware differences and regional hardware variants can change available configuration options and command syntax; always confirm commands against the device documentation.
 - If your configuration tool allows TCP and UDP, test both transport modes if connectivity is intermittent; Plaspy accepts either on port 8888.
 - SMS fallback is useful for remote troubleshooting when GPRS is unavailable, but it is typically slower and may not carry full telemetry.
-- Ensure the APN settings from your mobile operator are entered correctly when the device requires APN, username or password placeholders such as {{apn}} {{apnu}} or {{apnp}} may be present in tooling and should be replaced with operator values.
+- Ensure the APN settings from your mobile operator are entered correctly when the device requires APN, username or password placeholders such as [apn] [apnu] or [apnp] may be present in tooling and should be replaced with operator values.
 - Keep a record of the device IMEI and configuration applied for long term fleet management and troubleshooting.
 
 ## Why Use Plaspy with This Configuration

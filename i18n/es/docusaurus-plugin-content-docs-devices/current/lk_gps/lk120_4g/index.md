@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk120_4g
 id: lk120_4g
+sidebar_key: lk_gplk120_4g_index_lk120_4g
 sidebar_label: LK120-4G
 title: LK-GPS - LK120-4G
 sidebar_class_name: menu_item_tracker

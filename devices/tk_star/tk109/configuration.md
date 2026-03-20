@@ -46,7 +46,7 @@ The configuration process prepares the TK109 to communicate reliably with the Pl
 
 - A charged and powered TK109 unit with working cellular connectivity and a working SIM card that supports GPRS data and SMS (if using SMS-based configuration).  
 - Access to the TK‑Star official configuration method such as SMS commands or the manufacturer manual.  
-- Correct APN details from the SIM operator for mobile data; save APN placeholders such as {{apn}}, {{apnu}}, and {{apnp}} for use in SMS commands.  
+- Correct APN details from the SIM operator for mobile data; save APN placeholders such as [apn], [apnu], and [apnp] for use in SMS commands.  
 - A way to send SMS messages to the tracker (phone or SMS gateway) if using SMS configuration.  
 - Access to Plaspy account to confirm device visibility and to monitor incoming telemetry after setup.
 
@@ -79,19 +79,19 @@ The TK109 can be configured using SMS commands. The following commands are taken
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN):
+- Set the operator APN (replace [apn] with your carrier APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username (if required by your carrier; replace {{apnu}} with the APN username):
+- Set the APN username (if required by your carrier; replace [apnu] with the APN username):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (if required by your carrier; replace {{apnp}} with the APN password):
+- Set the APN password (if required by your carrier; replace [apnp] with the APN password):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the Plaspy IP and port (this points the device at Plaspy):
@@ -111,7 +111,7 @@ gprs123456
 
 Notes on the commands and placeholders:
 - The numeric password 123456 in these examples is the common default device password shown in public documentation. If your device password has been changed, use the current password in place of 123456.  
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for your SIM operator APN, username, and password. Replace them with your carrier values. If your operator does not require a username or password, the apnuser and apnpasswd commands are not required.  
+- [apn], [apnu], and [apnp] are placeholders for your SIM operator APN, username, and password. Replace them with your carrier values. If your operator does not require a username or password, the apnuser and apnpasswd commands are not required.  
 - Use the adminip command to point directly to the Plaspy server IP and port; some installers prefer to use the server domain d.plaspy.com in TK‑Star tools where domain names are accepted. Both the domain and the IP point to Plaspy.
 
 ## Configuration Notes

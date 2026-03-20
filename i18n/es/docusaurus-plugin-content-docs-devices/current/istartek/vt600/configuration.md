@@ -90,9 +90,9 @@ GMT,E,0#
 
 - Set the operator APN. Replace the placeholder values as needed:
 ```
-APN,{{apn}}[,{{apnu}},{{apnp}}]#
+APN,[apn][,[apnu],[apnp]]#
 ```
-Explicación: {{apn}} es la cadena APN del operador. Si su proveedor requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} donde corresponda. Mantenga los marcadores de posición visibles y reemplácelos por valores reales.
+Explicación: [apn] es la cadena APN del operador. Si su proveedor requiere usuario o contraseña, incluya [apnu] y [apnp] donde corresponda. Mantenga los marcadores de posición visibles y reemplácelos por valores reales.
 
 - Set the GPRS server using the Plaspy domain and port:
 ```
@@ -121,7 +121,7 @@ Explicación: PARAM# solicita al dispositivo que devuelva su configuración actu
 - Los comandos SMS anteriores son ejemplos públicos; algunas versiones de firmware, modelos regionales o flujos con herramientas del proveedor pueden requerir una sintaxis diferente o campos adicionales.
 - El VT600 soporta configuración por SMS como se muestra, pero muchos instaladores prefieren el software del proveedor o herramientas de configuración cuando están disponibles.
 - Elija UDP o TCP según las necesidades de su despliegue; Plaspy soporta ambos y detecta el protocolo automáticamente una vez que el dispositivo se conecta.
-- Conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} al preparar los comandos y reemplácelos por los valores específicos del operador.
+- Conserve los marcadores de posición [apn], [apnu] y [apnp] al preparar los comandos y reemplácelos por los valores específicos del operador.
 - Use PARAM# después de aplicar los ajustes para confirmar que el servidor, puerto y temporizador se establecieron correctamente antes de validar en Plaspy.
 
 ## Por qué usar Plaspy con esta configuración

@@ -1,6 +1,7 @@
 ---
 slug: /dct/syrus_asset_tracker
 id: syrus_asset_tracker
+sidebar_key: dcsyrus_asset_tracker_index_syrus_asset_tracker
 sidebar_label: Syrus Asset Tracker
 title: DCT - Syrus Asset Tracker
 sidebar_class_name: menu_item_tracker

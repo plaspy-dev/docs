@@ -74,7 +74,7 @@ The LL702 is configured to open a mobile data session and send periodic position
 
 ## Example Configuration Commands
 
-To set the LL702 via SMS, send the following public commands in the order shown. Keep placeholders as provided and replace {{apn}}, {{apnu}}, and {{apnp}} with your operator APN values where needed. Labelled reset is optional for initial provisioning.
+To set the LL702 via SMS, send the following public commands in the order shown. Keep placeholders as provided and replace [apn], [apnu], and [apnp] with your operator APN values where needed. Labelled reset is optional for initial provisioning.
 
 - Optional initial factory reset
 ```text
@@ -89,13 +89,13 @@ GMT,E,0#
 - Set the operator APN
 If your operator requires only an APN
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 If your operator requires APN username and password
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Replace {{apn}} with your operator APN. Replace {{apnu}} and {{apnp}} with APN username and password if required.)
+(Replace [apn] with your operator APN. Replace [apnu] and [apnp] with APN username and password if required.)
 
 - Set the GPRS server to use the Plaspy domain on port 8888
 ```text
@@ -135,7 +135,7 @@ These commands reflect the publicly available SMS configuration flow for the LL7
 - The LL702 supports SMS based configuration as shown; vendor tools or USB/device configuration utilities may also be available depending on your supplier.
 - You can set the Plaspy server using either the domain d.plaspy.com or the IP 54.85.159.138 both paired with port 8888. Plaspy accepts UDP or TCP on that port.
 - Plaspy uses the same port for all supported devices and automatically detects the device protocol on connection, reducing per device protocol selection effort.
-- Keep APN username and password placeholders {{apnu}} and {{apnp}} available in case your SIM operator requires authentication.
+- Keep APN username and password placeholders [apnu] and [apnp] available in case your SIM operator requires authentication.
 
 ## Why Use Plaspy with This Configuration
 

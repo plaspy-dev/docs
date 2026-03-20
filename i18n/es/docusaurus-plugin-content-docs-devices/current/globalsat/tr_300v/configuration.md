@@ -75,11 +75,11 @@ El TR-300V se configura para enviar actualizaciones periódicas de ubicación e 
 
 ## Ejemplos de comandos de configuración
 
-El TR-300V soporta configuración vía SMS. Las siguientes plantillas se derivan de ejemplos públicos de comandos del dispositivo. Reemplace los marcadores con la información de su equipo antes de enviar. El ejemplo usa marcadores como {{imei}}, {{apn}}, {{apnu}}, {{apnp}} y tokens de checksum que deben calcularse e insertarse.
+El TR-300V soporta configuración vía SMS. Las siguientes plantillas se derivan de ejemplos públicos de comandos del dispositivo. Reemplace los marcadores con la información de su equipo antes de enviar. El ejemplo usa marcadores como {{imei}}, [apn], [apnu], [apnp] y tokens de checksum que deben calcularse e insertarse.
 
 - Notas sobre los marcadores:
   - {{imei}} — reemplace con el número IMEI del dispositivo.
-  - {{apn}}, {{apnu}}, {{apnp}} — nombre APN, usuario APN y contraseña APN. Proporcione los valores requeridos por su operador móvil.
+  - [apn], [apnu], [apnp] — nombre APN, usuario APN y contraseña APN. Proporcione los valores requeridos por su operador móvil.
   - {{checksum}} y {{checksumreeboot}} — checksums hexadecimales de dos dígitos en mayúsculas calculados sobre la cadena de comando que precede al asterisco, como se describe más abajo.
 
 - Prefijo de lote de Plaspy usado en algunos flujos de proveedor:
@@ -87,7 +87,7 @@ El TR-300V soporta configuración vía SMS. Las siguientes plantillas se derivan
 
 - Plantilla principal de configuración
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Plantilla opcional de reinicio (usar si es necesario reiniciar después de aplicar ajustes)
@@ -110,7 +110,7 @@ Pasos para ensamblar el comando:
 - El TR-300V admite comandos de configuración por SMS y por GPRS; utilice el método adecuado según su despliegue y el firmware del equipo.
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis exacta de los comandos o los campos disponibles. Siempre verifique los formatos de comando con el manual del dispositivo correspondiente a su versión de firmware.
 - Elegir UDP o TCP es una opción a nivel de dispositivo; TCP puede ofrecer entrega más fiable en algunas redes mientras que UDP es más liviano. Plaspy acepta ambos transportes en el puerto compartido.
-- Las credenciales APN deben coincidir con las del operador móvil. Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} en las plantillas para poder sustituirlos por los valores del operador.
+- Las credenciales APN deben coincidir con las del operador móvil. Mantenga los marcadores [apn], [apnu] y [apnp] en las plantillas para poder sustituirlos por los valores del operador.
 - Si en su flujo aparece un paso de reinicio, considérelo opcional salvo que las instrucciones del fabricante indiquen que es obligatorio para aplicar los ajustes.
 
 ## Por qué usar Plaspy con esta configuración

@@ -76,9 +76,9 @@ The GMT100 is configured to report position and event messages to the shared Pla
 The GMT100 can be configured by SMS using QuecLink AT style commands. The following public example preserves the order used for a typical setup. The sample commands use the default device password queclink. Use these commands by sending them as SMS messages to the device phone number.
 
 Note on placeholders
-- {{apn}} is the mobile network APN string for your SIM provider
-- {{apnu}} is the APN username when required by the operator
-- {{apnp}} is the APN password when required by the operator
+- [apn] is the mobile network APN string for your SIM provider
+- [apnu] is the APN username when required by the operator
+- [apnp] is the APN password when required by the operator
 
 1. Optional initial step to restore factory settings (use only when needed)
 ```
@@ -92,7 +92,7 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the mobile operator APN and credentials
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4. Configure the GPRS server to report to Plaspy by domain and IP on port 8888

@@ -79,12 +79,12 @@ The XT-4500 is configured to send its location and status data to the Plaspy ser
 The XT-4500 public configuration documentation includes SMS commands to set the operator APN and to set the GPRS server. Send these commands as individual SMS messages to the device number according to Xirgo instructions. Preserve the placeholders when you replace them with your operator values.
 
 - Set the operator APN. Replace the placeholders with your operator values. The placeholders are:
-  - {{apnu}} for APN username if required
-  - {{apnp}} for APN password if required
-  - {{apn}} for the operator APN name
+  - [apnu] for APN username if required
+  - [apnp] for APN password if required
+  - [apn] for the operator APN name
 
 ```
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 
 - Set the GPRS server to Plaspy. This command sets the server IP or domain and the port the device will use to connect to Plaspy. The example uses port 8888 and the public Plaspy IP address.

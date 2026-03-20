@@ -83,17 +83,17 @@ The following commands are public SMS style commands used by Xexun devices and a
 ```text
 begin123456
 ```
-- Set the operator APN. Replace {{apn}} with your operator APN string
+- Set the operator APN. Replace [apn] with your operator APN string
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- Set the APN username if required. Replace {{apnu}} with the APN username
+- Set the APN username if required. Replace [apnu] with the APN username
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- Set the APN password if required. Replace {{apnp}} with the APN password
+- Set the APN password if required. Replace [apnp] with the APN password
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Set the GPRS server to Plaspy using the Plaspy server IP and port
 ```text
@@ -109,8 +109,8 @@ t060s***n123456
 ```
 
 Notes about placeholders and password
-- {{apn}} is an operator APN placeholder you must replace with your SIM operator APN.
-- {{apnu}} and {{apnp}} are optional APN username and APN password placeholders used where the operator requires credentials.
+- [apn] is an operator APN placeholder you must replace with your SIM operator APN.
+- [apnu] and [apnp] are optional APN username and APN password placeholders used where the operator requires credentials.
 - The numeric password 123456 in these examples is the sample device password shown in manufacturer materials. If you have changed the password use the changed password in each command.
 
 ## Configuration Notes

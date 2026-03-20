@@ -77,13 +77,13 @@ El TZ-Tag04 se configura para enviar datos de ubicación y sensores al endpoint 
 
 Para configurar el TZ-Tag04 por SMS, envíe los siguientes comandos en el orden que se indica. Estos comandos son ejemplos públicos usados para configurar el APN, el intervalo de reporte, el servidor Plaspy y activar el modo GPRS.
 
-- Establecer el APN del operador (reemplazar {{apn}} con el APN de su operador; incluya {{apnu}} y {{apnp}} si su operador requiere usuario y contraseña)
+- Establecer el APN del operador (reemplazar [apn] con el APN de su operador; incluya [apnu] y [apnp] si su operador requiere usuario y contraseña)
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
-Nota: Si no se requiere usuario ni contraseña para el APN, omita la porción ,{{apnu}},{{apnp}}:
+Nota: Si no se requiere usuario ni contraseña para el APN, omita la porción ,[apnu],[apnp]:
 ```text
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 - Fijar el intervalo de actualización a 60 segundos
@@ -108,7 +108,7 @@ También puede usar el dominio de Plaspy en lugar de la IP cuando el dispositivo
 Notas sobre los comandos anteriores:
 - La secuencia generalmente comienza con el APN, luego el intervalo, el servidor y finalmente la activación para que el dispositivo se conecte correctamente.
 - La cadena 000000 en estos ejemplos suele ser la contraseña por defecto del dispositivo usada en comandos SMS; verifique el manual del dispositivo porque la contraseña puede variar.
-- Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por los valores de su operador móvil. Mantenga los marcadores si prepara plantillas.
+- Los marcadores [apn], [apnu] y [apnp] deben reemplazarse por los valores de su operador móvil. Mantenga los marcadores si prepara plantillas.
 
 ## Observaciones de configuración
 

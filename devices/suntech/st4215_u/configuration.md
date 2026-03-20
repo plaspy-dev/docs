@@ -80,19 +80,19 @@ If you are configuring by SMS, follow the manufacturer SMS syntax carefully and 
 The following commands are based on the public Suntech SMS configuration examples. The device ID is the last six digits of the IMEI excluding the final check digit. Example: if the IMEI is shown as 12345678 901234 5 then the device ID is 901234.
 
 1) Set operator APN and the GPRS server to Plaspy (APN placeholders preserved)
-- Notes: the flag value before the APN fields is 1 when APN username or password are provided, otherwise 0. Replace [DEVICE_ID] with the six digit ID derived from IMEI and fill {{apn}}, {{apnu}}, {{apnp}} as required by your operator.
+- Notes: the flag value before the APN fields is 1 when APN username or password are provided, otherwise 0. Replace [DEVICE_ID] with the six digit ID derived from IMEI and fill [apn], [apnu], [apnp] as required by your operator.
 
 SMS command:
 ```text
-SA200NTW;[DEVICE_ID];02;[APN_AUTH_FLAG];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;[DEVICE_ID];02;[APN_AUTH_FLAG];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Example explanation:
 - [DEVICE_ID] = last 6 digits of IMEI excluding the final check digit
-- [APN_AUTH_FLAG] = 1 if you provide {{apnu}} or {{apnp}} else 0
-- {{apn}} = operator APN placeholder
-- {{apnu}} = APN username placeholder
-- {{apnp}} = APN password placeholder
+- [APN_AUTH_FLAG] = 1 if you provide [apnu] or [apnp] else 0
+- [apn] = operator APN placeholder
+- [apnu] = APN username placeholder
+- [apnp] = APN password placeholder
 
 2) Set the reporting interval to 60 seconds
 ```text

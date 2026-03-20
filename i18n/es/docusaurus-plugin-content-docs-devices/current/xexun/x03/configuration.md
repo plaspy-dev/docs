@@ -82,19 +82,19 @@ El Xexun X03 puede configurarse enviando comandos SMS al número del dispositivo
 begin123456
 ```
 
-- Configurar el APN del operador (reemplace {{apn}} por el APN de su red):
+- Configurar el APN del operador (reemplace [apn] por el APN de su red):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario del APN si es necesario (reemplace {{apnu}} por el usuario del APN):
+- Establecer el usuario del APN si es necesario (reemplace [apnu] por el usuario del APN):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN si es necesaria (reemplace {{apnp}} por la contraseña del APN):
+- Establecer la contraseña del APN si es necesaria (reemplace [apnp] por la contraseña del APN):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS hacia Plaspy usando la IP del servidor y el puerto (según el firmware, el dispositivo también puede aceptar el dominio d.plaspy.com en lugar de la IP):
@@ -113,8 +113,8 @@ t060s***n123456
 ```
 
 Notas sobre marcadores y contraseña:
-- {{apn}} es la cadena APN del operador móvil necesaria para datos GPRS.
-- {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN si su operador los requiere.
+- [apn] es la cadena APN del operador móvil necesaria para datos GPRS.
+- [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN si su operador los requiere.
 - Los comandos de ejemplo usan 123456 como contraseña del dispositivo en la sintaxis porque así aparece en ejemplos públicos. Cambie la contraseña del dispositivo tras la configuración inicial si el equipo lo permite.
 
 ## Notas de configuración

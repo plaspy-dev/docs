@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/smart_s_2433_hit
 id: smart_s_2433_hit
+sidebar_key: navtelekosmart_s_2433_hit_index_smart_s_2433_hit
 sidebar_label: SMART S-2433 HIT
 title: Navtelekom - SMART S-2433 HIT
 sidebar_class_name: menu_item_tracker

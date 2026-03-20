@@ -75,7 +75,7 @@ El AT-17F se configura para enviar posiciones y telemetría al endpoint y puerto
 
 El AT-17F admite configuración mediante la herramienta web del fabricante, programación por USB o comandos SMS según el firmware y las opciones instaladas. La sintaxis exacta y los parámetros disponibles dependen del firmware de Autoseeker y de la herramienta de configuración que utilice. Al usar comandos SMS o de consola del fabricante, configure el servidor en d.plaspy.com o 54.85.159.138 y el puerto en 8888, y seleccione el transporte UDP o TCP si es necesario.
 
-Dado que Autoseeker publica listas de comandos específicas y formatos SMS por dispositivo, consulte la guía oficial de configuración de Autoseeker para plantillas y ejemplos exactos del AT-17F. Si su instalación usa comandos SMS, mantenga marcadores de posición como {{apn}} visibles cuando la plantilla del fabricante requiera sustitución de APN y siga las indicaciones del proveedor para un formateo seguro.
+Dado que Autoseeker publica listas de comandos específicas y formatos SMS por dispositivo, consulte la guía oficial de configuración de Autoseeker para plantillas y ejemplos exactos del AT-17F. Si su instalación usa comandos SMS, mantenga marcadores de posición como [apn] visibles cuando la plantilla del fabricante requiera sustitución de APN y siga las indicaciones del proveedor para un formateo seguro.
 
 ## Notas de configuración
 

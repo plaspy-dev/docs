@@ -84,9 +84,9 @@ The following SMS commands are taken from public Meitrack configuration guidance
 
 2. Set the GPRS server to Plaspy and provide APN placeholders
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-- This command sets the GPRS server to the Plaspy IP 54.85.159.138 and port 8888. It includes placeholders {{apn}} for the APN, {{apnu}} for APN username, and {{apnp}} for APN password. Preserve these placeholders and replace them with your carrier values as needed.
+- This command sets the GPRS server to the Plaspy IP 54.85.159.138 and port 8888. It includes placeholders [apn] for the APN, [apnu] for APN username, and [apnp] for APN password. Preserve these placeholders and replace them with your carrier values as needed.
 - You may alternatively set the server using domain d.plaspy.com depending on device support for DNS.
 
 3. Set the time zone to UTC 0

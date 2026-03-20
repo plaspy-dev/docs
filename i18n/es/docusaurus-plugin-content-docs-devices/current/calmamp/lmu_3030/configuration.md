@@ -77,15 +77,15 @@ El CalmAmp LMU-3030 puede configurarse mediante comandos SMS en muchas implement
 
 - Set operator APN
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 - Set APN username (only if required by the operator)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 - Set APN password (only if required by the operator)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 - Set the GPRS server IP for Plaspy
 ```text
@@ -105,8 +105,8 @@ El CalmAmp LMU-3030 puede configurarse mediante comandos SMS en muchas implement
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es un marcador para el APN de su operador móvil.  
-- {{apnu}} y {{apnp}} son marcadores para el usuario y la contraseña APN si su operador los requiere.  
+- [apn] es un marcador para el APN de su operador móvil.  
+- [apnu] y [apnp] son marcadores para el usuario y la contraseña APN si su operador los requiere.  
 - El identificador MID de 10 dígitos que usan algunos flujos SMS se obtiene emitiendo !R0 y leyendo la respuesta del dispositivo.
 
 ## Observaciones sobre la configuración

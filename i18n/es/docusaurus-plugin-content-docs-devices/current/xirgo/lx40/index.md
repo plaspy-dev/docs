@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/lx40
 id: lx40
+sidebar_key: xirglx40_index_lx40
 sidebar_label: LX40
 title: Xirgo - LX40
 sidebar_class_name: menu_item_tracker

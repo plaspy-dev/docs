@@ -79,9 +79,9 @@ El fabricante del XT-4700 proporciona comandos SMS para la configuración básic
 
 - Establecer el APN del operador
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-Explicación: Reemplace los marcadores con los valores de su operador. {{apn}} es el nombre del APN, {{apnu}} es el nombre de usuario del APN si se requiere y {{apnp}} es la contraseña del APN si se requiere. Si su operador no solicita usuario o contraseña, deje esos campos vacíos según corresponda.
+Explicación: Reemplace los marcadores con los valores de su operador. [apn] es el nombre del APN, [apnu] es el nombre de usuario del APN si se requiere y [apnp] es la contraseña del APN si se requiere. Si su operador no solicita usuario o contraseña, deje esos campos vacíos según corresponda.
 
 - Establecer el servidor GPRS a Plaspy
 ```text

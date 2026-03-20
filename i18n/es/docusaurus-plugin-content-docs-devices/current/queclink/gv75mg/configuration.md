@@ -66,7 +66,7 @@ El GV75MG se configura para reportar posiciones y eventos del dispositivo al end
 2. Ingrese el dominio de servidor de Plaspy d.plaspy.com o la IP 54.85.159.138 en los ajustes GPRS/servidor del dispositivo.  
 3. Configure el puerto del servidor en 8888.  
 4. Seleccione UDP o TCP si el equipo requiere elegir el transporte.  
-5. Configure el APN y las credenciales APN para la SIM en el dispositivo (use marcadores como {{apn}}, {{apnu}}, {{apnp}} cuando haga scripting).  
+5. Configure el APN y las credenciales APN para la SIM en el dispositivo (use marcadores como [apn], [apnu], [apnp] cuando haga scripting).  
 6. Aplique o guarde la configuración y reinicie el equipo si el firmware exige reboot para que los cambios surtan efecto.  
 7. Valide que el dispositivo reporte a Plaspy comprobando la conectividad y los mensajes en la plataforma.
 
@@ -86,9 +86,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Establecer el APN del operador (reemplazar los marcadores con los valores de su operador):
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explicación: {{apn}} es el nombre APN del operador, {{apnu}} es el usuario APN si se requiere, {{apnp}} es la contraseña APN si se requiere. Deje usuario/contraseña vacíos si el operador no los utiliza.
+Explicación: [apn] es el nombre APN del operador, [apnu] es el usuario APN si se requiere, [apnp] es la contraseña APN si se requiere. Deje usuario/contraseña vacíos si el operador no los utiliza.
 
 - Configurar el servidor GPRS a Plaspy usando dominio e IP con puerto 8888 (el dispositivo queda apuntando al endpoint y puerto de Plaspy):
 ```
@@ -112,7 +112,7 @@ Nota: Envíe estas cadenas como mensajes SMS al número del dispositivo. Manteng
 - La configuración por SMS está soportada y se muestra arriba, pero también pueden estar disponibles herramientas del fabricante o una interfaz USB/serial; elija el método que mejor se adapte a su flujo de instalación.  
 - Las versiones de firmware y las revisiones de hardware pueden cambiar la sintaxis de los comandos o las funciones disponibles; verifique siempre los comandos para su firmware específico del GV75MG.  
 - Puede elegir transporte UDP o TCP; Plaspy soporta ambos y escucha en el puerto 8888 para todos los dispositivos mientras detecta automáticamente el protocolo.  
-- Cuando use marcadores APN como {{apn}}, {{apnu}} y {{apnp}}, suministre los valores específicos del operador; omita usuario/contraseña si su operador no los requiere.  
+- Cuando use marcadores APN como [apn], [apnu] y [apnp], suministre los valores específicos del operador; omita usuario/contraseña si su operador no los requiere.  
 - Tras aplicar cambios de configuración, reinicie el dispositivo si el fabricante recomienda un reboot para asegurar que los nuevos ajustes entren en vigor.
 
 ## Por qué usar Plaspy con esta configuración

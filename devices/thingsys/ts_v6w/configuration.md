@@ -79,19 +79,19 @@ The TS-V6W supports SMS configuration. The following public SMS commands are pro
 FORMAT
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username (replace {{apnu}} with the APN username if required)
+- Set the APN username (replace [apnu] with the APN username if required)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (replace {{apnp}} with the APN password if required)
+- Set the APN password (replace [apnp] with the APN password if required)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy endpoint (this example uses the server IP and port)
@@ -105,9 +105,9 @@ CXZT
 ```
 
 Notes on placeholders and commands:
-- {{apn}} is the mobile operator APN string required for internet access.
-- {{apnu}} is the APN username if the SIM requires one; leave blank if not needed.
-- {{apnp}} is the APN password if the SIM requires one; leave blank if not needed.
+- [apn] is the mobile operator APN string required for internet access.
+- [apnu] is the APN username if the SIM requires one; leave blank if not needed.
+- [apnp] is the APN password if the SIM requires one; leave blank if not needed.
 - The command ip54.85.159.138 8888 sets the device to use the Plaspy server IP and port as provided in the public configuration. Some installers prefer to use the server domain d.plaspy.com where supported by the device firmware; follow ThingSys documentation for domain support.
 
 ## Configuration Notes

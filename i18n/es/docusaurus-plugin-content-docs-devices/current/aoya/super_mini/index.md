@@ -1,6 +1,7 @@
 ---
 slug: /aoya/super_mini
 id: super_mini
+sidebar_key: aoysuper_mini_index_super_mini
 sidebar_label: super mini
 title: AoYa - super mini
 sidebar_class_name: menu_item_tracker

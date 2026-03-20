@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/tk06_v2
 id: tk06_v2
+sidebar_key: cantractk06_v2_index_tk06_v2
 sidebar_label: TK06 v2
 title: CanTrack - TK06 v2
 sidebar_class_name: menu_item_tracker

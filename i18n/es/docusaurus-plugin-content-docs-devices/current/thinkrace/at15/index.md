@@ -1,6 +1,7 @@
 ---
 slug: /thinkrace/at15
 id: at15
+sidebar_key: thinkracat15_index_at15
 sidebar_label: AT15
 title: ThinkRace - AT15
 sidebar_class_name: menu_item_tracker

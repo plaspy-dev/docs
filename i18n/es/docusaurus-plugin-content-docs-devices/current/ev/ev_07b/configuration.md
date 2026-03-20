@@ -4,7 +4,7 @@ id: ev_07b-configuration
 sidebar_label: Configuration
 title: EV - EV-07B Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública para configurar el EV EV-07B con Plaspy: ajustes de servidor, comandos SMS y pasos esenciales
+description: Guía pública para configurar el EV EV-07B con Plaspy, ajustes de servidor, comandos SMS y pasos esenciales
 keywords:
   - configuración EV EV-07B
   - instalación EV EV-07B
@@ -63,7 +63,7 @@ Al configurarse, el EV-07B envía actualizaciones de ubicación, alarmas SOS y t
 ## Flujo común de configuración
 
 1. Acceda al método oficial de configuración Eview para el EV-07B, como la interfaz de comandos SMS o la herramienta del proveedor.
-2. Prepare los datos del APN para el operador del dispositivo y cualquier marcador de posición como {{apn}}, {{apnu}} y {{apnp}} si se requieren.
+2. Prepare los datos del APN para el operador del dispositivo y cualquier marcador de posición como [apn], [apnu] y [apnp] si se requieren.
 3. Ingrese el servidor de Plaspy como d.plaspy.com o la IP del servidor 54.85.159.138 en el área de configuración de servidor del dispositivo.
 4. Establezca el puerto en 8888 tal como lo requiere Plaspy.
 5. Elija UDP o TCP si el dispositivo solicita selección de transporte; de lo contrario, confíe en la detección automática de Plaspy.
@@ -72,7 +72,7 @@ Al configurarse, el EV-07B envía actualizaciones de ubicación, alarmas SOS y t
 
 ## Comandos de configuración de ejemplo
 
-El EV-07B soporta configuración mediante SMS. El fabricante proporciona comandos SMS de ejemplo. La contraseña por defecto del dispositivo usada en estos ejemplos es 123456. Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con los valores de APN de su operador cuando envíe los comandos.
+El EV-07B soporta configuración mediante SMS. El fabricante proporciona comandos SMS de ejemplo. La contraseña por defecto del dispositivo usada en estos ejemplos es 123456. Preserve los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos con los valores de APN de su operador cuando envíe los comandos.
 
 1. Ajustar la zona horaria a UTC 0
 ```
@@ -81,15 +81,15 @@ El EV-07B soporta configuración mediante SMS. El fabricante proporciona comando
 
 2. Establecer el APN del operador
 ```
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 Si su operador requiere usuario y contraseña de APN, inclúyalos como campos opcionales:
 ```
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-- {{apn}} es el APN del operador.
-- {{apnu}} es el usuario del APN si es requerido.
-- {{apnp}} es la contraseña del APN si es requerida.
+- [apn] es el APN del operador.
+- [apnu] es el usuario del APN si es requerido.
+- [apnp] es la contraseña del APN si es requerida.
 
 3. Establecer la IP y puerto del servidor Plaspy
 Nota: algunas versiones de firmware requieren que el fabricante habilite la capacidad de cambiar la dirección del servidor. Contacte a Eview si el comando no se aplica.

@@ -1,6 +1,7 @@
 ---
 slug: /dct/syrus_4g
 id: syrus_4g
+sidebar_key: dcsyrus_4g_index_syrus_4g
 sidebar_label: Syrus 4G
 title: DCT - Syrus 4G
 sidebar_class_name: menu_item_tracker

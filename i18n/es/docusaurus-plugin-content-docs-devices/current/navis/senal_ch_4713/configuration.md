@@ -75,7 +75,7 @@ Al configurarlo, la Señal CH 4713 envía mensajes de ubicación y eventos al en
 
 Los comandos exactos y los menús para el Navis Señal CH 4713 dependen del firmware del fabricante y del método de configuración elegido. Los dispositivos Navis suelen admitir configuración mediante software del fabricante, actualizaciones por aire o comandos SMS. Dado que el conjunto de comandos varía según el firmware, consulte la guía de configuración oficial de Navis para obtener la sintaxis y secuencia exactas.
 
-Si utiliza SMS o una interfaz de línea de comandos proporcionada por Navis, siga la referencia de comandos del fabricante. Conserve marcadores de posición como {{apn}} si aparecen en los comandos y reemplácelos con los valores APN de su operador cuando lo indique la documentación de Navis.
+Si utiliza SMS o una interfaz de línea de comandos proporcionada por Navis, siga la referencia de comandos del fabricante. Conserve marcadores de posición como [apn] si aparecen en los comandos y reemplácelos con los valores APN de su operador cuando lo indique la documentación de Navis.
 
 ## Notas de configuración
 

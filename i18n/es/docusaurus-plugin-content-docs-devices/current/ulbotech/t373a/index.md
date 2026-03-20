@@ -1,6 +1,7 @@
 ---
 slug: /ulbotech/t373a
 id: t373a
+sidebar_key: ulbotect373a_index_t373a
 sidebar_label: T373A
 title: Ulbotech - T373A
 sidebar_class_name: menu_item_tracker

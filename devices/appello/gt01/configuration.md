@@ -85,21 +85,21 @@ FORMAT
 
 2. Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- Replace {{apn}} with your mobile operator APN value.
+- Replace [apn] with your mobile operator APN value.
 
 3. Set the APN username if required by your operator
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- Replace {{apnu}} with the APN username. If not required leave blank or skip.
+- Replace [apnu] with the APN username. If not required leave blank or skip.
 
 4. Set the APN password if required by your operator
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-- Replace {{apnp}} with the APN password. If not required leave blank or skip.
+- Replace [apnp] with the APN password. If not required leave blank or skip.
 
 5. Set the GPRS server to Plaspy
 ```text
@@ -116,7 +116,7 @@ CXZT
 Notes on the commands
 - The numeric sequence 123456 shown in these commands is the sample factory password used in the public example. Replace it with your device password if it differs.
 - Keep the command order when applying initial configuration so APN and server values are set before validation.
-- Placeholders {{apn}} {{apnu}} and {{apnp}} should be replaced with your operator values exactly as required by the SMS syntax.
+- Placeholders [apn] [apnu] and [apnp] should be replaced with your operator values exactly as required by the SMS syntax.
 
 ## Configuration Notes
 

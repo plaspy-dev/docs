@@ -64,7 +64,7 @@ When configured, the VT03E+ uses GPRS to send location and device status to Plas
 ## Common Configuration Workflow
 
 1. Access the official manufacturer configuration method or SMS interface per Protrack documentation.
-2. Enter the carrier APN using the device SMS command or the vendor tool (use {{apn}} as a placeholder for your carrier APN).
+2. Enter the carrier APN using the device SMS command or the vendor tool (use [apn] as a placeholder for your carrier APN).
 3. Enter the Plaspy server as d.plaspy.com or as the provided server IP if required by the tool.
 4. Set the port to 8888 and select UDP or TCP if your device requires a transport selection.
 5. Configure reporting intervals to match your monitoring needs and battery constraints, then apply or save the configuration.
@@ -78,13 +78,13 @@ The VT03E+ can be configured using SMS commands. Below are the public commands e
 1. Configure the carrier APN
    - Basic APN command
    ```
-   APN,{{apn}}#
+   APN,[apn]#
    ```
    - APN with username and password if your carrier requires credentials
    ```
-   APN,{{apn}},{{apnu}},{{apnp}}#
+   APN,[apn],[apnu],[apnp]#
    ```
-   Note: {{apn}} is the access point name string for your SIM. {{apnu}} is the APN username and {{apnp}} is the APN password. Include the credential fields only if your operator requires them.
+   Note: [apn] is the access point name string for your SIM. [apnu] is the APN username and [apnp] is the APN password. Include the credential fields only if your operator requires them.
 
 2. Set up the GPRS server to point to Plaspy
    ```

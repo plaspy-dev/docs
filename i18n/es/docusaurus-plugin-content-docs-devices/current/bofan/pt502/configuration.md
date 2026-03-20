@@ -87,15 +87,15 @@ Los ejemplos públicos de configuración del PT502 muestran comandos SMS usados 
 000000GID<14-digit-id>
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} con el APN de su operador. Si el APN requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} respectivamente:
+- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si el APN requiere usuario o contraseña, incluya [apnu] y [apnp] respectivamente:
 ```text
-000000APN{{apn}}
+000000APN[apn]
 ```
 Si se requieren usuario y contraseña, el formato del proveedor puede añadirlos así:
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-(Mantenga {{apnu}} y {{apnp}} como marcadores cuando no se usen.)
+(Mantenga [apnu] y [apnp] como marcadores cuando no se usen.)
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy:
 ```text
@@ -110,7 +110,7 @@ Si se requieren usuario y contraseña, el formato del proveedor puede añadirlos
 Notas sobre estos comandos:
 - El comando de reseteo 000000DFT es opcional y suele usarse durante el aprovisionamiento inicial o para restaurar valores de fábrica cuando sea necesario.  
 - El comando GID espera un identificador de 14 dígitos; se recomienda usar los últimos 14 dígitos del IMEI.  
-- Preserve los marcadores como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador al enviar los comandos.
+- Preserve los marcadores como [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador al enviar los comandos.
 
 ## Notas de configuración
 

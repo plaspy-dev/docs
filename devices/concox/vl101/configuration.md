@@ -87,13 +87,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your network APN. If required, include {{apnu}} and {{apnp}} for APN username and password.
+- Set the operator APN. Replace [apn] with your network APN. If required, include [apnu] and [apnp] for APN username and password.
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 Or with optional username and password:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to the Plaspy domain using port 8888:
@@ -126,8 +126,8 @@ GPRSSET#
 ```
 
 Notes on placeholders and usage:
-- {{apn}} should be replaced with your carrier APN string.
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders and should be included only if your operator requires them.
+- [apn] should be replaced with your carrier APN string.
+- [apnu] and [apnp] are optional APN username and password placeholders and should be included only if your operator requires them.
 - Use the SERVER command with either the domain form or the IP form depending on your preference; both point the device to Plaspy on port 8888.
 - Factory reset is optional and should be used only when necessary.
 

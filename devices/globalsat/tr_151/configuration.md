@@ -81,7 +81,7 @@ The TR-151 can be configured by sending SMS commands. The manufacturer example i
 
 Setup command (set APN and Plaspy server):
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Reboot command (optional, use when required to apply changes):
@@ -91,9 +91,9 @@ GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
 
 Notes about the placeholders and values:
 - {{imei}}: Replace with the device IMEI number.
-- {{apn}}: Replace with the mobile operator APN for the SIM card.
-- {{apnu}}: Replace with the APN username if the operator requires it; leave blank if not required.
-- {{apnp}}: Replace with the APN password if the operator requires it; leave blank if not required.
+- [apn]: Replace with the mobile operator APN for the SIM card.
+- [apnu]: Replace with the APN username if the operator requires it; leave blank if not required.
+- [apnp]: Replace with the APN password if the operator requires it; leave blank if not required.
 - {{checksum}} and {{checksumreeboot}}: These are two character uppercase hexadecimal checksums calculated from the command text before the star character.
 
 Checksum calculation (public method used in the manufacturer example):

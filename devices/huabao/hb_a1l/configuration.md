@@ -76,7 +76,7 @@ The HB-A1L is a Bluetooth slave that forwards door and security events to an HB-
 
 The exact configuration commands or SMS strings vary by manufacturer tool, firmware version, and the HB-A1Lm master implementation. Because the HB-A1L is a Bluetooth slave, server configuration is applied on the paired master device rather than on the slave. Use the official HB-A1Lm configuration interface or vendor documentation to perform the server and transport setup listed above.
 
-If you are using a manufacturer tool that exposes raw commands, follow the vendor examples in their documentation. Preserve placeholders such as {{apn}} or similar when present in manufacturer examples and replace them with your network values as instructed by the vendor.
+If you are using a manufacturer tool that exposes raw commands, follow the vendor examples in their documentation. Preserve placeholders such as [apn] or similar when present in manufacturer examples and replace them with your network values as instructed by the vendor.
 
 ## Configuration Notes
 

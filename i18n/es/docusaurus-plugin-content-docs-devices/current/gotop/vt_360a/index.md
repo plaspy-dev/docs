@@ -1,6 +1,7 @@
 ---
 slug: /gotop/vt_360a
 id: vt_360a
+sidebar_key: gotovt_360a_index_vt_360a
 sidebar_label: VT-360A
 title: GOTOP - VT-360A
 sidebar_class_name: menu_item_tracker

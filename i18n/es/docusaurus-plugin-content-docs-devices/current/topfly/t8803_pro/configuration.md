@@ -76,7 +76,7 @@ El T8803 PRO utiliza GPRS para enviar informes de ubicación y estado al endpoin
 
 ## Comandos de configuración de ejemplo
 
-El T8803 PRO puede configurarse por SMS usando la contraseña del dispositivo y los siguientes comandos públicos. El ejemplo usa la contraseña por defecto 0000. Reemplace {{apn}}, {{apnu}} y {{apnp}} por el APN, el usuario APN y la contraseña APN de su operador según sea necesario.
+El T8803 PRO puede configurarse por SMS usando la contraseña del dispositivo y los siguientes comandos públicos. El ejemplo usa la contraseña por defecto 0000. Reemplace [apn], [apnu] y [apnp] por el APN, el usuario APN y la contraseña APN de su operador según sea necesario.
 
 1. Establecer la zona horaria a UTC 0
 ```text
@@ -85,11 +85,11 @@ GMT,0000,0#
 
 2. Configurar el APN del operador y credenciales opcionales
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-- {{apn}} es el nombre del APN de su operador móvil
-- {{apnu}} es el nombre de usuario del APN si el operador lo requiere
-- {{apnp}} es la contraseña del APN si el operador la requiere
+- [apn] es el nombre del APN de su operador móvil
+- [apnu] es el nombre de usuario del APN si el operador lo requiere
+- [apnp] es la contraseña del APN si el operador la requiere
 
 3. Configurar el servidor GPRS a Plaspy usando la IP y el puerto
 ```text

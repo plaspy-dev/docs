@@ -72,7 +72,7 @@ Una vez configurado, el D40 envía actualizaciones de ubicación, alertas y tele
 
 ## Comandos de configuración de ejemplo
 
-El D40 puede configurarse mediante comandos SMS. Los comandos de ejemplo abajo se basan en comandos públicos publicados para el dispositivo. La contraseña por defecto usada en estos ejemplos es 123456. Preserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} cuando sustituya por los valores de su operador.
+El D40 puede configurarse mediante comandos SMS. Los comandos de ejemplo abajo se basan en comandos públicos publicados para el dispositivo. La contraseña por defecto usada en estos ejemplos es 123456. Preserve los marcadores de posición [apn], [apnu] y [apnp] cuando sustituya por los valores de su operador.
 
 - Restablecimiento de fábrica (opcional en la configuración inicial)
 ```text
@@ -89,9 +89,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Establecer el APN del operador donde {{apn}} es el nombre del APN, {{apnu}} es el usuario del APN, {{apnp}} es la contraseña del APN y xxxyy representa el sufijo MCC MNC opcional si se requiere
+- Establecer el APN del operador donde [apn] es el nombre del APN, [apnu] es el usuario del APN, [apnp] es la contraseña del APN y xxxyy representa el sufijo MCC MNC opcional si se requiere
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Configurar el servidor GPRS al endpoint de Plaspy usando la IP del servidor Plaspy y puerto 8888
@@ -110,9 +110,9 @@ pw,123456,ts#
 ```
 
 Notas sobre los marcadores de posición y su uso
-- {{apn}} Reemplace con la cadena APN de su operador.
-- {{apnu}} Reemplace con el usuario del APN si el operador lo requiere; deje vacío u omita si no se usa.
-- {{apnp}} Reemplace con la contraseña del APN si el operador la requiere; deje vacío u omita si no se usa.
+- [apn] Reemplace con la cadena APN de su operador.
+- [apnu] Reemplace con el usuario del APN si el operador lo requiere; deje vacío u omita si no se usa.
+- [apnp] Reemplace con la contraseña del APN si el operador la requiere; deje vacío u omita si no se usa.
 - El comando de restablecimiento de fábrica es opcional y solo debe usarse cuando sea necesario un reinicio completo del dispositivo.
 - Use el comando ts para verificar los ajustes después de aplicar los cambios.
 

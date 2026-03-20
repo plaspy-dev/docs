@@ -1,6 +1,7 @@
 ---
 slug: /gotop/q20
 id: q20
+sidebar_key: gotoq20_index_q20
 sidebar_label: Q20
 title: GOTOP - Q20
 sidebar_class_name: menu_item_tracker

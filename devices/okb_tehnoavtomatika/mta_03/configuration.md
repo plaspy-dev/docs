@@ -86,7 +86,7 @@ If you have the official command list or configuration string from OKB Tehnoavto
 - Set transport UDP or TCP if required
 - Save and reboot or send an apply command
 
-Preserve placeholders provided by manufacturer commands such as {{apn}}, {{apnu}}, or {{apnp}} when present; they represent APN and APN credential values required for GPRS.
+Preserve placeholders provided by manufacturer commands such as [apn], [apnu], or [apnp] when present; they represent APN and APN credential values required for GPRS.
 
 ## Configuration Notes
 

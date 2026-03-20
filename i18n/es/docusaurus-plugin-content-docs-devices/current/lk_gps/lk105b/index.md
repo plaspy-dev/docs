@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk105b
 id: lk105b
+sidebar_key: lk_gplk105b_index_lk105b
 sidebar_label: LK105B
 title: LK-GPS - LK105B
 sidebar_class_name: menu_item_tracker

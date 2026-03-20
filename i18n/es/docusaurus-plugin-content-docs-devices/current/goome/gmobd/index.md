@@ -1,6 +1,7 @@
 ---
 slug: /goome/gmobd
 id: gmobd
+sidebar_key: goomgmobd_index_gmobd
 sidebar_label: GMOBD
 title: Goome - GMOBD
 sidebar_class_name: menu_item_tracker

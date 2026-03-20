@@ -73,18 +73,18 @@ El IDD-213E se configura para reportar su ubicación e información diagnóstica
 
 ## Comandos de configuración de ejemplo
 
-El IDD-213E admite configuración basada en SMS. Los comandos SMS públicos que siguen muestran cómo establecer valores de APN y servidor, y cómo consultar los ajustes GPRS actuales. La clave secreta predeterminada para instrucciones SMS son los últimos 6 caracteres ASCII del ID del dispositivo. Reemplace {{SecretKey}} por ese valor y {{apn}}, {{apnu}}, {{apnp}} por el APN, usuario y contraseña de su operador según sea necesario.
+El IDD-213E admite configuración basada en SMS. Los comandos SMS públicos que siguen muestran cómo establecer valores de APN y servidor, y cómo consultar los ajustes GPRS actuales. La clave secreta predeterminada para instrucciones SMS son los últimos 6 caracteres ASCII del ID del dispositivo. Reemplace {{SecretKey}} por ese valor y [apn], [apnu], [apnp] por el APN, usuario y contraseña de su operador según sea necesario.
 
 - Establecer APN y servidor por IP o dominio (el ejemplo usa la IP y puerto de Plaspy). Reemplace los marcadores antes de enviar:
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 o, si prefiere usar el dominio de Plaspy:
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},d.plaspy.com,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],d.plaspy.com,8888*
 ```
 
 - Consultar los ajustes GPRS actuales en el dispositivo:
@@ -95,8 +95,8 @@ o, si prefiere usar el dominio de Plaspy:
 
 Notas sobre los marcadores:
 - {{SecretKey}}: la contraseña SMS del dispositivo, por defecto los últimos 6 caracteres ASCII del ID del dispositivo.
-- {{apn}}: la cadena APN del operador móvil necesaria para datos.
-- {{apnu}} y {{apnp}}: usuario y contraseña del APN opcionales si su operador los requiere.
+- [apn]: la cadena APN del operador móvil necesaria para datos.
+- [apnu] y [apnp]: usuario y contraseña del APN opcionales si su operador los requiere.
 
 ## Observaciones de configuración
 

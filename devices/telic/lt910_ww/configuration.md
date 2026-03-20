@@ -77,7 +77,7 @@ The LT910-WW is configured to send telemetry and status over the cellular data l
 
 ## Example Configuration Commands
 
-The following example commands are extracted from publicly available Telic instructions for the LT910-WW. These are SMS commands shown in public documentation. The sample commands use the device password 123456 which is listed as the default in the public configuration sample. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values.
+The following example commands are extracted from publicly available Telic instructions for the LT910-WW. These are SMS commands shown in public documentation. The sample commands use the device password 123456 which is listed as the default in the public configuration sample. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values.
 
 - Optional initial factory reset command
 ```text
@@ -91,15 +91,15 @@ time zone123456 0
 
 - Set the APN for your mobile operator
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Replace {{apn}} with your operator APN string.
+Replace [apn] with your operator APN string.
 
 - Set the APN username and password if required
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Replace {{apnu}} and {{apnp}} with the APN username and password. This command is only needed if your operator requires APN credentials.
+Replace [apnu] and [apnp] with the APN username and password. This command is only needed if your operator requires APN credentials.
 
 - Set the GPRS server to the Plaspy server IP and port
 ```text

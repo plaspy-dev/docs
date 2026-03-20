@@ -88,13 +88,13 @@ GMT,E,0#
 
 - Set the operator APN
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If your APN requires a username and password, include these placeholders:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the APN string for your mobile operator. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+Note: [apn] is the APN string for your mobile operator. [apnu] and [apnp] are optional APN username and password placeholders.
 
 - Set the GPRS server using the Plaspy domain (example using domain)
 ```text
@@ -124,7 +124,7 @@ Follow the commands in the order required by your deployment. The factory reset 
 - SMS based configuration is commonly supported for TK115 devices; if a software tool or remote management service is available from EElink, prefer the method recommended by your supplier for bulk deployments.
 - Choose UDP or TCP according to installer preference or network considerations; Plaspy accepts both on port 8888 and will auto detect the protocol.
 - Use either the domain d.plaspy.com or the IP 54.85.159.138 when setting the server. Both forms are accepted by Plaspy; the port must be 8888.
-- Keep APN credentials accurate; placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your operator values when sending commands.
+- Keep APN credentials accurate; placeholders such as [apn], [apnu], and [apnp] should be replaced with your operator values when sending commands.
 
 ## Why Use Plaspy with This Configuration
 

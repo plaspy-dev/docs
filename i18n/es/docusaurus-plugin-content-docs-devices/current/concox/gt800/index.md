@@ -1,6 +1,7 @@
 ---
 slug: /concox/gt800
 id: gt800
+sidebar_key: concogt800_index_gt800
 sidebar_label: GT800
 title: Concox - GT800
 sidebar_class_name: menu_item_tracker

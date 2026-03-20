@@ -1,6 +1,7 @@
 ---
 slug: /autofon/se
 id: se
+sidebar_key: autofose_index_se
 sidebar_label: SE-Маяк
 title: AutoFon - SE-Маяк
 sidebar_class_name: menu_item_tracker

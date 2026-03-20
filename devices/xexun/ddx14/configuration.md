@@ -79,19 +79,19 @@ The DDX14 supports SMS-based configuration. The following commands are the publi
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your SIM operator APN):
+- Set the operator APN (replace [apn] with your SIM operator APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if required by your operator (replace {{apnu}} with APN username). Use only if your operator requires a username:
+- Set the APN username if required by your operator (replace [apnu] with APN username). Use only if your operator requires a username:
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if required by your operator (replace {{apnp}} with APN password). Use only if your operator requires a password:
+- Set the APN password if required by your operator (replace [apnp] with APN password). Use only if your operator requires a password:
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server IP and port to Plaspy. This example uses the Plaspy server IP and port published by Plaspy:
@@ -110,7 +110,7 @@ t060s***n123456
 ```
 
 Notes on placeholders and defaults
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for your mobile operator APN, APN username, and APN password. Replace them with the values provided by your cellular operator.  
+- [apn], [apnu], and [apnp] are placeholders for your mobile operator APN, APN username, and APN password. Replace them with the values provided by your cellular operator.  
 - The numeric password 123456 in these examples is the published default device password. If your deployment uses a different password, substitute it accordingly.  
 - If the device accepts a domain name instead of an IP for the server, you can point it to d.plaspy.com where supported. If not, use the IP address 54.85.159.138 as shown above.
 

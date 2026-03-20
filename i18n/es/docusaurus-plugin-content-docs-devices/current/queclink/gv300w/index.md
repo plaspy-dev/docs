@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv300w
 id: gv300w
+sidebar_key: queclingv300w_index_gv300w
 sidebar_label: GV300W
 title: QuecLink - GV300W
 sidebar_class_name: menu_item_tracker

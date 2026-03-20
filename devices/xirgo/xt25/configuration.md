@@ -76,12 +76,12 @@ The XT25 supports SMS-based configuration. The following publicly available SMS 
 
 - Set the operator APN and optional credentials (replace placeholders with your operator values):
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explanation of placeholders:
-- {{apn}} = APN name provided by your cellular operator.  
-- {{apnu}} = APN username if required (leave blank or use placeholder if not required).  
-- {{apnp}} = APN password if required (leave blank or use placeholder if not required).
+- [apn] = APN name provided by your cellular operator.  
+- [apnu] = APN username if required (leave blank or use placeholder if not required).  
+- [apnp] = APN password if required (leave blank or use placeholder if not required).
 
 - Set the GPRS server to Plaspy (port and server IP are shown and must match Plaspy settings):
 ```text

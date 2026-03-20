@@ -73,7 +73,7 @@ El GL53MG se configura para reportar mensajes de posición y eventos al endpoint
 
 ## Comandos de configuración de ejemplo
 
-El QuecLink GL53MG puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos SMS públicos son una secuencia de ejemplo usada para preparar el dispositivo para Plaspy. Estos comandos asumen que la contraseña del dispositivo es el valor predeterminado queclink. Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por el APN, usuario APN y contraseña APN de su operador al enviarlos.
+El QuecLink GL53MG puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos SMS públicos son una secuencia de ejemplo usada para preparar el dispositivo para Plaspy. Estos comandos asumen que la contraseña del dispositivo es el valor predeterminado queclink. Preserve los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por el APN, usuario APN y contraseña APN de su operador al enviarlos.
 
 1. Comando opcional de restauración de fábrica inicial para resetear los ajustes del dispositivo a valores de fábrica
 ```
@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Establecer el APN del operador y las credenciales
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} es el APN de datos móviles de su operador
-- {{apnu}} es el nombre de usuario del APN si se requiere
-- {{apnp}} es la contraseña del APN si se requiere
+- [apn] es el APN de datos móviles de su operador
+- [apnu] es el nombre de usuario del APN si se requiere
+- [apnp] es la contraseña del APN si se requiere
 
 4. Configurar el servidor GPRS a Plaspy usando dominio e IP y especificar el puerto 8888
 ```
@@ -117,7 +117,7 @@ Siga las indicaciones de QuecLink para el formato exacto de envío de SMS soport
 - La configuración basada en SMS está incluida en los ejemplos públicos anteriores; los métodos alternativos de configuración incluyen las herramientas oficiales de QuecLink y utilidades de firmware.
 - La versión de firmware y la revisión de hardware pueden cambiar el formato de comandos soportados o el orden de parámetros. Verifique la sintaxis del comando según el firmware del dispositivo que tenga desplegado.
 - Elija UDP o TCP según sus necesidades de despliegue; ambos transportes son soportados por Plaspy en el puerto 8888.
-- Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} al preparar los comandos y reemplácelos por los valores específicos del operador.
+- Preserve los marcadores de posición como [apn], [apnu] y [apnp] al preparar los comandos y reemplácelos por los valores específicos del operador.
 - Los comandos de ejemplo usan la contraseña del dispositivo queclink tal como se muestra en el ejemplo público de configuración. Confirme la contraseña correcta de su dispositivo antes de enviar SMS de configuración.
 
 ## Por qué usar Plaspy con esta configuración

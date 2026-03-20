@@ -1,6 +1,7 @@
 ---
 slug: /calmamp/mdt_7
 id: mdt_7
+sidebar_key: calmammdt_7_index_mdt_7
 sidebar_label: MDT-7
 title: CalmAmp - MDT-7
 sidebar_class_name: menu_item_tracker

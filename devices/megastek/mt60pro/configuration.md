@@ -77,18 +77,18 @@ The MT60PRO can be configured to upload GPRS data to the shared Plaspy server en
 
 The MT60PRO public setup examples use SMS commands. The default device password shown in public examples is 000000 — confirm and change this password according to your security policy after initial provisioning.
 
-1. Set device ID (replace <IMEI> with the device 15 digit IMEI)
+1. Set device ID (replace \<IMEI> with the device 15 digit IMEI)
 ```text
 M000000,22,<IMEI>
 ```
 
-2. Set operator APN (replace {{apn}} with your carrier APN; optional {{apnu}} and {{apnp}} are APN username and APN password)
+2. Set operator APN (replace [apn] with your carrier APN; optional [apnu] and [apnp] are APN username and APN password)
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 If your APN requires username or password:
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Set update interval to 60 seconds
@@ -109,7 +109,7 @@ M000000,21,2
 
 Important notes about these commands:
 - 000000 is shown as the sample device password in public examples; replace with the device password or change it after provisioning.  
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}}; they must be replaced with your carrier APN values.  
+- Preserve placeholders such as [apn], [apnu], and [apnp]; they must be replaced with your carrier APN values.  
 - The order of commands matters for initial provisioning: set APN first, then server and reporting mode.  
 - If your provisioning method supports the domain d.plaspy.com, you can use that in place of the IP; both domain and IP are publicly provided.
 

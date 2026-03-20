@@ -1,6 +1,7 @@
 ---
 slug: /sinotrack/al_900c
 id: al_900c
+sidebar_key: sinotracal_900c_index_al_900c
 sidebar_label: AL-900C
 title: SinoTrack - AL-900C
 sidebar_class_name: menu_item_tracker

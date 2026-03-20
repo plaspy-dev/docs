@@ -75,7 +75,7 @@ Una vez configurado, el G602 envía su posición, eventos y datos de sensores al
 
 Los comandos exactos y la sintaxis para configurar el G602 los provee Gosafe y pueden variar por firmware y variante regional del dispositivo. La configuración se realiza habitualmente con la herramienta oficial de Gosafe, por conexión USB o micro USB, o mediante comandos SMS cuando está soportado. Consulte la guía de configuración de Gosafe para conocer los formatos de comando y las cadenas de ejemplo antes de ejecutar comandos.
 
-Si utiliza configuración por SMS, el fabricante puede ofrecer plantillas con marcadores de posición para APN o credenciales en el formato {{apn}} {{apnu}} {{apnp}}. Mantenga los marcadores intactos y reemplácelos por los valores de su operador de red cuando sea necesario.
+Si utiliza configuración por SMS, el fabricante puede ofrecer plantillas con marcadores de posición para APN o credenciales en el formato [apn] [apnu] [apnp]. Mantenga los marcadores intactos y reemplácelos por los valores de su operador de red cuando sea necesario.
 
 ## Notas de configuración
 

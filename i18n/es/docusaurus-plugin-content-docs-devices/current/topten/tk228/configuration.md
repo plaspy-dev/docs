@@ -83,7 +83,7 @@ El TK228 soporta configuración vía SMS. Los comandos públicos que se muestran
 ```
 - Configurar APN y servidor GPRS para apuntar a Plaspy por IP con puerto y marcadores de APN
 ```sms
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 - Verificar o consultar la configuración actual del servidor
 ```sms
@@ -92,7 +92,7 @@ El TK228 soporta configuración vía SMS. Los comandos públicos que se muestran
 
 Notas sobre los comandos anteriores
 - El prefijo 111111 en estos ejemplos es la contraseña de comando que aparece en el conjunto de comandos públicos. Reemplácelo por la contraseña de su dispositivo si es diferente.
-- {{apn}} es el nombre del APN requerido por su operador móvil. {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Mantenga estos marcadores y sustitúyalos por los valores de su operador.
+- [apn] es el nombre del APN requerido por su operador móvil. [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Mantenga estos marcadores y sustitúyalos por los valores de su operador.
 - El orden de los comandos importa cuando restaura valores de fábrica antes de aplicar la configuración de red. El comando de reinicio de fábrica es opcional y debe usarse solo cuando sea necesario.
 
 ## Observaciones sobre la configuración

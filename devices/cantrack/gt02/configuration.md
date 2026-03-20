@@ -88,12 +88,12 @@ This command restores factory settings and is typically used only when needed du
 
 - Set the operator APN
 ```text
-#apn#123456#{{apn}}#{{apnu}}#{{apnp}}#
+#apn#123456#[apn]#[apnu]#[apnp]#
 ```
 Placeholders:
-- {{apn}} is the mobile operator APN name
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required by the operator
+- [apn] is the mobile operator APN name
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required by the operator
 If username or password are not required, some firmware accepts empty values or the placeholders may be omitted depending on device syntax.
 
 - Set the GPRS server to Plaspy

@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3) Set the operator APN
 - Replace placeholders with your operator values:
-  - {{apn}} is the APN string from your carrier
-  - {{apnu}} is the APN username if required
-  - {{apnp}} is the APN password if required
+  - [apn] is the APN string from your carrier
+  - [apnu] is the APN username if required
+  - [apnp] is the APN password if required
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4) Set the GPRS server to Plaspy by domain and IP with port 8888
@@ -113,7 +113,7 @@ AT+GTSOS=queclink,2,2,,0,0,0,0,0,0,,,FFFF$
 Notes about these commands
 - Send each command as a single SMS to the device phone number from an allowed number if the device is configured to accept SMS only from specific phone numbers.
 - Keep the command order when performing an initial setup: APN and server settings should be set before validating data reporting.
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier credentials when sending commands.
+- Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your carrier credentials when sending commands.
 
 ## Configuration Notes
 

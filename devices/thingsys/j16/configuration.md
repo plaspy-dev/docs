@@ -87,19 +87,19 @@ FORMAT
 ```
 Label: Optional initial factory reset. Use only if you need to reset the device configuration to factory defaults.
 
-- Set operator APN (replace {{apn}} with your mobile operator APN):
+- Set operator APN (replace [apn] with your mobile operator APN):
 ```
-apn123456 {{apn}}
-```
-
-- Set APN username (replace {{apnu}} with your APN username if required):
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-- Set APN password (replace {{apnp}} with your APN password if required):
+- Set APN username (replace [apnu] with your APN username if required):
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+- Set APN password (replace [apnp] with your APN password if required):
+```
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy server using the public IP and port:
@@ -113,7 +113,7 @@ CXZT
 ```
 
 Notes on the commands above:
-- The SMS syntax and command prefixes reflect ThingSys public examples. The strings {{apn}}, {{apnu}}, and {{apnp}} are placeholders you must replace with your operator APN and credentials.
+- The SMS syntax and command prefixes reflect ThingSys public examples. The strings [apn], [apnu], and [apnp] are placeholders you must replace with your operator APN and credentials.
 - The example uses an IP based server command as provided by ThingSys public guidance. Some firmware versions accept a domain name instead of an IP; consult ThingSys documentation for the exact SMS syntax to use a domain such as d.plaspy.com if supported.
 - The sample setup indicates a default device password of 123456. Include the password in SMS commands as required by your firmware and ThingSys instructions.
 
@@ -121,7 +121,7 @@ Notes on the commands above:
 
 - Firmware and tool differences: SMS command formats and configuration behaviors can vary between ThingSys firmware revisions and device variants J16A and J16B.
 - Transport choice: The device may allow UDP or TCP; choose the transport required by your network and confirm packets arrive at Plaspy using port 8888.
-- APN placeholders: Keep {{apn}}, {{apnu}}, and {{apnp}} placeholders in commands and replace them with operator-specific values when sending SMS.
+- APN placeholders: Keep [apn], [apnu], and [apnp] placeholders in commands and replace them with operator-specific values when sending SMS.
 - SMS versus software: If you have access to ThingSys configuration software, it can simplify multi-device setup. SMS commands are useful for remote or field installations.
 - Verification: Use the provided verification command and check Plaspy to ensure the device packets are accepted and the protocol is auto detected.
 

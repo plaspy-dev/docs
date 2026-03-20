@@ -87,15 +87,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-3. Configurar el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador exige usuario o contraseña, incluya {{apnu}} y {{apnp}}:
+3. Configurar el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador exige usuario o contraseña, incluya [apnu] y [apnp]:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 O con usuario y contraseña:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Marcadores: {{apn}} = cadena APN, {{apnu}} = usuario APN, {{apnp}} = contraseña APN.)
+(Marcadores: [apn] = cadena APN, [apnu] = usuario APN, [apnp] = contraseña APN.)
 
 4. Establecer el servidor GPRS al dominio o IP de Plaspy (ambas opciones funcionan). Estos comandos configuran servidor y puerto para el reporte:
 ```
@@ -133,7 +133,7 @@ Envíe estos comandos SMS en el orden mostrado para una configuración inicial t
 - El TR02 admite configuración por SMS como se muestra arriba; también pueden existir herramientas del fabricante para configuraciones masivas.
 - Puede apuntar el dispositivo a d.plaspy.com o a la IP numérica del servidor; ambos son aceptados en los comandos públicos anteriores.
 - Para la selección del transporte, elija UDP o TCP si el firmware lo solicita; Plaspy acepta ambos y detectará el protocolo automáticamente.
-- Mantenga los marcadores de APN ({{apn}}, {{apnu}}, {{apnp}}) tal cual al preparar los mensajes; reemplácelos por las credenciales de su operador.
+- Mantenga los marcadores de APN ([apn], [apnu], [apnp]) tal cual al preparar los mensajes; reemplácelos por las credenciales de su operador.
 
 ## Por qué usar Plaspy con esta configuración
 

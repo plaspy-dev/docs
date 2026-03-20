@@ -79,10 +79,10 @@ General command format noted in vendor content
 TSPRXAB27GHKLMnaicz*U!
 
 Primary setup command
-Replace {{imei}} with the device IMEI and {{apn}}, {{apnu}}, {{apnp}} with SIM APN values where required. The checksum placeholder {{checksum}} must be calculated and appended as shown.
+Replace {{imei}} with the device IMEI and [apn], [apnu], [apnp] with SIM APN values where required. The checksum placeholder {{checksum}} must be calculated and appended as shown.
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Optional reboot command labeled in vendor content as a device reboot step
@@ -94,7 +94,7 @@ GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
 
 Notas sobre los marcadores de posición y el checksum
 - {{imei}} es el número IMEI del dispositivo; incluya la cadena IMEI exacta en el comando.
-- {{apn}}, {{apnu}}, {{apnp}} son marcadores para el APN de la SIM, el usuario del APN y la contraseña del APN cuando la configuración por SMS o celular requiere parámetros GPRS.
+- [apn], [apnu], [apnp] son marcadores para el APN de la SIM, el usuario del APN y la contraseña del APN cuando la configuración por SMS o celular requiere parámetros GPRS.
 - {{checksum}} y {{checksumreeboot}} son checksums hexadecimales de dos dígitos en mayúsculas calculados sobre el texto del comando antes del asterisco. El script público del proveedor muestra un checksum basado en XOR donde se hace XOR de cada código de carácter y el resultado se convierte a una cadena hex de dos caracteres en mayúsculas.
 - Los comandos anteriores establecen E0 en la IP del servidor Plaspy 54.85.159.138 y E1 en el puerto 8888 según lo publicado por Plaspy. También puede usar d.plaspy.com en herramientas del proveedor que acepten un nombre de dominio en lugar de una IP.
 

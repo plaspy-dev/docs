@@ -75,11 +75,11 @@ The TR-300V is configured to send periodic location updates and event reports to
 
 ## Example Configuration Commands
 
-The TR-300V supports SMS based configuration. The following templates are derived from public device command examples. Replace placeholders with your device information before sending. The example uses placeholders such as {{imei}}, {{apn}}, {{apnu}}, {{apnp}}, and checksum tokens that must be computed and substituted.
+The TR-300V supports SMS based configuration. The following templates are derived from public device command examples. Replace placeholders with your device information before sending. The example uses placeholders such as {{imei}}, [apn], [apnu], [apnp], and checksum tokens that must be computed and substituted.
 
 - Notes about placeholders:
   - {{imei}} — replace with the device IMEI number.
-  - {{apn}}, {{apnu}}, {{apnp}} — APN name, APN username, and APN password placeholders. Provide values required by your mobile operator.
+  - [apn], [apnu], [apnp] — APN name, APN username, and APN password placeholders. Provide values required by your mobile operator.
   - {{checksum}} and {{checksumreeboot}} — two digit uppercase hexadecimal checksums computed over the command string before the asterisk as described below.
 
 - Plaspy batch prefix example used in some vendor flows:
@@ -87,7 +87,7 @@ The TR-300V supports SMS based configuration. The following templates are derive
 
 - Main setup command template
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Optional reboot command template (use if a reboot is required after applying settings)
@@ -110,7 +110,7 @@ Example assembly steps:
 - The TR-300V supports SMS and GPRS configuration commands; use the method appropriate to your deployment and the firmware on the unit.
 - Firmware and hardware revisions may change the exact command syntax or available fields. Always verify command formats against the device manual for your firmware revision.
 - Choosing UDP or TCP is a device level option; TCP may provide more reliable delivery on some networks while UDP can be lighter weight. Plaspy accepts both transports on the shared port.
-- APN credentials must match the mobile operator. Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} available in templates so you can substitute operator values.
+- APN credentials must match the mobile operator. Keep APN placeholders [apn], [apnu], and [apnp] available in templates so you can substitute operator values.
 - If a reboot step appears in your workflow, label it as optional unless your manufacturer instructions require it to apply settings.
 
 ## Why Use Plaspy with This Configuration

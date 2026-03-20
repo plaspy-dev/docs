@@ -89,14 +89,14 @@ begin123456
 time zone123456 0
 ```
 
-- Establecer el APN del operador móvil (reemplace {{apn}} por el APN de su operador)
+- Establecer el APN del operador móvil (reemplace [apn] por el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Configurar usuario y contraseña del APN (reemplace {{apnu}} y {{apnp}} por las credenciales del operador)
+- Configurar usuario y contraseña del APN (reemplace [apnu] y [apnp] por las credenciales del operador)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
@@ -129,8 +129,8 @@ protocol123456 18
 ```
 
 Notas sobre marcadores y comandos:
-- {{apn}} es un marcador para la cadena APN de su operador. Sustitúyalo por el APN que proporcione el operador de la SIM.
-- {{apnu}} y {{apnp}} son marcadores para el usuario y la contraseña del APN cuando el operador exige credenciales.
+- [apn] es un marcador para la cadena APN de su operador. Sustitúyalo por el APN que proporcione el operador de la SIM.
+- [apnu] y [apnp] son marcadores para el usuario y la contraseña del APN cuando el operador exige credenciales.
 - El comando de restauración de fábrica begin123456 es opcional y debe usarse solo cuando sea necesario durante la configuración inicial o para resolución de problemas.
 - El significado exacto de algunos parámetros del modo GPRS puede variar según el firmware; consulte la documentación del fabricante para la versión de firmware de su BN-108B si observa un comportamiento distinto.
 

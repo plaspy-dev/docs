@@ -48,7 +48,7 @@ El objetivo al configurar un Syrus 3G+ para Plaspy es apuntar el dispositivo al 
 - Acceso a Syrus Desk u otra herramienta oficial de configuración DCT para cargar scripts o enviar comandos de configuración
 - El Syrus 3G+ con alimentación y conectado para que la herramienta de configuración pueda comunicarse con el dispositivo
 - Una cuenta en Plaspy y un proyecto activo donde el dispositivo será registrado y monitoreado
-- Conocimientos básicos de los marcadores {{apn}}, {{apnu}} y {{apnp}} para reemplazarlos por los valores del operador cuando sea necesario
+- Conocimientos básicos de los marcadores [apn], [apnu] y [apnp] para reemplazarlos por los valores del operador cuando sea necesario
 - Respaldo de cualquier configuración existente si el dispositivo ya está en servicio
 
 ## Cómo se conecta este tracker a Plaspy
@@ -78,9 +78,9 @@ El ejemplo modelConfiguration para Syrus 3G+ provisto como script de Syrus Desk 
 Guarde como archivo de texto plano con extensión .tmf y cargue con Syrus Desk:
 
 > Notas sobre los marcadores
-> - {{apn}} es la cadena APN de su operador móvil
-> - {{apnu}} es el usuario del APN cuando se requiera
-> - {{apnp}} es la contraseña del APN cuando se requiera
+> - [apn] es la cadena APN de su operador móvil
+> - [apnu] es el usuario del APN cuando se requiera
+> - [apnp] es la contraseña del APN cuando se requiera
 
 Ejemplo de script para Syrus Desk:
 
@@ -91,10 +91,10 @@ Ejemplo de script para Syrus Desk:
 >SRT;CONFIG<
 >SXADP**U<
 # configurando el APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 # La dirección y puerto del servidor AVL remoto
 >SXADP0000d.plaspy.com;8888<
 # Una dirección de destino que mantiene el destino del servidor
@@ -108,11 +108,11 @@ Ejemplo de script para Syrus Desk:
 # fin
 ```
 
-- El comando >SRT;CONFIG< se usa para borrar la configuración anterior y puede emplearse como paso inicial de reinicio si lo desea.
-- >SRFA{{apn}}< establece la cadena APN. Reemplace {{apn}} por el APN de su operador.
-- >SRFL{{apnu}}< y >SRFP{{apnp}}< fijan el usuario y la contraseña del APN cuando el operador los requiere.
-- >SXADP0000d.plaspy.com;8888< define la entrada del servidor AVL remoto apuntando el dispositivo a Plaspy y al puerto 8888.
-- Las definiciones de señal y los comandos de evento como >STD80300<, >SED37NV4;TD8+< y >SED05NV4;IP3+< habilitan reglas de reporte y disparadores de eventos que el dispositivo usa para enviar telemetría a Plaspy.
+- El comando >SRT;CONFIG\< se usa para borrar la configuración anterior y puede emplearse como paso inicial de reinicio si lo desea.
+- >SRFA[apn]\< establece la cadena APN. Reemplace [apn] por el APN de su operador.
+- >SRFL[apnu]\< y >SRFP[apnp]\< fijan el usuario y la contraseña del APN cuando el operador los requiere.
+- >SXADP0000d.plaspy.com;8888\< define la entrada del servidor AVL remoto apuntando el dispositivo a Plaspy y al puerto 8888.
+- Las definiciones de señal y los comandos de evento como >STD80300\<, >SED37NV4;TD8+\< y >SED05NV4;IP3+\< habilitan reglas de reporte y disparadores de eventos que el dispositivo usa para enviar telemetría a Plaspy.
 
 ## Notas de configuración
 

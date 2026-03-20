@@ -1,6 +1,7 @@
 ---
 slug: /careu/uc1
 id: uc1
+sidebar_key: careuc1_index_uc1
 sidebar_label: UC1
 title: CAREU - UC1
 sidebar_class_name: menu_item_tracker

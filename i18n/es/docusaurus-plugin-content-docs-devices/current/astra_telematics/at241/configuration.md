@@ -77,17 +77,17 @@ La documentación del AT241 incluye un conjunto de comandos por SMS para la conf
 
 1. Establecer el APN del operador
 ```
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 
 2. (Opcional) Establecer el nombre de usuario del APN si el operador lo requiere
 ```
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 
 3. (Opcional) Establecer la contraseña del APN si el operador lo requiere
 ```
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 
 4. Establecer el servidor GPRS a la IP del servidor Plaspy
@@ -101,9 +101,9 @@ $PORT,8888
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es el nombre del APN del operador móvil requerido para la sesión de datos celular.
-- {{apnu}} es el usuario del APN si el operador requiere autenticación.
-- {{apnp}} es la contraseña del APN si es necesaria.
+- [apn] es el nombre del APN del operador móvil requerido para la sesión de datos celular.
+- [apnu] es el usuario del APN si el operador requiere autenticación.
+- [apnp] es la contraseña del APN si es necesaria.
 - Los comandos de usuario y contraseña del APN son condicionales y solo se necesitan cuando su operador usa autenticación APN.
 
 ## Observaciones sobre la configuración

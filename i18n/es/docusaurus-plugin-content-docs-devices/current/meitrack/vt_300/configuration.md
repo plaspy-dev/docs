@@ -83,9 +83,9 @@ W000000,010,{{imei.substring(0,14)}}
 
 - Establecer APN del operador y opcionalmente usuario y contraseña del APN
 ```
-W000000,011,{{apn}}{{#if apnu}},{{apnu}}{{/if}}{{#if apnp}},{{apnp}}{{/if}}
+W000000,011,[apn]{{#if apnu}},[apnu]{{/if}}{{#if apnp}},[apnp]{{/if}}
 ```
-Nota: En el ejemplo público los campos APN se muestran como marcadores. Reemplace {{apn}} con el APN de su operador de SIM. Si su APN requiere usuario o contraseña, reemplace {{apnu}} y {{apnp}} según corresponda.
+Nota: En el ejemplo público los campos APN se muestran como marcadores. Reemplace [apn] con el APN de su operador de SIM. Si su APN requiere usuario o contraseña, reemplace [apnu] y [apnp] según corresponda.
 
 - Establecer servidor GPRS con la IP y el puerto del servidor Plaspy
 ```

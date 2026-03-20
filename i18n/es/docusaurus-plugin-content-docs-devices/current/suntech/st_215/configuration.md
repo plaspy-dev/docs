@@ -86,11 +86,11 @@ Command template:
 SA200NTW;<device_id>;02;<apn_auth_flag>;<apn>;<apn_user>;<apn_pass>;54.85.159.138;8888;;;;
 ```
 Placeholders:
-- <device_id> — ID de dispositivo de seis dígitos derivado del IMEI (dígitos 9 a 14).
-- <apn_auth_flag> — 1 si existe usuario o contraseña del APN, de lo contrario 0.
-- <apn> — reemplace con el APN de su operador (conserve el marcador {{apn}} si lo prefiere).
-- <apn_user> — reemplace con el usuario del APN o use {{apnu}} como marcador.
-- <apn_pass> — reemplace con la contraseña del APN o use {{apnp}} como marcador.
+- \<device_id> — ID de dispositivo de seis dígitos derivado del IMEI (dígitos 9 a 14).
+- \<apn_auth_flag> — 1 si existe usuario o contraseña del APN, de lo contrario 0.
+- \<apn> — reemplace con el APN de su operador (conserve el marcador [apn] si lo prefiere).
+- \<apn_user> — reemplace con el usuario del APN o use [apnu] como marcador.
+- \<apn_pass> — reemplace con la contraseña del APN o use [apnp] como marcador.
 
 2) Establecer el intervalo de reporte a 60 segundos
 - Propósito: configurar la cadencia periódica de reporte usada por el dispositivo.
@@ -115,7 +115,7 @@ Mantenga los comandos en el orden anterior al realizar la configuración inicial
 - La configuración por SMS es un método común para los ST 215, pero confirme el método soportado por su hardware y firmware antes de proceder.
 - Algunas versiones de firmware pueden requerir formatos de comando ligeramente diferentes o parámetros adicionales; pruebe siempre primero en un solo dispositivo.
 - Elija UDP o TCP en el dispositivo según sea necesario; Plaspy acepta cualquiera de los dos transportes en el puerto 8888 y realiza detección automática de protocolo en las conexiones entrantes.
-- El cálculo correcto del <device_id> a partir del IMEI es esencial para que los comandos SMS del fabricante surtan efecto.
+- El cálculo correcto del \<device_id> a partir del IMEI es esencial para que los comandos SMS del fabricante surtan efecto.
 - Tenga a la mano las credenciales APN y use la bandera de autenticación APN (1 o 0) de forma apropiada al enviar el comando SA200NTW.
 
 ## Por qué usar Plaspy con esta configuración

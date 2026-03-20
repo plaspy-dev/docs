@@ -88,12 +88,12 @@ The public QuecLink SMS commands below are sample commands used to configure the
 
 - Set the operator APN
   ```
-  AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+  AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
   ```
   Replace the placeholders with your SIM operator values:
-  - {{apn}} is the APN name
-  - {{apnu}} is the APN username if required
-  - {{apnp}} is the APN password if required
+  - [apn] is the APN name
+  - [apnu] is the APN username if required
+  - [apnp] is the APN password if required
 
 - Set the GPRS server to Plaspy using both domain and IP and port 8888
   ```

@@ -87,14 +87,14 @@ begin123456
 time zone123456 0
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} por el APN de su operador)
+- Configurar el APN del operador (reemplazar [apn] por el APN de su operador)
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Establecer usuario y contraseña del APN (reemplazar marcadores según sea necesario)
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
@@ -130,9 +130,9 @@ protocol123456 18
 ```
 
 Marcadores explicados:
-- {{apn}} — la cadena APN de su operador móvil requerida para datos.
-- {{apnu}} — usuario APN si el operador lo requiere.
-- {{apnp}} — contraseña APN si el operador la requiere.
+- [apn] — la cadena APN de su operador móvil requerida para datos.
+- [apnu] — usuario APN si el operador lo requiere.
+- [apnp] — contraseña APN si el operador la requiere.
 
 Siempre verifique la sintaxis exacta de los comandos para la versión de firmware de su dispositivo y envíe comandos SMS sólo desde un número de teléfono de confianza.
 

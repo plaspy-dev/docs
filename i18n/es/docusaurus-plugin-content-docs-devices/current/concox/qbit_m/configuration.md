@@ -89,9 +89,9 @@ GMT,E,0#
 
 - Configurar el APN del operador
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Nota: mantenga el marcador de posición {{apn}} para el nombre del APN e incluya {{apnu}} y {{apnp}} si su operador requiere usuario y contraseña de APN. Reemplace los marcadores con los valores de su operador y elimine los campos de usuario y contraseña si no son necesarios.
+Nota: mantenga el marcador de posición [apn] para el nombre del APN e incluya [apnu] y [apnp] si su operador requiere usuario y contraseña de APN. Reemplace los marcadores con los valores de su operador y elimine los campos de usuario y contraseña si no son necesarios.
 
 - Configurar el servidor GPRS usando dominio y puerto (la selección UDP o TCP sigue el comportamiento del dispositivo)
 ```text

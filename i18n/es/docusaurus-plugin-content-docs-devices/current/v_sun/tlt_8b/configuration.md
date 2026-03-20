@@ -81,13 +81,13 @@ Los siguientes comandos SMS son ejemplos públicos usados con el V-SUN TLT-8B. E
 *RESET#0000##
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} con el APN de su operador. Si su APN requiere usuario y contraseña incluya {{apnu}} y {{apnp}}:
+- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si su APN requiere usuario y contraseña incluya [apnu] y [apnp]:
 ```
-#803#0000#{{apn}}##
+#803#0000#[apn]##
 ```
 o con usuario y contraseña:
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
 (Mantenga los marcadores de posición exactamente como se muestran y reemplácelos con los valores de su operador.)
 

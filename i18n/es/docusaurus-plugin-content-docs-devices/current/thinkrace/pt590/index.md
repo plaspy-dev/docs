@@ -1,6 +1,7 @@
 ---
 slug: /thinkrace/pt590
 id: pt590
+sidebar_key: thinkracpt590_index_pt590
 sidebar_label: PT590
 title: ThinkRace - PT590
 sidebar_class_name: menu_item_tracker

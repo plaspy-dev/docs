@@ -80,9 +80,9 @@ The WarriorX 300 documentation provides SMS commands that can be sent to the dev
 GMT,0000,0#
 ```
 
-- Set the operator APN with placeholders for APN, APN username, and APN password. Replace {{apn}} {{apnu}} and {{apnp}} with your carrier values. If username or password are not required, leave those placeholders empty as the device documentation indicates.
+- Set the operator APN with placeholders for APN, APN username, and APN password. Replace [apn] [apnu] and [apnp] with your carrier values. If username or password are not required, leave those placeholders empty as the device documentation indicates.
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to Plaspy by IP and port. This points the tracker to Plaspy server IP and port 8888.
@@ -97,7 +97,7 @@ TIMER,0000,60:60:0:0#
 
 Notes on these commands
 - The numeric password 0000 shown in the examples is the published default password in the provided model configuration content.
-- The placeholders {{apn}} {{apnu}} and {{apnp}} represent the operator APN, APN username, and APN password respectively. Replace them with your operator values when sending the APN command.
+- The placeholders [apn] [apnu] and [apnp] represent the operator APN, APN username, and APN password respectively. Replace them with your operator values when sending the APN command.
 - Send SMS commands from an authorized phone number or using the manufacturer tool according to TopFly instructions.
 
 ## Configuration Notes

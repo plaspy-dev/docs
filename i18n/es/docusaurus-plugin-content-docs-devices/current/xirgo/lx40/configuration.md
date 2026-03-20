@@ -81,12 +81,12 @@ Los siguientes comandos estilo SMS se ofrecen como ejemplos públicos de configu
 
 - Set the operator APN
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explicación
-- {{apn}} es la cadena APN del operador móvil necesaria para las conexiones de datos.
-- {{apnu}} es el nombre de usuario del APN cuando el operador lo requiere.
-- {{apnp}} es la contraseña del APN cuando el operador lo requiere.
+- [apn] es la cadena APN del operador móvil necesaria para las conexiones de datos.
+- [apnu] es el nombre de usuario del APN cuando el operador lo requiere.
+- [apnp] es la contraseña del APN cuando el operador lo requiere.
 Reemplace los marcadores con las credenciales de su operador exactamente como se requiera.
 
 - Set the GPRS server to Plaspy

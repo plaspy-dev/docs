@@ -85,13 +85,13 @@ GMT,E,0#
 ```
 
 3. Set the operator APN
-- Replace {{apn}} with your carrier APN. If your carrier requires an APN username or password, also provide {{apnu}} and {{apnp}} where indicated.
+- Replace [apn] with your carrier APN. If your carrier requires an APN username or password, also provide [apnu] and [apnp] where indicated.
 ```
-APN,{{apn}}
+APN,[apn]
 ```
 or with credentials (if required)
 ```
-APN,{{apn}},{{apnu}},{{apnp}}
+APN,[apn],[apnu],[apnp]
 ```
 
 4. Set the GPRS server to use the Plaspy domain (UDP/TCP transport selection is handled on the device)
@@ -124,9 +124,9 @@ GPRSSET#
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile data APN string required by the cellular provider.
-- {{apnu}} is the APN username if your provider requires one.
-- {{apnp}} is the APN password if your provider requires one.
+- [apn] is the mobile data APN string required by the cellular provider.
+- [apnu] is the APN username if your provider requires one.
+- [apnp] is the APN password if your provider requires one.
 Keep placeholders as-is when preparing SMS messages and replace them with your actual carrier credentials.
 
 ## Configuration Notes

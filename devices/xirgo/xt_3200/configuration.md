@@ -80,9 +80,9 @@ The XT-3200 supports SMS based configuration. The public SMS commands commonly u
 
 1. Set the operator APN
 ```
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- Explanation: Replace the placeholders with your carrier values. {{apn}} is typically the APN name. {{apnu}} and {{apnp}} represent optional APN username and password fields if required by your carrier.
+- Explanation: Replace the placeholders with your carrier values. [apn] is typically the APN name. [apnu] and [apnp] represent optional APN username and password fields if required by your carrier.
 
 2. Set the GPRS server to point to Plaspy
 ```

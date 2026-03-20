@@ -79,13 +79,13 @@ Teltonika devices commonly support SMS configuration for basic parameters. The p
 
 - Example SMS configuration command for basic parameters:
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders and fields:
-  - {{apn}} — replace with the SIM card APN (access point name) required by your mobile operator.
-  - {{apnu}} — replace with APN username if your operator requires one; leave blank if not used.
-  - {{apnp}} — replace with APN password if required; leave blank if not used.
+  - [apn] — replace with the SIM card APN (access point name) required by your mobile operator.
+  - [apnu] — replace with APN username if your operator requires one; leave blank if not used.
+  - [apnp] — replace with APN password if required; leave blank if not used.
   - 2004:d.plaspy.com — sets the server domain to the Plaspy endpoint.
   - 2005:8888 — sets the server port to Plaspy’s port.
   - 2006:1 — example parameter commonly used to enable the server entry or assign priority depending on firmware; consult Teltonika documentation for exact meaning on your firmware.

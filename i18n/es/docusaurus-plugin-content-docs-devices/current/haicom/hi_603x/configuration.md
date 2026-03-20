@@ -82,10 +82,10 @@ Si utiliza comandos SMS para la configuración, envíelos en el orden requerido 
 El HI-603X admite configuración por SMS. Los siguientes comandos son ejemplos públicos tomados de la secuencia publicada por el fabricante. La contraseña por defecto en estos ejemplos es 0000.
 
 1. Configure el APN del operador
-   - Reemplace {{apn}}, {{apnu}} y {{apnp}} con el nombre del APN del operador, el usuario APN y la contraseña APN según corresponda. Si no se requiere usuario o contraseña, deje los marcadores en blanco o siga la guía del operador.
+   - Reemplace [apn], [apnu] y [apnp] con el nombre del APN del operador, el usuario APN y la contraseña APN según corresponda. Si no se requiere usuario o contraseña, deje los marcadores en blanco o siga la guía del operador.
 
 ```
-#0000,200,{{apn}},{{apnu}},{{apnp}}
+#0000,200,[apn],[apnu],[apnp]
 ```
 
 2. Establezca el servidor GPRS a Plaspy
@@ -103,8 +103,8 @@ El HI-603X admite configuración por SMS. Los siguientes comandos son ejemplos p
 ```
 
 Notas sobre los marcadores y el uso de SMS:
-- {{apn}} es el nombre del APN del operador móvil requerido para datos GPRS
-- {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña APN que usan algunos operadores
+- [apn] es el nombre del APN del operador móvil requerido para datos GPRS
+- [apnu] y [apnp] son campos opcionales de usuario y contraseña APN que usan algunos operadores
 - La contraseña 0000 en los ejemplos es la que publica el fabricante; si su unidad tiene otra contraseña, utilice ese valor en los comandos
 - Envíe cada comando SMS desde un número autorizado según el manual del dispositivo y espere las respuestas SMS de confirmación cuando estén disponibles
 

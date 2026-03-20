@@ -1,6 +1,7 @@
 ---
 slug: /concox/wetrack_lite
 id: wetrack_lite
+sidebar_key: concowetrack_lite_index_wetrack_lite
 sidebar_label: Wetrack Lite
 title: Concox - Wetrack Lite
 sidebar_class_name: menu_item_tracker

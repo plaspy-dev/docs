@@ -85,13 +85,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN; include {{apnu}} and {{apnp}} only if your operator requires them):
+- Set the operator APN (replace [apn] with your operator APN; include [apnu] and [apnp] only if your operator requires them):
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Or with optional username and password placeholders:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to the Plaspy domain (UDP or TCP transport selection happens on the device if required):
@@ -115,8 +115,8 @@ PARAM#
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN string required for GPRS.
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders used by some operators.
+- [apn] is the mobile operator APN string required for GPRS.
+- [apnu] and [apnp] are optional APN username and password placeholders used by some operators.
 - Send each command as an SMS to the device number and wait for confirmation SMS replies if the device is configured to respond.
 
 ## Configuration Notes

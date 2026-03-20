@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv501lg
 id: gv501lg
+sidebar_key: queclingv501lg_index_gv501lg
 sidebar_label: GV501LG
 title: QuecLink - GV501LG
 sidebar_class_name: menu_item_tracker

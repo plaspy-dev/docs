@@ -80,20 +80,20 @@ Si prefiere la configuración por SMS, use los comandos mostrados más abajo en 
 
 El TR-203 puede configurarse enviando comandos SMS en el formato que el dispositivo espera. Las instrucciones públicas del modelo incluyen un comando de configuración que establece APN y campos de servidor y un comando de reinicio. El ejemplo de formato de comando mostrado en las notas del modelo fue: TSPRXAB27GHKLMnaicz*U!
 
-Importante: reemplace {{imei}} con el IMEI del dispositivo y conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador. El comando requiere un valor de checksum después del asterisco. El checksum es el XOR de todos los caracteres en la cadena del comando antes del asterisco, expresado como un valor hexadecimal de dos dígitos en mayúsculas.
+Importante: reemplace {{imei}} con el IMEI del dispositivo y conserve los marcadores [apn], [apnu] y [apnp] por los valores de su operador. El comando requiere un valor de checksum después del asterisco. El checksum es el XOR de todos los caracteres en la cadena del comando antes del asterisco, expresado como un valor hexadecimal de dos dígitos en mayúsculas.
 
 1) Comando de configuración (configura APN y servidor)
 - Plantilla de SMS para configurar APN y servidor Plaspy
 - Reemplace los marcadores y calcule el checksum como se describió arriba
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - {{imei}} = número IMEI del dispositivo
-- {{apn}} = nombre APN proporcionado por su operador de SIM
-- {{apnu}} = nombre de usuario APN si lo requiere el operador (dejar vacío si no se usa)
-- {{apnp}} = contraseña APN si la requiere el operador (dejar vacía si no se usa)
+- [apn] = nombre APN proporcionado por su operador de SIM
+- [apnu] = nombre de usuario APN si lo requiere el operador (dejar vacío si no se usa)
+- [apnp] = contraseña APN si la requiere el operador (dejar vacía si no se usa)
 - {{checksum}} = checksum XOR en hexadecimal de dos dígitos en mayúsculas del texto del comando antes del asterisco
 
 2) Comando de reinicio opcional (aplica ajustes inmediatamente)

@@ -73,26 +73,26 @@ The XT009 is configured to send its GPRS reports to the shared Plaspy server end
 
 ## Example Configuration Commands
 
-The XT009 can be configured using SMS commands. The commands below are the public SMS commands commonly used for initial setup. The sample commands use the default device password 123456. Replace the placeholders {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, APN username, and APN password as needed.
+The XT009 can be configured using SMS commands. The commands below are the public SMS commands commonly used for initial setup. The sample commands use the default device password 123456. Replace the placeholders [apn], [apnu], and [apnp] with your operator APN, APN username, and APN password as needed.
 
 - Optional initial step to restore factory defaults (use only if needed during initial setup):
 ```text
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your mobile operator APN):
+- Set the operator APN (replace [apn] with your mobile operator APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username (only if your operator requires an APN username; replace {{apnu}}):
+- Set the APN username (only if your operator requires an APN username; replace [apnu]):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (only if your operator requires an APN password; replace {{apnp}}):
+- Set the APN password (only if your operator requires an APN password; replace [apnp]):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to point to Plaspy. This example uses the public Plaspy server IP and port:
@@ -111,9 +111,9 @@ t060s***n123456
 ```
 
 Notes on placeholders and password:
-- {{apn}} is your mobile operator APN string.  
-- {{apnu}} is the APN username if required by the operator.  
-- {{apnp}} is the APN password if required by the operator.  
+- [apn] is your mobile operator APN string.  
+- [apnu] is the APN username if required by the operator.  
+- [apnp] is the APN password if required by the operator.  
 - The device sample default password shown in these commands is 123456. If your device password has been changed, use the current password.
 
 Send these SMS commands from an authorized phone number to the XT009. After sending the server and APN commands, allow time for the device to establish GPRS and confirm reporting in Plaspy.

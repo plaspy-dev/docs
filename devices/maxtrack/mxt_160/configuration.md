@@ -86,14 +86,14 @@ The MXT-160 public guidance includes an SMS configuration example. The manufactu
 
 - Example SMS configuration command
 ```text
-0000,{{trackerID}},2,0,{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888,,.
+0000,{{trackerID}},2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
 ```
 
 Explanation of placeholders:
 - {{trackerID}} — replace with the device ID or IMEI as required by the command format
-- {{apn}} — replace with your mobile carrier APN
-- {{apnu}} — replace with APN username if required by the carrier; leave blank if not used
-- {{apnp}} — replace with APN password if required by the carrier; leave blank if not used
+- [apn] — replace with your mobile carrier APN
+- [apnu] — replace with APN username if required by the carrier; leave blank if not used
+- [apnp] — replace with APN password if required by the carrier; leave blank if not used
 
 Notes:
 - The example uses the Plaspy server IP 54.85.159.138 and port 8888. If your firmware accepts hostnames you may alternatively use d.plaspy.com where the device supports it.

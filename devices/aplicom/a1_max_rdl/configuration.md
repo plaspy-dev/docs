@@ -85,7 +85,7 @@ The exact commands and syntax for configuring the A1 MAX RDL depend on the Aplic
 - Choosing UDP versus TCP can affect delivery semantics and retransmission behavior; select the transport that matches your installation and network environment.
 - Plaspy uses the same port 8888 for all devices and automatically detects the tracker protocol, so the primary required values are the server address and port.
 - Keep a copy of any applied configuration and record the firmware version to simplify troubleshooting with vendor support or integrators.
-- If manufacturer commands include placeholders such as {{apn}}, {{apnu}}, or {{apnp}}, preserve them and replace with your carrier APN values when required by the device tool.
+- If manufacturer commands include placeholders such as [apn], [apnu], or [apnp], preserve them and replace with your carrier APN values when required by the device tool.
 
 ## Why Use Plaspy with This Configuration
 

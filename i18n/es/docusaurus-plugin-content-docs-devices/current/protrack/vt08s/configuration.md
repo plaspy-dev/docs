@@ -74,17 +74,17 @@ Una vez configurado, el VT08S usa datos móviles para abrir una conexión con Pl
 
 ## Comandos de configuración de ejemplo
 
-El VT08S puede configurarse mediante comandos SMS. Estos son los comandos públicos publicados por el fabricante para APN, servidor, intervalo de reporte y habilitar el modo GPRS. Reemplace los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} con los valores APN de su operador.
+El VT08S puede configurarse mediante comandos SMS. Estos son los comandos públicos publicados por el fabricante para APN, servidor, intervalo de reporte y habilitar el modo GPRS. Reemplace los marcadores de posición como [apn], [apnu] y [apnp] con los valores APN de su operador.
 
 - Configurar el APN del operador
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 o si su APN requiere usuario y contraseña
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Reemplace {{apn}} con el APN de su operador. Use {{apnu}} y {{apnp}} sólo si su operador requiere usuario y contraseña.)
+(Reemplace [apn] con el APN de su operador. Use [apnu] y [apnp] sólo si su operador requiere usuario y contraseña.)
 
 - Configurar el servidor GPRS para apuntar a Plaspy
 ```text

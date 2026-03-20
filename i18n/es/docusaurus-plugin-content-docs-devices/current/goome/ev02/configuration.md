@@ -83,9 +83,9 @@ FACTORY#
 
 - Configure el APN del operador. Reemplace los marcadores de posición con los valores de su operador:
 ```text
-APN,{{apn}}{{# if apnu or apnp }},{{apnu}},{{apnp}}{{/ if }}#
+APN,[apn]{{# if apnu or apnp }},[apnu],[apnp]{{/ if }}#
 ```
-Explicación: {{apn}} es el APN de su operador. {{apnu}} y {{apnp}} son opcionales para el nombre de usuario y la contraseña del APN cuando el operador móvil los requiere.
+Explicación: [apn] es el APN de su operador. [apnu] y [apnp] son opcionales para el nombre de usuario y la contraseña del APN cuando el operador móvil los requiere.
 
 - Configure el servidor GPRS a Plaspy usando la IP pública y el puerto proporcionados por Plaspy:
 ```text

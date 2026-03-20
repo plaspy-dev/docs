@@ -77,17 +77,17 @@ The AT241 documentation provides an SMS-based command set for basic network and 
 
 1. Set the operator APN
 ```
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 
 2. (Optional) Set the APN username when the operator requires it
 ```
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 
 3. (Optional) Set the APN password when the operator requires it
 ```
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 
 4. Set the GPRS server to the Plaspy server IP
@@ -101,9 +101,9 @@ $PORT,8888
 ```
 
 Notes about placeholders:
-- {{apn}} is the mobile operator APN name required for a cellular data session.
-- {{apnu}} is the APN username if the operator requires authentication.
-- {{apnp}} is the APN password if required.
+- [apn] is the mobile operator APN name required for a cellular data session.
+- [apnu] is the APN username if the operator requires authentication.
+- [apnp] is the APN password if required.
 - APN username and password commands are conditional and only needed when your carrier uses APN authentication.
 
 ## Configuration Notes

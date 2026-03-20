@@ -74,7 +74,7 @@ The BN-103B can transmit GPS coordinates and device status to Plaspy over TCP, U
 
 ## Example Configuration Commands
 
-The BN-103B supports SMS-based configuration. The commands below are the public SMS commands provided for initial setup. The device default password used in these commands is 123456. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when replacing with your operator values.
+The BN-103B supports SMS-based configuration. The commands below are the public SMS commands provided for initial setup. The device default password used in these commands is 123456. Preserve the placeholders [apn], [apnu], and [apnp] when replacing with your operator values.
 
 1. Optional initial factory reset (use only when needed)
 ```text
@@ -86,14 +86,14 @@ begin123456
 time zone123456 0
 ```
 
-3. Set the APN for the mobile operator (replace {{apn}} with your operator APN)
+3. Set the APN for the mobile operator (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Set the APN username and password (replace placeholders with your operator credentials)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Set the GPRS server to Plaspy using the public server IP and port
@@ -126,9 +126,9 @@ protocol123456 18
 ```
 
 Notes on placeholders:
-- {{apn}} is your mobile operator APN string.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is your mobile operator APN string.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
 Always replace placeholders with the correct operator values before sending commands.
 
 ## Configuration Notes

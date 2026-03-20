@@ -84,14 +84,14 @@ RESET*123456
 TIMEZONE*123456*+00
 ```
 
-- Set the operator APN (replace {{apn}} with your mobile operator APN):
+- Set the operator APN (replace [apn] with your mobile operator APN):
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
-- Set APN username and password if required by your operator (replace {{apnu}} and {{apnp}} with credentials). Include this command only if your operator requires APN authentication:
+- Set APN username and password if required by your operator (replace [apnu] and [apnp] with credentials). Include this command only if your operator requires APN authentication:
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP and port. This example uses the public Plaspy server IP and port:
@@ -105,9 +105,9 @@ KEEPONLINE*123456
 ```
 
 Notes on placeholders:
-- {{apn}} — replace with your mobile network APN string.
-- {{apnu}} — replace with APN username if required.
-- {{apnp}} — replace with APN password if required.
+- [apn] — replace with your mobile network APN string.
+- [apnu] — replace with APN username if required.
+- [apnp] — replace with APN password if required.
 - The example uses the device password 123456 as shown in public configuration examples; if your device uses a different password, substitute it accordingly.
 
 ## Configuration Notes

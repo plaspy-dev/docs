@@ -81,13 +81,13 @@ Para configurar los parámetros básicos en su dispositivo Teltonika, el formato
 - Envíe este comando vía SMS o por el canal de configuración Teltonika compatible con su dispositivo:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores de posición y campos
-- {{apn}} es el nombre del APN requerido por su operador de SIM.
-- {{apnu}} es el usuario del APN si su operador lo requiere.
-- {{apnp}} es la contraseña del APN si su operador lo requiere.
+- [apn] es el nombre del APN requerido por su operador de SIM.
+- [apnu] es el usuario del APN si su operador lo requiere.
+- [apnp] es la contraseña del APN si su operador lo requiere.
 - 2004 establece el dominio del servidor a d.plaspy.com y 2005 ajusta el puerto a 8888 para Plaspy.
 - 2006 en este ejemplo establece un valor de selección de transporte; consulte la documentación Teltonika correspondiente para los valores numéricos exactos que seleccionan UDP o TCP en su firmware.
 

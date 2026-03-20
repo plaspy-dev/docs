@@ -87,10 +87,10 @@ GMT,E,0#
 
 3. Configurar el APN del operador (reemplazar los marcadores con los valores de su operador):
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- {{apn}} es la cadena APN de su operador de red.  
-- {{apnu}} y {{apnp}} son usuario y contraseña de APN opcionales si su operador los requiere.
+- [apn] es la cadena APN de su operador de red.  
+- [apnu] y [apnp] son usuario y contraseña de APN opcionales si su operador los requiere.
 
 4. Configurar el servidor GPRS por dominio (apunta el dispositivo al dominio de Plaspy en el puerto 8888):
 ```

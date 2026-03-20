@@ -73,15 +73,15 @@ The NR108 is configured to report position and alarms to Plaspy’s shared serve
 
 ## Example Configuration Commands
 
-The NR108 supports SMS-based configuration. The public example commands below use the device password placeholder and must be sent as SMS messages to the tracker from an authorized phone number. The sample commands assume the device password is 000000 by default. Preserve the placeholders shown as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values when you send the SMS.
+The NR108 supports SMS-based configuration. The public example commands below use the device password placeholder and must be sent as SMS messages to the tracker from an authorized phone number. The sample commands assume the device password is 000000 by default. Preserve the placeholders shown as [apn], [apnu], and [apnp] and replace them with your operator values when you send the SMS.
 
-- Set operator APN (replace {{apn}} and optional username and password):
+- Set operator APN (replace [apn] and optional username and password):
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 Optional with APN username and password:
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 - Set the GPRS server to Plaspy using the server IP and port (public example):
@@ -101,8 +101,8 @@ A000000,004
 ```
 
 Notes about placeholders and defaults:
-- {{apn}} stands for your mobile operator APN value.  
-- {{apnu}} and {{apnp}} are optional APN username and APN password fields used by some operators.  
+- [apn] stands for your mobile operator APN value.  
+- [apnu] and [apnp] are optional APN username and APN password fields used by some operators.  
 - The example commands use the public Plaspy server IP and port shown above; you can substitute d.plaspy.com if your device accepts domain names.  
 - The default device password in public examples is 000000; if the password has been changed on your unit use the current password when sending commands.
 

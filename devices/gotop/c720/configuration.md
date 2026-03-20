@@ -89,7 +89,7 @@ Refer to the GOTOP documentation for the exact SMS text or software fields requi
 
 - Firmware and hardware revisions can change the exact SMS commands or configuration fields; always verify against the GOTOP manual for your unit.
 - Choosing TCP versus UDP can affect delivery semantics; if the device supports both, pick the transport recommended for your installation and network conditions.
-- Ensure APN, username, and password are correct for the SIM; keep placeholders such as {{apn}}, {{apnu}}, or {{apnp}} if your configuration tool requires them and replace with carrier values.
+- Ensure APN, username, and password are correct for the SIM; keep placeholders such as [apn], [apnu], or [apnp] if your configuration tool requires them and replace with carrier values.
 - For covert installations, verify GSM signal strength and test data connectivity before finalizing the hidden mounting location.
 - If you rely on SMS fallback, confirm that alarm messages are correctly formatted for Plaspy or coordinated with your vendor for SMS-to-platform delivery.
 

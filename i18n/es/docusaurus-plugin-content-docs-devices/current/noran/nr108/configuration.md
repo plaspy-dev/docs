@@ -73,15 +73,15 @@ El NR108 se configura para reportar posición y alarmas al endpoint y puerto com
 
 ## Comandos de configuración de ejemplo
 
-El NR108 admite configuración vía SMS. Los comandos de ejemplo públicos que se muestran abajo usan el marcador de contraseña del dispositivo y deben enviarse como mensajes SMS al rastreador desde un número autorizado. Los comandos de ejemplo asumen que la contraseña del dispositivo es 000000 por defecto. Preserve los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con los valores de su operador cuando envíe el SMS.
+El NR108 admite configuración vía SMS. Los comandos de ejemplo públicos que se muestran abajo usan el marcador de contraseña del dispositivo y deben enviarse como mensajes SMS al rastreador desde un número autorizado. Los comandos de ejemplo asumen que la contraseña del dispositivo es 000000 por defecto. Preserve los marcadores [apn], [apnu] y [apnp] y reemplácelos con los valores de su operador cuando envíe el SMS.
 
-- Establecer APN del operador (reemplace {{apn}} y opcionalmente usuario y contraseña):
+- Establecer APN del operador (reemplace [apn] y opcionalmente usuario y contraseña):
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 Opcional con usuario y contraseña de APN:
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP y el puerto (ejemplo público):
@@ -101,8 +101,8 @@ A000000,004
 ```
 
 Notas sobre marcadores y valores por defecto:
-- {{apn}} representa el valor del APN de su operador móvil.  
-- {{apnu}} y {{apnp}} son campos opcionales de nombre de usuario y contraseña de APN requeridos por algunos operadores.  
+- [apn] representa el valor del APN de su operador móvil.  
+- [apnu] y [apnp] son campos opcionales de nombre de usuario y contraseña de APN requeridos por algunos operadores.  
 - Los comandos de ejemplo usan la IP pública del servidor Plaspy y el puerto mostrados arriba; puede sustituir por d.plaspy.com si su dispositivo acepta nombres de dominio.  
 - La contraseña por defecto en ejemplos públicos suele ser 000000; si la contraseña se ha cambiado en su unidad, utilice la contraseña actual al enviar los comandos.
 

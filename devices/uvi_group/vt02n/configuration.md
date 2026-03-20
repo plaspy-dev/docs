@@ -90,11 +90,11 @@ Adjust the gmt parameters for your local time zone if required by the manufactur
 
 3. Set the APN for your mobile operator
 ```
-APN,666666,{{apn}},{{apnu}},{{apnp}}#
+APN,666666,[apn],[apnu],[apnp]#
 ```
-- {{apn}} is the operator APN name
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required by the operator
+- [apn] is the operator APN name
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required by the operator
 If username and password are not required, leave those placeholders empty or omit them according to device syntax.
 
 4. Set the GPRS server to the Plaspy server IP and port
@@ -127,7 +127,7 @@ This command returns the device status for power, network registration, and othe
 - Firmware revisions or hardware variants can change command syntax and available parameters so confirm command format with the latest UVI Group documentation
 - When choosing UDP versus TCP consider your network reliability and operator behavior; both transports are supported and Plaspy detects the tracker protocol automatically
 - Preserve the device password and change it according to your security policy where supported by the device
-- Confirm operator APN values with the mobile provider and use placeholders {{apn}}, {{apnu}}, and {{apnp}} when inserting operator credentials
+- Confirm operator APN values with the mobile provider and use placeholders [apn], [apnu], and [apnp] when inserting operator credentials
 
 ## Why Use Plaspy with This Configuration
 

@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/c32
 id: c32
+sidebar_key: cantracc32_index_c32
 sidebar_label: C32
 title: CanTrack - C32
 sidebar_class_name: menu_item_tracker

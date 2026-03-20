@@ -82,9 +82,9 @@ GMT,0000,0#
 
 - Configurar el APN del operador y los campos opcionales de autenticación APN
 ```sms
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} es el nombre del punto de acceso, {{apnu}} es el usuario del APN si se requiere y {{apnp}} es la contraseña del APN si se requiere. Deje usuario y contraseña vacíos si su operador no los solicita.
+Explicación: [apn] es el nombre del punto de acceso, [apnu] es el usuario del APN si se requiere y [apnp] es la contraseña del APN si se requiere. Deje usuario y contraseña vacíos si su operador no los solicita.
 
 - Establecer el servidor GPRS a Plaspy usando la IP del servidor y el puerto 8888
 ```sms

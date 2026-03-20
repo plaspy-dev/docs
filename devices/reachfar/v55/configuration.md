@@ -82,7 +82,7 @@ Follow this practical sequence when commissioning a V55 for Plaspy. Exact steps 
 
 The V55 may be configured using Reachfar tools or the vendor command set. Exact commands and syntax vary by firmware and vendor utility, and Reachfar provides the definitive command documentation. Because manufacturer commands and utilities differ across firmware versions, consult the V55 manual or Reachfar configuration guide for exact command strings and examples.
 
-If you are using SMS or a manufacturer configuration tool, follow the official Reachfar examples for setting server, port, transport, and APN values. Preserve placeholders such as {{apn}} or similar as needed and substitute your operator APN, username, and password where applicable.
+If you are using SMS or a manufacturer configuration tool, follow the official Reachfar examples for setting server, port, transport, and APN values. Preserve placeholders such as [apn] or similar as needed and substitute your operator APN, username, and password where applicable.
 
 ## Configuration Notes
 

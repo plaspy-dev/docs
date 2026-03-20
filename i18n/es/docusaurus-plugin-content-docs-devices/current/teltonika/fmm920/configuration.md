@@ -77,13 +77,13 @@ El FMM920 puede configurarse usando comandos tipo fabricante. El ejemplo a conti
 - Ejemplo de comando set parameter por SMS o lote
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de los marcadores y campos
-  - {{apn}} es el nombre del APN celular requerido para la tarjeta SIM
-  - {{apnu}} es el usuario del APN si su operador lo requiere; en caso contrario déjelo en blanco
-  - {{apnp}} es la contraseña del APN si se requiere; en caso contrario déjela en blanco
+  - [apn] es el nombre del APN celular requerido para la tarjeta SIM
+  - [apnu] es el usuario del APN si su operador lo requiere; en caso contrario déjelo en blanco
+  - [apnp] es la contraseña del APN si se requiere; en caso contrario déjela en blanco
   - 2004 establece el dominio del servidor, que en este ejemplo es d.plaspy.com
   - 2005 establece el puerto del servidor, que debe ser 8888 para Plaspy
   - 2006 puede representar un modo de conexión al servidor o un flag de activación en el conjunto de comandos del dispositivo, dependiendo del firmware de Teltonika

@@ -46,7 +46,7 @@ El objetivo al configurar un Meitrack T399L para Plaspy es preparar el equipo pa
 
 - Un Meitrack T399L con alimentación y accesible, con la contraseña de fábrica disponible. Los comandos de ejemplo públicos usan la contraseña por defecto 0000.  
 - Una SIM activa con un plan de datos móviles funcional y capacidad para enviar y recibir SMS para los comandos de configuración.  
-- La información APN correcta del proveedor de la SIM para habilitar datos GPRS. Es posible que deba usar marcadores como {{apn}} al ingresar comandos.  
+- La información APN correcta del proveedor de la SIM para habilitar datos GPRS. Es posible que deba usar marcadores como [apn] al ingresar comandos.  
 - Acceso al método oficial de configuración de Meitrack para la versión de firmware de su equipo, ya sea por SMS o por software del fabricante.  
 - Una cuenta en Plaspy o acceso de administrador para confirmar que el dispositivo aparece en la plataforma tras la configuración.  
 - Herramientas básicas para reiniciar o cortar la alimentación del equipo después de aplicar la configuración si fuera necesario.
@@ -67,7 +67,7 @@ Una vez configurado, el T399L envía posiciones y eventos al endpoint y puerto c
 2. Ingrese el servidor de Plaspy como dominio d.plaspy.com o la IP 54.85.159.138 en los ajustes GPRS del equipo.  
 3. Configure el puerto en 8888 para la entrada GPRS/servidor.  
 4. Elija UDP o TCP si el dispositivo solicita selección de transporte. Plaspy soporta ambos en el mismo puerto.  
-5. Proporcione el APN y, si aplica, usuario y contraseña del APN usando los marcadores requeridos por su SIM como {{apn}}, {{apnu}} y {{apnp}}.  
+5. Proporcione el APN y, si aplica, usuario y contraseña del APN usando los marcadores requeridos por su SIM como [apn], [apnu] y [apnp].  
 6. Aplique o guarde la configuración y reinicie o haga un ciclo de alimentación del rastreador si el dispositivo lo requiere para aplicar los cambios.  
 7. Valide que el equipo reporta a Plaspy comprobando la conectividad en su cuenta de Plaspy o confirmando la recepción de posiciones y eventos en la plataforma.
 
@@ -80,13 +80,13 @@ Los siguientes comandos SMS se derivan de la configuración pública disponible 
 0000,F11
 ```
 
-2. Establecer el servidor GPRS a Plaspy usando dominio o IP. Reemplace {{apn}} con el APN de su operador. Si su SIM requiere usuario o contraseña del APN, incluya {{apnu}} y {{apnp}} en ese orden
+2. Establecer el servidor GPRS a Plaspy usando dominio o IP. Reemplace [apn] con el APN de su operador. Si su SIM requiere usuario o contraseña del APN, incluya [apnu] y [apnp] en ese orden
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Nota: Puede sustituir d.plaspy.com por la dirección IP si el equipo acepta un nombre de dominio:
 ```
-0000,A21,2,d.plaspy.com,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,d.plaspy.com,8888,[apn],[apnu],[apnp]
 ```
 
 3. Ajustar la zona horaria a UTC 0
@@ -105,9 +105,9 @@ Nota: Puede sustituir d.plaspy.com por la dirección IP si el equipo acepta un n
 ```
 
 Explicación de los marcadores:
-- {{apn}} es el APN del operador móvil necesario para la conectividad GPRS  
-- {{apnu}} es el usuario del APN si lo requiere el operador  
-- {{apnp}} es la contraseña del APN si lo requiere el operador
+- [apn] es el APN del operador móvil necesario para la conectividad GPRS  
+- [apnu] es el usuario del APN si lo requiere el operador  
+- [apnp] es la contraseña del APN si lo requiere el operador
 
 Envíe estos comandos SMS en el orden indicado cuando el orden sea importante y confirme los mensajes de éxito del equipo cuando sea posible. Use el comando de restablecimiento de fábrica únicamente cuando sea necesario.
 

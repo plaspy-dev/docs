@@ -82,11 +82,11 @@ El contenido público de configuración del LT-20 incluye plantillas de comandos
 - Plantilla de comando de configuración
   - Propósito: configurar APN, IP y puerto del servidor Plaspy, y banderas básicas de reporte
   - Reemplace {{imei}} por el IMEI del dispositivo
-  - Reemplace {{apn}}, {{apnu}} y {{apnp}} con el nombre APN del operador, usuario y contraseña según corresponda
+  - Reemplace [apn], [apnu] y [apnp] con el nombre APN del operador, usuario y contraseña según corresponda
   - Calcule {{checksum}} como se describe abajo e insértelo en forma hexadecial mayúscula
 
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Plantilla de comando de reinicio
@@ -107,9 +107,9 @@ Cálculo del checksum
 
 Explicación de marcadores de posición
 - {{imei}} número IMEI del dispositivo para identificar el rastreador específico
-- {{apn}} nombre APN del operador necesario para datos celulares
-- {{apnu}} usuario del APN si aplica
-- {{apnp}} contraseña del APN si aplica
+- [apn] nombre APN del operador necesario para datos celulares
+- [apnu] usuario del APN si aplica
+- [apnp] contraseña del APN si aplica
 - {{checksum}} y {{checksumreeboot}} calculados según lo descrito arriba
 
 ## Notas de configuración

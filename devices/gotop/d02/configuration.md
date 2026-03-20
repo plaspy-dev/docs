@@ -77,7 +77,7 @@ The GOTOP D02 is configured to report location and device data to Plaspy's share
 
 The exact configuration commands and methods for the GOTOP D02 depend on the manufacturer tool, firmware version, and the vendor distribution method. GOTOP often supplies configuration via a vendor app, web portal, or SMS commands; consult GOTOP documentation for the precise commands and syntax. Because manufacturer commands may vary, follow the official GOTOP configuration guide that accompanies your device.
 
-If you are using an SMS based setup or text commands supplied by GOTOP, keep placeholders provided by the manufacturer such as APN values or credentials intact (for example {{apn}}, {{apnu}}, or {{apnp}}) and replace them with your network operator settings when instructed.
+If you are using an SMS based setup or text commands supplied by GOTOP, keep placeholders provided by the manufacturer such as APN values or credentials intact (for example [apn], [apnu], or [apnp]) and replace them with your network operator settings when instructed.
 
 ## Configuration Notes
 

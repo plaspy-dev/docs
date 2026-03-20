@@ -82,11 +82,11 @@ The following commands are the public SMS configuration commands provided in the
 
 1. Set the operator APN. Replace the placeholders with your operator values:
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apnu}} is the APN username if required by your carrier.
-- {{apnp}} is the APN password if required by your carrier.
-- {{apn}} is the APN name for the cellular operator.
+- [apnu] is the APN username if required by your carrier.
+- [apnp] is the APN password if required by your carrier.
+- [apn] is the APN name for the cellular operator.
 
 2. Set the GPRS server to point to Plaspy using port 8888 and the Plaspy server IP:
 ```text
@@ -102,7 +102,7 @@ If you prefer to use the domain rather than the IP and the manufacturer tool all
 - Plaspy accepts connections on port 8888 for all devices and automatically detects the tracker protocol, which reduces the need for manual protocol selection in many setups.
 - Choose UDP or TCP depending on the device options and installer preference; some installations prefer UDP for lightweight reporting while others opt for TCP for session reliability.
 - SMS based configuration is supported for the XT21 as shown above, but many installers use vendor tools or provisioning services when managing multiple devices.
-- If you use the APN placeholders {{apn}}, {{apnu}}, and {{apnp}}, confirm carrier APN credentials with your mobile operator.
+- If you use the APN placeholders [apn], [apnu], and [apnp], confirm carrier APN credentials with your mobile operator.
 
 ## Why Use Plaspy with This Configuration
 

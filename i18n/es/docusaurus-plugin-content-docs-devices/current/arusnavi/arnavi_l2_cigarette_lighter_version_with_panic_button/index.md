@@ -1,6 +1,7 @@
 ---
 slug: /arusnavi/arnavi_l2_cigarette_lighter_version_with_panic_button
 id: arnavi_l2_cigarette_lighter_version_with_panic_button
+sidebar_key: arusnavarnavi_l2_cigarette_lighter_version_with_panic_button_index_arnavi_l2_cigarette_lighter_version_with_panic_button
 sidebar_label: Arnavi L2 (cigarette lighter version with panic button)
 title: Arusnavi - Arnavi L2 (cigarette lighter version with panic button)
 sidebar_class_name: menu_item_tracker

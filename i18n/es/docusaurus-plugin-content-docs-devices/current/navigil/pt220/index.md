@@ -1,6 +1,7 @@
 ---
 slug: /navigil/pt220
 id: pt220
+sidebar_key: navigipt220_index_pt220
 sidebar_label: PT220
 title: Navigil - PT220
 sidebar_class_name: menu_item_tracker

@@ -79,19 +79,19 @@ The GF 07 supports SMS configuration. The manufacturer provides public commands 
 begin123456
 ```
 
-2. Set the operator APN (replace {{apn}} with your carrier APN)
+2. Set the operator APN (replace [apn] with your carrier APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-3. Set the APN username if required (replace {{apnu}} with the APN username)
+3. Set the APN username if required (replace [apnu] with the APN username)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-4. Set the APN password if required (replace {{apnp}} with the APN password)
+4. Set the APN password if required (replace [apnp] with the APN password)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 5. Set the GPRS server to the Plaspy endpoint and port (this example uses the Plaspy server IP and port)
@@ -111,9 +111,9 @@ gprs123456
 ```
 
 Placeholders explained:
-- {{apn}} is the mobile operator APN string required for the SIM to use data.
-- {{apnu}} is the APN username when the carrier requires one.
-- {{apnp}} is the APN password when required by the carrier.
+- [apn] is the mobile operator APN string required for the SIM to use data.
+- [apnu] is the APN username when the carrier requires one.
+- [apnp] is the APN password when required by the carrier.
 - Replace 123456 with your current device password if it differs from the default.
 
 ## Configuration Notes

@@ -87,9 +87,9 @@ The manufacturer provides SMS based commands for many TK106 devices. Below are t
 ```
 - Set the operator APN
 ```
-123456apn {{apn}} {{apnu}} {{apnp}}
+123456apn [apn] [apnu] [apnp]
 ```
-Explanation: keep the placeholders as provided. Replace {{apn}} with your operator APN name. If your operator requires username and password use {{apnu}} and {{apnp}} respectively. Omit optional placeholders if they are not required by your operator.
+Explanation: keep the placeholders as provided. Replace [apn] with your operator APN name. If your operator requires username and password use [apnu] and [apnp] respectively. Omit optional placeholders if they are not required by your operator.
 
 - Set the GPRS server to Plaspy by IP and port
 ```
@@ -120,7 +120,7 @@ Preserve the order shown above when performing an initial configuration where or
 
 - SMS based setup is widely used for TK106 family devices but vendor tools or PC software may also be available and can vary by firmware.
 - The public default password shown in manufacturer examples is 123456; confirm and change the password as appropriate for your deployment.
-- Use the APN placeholders {{apn}} {{apnu}} and {{apnp}} exactly as needed for your operator and regional SIM settings.
+- Use the APN placeholders [apn] [apnu] and [apnp] exactly as needed for your operator and regional SIM settings.
 - Choose UDP or TCP according to your network reliability and device support; Plaspy accepts both and will detect the protocol automatically.
 - Different firmware versions or hardware revisions may use slightly different command syntax or require vendor software for domain name support.
 

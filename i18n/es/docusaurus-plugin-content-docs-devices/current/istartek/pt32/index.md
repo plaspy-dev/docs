@@ -1,6 +1,7 @@
 ---
 slug: /istartek/pt32
 id: pt32
+sidebar_key: istartept32_index_pt32
 sidebar_label: PT32
 title: iStartek - PT32
 sidebar_class_name: menu_item_tracker

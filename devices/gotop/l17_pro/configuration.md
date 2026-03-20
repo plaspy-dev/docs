@@ -76,7 +76,7 @@ When configured for Plaspy, the L17 PRO reports location and telemetry to Plaspy
 
 The L17 PRO model configuration content supplied here does not include manufacturer command strings. Exact commands or SMS based configuration sequences vary by GOTOP firmware and provisioning tool. Use the GOTOP configuration application, the vendor web portal, or the official GOTOP user manual for device-specific command formats and tools.
 
-If your vendor provides SMS or AT style commands for provisioning, follow their documented order and replace placeholders as instructed. Common placeholders you may encounter include values like {{apn}} for APN names when a manual APN is required; keep these placeholders intact and substitute your carrier values when prompted by vendor instructions.
+If your vendor provides SMS or AT style commands for provisioning, follow their documented order and replace placeholders as instructed. Common placeholders you may encounter include values like [apn] for APN names when a manual APN is required; keep these placeholders intact and substitute your carrier values when prompted by vendor instructions.
 
 ## Configuration Notes
 

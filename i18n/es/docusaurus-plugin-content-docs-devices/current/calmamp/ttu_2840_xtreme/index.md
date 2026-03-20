@@ -1,6 +1,7 @@
 ---
 slug: /calmamp/ttu_2840_xtreme
 id: ttu_2840_xtreme
+sidebar_key: calmamttu_2840_xtreme_index_ttu_2840_xtreme
 sidebar_label: TTU-2840 XTREME
 title: CalmAmp - TTU-2840 XTREME
 sidebar_class_name: menu_item_tracker

@@ -90,12 +90,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Configurar el APN del operador y las credenciales opcionales (reemplazar los marcadores con los valores de su operador):
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 Explicación de los marcadores de posición
-- {{apn}} es el Access Point Name de la red móvil para su SIM
-- {{apnu}} es el nombre de usuario del APN cuando lo requiera el operador
-- {{apnp}} es la contraseña del APN cuando lo requiera el operador
+- [apn] es el Access Point Name de la red móvil para su SIM
+- [apnu] es el nombre de usuario del APN cuando lo requiera el operador
+- [apnp] es la contraseña del APN cuando lo requiera el operador
 
 - Configurar el servidor GPRS para reportar a Plaspy. Este ejemplo apunta el dispositivo a d.plaspy.com y a la IP 54.85.159.138 usando el puerto 8888:
 ```text

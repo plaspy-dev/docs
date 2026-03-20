@@ -75,7 +75,7 @@ When configured for Plaspy, the TK-102-2 uses its mobile data connection to open
 
 ## Example Configuration Commands
 
-The TK-102-2 can be configured by SMS commands. The manufacturer example commands below use the device default password 123456. If you have customized the password, replace the numeric password in each command accordingly. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your operator APN, APN username, and APN password.
+The TK-102-2 can be configured by SMS commands. The manufacturer example commands below use the device default password 123456. If you have customized the password, replace the numeric password in each command accordingly. Placeholders such as [apn], [apnu], and [apnp] should be replaced with your operator APN, APN username, and APN password.
 
 - Optional initial factory reset command when starting from unknown settings
 ```text
@@ -84,17 +84,17 @@ begin123456
 
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username if required by the operator
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
 - Set the APN password if required by the operator
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP and port
@@ -113,9 +113,9 @@ t060s***n123456
 ```
 
 Notes on placeholders and password
-- {{apn}} is your mobile operator APN string.  
-- {{apnu}} is the APN username when required by the operator.  
-- {{apnp}} is the APN password when required by the operator.  
+- [apn] is your mobile operator APN string.  
+- [apnu] is the APN username when required by the operator.  
+- [apnp] is the APN password when required by the operator.  
 - 123456 is shown here as the factory default device password in the public example. Change this if your device uses a different password.
 
 ## Configuration Notes

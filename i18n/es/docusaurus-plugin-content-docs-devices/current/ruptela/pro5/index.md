@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/pro5
 id: pro5
+sidebar_key: ruptelpro5_index_pro5
 sidebar_label: Pro5
 title: Ruptela - Pro5
 sidebar_class_name: menu_item_tracker

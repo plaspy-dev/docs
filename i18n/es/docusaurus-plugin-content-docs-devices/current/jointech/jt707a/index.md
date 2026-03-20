@@ -1,6 +1,7 @@
 ---
 slug: /jointech/jt707a
 id: jt707a
+sidebar_key: jointecjt707a_index_jt707a
 sidebar_label: JT707A
 title: Jointech - JT707A
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g30b
 id: g30b
+sidebar_key: gotog30b_index_g30b
 sidebar_label: G30B
 title: GOTOP - G30B
 sidebar_class_name: menu_item_tracker

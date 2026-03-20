@@ -1,6 +1,7 @@
 ---
 slug: /gotop/tv_680
 id: tv_680
+sidebar_key: gototv_680_index_tv_680
 sidebar_label: TV-680
 title: GOTOP - TV-680
 sidebar_class_name: menu_item_tracker

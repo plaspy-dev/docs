@@ -1,6 +1,7 @@
 ---
 slug: /tzone/tz_bt07
 id: tz_bt07
+sidebar_key: tzontz_bt07_index_tz_bt07
 sidebar_label: TZ-BT07
 title: TZone - TZ-BT07
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/gf70l_solar
 id: gf70l_solar
+sidebar_key: cantracgf70l_solar_index_gf70l_solar
 sidebar_label: GF70L-Solar
 title: CanTrack - GF70L-Solar
 sidebar_class_name: menu_item_tracker

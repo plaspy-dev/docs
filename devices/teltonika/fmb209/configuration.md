@@ -77,13 +77,13 @@ The following public example shows a Teltonika parameter command that sets basic
 - Example setparam command for Teltonika devices
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Notes on placeholders
-  - {{apn}} is the SIM card APN name required to access mobile data.
-  - {{apnu}} is the APN username if your operator requires one.
-  - {{apnp}} is the APN password if required by the operator.
+  - [apn] is the SIM card APN name required to access mobile data.
+  - [apnu] is the APN username if your operator requires one.
+  - [apnp] is the APN password if required by the operator.
 - How to use this command
   - Send the command through the Teltonika supported configuration channel for your device (for example SMS or the vendor tool). This single command string configures APN placeholders and points the device to d.plaspy.com on port 8888. The final parameter in this example is a device flag value present in the public command string.
 

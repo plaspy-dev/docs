@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk110_4g_global_e_bike_bicycle_gps_tracker
 id: lk110_4g_global_e_bike_bicycle_gps_tracker
+sidebar_key: lk_gplk110_4g_global_e_bike_bicycle_gps_tracker_index_lk110_4g_global_e_bike_bicycle_gps_tracker
 sidebar_label: LK110 4G Global E-bike/Bicycle GPS Tracker
 title: LK-GPS - LK110 4G Global E-bike/Bicycle GPS Tracker
 sidebar_class_name: menu_item_tracker

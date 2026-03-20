@@ -79,17 +79,17 @@ The TKSTAR commonly accepts SMS commands for setup. The public default device pa
 ```text
 begin123456
 ```
-2. Set the operator APN (replace {{apn}} with the mobile carrier APN)
+2. Set the operator APN (replace [apn] with the mobile carrier APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-3. Set the APN username if required by the operator (replace {{apnu}} with the APN username)
+3. Set the APN username if required by the operator (replace [apnu] with the APN username)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-4. Set the APN password if required by the operator (replace {{apnp}} with the APN password)
+4. Set the APN password if required by the operator (replace [apnp] with the APN password)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 5. Set the GPRS server to Plaspy using the public IP and port
 ```text
@@ -105,9 +105,9 @@ gprs123456
 ```
 
 Notes on placeholders and commands
-- {{apn}} is the mobile operator APN string required for data.  
-- {{apnu}} is the APN username when the operator requires one.  
-- {{apnp}} is the APN password when required.  
+- [apn] is the mobile operator APN string required for data.  
+- [apnu] is the APN username when the operator requires one.  
+- [apnp] is the APN password when required.  
 - The adminip command above points the device to the Plaspy server IP and uses port 8888; you may alternatively specify d.plaspy.com in the manufacturer tool if it supports domain names.  
 - Some firmware variants include separate commands to select UDP or TCP transport; if your device requires explicit transport selection, set it to UDP or TCP before saving.
 

@@ -1,6 +1,7 @@
 ---
 slug: /minifinder/zepto
 id: zepto
+sidebar_key: minifindezepto_index_zepto
 sidebar_label: Zepto
 title: MiniFinder - Zepto
 sidebar_class_name: menu_item_tracker

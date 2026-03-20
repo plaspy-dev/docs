@@ -77,9 +77,9 @@ The GDO-10 public configuration includes SMS formatted commands. The example bel
 
 Notes on placeholders
 - {{imei}} Replace with the device IMEI number.
-- {{apn}} Replace with your mobile operator APN name.
-- {{apnu}} Replace with the APN username if required by your operator. Leave empty if not required.
-- {{apnp}} Replace with the APN password if required by your operator. Leave empty if not required.
+- [apn] Replace with your mobile operator APN name.
+- [apnu] Replace with the APN username if required by your operator. Leave empty if not required.
+- [apnp] Replace with the APN password if required by your operator. Leave empty if not required.
 - {{checksum}} and {{checksumreeboot}} are two character uppercase hexadecimal checksums calculated as the XOR of all characters before the asterisk in the command string.
 
 Format note
@@ -89,7 +89,7 @@ Format note
 Send this SMS to the device phone number after replacing the placeholders and computing the checksum:
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 2) Optional reboot command

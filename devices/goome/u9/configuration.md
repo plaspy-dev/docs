@@ -80,11 +80,11 @@ To set up the U9 via SMS, send the following commands in the order shown. Note t
 FACTORY#
 ```
 
-2. Set the operator APN. Replace {{apn}} with your operator APN. If your APN requires username or password, include {{apnu}} and {{apnp}} in order separated by commas.
+2. Set the operator APN. Replace [apn] with your operator APN. If your APN requires username or password, include [apnu] and [apnp] in order separated by commas.
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- Explanation: {{apn}} is the mobile data APN string. {{apnu}} is the APN username placeholder. {{apnp}} is the APN password placeholder. If no username or password is required, you can omit the trailing placeholders when sending the SMS.
+- Explanation: [apn] is the mobile data APN string. [apnu] is the APN username placeholder. [apnp] is the APN password placeholder. If no username or password is required, you can omit the trailing placeholders when sending the SMS.
 
 3. Set the GPRS server to Plaspy using the Plaspy server IP and port. This points the device to Plaspy on port 8888.
 ```

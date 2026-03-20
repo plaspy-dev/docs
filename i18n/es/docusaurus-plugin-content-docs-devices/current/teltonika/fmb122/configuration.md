@@ -80,13 +80,13 @@ El siguiente comando público es un ejemplo común en el estilo Teltonika para e
 - Ejemplo de comando Teltonika setparam (preserva marcadores de posición):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} — nombre APN de su tarjeta SIM (reemplace con el APN de su operador).
-- {{apnu}} — nombre de usuario APN si su operador lo requiere (deje en blanco si no se usa).
-- {{apnp}} — contraseña APN si su operador la requiere (deje en blanco si no se usa).
+- [apn] — nombre APN de su tarjeta SIM (reemplace con el APN de su operador).
+- [apnu] — nombre de usuario APN si su operador lo requiere (deje en blanco si no se usa).
+- [apnp] — contraseña APN si su operador la requiere (deje en blanco si no se usa).
 
 Este comando público establece el host en d.plaspy.com y el puerto en 8888 tal como requiere Plaspy. Los IDs numéricos de los parámetros corresponden a parámetros de dispositivos Teltonika; consulte la documentación de Teltonika para los mapeos exactos si necesita modificar otros ajustes o comprender el significado de un ID numérico específico como 2006.
 

@@ -72,7 +72,7 @@ The ST 300R is configured to send its telemetry and status to the shared Plaspy 
 
 ## Example Configuration Commands
 
-The ST 300R can be configured by SMS. Below are the public SMS command sequences extracted from Suntech public configuration content. Replace {{device_id}} with the device ID computed from the IMEI as described below. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} in your SMS if you need to supply operator APN credentials.
+The ST 300R can be configured by SMS. Below are the public SMS command sequences extracted from Suntech public configuration content. Replace {{device_id}} with the device ID computed from the IMEI as described below. Keep placeholders such as [apn], [apnu], and [apnp] in your SMS if you need to supply operator APN credentials.
 
 How to compute the device ID
 - Device ID is the last 9 digits of the IMEI excluding the final check digit. For example, if IMEI is 123456789012345, the device ID would be the 9 digits starting at position 6 up to position 14 of the IMEI sequence; use the last 9 digits before the final digit.
@@ -85,7 +85,7 @@ ST300CMD;{{device_id}};02;Reset
 2) Set the operator APN and GPRS server
 - This command sets APN values and the Plaspy server IP and port. Preserve the placeholders for APN credentials if required by your operator.
 ```text
-ST300NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Notes:
   - The fourth field here is an APN enable flag; adjust to match your device tool if it expects a different value.
@@ -107,7 +107,7 @@ ST300CMD;{{device_id}};02;PresetA
 - Device ID calculation must follow the manufacturer rule shown above; an incorrect device ID will prevent Plaspy from matching messages to your account.
 - TCP versus UDP selection depends on installer preference and network conditions; Plaspy accepts both and automatically determines the protocol.
 - Firmware revisions and regional variants can change exact SMS syntax and parameter positions, so verify commands against the current Suntech documentation.
-- When supplying APN credentials, preserve placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with the operator values required for your SIM.
+- When supplying APN credentials, preserve placeholders [apn], [apnu], and [apnp] and replace them with the operator values required for your SIM.
 
 ## Why Use Plaspy with This Configuration
 

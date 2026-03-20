@@ -80,7 +80,7 @@ The RF-V36 manufacturer provides multiple configuration methods and the exact co
 - If the device supports SMS configuration, refer to the Reachfar SMS command list in the device manual for the exact command syntax to set server and transport.
 - Remember to use d.plaspy.com or 54.85.159.138 and port 8888 when specifying the Plaspy endpoint.
 
-If you require SMS-style examples or raw configuration commands, consult the Reachfar device manual or vendor configuration PDF for the RF-V36. Manufacturer commands often include placeholders for APN or account parameters such as {{apn}} which you should replace with your network APN when present.
+If you require SMS-style examples or raw configuration commands, consult the Reachfar device manual or vendor configuration PDF for the RF-V36. Manufacturer commands often include placeholders for APN or account parameters such as [apn] which you should replace with your network APN when present.
 
 ## Configuration Notes
 

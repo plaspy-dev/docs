@@ -80,13 +80,13 @@ Teltonika proporciona un comando de ejemplo público para establecer parámetros
 - Ejemplo de comando Teltonika setparam:
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Notas sobre los marcadores de posición y su uso:
-  - {{apn}} es el nombre del APN del operador móvil requerido para la conectividad de datos.
-  - {{apnu}} es el nombre de usuario del APN si su operador lo requiere; dejar en blanco si no es necesario.
-  - {{apnp}} es la contraseña del APN si la requiere el operador; dejar en blanco si no es necesario.
+  - [apn] es el nombre del APN del operador móvil requerido para la conectividad de datos.
+  - [apnu] es el nombre de usuario del APN si su operador lo requiere; dejar en blanco si no es necesario.
+  - [apnp] es la contraseña del APN si la requiere el operador; dejar en blanco si no es necesario.
   - d.plaspy.com y 8888 son el dominio y el puerto del servidor Plaspy al que el rastreador enviará los reportes.
   - El comando puede enviarse vía Teltonika Configurator, SMS o por un canal de comando GPRS soportado, según la configuración del dispositivo y su firmware.
   - Verifique el significado de los parámetros y cualquier bandera de transporte en la documentación Teltonika para la versión de firmware de su equipo antes de enviar comandos.

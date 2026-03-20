@@ -75,7 +75,7 @@ The GL100 is configured to report its position and events to the shared Plaspy s
 
 ## Example Configuration Commands
 
-The GL100 can be configured by sending SMS commands to the device. The following commands are taken from public QuecLink-style examples. The device default password used in these examples is queclink. Preserve the placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN values.
+The GL100 can be configured by sending SMS commands to the device. The following commands are taken from public QuecLink-style examples. The device default password used in these examples is queclink. Preserve the placeholders such as [apn], [apnu], and [apnp] and replace them with your operator APN values.
 
 Note: The first command is a factory restore and should be used only when required as an initial step.
 
@@ -91,12 +91,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Set the operator APN (replace placeholders with your operator values)
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 Explanation of placeholders:
-- {{apn}} = your mobile operator APN
-- {{apnu}} = APN username if required (leave blank if none)
-- {{apnp}} = APN password if required (leave blank if none)
+- [apn] = your mobile operator APN
+- [apnu] = APN username if required (leave blank if none)
+- [apnp] = APN password if required (leave blank if none)
 
 - Set the GPRS server to Plaspy (domain and IP included; device will use port 8888)
 ```text
@@ -121,7 +121,7 @@ Send each command as an SMS message from an authorized phone number or using the
 - You can specify the Plaspy server by hostname d.plaspy.com or by IP 54.85.159.138; include port 8888 in the server settings. Plaspy uses the same port for all devices and auto-detects the protocol.
 - Choose UDP or TCP based on your installation preference; Plaspy accepts both transports and handles protocol detection automatically.
 - Keep the device password secure and confirm the default password before sending commands; some deployments require changing the default password after setup.
-- When using placeholders like {{apn}}, {{apnu}}, and {{apnp}}, make sure to replace them with exact operator values or leave username/password empty if the operator does not require them.
+- When using placeholders like [apn], [apnu], and [apnp], make sure to replace them with exact operator values or leave username/password empty if the operator does not require them.
 
 ## Why Use Plaspy with This Configuration
 

@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/asn_signal_s_4752
 id: asn_signal_s_4752
+sidebar_key: navtelekoasn_signal_s_4752_index_asn_signal_s_4752
 sidebar_label: ASN SIGNAL S-4752
 title: Navtelekom - ASN SIGNAL S-4752
 sidebar_class_name: menu_item_tracker

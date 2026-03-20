@@ -49,7 +49,7 @@ Al configurar el GPS-408 para Plaspy, use los siguientes ajustes públicos de se
 
 - Un GPS-408 con batería y acceso físico para configuración vía SMS o acceso del instalador.
 - Una tarjeta SIM válida instalada con datos habilitados y capacidad SMS cuando sea necesario.
-- El APN del operador móvil, usuario APN y contraseña APN del proveedor de la SIM (en los ejemplos se usan los marcadores {{apn}}, {{apnu}}, {{apnp}}).
+- El APN del operador móvil, usuario APN y contraseña APN del proveedor de la SIM (en los ejemplos se usan los marcadores [apn], [apnu], [apnp]).
 - Acceso al método de comandos SMS del fabricante o a la herramienta oficial de configuración del GPS-408.
 - Conocimiento de la contraseña por defecto del dispositivo si se necesita para los comandos; los comandos públicos que aparecen abajo usan la contraseña por defecto 123456.
 - Una cuenta de Plaspy o acceso a la plataforma Plaspy para confirmar que el rastreador aparece después de la configuración.
@@ -76,7 +76,7 @@ El GPS-408 se configura para enviar mensajes de ubicación y estado al endpoint 
 
 ## Comandos de configuración de ejemplo
 
-El GPS-408 acepta comandos SMS para muchas tareas de configuración. Los siguientes comandos son pasos públicos en SMS para este modelo. Los ejemplos usan la contraseña por defecto del dispositivo 123456. Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por los valores de su operador.
+El GPS-408 acepta comandos SMS para muchas tareas de configuración. Los siguientes comandos son pasos públicos en SMS para este modelo. Los ejemplos usan la contraseña por defecto del dispositivo 123456. Mantenga los marcadores [apn], [apnu] y [apnp] y sustitúyalos por los valores de su operador.
 
 - Reinicio opcional a configuración de fábrica (usar solo si necesita borrar ajustes actuales):
 ```text
@@ -88,14 +88,14 @@ begin123456
 time zone123456 0
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador):
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Establecer usuario y contraseña del APN (reemplace los marcadores según corresponda):
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto:
@@ -128,9 +128,9 @@ protocol123456 18
 ```
 
 Notas sobre los marcadores y la contraseña:
-- {{apn}} es la cadena APN del operador móvil requerida para datos.
-- {{apnu}} es el usuario APN si lo proporciona el operador.
-- {{apnp}} es la contraseña APN si lo proporciona el operador.
+- [apn] es la cadena APN del operador móvil requerida para datos.
+- [apnu] es el usuario APN si lo proporciona el operador.
+- [apnp] es la contraseña APN si lo proporciona el operador.
 - Los comandos anteriores usan la contraseña por defecto del dispositivo 123456 en los ejemplos. Si su contraseña difiere, sustituya por la contraseña actual.
 
 ## Notas de configuración

@@ -76,30 +76,30 @@ El Syrus 4G Lite se configura para abrir una conexión hacia el endpoint del ser
 El Syrus 4G Lite acepta archivos de script Syrus SB que se pueden cargar con Syrus Desk. A continuación hay un ejemplo adaptado de un script público Syrus SB. Guarde este contenido como un archivo de texto plano con extensión .tmf y cárguelo en Syrus Desk para el dispositivo.
 
 - El script incluye un paso inicial opcional para borrar o restablecer la configuración anterior.
-- Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN del operador, el usuario del APN y la contraseña del APN según corresponda. Si no se requiere usuario o contraseña, deje el marcador correspondiente vacío.
+- Los marcadores [apn], [apnu] y [apnp] deben reemplazarse por el APN del operador, el usuario del APN y la contraseña del APN según corresponda. Si no se requiere usuario o contraseña, deje el marcador correspondiente vacío.
 
 Example Syrus SB script for Syrus Desk:
 
 #Syrus SB script
 #Getting Started example
 #Delete any previous configuration
->SRT;CONFIG<
->SXADP**U<
+>SRT;CONFIG\<
+>SXADP**U\<
 #configuring the APN
->SRFA{{apn}}<
->SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFA[apn]\<
+>SRFI\<
+>SRFL[apnu]\<
+>SRFP[apnp]\<
 #The remote AVL server address and port
->SXADP0000d.plaspy.com;8888<
+>SXADP0000d.plaspy.com;8888\<
 #A Destination Address holding the server destination
->SDA4;P00<
+>SDA4;P00\<
 #Time-only Time And Distance signal definition
->STD80300<
+>STD80300\<
 #Event triggered by T&D signal
->SED37NV4;TD8+<
+>SED37NV4;TD8+\<
 #Input report event
->SED05NV4;IP3+<
+>SED05NV4;IP3+\<
 #end
 
 Para mayor claridad, el mismo endpoint de servidor puede especificarse por IP si su flujo de trabajo prefiere direccionamiento numérico. Plaspy acepta conexiones a 54.85.159.138 en el puerto 8888 como alternativa a d.plaspy.com.
@@ -108,7 +108,7 @@ Para mayor claridad, el mismo endpoint de servidor puede especificarse por IP si
 
 - La sintaxis exacta de los comandos y las directivas de script disponibles dependen del firmware de Syrus y de la versión de Syrus Desk; verifique la compatibilidad antes de desplegar masivamente.
 - Elija TCP o UDP según las necesidades de su instalación; ambos son compatibles con Plaspy en el puerto 8888 y la plataforma detectará automáticamente el protocolo usado por el rastreador.
-- Reemplace {{apn}}, {{apnu}} y {{apnp}} por los valores específicos del operador. Si las credenciales APN no son necesarias, deje usuario y contraseña en blanco.
+- Reemplace [apn], [apnu] y [apnp] por los valores específicos del operador. Si las credenciales APN no son necesarias, deje usuario y contraseña en blanco.
 - Cargar un archivo .tmf mediante Syrus Desk es un método habitual para el aprovisionamiento masivo y para aplicar perfiles consistentes en muchos dispositivos.
 - Siempre confirme, tras la configuración, que el dispositivo reporta a Plaspy y que eventos y posiciones aparecen como se espera en la plataforma.
 

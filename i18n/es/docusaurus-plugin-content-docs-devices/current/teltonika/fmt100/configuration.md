@@ -79,13 +79,13 @@ El ejemplo público de configuración para el FMT100 utiliza un comando por lote
 - Ejemplo de comando por lotes de parámetros Teltonika
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores y los campos
-- {{apn}} es el nombre del APN proporcionado por su operador móvil
-- {{apnu}} es el nombre de usuario del APN si el operador lo requiere; deje vacío si no se usa
-- {{apnp}} es la contraseña del APN si el operador la solicita; deje vacío si no se usa
+- [apn] es el nombre del APN proporcionado por su operador móvil
+- [apnu] es el nombre de usuario del APN si el operador lo requiere; deje vacío si no se usa
+- [apnp] es la contraseña del APN si el operador la solicita; deje vacío si no se usa
 - 2004 configura el host del servidor a d.plaspy.com como requiere Plaspy
 - 2005 configura el puerto del servidor en 8888, que es el puerto compartido de Plaspy para todos los dispositivos
 - 2006 selecciona el transporte donde 1 en este ejemplo generalmente indica un modo de transporte soportado por el dispositivo; consulte la documentación de parámetros de Teltonika para el mapeo numérico

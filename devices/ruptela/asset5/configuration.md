@@ -81,7 +81,7 @@ Below are the key fields you will typically set in the manufacturer tool rather 
 - Server port: 8888
 - Transport: UDP or TCP
 
-If your deployment uses Ruptela SMS or text command configuration, refer to the official Ruptela docs for the exact command format and preserve placeholders such as {{apn}}, {{apnu}}, or {{apnp}} when configuring APN credentials through commands. Always follow Ruptela’s command ordering when performing an initial setup or optional reset.
+If your deployment uses Ruptela SMS or text command configuration, refer to the official Ruptela docs for the exact command format and preserve placeholders such as [apn], [apnu], or [apnp] when configuring APN credentials through commands. Always follow Ruptela’s command ordering when performing an initial setup or optional reset.
 
 ## Configuration Notes
 

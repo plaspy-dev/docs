@@ -49,7 +49,7 @@ Tenga en cuenta que Plaspy utiliza el mismo puerto para todos los dispositivos c
 - Un FMM00A alimentado e instalado en el puerto OBD II del vehículo o en la ubicación de montaje correspondiente.
 - Una tarjeta SIM activa con un plan de datos y los valores APN correctos para su operador móvil.
 - Acceso a métodos o herramientas de configuración Teltonika, como la gestión remota de Teltonika o utilidades locales descritas por el fabricante.
-- Los marcadores de APN o valores que usará, como {{apn}} {{apnu}} y {{apnp}} para completar los campos APN del dispositivo.
+- Los marcadores de APN o valores que usará, como [apn] [apnu] y [apnp] para completar los campos APN del dispositivo.
 - Acceso básico a Plaspy para validar que el dispositivo aparece y que se recibe telemetría después de la configuración.
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -68,7 +68,7 @@ El FMM00A transmite telemetría GNSS y OBD a través de la red celular al endpoi
 2. Introduzca el dominio del servidor Plaspy d.plaspy.com o la IP del servidor 54.85.159.138 en el campo de servidor del dispositivo.
 3. Establezca el puerto del servidor en 8888, que Plaspy usa para todos los dispositivos compatibles.
 4. Seleccione UDP o TCP si el dispositivo requiere elegir un transporte durante la configuración.
-5. Proporcione los valores APN del operador usando los marcadores de APN como {{apn}} {{apnu}} y {{apnp}} cuando se le solicite.
+5. Proporcione los valores APN del operador usando los marcadores de APN como [apn] [apnu] y [apnp] cuando se le solicite.
 6. Aplique o guarde la configuración y reinicie el dispositivo si su herramienta o firmware requiere un reinicio para que los cambios surtan efecto.
 7. Valide que el dispositivo reporte a Plaspy revisando la actividad del dispositivo y la telemetría en su cuenta Plaspy.
 
@@ -79,13 +79,13 @@ Para configurar los parámetros básicos en su dispositivo Teltonika, puede usar
 - establecer APN y parámetros del servidor Plaspy usando el comando estilo setparam de Teltonika
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explicación de los marcadores y campos en el comando anterior
-- {{apn}} es el APN de datos móviles de su operador
-- {{apnu}} es el nombre de usuario del APN si lo requiere el operador
-- {{apnp}} es la contraseña del APN si lo requiere
+- [apn] es el APN de datos móviles de su operador
+- [apnu] es el nombre de usuario del APN si lo requiere el operador
+- [apnp] es la contraseña del APN si lo requiere
 - d.plaspy.com es el dominio del servidor Plaspy usado para recibir telemetría
 - 8888 es el puerto de Plaspy utilizado por todos los dispositivos
 - 2006 es el parámetro de selección de transporte en esta cadena de comando; use la documentación del fabricante para confirmar los valores numéricos para UDP o TCP si es necesario

@@ -1,6 +1,7 @@
 ---
 slug: /galileosky/7x
 id: 7x
+sidebar_key: galileosk7x_index_7x
 sidebar_label: 7x
 title: GalileoSky - 7x
 sidebar_class_name: menu_item_tracker

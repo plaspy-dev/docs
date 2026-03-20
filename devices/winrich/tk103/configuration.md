@@ -90,11 +90,11 @@ The TK103 supports SMS based configuration. The following public commands show t
 
 3. Set the operator APN
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-- {{apn}} is the network access point name for the SIM operator
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required
+- [apn] is the network access point name for the SIM operator
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required
 - If your operator only needs an APN, send the APN and omit username and password parameters as supported by your device
 
 4. Set the GPRS server to Plaspy using the Plaspy server IP and port

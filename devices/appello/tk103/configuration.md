@@ -89,9 +89,9 @@ Note: This resets device settings to factory defaults. Use only when required.
 
 - Set the operator APN (replace placeholders)
 ```text
-123456apn {{apn}} {{apnu}} {{apnp}}
+123456apn [apn] [apnu] [apnp]
 ```
-Explanation: {{apn}} is the cellular APN supplied by your mobile operator. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders if your operator requires them.
+Explanation: [apn] is the cellular APN supplied by your mobile operator. [apnu] and [apnp] are optional APN username and APN password placeholders if your operator requires them.
 
 - Set the GPRS server to Plaspy using the public IP and port
 ```text
@@ -115,7 +115,7 @@ Explanation: Sends a status request to the device so it replies with its current
 
 - SMS based setup is a common, public method for the TK103. Ensure SMS comes from an authorized phone number if the device enforces number filtering.
 - Manufacturer firmware versions may alter the exact command syntax or available parameters; always confirm commands against the device manual for your firmware.
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator details. Username and password are optional and only required by some carriers.
+- Replace [apn], [apnu], and [apnp] with your mobile operator details. Username and password are optional and only required by some carriers.
 - Choose UDP or TCP according to the tracker firmware options; Plaspy accepts either and will detect the protocol automatically.
 - Plaspy uses the same port for all supported devices which simplifies server configuration across a mixed fleet.
 

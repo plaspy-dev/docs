@@ -73,7 +73,7 @@ El V-580 se configura para reportar ubicación y estado al endpoint compartido d
 
 ## Comandos de ejemplo para la configuración
 
-El V-580 puede configurarse mediante comandos SMS enviados al dispositivo. Los comandos de ejemplo a continuación se extraen de contenido público de configuración. La contraseña por defecto usada en estos ejemplos es 0000. Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} por el APN de su operador, el nombre de usuario y la contraseña del APN según sea necesario.
+El V-580 puede configurarse mediante comandos SMS enviados al dispositivo. Los comandos de ejemplo a continuación se extraen de contenido público de configuración. La contraseña por defecto usada en estos ejemplos es 0000. Reemplace los marcadores como [apn], [apnu] y [apnp] por el APN de su operador, el nombre de usuario y la contraseña del APN según sea necesario.
 
 - Reinicio de fábrica opcional antes de la configuración inicial
   ```
@@ -82,9 +82,9 @@ El V-580 puede configurarse mediante comandos SMS enviados al dispositivo. Los c
 
 - Establecer el APN del operador
   ```
-  #803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+  #803#0000#[apn]#[apnu]#[apnp]##
   ```
-  - Explicación: Reemplace {{apn}} por el APN de su operador. Incluya {{apnu}} y {{apnp}} solo si su proveedor requiere usuario o contraseña de APN.
+  - Explicación: Reemplace [apn] por el APN de su operador. Incluya [apnu] y [apnp] solo si su proveedor requiere usuario o contraseña de APN.
 
 - Establecer el servidor GPRS al IP y puerto de Plaspy
   ```

@@ -77,19 +77,19 @@ Una vez configurado, el AT211 envía correcciones GNSS y telemetría del disposi
 
 El AT211 soporta configuración vía SMS. Los siguientes comandos SMS públicos figuran en la guía del fabricante. Envíe cada comando como mensaje de texto estándar al dispositivo en el orden mostrado al realizar la configuración inicial.
 
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador):
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador):
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 
-- (Opcional) Establecer el usuario del APN (reemplace {{apnu}} por el usuario del APN):
+- (Opcional) Establecer el usuario del APN (reemplace [apnu] por el usuario del APN):
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 
-- (Opcional) Establecer la contraseña del APN (reemplace {{apnp}} por la contraseña del APN):
+- (Opcional) Establecer la contraseña del APN (reemplace [apnp] por la contraseña del APN):
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 
 - Configurar el servidor GPRS a la IP del servidor Plaspy:
@@ -103,9 +103,9 @@ $PORT,8888
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es la cadena del APN proporcionada por su operador móvil.
-- {{apnu}} es el usuario del APN cuando la operadora lo requiera.
-- {{apnp}} es la contraseña del APN cuando la operadora lo requiera.
+- [apn] es la cadena del APN proporcionada por su operador móvil.
+- [apnu] es el usuario del APN cuando la operadora lo requiera.
+- [apnp] es la contraseña del APN cuando la operadora lo requiera.
 
 Si su instalación requiere seleccionar UDP o TCP y el firmware del AT211 exige un comando explícito de transporte, utilice la herramienta del fabricante o la sintaxis SMS provista por Astra Telematics para seleccionar el transporte. Esos comandos de transporte no forman parte del conjunto público de SMS mostrado arriba; consulte la documentación oficial de Astra para la sintaxis específica según el transporte.
 
@@ -114,7 +114,7 @@ Si su instalación requiere seleccionar UDP o TCP y el firmware del AT211 exige 
 - Las revisiones de firmware y hardware pueden cambiar los comandos disponibles y el comportamiento; siempre verifique los comandos contra la versión de firmware del AT211 que se suministró con su dispositivo.
 - La configuración por SMS es un método público para el AT211, pero también pueden estar disponibles herramientas del proveedor o una conexión por cable (DB9) según su kit de instalador y firmware.
 - Elija UDP o TCP según las condiciones de red y la preferencia del instalador; Plaspy acepta ambos en el puerto 8888 pero la configuración del rastreador debe coincidir con esa elección.
-- Las credenciales del APN son específicas del operador; si su SIM requiere usuario o contraseña, configure {{apnu}} y {{apnp}} tal como se indicó.
+- Las credenciales del APN son específicas del operador; si su SIM requiere usuario o contraseña, configure [apnu] y [apnp] tal como se indicó.
 - Plaspy usa el mismo puerto para todos los dispositivos soportados y detecta automáticamente el protocolo cuando el dispositivo se conecta, lo que simplifica la configuración en la plataforma.
 
 ## Por qué usar Plaspy con esta configuración

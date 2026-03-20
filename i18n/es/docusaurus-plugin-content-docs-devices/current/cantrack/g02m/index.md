@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/g02m
 id: g02m
+sidebar_key: cantracg02m_index_g02m
 sidebar_label: G02M
 title: CanTrack - G02M
 sidebar_class_name: menu_item_tracker

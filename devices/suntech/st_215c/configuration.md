@@ -77,22 +77,22 @@ The following public SMS command templates are derived from the manufacturer pro
 
 Notes on placeholders used below:
 - {{device_id}} = six digit device ID derived from IMEI digits 9 to 14 as described above.
-- {{apn}} = mobile network APN name for the SIM operator.
-- {{apnu}} = APN username if required by the operator, otherwise leave empty.
-- {{apnp}} = APN password if required by the operator, otherwise leave empty.
-- <APN_FLAG> = use 1 if you supply username or password, otherwise 0. This flag enables sending credentials in the APN command.
+- [apn] = mobile network APN name for the SIM operator.
+- [apnu] = APN username if required by the operator, otherwise leave empty.
+- [apnp] = APN password if required by the operator, otherwise leave empty.
+- \<APN_FLAG> = use 1 if you supply username or password, otherwise 0. This flag enables sending credentials in the APN command.
 
 1) Set the operator APN and GPRS server
 - Template (send as SMS to the device number):
 
 ```
-SA200NTW;{{device_id}};02;<APN_FLAG>;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;<APN_FLAG>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Explanation
   - Replace {{device_id}} with the six digit device ID from the IMEI.
-  - Replace {{apn}}, {{apnu}}, and {{apnp}} with the operator APN and optional credentials.
-  - Set <APN_FLAG> to 1 when you provide username or password, otherwise set it to 0.
+  - Replace [apn], [apnu], and [apnp] with the operator APN and optional credentials.
+  - Set \<APN_FLAG> to 1 when you provide username or password, otherwise set it to 0.
   - The command points the device to the Plaspy server IP 54.85.159.138 and port 8888. You may substitute d.plaspy.com in device tools that accept hostnames instead of the IP.
 
 2) Set the update interval to 60 seconds
@@ -122,7 +122,7 @@ If you use vendor configuration software instead of SMS, enter the same values f
 - The ST 215C supports both TCP and UDP over GPRS. Choose the transport that suits your network and reliability requirements; Plaspy will accept either and auto detect the protocol.
 - SMS based configuration is commonly used for initial field setup when no laptop or vendor tool is available. Ensure SMS commands are sent from a number the device accepts as a configuration source if applicable.
 - Different firmware revisions or hardware batches may expect slightly different parameter ordering or flags. Always verify command syntax against the device manual for the unit you are configuring.
-- When supplying APN username or password, ensure you set the APN flag (the command parameter shown as <APN_FLAG>) so the device knows to include credentials.
+- When supplying APN username or password, ensure you set the APN flag (the command parameter shown as \<APN_FLAG>) so the device knows to include credentials.
 - After applying new settings, a device restart may be required for the changes to take effect. Confirm with the device response or by observing the device come online in Plaspy.
 
 ## Why Use Plaspy with This Configuration

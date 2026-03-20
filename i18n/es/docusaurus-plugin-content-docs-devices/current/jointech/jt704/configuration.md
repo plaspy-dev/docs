@@ -75,21 +75,21 @@ Al configurarlo, el JT704 envía ubicación y estado al endpoint del servidor Pl
 
 El JT704 soporta configuración vía SMS. Los comandos públicos de Jointech que se muestran abajo indican cómo establecer el servidor GPRS y el APN, y opcionalmente las credenciales del APN. Reemplace los marcadores por sus valores reales y envíe cada línea como un SMS desde un número autorizado al tracker.
 
-1. Establecer servidor GPRS y APN (reemplace {{trackerID}} y {{apn}}):
+1. Establecer servidor GPRS y APN (reemplace {{trackerID}} y [apn]):
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
-2. (Opcional) Establecer usuario y contraseña del APN si su operadora los requiere (reemplace {{trackerID}}, {{apnu}} y {{apnp}}):
+2. (Opcional) Establecer usuario y contraseña del APN si su operadora los requiere (reemplace {{trackerID}}, [apnu] y [apnp]):
 ```text
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notas sobre los marcadores:
 - {{trackerID}} — el ID del dispositivo o identificador que usa el JT704 para dirigir los comandos. Obténgalo del equipo o de la documentación de Jointech.  
-- {{apn}} — la cadena APN de la red móvil necesaria para el acceso de datos GPRS.  
-- {{apnu}} — nombre de usuario del APN opcional cuando el operador requiere autenticación.  
-- {{apnp}} — contraseña del APN opcional cuando el operador la requiere.
+- [apn] — la cadena APN de la red móvil necesaria para el acceso de datos GPRS.  
+- [apnu] — nombre de usuario del APN opcional cuando el operador requiere autenticación.  
+- [apnp] — contraseña del APN opcional cuando el operador la requiere.
 
 Si su implementación requiere seleccionar UDP o TCP explícitamente y el conjunto de comandos SMS anterior no incluye un parámetro de transporte, use la herramienta de configuración de Jointech o consulte el manual del dispositivo para el parámetro SMS específico que ajusta el modo de transporte.
 

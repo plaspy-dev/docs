@@ -82,19 +82,19 @@ Note: Replace placeholders with your network values. The ID referenced in some v
 !R0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
-- Set the APN username when required (replace {{apnu}} with your APN username)
+- Set the APN username when required (replace [apnu] with your APN username)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
-- Set the APN password when required (replace {{apnp}} with your APN password)
+- Set the APN password when required (replace [apnp] with your APN password)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy by IP
@@ -118,9 +118,9 @@ Note: Replace placeholders with your network values. The ID referenced in some v
 ```
 
 Explanation of placeholders:
-- {{apn}} — operator APN string required for GPRS data.  
-- {{apnu}} — optional APN username when the operator requires credentials.  
-- {{apnp}} — optional APN password when the operator requires credentials.
+- [apn] — operator APN string required for GPRS data.  
+- [apnu] — optional APN username when the operator requires credentials.  
+- [apnp] — optional APN password when the operator requires credentials.
 
 When using SMS commands, the exact message format and whether an ID prefix is required depends on firmware and CalAmp provisioning options. Use the MID value from the !R0 reply when your installation workflow requires an ID.
 
@@ -129,7 +129,7 @@ When using SMS commands, the exact message format and whether an ID prefix is re
 - Firmware differences across LMU-600 hardware revisions may change exact SMS command formats and available parameters; verify with CalAmp documentation.  
 - The LMU-600 supports SMS based configuration and GPRS reporting; choose UDP or TCP on port 8888 depending on device firmware and network results.  
 - Plaspy uses the same port for all devices and automatically detects the tracker protocol, so server-side protocol selection is typically unnecessary.  
-- APN credentials are operator specific; if your operator requires a username or password, include {{apnu}} and {{apnp}} values when sending configuration commands.  
+- APN credentials are operator specific; if your operator requires a username or password, include [apnu] and [apnp] values when sending configuration commands.  
 - If you use CalAmp PULS or over the air provisioning, verify whether those systems will overwrite manual SMS settings before applying changes.
 
 ## Why Use Plaspy with This Configuration

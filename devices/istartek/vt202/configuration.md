@@ -75,7 +75,7 @@ The VT202 sends position and event data to the Plaspy platform by reporting to t
 
 ## Example Configuration Commands
 
-The VT202 supports SMS based configuration. Below are the public SMS commands in the order commonly used. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when applying commands; these should be replaced with the correct APN values provided by the mobile operator.
+The VT202 supports SMS based configuration. Below are the public SMS commands in the order commonly used. Preserve placeholders such as [apn], [apnu], and [apnp] when applying commands; these should be replaced with the correct APN values provided by the mobile operator.
 
 - Optional factory reset (use when preparing a device for first time setup or troubleshooting):
 ```text
@@ -87,13 +87,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If your operator requires username or password, supply {{apnu}} and {{apnp}} as the second and third parameters:
+- Set the operator APN. Replace [apn] with your operator APN. If your operator requires username or password, supply [apnu] and [apnp] as the second and third parameters:
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 or, when username and password are required:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server using the Plaspy domain (UDP or TCP determined by transport selection):
@@ -116,7 +116,7 @@ TIMER,60#
 PARAM#
 ```
 
-Notes on placeholders: {{apn}} is the mobile network APN. {{apnu}} and {{apnp}} are optional APN username and password fields if your operator requires them.
+Notes on placeholders: [apn] is the mobile network APN. [apnu] and [apnp] are optional APN username and password fields if your operator requires them.
 
 ## Configuration Notes
 

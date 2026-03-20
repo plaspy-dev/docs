@@ -87,12 +87,12 @@ RESET
 ```
 
 - Configurar el APN del operador móvil (reemplazar los marcadores por los valores de su operador):
-  - {{apn}} = nombre del APN
-  - {{apnu}} = usuario del APN (dejar en blanco si no aplica)
-  - {{apnp}} = contraseña del APN (dejar en blanco si no aplica)
+  - [apn] = nombre del APN
+  - [apnu] = usuario del APN (dejar en blanco si no aplica)
+  - [apnp] = contraseña del APN (dejar en blanco si no aplica)
 
 ```
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy (Plaspy también soporta el dominio d.plaspy.com):
@@ -125,7 +125,7 @@ RESET
 RCONF
 ```
 
-Nota: Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} tal como aparecen y reemplácelos con las credenciales de su operador al enviar el comando APN. Los comandos anteriores son los comandos SMS públicos documentados para esta familia de rastreadores y se presentan en el orden que aparece en la guía pública.
+Nota: Mantenga los marcadores [apn], [apnu] y [apnp] tal como aparecen y reemplácelos con las credenciales de su operador al enviar el comando APN. Los comandos anteriores son los comandos SMS públicos documentados para esta familia de rastreadores y se presentan en el orden que aparece en la guía pública.
 
 ## Notas de configuración
 

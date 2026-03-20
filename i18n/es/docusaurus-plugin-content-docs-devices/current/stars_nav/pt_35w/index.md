@@ -1,6 +1,7 @@
 ---
 slug: /stars_nav/pt_35w
 id: pt_35w
+sidebar_key: stars_napt_35w_index_pt_35w
 sidebar_label: PT-35W
 title: Stars Nav - PT-35W
 sidebar_class_name: menu_item_tracker

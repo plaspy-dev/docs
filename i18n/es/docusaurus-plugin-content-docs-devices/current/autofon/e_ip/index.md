@@ -1,6 +1,7 @@
 ---
 slug: /autofon/e_ip
 id: e_ip
+sidebar_key: autofoe_ip_index_e_ip
 sidebar_label: E-Маяк IP
 title: AutoFon - E-Маяк IP
 sidebar_class_name: menu_item_tracker

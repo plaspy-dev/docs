@@ -76,10 +76,10 @@ The ST4505 reports GNSS fixes, OBD-II telemetry, and events over cellular networ
 
 The ST4505 supports SMS-based provisioning using command strings. The manufacturer-provided public commands below are typical templates sent to the device by SMS. The device ID used in these commands is the last 6 digits of the IMEI after removing the final IMEI digit (that is, drop the last IMEI digit, then take the last 6 digits). Example: if IMEI is 123456789012345 then drop the final 5 to get 12345678901234 and the device ID is 901234.
 
-- Set the operator APN and the GPRS server (replace DEVICEID with the computed device ID; set the APN fields as required by your operator; set the auth flag to 1 if you supply {{apnu}} or {{apnp}}, otherwise set it to 0):
+- Set the operator APN and the GPRS server (replace DEVICEID with the computed device ID; set the APN fields as required by your operator; set the auth flag to 1 if you supply [apnu] or [apnp], otherwise set it to 0):
 
 ```
-SA200NTW;DEVICEID;02;[auth_flag];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;DEVICEID;02;[auth_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Set the reporting/update interval to 60 seconds (replace DEVICEID as above):
@@ -96,9 +96,9 @@ SA200CMD;DEVICEID;02;PresetA
 
 Notes on placeholders:
 - DEVICEID — compute from IMEI by removing the last IMEI digit and taking the final six digits (example above).
-- {{apn}} — your mobile operator APN string.
-- {{apnu}} — APN username if required by the operator; keep placeholder if not used.
-- {{apnp}} — APN password if required by the operator; keep placeholder if not used.
+- [apn] — your mobile operator APN string.
+- [apnu] — APN username if required by the operator; keep placeholder if not used.
+- [apnp] — APN password if required by the operator; keep placeholder if not used.
 - [auth_flag] — set to 1 if you provide APN username or password, otherwise 0.
 
 Send each of the SMS commands from a phone number authorized by the device (follow Suntech provisioning guidance). Preserve the command order where the network/APN command is applied before or at the same time as server/port configuration for reliable connectivity.
@@ -108,7 +108,7 @@ Send each of the SMS commands from a phone number authorized by the device (foll
 - Firmware and hardware revisions can change command formats or behavior; always confirm command syntax with the latest Suntech documentation.
 - The ST4505 supports SMS-based configuration as shown, but vendors may also offer USB or software provisioning tools; use the official method provided with your device.
 - Choose UDP or TCP based on installation needs; Plaspy accepts both and will auto-detect protocol, but transport choice can affect delivery characteristics.
-- Confirm APN, {{apnu}}, and {{apnp}} values with your SIM operator before provisioning; incorrect APN settings prevent data sessions.
+- Confirm APN, [apnu], and [apnp] values with your SIM operator before provisioning; incorrect APN settings prevent data sessions.
 - Plaspy uses the same port 8888 for all devices and detects the tracker protocol automatically, so consistent server/port settings are important for immediate visibility.
 
 ## Why Use Plaspy with This Configuration

@@ -51,7 +51,7 @@ Note that Plaspy uses the same port for all supported devices and relies on auto
 - A charged TK102 device with power source connected or sufficient internal battery.
 - An active SIM card that supports GSM and GPRS data and can receive and send SMS messages.
 - Access to the device phone number so you can send SMS configuration commands.
-- The operator APN and optional APN username and password (preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} if used).
+- The operator APN and optional APN username and password (preserve placeholders such as [apn], [apnu], and [apnp] if used).
 - Manufacturer documentation or the device manual for SMS command reference and any firmware-specific notes.
 - Optional: a way to monitor server-side logs or Plaspy device activity to confirm successful reporting.
 
@@ -91,9 +91,9 @@ The TK102 commonly supports SMS-based setup. The public example commands below a
 
 - Set the operator APN (replace placeholders as needed)
 ```text
-#apn#123456#{{apn}}#{{apnu}}#{{apnp}}#
+#apn#123456#[apn]#[apnu]#[apnp]#
 ```
-Explanation: {{apn}} is your operator APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders; omit them if not required by your mobile operator.
+Explanation: [apn] is your operator APN. [apnu] and [apnp] are optional APN username and password placeholders; omit them if not required by your mobile operator.
 
 - Set the GPRS server to Plaspy using the public IP and port
 ```text

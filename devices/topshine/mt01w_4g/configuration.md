@@ -89,13 +89,13 @@ W000000,990,099###
 ```text
 W000000,010,<14_digit_device_id>
 ```
-Replace <14_digit_device_id> with the first 14 digits derived from the device IMEI as required by the tracker. Plaspy identifies devices by the IMEI.
+Replace \<14_digit_device_id> with the first 14 digits derived from the device IMEI as required by the tracker. Plaspy identifies devices by the IMEI.
 
 - Set the operator APN with optional username and password placeholders:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-If no APN username or password are required, send only the APN using the same command pattern and omit the optional fields. Placeholders {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your carrier values.
+If no APN username or password are required, send only the APN using the same command pattern and omit the optional fields. Placeholders [apn], [apnu], and [apnp] should be replaced with your carrier values.
 
 - Set the GPRS server to the public Plaspy server IP and port:
 ```text

@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tk905
 id: tk905
+sidebar_key: tk_statk905_index_tk905
 sidebar_label: TK905
 title: TK-Star - TK905
 sidebar_class_name: menu_item_tracker

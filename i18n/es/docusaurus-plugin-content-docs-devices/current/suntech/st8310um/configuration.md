@@ -75,15 +75,15 @@ Una vez configurado, el ST8310UM abre una conexión hacia el endpoint compartido
 
 La configuración pública del ST8310UM utiliza comandos SMS. El ID del dispositivo para estos comandos corresponde a los últimos seis dígitos del IMEI excluyendo el dígito final del IMEI. Por ejemplo, si el IMEI es 123456789012345, el ID del dispositivo sería 901234 siguiendo el patrón de ejemplo proporcionado en la plantilla del fabricante. Los comandos se envían como SMS al número del dispositivo.
 
-1) Configure el APN del operador y el servidor GPRS apuntando a Plaspy. Reemplace {{device_id}} con el ID calculado y conserve los marcadores de APN {{apn}}, {{apnu}}, {{apnp}}:
+1) Configure el APN del operador y el servidor GPRS apuntando a Plaspy. Reemplace {{device_id}} con el ID calculado y conserve los marcadores de APN [apn], [apnu], [apnp]:
 
 ```text
-SA200NTW;{{device_id}};02;{GPRS mode flag};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{GPRS mode flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Notas:
-- La plantilla del fabricante utiliza un campo para indicar si hay usuario o contraseña de APN; en muchas configuraciones establezca ese indicador a 1 si proporciona {{apnu}} o {{apnp}}, de lo contrario póngalo en 0.
-- {{apn}} es el APN del operador. {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Mantenga estos marcadores y reemplácelos con los valores proporcionados por su operador SIM.
+- La plantilla del fabricante utiliza un campo para indicar si hay usuario o contraseña de APN; en muchas configuraciones establezca ese indicador a 1 si proporciona [apnu] o [apnp], de lo contrario póngalo en 0.
+- [apn] es el APN del operador. [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Mantenga estos marcadores y reemplácelos con los valores proporcionados por su operador SIM.
 
 2) Ajuste el intervalo de reporte a 60 segundos usando el formato de comando del fabricante:
 
@@ -105,7 +105,7 @@ Envíe cada comando como un mensaje SMS al número del dispositivo. Use el ejemp
 - El ST8310UM soporta configuración vía SMS según la plantilla pública mostrada arriba. Si prefiere las herramientas de configuración ofrecidas por Suntech o su proveedor, siga esas herramientas asegurándose de ingresar los valores del servidor y puerto de Plaspy como se indica.
 - Al elegir TCP frente a UDP considere las condiciones de la red y el comportamiento GPRS del operador. Plaspy acepta cualquiera de los dos transportes y detecta automáticamente el protocolo del rastreador.
 - El puerto de Plaspy 8888 es compartido por todos los dispositivos en Plaspy y debe usarse exactamente como se muestra al configurar la entrada del servidor del dispositivo.
-- Verifique siempre los marcadores de APN, usuario y contraseña ({{apn}}, {{apnu}}, {{apnp}}) con su proveedor celular para asegurar que se puedan establecer sesiones de datos.
+- Verifique siempre los marcadores de APN, usuario y contraseña ([apn], [apnu], [apnp]) con su proveedor celular para asegurar que se puedan establecer sesiones de datos.
 
 ## Por qué usar Plaspy con esta configuración
 

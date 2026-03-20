@@ -1,6 +1,7 @@
 ---
 slug: /jointech/jt704
 id: jt704
+sidebar_key: jointecjt704_index_jt704
 sidebar_label: JT704
 title: Jointech - JT704
 sidebar_class_name: menu_item_tracker

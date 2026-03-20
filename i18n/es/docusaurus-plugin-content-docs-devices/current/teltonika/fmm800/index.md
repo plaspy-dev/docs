@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmm800
 id: fmm800
+sidebar_key: teltonikfmm800_index_fmm800
 sidebar_label: FMM800
 title: Teltonika - FMM800
 sidebar_class_name: menu_item_tracker

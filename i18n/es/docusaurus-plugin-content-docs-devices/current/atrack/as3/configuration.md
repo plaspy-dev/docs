@@ -71,7 +71,7 @@ El AS3 envía datos de posición y eventos al punto final y puerto del servidor 
 
 ## Comandos de configuración de ejemplo
 
-Los siguientes comandos públicos del AS3 aparecen en contenidos de ejemplo de ATrack. Se muestran en orden y conservan los marcadores de posición usados para la configuración del APN. Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por su APN, usuario y contraseña del operador según corresponda.
+Los siguientes comandos públicos del AS3 aparecen en contenidos de ejemplo de ATrack. Se muestran en orden y conservan los marcadores de posición usados para la configuración del APN. Mantenga los marcadores [apn], [apnu] y [apnp] y reemplácelos por su APN, usuario y contraseña del operador según corresponda.
 
 - Habilitar reporte de evento de entrada ACC y acciones relacionadas
 ```text
@@ -93,9 +93,9 @@ AT$FORM=1,@P,0,""
 
 - Configurar GPRS, APN y servidor con la IP y puerto de Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-Nota: {{apn}} es el APN de la red móvil, {{apnu}} es el usuario APN y {{apnp}} es la contraseña APN. Reemplace estos marcadores de posición con los valores de su proveedor. Plaspy también publica el dominio d.plaspy.com; si su firmware acepta nombres de dominio puede optar por usar d.plaspy.com en lugar de la IP tras confirmarlo con la documentación de ATrack.
+Nota: [apn] es el APN de la red móvil, [apnu] es el usuario APN y [apnp] es la contraseña APN. Reemplace estos marcadores de posición con los valores de su proveedor. Plaspy también publica el dominio d.plaspy.com; si su firmware acepta nombres de dominio puede optar por usar d.plaspy.com en lugar de la IP tras confirmarlo con la documentación de ATrack.
 
 - Comprobar estado del dispositivo
 ```text

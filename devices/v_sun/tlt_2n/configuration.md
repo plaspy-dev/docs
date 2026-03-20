@@ -85,12 +85,12 @@ Note: This reset command is typically used only when you need to restore factory
 
 - Set the operator APN
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
 Replace the placeholders as needed:
-- {{apn}} is the operator APN string
-- {{apnu}} is the APN username if required by the carrier
-- {{apnp}} is the APN password if required by the carrier
+- [apn] is the operator APN string
+- [apnu] is the APN username if required by the carrier
+- [apnp] is the APN password if required by the carrier
 If your operator does not require username or password, omit those placeholders and keep the correct number of separators as required by the device.
 
 - Set the GPRS server by IP and port to point to Plaspy

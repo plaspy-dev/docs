@@ -1,6 +1,7 @@
 ---
 slug: /telic/lt910_eubis
 id: lt910_eubis
+sidebar_key: telilt910_eubis_index_lt910_eubis
 sidebar_label: LT910-EUbis
 title: Telic - LT910-EUbis
 sidebar_class_name: menu_item_tracker

@@ -77,22 +77,22 @@ When configured, the S921 acts as a presence gateway and reporting node that sen
 
 The S921 public configuration examples are commonly sent by SMS. The manufacturer example uses the default device password 000000 in these messages. Replace 000000 with the device password if it has been changed. Use your device IMEI where indicated.
 
-- Set the device ID using the device IMEI. Replace <IMEI15> with the device IMEI formatted as required (the manufacturer example uses the last 15 digits):
+- Set the device ID using the device IMEI. Replace \<IMEI15> with the device IMEI formatted as required (the manufacturer example uses the last 15 digits):
 
 ```
 M000000,22,<IMEI15>
 ```
 
-- Set the operator APN. Replace {{apn}} with the operator APN. If your operator requires an APN username and password include {{apnu}} and {{apnp}}:
+- Set the operator APN. Replace [apn] with the operator APN. If your operator requires an APN username and password include [apnu] and [apnp]:
 
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
 Or with optional username and password:
 
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 - Set the update interval to 60 seconds:
@@ -114,7 +114,7 @@ M000000,21,2
 ```
 
 Notes about placeholders and defaults:
-- {{apn}} is the mobile operator APN string. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+- [apn] is the mobile operator APN string. [apnu] and [apnp] are optional APN username and password placeholders.
 - 000000 is the default device password used in the example commands. If your device password differs, replace 000000 with the correct password.
 - The first command uses the device IMEI to set the device ID. Use your device IMEI values as required by Megastek.
 

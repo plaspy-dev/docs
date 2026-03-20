@@ -89,9 +89,9 @@ Explicación: Establece el ID del equipo usando los primeros 14 dígitos derivad
 
 - Configurar el APN del operador (use los valores de su operador; usuario y contraseña opcionales)
 ```
-W000000,011,{{apn}}{{,{{apnu}},{{apnp}}}}
+W000000,011,[apn]{{,[apnu],[apnp]}}
 ```
-Explicación: {{apn}} es el APN del operador móvil. Si su operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} respectivamente. Mantenga los marcadores según sea necesario para la configuración de su SIM.
+Explicación: [apn] es el APN del operador móvil. Si su operador requiere usuario y contraseña, incluya [apnu] y [apnp] respectivamente. Mantenga los marcadores según sea necesario para la configuración de su SIM.
 
 - Configurar el servidor GPRS a Plaspy usando la IP y el puerto proporcionados
 ```

@@ -78,13 +78,13 @@ Below is the public batch parameter command commonly used on Teltonika devices t
 - SMS or batch parameter command example
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and fields
-- {{apn}} — APN string for your carrier (required for mobile data).
-- {{apnu}} — APN username if your carrier requires authentication (leave empty if not needed).
-- {{apnp}} — APN password if required by your carrier.
+- [apn] — APN string for your carrier (required for mobile data).
+- [apnu] — APN username if your carrier requires authentication (leave empty if not needed).
+- [apnp] — APN password if required by your carrier.
 - 2004 sets the server address to d.plaspy.com for Plaspy.
 - 2005 sets the port to 8888 used by Plaspy for all devices.
 - 2006 is a transport control parameter in this example; consult Teltonika documentation for exact value mappings for TCP versus UDP on your firmware.

@@ -77,9 +77,9 @@ The RF-V03-SOS sends position, status and event messages over cellular networks 
 The exact configuration commands and syntax for the RF-V03-SOS depend on the Reachfar firmware and the manufacturer's configuration tool. Many Reachfar devices support configuration via the official Windows or web utility, or via SMS commands. Because command formats vary by firmware, consult the Reachfar user manual for exact command strings and placeholders. If your device supports SMS setup, you will typically use an SMS template provided by Reachfar to set server domain or IP, port and transport.
 
 Example placeholders you may encounter in manufacturer commands
-- {{apn}} used for the cellular APN name
-- {{apnu}} used for APN username if required
-- {{apnp}} used for APN password if required
+- [apn] used for the cellular APN name
+- [apnu] used for APN username if required
+- [apnp] used for APN password if required
 
 Refer to the Reachfar documentation for exact SMS or tool command examples for the RF-V03-SOS firmware version you are using.
 

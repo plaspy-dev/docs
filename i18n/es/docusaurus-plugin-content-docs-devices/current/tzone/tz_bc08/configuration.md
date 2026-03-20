@@ -84,13 +84,13 @@ Para configurar el TZ-BC08 vía SMS, envíe los siguientes comandos en el orden 
 1. Establecer el APN del operador
 - Forma básica sin usuario ni contraseña:
 ```text
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 - Si su operador requiere usuario y contraseña del APN, inclúyalos como marcadores:
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} es el APN del operador móvil. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN.
+Explicación: [apn] es el APN del operador móvil. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN.
 
 2. Establecer el intervalo de actualización a 60 segundos
 ```text
@@ -112,7 +112,7 @@ Explicación: Habilita el modo GPRS para que el dispositivo use datos móviles y
 
 Notas sobre los comandos
 - El "000000" inicial en los ejemplos es la contraseña de gestión mostrada en los comandos públicos. Reemplácela por la contraseña de su dispositivo si es distinta.
-- Mantenga los marcadores como {{apn}}, {{apnu}} y {{apnp}} al componer los SMS; sustitúyalos por los valores de su operador.
+- Mantenga los marcadores como [apn], [apnu] y [apnp] al componer los SMS; sustitúyalos por los valores de su operador.
 - Envíe los comandos en el orden mostrado para la configuración inicial: APN, intervalo, servidor y finalmente activación de GPRS.
 
 ## Notas de configuración

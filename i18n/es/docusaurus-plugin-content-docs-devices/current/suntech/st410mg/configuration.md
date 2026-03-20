@@ -76,16 +76,16 @@ El ST410MG puede configurarse por SMS usando el formato de comandos de Suntech. 
 
 Comandos SMS comunes publicados por el fabricante y usados en ejemplos públicos:
 
-- Establecer el APN del operador y el servidor GPRS (reemplazar {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador; sustituir {{device_id}} por el ID de seis dígitos derivado del IMEI):
+- Establecer el APN del operador y el servidor GPRS (reemplazar [apn], [apnu] y [apnp] con los valores de su operador; sustituir {{device_id}} por el ID de seis dígitos derivado del IMEI):
 
 ```
-SA200NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Notas sobre el comando APN:
-- {{apn}} es la cadena APN del operador
-- {{apnu}} es el usuario APN si su operador lo requiere; dejar vacío si no se usa
-- {{apnp}} es la contraseña APN si su operador la requiere; dejar vacío si no se usa
+- [apn] es la cadena APN del operador
+- [apnu] es el usuario APN si su operador lo requiere; dejar vacío si no se usa
+- [apnp] es la contraseña APN si su operador la requiere; dejar vacío si no se usa
 - El ejemplo usa la IP del servidor Plaspy 54.85.159.138 y el puerto 8888; también puede utilizar d.plaspy.com en lugar de la IP si su dispositivo acepta nombres de host
 
 - Establecer el intervalo de reporte a 60 segundos (los parámetros de reporte son específicos del dispositivo; este ejemplo asigna varios campos de intervalo a 60 según la plantilla pública):

@@ -76,7 +76,7 @@ Una vez configurado, el D35 envía actualizaciones de ubicación y estado desde 
 
 ## Comandos de configuración de ejemplo
 
-El D35 soporta comandos de configuración por SMS. Los siguientes comandos públicos se proporcionan en la configuración del modelo del fabricante y se presentan aquí en el mismo orden. El ejemplo usa la contraseña predeterminada del dispositivo 123456 según se muestra. Mantenga los marcadores como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores APN de su operador.
+El D35 soporta comandos de configuración por SMS. Los siguientes comandos públicos se proporcionan en la configuración del modelo del fabricante y se presentan aquí en el mismo orden. El ejemplo usa la contraseña predeterminada del dispositivo 123456 según se muestra. Mantenga los marcadores como [apn], [apnu] y [apnp] y reemplácelos por los valores APN de su operador.
 
 - Restablecimiento de fábrica inicial opcional
 ```text
@@ -93,9 +93,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Establecer el APN del operador donde {{apn}} es el APN, {{apnu}} es el usuario APN, {{apnp}} es la contraseña APN y xxxyy representa MCC y MNC si es necesario
+- Establecer el APN del operador donde [apn] es el APN, [apnu] es el usuario APN, [apnp] es la contraseña APN y xxxyy representa MCC y MNC si es necesario
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
@@ -115,7 +115,7 @@ pw,123456,ts#
 
 Notas sobre los comandos anteriores:
 - Los comandos se presentan tal como aparecen en la configuración del modelo público. Algunas variantes de firmware o regionales pueden usar separadores o sintaxis ligeramente distintos. Confirme la sintaxis exacta en el manual del dispositivo.
-- Marcadores: {{apn}} = APN del operador, {{apnu}} = usuario APN, {{apnp}} = contraseña APN.
+- Marcadores: [apn] = APN del operador, [apnu] = usuario APN, [apnp] = contraseña APN.
 - El comando de restablecimiento de fábrica es opcional y debe usarse solo cuando necesite restaurar valores de fábrica.
 
 ## Notas de configuración

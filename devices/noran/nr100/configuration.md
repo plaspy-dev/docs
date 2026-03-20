@@ -76,13 +76,13 @@ The NR100 is configured to report location and event data to the shared Plaspy s
 The NR100 supports SMS based provisioning with commands sent from a mobile phone. The public sample commands below use the factory default password 000000. Replace 000000 with your current device password if it has been changed. Preserve placeholders and optional parameters where shown.
 
 1. Set the operator APN  
-   - Use this command to set the APN for your SIM. {{apn}} is required. {{apnu}} and {{apnp}} are optional username and password placeholders for APNs that require authentication.
+   - Use this command to set the APN for your SIM. [apn] is required. [apnu] and [apnp] are optional username and password placeholders for APNs that require authentication.
 ```text
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
    - If no APN username or password is needed, send:
 ```text
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 
 2. Set the GPRS server to Plaspy by IP and port  
@@ -104,7 +104,7 @@ A000000,004
 
 Notes on the commands above:
 - The sample commands use the default device password 000000 embedded as shown. If your device password is different, replace 000000 with the actual password.
-- Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} as placeholders when preparing commands; replace them with your operator APN and optional credentials.
+- Keep the placeholders [apn], [apnu], and [apnp] as placeholders when preparing commands; replace them with your operator APN and optional credentials.
 - The order of commands matters for initial setup: set APN, set server, then enable GPRS.
 
 ## Configuration Notes

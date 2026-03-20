@@ -87,14 +87,14 @@ begin123456
 time zone123456 0
 ```
 
-- Establecer el APN (reemplace {{apn}} por el APN de su operador)
+- Establecer el APN (reemplace [apn] por el APN de su operador)
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Establecer usuario y contraseña del APN (reemplace los marcadores según corresponda)
 ```sms
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Configurar el servidor GPRS hacia Plaspy usando la IP pública y el puerto
@@ -127,8 +127,8 @@ protocol123456 18
 ```
 
 Notas sobre marcadores y uso:
-- {{apn}} = la cadena APN de su operador móvil.
-- {{apnu}} y {{apnp}} = usuario y contraseña del APN cuando el operador los requiere.
+- [apn] = la cadena APN de su operador móvil.
+- [apnu] y [apnp] = usuario y contraseña del APN cuando el operador los requiere.
 - Reemplace la contraseña de ejemplo 123456 por la contraseña real del dispositivo si se ha cambiado desde el valor de fábrica.
 - Use el comando de reinicio de fábrica solo cuando sea necesario o durante la configuración inicial y verifique el comportamiento del equipo después de un reseteo.
 

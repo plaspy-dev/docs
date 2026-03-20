@@ -78,8 +78,8 @@ The TE-207 manufacturer documentation and vendor tools determine the exact comma
 
 If your vendor provides SMS or command-line examples, they typically include placeholders such as APN values or credentials. Keep placeholders intact and replace them with your operator or account values when issuing commands. For example, a common pattern you might see in public vendor docs is:
 
-- Replace {{apn}} with your carrier APN when configuring GPRS
-- Replace {{apnu}} and {{apnp}} with APN username and password if required
+- Replace [apn] with your carrier APN when configuring GPRS
+- Replace [apnu] and [apnp] with APN username and password if required
 
 Always confirm the exact command format in the official GOTOP TE-207 documentation before sending configuration commands.
 

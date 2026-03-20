@@ -76,7 +76,7 @@ Cuando el RF-S1 se configura para Plaspy, envía posición, estado y mensajes de
 
 Los comandos de configuración para el modelo RF-S1 y la sintaxis exacta son proporcionados por Reachfar y pueden variar según el firmware y la herramienta del proveedor. Plaspy acepta mensajes de dispositivos enviados a d.plaspy.com o a 54.85.159.138 en el puerto 8888 por UDP o TCP, y detectará automáticamente el protocolo del rastreador. Para los comandos SMS precisos, los pasos en la aplicación del proveedor o las instrucciones de la herramienta de escritorio para establecer el endpoint y el transporte en el RF-S1, consulte la documentación de Reachfar o a su proveedor de dispositivos.
 
-Si dispone de plantillas de comandos suministradas por Reachfar que incluyen marcadores como {{apn}}, {{apnu}} o {{apnp}}, mantenga esos marcadores al aplicarlas y reemplácelos por los valores de su operador de red según lo indique el fabricante.
+Si dispone de plantillas de comandos suministradas por Reachfar que incluyen marcadores como [apn], [apnu] o [apnp], mantenga esos marcadores al aplicarlas y reemplácelos por los valores de su operador de red según lo indique el fabricante.
 
 ## Notas sobre la configuración
 

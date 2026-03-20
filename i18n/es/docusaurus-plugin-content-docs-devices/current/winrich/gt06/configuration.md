@@ -73,7 +73,7 @@ Una vez configurado, el GT06 envía ubicación y telemetría al endpoint y puert
 
 ## Comandos de configuración de ejemplo
 
-El GT06 soporta un conjunto de comandos basado en SMS. Los siguientes comandos públicos se encuentran en la documentación del GT06 y se usan comúnmente para configurar el dispositivo para Plaspy. Conserve los marcadores como {{apn}} {{apnu}} y {{apnp}} al reemplazarlos por los valores de su operador.
+El GT06 soporta un conjunto de comandos basado en SMS. Los siguientes comandos públicos se encuentran en la documentación del GT06 y se usan comúnmente para configurar el dispositivo para Plaspy. Conserve los marcadores como [apn] [apnu] y [apnp] al reemplazarlos por los valores de su operador.
 
 - Reinicio de fábrica opcional inicial (use solo si es necesario durante la configuración):
 ```
@@ -85,9 +85,9 @@ El GT06 soporta un conjunto de comandos basado en SMS. Los siguientes comandos p
 801#W0#
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario y contraseña, reemplace {{apnu}} y {{apnp}} respectivamente. Mantenga el formato de los marcadores al enviar:
+- Configurar el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario y contraseña, reemplace [apnu] y [apnp] respectivamente. Mantenga el formato de los marcadores al enviar:
 ```
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 
 - Configurar el servidor GPRS hacia Plaspy usando la IP y el puerto (esto apunta el GT06 a Plaspy). Note el hash final como en los ejemplos del fabricante:
@@ -119,7 +119,7 @@ Alternativamente puede usar el dominio en lugar de la IP si el dispositivo acept
 - Las diferencias de firmware y las revisiones de hardware pueden cambiar la sintaxis o el comportamiento de los comandos SMS; confirme los comandos con la documentación de firmware de su dispositivo antes de aplicarlos.  
 - El GT06 soporta tanto configuración por SMS como configuración de servidor vía GPRS; elija el método que mejor se adapte a su instalación y a los requisitos de acceso.  
 - Cuando tenga la opción, TCP frente a UDP puede afectar características de entrega; Plaspy soporta ambos transportes y detectará el protocolo automáticamente una vez que el dispositivo se conecte.  
-- Reemplace los marcadores de APN {{apn}} {{apnu}} y {{apnp}} con los valores de su operador exactamente como se los haya proporcionado la compañía de telefonía móvil.  
+- Reemplace los marcadores de APN [apn] [apnu] y [apnp] con los valores de su operador exactamente como se los haya proporcionado la compañía de telefonía móvil.  
 - Plaspy usa el puerto 8888 para todos los dispositivos compatibles, por lo que no necesita un puerto personalizado por rastreador al integrar varias unidades.
 
 ## Por qué usar Plaspy con esta configuración

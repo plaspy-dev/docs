@@ -83,12 +83,12 @@ El AT21-4G admite provisión mediante SMS. A continuación se muestran comandos 
 
 - Establecer el APN del operador. Reemplace los marcadores con los valores reales del operador:
 ```
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
 Explicación de los marcadores:
-- {{apn}} es el nombre del APN proporcionado por su operador móvil.
-- {{apnu}} es el nombre de usuario del APN si se requiere; si no, dejar en blanco.
-- {{apnp}} es la contraseña del APN si se requiere; si no, dejar en blanco.
+- [apn] es el nombre del APN proporcionado por su operador móvil.
+- [apnu] es el nombre de usuario del APN si se requiere; si no, dejar en blanco.
+- [apnp] es la contraseña del APN si se requiere; si no, dejar en blanco.
 
 - Establecer el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy y habilitar el modo de conexión (el ejemplo usa el modo 1):
 ```

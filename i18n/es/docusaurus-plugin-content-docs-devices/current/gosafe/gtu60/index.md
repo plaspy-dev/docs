@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/gtu60
 id: gtu60
+sidebar_key: gosafgtu60_index_gtu60
 sidebar_label: GTU60
 title: Gosafe - GTU60
 sidebar_class_name: menu_item_tracker

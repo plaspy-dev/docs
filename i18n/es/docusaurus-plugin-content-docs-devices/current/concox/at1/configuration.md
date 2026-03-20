@@ -73,7 +73,7 @@ El AT1 envía ubicación, eventos y telemetría al endpoint y puerto compartidos
 
 ## Ejemplos de comandos de configuración
 
-El AT1 soporta configuración por SMS. Los siguientes comandos se presentan en el orden sugerido por el fabricante y deben enviarse como mensajes SMS al dispositivo. Conserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} cuando su APN requiera valores de usuario o contraseña. Marque el reinicio de fábrica como opcional y úselo solo al preparar un dispositivo para su configuración inicial o al solucionar problemas.
+El AT1 soporta configuración por SMS. Los siguientes comandos se presentan en el orden sugerido por el fabricante y deben enviarse como mensajes SMS al dispositivo. Conserve los marcadores de posición como [apn], [apnu] y [apnp] cuando su APN requiera valores de usuario o contraseña. Marque el reinicio de fábrica como opcional y úselo solo al preparar un dispositivo para su configuración inicial o al solucionar problemas.
 
 - Reinicio de fábrica inicial opcional
 ```text
@@ -87,9 +87,9 @@ GMT,E,0#
 
 - Establecer el APN del operador móvil (reemplace los marcadores de posición con los valores de su operador)
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Explicación: {{apn}} es el APN del operador. Si su APN requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} en el comando en el orden mostrado.
+Explicación: [apn] es el APN del operador. Si su APN requiere usuario y contraseña, incluya [apnu] y [apnp] en el comando en el orden mostrado.
 
 - Configurar el servidor GPRS a Plaspy por dominio (UDP o TCP en el puerto 8888)
 ```text

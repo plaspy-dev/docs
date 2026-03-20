@@ -78,13 +78,13 @@ El VT05C puede configurarse mediante comandos SMS enviados desde un teléfono m�
 
 - Configure el APN del operador
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 o, si se requieren usuario y clave:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explicación: Reemplace {{apn}} con el APN del operador. Use {{apnu}} y {{apnp}} si la SIM requiere usuario y contraseña de APN.
+Explicación: Reemplace [apn] con el APN del operador. Use [apnu] y [apnp] si la SIM requiere usuario y contraseña de APN.
 
 - Configure el servidor GPRS para apuntar a Plaspy dominio y puerto
 ```text

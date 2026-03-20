@@ -83,12 +83,12 @@ El AT09 admite configuración por SMS. Los ejemplos públicos siguientes usan la
 
 - Establecer el APN del operador (reemplace los marcadores con sus credenciales)
 ```
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
 Explicación de los marcadores:
-- {{apn}} es el nombre del APN del operador (por ejemplo internet)
-- {{apnu}} es el usuario del APN cuando el operador lo requiere; si no aplica, dejar en blanco
-- {{apnp}} es la contraseña del APN cuando el operador lo requiere; si no aplica, dejar en blanco
+- [apn] es el nombre del APN del operador (por ejemplo internet)
+- [apnu] es el usuario del APN cuando el operador lo requiere; si no aplica, dejar en blanco
+- [apnp] es la contraseña del APN cuando el operador lo requiere; si no aplica, dejar en blanco
 
 - Configurar el servidor GPRS a Plaspy usando la IP y el puerto y habilitar la ranura de servidor primaria
 ```

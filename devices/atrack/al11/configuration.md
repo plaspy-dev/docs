@@ -97,12 +97,12 @@ AT$FORM=1,@P,0,""
 
 - Configure GPRS server to Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 Explanation of placeholders:
-- {{apn}} = carrier APN string
-- {{apnu}} = APN username if required (leave empty if not required)
-- {{apnp}} = APN password if required (leave empty if not required)
+- [apn] = carrier APN string
+- [apnu] = APN username if required (leave empty if not required)
+- [apnp] = APN password if required (leave empty if not required)
 
 - Check device status (query)
 ```text
@@ -115,7 +115,7 @@ Note: These commands are public examples. Use the appropriate ATrack configurati
 
 - Firmware versions and hardware revisions may change command syntax or available features; confirm exact commands for your AL11 firmware.
 - Choose UDP or TCP according to your network needs; Plaspy accepts both and automatically detects the protocol used.
-- Ensure APN placeholders {{apn}}, {{apnu}}, and {{apnp}} are replaced with operator-specific values before applying the GPRS command.
+- Ensure APN placeholders [apn], [apnu], and [apnp] are replaced with operator-specific values before applying the GPRS command.
 - If you encounter connectivity issues, verify that the device can resolve d.plaspy.com or reach 54.85.159.138 on port 8888 from the SIM network.
 - Always consult the ATrack manual or vendor tool for the AL11 when uncertain about sequence, required parameters, or device-specific reset actions.
 

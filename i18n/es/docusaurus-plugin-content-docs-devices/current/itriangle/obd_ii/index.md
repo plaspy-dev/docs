@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/obd_ii
 id: obd_ii
+sidebar_key: itrianglobd_ii_index_obd_ii
 sidebar_label: OBD II
 title: iTriangle - OBD II
 sidebar_class_name: menu_item_tracker

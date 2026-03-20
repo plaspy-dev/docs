@@ -90,13 +90,13 @@ M000000,22,XXXXXXXXXXXXXXX
 2. Configurar el APN del operador
 Use el APN proporcionado por su operador móvil. Si se requieren nombre de usuario o contraseña del APN, inclúyalos como campos adicionales separados por comas.
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 O con nombre de usuario y contraseña del APN
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
-Nota: {{apn}} es el nombre del punto de acceso del operador. {{apnu}} es el marcador de usuario del APN. {{apnp}} es el marcador de contraseña del APN.
+Nota: [apn] es el nombre del punto de acceso del operador. [apnu] es el marcador de usuario del APN. [apnp] es el marcador de contraseña del APN.
 
 3. Establecer el intervalo de actualización a 60 segundos
 ```text

@@ -84,19 +84,19 @@ CalmAmp LMU-400 public SMS commands can be used to set APN, server, port, and to
 !R0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```
-!RP,2306,0,{{apn}}
-```
-
-- Set the APN username if required (replace {{apnu}} with the APN username)
-```
-!RP,2314,0,{{apnu}}
+!RP,2306,0,[apn]
 ```
 
-- Set the APN password if required (replace {{apnp}} with the APN password)
+- Set the APN username if required (replace [apnu] with the APN username)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2314,0,[apnu]
+```
+
+- Set the APN password if required (replace [apnp] with the APN password)
+```
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP address
@@ -121,9 +121,9 @@ Label: Rebooting is typically required to apply changes; treat this as a final s
 ```
 
 Notes on placeholders:
-- {{apn}} — the cellular operator APN string
-- {{apnu}} — APN username if the carrier requires authentication
-- {{apnp}} — APN password if the carrier requires authentication
+- [apn] — the cellular operator APN string
+- [apnu] — APN username if the carrier requires authentication
+- [apnp] — APN password if the carrier requires authentication
 
 ## Configuration Notes
 

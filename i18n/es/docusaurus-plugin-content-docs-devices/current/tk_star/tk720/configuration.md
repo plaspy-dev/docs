@@ -83,19 +83,19 @@ El TK720 admite configuración vía SMS mediante comandos. Los siguientes ejempl
 begin123456
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} por el APN de su operador):
+- Establecer el APN del operador (reemplazar [apn] por el APN de su operador):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el nombre de usuario del APN si se requiere (reemplazar {{apnu}} por el usuario del APN):
+- Establecer el nombre de usuario del APN si se requiere (reemplazar [apnu] por el usuario del APN):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN si se requiere (reemplazar {{apnp}} por la contraseña del APN):
+- Establecer la contraseña del APN si se requiere (reemplazar [apnp] por la contraseña del APN):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Apuntar el servidor GPRS a Plaspy usando la IP pública y el puerto:
@@ -115,9 +115,9 @@ gprs123456
 ```
 
 Explicación de los marcadores:
-- {{apn}} — la cadena APN de su operador móvil requerida para la conectividad de datos.  
-- {{apnu}} — usuario del APN si su operador lo exige.  
-- {{apnp}} — contraseña del APN si su operador la exige.
+- [apn] — la cadena APN de su operador móvil requerida para la conectividad de datos.  
+- [apnu] — usuario del APN si su operador lo exige.  
+- [apnp] — contraseña del APN si su operador la exige.
 
 Envíe cada comando como un SMS separado, a menos que su herramienta o método de aprovisionamiento soporte comandos en lote. Confirme el éxito de los comandos mediante las respuestas del dispositivo o la aparición de reportes en Plaspy.
 

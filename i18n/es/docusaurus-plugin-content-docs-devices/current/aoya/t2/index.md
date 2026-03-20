@@ -1,6 +1,7 @@
 ---
 slug: /aoya/t2
 id: t2
+sidebar_key: aoyt2_index_t2
 sidebar_label: T2
 title: AoYa - T2
 sidebar_class_name: menu_item_tracker

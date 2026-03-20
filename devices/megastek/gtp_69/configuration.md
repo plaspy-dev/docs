@@ -73,7 +73,7 @@ The GTP-69 is configured to initiate a GPRS data session using the operator APN 
 
 ## Example Configuration Commands
 
-The Megastek GTP-69 public configuration examples use SMS commands. The sample commands below use the default device password 000000 as shown in manufacturer examples. Replace placeholders before sending SMS. Preserve placeholders such as {{apn}}, {{apnu}}, {{apnp}}, and {{imei}} when preparing messages.
+The Megastek GTP-69 public configuration examples use SMS commands. The sample commands below use the default device password 000000 as shown in manufacturer examples. Replace placeholders before sending SMS. Preserve placeholders such as [apn], [apnu], [apnp], and {{imei}} when preparing messages.
 
 - Set the device ID
   ```
@@ -83,16 +83,16 @@ The Megastek GTP-69 public configuration examples use SMS commands. The sample c
 
 - Set the operator APN (include username and password only if required)
   ```
-  M000000,23,{{apn}}
+  M000000,23,[apn]
   ```
   or with optional APN username and password:
   ```
-  M000000,23,{{apn}},{{apnu}},{{apnp}}
+  M000000,23,[apn],[apnu],[apnp]
   ```
   Placeholder notes
-  - {{apn}} = operator APN string
-  - {{apnu}} = APN username when required
-  - {{apnp}} = APN password when required
+  - [apn] = operator APN string
+  - [apnu] = APN username when required
+  - [apnp] = APN password when required
 
 - Set the update interval to 60 seconds
   ```

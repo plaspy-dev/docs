@@ -1,6 +1,7 @@
 ---
 slug: /wanway/gs900
 id: gs900
+sidebar_key: wanwags900_index_gs900
 sidebar_label: GS900
 title: WanWay - GS900
 sidebar_class_name: menu_item_tracker

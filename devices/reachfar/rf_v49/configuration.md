@@ -81,7 +81,7 @@ The RF-V49 configuration method varies by Reachfar firmware and the manufacturer
 - Set the reporting port to 8888
 - Choose the transport as UDP or TCP if required
 
-If you have manufacturer-provided SMS commands or a configuration file, apply them in the order specified by Reachfar. Preserve any placeholders the manufacturer uses (for example, if commands include settings placeholders such as {{apn}}, keep them and substitute the correct values). Consult Reachfar documentation for command syntax and examples specific to your RF-V49 firmware.
+If you have manufacturer-provided SMS commands or a configuration file, apply them in the order specified by Reachfar. Preserve any placeholders the manufacturer uses (for example, if commands include settings placeholders such as [apn], keep them and substitute the correct values). Consult Reachfar documentation for command syntax and examples specific to your RF-V49 firmware.
 
 ## Configuration Notes
 

@@ -75,7 +75,7 @@ The AT-17F is configured to report location fixes and telemetry to the shared Pl
 
 The AT-17F supports configuration via the manufacturer web tool, USB programming, or SMS commands depending on firmware and installed options. Exact command syntax and available parameters depend on Autoseeker firmware and the configuration tool you use. When using manufacturer SMS or console commands, set the server to d.plaspy.com or 54.85.159.138 and the port to 8888 and select the transport UDP or TCP if required.
 
-Because Autoseeker publishes device specific command lists and SMS formats, refer to the official Autoseeker configuration guide for exact command templates and examples for the AT-17F. If your installation uses SMS commands, keep placeholders such as {{apn}} visible when the manufacturer template requires APN substitution and follow the vendor instructions for secure formatting.
+Because Autoseeker publishes device specific command lists and SMS formats, refer to the official Autoseeker configuration guide for exact command templates and examples for the AT-17F. If your installation uses SMS commands, keep placeholders such as [apn] visible when the manufacturer template requires APN substitution and follow the vendor instructions for secure formatting.
 
 ## Configuration Notes
 

@@ -79,14 +79,14 @@ The FM 2200 can accept batch parameter commands for quick configuration. The com
 - Batch parameter command for basic setup
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explanation of placeholders and fields
 
-- {{apn}} is your cellular network APN name provided by your SIM operator
-- {{apnu}} is the APN username if required by your operator otherwise leave blank
-- {{apnp}} is the APN password if required by your operator otherwise leave blank
+- [apn] is your cellular network APN name provided by your SIM operator
+- [apnu] is the APN username if required by your operator otherwise leave blank
+- [apnp] is the APN password if required by your operator otherwise leave blank
 - 2004 sets the server domain to d.plaspy.com which is Plaspy's server
 - 2005 sets the port to 8888 used by Plaspy for all devices
 - 2006 may be a transport or enable flag depending on FM 2200 firmware use the official parameter mapping in Teltonika documentation to confirm meaning

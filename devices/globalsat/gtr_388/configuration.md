@@ -81,7 +81,7 @@ Note: The example uses the Plaspy server IP 54.85.159.138 and port 8888. If your
 - Setup command to configure APN values and the Plaspy server
 
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Reboot command to restart the device and apply settings (optional but commonly used)
@@ -98,9 +98,9 @@ TSPRXAB27GHKLMnaicz*U!
 
 Placeholders explanation:
 - {{imei}} — Replace with the device IMEI number.
-- {{apn}} — Replace with your cellular data APN name if the device requires data connectivity.
-- {{apnu}} — Replace with APN username where applicable, or leave empty if not used.
-- {{apnp}} — Replace with APN password where applicable, or leave empty if not used.
+- [apn] — Replace with your cellular data APN name if the device requires data connectivity.
+- [apnu] — Replace with APN username where applicable, or leave empty if not used.
+- [apnp] — Replace with APN password where applicable, or leave empty if not used.
 - {{checksum}} — Replace with the checksum computed for the command portion before the asterisk. The manufacturer example computes an XOR checksum over the characters of the command before the '*' then converts that value to two uppercase hexadecimal digits.
 
 Checksum generation note:

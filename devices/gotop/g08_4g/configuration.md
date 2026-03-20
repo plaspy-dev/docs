@@ -81,7 +81,7 @@ Common manufacturer configuration approaches you may encounter:
 - SMS commands that update server, port, and APN values using the device command set
 - Local USB or serial tools provided by the vendor for advanced configuration
 
-If you plan to use SMS commands, consult the GOTOP command list for exact phrases. Placeholders you may see in command examples are typically used for APN values such as {{apn}}, {{apnu}}, or {{apnp}} and should be replaced with your SIM provider values when instructed by the manufacturer guide.
+If you plan to use SMS commands, consult the GOTOP command list for exact phrases. Placeholders you may see in command examples are typically used for APN values such as [apn], [apnu], or [apnp] and should be replaced with your SIM provider values when instructed by the manufacturer guide.
 
 ## Configuration Notes
 

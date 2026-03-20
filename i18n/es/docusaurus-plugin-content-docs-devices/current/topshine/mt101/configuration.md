@@ -85,9 +85,9 @@ W000000,990,099###
 W000000,010,<first 14 IMEI digits>
 ```
 
-- Establecer el APN del operador Reemplace {{apn}} con el APN de su operador Si su APN requiere usuario o contraseña incluya {{apnu}} y {{apnp}} respectivamente El formato acepta solo APN o APN,usuario,contraseña
+- Establecer el APN del operador Reemplace [apn] con el APN de su operador Si su APN requiere usuario o contraseña incluya [apnu] y [apnp] respectivamente El formato acepta solo APN o APN,usuario,contraseña
 ```text
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
 
 - Establecer el servidor GPRS hacia Plaspy Este ejemplo usa la IP y el puerto publicados Puede usar el dominio d.plaspy.com en lugar de la IP si lo prefiere
@@ -111,10 +111,10 @@ W000000,601
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es la cadena APN de su operador móvil
-- {{apnu}} es el usuario APN si el operador lo requiere
-- {{apnp}} es la contraseña APN si es necesaria
-- <first 14 IMEI digits> debe reemplazarse por los primeros 14 dígitos que solicita el comando del fabricante conserve el IMEI completo para la identificación en la plataforma cuando sea necesario
+- [apn] es la cadena APN de su operador móvil
+- [apnu] es el usuario APN si el operador lo requiere
+- [apnp] es la contraseña APN si es necesaria
+- \<first 14 IMEI digits> debe reemplazarse por los primeros 14 dígitos que solicita el comando del fabricante conserve el IMEI completo para la identificación en la plataforma cuando sea necesario
 
 ## Notas de configuración
 

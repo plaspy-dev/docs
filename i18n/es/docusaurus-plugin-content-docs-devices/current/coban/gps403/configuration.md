@@ -76,7 +76,7 @@ Una vez configurado, el GPS403 enviará la ubicación y la telemetría del dispo
 
 ## Comandos de configuración de ejemplo
 
-El GPS403 puede configurarse enviando comandos SMS. Los comandos a continuación están en el orden comúnmente usado para la configuración inicial. La contraseña por defecto en estos ejemplos es 123456. Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} por el APN, usuario APN y contraseña APN de su operador respectivamente.
+El GPS403 puede configurarse enviando comandos SMS. Los comandos a continuación están en el orden comúnmente usado para la configuración inicial. La contraseña por defecto en estos ejemplos es 123456. Reemplace los marcadores como [apn], [apnu] y [apnp] por el APN, usuario APN y contraseña APN de su operador respectivamente.
 
 - Reinicio de fábrica opcional inicial (use solo cuando sea necesario para una configuración limpia)
 ```text
@@ -88,14 +88,14 @@ begin123456
 time zone123456 0
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador móvil)
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador móvil)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Establecer usuario y contraseña del APN (reemplace los marcadores según sea necesario)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
@@ -128,8 +128,8 @@ protocol123456 18
 ```
 
 Notas sobre los marcadores y la contraseña:
-- {{apn}} es el APN del operador móvil requerido para datos GPRS.
-- {{apnu}} y {{apnp}} son el usuario y la contraseña del APN, cuando el operador los proporciona.
+- [apn] es el APN del operador móvil requerido para datos GPRS.
+- [apnu] y [apnp] son el usuario y la contraseña del APN, cuando el operador los proporciona.
 - Mantenga la contraseña por defecto 123456 a menos que la guía de administración del dispositivo indique cambiarla. Modifique contraseñas como parte de las buenas prácticas de seguridad cuando el dispositivo lo permita.
 
 ## Observaciones sobre la configuración

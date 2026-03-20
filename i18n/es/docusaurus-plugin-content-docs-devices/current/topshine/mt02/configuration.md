@@ -90,9 +90,9 @@ Explicación: Reemplace {{device_id_14}} con los primeros 14 dígitos del IMEI d
 
 - Configurar el APN del operador. Reemplace los marcadores con los valores de su operador. Si se requieren usuario o contraseña inclúyalos después del APN separados por comas.
 ```text
-W000000,011,{{apn}}{{,{{apnu}},{{apnp}}}}
+W000000,011,[apn]{{,[apnu],[apnp]}}
 ```
-Explicación: {{apn}} = APN del operador. {{apnu}} = usuario del APN si es requerido. {{apnp}} = contraseña del APN si es requerida. Incluya usuario y contraseña solo cuando el operador lo exija.
+Explicación: [apn] = APN del operador. [apnu] = usuario del APN si es requerido. [apnp] = contraseña del APN si es requerida. Incluya usuario y contraseña solo cuando el operador lo exija.
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy para que el dispositivo reporte directamente a Plaspy:
 ```text
@@ -118,7 +118,7 @@ W000000,601
 
 Notas sobre los comandos SMS:
 - Los comandos anteriores muestran la contraseña de fábrica 000000 insertada después del prefijo del comando. Si la contraseña del dispositivo ha sido cambiada, sustituya por la contraseña actual.
-- Reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}} con los ajustes de su operador. Reemplace {{device_id_14}} con el ID derivado del IMEI según la guía del fabricante.
+- Reemplace marcadores como [apn], [apnu] y [apnp] con los ajustes de su operador. Reemplace {{device_id_14}} con el ID derivado del IMEI según la guía del fabricante.
 - Tras realizar cambios por SMS puede ser necesario reiniciar el equipo para que los ajustes se apliquen.
 
 ## Notas de configuración

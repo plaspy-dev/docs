@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/v_680
 id: v_680
+sidebar_key: v_suv_680_index_v_680
 sidebar_label: V-680
 title: V-SUN - V-680
 sidebar_class_name: menu_item_tracker

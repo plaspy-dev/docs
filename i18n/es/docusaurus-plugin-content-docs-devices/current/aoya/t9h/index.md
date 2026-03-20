@@ -1,6 +1,7 @@
 ---
 slug: /aoya/t9h
 id: t9h
+sidebar_key: aoyt9h_index_t9h
 sidebar_label: T9H
 title: AoYa - T9H
 sidebar_class_name: menu_item_tracker

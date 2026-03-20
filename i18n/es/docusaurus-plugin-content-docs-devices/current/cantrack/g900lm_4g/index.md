@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/g900lm_4g
 id: g900lm_4g
+sidebar_key: cantracg900lm_4g_index_g900lm_4g
 sidebar_label: G900LM-4G
 title: CanTrack - G900LM-4G
 sidebar_class_name: menu_item_tracker

@@ -76,20 +76,20 @@ El JT705A se configura para establecer una conexión de datos GPRS y enviar actu
 El JT705A soporta configuración vía SMS usando el ID del rastreador seguido del comando de configuración. Los ejemplos públicos que se muestran a continuación son los formatos SMS documentados para establecer el servidor GPRS y el APN en el JT705A. Reemplace los marcadores por los valores de su equipo.
 
 - Tenga en cuenta el marcador de ID del dispositivo etiquetado como {{trackerID}} que debe ser el identificador requerido por Jointech.
-- {{apn}} es la cadena APN del operador de la SIM. {{apnu}} y {{apnp}} son el usuario del APN y la contraseña del APN opcionales si su operador los requiere.
+- [apn] es la cadena APN del operador de la SIM. [apnu] y [apnp] son el usuario del APN y la contraseña del APN opcionales si su operador los requiere.
 
 1) Establecer servidor GPRS, IP y puerto y el APN
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 Puede alternativamente reemplazar la IP numérica por el dominio
 ```text
-({{trackerID}},2,S02,129,1,d.plaspy.com,8888,{{apn}})
+({{trackerID}},2,S02,129,1,d.plaspy.com,8888,[apn])
 ```
 
 2) Establecer usuario y contraseña del APN si su operador los requiere
 ```text
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Envíe estos mensajes SMS desde un teléfono al JT705A siguiendo las instrucciones del fabricante. Mantenga el orden mostrado cuando el dispositivo necesite que el APN esté presente antes de iniciar la sesión GPRS.

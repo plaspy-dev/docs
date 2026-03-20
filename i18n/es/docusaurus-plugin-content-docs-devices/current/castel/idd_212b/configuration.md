@@ -84,7 +84,7 @@ Los siguientes comandos se toman del formato público de configuración de Caste
 - Para establecer el APN y el servidor IP y puerto use el comando set gprs. Reemplace los marcadores con sus valores de APN y la clave secreta SMS del dispositivo:
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Para comprobar la configuración actual de GPRS y servidor en el dispositivo use el comando get gprs:
@@ -95,9 +95,9 @@ Los siguientes comandos se toman del formato público de configuración de Caste
 
 Notas sobre los marcadores y su uso:
 - {{SecretKey}} es la contraseña SMS del dispositivo. Por defecto es los últimos seis caracteres ASCII del ID del dispositivo, a menos que el instalador la haya cambiado.
-- {{apn}} es la cadena APN de la red móvil proporcionada por el operador de la SIM.
-- {{apnu}} es el usuario de APN cuando la red lo requiere. Si no es necesario, déjelo en blanco.
-- {{apnp}} es la contraseña de APN cuando la red la requiere. Si no es necesaria, déjela en blanco.
+- [apn] es la cadena APN de la red móvil proporcionada por el operador de la SIM.
+- [apnu] es el usuario de APN cuando la red lo requiere. Si no es necesario, déjelo en blanco.
+- [apnp] es la contraseña de APN cuando la red la requiere. Si no es necesaria, déjela en blanco.
 - Los ejemplos anteriores usan la IP del servidor Plaspy 54.85.159.138 y el puerto 8888. Plaspy también es accesible en el dominio d.plaspy.com, pero confirme si su equipo acepta nombres de dominio o requiere una IP.
 
 Envíe estos comandos SMS desde un número reconocido por el dispositivo o siguiendo la guía del fabricante para configuración por SMS. Espere las respuestas de confirmación del dispositivo antes de proceder con la validación.

@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/yg119
 id: yg119
+sidebar_key: cantracyg119_index_yg119
 sidebar_label: YG119
 title: CanTrack - YG119
 sidebar_class_name: menu_item_tracker

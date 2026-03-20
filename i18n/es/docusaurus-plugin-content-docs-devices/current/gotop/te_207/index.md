@@ -1,6 +1,7 @@
 ---
 slug: /gotop/te_207
 id: te_207
+sidebar_key: gotote_207_index_te_207
 sidebar_label: TE-207
 title: GOTOP - TE-207
 sidebar_class_name: menu_item_tracker

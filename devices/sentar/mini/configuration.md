@@ -76,7 +76,7 @@ If you use the SMS commands below, follow manufacturer guidance about command sy
 
 ## Example Configuration Commands
 
-The Mini can be configured by sending SMS commands to the device. The following commands are public examples provided for the Sentar Mini. The sample setup uses the default device password 123456. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with operator-specific values when required.
+The Mini can be configured by sending SMS commands to the device. The following commands are public examples provided for the Sentar Mini. The sample setup uses the default device password 123456. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with operator-specific values when required.
 
 - Factory reset (optional initial setup):
 ```text
@@ -93,11 +93,11 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Set operator APN where xxx is MCC and yy is MNC. Replace {{apn}}, {{apnu}}, {{apnp}} with your operator APN, username, and password as required:
+- Set operator APN where xxx is MCC and yy is MNC. Replace [apn], [apnu], [apnp] with your operator APN, username, and password as required:
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explanation: {{apn}} is the mobile operator APN string, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. The trailing xxxyy is a placeholder combining MCC and MNC when the device expects that format.
+Explanation: [apn] is the mobile operator APN string, [apnu] is the APN username if required, and [apnp] is the APN password if required. The trailing xxxyy is a placeholder combining MCC and MNC when the device expects that format.
 
 - Set GPRS server to Plaspy by IP and port (as provided in public settings):
 ```text

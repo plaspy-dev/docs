@@ -76,7 +76,7 @@ El Sentar V82S se configura para enviar datos de ubicación y estado del disposi
 
 ## Ejemplos de comandos de configuración
 
-Los siguientes comandos SMS se extraen del contenido público de configuración del Sentar V82S. La contraseña del dispositivo utilizada en estos ejemplos es la por defecto documentada 123456. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con los valores de su operador. Los marcadores MCC y MNC xxxyy son específicos del operador y opcionales según la sintaxis del comando.
+Los siguientes comandos SMS se extraen del contenido público de configuración del Sentar V82S. La contraseña del dispositivo utilizada en estos ejemplos es la por defecto documentada 123456. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos con los valores de su operador. Los marcadores MCC y MNC xxxyy son específicos del operador y opcionales según la sintaxis del comando.
 
 - Reinicio de fábrica opcional (usar solo si necesita restaurar valores por defecto)
 ```text
@@ -93,9 +93,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Configurar el APN del operador donde {{apn}} es el nombre del APN y {{apnu}} y {{apnp}} son el usuario y la contraseña del APN respectivamente; reemplace xxxyy con MCC y MNC si el dispositivo lo requiere
+- Configurar el APN del operador donde [apn] es el nombre del APN y [apnu] y [apnp] son el usuario y la contraseña del APN respectivamente; reemplace xxxyy con MCC y MNC si el dispositivo lo requiere
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto indicados en esta guía
@@ -114,7 +114,7 @@ pw,123456,ts#
 ```
 
 Notas sobre los comandos anteriores:
-- Reemplace {{apn}}, {{apnu}} y {{apnp}} por los valores APN que le proporcione su operador móvil. Si no se requieren usuario o contraseña, deje esos campos vacíos o siga la sintaxis indicada por el fabricante.
+- Reemplace [apn], [apnu] y [apnp] por los valores APN que le proporcione su operador móvil. Si no se requieren usuario o contraseña, deje esos campos vacíos o siga la sintaxis indicada por el fabricante.
 - La contraseña por defecto mostrada en la documentación pública es 123456. Cambie la contraseña del dispositivo tras la configuración inicial si el equipo lo permite.
 - La entrada del servidor GPRS apunta el dispositivo a la IP de Plaspy 54.85.159.138 en el puerto 8888 como se usa en Plaspy. Alternativamente puede usar el dominio d.plaspy.com cuando el dispositivo soporte nombres de dominio.
 

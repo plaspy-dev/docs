@@ -1,6 +1,7 @@
 ---
 slug: /eelink/got08
 id: got08
+sidebar_key: eelingot08_index_got08
 sidebar_label: GOT08
 title: EElink - GOT08
 sidebar_class_name: menu_item_tracker

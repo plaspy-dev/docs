@@ -32,7 +32,7 @@ The goal of configuration is to prepare the TS-P4s so it can securely and reliab
 - Set the server endpoint so reports go to Plaspy at the shared server and port.
 - Choose transport (UDP or TCP) if the tracker requires a transport selection for reporting.
 - Apply and save the configuration, then verify the device registers and reports to Plaspy.
-- Use manufacturer published SMS commands for devices that accept over the air setup and keep placeholders such as {{apn}} as needed.
+- Use manufacturer published SMS commands for devices that accept over the air setup and keep placeholders such as [apn] as needed.
 
 ## Plaspy Server Settings
 
@@ -80,19 +80,19 @@ The following SMS commands are published in the ThingSys public configuration ma
 FORMAT
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username (replace {{apnu}} with your APN username if required)
+- Set the APN username (replace [apnu] with your APN username if required)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (replace {{apnp}} with your APN password if required)
+- Set the APN password (replace [apnp] with your APN password if required)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server using the published IP and port for Plaspy (this command uses the IP form shown in public material)
@@ -107,7 +107,7 @@ CXZT
 
 Notes on the commands above:
 - The default device password shown in public materials is 123456; include it where the device requires authentication in SMS format.
-- The placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your mobile operator values.
+- The placeholders [apn], [apnu], and [apnp] must be replaced with your mobile operator values.
 - The public example uses the server IP 54.85.159.138 and port 8888. If your device supports domain names and the manufacturer documents that option, you can use d.plaspy.com with the same port; otherwise use the IP form provided by ThingSys.
 
 ## Configuration Notes

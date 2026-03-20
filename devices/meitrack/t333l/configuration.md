@@ -68,7 +68,7 @@ When configured, the T333L reports GNSS positions and events to the shared Plasp
 2. Enter the Plaspy server address as d.plaspy.com or use the server IP 54.85.159.138 where the tool or command requires an IP.
 3. Set the server port to 8888. Remember Plaspy uses this same port for all supported devices.
 4. Choose UDP or TCP if the device requires an explicit transport selection; Plaspy can accept either and auto detects the protocol.
-5. Provide the device APN credentials in the GPRS settings using placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when required by your command or tool.
+5. Provide the device APN credentials in the GPRS settings using placeholders such as [apn], [apnu], and [apnp] when required by your command or tool.
 6. Apply or save the configuration and restart the device if required by the tracker model or firmware.
 7. Validate that the device reports to Plaspy by confirming the device appears in the platform and that recent position and event messages are received.
 
@@ -82,9 +82,9 @@ The T333L can be configured with SMS commands. The following public example comm
 ```
 
 - Set the GPRS server to Plaspy using the server IP and port and provide APN details
-  - Placeholder explanation: {{apn}} is the mobile network APN. {{apnu}} and {{apnp}} are optional APN username and APN password values and may be omitted if not required by the carrier.
+  - Placeholder explanation: [apn] is the mobile network APN. [apnu] and [apnp] are optional APN username and APN password values and may be omitted if not required by the carrier.
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Note: If you prefer to use the domain name instead of the numeric IP and the device accepts hostnames, enter d.plaspy.com in the same position as the IP address when configuring with tools that support DNS names.
 
@@ -108,7 +108,7 @@ Note: If you prefer to use the domain name instead of the numeric IP and the dev
 - SMS-based configuration is supported in the public guidance shown above; ensure your SIM allows sending SMS commands if using this method.
 - Firmware variations and hardware revisions can change command syntax or available parameters; always verify commands against the T333L firmware you have installed.
 - Choose UDP or TCP based on network stability and carrier behavior; Plaspy accepts both and auto-detects the protocol, but network performance and NAT handling can influence which transport is preferable in your environment.
-- Ensure APN credentials ({{apn}}, {{apnu}}, {{apnp}}) are correct for the SIM and carrier; incorrect APN settings will prevent GPRS connections to d.plaspy.com or 54.85.159.138.
+- Ensure APN credentials ([apn], [apnu], [apnp]) are correct for the SIM and carrier; incorrect APN settings will prevent GPRS connections to d.plaspy.com or 54.85.159.138.
 - If you use the factory reset command, treat it as an initial setup step or troubleshooting measure and reapply required server and APN settings afterward.
 
 ## Why Use Plaspy with This Configuration

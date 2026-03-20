@@ -82,9 +82,9 @@ The TLT-2K can be configured by SMS. The public sample commands below use the sa
 ```
 - Set the operator APN (replace placeholders with your operator values)
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}#
+#803#0000#[apn]#[apnu]#[apnp]#
 ```
-  - {{apn}} is the mobile network APN. {{apnu}} is the APN username if required. {{apnp}} is the APN password if required. Omit or leave placeholders blank if your operator does not use them.
+  - [apn] is the mobile network APN. [apnu] is the APN username if required. [apnp] is the APN password if required. Omit or leave placeholders blank if your operator does not use them.
 
 - Set the GPRS server to Plaspy by IP and port
 ```text

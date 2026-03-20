@@ -93,12 +93,12 @@ pw,123456,imsi#
 ```
 
 4. Set the operator APN
-- {{apn}} is the APN string for the mobile operator
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the APN string for the mobile operator
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 - xxxyy represents MCC and MNC concatenated as indicated by the device
 ```
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 5. Set GPRS server to Plaspy using the public IP and port
@@ -119,7 +119,7 @@ Note: Some firmware variants expect a comma after the password as in pw,123456,u
 pw,123456,ts#
 ```
 
-These commands are presented in the original public form. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values when sending SMS to the device.
+These commands are presented in the original public form. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values when sending SMS to the device.
 
 ## Configuration Notes
 

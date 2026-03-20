@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/tk200
 id: tk200
+sidebar_key: cantractk200_index_tk200
 sidebar_label: TK200
 title: CanTrack - TK200
 sidebar_class_name: menu_item_tracker

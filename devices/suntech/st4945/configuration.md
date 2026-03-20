@@ -73,7 +73,7 @@ The ST4945 is configured to report to the shared Plaspy server endpoint and port
 
 ## Example Configuration Commands
 
-The ST4945 supports SMS based commands for network and reporting configuration. The following public commands are extracted from Suntech instructions and shown as templates. Replace {{device_id}} with the device ID derived from the IMEI as described below. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when you insert your operator values.
+The ST4945 supports SMS based commands for network and reporting configuration. The following public commands are extracted from Suntech instructions and shown as templates. Replace {{device_id}} with the device ID derived from the IMEI as described below. Preserve the placeholders [apn], [apnu], and [apnp] when you insert your operator values.
 
 How to calculate the device ID
 - The device ID used by Suntech SMS commands is the six digits taken from the IMEI as documented by Suntech the last 6 numbers excluding the final check digit.
@@ -82,18 +82,18 @@ How to calculate the device ID
 1) Set the operator APN and GPRS server
 - If APN username and password are not required use flag 0 and leave username and password blank
 ```text
-SA200NTW;{{device_id}};02;0;{{apn}};; ;54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;0;[apn];; ;54.85.159.138;8888;;;;
 ```
 
-- If APN username or password are required use flag 1 and include {{apnu}} and {{apnp}}
+- If APN username or password are required use flag 1 and include [apnu] and [apnp]
 ```text
-SA200NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Note on placeholders
-- {{apn}} is your mobile operator APN
-- {{apnu}} is the APN username when required
-- {{apnp}} is the APN password when required
+- [apn] is your mobile operator APN
+- [apnu] is the APN username when required
+- [apnp] is the APN password when required
 - {{device_id}} is the six digit device identifier derived from the IMEI as shown above
 
 2) Set the update interval to 60 seconds

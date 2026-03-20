@@ -98,10 +98,10 @@ setprotocol tcp
 
 - Establecer APN con marcadores si lo requiere su SIM
 ```text
-setapn {{apn}} {{apnu}} {{apnp}}
+setapn [apn] [apnu] [apnp]
 ```
 
-Nota: Los comandos anteriores son ilustrativos. Los comandos SMS o de herramienta y los nombres exactos de los parámetros difieren según el firmware. Conserve marcadores como {{apn}}, {{apnu}} y {{apnp}} cuando utilice plantillas de comandos y reemplácelos por los valores de su operador de SIM.
+Nota: Los comandos anteriores son ilustrativos. Los comandos SMS o de herramienta y los nombres exactos de los parámetros difieren según el firmware. Conserve marcadores como [apn], [apnu] y [apnp] cuando utilice plantillas de comandos y reemplácelos por los valores de su operador de SIM.
 
 ## Notas de configuración
 

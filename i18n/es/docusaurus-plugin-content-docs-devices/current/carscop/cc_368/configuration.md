@@ -90,15 +90,15 @@ TIMEZONE*123456*+00
 
 3) Establecer el APN del operador
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-- {{apn}} es el marcador para el nombre del APN de su operador para acceso a datos.
+- [apn] es el marcador para el nombre del APN de su operador para acceso a datos.
 
 4) Establecer nombre de usuario y contraseña del APN (opcional)
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
-- {{apnu}} es el marcador del nombre de usuario del APN y {{apnp}} es el marcador de la contraseña del APN. Use esto solo si su operador requiere autenticación.
+- [apnu] es el marcador del nombre de usuario del APN y [apnp] es el marcador de la contraseña del APN. Use esto solo si su operador requiere autenticación.
 
 5) Configurar el servidor GPRS hacia Plaspy usando IP numérica y puerto
 ```text

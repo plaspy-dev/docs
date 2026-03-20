@@ -1,6 +1,7 @@
 ---
 slug: /dct/solar_asset_tracker
 id: solar_asset_tracker
+sidebar_key: dcsolar_asset_tracker_index_solar_asset_tracker
 sidebar_label: Solar Asset Tracker
 title: DCT - Solar Asset Tracker
 sidebar_class_name: menu_item_tracker

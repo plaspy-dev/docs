@@ -1,6 +1,7 @@
 ---
 slug: /megastek/gt_99
 id: gt_99
+sidebar_key: megastegt_99_index_gt_99
 sidebar_label: GT-99
 title: Megastek - GT-99
 sidebar_class_name: menu_item_tracker

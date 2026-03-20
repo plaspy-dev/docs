@@ -51,7 +51,7 @@ These server values are the central target for the Watch so that location, SOS a
 - Access to the manufacturer configuration method for the Watch such as SMS-based commands or official MiniFinder configuration software.
 - A Plaspy account and device registration available to confirm the device appears in the platform after configuration.
 - Basic confirmation of device identifiers (IMEI or device ID) to match the Watch to the Plaspy record.
-- Optional: knowledge of required placeholders such as {{apn}}, {{apnu}}, and {{apnp}} for operator credentials if used by your SIM provider.
+- Optional: knowledge of required placeholders such as [apn], [apnu], and [apnp] for operator credentials if used by your SIM provider.
 
 ## How This Tracker Connects to Plaspy
 
@@ -83,9 +83,9 @@ The manufacturer provides SMS-based commands for basic setup. Sent in the order 
 tz+00
 ```
 
-- Set the operator APN. Replace the placeholder {{apn}} with your operator APN. If your operator requires a username and password, include {{apnu}} and {{apnp}} as provided by the operator; those fields are optional and may be omitted if not required.
+- Set the operator APN. Replace the placeholder [apn] with your operator APN. If your operator requires a username and password, include [apnu] and [apnp] as provided by the operator; those fields are optional and may be omitted if not required.
 ```
-S1,{{apn}}{{,{{apnu}},{{apnp}}}}
+S1,[apn]{{,[apnu],[apnp]}}
 ```
 Note: The S1 command may accept optional username and password fields. Keep the placeholders exactly as shown when you have credentials to include.
 
@@ -101,7 +101,7 @@ Order matters for reliable setup: configure timezone and APN first, then set the
 - Commands and parameter formats can vary by firmware version and hardware revision; refer to the Watch manual for device-specific syntax.
 - The Watch supports SMS-based configuration in the examples above; manufacturer tools or desktop software may provide alternative methods.
 - Choose UDP or TCP according to the device option for transport; Plaspy accepts both on port 8888 and automatically detects the protocol.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} available and replace them with the exact values from your mobile operator.
+- Keep APN placeholders [apn], [apnu], and [apnp] available and replace them with the exact values from your mobile operator.
 - If configuration does not take effect immediately, reboot the Watch after applying settings and recheck connectivity.
 
 ## Why Use Plaspy with This Configuration

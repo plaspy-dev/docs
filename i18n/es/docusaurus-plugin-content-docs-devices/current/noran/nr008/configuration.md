@@ -75,19 +75,19 @@ El NR008 envía datos de ubicación y eventos a Plaspy bien por datos GPRS o por
 
 ## Ejemplos de comandos de configuración
 
-El NR008 se puede configurar enviando mensajes SMS al dispositivo. Los comandos de ejemplo públicos que aparecen a continuación usan la contraseña del equipo 000000 por defecto. Reemplace {{apn}} y los marcadores opcionales por los valores de su operador. Mantenga el campo de contraseña del dispositivo y cámbielo si ya modificó la contraseña por defecto.
+El NR008 se puede configurar enviando mensajes SMS al dispositivo. Los comandos de ejemplo públicos que aparecen a continuación usan la contraseña del equipo 000000 por defecto. Reemplace [apn] y los marcadores opcionales por los valores de su operador. Mantenga el campo de contraseña del dispositivo y cámbielo si ya modificó la contraseña por defecto.
 
 1. Ajustar el APN del operador
-Envíe un SMS con el siguiente formato. Reemplace {{apn}} con el APN de su operador. Si su operador requiere usuario y contraseña para el APN incluya {{apnu}} y {{apnp}} como se muestra.
+Envíe un SMS con el siguiente formato. Reemplace [apn] con el APN de su operador. Si su operador requiere usuario y contraseña para el APN incluya [apnu] y [apnp] como se muestra.
 
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 
 Variante opcional con usuario y contraseña del APN:
 
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 2. Configurar el servidor GPRS (apuntar el dispositivo a Plaspy)
@@ -119,8 +119,8 @@ A000000,004
 
 Notas sobre marcadores e identificadores:
 - 000000 es la contraseña pública por defecto en este ejemplo. Si cambió la contraseña del dispositivo, reemplace 000000 por su contraseña en todos los comandos.
-- {{apn}} debe reemplazarse por la cadena APN proporcionada por su operador móvil.
-- {{apnu}} y {{apnp}} son opcionales y representan el usuario y la contraseña del APN cuando el operador los requiere.
+- [apn] debe reemplazarse por la cadena APN proporcionada por su operador móvil.
+- [apnu] y [apnp] son opcionales y representan el usuario y la contraseña del APN cuando el operador los requiere.
 - Para obtener el Id del dispositivo después de una comprobación de estado, busque la primera palabra que comience con NR en el mensaje de respuesta.
 
 ## Notas de configuración

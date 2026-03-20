@@ -82,9 +82,9 @@ GMT,0000,0#
 
 - Set the operator APN and optional APN auth placeholders
 ```sms
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explanation: {{apn}} is the access point name, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. Leave username and password empty if your carrier does not require them.
+Explanation: [apn] is the access point name, [apnu] is the APN username if required, and [apnp] is the APN password if required. Leave username and password empty if your carrier does not require them.
 
 - Set the GPRS server to Plaspy using the server IP and port 8888
 ```sms

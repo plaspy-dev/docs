@@ -1,6 +1,7 @@
 ---
 slug: /cityeasy/008
 id: 008
+sidebar_key: cityeas008_index_008
 sidebar_label: 008
 title: Cityeasy - 008
 sidebar_class_name: menu_item_tracker

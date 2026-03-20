@@ -1,6 +1,7 @@
 ---
 slug: /gotop/vt_810
 id: vt_810
+sidebar_key: gotovt_810_index_vt_810
 sidebar_label: VT-810
 title: GOTOP - VT-810
 sidebar_class_name: menu_item_tracker

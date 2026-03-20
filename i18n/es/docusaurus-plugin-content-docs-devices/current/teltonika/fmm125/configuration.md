@@ -79,13 +79,13 @@ Para configurar los parámetros básicos en unidades FMM125 usando un comando de
 - El comando siguiente es un ejemplo común de estilo setparam de Teltonika. Establece el APN, el usuario y la contraseña opcionales del APN, el dominio del servidor Plaspy, el puerto Plaspy y un valor de transporte según ejemplos públicos de configuración.
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} — reemplácelo por el APN del operador móvil de la SIM instalada
-- {{apnu}} — reemplace por el usuario del APN si su operador lo exige; deje vacío o elimínelo si no es necesario
-- {{apnp}} — reemplace por la contraseña del APN si su operador lo exige; deje vacío o elimínelo si no es necesario
+- [apn] — reemplácelo por el APN del operador móvil de la SIM instalada
+- [apnu] — reemplace por el usuario del APN si su operador lo exige; deje vacío o elimínelo si no es necesario
+- [apnp] — reemplace por la contraseña del APN si su operador lo exige; deje vacío o elimínelo si no es necesario
 
 Cómo utilizar este comando:
 - Envíelo como SMS al dispositivo si su despliegue y la versión de firmware del dispositivo soportan aprovisionamiento por SMS

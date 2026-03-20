@@ -74,7 +74,7 @@ The AVL-011 is configured to report to the shared Plaspy server endpoint and por
 
 ## Example Configuration Commands
 
-To set the tracker send the following commands by SMS messages. The sample setup uses the device default password 000000. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your carrier values where applicable.
+To set the tracker send the following commands by SMS messages. The sample setup uses the device default password 000000. Replace placeholders such as [apn], [apnu], and [apnp] with your carrier values where applicable.
 
 - Set the timezone to UTC 0
 ```text
@@ -83,9 +83,9 @@ W000000,032,0
 
 - Set the operator APN
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-Note: {{apn}} is your carrier APN. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders that should be included only if your carrier requires them.
+Note: [apn] is your carrier APN. [apnu] and [apnp] are optional APN username and APN password placeholders that should be included only if your carrier requires them.
 
 - Set the GPRS server to the Plaspy IP and port
 ```text

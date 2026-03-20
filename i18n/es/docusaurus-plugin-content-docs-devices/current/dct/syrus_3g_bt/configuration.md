@@ -72,7 +72,7 @@ El Syrus 3G+ BT se configura para reenviar telemetría y datos de ubicación al 
 
 ## Comandos de configuración de ejemplo
 
-El siguiente ejemplo es un script Syrus SB provisto como ejemplo público para comenzar. Puede copiar y pegar este contenido en un archivo de texto nuevo, guardarlo con extensión .tmf y cargarlo con Syrus Desk. Conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de APN de su operador.
+El siguiente ejemplo es un script Syrus SB provisto como ejemplo público para comenzar. Puede copiar y pegar este contenido en un archivo de texto nuevo, guardarlo con extensión .tmf y cargarlo con Syrus Desk. Conserve los marcadores de posición [apn], [apnu] y [apnp] y reemplácelos por los valores de APN de su operador.
 
 - Script de ejemplo completo para Syrus Desk
 
@@ -85,10 +85,10 @@ El siguiente ejemplo es un script Syrus SB provisto como ejemplo público para c
 >SXADP**U
 
 # configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 
 # The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
@@ -109,9 +109,9 @@ El siguiente ejemplo es un script Syrus SB provisto como ejemplo público para c
 ```
 
 Notas sobre los marcadores de posición usados en el script:
-- {{apn}} es la cadena APN de la red móvil requerida para la conectividad de datos.
-- {{apnu}} y {{apnp}} son marcadores de posición opcionales para nombre de usuario y contraseña del APN si su operador requiere autenticación.
-- El script incluye una eliminación inicial de la configuración previa (>SRT;CONFIG<) que puede usar para un montaje limpio durante despliegues iniciales; considere esto opcional durante actualizaciones incrementales.
+- [apn] es la cadena APN de la red móvil requerida para la conectividad de datos.
+- [apnu] y [apnp] son marcadores de posición opcionales para nombre de usuario y contraseña del APN si su operador requiere autenticación.
+- El script incluye una eliminación inicial de la configuración previa (>SRT;CONFIG\<) que puede usar para un montaje limpio durante despliegues iniciales; considere esto opcional durante actualizaciones incrementales.
 
 ## Observaciones de configuración
 

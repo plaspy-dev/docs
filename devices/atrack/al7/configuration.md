@@ -74,7 +74,7 @@ When configured, the AL7 opens a GPRS session and sends location and event messa
 
 ## Example Configuration Commands
 
-The following public example commands are published for configuring an AL7 for Plaspy. They show setting an ACC event, a 60 second tracking interval, binary output format, and the GPRS server. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when you substitute your carrier values.
+The following public example commands are published for configuring an AL7 for Plaspy. They show setting an ACC event, a 60 second tracking interval, binary output format, and the GPRS server. Preserve the placeholders [apn], [apnu], and [apnp] when you substitute your carrier values.
 
 1. Set ACC event reporting and related actions
 ```text
@@ -99,9 +99,9 @@ AT$FORM=1,@P,0,""
 
 4. Configure the GPRS server to Plaspy with APN placeholders
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-- Explanation: GPRS setup including APN fields and the Plaspy server IP and port. Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, username, and password if required. The command includes the Plaspy server IP 54.85.159.138 and port 8888 as shown.
+- Explanation: GPRS setup including APN fields and the Plaspy server IP and port. Replace [apn], [apnu], and [apnp] with your operator APN, username, and password if required. The command includes the Plaspy server IP 54.85.159.138 and port 8888 as shown.
 
 Verification command to check device status
 ```text
@@ -109,13 +109,13 @@ AT$INFO=?
 ```
 - Explanation: queries device status and configuration for verification after applying settings.
 
-Note on placeholders: {{apn}} is the mobile operator access point name, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. Some networks only require the APN and leave username and password blank.
+Note on placeholders: [apn] is the mobile operator access point name, [apnu] is the APN username if required, and [apnp] is the APN password if required. Some networks only require the APN and leave username and password blank.
 
 ## Configuration Notes
 
 - Firmware variations can change AT command syntax or available parameters; verify commands for your device firmware before applying them.
 - Choose UDP or TCP according to installation needs; both transports are supported by Plaspy on port 8888 but behavior such as connection persistence differs by transport.
-- If your operator requires specific APN authentication, be sure to populate {{apnu}} and {{apnp}} or leave them empty as required by the carrier.
+- If your operator requires specific APN authentication, be sure to populate [apnu] and [apnp] or leave them empty as required by the carrier.
 - Some installers prefer the device IP entry method instead of domain names; both d.plaspy.com and 54.85.159.138 are supported by Plaspy.
 - Use the AT$INFO=? verification command after configuration to confirm device state and GPRS registration.
 

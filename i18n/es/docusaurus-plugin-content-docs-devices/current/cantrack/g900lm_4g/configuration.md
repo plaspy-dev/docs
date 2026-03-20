@@ -79,9 +79,9 @@ El G900LM-4G envía datos de ubicación y estado a Plaspy a través de GPRS/TCP-
 
 La familia G900LM-4G normalmente soporta comandos por SMS y comandos de plataforma para APN, servidor, consultas de posición, timers, control de relé y alarmas. La sintaxis exacta de los comandos puede variar según el firmware y las versiones regionales. Los ejemplos que siguen son nombres representativos de comandos y formas de ejemplo extraídas de la documentación de la familia de dispositivos; confirme la sintaxis exacta con la documentación del fabricante antes de su uso.
 
-- Set APN (reemplazar {{apn}} por el APN de su operadora):
+- Set APN (reemplazar [apn] por el APN de su operadora):
 ```
-APN,{{apn}}
+APN,[apn]
 ```
 - Set server by domain or IP and port (reemplazar marcadores por valores reales si su firmware requiere sintaxis específica):
 ```

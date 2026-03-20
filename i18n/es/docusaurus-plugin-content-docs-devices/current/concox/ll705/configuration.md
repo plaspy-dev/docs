@@ -89,13 +89,13 @@ GMT,E,0#
 
 - Establecer el APN del operador
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 Si su APN requiere usuario o contraseña mantenga los marcadores:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: {{apn}} es la cadena APN de su operador. {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN.
+Nota: [apn] es la cadena APN de su operador. [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN.
 
 - Configurar el servidor GPRS por dominio (recomendado)
 ```
@@ -126,7 +126,7 @@ GPRSON,1#
 GPRSSET#
 ```
 
-Estos comandos se envían al dispositivo por SMS según la guía pública de Concox. Mantenga los marcadores como {{apn}} sin sustituirlos hasta que los reemplace por los valores del operador apropiados para su SIM.
+Estos comandos se envían al dispositivo por SMS según la guía pública de Concox. Mantenga los marcadores como [apn] sin sustituirlos hasta que los reemplace por los valores del operador apropiados para su SIM.
 
 ## Observaciones sobre la configuración
 

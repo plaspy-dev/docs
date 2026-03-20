@@ -78,13 +78,13 @@ El siguiente comando público es un formato común de actualización de parámet
 - Ejemplo de comando por SMS o configuración:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores de posición y campos en el comando anterior:
-- {{apn}} es el nombre del APN proporcionado por su operador móvil.
-- {{apnu}} es el nombre de usuario del APN si su operador lo requiere. Déjelo vacío si no es necesario.
-- {{apnp}} es la contraseña del APN si su operador la solicita.
+- [apn] es el nombre del APN proporcionado por su operador móvil.
+- [apnu] es el nombre de usuario del APN si su operador lo requiere. Déjelo vacío si no es necesario.
+- [apnp] es la contraseña del APN si su operador la solicita.
 - 2004 está configurado a d.plaspy.com para apuntar el dispositivo al dominio Plaspy. También puede usar la IP 54.85.159.138 en herramientas del fabricante donde se requiera una IP.
 - 2005 establece el puerto a 8888 que es usado por Plaspy para todos los dispositivos.
 - 2006 se relaciona con la selección de transporte o un parámetro relacionado que usa el dispositivo; consulte la documentación de Teltonika para el significado exacto y los valores según su firmware.

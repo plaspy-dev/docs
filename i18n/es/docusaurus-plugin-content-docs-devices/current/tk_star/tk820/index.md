@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tk820
 id: tk820
+sidebar_key: tk_statk820_index_tk820
 sidebar_label: TK820
 title: TK-Star - TK820
 sidebar_class_name: menu_item_tracker

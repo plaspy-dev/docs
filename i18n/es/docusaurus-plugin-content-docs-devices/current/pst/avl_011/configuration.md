@@ -74,7 +74,7 @@ El AVL-011 se configura para reportar al endpoint y puerto compartidos de Plaspy
 
 ## Ejemplos de comandos de configuración
 
-Para configurar el rastreador envíe los comandos siguientes por SMS. La configuración de ejemplo usa la contraseña por defecto 000000. Reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador cuando corresponda.
+Para configurar el rastreador envíe los comandos siguientes por SMS. La configuración de ejemplo usa la contraseña por defecto 000000. Reemplace marcadores como [apn], [apnu] y [apnp] con los valores de su operador cuando corresponda.
 
 - Establecer la zona horaria a UTC 0
 ```text
@@ -83,9 +83,9 @@ W000000,032,0
 
 - Configurar el APN del operador
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-Nota: {{apn}} es el APN de su operador. {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN que deben incluirse solo si su operador los exige.
+Nota: [apn] es el APN de su operador. [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN que deben incluirse solo si su operador los exige.
 
 - Configurar el servidor GPRS con la IP y el puerto de Plaspy
 ```text

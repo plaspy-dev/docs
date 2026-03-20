@@ -1,6 +1,7 @@
 ---
 slug: /calmamp/aut_620
 id: aut_620
+sidebar_key: calmamaut_620_index_aut_620
 sidebar_label: AUT-620
 title: CalmAmp - AUT-620
 sidebar_class_name: menu_item_tracker

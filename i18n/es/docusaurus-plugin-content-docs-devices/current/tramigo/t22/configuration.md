@@ -77,11 +77,11 @@ El Tramigo T22 puede configurarse enviando comandos SMS al dispositivo. Los coma
 
 1. Establecer el APN del operador
 ```text
-GPRS,APN,{{apn}},{{apnu}},{{apnp}}
+GPRS,APN,[apn],[apnu],[apnp]
 ```
-- {{apn}} es el nombre del APN del operador
-- {{apnu}} es el usuario APN si el operador lo requiere
-- {{apnp}} es la contraseña APN si el operador la requiere
+- [apn] es el nombre del APN del operador
+- [apnu] es el usuario APN si el operador lo requiere
+- [apnp] es la contraseña APN si el operador la requiere
 
 2. Activar el reporte FIND cada 1 minuto
 ```text
@@ -116,7 +116,7 @@ Status
 - La configuración del Tramigo T22 puede realizarse por SMS como se muestra en los comandos públicos anteriores o mediante las herramientas del proveedor Tramigo; elija la opción más adecuada para su instalación.
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis de comandos y los parámetros soportados. Si un comando falla, confirme la sintaxis correcta con la documentación de Tramigo para su versión de firmware.
 - Elija TCP o UDP según sus necesidades de red y el soporte del dispositivo. Plaspy acepta ambos transportes en el puerto 8888 y detectará automáticamente el protocolo entrante.
-- Mantenga las credenciales APN y cualquier marcador de posición seguros. Reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores del operador antes de enviar comandos.
+- Mantenga las credenciales APN y cualquier marcador de posición seguros. Reemplace [apn], [apnu] y [apnp] con los valores del operador antes de enviar comandos.
 - Si los ajustes no surten efecto de inmediato, puede ser necesario reiniciar o apagar y volver a encender el dispositivo para aplicar los cambios de red y servidor.
 
 ## Por qué usar Plaspy con esta configuración

@@ -86,9 +86,9 @@ RESET
 8960000E00
 ```
 
-- Set the APN for your mobile operator. Replace the placeholders with your operator APN, APN username, and APN password. If no username or password are required, leave {{apnu}} and {{apnp}} empty or omit as per your operator rules.
+- Set the APN for your mobile operator. Replace the placeholders with your operator APN, APN username, and APN password. If no username or password are required, leave [apnu] and [apnp] empty or omit as per your operator rules.
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 
 - Configure the GPRS server to point to Plaspy using the Plaspy IP and port
@@ -117,9 +117,9 @@ RCONF
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator access point name.
-- {{apnu}} is the APN username if required.
-- {{apnp}} is the APN password if required.
+- [apn] is the mobile operator access point name.
+- [apnu] is the APN username if required.
+- [apnp] is the APN password if required.
 
 Send these SMS commands from an authorized phone number according to your device's SMS configuration policy. Adjust reporting intervals to match your operational needs.
 

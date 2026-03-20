@@ -77,7 +77,7 @@ El GOT08 se configura para enviar ubicación y telemetría OBD al endpoint y pue
 
 ## Comandos de configuración de ejemplo
 
-El GOT08 admite configuración mediante SMS. Los siguientes comandos SMS públicos se proporcionan en el contenido del fabricante y pueden enviarse en orden por SMS al dispositivo. Preserve marcadores como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con los valores de su operador según sea necesario.
+El GOT08 admite configuración mediante SMS. Los siguientes comandos SMS públicos se proporcionan en el contenido del fabricante y pueden enviarse en orden por SMS al dispositivo. Preserve marcadores como [apn], [apnu] y [apnp] y reemplácelos con los valores de su operador según sea necesario.
 
 - Reset opcional a fábrica (usar solo si necesita restablecer el dispositivo a valores predeterminados):
 ```text
@@ -91,9 +91,9 @@ GMT,E,0#
 
 - Configurar el APN del operador (reemplazar los marcadores con los valores de su operador; mantener el formato separado por comas):
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} es el nombre del APN. {{apnu}} es el usuario del APN si se requiere. {{apnp}} es la contraseña del APN si se requiere. Si su operador no pide usuario o contraseña, omita esos marcadores según la sintaxis del dispositivo.
+Explicación: [apn] es el nombre del APN. [apnu] es el usuario del APN si se requiere. [apnp] es la contraseña del APN si se requiere. Si su operador no pide usuario o contraseña, omita esos marcadores según la sintaxis del dispositivo.
 
 - Configurar el servidor GPRS por dominio (recomendado usar el dominio de Plaspy):
 ```text

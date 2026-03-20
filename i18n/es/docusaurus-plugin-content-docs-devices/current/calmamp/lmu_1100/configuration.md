@@ -73,21 +73,21 @@ El LMU-1100 se configura para enviar datos GPRS al endpoint y puerto compartido 
 
 ## Ejemplos de comandos de configuración
 
-El LMU-1100 puede configurarse mediante comandos SMS. Los siguientes comandos se presentan en el orden recomendado por la guía del fabricante. El MID del dispositivo (ID de 10 dígitos) devuelto por el equipo puede ser requerido al enviar comandos SMS; la documentación del fabricante indica que el MID se devuelve con el comando !R0. Los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN del operador, el usuario del APN y la contraseña del APN respectivamente.
+El LMU-1100 puede configurarse mediante comandos SMS. Los siguientes comandos se presentan en el orden recomendado por la guía del fabricante. El MID del dispositivo (ID de 10 dígitos) devuelto por el equipo puede ser requerido al enviar comandos SMS; la documentación del fabricante indica que el MID se devuelve con el comando !R0. Los marcadores de posición como [apn], [apnu] y [apnp] deben reemplazarse por el APN del operador, el usuario del APN y la contraseña del APN respectivamente.
 
 - Establecer el APN del operador
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Establecer el nombre de usuario del APN del operador (si es requerido)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Establecer la contraseña del APN del operador (si es requerida)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Establecer el servidor GPRS a la IP de Plaspy
@@ -111,9 +111,9 @@ El LMU-1100 puede configurarse mediante comandos SMS. Los siguientes comandos se
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} — reemplace con el nombre del APN de su operador móvil.
-- {{apnu}} — reemplace con el usuario del APN si el operador lo requiere.
-- {{apnp}} — reemplace con la contraseña del APN si el operador la requiere.
+- [apn] — reemplace con el nombre del APN de su operador móvil.
+- [apnu] — reemplace con el usuario del APN si el operador lo requiere.
+- [apnp] — reemplace con la contraseña del APN si el operador la requiere.
 
 Si su flujo de trabajo usa el dominio en lugar de la IP, ingrese d.plaspy.com donde la configuración del dispositivo soporte nombres de dominio. Los comandos de ejemplo anteriores usan la IP pública del servidor tal como se muestra en la guía del fabricante.
 

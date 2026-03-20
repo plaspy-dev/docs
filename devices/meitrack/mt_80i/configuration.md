@@ -73,7 +73,7 @@ The MT-80i is configured to report to the shared Plaspy server endpoint and port
 
 ## Example Configuration Commands
 
-The MT-80i commonly accepts SMS configuration commands. The manufacturer sample commands below are provided in the public Meitrack format. The sample commands use the default device password 0000. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN and credentials as required.
+The MT-80i commonly accepts SMS configuration commands. The manufacturer sample commands below are provided in the public Meitrack format. The sample commands use the default device password 0000. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your operator APN and credentials as required.
 
 - Optional initial factory reset or factory settings (use only when needed):
 ```text
@@ -82,9 +82,9 @@ The MT-80i commonly accepts SMS configuration commands. The manufacturer sample 
 
 - Set the GPRS server to use Plaspy by IP and port with APN placeholder:
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-Note: the A21 command above specifies GPRS server parameters. Replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator APN, APN user, and APN password as required. If no APN user or password is needed, leave the placeholders empty or omit according to device SMS syntax.
+Note: the A21 command above specifies GPRS server parameters. Replace [apn], [apnu], and [apnp] with your mobile operator APN, APN user, and APN password as required. If no APN user or password is needed, leave the placeholders empty or omit according to device SMS syntax.
 
 - Set the time zone to UTC 0:
 ```text

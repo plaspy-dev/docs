@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/lt_501r
 id: lt_501r
+sidebar_key: globalsalt_501r_index_lt_501r
 sidebar_label: LT-501R
 title: GlobalSat - LT-501R
 sidebar_class_name: menu_item_tracker

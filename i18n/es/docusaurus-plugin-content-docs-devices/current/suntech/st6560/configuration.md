@@ -83,13 +83,13 @@ Guía para el ID del dispositivo
 
 Example template (replace placeholders before sending):
 ```
-SA200NTW;{{device_id}};02;{{auth_flag}};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{{auth_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - {{device_id}} = seis dígitos derivados del IMEI como se explicó arriba.
-- {{auth_flag}} = 1 si {{apnu}} o {{apnp}} están presentes; en caso contrario 0.
-- {{apn}} = APN proporcionado por su operador móvil.
-- {{apnu}} = usuario APN si el operador lo requiere (puede quedar en blanco).
-- {{apnp}} = contraseña APN si el operador la requiere (puede quedar en blanco).
+- {{auth_flag}} = 1 si [apnu] o [apnp] están presentes; en caso contrario 0.
+- [apn] = APN proporcionado por su operador móvil.
+- [apnu] = usuario APN si el operador lo requiere (puede quedar en blanco).
+- [apnp] = contraseña APN si el operador la requiere (puede quedar en blanco).
 
 Example filled with the sample device id 901234 and no APN auth:
 ```

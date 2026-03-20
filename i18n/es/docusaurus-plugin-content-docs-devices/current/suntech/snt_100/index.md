@@ -1,6 +1,7 @@
 ---
 slug: /suntech/snt_100
 id: snt_100
+sidebar_key: suntecsnt_100_index_snt_100
 sidebar_label: SNT 100
 title: Suntech - SNT 100
 sidebar_class_name: menu_item_tracker

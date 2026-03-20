@@ -87,9 +87,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Set the operator APN
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explanation: {{apn}} is the APN name for your mobile operator, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. Keep placeholders and fill with operator values.
+Explanation: [apn] is the APN name for your mobile operator, [apnu] is the APN username if required, and [apnp] is the APN password if required. Keep placeholders and fill with operator values.
 
 - Set the GPRS server to Plaspy by domain and IP on port 8888
 ```text
@@ -112,7 +112,7 @@ Send these commands according to your provisioning workflow. The order shown is 
 ## Configuration Notes
 
 - The public SMS commands above use the default device password queclink. If the password has been changed on a unit, use the current password when sending SMS configuration.  
-- APN placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with the operator specific values for the SIM card in the device.  
+- APN placeholders [apn], [apnu], and [apnp] must be replaced with the operator specific values for the SIM card in the device.  
 - Firmware versions and hardware revisions can change the exact command syntax or supported parameters. Verify command compatibility with the unit firmware.  
 - Choose UDP or TCP based on your deployment needs and any local network conditions. Both transports are supported for Plaspy on port 8888.  
 - SMS based provisioning is a common method for field configuration but official QuecLink tools or PC software may provide a more controlled workflow for bulk provisioning.

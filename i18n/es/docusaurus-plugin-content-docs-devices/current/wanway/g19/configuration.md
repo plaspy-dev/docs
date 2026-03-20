@@ -72,17 +72,17 @@ Una vez configurado, el G19 envía su ubicación y estado del dispositivo al end
 
 ## Ejemplo de comandos de configuración
 
-El G19 admite configuración por SMS. A continuación figuran los comandos públicos que pueden enviarse por SMS en el orden mostrado. Mantenga los marcadores tal como aparecen y reemplace {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador cuando corresponda.
+El G19 admite configuración por SMS. A continuación figuran los comandos públicos que pueden enviarse por SMS en el orden mostrado. Mantenga los marcadores tal como aparecen y reemplace [apn], [apnu] y [apnp] por los valores de su operador cuando corresponda.
 
 - Configurar el APN del operador (reemplace los marcadores). Si se requieren usuario y contraseña inclúyalos después del APN, separados por comas:
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 Si necesita usuario y contraseña use la forma opcional:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: {{apn}} es la cadena APN del operador. {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN.
+Nota: [apn] es la cadena APN del operador. [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN.
 
 - Establecer el servidor GPRS hacia Plaspy usando el dominio y puerto del servidor (se conserva la bandera de transporte tal como la acepte el dispositivo):
 ```text

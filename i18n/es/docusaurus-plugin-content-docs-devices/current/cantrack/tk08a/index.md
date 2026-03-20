@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/tk08a
 id: tk08a
+sidebar_key: cantractk08a_index_tk08a
 sidebar_label: TK08A
 title: CanTrack - TK08A
 sidebar_class_name: menu_item_tracker

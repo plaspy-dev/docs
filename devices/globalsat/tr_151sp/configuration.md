@@ -68,7 +68,7 @@ The TR-151SP can be configured to send its data to Plaspy by updating its server
 2. Enter the Plaspy endpoint using either the domain d.plaspy.com or the IP 54.85.159.138 as required by the device interface.
 3. Set the port to 8888 (Plaspy uses the same port for all devices).
 4. Choose UDP or TCP transport if the tracker requires a transport selection during setup.
-5. Provide APN, APN username, and APN password placeholders as needed for your SIM using {{apn}}, {{apnu}}, and {{apnp}}.
+5. Provide APN, APN username, and APN password placeholders as needed for your SIM using [apn], [apnu], and [apnp].
 6. Apply or save the configuration and then restart or reboot the device if required by the device firmware.
 7. Validate that the TR-151SP reports to Plaspy and that data appears in the Plaspy platform.
 
@@ -80,7 +80,7 @@ To set the tracker send the following commands by SMS messages. The public examp
 Send this SMS (replace placeholders and calculate checksum as explained below):
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Reboot command (optional, use when a restart is needed to apply settings)
@@ -91,9 +91,9 @@ GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
 
 Notes about placeholders and checksum:
 - {{imei}} — replace with the device IMEI.
-- {{apn}} — replace with your SIM provider APN.
-- {{apnu}} — replace with your APN username if required, or leave blank if none.
-- {{apnp}} — replace with your APN password if required, or leave blank if none.
+- [apn] — replace with your SIM provider APN.
+- [apnu] — replace with your APN username if required, or leave blank if none.
+- [apnp] — replace with your APN password if required, or leave blank if none.
 - {{checksum}} and {{checksumreeboot}} — the command requires a checksum appended after the asterisk. The publicly provided checksum routine computes an XOR of the command characters before the asterisk and outputs a two digit uppercase hexadecimal value. Ensure you compute the checksum for the portion of the command before the * and append it as shown.
 
 The original public example also referenced an overall SMS wrapper format used by Plaspy for batch messages. When using single SMS configuration, send the commands exactly as shown above with the correct checksum.

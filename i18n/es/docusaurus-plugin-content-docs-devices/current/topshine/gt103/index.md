@@ -1,6 +1,7 @@
 ---
 slug: /topshine/gt103
 id: gt103
+sidebar_key: topshingt103_index_gt103
 sidebar_label: GT103
 title: TopShine - GT103
 sidebar_class_name: menu_item_tracker

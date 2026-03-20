@@ -81,11 +81,11 @@ El MD600 puede configurarse mediante comandos SMS. Los ejemplos siguientes usan 
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP y el puerto. Marcadores:
-  - {{apn}} = APN de su operador
-  - {{apnu}} = usuario APN (opcional)
-  - {{apnp}} = contraseña APN (opcional)
+  - [apn] = APN de su operador
+  - [apnu] = usuario APN (opcional)
+  - [apnp] = contraseña APN (opcional)
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Nota: Este comando muestra la forma con dirección IP usada en la guía de ejemplo del fabricante. Puede introducir d.plaspy.com en herramientas o interfaces del dispositivo que acepten nombres de dominio en lugar de una IP.
 

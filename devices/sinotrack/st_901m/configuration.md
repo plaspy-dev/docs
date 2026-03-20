@@ -48,7 +48,7 @@ The goal of the configuration process is to set the ST-901M to forward its GPRS 
 - Access to the tracker for SMS based configuration or access to the vendor configuration tool that issues the same commands.
 - Power and a hardwired installation as appropriate for vehicle use so the device can register on the network.
 - The device IMEI and access to any installer or admin credentials required by the vendor to send SMS configuration commands.
-- Confirmation of the APN, APN user, and APN password values for your operator to populate the {{apn}}, {{apnu}}, and {{apnp}} placeholders.
+- Confirmation of the APN, APN user, and APN password values for your operator to populate the [apn], [apnu], and [apnp] placeholders.
 - Access to the official SinoTrack documentation or vendor support for firmware specific instructions if behavior differs from this guide.
 
 ## How This Tracker Connects to Plaspy
@@ -88,12 +88,12 @@ The ST-901M can be configured by SMS commands. The following public commands are
 
 - Set the APN for the mobile operator
   ```
-  8030000 {{apn}} {{apnu}} {{apnp}}
+  8030000 [apn] [apnu] [apnp]
   ```
   Where:
-  - {{apn}} is the operator APN string
-  - {{apnu}} is the APN username if required by the operator (leave blank if not used)
-  - {{apnp}} is the APN password if required by the operator (leave blank if not used)
+  - [apn] is the operator APN string
+  - [apnu] is the APN username if required by the operator (leave blank if not used)
+  - [apnp] is the APN password if required by the operator (leave blank if not used)
 
 - Configure the GPRS server to Plaspy using the Plaspy server IP and port
   ```
@@ -127,7 +127,7 @@ The ST-901M can be configured by SMS commands. The following public commands are
 ## Configuration Notes
 
 - The SMS command set and exact command syntax can vary with firmware version and vendor tool, so verify commands with the device documentation before wide deployment.
-- Use the APN placeholders {{apn}}, {{apnu}}, and {{apnp}} to insert your operator values; leave username or password blank if the operator does not require them.
+- Use the APN placeholders [apn], [apnu], and [apnp] to insert your operator values; leave username or password blank if the operator does not require them.
 - The device supports configuring the server by IP or domain. If your firmware accepts domains you can use d.plaspy.com instead of the IP address.
 - Choose UDP or TCP based on installer preference or firmware support; Plaspy accepts either on port 8888 and automatically detects the tracker protocol.
 - SMS based configuration is useful when the device is installed in the field and there is no immediate console access, but ensure that the SIM has SMS ability and sufficient signal.

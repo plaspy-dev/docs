@@ -83,8 +83,8 @@ The HB-A6 can be configured using Huabao's official configuration tools or SMS/s
 
 If your vendor supplies SMS configuration commands or a serial command set for the HB-A6, apply the Plaspy server settings shown above (d.plaspy.com or 54.85.159.138 and port 8888) in the appropriate parameters. For example, a generic command pattern used by some Huabao devices might accept the server and port as parameters; adapt this pattern according to the device manual:
 
-- Replace <server> with d.plaspy.com or 54.85.159.138
-- Replace <port> with 8888
+- Replace \<server> with d.plaspy.com or 54.85.159.138
+- Replace \<port> with 8888
 - Choose TCP or UDP as required by your installation
 
 Because command syntax differs across firmware releases, use the official Huabao documentation or the configuration utility provided by your supplier to format and send commands.

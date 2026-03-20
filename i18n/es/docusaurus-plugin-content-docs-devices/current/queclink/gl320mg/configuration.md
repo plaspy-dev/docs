@@ -72,7 +72,7 @@ Los QuecLink GL320MG informan ubicación y eventos de dispositivo al endpoint y 
 
 ## Comandos de configuración de ejemplo
 
-El GL320MG puede configurarse mediante comandos SMS. Los siguientes comandos públicos se ofrecen como ejemplos comunes. Estos comandos usan la contraseña del dispositivo que aparece en ejemplos públicos: queclink. Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador móvil.
+El GL320MG puede configurarse mediante comandos SMS. Los siguientes comandos públicos se ofrecen como ejemplos comunes. Estos comandos usan la contraseña del dispositivo que aparece en ejemplos públicos: queclink. Reemplace los marcadores como [apn], [apnu] y [apnp] con los valores de su operador móvil.
 
 1. Paso inicial opcional: Restaurar ajustes de fábrica (ejecutar solo si necesita un estado limpio de fábrica)
 ```text
@@ -86,11 +86,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configurar el APN del operador (reemplace los marcadores por los valores de su operador)
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = nombre del APN de su operador  
-- {{apnu}} = usuario del APN si el operador lo requiere (dejar en blanco si no es necesario)  
-- {{apnp}} = contraseña del APN si el operador lo requiere (dejar en blanco si no es necesario)
+- [apn] = nombre del APN de su operador  
+- [apnu] = usuario del APN si el operador lo requiere (dejar en blanco si no es necesario)  
+- [apnp] = contraseña del APN si el operador lo requiere (dejar en blanco si no es necesario)
 
 4. Configurar el servidor GPRS hacia Plaspy usando dominio e IP con puerto 8888 (Plaspy acepta UDP o TCP en este puerto)
 ```text

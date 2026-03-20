@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/v_690
 id: v_690
+sidebar_key: v_suv_690_index_v_690
 sidebar_label: V-690
 title: V-SUN - V-690
 sidebar_class_name: menu_item_tracker

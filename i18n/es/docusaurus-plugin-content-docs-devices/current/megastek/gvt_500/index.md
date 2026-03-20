@@ -1,6 +1,7 @@
 ---
 slug: /megastek/gvt_500
 id: gvt_500
+sidebar_key: megastegvt_500_index_gvt_500
 sidebar_label: GVT-500
 title: Megastek - GVT-500
 sidebar_class_name: menu_item_tracker

@@ -77,7 +77,7 @@ The LK720-2G transmits GPS coordinates and device telemetry over the 2G GSM netw
 
 The exact commands and syntax for the LK720-2G depend on manufacturer firmware and the configuration method you use. Some installations use SMS parameter commands, others use the vendor web or mobile tools. Because the LK720-2G supports SMS configuration as a fallback, consult the device manual for the precise SMS command format and placeholders.
 
-If you receive manufacturer-provided SMS commands or a command list, apply them in the order shown by the manufacturer and preserve any placeholders such as APN or account values. Example placeholder explanation: if a command includes {{apn}} or similar, replace that placeholder with your SIM operator APN string.
+If you receive manufacturer-provided SMS commands or a command list, apply them in the order shown by the manufacturer and preserve any placeholders such as APN or account values. Example placeholder explanation: if a command includes [apn] or similar, replace that placeholder with your SIM operator APN string.
 
 ## Configuration Notes
 

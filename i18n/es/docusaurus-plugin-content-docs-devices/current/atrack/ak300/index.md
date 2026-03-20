@@ -1,6 +1,7 @@
 ---
 slug: /atrack/ak300
 id: ak300
+sidebar_key: atracak300_index_ak300
 sidebar_label: AK300
 title: ATrack - AK300
 sidebar_class_name: menu_item_tracker

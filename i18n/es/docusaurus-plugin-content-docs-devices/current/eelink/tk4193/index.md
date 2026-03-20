@@ -1,6 +1,7 @@
 ---
 slug: /eelink/tk4193
 id: tk4193
+sidebar_key: eelintk4193_index_tk4193
 sidebar_label: TK419‑3
 title: EElink - TK419‑3
 sidebar_class_name: menu_item_tracker

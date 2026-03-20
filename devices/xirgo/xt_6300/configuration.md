@@ -80,11 +80,11 @@ The XT-6300 can be configured by SMS using the public commands shown below. Thes
 
 1. Set the operator APN. Replace the placeholders with your operator APN values:
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apn}} is the APN string for your mobile operator.
-- {{apnu}} is the APN username placeholder if required by the operator.
-- {{apnp}} is the APN password placeholder if required by the operator.
+- [apn] is the APN string for your mobile operator.
+- [apnu] is the APN username placeholder if required by the operator.
+- [apnp] is the APN password placeholder if required by the operator.
 
 2. Set the GPRS server to point the tracker at Plaspy. This command includes the port and the Plaspy server IP:
 ```text
@@ -100,7 +100,7 @@ Send these SMS messages using the device installer workflow described by Xirgo. 
 - Transport selection of UDP or TCP can affect behavior in network environments; choose the transport your installation requires and ensure it matches any firewall rules.
 - Plaspy uses the same port 8888 for all supported devices and automatically detects the tracker protocol on incoming connections.
 - Firmware versions and hardware options such as OBDII, JBUS, or optional Bluetooth may change available configuration commands or interfaces. Verify commands against the device firmware release.
-- When using placeholders like {{apn}} keep operator credentials accurate and test connectivity before large scale deployment.
+- When using placeholders like [apn] keep operator credentials accurate and test connectivity before large scale deployment.
 
 ## Why Use Plaspy with This Configuration
 

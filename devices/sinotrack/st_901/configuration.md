@@ -85,11 +85,11 @@ RESET
 ```
 - Set the APN for the mobile operator
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-  - {{apn}} is the operator APN name
-  - {{apnu}} is the APN username if required (leave blank or use placeholder if not required)
-  - {{apnp}} is the APN password if required
+  - [apn] is the operator APN name
+  - [apnu] is the APN username if required (leave blank or use placeholder if not required)
+  - [apnp] is the APN password if required
 
 - Set up the GPRS reporting server to Plaspy using the Plaspy server IP and port
 ```text
@@ -123,7 +123,7 @@ RCONF
 ## Configuration Notes
 
 - These SMS commands are the publicly documented method for ST-901 configuration; vendor tools or PC software may also exist and follow a similar flow.
-- Placeholders such as {{apn}} {{apnu}} and {{apnp}} must be replaced with your operator APN details. Username and password are not always required.
+- Placeholders such as [apn] [apnu] and [apnp] must be replaced with your operator APN details. Username and password are not always required.
 - Firmware versions and regional variants can change command syntax or available options; confirm commands with the current SinoTrack documentation.
 - Choose UDP or TCP as the transport only if the device exposes that option; Plaspy accepts connections over either transport on the shared port.
 - Use the RCONF command to confirm the device ID and server settings after configuration and before validating in Plaspy.

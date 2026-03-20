@@ -76,7 +76,7 @@ El CH-5704 se configura para reportar ubicación y datos del dispositivo a trav�
 
 ## Comandos de configuración de ejemplo
 
-A continuación se muestran comandos SMS de ejemplo extraídos de contenido público del fabricante. Estos comandos usan la contraseña del dispositivo tal como aparece en los ejemplos públicos. La contraseña en estos ejemplos es 123456 y es la que figura por defecto en la documentación pública. Mantenga los marcadores tal como aparecen; reemplace {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador.
+A continuación se muestran comandos SMS de ejemplo extraídos de contenido público del fabricante. Estos comandos usan la contraseña del dispositivo tal como aparece en los ejemplos públicos. La contraseña en estos ejemplos es 123456 y es la que figura por defecto en la documentación pública. Mantenga los marcadores tal como aparecen; reemplace [apn], [apnu] y [apnp] por los valores de su operador.
 
 - Reinicio opcional a valores de fábrica (usar solo si es necesario):
 ```
@@ -88,14 +88,14 @@ begin123456
 time zone123456 0
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} por el APN de su operador):
+- Configurar el APN del operador (reemplazar [apn] por el APN de su operador):
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer usuario y contraseña del APN si se requieren (reemplazar {{apnu}} y {{apnp}} según corresponda):
+- Establecer usuario y contraseña del APN si se requieren (reemplazar [apnu] y [apnp] según corresponda):
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Configurar el servidor GPRS para Plaspy usando la IP pública y el puerto:
@@ -118,9 +118,9 @@ check123456
 ```
 
 Notas sobre los marcadores:
-- {{apn}} — nombre del punto de acceso (APN) de su operador móvil
-- {{apnu}} — nombre de usuario del APN si el operador lo requiere
-- {{apnp}} — contraseña del APN si el operador lo requiere
+- [apn] — nombre del punto de acceso (APN) de su operador móvil
+- [apnu] — nombre de usuario del APN si el operador lo requiere
+- [apnp] — contraseña del APN si el operador lo requiere
 
 Confirme siempre la sintaxis de comandos para su versión de firmware antes de enviar SMS masivos.
 

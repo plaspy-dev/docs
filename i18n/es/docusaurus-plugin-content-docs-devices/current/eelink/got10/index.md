@@ -1,6 +1,7 @@
 ---
 slug: /eelink/got10
 id: got10
+sidebar_key: eelingot10_index_got10
 sidebar_label: GOT10
 title: EElink - GOT10
 sidebar_class_name: menu_item_tracker

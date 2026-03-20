@@ -1,6 +1,7 @@
 ---
 slug: /carscop/cctr_622
 id: cctr_622
+sidebar_key: carscocctr_622_index_cctr_622
 sidebar_label: CCTR-622
 title: Carscop - CCTR-622
 sidebar_class_name: menu_item_tracker

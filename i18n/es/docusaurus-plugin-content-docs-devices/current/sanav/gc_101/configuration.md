@@ -86,12 +86,12 @@ Este comando realiza un restablecimiento de fábrica. Úselo solo cuando sea nec
 
 - Set the operator APN
 ```text
-#username,0000,3,{{apn}},{{apnu}},{{apnp}}*
+#username,0000,3,[apn],[apnu],[apnp]*
 ```
 Reemplace los marcadores:
-- {{apn}} = nombre del APN del operador
-- {{apnu}} = nombre de usuario del APN si lo requiere el operador (dejar en blanco si no aplica)
-- {{apnp}} = contraseña del APN si la requiere el operador (dejar en blanco si no aplica)
+- [apn] = nombre del APN del operador
+- [apnu] = nombre de usuario del APN si lo requiere el operador (dejar en blanco si no aplica)
+- [apnp] = contraseña del APN si la requiere el operador (dejar en blanco si no aplica)
 
 - Set the GPRS Server to Plaspy
 ```text

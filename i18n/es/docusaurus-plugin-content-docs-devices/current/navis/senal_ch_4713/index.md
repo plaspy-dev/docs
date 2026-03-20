@@ -1,6 +1,7 @@
 ---
 slug: /navis/senal_ch_4713
 id: senal_ch_4713
+sidebar_key: navisenal_ch_4713_index_senal_ch_4713
 sidebar_label: Señal CH - 4713
 title: Navis - Señal CH - 4713
 sidebar_class_name: menu_item_tracker

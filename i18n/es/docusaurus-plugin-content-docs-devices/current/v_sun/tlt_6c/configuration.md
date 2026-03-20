@@ -84,11 +84,11 @@ La guía pública del TLT-6C muestra comandos SMS utilizados para preparar el di
 
 2. Establecer el APN del operador. Reemplace los marcadores según corresponda:
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
-- {{apn}} es el APN del operador móvil.
-- {{apnu}} es el nombre de usuario del APN si lo exige el operador.
-- {{apnp}} es la contraseña del APN si lo exige el operador.
+- [apn] es el APN del operador móvil.
+- [apnu] es el nombre de usuario del APN si lo exige el operador.
+- [apnp] es la contraseña del APN si lo exige el operador.
 - Omitir los campos de usuario y contraseña si su operador solo requiere el APN.
 
 3. Configurar el servidor GPRS al endpoint y puerto de Plaspy:

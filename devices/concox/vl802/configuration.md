@@ -73,7 +73,7 @@ The VL802 is configured to report its position and telemetry to Plaspy by sendin
 
 ## Example Configuration Commands
 
-The VL802 accepts SMS commands for configuration. Below are the commonly used public SMS commands in their typical order. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values when sending SMS.
+The VL802 accepts SMS commands for configuration. Below are the commonly used public SMS commands in their typical order. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values when sending SMS.
 
 1. Optional initial reset to factory settings (use only when you need to clear existing configuration):
 ```text
@@ -85,15 +85,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-3. Set the operator APN. Replace {{apn}} with your network APN and optionally include {{apnu}} and {{apnp}} if your operator requires username and password:
+3. Set the operator APN. Replace [apn] with your network APN and optionally include [apnu] and [apnp] if your operator requires username and password:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 If only APN is required, use:
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
-(Placeholders explained: {{apn}} is the APN string from your mobile operator; {{apnu}} is the APN username when required; {{apnp}} is the APN password when required.)
+(Placeholders explained: [apn] is the APN string from your mobile operator; [apnu] is the APN username when required; [apnp] is the APN password when required.)
 
 4. Set the GPRS server to Plaspy. You may point to the domain or the IP. These commands set server 1 to use the Plaspy domain or set the server to the Plaspy IP. Both use port 8888.
 ```text

@@ -83,16 +83,16 @@ The WanWay GP10 public configuration is performed via SMS commands. Below are th
 This command sets the APN the device will use to register on the mobile data network. Replace the placeholders with your carrier values. The username and password fields are optional depending on the carrier.
 
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 
 Or if your APN requires username and password:
 
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
-(Explanation of placeholders: {{apn}} is the APN name provided by your mobile carrier. {{apnu}} is an APN username if required. {{apnp}} is an APN password if required.)
+(Explanation of placeholders: [apn] is the APN name provided by your mobile carrier. [apnu] is an APN username if required. [apnp] is an APN password if required.)
 
 - Set the GPRS server to Plaspy using the domain and port
 This sets server index 1 to point at the Plaspy server domain and port.
@@ -143,7 +143,7 @@ Use the device replies to confirm each step completed successfully. If the GP10 
 - SMS based configuration is the published method for GP10; behavior and supported commands may vary by firmware revision.
 - You can use either d.plaspy.com or 54.85.159.138 as the server target; both point to the same Plaspy endpoint and Plaspy listens on port 8888 for all devices.
 - Choose UDP or TCP transport per the device command requirements; Plaspy will automatically detect the device protocol on receipt.
-- Always preserve placeholder fields such as {{apn}} and only replace them with your carrier credentials.
+- Always preserve placeholder fields such as [apn] and only replace them with your carrier credentials.
 - If a configuration change does not take effect, try saving the settings and restarting the device, and re-check with PARAM# and STATUS#.
 
 ## Why Use Plaspy with This Configuration

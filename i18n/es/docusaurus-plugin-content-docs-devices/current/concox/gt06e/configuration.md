@@ -92,13 +92,13 @@ GMT,E,0#
 ```
 
 - Establecer el APN del operador
-Nota: {{apn}} es el APN del operador móvil. Los marcadores opcionales {{apnu}} y {{apnp}} representan el usuario y la contraseña del APN si el operador los requiere.
+Nota: [apn] es el APN del operador móvil. Los marcadores opcionales [apnu] y [apnp] representan el usuario y la contraseña del APN si el operador los requiere.
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 O si se requiere usuario y contraseña:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Establecer el servidor GPRS a Plaspy por dominio (recomendado para resolución DNS)
@@ -137,7 +137,7 @@ Envíe estos comandos SMS al número del dispositivo en el orden apropiado para 
 - Los comandos SMS y la configuración GPRS mostrados aquí son comandos de uso público comúnmente asociados con el GT06E; la sintaxis real puede variar según el firmware o las personalizaciones del proveedor.
 - Plaspy acepta conexiones por dominio o por IP y usa el puerto 8888 para todos los dispositivos; puede usar d.plaspy.com o la dirección IP en el comando SERVER.
 - Elija UDP o TCP según su red y las capacidades del firmware del dispositivo; algunos instaladores prefieren UDP por simplicidad y otros prefieren TCP para entrega más fiable.
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador. Si su SIM no requiere usuario o contraseña, solo es necesario el APN.
+- Mantenga los marcadores [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador. Si su SIM no requiere usuario o contraseña, solo es necesario el APN.
 - Confirme siempre el soporte de comandos y la sintaxis exacta con la documentación de Concox o su proveedor antes de aplicar cambios en producción.
 
 ## Por qué usar Plaspy con esta configuración

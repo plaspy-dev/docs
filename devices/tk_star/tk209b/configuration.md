@@ -80,19 +80,19 @@ The TK209B is commonly configured by sending SMS messages to the device. The fol
 begin123456
 ```
 
-2. Set the operator APN (replace {{apn}} with your SIM provider APN)
+2. Set the operator APN (replace [apn] with your SIM provider APN)
 ```
-apn123456 {{apn}}
-```
-
-3. Set the APN username if required by the operator (replace {{apnu}} with the APN username)
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-4. Set the APN password if required by the operator (replace {{apnp}} with the APN password)
+3. Set the APN username if required by the operator (replace [apnu] with the APN username)
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+4. Set the APN password if required by the operator (replace [apnp] with the APN password)
+```
+apnpasswd123456 [apnp]
 ```
 
 5. Set the GPRS server to Plaspy using the public server IP and port
@@ -112,9 +112,9 @@ gprs123456
 ```
 
 Placeholders explanation:
-- {{apn}} = your mobile operator APN string
-- {{apnu}} = APN username when required by the operator
-- {{apnp}} = APN password when required by the operator
+- [apn] = your mobile operator APN string
+- [apnu] = APN username when required by the operator
+- [apnp] = APN password when required by the operator
 
 These commands are public examples; exact command formats and behavior can vary with firmware and regional variants. The reset command is optional and should be used only when necessary.
 

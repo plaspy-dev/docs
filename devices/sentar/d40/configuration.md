@@ -72,7 +72,7 @@ When configured, the D40 sends location updates, alerts, and device telemetry to
 
 ## Example Configuration Commands
 
-The D40 can be configured using SMS commands. The example commands below are based on published public commands for the device. The default device password used in these examples is 123456. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when you substitute your operator values.
+The D40 can be configured using SMS commands. The example commands below are based on published public commands for the device. The default device password used in these examples is 123456. Preserve the placeholders [apn], [apnu], and [apnp] when you substitute your operator values.
 
 - Factory reset (optional initial setup)
 ```text
@@ -89,9 +89,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Set operator APN where {{apn}} is the APN name, {{apnu}} is the APN username, {{apnp}} is the APN password and xxxyy represents optional MCC MNC operator suffix if required
+- Set operator APN where [apn] is the APN name, [apnu] is the APN username, [apnp] is the APN password and xxxyy represents optional MCC MNC operator suffix if required
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Set the GPRS server to the Plaspy endpoint using the Plaspy server IP and port 8888
@@ -110,9 +110,9 @@ pw,123456,ts#
 ```
 
 Notes on placeholders and usage
-- {{apn}} Replace with your operator APN string.
-- {{apnu}} Replace with your APN username if required by the operator; leave empty or omit if not used.
-- {{apnp}} Replace with your APN password if required; leave empty or omit if not used.
+- [apn] Replace with your operator APN string.
+- [apnu] Replace with your APN username if required by the operator; leave empty or omit if not used.
+- [apnp] Replace with your APN password if required; leave empty or omit if not used.
 - The factory reset command is optional and should only be used when a full device reset is required.
 - Use the ts command to verify settings after applying changes.
 

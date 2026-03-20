@@ -80,11 +80,11 @@ The TZ-BT07 can be configured to send its data to Plaspy's shared server endpoin
 The TZ-BT07 public configuration steps below are published as SMS command examples. Send these SMS messages to the device phone number in the order shown. Preserve placeholders and replace them with your operator values as needed.
 
 1. Set the operator APN
-- Replace {{apn}} with your operator APN. If required use {{apnu}} and {{apnp}} for APN username and password.
+- Replace [apn] with your operator APN. If required use [apnu] and [apnp] for APN username and password.
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
-(If your device or firmware accepts a shorter format without username and password, you can omit the trailing placeholders leaving the command as *000000,011,{{apn}}#.)
+(If your device or firmware accepts a shorter format without username and password, you can omit the trailing placeholders leaving the command as *000000,011,[apn]#.)
 
 2. Set the update interval to 60 seconds
 ```text
@@ -104,7 +104,7 @@ The TZ-BT07 public configuration steps below are published as SMS command exampl
 
 Notes about these commands:
 - The prefix value 000000 in these examples is the device password token shown in the public command format. Replace it with your device password if it has been changed from the factory code.
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for your mobile operator APN, APN username, and APN password respectively. Keep placeholders intact and substitute real values before sending.
+- [apn], [apnu], and [apnp] are placeholders for your mobile operator APN, APN username, and APN password respectively. Keep placeholders intact and substitute real values before sending.
 - These commands are the public SMS configuration examples provided for the TZ-BT07. Always verify the command syntax against your device firmware documentation if behavior differs.
 
 ## Configuration Notes

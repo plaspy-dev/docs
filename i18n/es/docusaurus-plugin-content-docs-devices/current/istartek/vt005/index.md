@@ -1,6 +1,7 @@
 ---
 slug: /istartek/vt005
 id: vt005
+sidebar_key: istartevt005_index_vt005
 sidebar_label: VT005
 title: iStartek - VT005
 sidebar_class_name: menu_item_tracker

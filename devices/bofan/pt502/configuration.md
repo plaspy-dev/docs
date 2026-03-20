@@ -82,20 +82,20 @@ The PT502 public configuration examples show SMS commands used for device setup.
 000000DFT
 ```
 
-- Set a 14 digit identifier used with the platform. Replace \<14-digit-id> with the last 14 digits of the device IMEI:
+- Set a 14 digit identifier used with the platform. Replace \\<14-digit-id> with the last 14 digits of the device IMEI:
 ```text
 000000GID<14-digit-id>
 ```
 
-- Set the APN for the operator. Replace {{apn}} with your operator APN. If your APN requires username or password, include {{apnu}} and {{apnp}} respectively:
+- Set the APN for the operator. Replace [apn] with your operator APN. If your APN requires username or password, include [apnu] and [apnp] respectively:
 ```text
-000000APN{{apn}}
+000000APN[apn]
 ```
 If username and password are required, the vendor format may append them like:
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-(Keep {{apnu}} and {{apnp}} as placeholders when not used.)
+(Keep [apnu] and [apnp] as placeholders when not used.)
 
 - Set the GPRS server to the Plaspy server IP and port:
 ```text
@@ -110,7 +110,7 @@ If username and password are required, the vendor format may append them like:
 Notes on these commands:
 - The reset command 000000DFT is optional and typically used during initial provisioning or to restore factory defaults when needed.  
 - The GID command expects a 14 digit identifier; the recommended value is the last 14 digits of the IMEI.  
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values when sending commands.
+- Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values when sending commands.
 
 ## Configuration Notes
 

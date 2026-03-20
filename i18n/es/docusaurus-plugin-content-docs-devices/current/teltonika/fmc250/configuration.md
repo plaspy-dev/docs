@@ -78,13 +78,13 @@ Para configurar los parámetros básicos de red y servidor en el FMC250 usando e
 - Comando público de ejemplo proporcionado por Teltonika para la configuración básica de parámetros
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando y los marcadores
-- {{apn}} es el APN del operador móvil. Reemplácelo por la cadena de APN de su operador.
-- {{apnu}} es el nombre de usuario del APN si su operador lo requiere. Déjelo vacío si no es necesario.
-- {{apnp}} es la contraseña del APN si su operador la requiere. Déjela vacía si no es necesaria.
+- [apn] es el APN del operador móvil. Reemplácelo por la cadena de APN de su operador.
+- [apnu] es el nombre de usuario del APN si su operador lo requiere. Déjelo vacío si no es necesario.
+- [apnp] es la contraseña del APN si su operador la requiere. Déjela vacía si no es necesaria.
 - 2004 está configurado a d.plaspy.com en este ejemplo. Puede sustituir 54.85.159.138 si necesita usar la IP directamente.
 - 2005 establece el puerto del servidor a 8888 que Plaspy usa para todos los dispositivos compatibles.
 - 2006 es un parámetro de transporte o modo en el comando de ejemplo. Confirme el mapeo numérico para la selección de transporte en la documentación de Teltonika o en las notas de la versión de su firmware antes de cambiarlo.

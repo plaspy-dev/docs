@@ -81,15 +81,15 @@ begin123456
 ```
 - Configurar el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 - Configurar el usuario del APN si se requiere
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 - Configurar la contraseña del APN si se requiere
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Establecer el servidor GPRS a Plaspy usando la IP y puerto de Plaspy
 ```text
@@ -105,8 +105,8 @@ t060s***n123456
 ```
 
 Notas sobre los marcadores de posición y comandos:
-- {{apn}} es la cadena APN del operador móvil necesaria para la conectividad de datos.
-- {{apnu}} y {{apnp}} son el usuario y la contraseña del APN, opcionales y utilizados por algunos operadores.
+- [apn] es la cadena APN del operador móvil necesaria para la conectividad de datos.
+- [apnu] y [apnp] son el usuario y la contraseña del APN, opcionales y utilizados por algunos operadores.
 - La contraseña de ejemplo 123456 es el valor por defecto en los ejemplos públicos. Reemplace con la contraseña de su dispositivo si la ha cambiado.
 - El comando de restauración de fábrica begin123456 es opcional y sólo necesario si necesita restablecer la configuración antes de configurar el equipo.
 

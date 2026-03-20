@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/bharat101
 id: bharat101
+sidebar_key: itrianglbharat101_index_bharat101
 sidebar_label: Bharat101
 title: iTriangle - Bharat101
 sidebar_class_name: menu_item_tracker

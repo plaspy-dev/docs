@@ -89,13 +89,13 @@ Explicación: establece el id interno del rastreador usando los primeros 14 díg
 
 - Establecer el APN del operador (se muestran marcadores de posición)
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 Si el APN requiere usuario y contraseña:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-Explicación: reemplace {{apn}} por el APN de su operador móvil. Si el APN requiere autenticación, también suministre {{apnu}} para el usuario y {{apnp}} para la contraseña.
+Explicación: reemplace [apn] por el APN de su operador móvil. Si el APN requiere autenticación, también suministre [apnu] para el usuario y [apnp] para la contraseña.
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto de Plaspy
 ```text

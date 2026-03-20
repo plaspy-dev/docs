@@ -78,7 +78,7 @@ El Supermate D11 envía su ubicación y eventos del dispositivo a Plaspy abriend
 
 Los comandos exactos y el método para enviarlos varían según la versión de firmware del Supermate y la herramienta de configuración del proveedor. Los fabricantes suelen ofrecer varias opciones, como una utilidad de configuración para escritorio, una app móvil o sintaxis de comandos SMS. Debido a que los comandos pueden diferir entre versiones de firmware y regiones, consulte el manual del Supermate D11 o la documentación del proveedor para el conjunto y el formato precisos de los comandos.
 
-Si su dispositivo usa SMS para la configuración, el manual del proveedor indicará los comandos SMS necesarios y los marcadores de posición como valores de APN. Si necesita establecer valores de APN vía una herramienta de configuración, conserve marcadores como {{apn}}, {{apnu}} o {{apnp}} y reemplácelos por los datos de su proveedor de SIM cuando se le solicite.
+Si su dispositivo usa SMS para la configuración, el manual del proveedor indicará los comandos SMS necesarios y los marcadores de posición como valores de APN. Si necesita establecer valores de APN vía una herramienta de configuración, conserve marcadores como [apn], [apnu] o [apnp] y reemplácelos por los datos de su proveedor de SIM cuando se le solicite.
 
 ## Notas de configuración
 

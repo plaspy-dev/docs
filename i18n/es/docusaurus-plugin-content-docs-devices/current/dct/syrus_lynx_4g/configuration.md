@@ -84,10 +84,10 @@ Puede copiar y pegar el siguiente script en un archivo de texto nuevo, guardarlo
 >SRT;CONFIG<
 >SXADP**U<
 #configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 #The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 #A Destination Address holding the server destination
@@ -101,10 +101,10 @@ Puede copiar y pegar el siguiente script en un archivo de texto nuevo, guardarlo
 #end
 ```
 
-- {{apn}} — marcador para el nombre del APN del operador de su SIM.  
-- {{apnu}} — marcador para el usuario del APN si su operador lo requiere.  
-- {{apnp}} — marcador para la contraseña del APN si su operador lo requiere.  
-- El comando >SRT;CONFIG< se incluye en el script para borrar configuraciones previas tal como indican los comentarios del ejemplo; trate las acciones de borrado como opcionales o iniciales únicamente cuando pretenda eliminar ajustes anteriores.
+- [apn] — marcador para el nombre del APN del operador de su SIM.  
+- [apnu] — marcador para el usuario del APN si su operador lo requiere.  
+- [apnp] — marcador para la contraseña del APN si su operador lo requiere.  
+- El comando >SRT;CONFIG\< se incluye en el script para borrar configuraciones previas tal como indican los comentarios del ejemplo; trate las acciones de borrado como opcionales o iniciales únicamente cuando pretenda eliminar ajustes anteriores.
 
 ## Notas de configuración
 

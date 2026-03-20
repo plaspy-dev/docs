@@ -89,15 +89,15 @@ El BN-303F se configura comúnmente mediante comandos SMS. Estos comandos son ej
 
 - Establecer el APN del operador
   ```
-  apn123456 {{apn}}
+  apn123456 [apn]
   ```
-  Nota: Reemplace {{apn}} por el APN de su operador móvil.
+  Nota: Reemplace [apn] por el APN de su operador móvil.
 
 - Establecer nombre de usuario y contraseña del APN
   ```
-  up123456 {{apnu}} {{apnp}}
+  up123456 [apnu] [apnp]
   ```
-  Nota: Reemplace {{apnu}} con el usuario del APN y {{apnp}} con la contraseña si es necesario. Deje los campos vacíos si no aplica.
+  Nota: Reemplace [apnu] con el usuario del APN y [apnp] con la contraseña si es necesario. Deje los campos vacíos si no aplica.
 
 - Apuntar el rastreador al servidor Plaspy por IP y puerto
   ```
@@ -138,7 +138,7 @@ Conserve el orden de los comandos cuando su plan de instalación lo requiera. Re
 
 - La configuración basada en SMS es compatible y se usa comúnmente con el BN-303F, pero los formatos exactos de los comandos pueden variar entre revisiones de firmware.
 - Elija UDP o TCP según la preferencia del instalador y las condiciones de la red. Plaspy acepta ambos transportes en el puerto 8888 y detecta el protocolo automáticamente.
-- Verifique el APN, usuario y contraseña con el proveedor de la SIM antes de ingresar los marcadores como {{apn}} {{apnu}} y {{apnp}}.
+- Verifique el APN, usuario y contraseña con el proveedor de la SIM antes de ingresar los marcadores como [apn] [apnu] y [apnp].
 - La contraseña por defecto 123456 aparece en muchos ejemplos públicos; cambie la contraseña según las recomendaciones del fabricante después de la configuración inicial.
 - Use check123456 o comandos de verificación equivalentes para confirmar los ajustes antes de confiar en datos en vivo en Plaspy.
 

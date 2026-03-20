@@ -79,12 +79,12 @@ The XT31 can be configured by SMS on installations that support SMS provisioning
 
 - Set the operator APN (replace placeholders with your operator values)
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explanation of placeholders
-- {{apn}} the APN name provided by the mobile operator
-- {{apnu}} APN username if required, otherwise leave blank or zero as per operator instructions
-- {{apnp}} APN password if required, otherwise leave blank or zero as per operator instructions
+- [apn] the APN name provided by the mobile operator
+- [apnu] APN username if required, otherwise leave blank or zero as per operator instructions
+- [apnp] APN password if required, otherwise leave blank or zero as per operator instructions
 
 - Set the GPRS server to Plaspy (this command uses the Plaspy server IP and port 8888)
 ```text

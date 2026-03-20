@@ -1,6 +1,7 @@
 ---
 slug: /xexun/ddx14
 id: ddx14
+sidebar_key: xexuddx14_index_ddx14
 sidebar_label: DDX14
 title: Xexun - DDX14
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /laipac/look_watch
 id: look_watch
+sidebar_key: laipalook_watch_index_look_watch
 sidebar_label: LooK Watch
 title: Laipac - LooK Watch
 sidebar_class_name: menu_item_tracker

@@ -86,15 +86,15 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN. Replace {{apn}} with your SIM operator APN name:
+- Set the operator APN. Replace [apn] with your SIM operator APN name:
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Note: {{apn}} is a placeholder for your operator APN string.
+Note: [apn] is a placeholder for your operator APN string.
 
-- Set APN username and password if your operator requires them. Replace {{apnu}} and {{apnp}} with the APN username and password:
+- Set APN username and password if your operator requires them. Replace [apnu] and [apnp] with the APN username and password:
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 Note: Keep the placeholders if your APN has no username or password.
 

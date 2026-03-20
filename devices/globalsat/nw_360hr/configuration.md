@@ -49,7 +49,7 @@ All devices in Plaspy use the same port and the platform will detect the correct
 - A charged and functioning NW-360HR device with a known IMEI number.
 - An active cellular connection for the device via the operator that supports LTE M or NB IoT and any required APN values.
 - Access to an SMS capable phone or manufacturer configuration tool since this model supports SMS configuration commands.
-- The correct APN parameters for the cellular provider; modelConfiguration uses placeholders {{apn}}, {{apnu}}, and {{apnp}} for that purpose.
+- The correct APN parameters for the cellular provider; modelConfiguration uses placeholders [apn], [apnu], and [apnp] for that purpose.
 - A Plaspy account and access to the Plaspy platform to validate that the device is reporting after configuration.
 - Manufacturer documentation or vendor tool access to confirm checksum calculation or to compute command checksums if required.
 
@@ -66,7 +66,7 @@ When configured to report to the Plaspy endpoint, the NW-360HR sends location, s
 ## Common Configuration Workflow
 
 1. Access the official GlobalSat configuration method or software for the NW-360HR; consult the device manual for SMS formats and checksum rules.
-2. Prepare the device IMEI and the network APN values; keep placeholders {{apn}}, {{apnu}}, and {{apnp}} available for the SMS command if required.
+2. Prepare the device IMEI and the network APN values; keep placeholders [apn], [apnu], and [apnp] available for the SMS command if required.
 3. Enter the Plaspy server as either the domain d.plaspy.com or the server IP 54.85.159.138 in the device configuration.
 4. Set the port to 8888 and choose UDP or TCP if the device requires a transport selection.
 5. Apply or save the configuration by sending the SMS command or using the manufacturer tool to upload the setting.
@@ -81,11 +81,11 @@ Format example used in manufacturer UI or batch tools
 TSPRXAB27GHKLMnaicz*U!
 
 Setup command example
-Replace {{imei}}, {{apn}}, {{apnu}}, {{apnp}} and compute the checksum value to replace {{checksum}} before sending. E0 is set to the Plaspy server IP and E1 is the Plaspy port.
+Replace {{imei}}, [apn], [apnu], [apnp] and compute the checksum value to replace {{checksum}} before sending. E0 is set to the Plaspy server IP and E1 is the Plaspy port.
 
 GSS setup command template
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Reboot command example
@@ -101,9 +101,9 @@ Checksum note
 
 Placeholders explanation
 - {{imei}} — your device IMEI number.
-- {{apn}} — APN name required by the cellular operator.
-- {{apnu}} — APN username if required by the network.
-- {{apnp}} — APN password if required by the network.
+- [apn] — APN name required by the cellular operator.
+- [apnu] — APN username if required by the network.
+- [apnp] — APN password if required by the network.
 - {{checksum}} and {{checksumreeboot}} — computed checksum values as required by the device command format.
 
 ## Configuration Notes

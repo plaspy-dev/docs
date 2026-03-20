@@ -1,6 +1,7 @@
 ---
 slug: /autofon/gl
 id: gl
+sidebar_key: autofogl_index_gl
 sidebar_label: GL-Маяк
 title: AutoFon - GL-Маяк
 sidebar_class_name: menu_item_tracker

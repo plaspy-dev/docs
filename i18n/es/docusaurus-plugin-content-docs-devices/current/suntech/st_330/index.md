@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st_330
 id: st_330
+sidebar_key: suntecst_330_index_st_330
 sidebar_label: ST 330
 title: Suntech - ST 330
 sidebar_class_name: menu_item_tracker

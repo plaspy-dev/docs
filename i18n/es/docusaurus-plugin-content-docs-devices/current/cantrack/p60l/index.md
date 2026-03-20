@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/p60l
 id: p60l
+sidebar_key: cantracp60l_index_p60l
 sidebar_label: P60L
 title: CanTrack - P60L
 sidebar_class_name: menu_item_tracker

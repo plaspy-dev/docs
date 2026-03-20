@@ -78,7 +78,7 @@ When configured, the C780 sends position and status information to the Plaspy se
 
 The C780 can be configured using manufacturer tools or SMS commands depending on firmware and local dealer tools. Exact command syntax and steps vary by GOTOP firmware and by regional device variants, so consult your GOTOP configuration guide for precise command formats. Plaspy requires that the device be pointed at d.plaspy.com or 54.85.159.138 on port 8888 and that UDP or TCP transport be set if the device asks for a transport selection.
 
-If you have GOTOP SMS or tool command examples from official documentation, place them here following the vendor guide and use the server and port values listed above. Keep placeholders such as {{apn}} for your carrier settings when provided by the manufacturer.
+If you have GOTOP SMS or tool command examples from official documentation, place them here following the vendor guide and use the server and port values listed above. Keep placeholders such as [apn] for your carrier settings when provided by the manufacturer.
 
 ## Configuration Notes
 

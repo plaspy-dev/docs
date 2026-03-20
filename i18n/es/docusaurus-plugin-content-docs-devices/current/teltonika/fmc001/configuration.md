@@ -78,13 +78,13 @@ El FMC001 se puede configurar mediante un SMS estilo Teltonika o un comando por 
 - Comando de ejemplo para establecer credenciales APN y el endpoint y puerto de Plaspy
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de los marcadores y parámetros
-  - {{apn}} = el nombre del APN de su operador móvil  
-  - {{apnu}} = el usuario APN si su operador lo requiere (deje en blanco si no se usa)  
-  - {{apnp}} = la contraseña APN si su operador lo requiere (deje en blanco si no se usa)  
+  - [apn] = el nombre del APN de su operador móvil  
+  - [apnu] = el usuario APN si su operador lo requiere (deje en blanco si no se usa)  
+  - [apnp] = la contraseña APN si su operador lo requiere (deje en blanco si no se usa)  
   - 2004 configura el dominio del servidor a d.plaspy.com que apunta a Plaspy  
   - 2005 configura el puerto a 8888 usado por Plaspy para todos los dispositivos  
   - 2006:1 en este ejemplo es un parámetro de dispositivo que aparece en conjuntos de comandos Teltonika; siga la documentación de Teltonika o su configurador para el significado exacto según su firmware

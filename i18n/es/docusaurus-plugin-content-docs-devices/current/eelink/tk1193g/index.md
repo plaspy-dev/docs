@@ -1,6 +1,7 @@
 ---
 slug: /eelink/tk1193g
 id: tk1193g
+sidebar_key: eelintk1193g_index_tk1193g
 sidebar_label: TK119‑3G
 title: EElink - TK119‑3G
 sidebar_class_name: menu_item_tracker

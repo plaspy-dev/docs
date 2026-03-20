@@ -76,11 +76,11 @@ The MPIP 620 supports SMS based configuration. The following examples come from 
 
 Notes:
 - {{SecretKey}} is the device SMS password. The device default secret key is the last 6 ASCII characters of the device ID unless changed by the installer.
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for your mobile operator APN, APN username, and APN password respectively.
+- [apn], [apnu], and [apnp] are placeholders for your mobile operator APN, APN username, and APN password respectively.
 
 Set APN and server (GPRS) using SMS
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 Verify GPRS settings using SMS
@@ -96,7 +96,7 @@ If your installation requires the device to accept a domain instead of IP and th
 - The tracker supports SMS based programming as shown above, which is useful for field installs without a PC tool.
 - Choose TCP or UDP according to installer preference and device capability; both transports are supported for port 8888 on Plaspy.
 - The default SMS secret key behavior is device specific. The MPIP 620 default secret key is the last 6 ASCII characters of the device ID unless previously reprogrammed.
-- Confirm APN values with the mobile operator and keep placeholders {{apn}}, {{apnu}}, and {{apnp}} accurate when sending commands.
+- Confirm APN values with the mobile operator and keep placeholders [apn], [apnu], and [apnp] accurate when sending commands.
 
 ## Why Use Plaspy with This Configuration
 

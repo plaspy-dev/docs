@@ -1,6 +1,7 @@
 ---
 slug: /carscop/cctr_622g_4g
 id: cctr_622g_4g
+sidebar_key: carscocctr_622g_4g_index_cctr_622g_4g
 sidebar_label: CCTR-622G-4G
 title: Carscop - CCTR-622G-4G
 sidebar_class_name: menu_item_tracker

@@ -77,7 +77,7 @@ The Stars Nav Photo GPS is designed as a removable storage GPS logger that recor
 
 This model does not include public command strings for the Photo GPS because the device is primarily a removable storage data logger. Exact commands and configuration syntax depend on Stars Nav utilities, firmware versions, or third party uploader tools. If your vendor tool supports server forwarding, use the server settings shown above (d.plaspy.com or 54.85.159.138 and port 8888) when entering server information.
 
-For devices or tools that do publish SMS or command line configuration formats, include those commands here if provided by your vendor or in the device manual. Preserve placeholders such as {{apn}}, {{apnu}}, or {{apnp}} from vendor commands if they are required by your firmware, and follow the vendor guidance for placeholder values.
+For devices or tools that do publish SMS or command line configuration formats, include those commands here if provided by your vendor or in the device manual. Preserve placeholders such as [apn], [apnu], or [apnp] from vendor commands if they are required by your firmware, and follow the vendor guidance for placeholder values.
 
 ## Configuration Notes
 

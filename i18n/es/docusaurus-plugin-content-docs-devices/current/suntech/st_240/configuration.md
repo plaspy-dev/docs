@@ -75,20 +75,20 @@ El ST 240 se configura para enviar datos de ubicación y del equipo al endpoint 
 
 ## Ejemplos de comandos de configuración
 
-El ST 240 acepta comandos de configuración vía SMS. Los siguientes ejemplos son los comandos públicos extraídos del contenido de configuración del equipo. Reemplace <device_id> por el ID del dispositivo derivado del IMEI (vea la nota más abajo) y sustituya los marcadores de APN por los valores de su operador.
+El ST 240 acepta comandos de configuración vía SMS. Los siguientes ejemplos son los comandos públicos extraídos del contenido de configuración del equipo. Reemplace \<device_id> por el ID del dispositivo derivado del IMEI (vea la nota más abajo) y sustituya los marcadores de APN por los valores de su operador.
 
 - Cómo calcular el ID del dispositivo
   - El ID de dispositivo usado en los comandos son seis dígitos del IMEI excluyendo el último dígito del IMEI. Por ejemplo, si el IMEI es 123456789012345, el ID del dispositivo corresponde a los dígitos 9–14: 901234.
 
 1) Configurar el APN del operador y el servidor GPRS (la IP y el puerto del servidor apuntan a Plaspy)
 ```
-SA200NTW;<device_id>;02;<gprs_flag>;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;<device_id>;02;<gprs_flag>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
-- <device_id> = últimos 6 dígitos del IMEI excluyendo el último dígito del IMEI (ver cálculo arriba)
-- <gprs_flag> = 1 si se proporciona usuario o contraseña del APN, de lo contrario 0
-- {{apn}} = APN de su operador
-- {{apnu}} = usuario del APN si su operador lo requiere
-- {{apnp}} = contraseña del APN si su operador lo requiere
+- \<device_id> = últimos 6 dígitos del IMEI excluyendo el último dígito del IMEI (ver cálculo arriba)
+- \<gprs_flag> = 1 si se proporciona usuario o contraseña del APN, de lo contrario 0
+- [apn] = APN de su operador
+- [apnu] = usuario del APN si su operador lo requiere
+- [apnp] = contraseña del APN si su operador lo requiere
 
 2) Establecer el intervalo de reporte/actualización a 60 segundos
 ```
@@ -112,7 +112,7 @@ Notas sobre el envío de comandos
 - Las versiones de firmware y las revisiones de hardware pueden cambiar la sintaxis exacta de los SMS o los parámetros disponibles. Verifique el formato correcto de comandos para su unidad.
 - El ST 240 admite configuración vía SMS y mediante herramientas del fabricante; elija el método que mejor se adapte a sus prácticas de instalación.
 - Cuando el dispositivo solicite selección de transporte, elija UDP o TCP de forma coherente con sus reglas de red y firewall.
-- Mantenga los marcadores de usuario y contraseña del APN {{apnu}} y {{apnp}} solo si su operador los requiere; de lo contrario establezca gprs_flag en 0 y deje esos campos vacíos.
+- Mantenga los marcadores de usuario y contraseña del APN [apnu] y [apnp] solo si su operador los requiere; de lo contrario establezca gprs_flag en 0 y deje esos campos vacíos.
 - Después de aplicar los ajustes, espere unos minutos para que el dispositivo se registre en la red y empiece a reportar a Plaspy.
 
 ## Por qué usar Plaspy con esta configuración

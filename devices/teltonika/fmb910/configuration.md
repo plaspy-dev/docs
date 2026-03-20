@@ -78,17 +78,17 @@ If you use Teltonika SMS commands for configuration, the example command below s
 
 The following command is a public example batch parameter command used to set APN values and the Plaspy server settings on Teltonika devices. Preserve and replace the APN placeholders with values from your mobile operator.
 
-- Replace {{apn}} with your SIM card APN value.
-- Replace {{apnu}} with the APN username if required, otherwise leave blank.
-- Replace {{apnp}} with the APN password if required, otherwise leave blank.
+- Replace [apn] with your SIM card APN value.
+- Replace [apnu] with the APN username if required, otherwise leave blank.
+- Replace [apnp] with the APN password if required, otherwise leave blank.
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on this example command:
 - This format is commonly used as an SMS batch command or by Teltonika configuration tools to set multiple parameters at once.
-- The placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your operator values.
+- The placeholders [apn], [apnu], and [apnp] must be replaced with your operator values.
 - The parameter segment that sets the server uses d.plaspy.com and port 8888 as required by Plaspy.
 - For the meaning of specific parameter IDs such as 2006 consult the official Teltonika parameter reference for your firmware version before changing values.
 

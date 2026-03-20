@@ -51,7 +51,7 @@ Estos valores de servidor son el objetivo central para el Watch, de modo que los
 - Acceso al método de configuración del fabricante para el Watch, como comandos basados en SMS o el software oficial de MiniFinder.
 - Una cuenta Plaspy y registro del dispositivo para confirmar que el equipo aparece en la plataforma después de la configuración.
 - Confirmación básica de los identificadores del dispositivo (IMEI o ID de dispositivo) para vincular el Watch al registro en Plaspy.
-- Opcional: conocimiento de los marcadores de posición necesarios como {{apn}}, {{apnu}} y {{apnp}} para credenciales del operador si su SIM lo solicita.
+- Opcional: conocimiento de los marcadores de posición necesarios como [apn], [apnu] y [apnp] para credenciales del operador si su SIM lo solicita.
 
 ## Cómo se conecta este rastreador a Plaspy
 
@@ -83,9 +83,9 @@ El fabricante provee comandos por SMS para la configuración básica. Enviados e
 tz+00
 ```
 
-- Establezca el APN del operador. Reemplace el marcador {{apn}} con el APN de su operador. Si el operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}}; esos campos son opcionales y pueden omitirse si no son necesarios.
+- Establezca el APN del operador. Reemplace el marcador [apn] con el APN de su operador. Si el operador requiere usuario y contraseña, incluya [apnu] y [apnp]; esos campos son opcionales y pueden omitirse si no son necesarios.
 ```
-S1,{{apn}}{{,{{apnu}},{{apnp}}}}
+S1,[apn]{{,[apnu],[apnp]}}
 ```
 Nota: El comando S1 puede aceptar los campos opcionales de usuario y contraseña. Mantenga los marcadores tal como se muestran si dispone de credenciales para incluir.
 
@@ -101,7 +101,7 @@ El orden es importante para una configuración confiable: primero configure la z
 - Los comandos y el formato de parámetros pueden variar según la versión de firmware y la revisión de hardware; consulte el manual del Watch para la sintaxis específica del dispositivo.
 - El Watch admite configuración vía SMS según los ejemplos anteriores; las herramientas del fabricante o el software de escritorio pueden ofrecer métodos alternativos.
 - Elija UDP o TCP en función de la opción de transporte del dispositivo; Plaspy acepta ambos en el puerto 8888 y detecta el protocolo automáticamente.
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores exactos de su operador móvil.
+- Mantenga los marcadores [apn], [apnu] y [apnp] y reemplácelos por los valores exactos de su operador móvil.
 - Si la configuración no surte efecto de inmediato, reinicie el Watch tras aplicar los ajustes y verifique nuevamente la conectividad.
 
 ## Por qué usar Plaspy con esta configuración

@@ -81,19 +81,19 @@ El LK106 puede configurarse mediante comandos SMS. A continuación se muestran l
 begin123456
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} con el APN de su operador):
+- Establecer el APN del operador (reemplazar [apn] con el APN de su operador):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario del APN si su operador lo requiere (reemplazar {{apnu}} con el usuario APN):
+- Establecer el usuario del APN si su operador lo requiere (reemplazar [apnu] con el usuario APN):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN si su operador la requiere (reemplazar {{apnp}} con la contraseña APN):
+- Establecer la contraseña del APN si su operador la requiere (reemplazar [apnp] con la contraseña APN):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS hacia Plaspy usando la IP pública y el puerto 8888
@@ -112,9 +112,9 @@ gprs123456
 ```
 
 Explicación de los marcadores:
-- {{apn}} — cadena APN del operador necesaria para la sesión GPRS.
-- {{apnu}} — usuario opcional del APN si la operadora requiere autenticación.
-- {{apnp}} — contraseña opcional del APN si la operadora requiere autenticación.
+- [apn] — cadena APN del operador necesaria para la sesión GPRS.
+- [apnu] — usuario opcional del APN si la operadora requiere autenticación.
+- [apnp] — contraseña opcional del APN si la operadora requiere autenticación.
 
 Envíe estos SMS desde el número autorizado o el número de gestión configurado para el LK106. Mantenga la contraseña por defecto 123456 solo si no la ha cambiado por seguridad; incluya la contraseña correcta del dispositivo en cada comando cuando sea necesario.
 

@@ -79,9 +79,9 @@ If the device or gateway supports SMS configuration, use the SMS command example
 The following commands are public QuecLink SMS configuration examples. They are shown in the original sequence as commonly applied. The sample uses the default device password queclink. Placeholders remain where public samples require operator input.
 
 - Notes on placeholders
-  - {{apn}} is the APN name used by the cellular operator.
-  - {{apnu}} is the APN username when required by the carrier.
-  - {{apnp}} is the APN password when required by the carrier.
+  - [apn] is the APN name used by the cellular operator.
+  - [apnu] is the APN username when required by the carrier.
+  - [apnp] is the APN password when required by the carrier.
 
 - Command examples (send by SMS where applicable)
 
@@ -97,7 +97,7 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN with placeholders for APN, username, and password
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4. Configure the GPRS server to point to Plaspy by domain and IP with port 8888
@@ -122,7 +122,7 @@ These commands are public examples and may apply when configuring devices or gat
 - Firmware and hardware revisions may change the exact command syntax or available options. Always confirm with the device firmware notes for your serial number and revision.
 - The example commands above use SMS style configuration; some deployments use a web UI or vendor configuration tool instead. Use the method matching your hardware.
 - Plaspy uses the same port 8888 for all supported devices and automatically detects the tracker protocol so focus on correct server host and transport selection.
-- When configuring APN values keep placeholders {{apn}}, {{apnu}}, and {{apnp}} ready and confirm carrier requirements for username or password.
+- When configuring APN values keep placeholders [apn], [apnu], and [apnp] ready and confirm carrier requirements for username or password.
 - Because the WTS100 is a radio temperature sensor integrated via receivers or gateways, ensure the receiver or gateway is configured to forward sensor telemetry into Plaspy using the server settings above.
 
 ## Why Use Plaspy with This Configuration

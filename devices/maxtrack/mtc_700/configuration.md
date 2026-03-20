@@ -79,14 +79,14 @@ The manufacturer provides an SMS command format for initial setup. The public ex
 
 - Notes on placeholders
   - {{trackerID}} Replace with the device IMEI or tracker identifier as required by the device.
-  - {{apn}} Replace with your mobile operator APN name.
-  - {{apnu}} Replace with your APN username if required otherwise use an empty value.
-  - {{apnp}} Replace with your APN password if required otherwise use an empty value.
+  - [apn] Replace with your mobile operator APN name.
+  - [apnu] Replace with your APN username if required otherwise use an empty value.
+  - [apnp] Replace with your APN password if required otherwise use an empty value.
 
 SMS example command (send to the tracker from an authorized phone number):
 
 ```
-0000,{{trackerID}},2,0,{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888,,.
+0000,{{trackerID}},2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
 ```
 
 - This single SMS sets the device password prefix, tracker ID field, APN parameters, and the Plaspy server IP and port as shown above.

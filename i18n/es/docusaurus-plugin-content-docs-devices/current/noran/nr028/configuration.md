@@ -75,15 +75,15 @@ El NR028 se configura para enviar sus paquetes de ubicación y telemetría al en
 
 ## Ejemplos de comandos de configuración
 
-El NR028 admite configuración por SMS. Los siguientes ejemplos públicos son cadenas SMS. Los ejemplos usan la contraseña por defecto 000000. Preserve marcadores como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador al enviar.
+El NR028 admite configuración por SMS. Los siguientes ejemplos públicos son cadenas SMS. Los ejemplos usan la contraseña por defecto 000000. Preserve marcadores como [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador al enviar.
 
-- Establecer el APN del operador. Reemplace {{apn}} por el APN de su operador. Si es necesario, incluya {{apnu}} y {{apnp}} para usuario y contraseña del APN.
+- Establecer el APN del operador. Reemplace [apn] por el APN de su operador. Si es necesario, incluya [apnu] y [apnp] para usuario y contraseña del APN.
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 O con usuario y contraseña del APN:
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 - Fijar el servidor GPRS al endpoint de Plaspy usando la IP y el puerto 8888. Este ejemplo utiliza la IP pública de Plaspy. Puede sustituir d.plaspy.com si su firmware acepta un dominio en lugar de una IP.

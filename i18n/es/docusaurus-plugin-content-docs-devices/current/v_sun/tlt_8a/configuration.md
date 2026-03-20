@@ -89,11 +89,11 @@ Nota: Si la contraseña del dispositivo se cambió desde la configuración de f�
 
 2. Establecer el APN del operador (reemplazar marcadores según sea necesario)
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
-- {{apn}} = APN de su operador móvil  
-- {{apnu}} = usuario del APN si lo requiere el operador (dejar en blanco o eliminar si no se requiere)  
-- {{apnp}} = contraseña del APN si lo requiere el operador (dejar en blanco o eliminar si no se requiere)
+- [apn] = APN de su operador móvil  
+- [apnu] = usuario del APN si lo requiere el operador (dejar en blanco o eliminar si no se requiere)  
+- [apnp] = contraseña del APN si lo requiere el operador (dejar en blanco o eliminar si no se requiere)
 
 3. Establecer el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy
 ```text

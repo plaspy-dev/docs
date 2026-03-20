@@ -79,7 +79,7 @@ Follow these practical steps to configure a GV350MG for Plaspy:
 
 ## Example Configuration Commands
 
-The GV350MG supports SMS based configuration. The following public commands are presented in the original model configuration and are intended to be sent to the device as SMS messages. The sample uses the device password queclink which is the factory default in these examples. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when you replace them with your operator APN, APN user, and APN password respectively.
+The GV350MG supports SMS based configuration. The following public commands are presented in the original model configuration and are intended to be sent to the device as SMS messages. The sample uses the device password queclink which is the factory default in these examples. Preserve the placeholders [apn], [apnu], and [apnp] when you replace them with your operator APN, APN user, and APN password respectively.
 
 1. Optional initial factory restore command
 Send this only when you intend to restore factory defaults as part of initial setup.
@@ -98,12 +98,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 Replace the placeholders with your mobile operator values.
 
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
-- {{apn}} is the access point name provided by your mobile operator
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required by the operator
+- [apn] is the access point name provided by your mobile operator
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required by the operator
 
 4. Set the GPRS server to Plaspy
 This command sets both domain and IP for redundancy and points to the Plaspy ingestion endpoint. The port 8888 is included as the service port.

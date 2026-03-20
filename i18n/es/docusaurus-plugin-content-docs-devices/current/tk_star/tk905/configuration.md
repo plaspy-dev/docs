@@ -79,19 +79,19 @@ El TK905 soporta configuración vía SMS. La secuencia de comandos de ejemplo p�
 begin123456
 ```
 
-- Set operator APN (replace {{apn}} with your mobile operator APN)
+- Set operator APN (replace [apn] with your mobile operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set APN username if required by your operator (replace {{apnu}} with APN username)
+- Set APN username if required by your operator (replace [apnu] with APN username)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set APN password if required by your operator (replace {{apnp}} with APN password)
+- Set APN password if required by your operator (replace [apnp] with APN password)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port shown in Plaspy documentation
@@ -109,7 +109,7 @@ upload123456 60
 gprs123456
 ```
 
-Notas sobre los marcadores: {{apn}} es la cadena APN del operador móvil, {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Reemplace estos marcadores por los valores proporcionados por su operador.
+Notas sobre los marcadores: [apn] es la cadena APN del operador móvil, [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Reemplace estos marcadores por los valores proporcionados por su operador.
 
 ## Notas de configuración
 

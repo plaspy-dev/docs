@@ -73,7 +73,7 @@ El MVT-600 se configura para enviar datos de ubicación y eventos al endpoint y 
 
 ## Comandos de configuración de ejemplo
 
-El ejemplo público de configuración del Meitrack MVT-600 que aparece a continuación utiliza comandos SMS. La configuración de muestra asume que la contraseña del dispositivo es 0000, que es el valor de fábrica en este ejemplo público. Reemplace {{apn}}, {{apnu}} y {{apnp}} por el APN, usuario APN y contraseña APN de la tarjeta SIM según lo requiera su operador. Los comandos deben enviarse como mensajes SMS separados y en el orden indicado cuando el orden sea importante.
+El ejemplo público de configuración del Meitrack MVT-600 que aparece a continuación utiliza comandos SMS. La configuración de muestra asume que la contraseña del dispositivo es 0000, que es el valor de fábrica en este ejemplo público. Reemplace [apn], [apnu] y [apnp] por el APN, usuario APN y contraseña APN de la tarjeta SIM según lo requiera su operador. Los comandos deben enviarse como mensajes SMS separados y en el orden indicado cuando el orden sea importante.
 
 1. Reinicio opcional a fábrica o restauración de valores de fábrica (usar solo si es necesario):
 ```
@@ -82,9 +82,9 @@ El ejemplo público de configuración del Meitrack MVT-600 que aparece a continu
 
 2. Configure el servidor GPRS para Plaspy. Este ejemplo usa la IP y el puerto de Plaspy e incluye un marcador para el APN. Si su dispositivo acepta un nombre de dominio en lugar de IP, puede usar d.plaspy.com en lugar de la IP.
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-- Explicación: {{apn}} es el APN de datos móviles. {{apnu}} y {{apnp}} son los marcadores para el usuario y la contraseña del APN y deben omitirse si el operador no los requiere.
+- Explicación: [apn] es el APN de datos móviles. [apnu] y [apnp] son los marcadores para el usuario y la contraseña del APN y deben omitirse si el operador no los requiere.
 
 3. Ajuste la zona horaria a UTC 0:
 ```

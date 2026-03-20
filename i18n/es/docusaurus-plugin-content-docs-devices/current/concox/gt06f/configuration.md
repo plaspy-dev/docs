@@ -89,13 +89,13 @@ GMT,E,0#
 
 - Configurar el APN del operador
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Si su operador requiere usuario o contraseña incluya los marcadores de posición:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: {{apn}} es el APN del operador, {{apnu}} es el usuario del APN si es necesario, y {{apnp}} es la contraseña del APN si es necesaria.
+Nota: [apn] es el APN del operador, [apnu] es el usuario del APN si es necesario, y [apnp] es la contraseña del APN si es necesaria.
 
 - Establecer el servidor GPRS apuntando a Plaspy usando el dominio (recomendado)
 ```text
@@ -134,7 +134,7 @@ Envíe cada comando SMS al número del dispositivo y espere las respuestas de co
 - Algunas revisiones de firmware requieren banderas de transporte diferentes o parámetros de comando ligeramente distintos; revise el SMS de respuesta del dispositivo para confirmar.
 - Elija UDP o TCP según su instalación y las condiciones de red; Plaspy acepta ambos en el puerto 8888 y detectará automáticamente el protocolo.
 - Al usar comandos SERVER basados en dominio, el dispositivo debe poder resolver DNS; si no hay DNS, puede usar la alternativa con la IP de Plaspy.
-- Mantenga los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} tal como aparecen y reemplácelos por los valores de su operador al enviar los comandos.
+- Mantenga los marcadores de posición [apn], [apnu] y [apnp] tal como aparecen y reemplácelos por los valores de su operador al enviar los comandos.
 
 ## Por qué usar Plaspy con esta configuración
 

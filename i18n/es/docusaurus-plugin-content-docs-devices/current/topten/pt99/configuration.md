@@ -88,12 +88,12 @@ Etiqueta: reinicio de fábrica opcional cuando su proceso de despliegue lo requi
 
 - Comando de configuración de APN y servidor GPRS
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explicación:
-- Reemplace {{apn}} con el nombre del APN de su operador móvil.
-- Reemplace {{apnu}} con el usuario APN si su operador lo requiere, o deje en blanco si no aplica.
-- Reemplace {{apnp}} con la contraseña APN si su operador lo requiere, o deje en blanco si no aplica.
+- Reemplace [apn] con el nombre del APN de su operador móvil.
+- Reemplace [apnu] con el usuario APN si su operador lo requiere, o deje en blanco si no aplica.
+- Reemplace [apnp] con la contraseña APN si su operador lo requiere, o deje en blanco si no aplica.
 - Este comando apunta el dispositivo a la IP del servidor Plaspy 54.85.159.138 y al puerto 8888, y establece parámetros de reporte y sueño según el ejemplo del fabricante.
 
 - Comando de verificación para consultar la configuración WWW actual
@@ -109,7 +109,7 @@ Nota: El ejemplo del fabricante usa la IP del servidor 54.85.159.138 en lugar de
 - Las revisiones de firmware y del sistema operativo pueden cambiar la sintaxis exacta de los SMS y los parámetros disponibles; confirme siempre con la documentación TopTen para el firmware de su dispositivo.
 - El ejemplo del PT99 utiliza SMS para la configuración; algunos despliegues también pueden disponer de una herramienta del proveedor o utilidad de configuración—use el método oficial que tenga disponible.
 - Cuando un dispositivo requiere selección de transporte, pruebe UDP o TCP en el puerto 8888 según la preferencia del instalador; Plaspy aceptará cualquiera de los dos y detectará el protocolo automáticamente.
-- Mantenga los marcadores de APN {{apn}}, {{apnu}} y {{apnp}} tal como se muestran; reemplácelos por los valores de su operador móvil.
+- Mantenga los marcadores de APN [apn], [apnu] y [apnp] tal como se muestran; reemplácelos por los valores de su operador móvil.
 - El identificador del dispositivo que usa Plaspy se deriva del IMEI; el ID del rastreador PT99 corresponde a los últimos 14 dígitos devueltos en la respuesta PAR.
 
 ## Por qué usar Plaspy con esta configuración

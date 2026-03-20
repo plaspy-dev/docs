@@ -81,19 +81,19 @@ The LK109 can be configured using SMS commands. The following commands are taken
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if required by your operator (replace {{apnu}} with the APN user):
+- Set the APN username if required by your operator (replace [apnu] with the APN user):
 ```sms
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if required by your operator (replace {{apnp}} with the APN password):
+- Set the APN password if required by your operator (replace [apnp] with the APN password):
 ```sms
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP and port (this example uses the public Plaspy IP and port):
@@ -112,8 +112,8 @@ gprs123456
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator APN string required for data access.
-- {{apnu}} and {{apnp}} are optional APN username and password fields used if your operator requires them.
+- [apn] is the mobile operator APN string required for data access.
+- [apnu] and [apnp] are optional APN username and password fields used if your operator requires them.
 - The examples above use the default device password 123456; if you have changed the device password, replace 123456 with your device password in each command.
 
 ## Configuration Notes

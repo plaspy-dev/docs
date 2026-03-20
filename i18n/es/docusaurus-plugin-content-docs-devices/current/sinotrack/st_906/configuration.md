@@ -87,9 +87,9 @@ RESET
 
 - Configurar el APN del operador
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-Explicación: mantenga los marcadores {{apn}} para el nombre del APN, {{apnu}} para el usuario del APN si su operador lo requiere, y {{apnp}} para la contraseña del APN si corresponde.
+Explicación: mantenga los marcadores [apn] para el nombre del APN, [apnu] para el usuario del APN si su operador lo requiere, y [apnp] para la contraseña del APN si corresponde.
 
 - Configurar el servidor GPRS hacia Plaspy usando la IP y el puerto
 ```text

@@ -88,7 +88,7 @@ SERVER,set,d.plaspy.com,8888
 SERVER,set,54.85.159.138,8888
 ```
 
-Si la documentación del proveedor usa marcadores para APN o credenciales, puede encontrar tokens como {{apn}}, {{apnu}} o {{apnp}}. Mantenga esos marcadores y sustituya los valores correctos del operador de su SIM al aplicar la configuración de APN.
+Si la documentación del proveedor usa marcadores para APN o credenciales, puede encontrar tokens como [apn], [apnu] o [apnp]. Mantenga esos marcadores y sustituya los valores correctos del operador de su SIM al aplicar la configuración de APN.
 
 ## Notas de configuración
 

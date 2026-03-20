@@ -75,18 +75,18 @@ The GVT-500 is configured to send location and device data to the shared Plaspy 
 
 The GVT-500 supports SMS-based configuration. The commands below are public examples and preserve placeholders where appropriate. Send each command as an SMS from an authorized phone number. The sample default device password shown here is 000000.
 
-- Set the device ID (replace <IMEI15> with the device 15 digit IMEI)
+- Set the device ID (replace \<IMEI15> with the device 15 digit IMEI)
 ```
 M000000,22,<IMEI15>
 ```
 
-- Set the operator APN (replace {{apn}} with your SIM APN; optionally include {{apnu}} user and {{apnp}} password if required)
+- Set the operator APN (replace [apn] with your SIM APN; optionally include [apnu] user and [apnp] password if required)
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Optional with APN user and password:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 - Set the update interval to 60 seconds
@@ -105,8 +105,8 @@ M000000,21,2
 ```
 
 Notes on placeholders and usage:
-- <IMEI15> means the 15 digit IMEI number of the device. Some commands require the IMEI or device ID to register the tracker in the fleet.  
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for the operator APN, APN user name, and APN password respectively. Replace them with your carrier values.  
+- \<IMEI15> means the 15 digit IMEI number of the device. Some commands require the IMEI or device ID to register the tracker in the fleet.  
+- [apn], [apnu], and [apnp] are placeholders for the operator APN, APN user name, and APN password respectively. Replace them with your carrier values.  
 - The "56" in the server command above is a value present in the public example command and may represent a server slot or mode; confirm the meaning for your firmware version.  
 - Commands should be sent from an authorized number and may require using the device password prefix; the examples use the default password 000000 as shown.
 

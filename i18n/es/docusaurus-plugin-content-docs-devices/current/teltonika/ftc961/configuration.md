@@ -78,13 +78,13 @@ A continuación se muestra el comando de lote público común en dispositivos Te
 - SMS o ejemplo de comando por lote
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre marcadores y campos
-- {{apn}} — cadena APN de su operador (requerida para datos móviles).
-- {{apnu}} — nombre de usuario APN si su operador requiere autenticación (deje vacío si no aplica).
-- {{apnp}} — contraseña APN si su operador la requiere.
+- [apn] — cadena APN de su operador (requerida para datos móviles).
+- [apnu] — nombre de usuario APN si su operador requiere autenticación (deje vacío si no aplica).
+- [apnp] — contraseña APN si su operador la requiere.
 - 2004 configura la dirección del servidor a d.plaspy.com para Plaspy.
 - 2005 establece el puerto en 8888 usado por Plaspy para todos los dispositivos.
 - 2006 es un parámetro de control de transporte en este ejemplo; consulte la documentación de Teltonika para los mapeos exactos de valores para TCP frente a UDP según su firmware.

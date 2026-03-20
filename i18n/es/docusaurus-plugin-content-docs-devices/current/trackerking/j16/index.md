@@ -1,6 +1,7 @@
 ---
 slug: /trackerking/j16
 id: j16
+sidebar_key: trackerkinj16_index_j16
 sidebar_label: J16
 title: TrackerKing - J16
 sidebar_class_name: menu_item_tracker

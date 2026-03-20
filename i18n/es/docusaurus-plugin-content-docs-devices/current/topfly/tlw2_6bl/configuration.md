@@ -77,7 +77,7 @@ Si utiliza los comandos SMS que se muestran más abajo, envíelos en el orden in
 
 ## Ejemplos de comandos de configuración
 
-El fabricante del TLW2-6BL ofrece un conjunto de comandos SMS para configuración. Los siguientes comandos públicos son ejemplos que pueden enviarse como mensajes SMS. La configuración de ejemplo usa la contraseña predeterminada del dispositivo 0000. Mantenga {{apn}}, {{apnu}} y {{apnp}} como marcadores de posición para el APN, el usuario y la contraseña de su red móvil.
+El fabricante del TLW2-6BL ofrece un conjunto de comandos SMS para configuración. Los siguientes comandos públicos son ejemplos que pueden enviarse como mensajes SMS. La configuración de ejemplo usa la contraseña predeterminada del dispositivo 0000. Mantenga [apn], [apnu] y [apnp] como marcadores de posición para el APN, el usuario y la contraseña de su red móvil.
 
 - Establecer la zona horaria a UTC 0
 ```text
@@ -86,9 +86,9 @@ GMT,0000,0#
 
 - Establecer el APN del operador (reemplace los marcadores por los valores de su operador)
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} es el APN de su operador, {{apnu}} es el nombre de usuario del APN si se requiere, y {{apnp}} es la contraseña del APN si se requiere. Si el operador no pide usuario o contraseña, deje esos campos en blanco según la sintaxis SMS del fabricante.
+Explicación: [apn] es el APN de su operador, [apnu] es el nombre de usuario del APN si se requiere, y [apnp] es la contraseña del APN si se requiere. Si el operador no pide usuario o contraseña, deje esos campos en blanco según la sintaxis SMS del fabricante.
 
 - Configurar el servidor GPRS en Plaspy usando la IP pública y el puerto
 ```text

@@ -80,13 +80,13 @@ El MT-88 admite configuración por SMS. Los siguientes comandos públicos se pre
 0000,F11
 ```
 
-- Establecer el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy. {{apn}} es obligatorio. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña APN y solo deben incluirse si su operador los exige.
+- Establecer el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy. [apn] es obligatorio. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña APN y solo deben incluirse si su operador los exige.
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 Si su APN requiere usuario y contraseña inclúyalos así
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 
 - Ajustar la zona horaria a UTC 0
@@ -106,7 +106,7 @@ Si su APN requiere usuario y contraseña inclúyalos así
 
 Notas sobre los comandos anteriores
 - Envíe cada comando como SMS al número del dispositivo desde un número autorizado si el MT-88 está configurado para aceptar control por SMS.
-- Reemplace {{apn}} con el APN de su operador y reemplace {{apnu}} y {{apnp}} solo si su operador exige credenciales de acceso APN.
+- Reemplace [apn] con el APN de su operador y reemplace [apnu] y [apnp] solo si su operador exige credenciales de acceso APN.
 - El ejemplo usa la IP numérica del servidor 54.85.159.138 y el puerto 8888, que son los valores públicos de Plaspy. Puede especificar d.plaspy.com en herramientas del proveedor que acepten nombres de dominio.
 
 ## Notas de configuración

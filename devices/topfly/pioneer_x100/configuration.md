@@ -82,9 +82,9 @@ GMT,0000,0#
 
 - Set the operator APN and optional APN username and password
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the access point name for your mobile operator. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders; leave them blank if not required by your operator.
+Note: [apn] is the access point name for your mobile operator. [apnu] and [apnp] are optional APN username and APN password placeholders; leave them blank if not required by your operator.
 
 - Set the GPRS server to the Plaspy IP and port
 ```
@@ -104,7 +104,7 @@ These SMS commands preserve the order shown because APN and server settings shou
 - Firmware differences can change the exact command syntax and available options; consult the device firmware release notes when possible.
 - This model publicly supports SMS configuration as shown, but TopFly installer tools or a configuration utility might provide additional options or a GUI.
 - Choosing TCP versus UDP can depend on network conditions and operator behavior; both transports are supported for connecting to Plaspy at port 8888.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} intact when preparing commands and replace them with your operator values.
+- Keep APN placeholders [apn], [apnu], and [apnp] intact when preparing commands and replace them with your operator values.
 - The example uses the public default password 0000 in commands where required; consider securing the device following manufacturer guidance after initial setup.
 
 ## Why Use Plaspy with This Configuration

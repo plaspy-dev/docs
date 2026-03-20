@@ -1,6 +1,7 @@
 ---
 slug: /eelink/tk319h
 id: tk319h
+sidebar_key: eelintk319h_index_tk319h
 sidebar_label: TK319‑H
 title: EElink - TK319‑H
 sidebar_class_name: menu_item_tracker

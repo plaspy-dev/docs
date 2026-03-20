@@ -1,6 +1,7 @@
 ---
 slug: /tzone/tz_avl05_3g
 id: tz_avl05_3g
+sidebar_key: tzontz_avl05_3g_index_tz_avl05_3g
 sidebar_label: TZ-AVL05 3G
 title: TZone - TZ-AVL05 3G
 sidebar_class_name: menu_item_tracker

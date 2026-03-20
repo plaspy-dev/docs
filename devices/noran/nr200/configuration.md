@@ -73,16 +73,16 @@ The NR200 sends location and telemetry over cellular networks and can be configu
 
 ## Example Configuration Commands
 
-The NR200 supports SMS-based configuration. The sample configuration flow below uses the device password 000000 in the command strings. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} intact and replace them with your operator APN and optional APN username and password when required.
+The NR200 supports SMS-based configuration. The sample configuration flow below uses the device password 000000 in the command strings. Keep placeholders such as [apn], [apnu], and [apnp] intact and replace them with your operator APN and optional APN username and password when required.
 
 1. Set the operator APN
-   - Replace {{apn}} with your cellular operator APN. If your operator requires a username or password provide {{apnu}} and {{apnp}} as additional comma separated values.
+   - Replace [apn] with your cellular operator APN. If your operator requires a username or password provide [apnu] and [apnp] as additional comma separated values.
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
    - If your APN requires username and password:
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 2. Set the GPRS server to Plaspy (IP and port shown)
@@ -107,7 +107,7 @@ A000000,004
 
 Notes about the commands
 - The leading A000000 strings use the sample device password 000000. If your device password is different, replace the six digits accordingly.
-- Preserve the {{apn}}, {{apnu}}, and {{apnp}} placeholders when copying commands and substitute your real operator values before sending.
+- Preserve the [apn], [apnu], and [apnp] placeholders when copying commands and substitute your real operator values before sending.
 - Send these commands as SMS messages to the NR200 from a phone number authorized by the device if access control is configured.
 
 ## Configuration Notes

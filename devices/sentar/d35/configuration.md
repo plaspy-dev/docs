@@ -76,7 +76,7 @@ When configured, the D35 sends location and status updates from the watch to the
 
 ## Example Configuration Commands
 
-The D35 supports SMS based configuration commands. The following public commands are provided in the manufacturer modelConfiguration and are presented here in the same order. The sample setup uses the default device password 123456 as shown. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN values.
+The D35 supports SMS based configuration commands. The following public commands are provided in the manufacturer modelConfiguration and are presented here in the same order. The sample setup uses the default device password 123456 as shown. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator APN values.
 
 - Optional initial factory reset
 ```text
@@ -93,9 +93,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Set the operator APN where {{apn}} is the APN, {{apnu}} is the APN username, {{apnp}} is the APN password and xxxyy represents MCC and MNC if required
+- Set the operator APN where [apn] is the APN, [apnu] is the APN username, [apnp] is the APN password and xxxyy represents MCC and MNC if required
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Set GPRS server to Plaspy using the public server IP and port
@@ -115,7 +115,7 @@ pw,123456,ts#
 
 Notes on the commands above:
 - The commands are presented as supplied in the public modelConfiguration. Some firmware or regional variants may use slightly different separators or syntax. Confirm exact command syntax with the device manual.
-- Placeholders: {{apn}} = operator APN, {{apnu}} = APN username, {{apnp}} = APN password.
+- Placeholders: [apn] = operator APN, [apnu] = APN username, [apnp] = APN password.
 - The factory reset command is optional and should be used only when you need to restore factory defaults.
 
 ## Configuration Notes

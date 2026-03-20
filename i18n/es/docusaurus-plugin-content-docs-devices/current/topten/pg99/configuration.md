@@ -87,14 +87,14 @@ Los siguientes comandos provienen de las instrucciones públicas de configuraci�
 ```
 Etiqueta: Reinicio opcional para restaurar configuración de fábrica cuando sea necesario.
 
-- Configure APN y servidor GPRS para apuntar el rastreador a Plaspy. Reemplace los marcadores {{apn}}, {{apnu}} y {{apnp}} con el APN, usuario y contraseña de su operador:
+- Configure APN y servidor GPRS para apuntar el rastreador a Plaspy. Reemplace los marcadores [apn], [apnu] y [apnp] con el APN, usuario y contraseña de su operador:
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Notas:
 - IPN está establecido en la IP del servidor Plaspy 54.85.159.138 (puede usar el dominio d.plaspy.com si su dispositivo acepta dominio en lugar de IP).
 - COM establece el puerto del servidor a 8888, que es el puerto compartido de Plaspy.
-- APN:{{apn}},{{apnu}},{{apnp}} son marcadores de posición — reemplácelos con el APN, usuario y contraseña del operador.
+- APN:[apn],[apnu],[apnp] son marcadores de posición — reemplácelos con el APN, usuario y contraseña del operador.
 - RPT, SLP, RUN son parámetros específicos del dispositivo en la secuencia pública de comandos; manténgalos según lo indique el fabricante si aplica.
 
 - Verificar o consultar los ajustes WWW/GPRS actuales:

@@ -77,20 +77,20 @@ El fabricante del ST8310/U proporciona plantillas de comandos SMS para configura
 
 Reemplace los marcadores de posición así:
 - Reemplace {{device_id}} con el ID de seis dígitos derivado del IMEI como se describió arriba
-- Reemplace {{apn}} con el APN de su operador
-- Reemplace {{apnu}} con el usuario del APN si su operador lo requiere
-- Reemplace {{apnp}} con la contraseña del APN si su operador la requiere
+- Reemplace [apn] con el APN de su operador
+- Reemplace [apnu] con el usuario del APN si su operador lo requiere
+- Reemplace [apnp] con la contraseña del APN si su operador la requiere
 
 1) Configure el APN del operador y el servidor GPRS para que apunten a Plaspy. Use el dominio o la IP e incluya el puerto 8888. Plantilla SMS de ejemplo:
 
 ```
-SA200NTW;{{device_id}};02;0;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 O si su dispositivo acepta el dominio en lugar de la IP:
 
 ```
-SA200NTW;{{device_id}};02;0;{{apn}};{{apnu}};{{apnp}};d.plaspy.com;8888;;;;
+SA200NTW;{{device_id}};02;0;[apn];[apnu];[apnp];d.plaspy.com;8888;;;;
 ```
 
 2) Establezca el intervalo de reporte a 60 segundos. Plantilla SMS de ejemplo:
@@ -106,9 +106,9 @@ SA200CMD;{{device_id}};02;PresetA
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es la cadena APN de su operador móvil
-- {{apnu}} es el usuario del APN si se requiere; de lo contrario déjelo vacío
-- {{apnp}} es la contraseña del APN si se requiere; de lo contrario déjelo vacío
+- [apn] es la cadena APN de su operador móvil
+- [apnu] es el usuario del APN si se requiere; de lo contrario déjelo vacío
+- [apnp] es la contraseña del APN si se requiere; de lo contrario déjelo vacío
 - {{device_id}} debe calcularse a partir del IMEI del dispositivo según el ejemplo anterior
 
 Si su herramienta de instalación o el firmware requieren un orden de campos distinto o usan nombres de dominio para la configuración del servidor GPRS, aplique el dominio d.plaspy.com o la IP 54.85.159.138 y siempre establezca el puerto 8888.

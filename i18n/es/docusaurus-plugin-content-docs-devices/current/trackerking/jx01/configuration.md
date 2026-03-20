@@ -78,7 +78,7 @@ Al configurarlo para reportar a Plaspy, el JX01 envía actualizaciones periódic
 
 El JX01 puede configurarse usando las herramientas del fabricante o la app complementaria, y los comandos exactos o las cadenas SMS varían según el firmware y el modelo regional. Debido a que los métodos de configuración del fabricante difieren, no hay líneas de comando públicas universales que mostrar aquí. En la práctica ingresará los valores del servidor Plaspy d.plaspy.com (o 54.85.159.138) y el puerto 8888 en la interfaz de configuración de TrackerKing o en la herramienta del proveedor y elegirá UDP o TCP si se le solicita.
 
-Si su dispositivo o proveedor ofrece comandos SMS o CLI para la configuración remota, busque comandos que establezcan el dominio o IP del servidor y el puerto. Conserve cualquier marcador de posición que use el fabricante como {{apn}} o {{apnu}} cuando aparezca y reemplácelo con los datos APN de su operador siguiendo la documentación del proveedor.
+Si su dispositivo o proveedor ofrece comandos SMS o CLI para la configuración remota, busque comandos que establezcan el dominio o IP del servidor y el puerto. Conserve cualquier marcador de posición que use el fabricante como [apn] o [apnu] cuando aparezca y reemplácelo con los datos APN de su operador siguiendo la documentación del proveedor.
 
 ## Notas de configuración
 

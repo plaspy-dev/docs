@@ -79,13 +79,13 @@ The FMC234 can be configured using a batch command format for basic parameters. 
 - Example SMS batch or batch setparam command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command and placeholders:
-- {{apn}} is the APN name for your SIM carrier.
-- {{apnu}} is the APN username when required by the carrier.
-- {{apnp}} is the APN password when required by the carrier.
+- [apn] is the APN name for your SIM carrier.
+- [apnu] is the APN username when required by the carrier.
+- [apnp] is the APN password when required by the carrier.
 - The command includes d.plaspy.com and port 8888 which are the public Plaspy server settings.
 - The exact parameter indexes and transport selection values can vary by firmware; consult Teltonika documentation or Teltonika Configurator to map parameter numbers to human readable settings for your firmware version.
 

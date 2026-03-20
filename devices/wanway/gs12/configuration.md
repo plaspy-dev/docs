@@ -76,22 +76,22 @@ The GS12 sends GNSS location and device event telemetry over the cellular link t
 
 The GS12 supports SMS based configuration. Below are the public example commands you can send to the device by SMS. Preserve the placeholders when you replace them with carrier specific values.
 
-- Configure your carrier APN. Replace {{apn}} with your carrier APN. If your carrier requires username and password, include {{apnu}} and {{apnp}} as provided by the carrier.
+- Configure your carrier APN. Replace [apn] with your carrier APN. If your carrier requires username and password, include [apnu] and [apnp] as provided by the carrier.
 
 ```
-APN,{{apn}}{{# if apnu then }},{{apnu}},{{apnp}}{{# endif }}#
+APN,[apn]{{# if apnu then }},[apnu],[apnp]{{# endif }}#
 ```
 
 (If your message system does not support conditional syntax, use one of the following forms depending on whether your APN requires credentials.)
 
 With only APN:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 
 With APN username and password:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Setup the GPRS server to point at Plaspy using the public server domain and port:
@@ -125,8 +125,8 @@ STATUS#
 ```
 
 Notes on placeholders and commands:
-- {{apn}} is the carrier APN string required for cellular data.
-- {{apnu}} and {{apnp}} are optional APN username and APN password placeholders used only when the carrier requires credentials.
+- [apn] is the carrier APN string required for cellular data.
+- [apnu] and [apnp] are optional APN username and APN password placeholders used only when the carrier requires credentials.
 - Keep the trailing hash character (#) as shown; it is part of the GS12 SMS command format.
 
 ## Configuration Notes

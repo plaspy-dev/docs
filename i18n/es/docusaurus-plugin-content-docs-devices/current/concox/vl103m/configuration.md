@@ -84,15 +84,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} con su APN. Si el operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} respectivamente
+- Configurar el APN del operador. Reemplace [apn] con su APN. Si el operador requiere usuario y contraseña, incluya [apnu] y [apnp] respectivamente
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 o con usuario y contraseña
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Marcadores de posición: {{apn}} = nombre del APN, {{apnu}} = usuario del APN, {{apnp}} = contraseña del APN)
+(Marcadores de posición: [apn] = nombre del APN, [apnu] = usuario del APN, [apnp] = contraseña del APN)
 
 - Establecer el servidor GPRS para usar el dominio de Plaspy en el puerto 8888
 ```

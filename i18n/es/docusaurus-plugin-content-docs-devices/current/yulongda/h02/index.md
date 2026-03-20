@@ -1,6 +1,7 @@
 ---
 slug: /yulongda/h02
 id: h02
+sidebar_key: yulongdh02_index_h02
 sidebar_label: H02
 title: YulongDa - H02
 sidebar_class_name: menu_item_tracker

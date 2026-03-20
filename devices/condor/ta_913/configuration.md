@@ -77,15 +77,15 @@ The TA-913 public configuration uses SMS commands. Commands below preserve place
 
 - Set the operator APN
 ```
-APN,0000,{{apn}}{{,{{apnu}},{{apnp}}}}
+APN,0000,[apn]{{,[apnu],[apnp]}}
 ```
-Note: Replace {{apn}} with your operator APN. If your operator requires a username or password, include {{apnu}} and {{apnp}} respectively. If not required, omit them.
+Note: Replace [apn] with your operator APN. If your operator requires a username or password, include [apnu] and [apnp] respectively. If not required, omit them.
 
 - Set a 5 digit identifier (use the last 5 digits of the IMEI)
 ```
 ALIAS,0000,<last5imei>#
 ```
-Note: Replace <last5imei> with the device IMEI last five digits. The tracker uses this alias for identification.
+Note: Replace \<last5imei> with the device IMEI last five digits. The tracker uses this alias for identification.
 
 - Set the Timezone to UTC 0
 ```

@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/s_2332
 id: s_2332
+sidebar_key: navtelekos_2332_index_s_2332
 sidebar_label: СМАРТ S-2332
 title: Navtelekom - СМАРТ S-2332
 sidebar_class_name: menu_item_tracker

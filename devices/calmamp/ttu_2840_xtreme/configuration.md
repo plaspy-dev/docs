@@ -75,24 +75,24 @@ When configured, the TTU-2840 XTREME sends location and event data to the Plaspy
 The TTU-2840 XTREME can be configured by SMS according to public guidance. The device expects the ID to be the MID 10 digits replied by the !R0 command. Below are the public SMS commands and their purpose. Preserve the placeholders when you replace them with your operator values.
 
 1. Set the operator APN
-Send an SMS with the device ID and the command below. Replace {{apn}} with your operator APN.
+Send an SMS with the device ID and the command below. Replace [apn] with your operator APN.
 
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 2. Set the APN operator username (if required)
-Replace {{apnu}} with the APN username provided by your carrier.
+Replace [apnu] with the APN username provided by your carrier.
 
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 3. Set the APN operator password (if required)
-Replace {{apnp}} with the APN password provided by your carrier.
+Replace [apnp] with the APN password provided by your carrier.
 
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 4. Set the GPRS server to Plaspy by IP
@@ -124,8 +124,8 @@ Use the device check command to read back configuration values.
 ```
 
 Notes on placeholders and identifiers:
-- {{apn}} is your mobile operator APN string.
-- {{apnu}} and {{apnp}} are optional APN username and password fields; include them only if your carrier requires them.
+- [apn] is your mobile operator APN string.
+- [apnu] and [apnp] are optional APN username and password fields; include them only if your carrier requires them.
 - The device MID 10 digit ID referenced in some CalmAmp workflows is returned by the !R0 command per public documentation.
 
 ## Configuration Notes

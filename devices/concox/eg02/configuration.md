@@ -92,13 +92,13 @@ GMT,E,0#
 3. Set the operator APN
 - Basic APN only:
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 - APN with username and password (if required by the operator):
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN, APN username, and APN password respectively.
+Note: Keep the placeholders [apn], [apnu], and [apnp] and replace them with your operator APN, APN username, and APN password respectively.
 
 4. Set the GPRS server to the Plaspy domain (recommended)
 ```text
@@ -130,7 +130,7 @@ GPRSSET#
 
 How to use these commands
 - Send each SMS from an authorized phone number to the EG02 in the order you want the settings applied.
-- Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with real operator values.
+- Replace placeholders such as [apn], [apnu], and [apnp] with real operator values.
 - Use the verification command GPRSSET# to confirm server, APN, and timer settings after applying changes.
 
 ## Configuration Notes

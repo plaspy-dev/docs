@@ -76,12 +76,12 @@ El TAT100 envía ubicación GNSS periódica y telemetría del dispositivo a trav
 
 Para configurar los parámetros básicos en su dispositivo Teltonika usando el ejemplo público del comando setparam, envíe el siguiente comando. Conserve los marcadores y reemplácelos con los datos APN de su operador.
 
-- Reemplace {{apn}} con el nombre APN de su operador
-- Reemplace {{apnu}} con el usuario APN si es requerido; si no, déjelo en blanco o como lo indique su operador
-- Reemplace {{apnp}} con la contraseña APN si es requerida; si no, déjelo en blanco o como lo indique su operador
+- Reemplace [apn] con el nombre APN de su operador
+- Reemplace [apnu] con el usuario APN si es requerido; si no, déjelo en blanco o como lo indique su operador
+- Reemplace [apnp] con la contraseña APN si es requerida; si no, déjelo en blanco o como lo indique su operador
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Este ejemplo configura las credenciales APN y apunta el dispositivo a d.plaspy.com en el puerto 8888. Las claves numéricas de los parámetros reflejan el mapeo de parámetros usado en comandos Teltonika. Verifique el significado exacto de cada parámetro y cualquier asignación de modo de transporte en la documentación de Teltonika para su versión de firmware antes de aplicar los cambios.
@@ -91,7 +91,7 @@ Este ejemplo configura las credenciales APN y apunta el dispositivo a d.plaspy.c
 - Las variaciones de firmware y las SKUs de hardware pueden cambiar el mapeo de parámetros y los comandos soportados. Confirme los IDs de parámetros y su significado con la documentación de Teltonika para el firmware de su dispositivo.
 - Elija UDP o TCP según la preferencia del instalador o el entorno de red. Si no está seguro, pruebe ambos transportes y verifique el reporte exitoso en Plaspy.
 - La configuración por SMS es un método habitual para rastreadores a batería como el TAT100 cuando no hay acceso directo por USB o herramientas del fabricante.
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} listos y precisos para su operador móvil para evitar fallos de conectividad.
+- Mantenga los marcadores [apn], [apnu] y [apnp] listos y precisos para su operador móvil para evitar fallos de conectividad.
 - Después de aplicar los ajustes, permita tiempo para que el dispositivo se conecte a la red y para que Plaspy detecte automáticamente el protocolo del rastreador y comience a recibir reportes.
 
 ## Por qué usar Plaspy con esta configuración

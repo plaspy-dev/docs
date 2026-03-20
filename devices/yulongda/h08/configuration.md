@@ -80,11 +80,11 @@ The following commands are extracted from public YulongDa H08 guidance. These ar
 
 - Set the operator APN
 ```text
-*APN#000000#{{apn}}#
+*APN#000000#[apn]#
 ```
 If your APN requires a username or password include them in the command sequence like this
 ```text
-*APN#000000#{{apn}}#{{apnu}}#{{apnp}}#
+*APN#000000#[apn]#[apnu]#[apnp]#
 ```
 - Set the GPRS server to Plaspy using the public Plaspy server IP and port
 ```text
@@ -100,9 +100,9 @@ NXT60
 ```
 
 Notes on placeholders and values
-- {{apn}} is the operator APN string provided by your SIM carrier
-- {{apnu}} is the APN username when required by the carrier
-- {{apnp}} is the APN password when required by the carrier
+- [apn] is the operator APN string provided by your SIM carrier
+- [apnu] is the APN username when required by the carrier
+- [apnp] is the APN password when required by the carrier
 - The example uses the initial device password 000000; if your unit has a different password use that value instead
 - Use the commands in the order shown if following the manufacturer example, and confirm SMS responses from the device before proceeding
 

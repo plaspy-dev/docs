@@ -80,12 +80,12 @@ El ST8310U puede configurarse por SMS usando el formato de comandos públicos qu
 
 - Configurar APN del operador y servidor GPRS
 ```text
-SA200NTW;{{ID}};02;{0 or 1};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{ID}};02;{0 or 1};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Notas sobre el comando APN
   - Reemplace {{ID}} con el ID de dispositivo derivado del IMEI según se explicó arriba.
   - El cuarto campo debe ser 1 si suministra nombre de usuario o contraseña del APN; de lo contrario, 0.
-  - Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} si piensa sustituirlos por el APN, nombre de usuario y contraseña de su operador.
+  - Mantenga los marcadores [apn], [apnu] y [apnp] si piensa sustituirlos por el APN, nombre de usuario y contraseña de su operador.
 
 - Fijar el intervalo de reporte a 60 segundos
 ```text
@@ -104,7 +104,7 @@ Envíe estos comandos SMS desde el número autorizado si el dispositivo requiere
 - Las variaciones de firmware pueden cambiar el orden exacto de parámetros o los campos disponibles. Siempre verifique con las notas de firmware de Suntech para la revisión de su dispositivo.
 - El dispositivo soporta configuración por SMS como se muestra aquí, y también puede soportar OTA o configuración mediante herramientas del proveedor según su hardware y firmware.
 - Elija UDP o TCP según los requisitos de la instalación. TCP puede ofrecer mayor fiabilidad de sesión mientras que UDP es más simple y a menudo se usa para telemetría ligera.
-- Los marcadores de usuario y contraseña del APN {{apnu}} y {{apnp}} son opcionales para muchos operadores. Ajuste el cuarto campo bandera a 1 cuando los suministre.
+- Los marcadores de usuario y contraseña del APN [apnu] y [apnp] son opcionales para muchos operadores. Ajuste el cuarto campo bandera a 1 cuando los suministre.
 - Plaspy utiliza el mismo puerto 8888 para todos los dispositivos soportados y detecta automáticamente el protocolo del rastreador, por lo que no son necesarios cambios en el servidor.
 
 ## Por qué usar Plaspy con esta configuración

@@ -76,13 +76,13 @@ The VT-10 uses its GPRS connection to send tracking messages to the Plaspy serve
 
 The VT-10 can be configured using the manufacturer provided methods which may include SMS commands, a PC configuration tool, or a USB/serial interface. Exact commands and syntax vary by firmware and vendor tool, so consult the WP VT-10 manual for the precise command format.
 
-If your vendor provides SMS-based configuration templates, they typically require the server address and port plus transport selection. Keep placeholders for APN values where required such as {{apn}}, {{apnu}}, or {{apnp}} and replace them with your carrier APN, user, and password as needed.
+If your vendor provides SMS-based configuration templates, they typically require the server address and port plus transport selection. Keep placeholders for APN values where required such as [apn], [apnu], or [apnp] and replace them with your carrier APN, user, and password as needed.
 
 ## Configuration Notes
 
 - Different firmware versions or hardware revisions of the VT-10 may expose different configuration options or command syntax. Always confirm the correct syntax for your device firmware.
 - Choose UDP or TCP based on network reliability and any constraints in your deployment; Plaspy accepts either transport on the shared port.
-- Keep APN placeholders ready when using a cellular data SIM; replace {{apn}} and related placeholders with carrier values.
+- Keep APN placeholders ready when using a cellular data SIM; replace [apn] and related placeholders with carrier values.
 - When using SMS configuration, verify the SMS command format with the VT-10 manual to avoid misconfiguration.
 - Verify the device IMEI and that it is recognized by Plaspy after configuration to ensure proper assignment.
 

@@ -76,7 +76,7 @@ The BN-407 supports SMS-based configuration. The commands below are taken from t
 
 Notes:
 - The sample device password in these commands is 123456 (this is the default shown in public documentation). Consider changing the password after initial setup.
-- Placeholders are shown as {{apn}}, {{apnu}}, and {{apnp}} and should be replaced with your SIM operator APN, APN username, and APN password respectively.
+- Placeholders are shown as [apn], [apnu], and [apnp] and should be replaced with your SIM operator APN, APN username, and APN password respectively.
 
 1. Factory reset (optional initial step)
 ```text
@@ -88,14 +88,14 @@ begin123456
 time zone123456 0
 ```
 
-3. Set the operator APN (replace {{apn}} with your operator APN)
+3. Set the operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Set the APN username and password (replace placeholders with your credentials)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Set the GPRS server to the Plaspy IP and port

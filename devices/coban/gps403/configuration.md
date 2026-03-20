@@ -76,7 +76,7 @@ When configured, the GPS403 will send location and device telemetry to the Plasp
 
 ## Example Configuration Commands
 
-The GPS403 can be configured by sending SMS commands. The commands below are provided in the same order as commonly used for initial setup. The default device password in these examples is 123456. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your operator APN, APN username, and APN password respectively.
+The GPS403 can be configured by sending SMS commands. The commands below are provided in the same order as commonly used for initial setup. The default device password in these examples is 123456. Placeholders such as [apn], [apnu], and [apnp] should be replaced with your operator APN, APN username, and APN password respectively.
 
 - Optional initial factory reset (use only when needed for a clean setup)
 ```text
@@ -88,14 +88,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your mobile operator APN)
+- Set the operator APN (replace [apn] with your mobile operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username and password (replace placeholders as needed)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP and port
@@ -128,8 +128,8 @@ protocol123456 18
 ```
 
 Notes on placeholders and password:
-- {{apn}} is the mobile operator APN required for GPRS data.
-- {{apnu}} and {{apnp}} are the APN username and password when provided by the operator.
+- [apn] is the mobile operator APN required for GPRS data.
+- [apnu] and [apnp] are the APN username and password when provided by the operator.
 - Keep the default password 123456 unless your device admin guide instructs changing it. Change passwords as part of security best practices where supported.
 
 ## Configuration Notes

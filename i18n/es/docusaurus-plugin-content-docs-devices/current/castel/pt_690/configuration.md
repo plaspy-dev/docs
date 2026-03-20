@@ -78,11 +78,11 @@ Si utiliza comandos SMS, siga los ejemplos de comandos del dispositivo que se mu
 
 ## Comandos de ejemplo para configuración
 
-El PT-690 admite configuración por SMS según la documentación pública. La clave secreta por defecto para las instrucciones SMS son los últimos 6 caracteres ASCII del ID del dispositivo. Reemplace {{SecretKey}} por ese valor y {{apn}}, {{apnu}}, {{apnp}} por el APN, el nombre de usuario APN y la contraseña APN de su SIM según corresponda.
+El PT-690 admite configuración por SMS según la documentación pública. La clave secreta por defecto para las instrucciones SMS son los últimos 6 caracteres ASCII del ID del dispositivo. Reemplace {{SecretKey}} por ese valor y [apn], [apnu], [apnp] por el APN, el nombre de usuario APN y la contraseña APN de su SIM según corresponda.
 
 - Establecer APN y el servidor Plaspy por IP y puerto
 ```text
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verificar los ajustes GPRS y de servidor en el dispositivo
@@ -92,9 +92,9 @@ El PT-690 admite configuración por SMS según la documentación pública. La cl
 
 Notas sobre los marcadores:
 - {{SecretKey}} — últimos 6 caracteres ASCII del ID del dispositivo usados como clave secreta para comandos SMS.
-- {{apn}} — nombre APN de su operador móvil.
-- {{apnu}} — nombre de usuario del APN si el operador lo requiere; dejar vacío si no se usa.
-- {{apnp}} — contraseña del APN si el operador la requiere; dejar vacío si no se usa.
+- [apn] — nombre APN de su operador móvil.
+- [apnu] — nombre de usuario del APN si el operador lo requiere; dejar vacío si no se usa.
+- [apnp] — contraseña del APN si el operador la requiere; dejar vacío si no se usa.
 
 Estos comandos reflejan la sintaxis SMS pública que muestra la documentación del PT-690. Si su firmware o la app del proveedor usan otra sintaxis, siga los materiales oficiales de Castel.
 

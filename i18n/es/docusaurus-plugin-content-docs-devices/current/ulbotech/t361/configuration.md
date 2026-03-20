@@ -75,7 +75,7 @@ Una vez configurado, el T361 envía sus flujos de GPS y telemetría vehicular po
 
 El T361 puede configurarse mediante herramientas de Ulbotech, la interfaz de servicio micro USB o el canal de configuración que provea su instalador. Los formatos exactos de comando y los parámetros disponibles varían según el firmware y la herramienta del proveedor, por lo que no se proporcionan ejemplos concretos de SMS o comandos seriales aquí. Al configurar, asegúrese de que el dispositivo apunte a d.plaspy.com o a 54.85.159.138 y esté en el puerto 8888 usando UDP o TCP según sea necesario. Plaspy detectará automáticamente el protocolo del rastreador cuando llegue la telemetría.
 
-Si dispone de comandos públicos proporcionados por el fabricante o de una guía de instalación de Ulbotech, siga esos comandos y reemplace el host de destino por d.plaspy.com o la IP 54.85.159.138 usando el puerto 8888. Si el fabricante incluye marcadores como {{apn}} manténgalos y suministre los valores APN correctos de su operador móvil.
+Si dispone de comandos públicos proporcionados por el fabricante o de una guía de instalación de Ulbotech, siga esos comandos y reemplace el host de destino por d.plaspy.com o la IP 54.85.159.138 usando el puerto 8888. Si el fabricante incluye marcadores como [apn] manténgalos y suministre los valores APN correctos de su operador móvil.
 
 ## Notas de configuración
 

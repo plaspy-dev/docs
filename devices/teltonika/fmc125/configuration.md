@@ -80,14 +80,14 @@ If you use the Teltonika SMS or batch configuration method, include the Plaspy s
 The public Teltonika example for batch SMS configuration can set APN parameters and point the device to Plaspy. The following command is provided in public device configuration content and preserves placeholders for operator values.
 
 - Explanation of placeholders
-  - {{apn}} is the mobile network APN
-  - {{apnu}} is the APN username if required by the operator
-  - {{apnp}} is the APN password if required by the operator
+  - [apn] is the mobile network APN
+  - [apnu] is the APN username if required by the operator
+  - [apnp] is the APN password if required by the operator
 
 Example SMS batch command to set APN and point the device to Plaspy:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Send this SMS to the device using the Teltonika recommended SMS workflow or input it via the vendor configuration tool where supported. The command sets network parameters and the server address to d.plaspy.com with the Plaspy port 8888. Plaspy will automatically detect the tracker protocol when the device connects.

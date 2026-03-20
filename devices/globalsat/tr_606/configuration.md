@@ -85,14 +85,14 @@ TSPRXAB27GHKLMnaicz*U!
 
 - Template SMS command to configure APN and Plaspy server settings:
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Placeholder explanations:
   - {{imei}} — the device IMEI number (required by the tracker for command targeting).
-  - {{apn}} — the carrier APN name.
-  - {{apnu}} — the APN username if the carrier requires one.
-  - {{apnp}} — the APN password if the carrier requires one.
+  - [apn] — the carrier APN name.
+  - [apnu] — the APN username if the carrier requires one.
+  - [apnp] — the APN password if the carrier requires one.
   - {{checksum}} — two character uppercase hexadecimal checksum calculated over the command string up to but not including the asterisk character.
 
 2) Optional reboot command to apply settings (labelled here as optional but recommended when required by firmware):

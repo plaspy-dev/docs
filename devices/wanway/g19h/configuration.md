@@ -77,9 +77,9 @@ The G19H public configuration supports SMS-based commands. Send these commands a
 
 - Configure carrier APN (replace placeholders with your carrier values):
 ```
-APN,{{apn}}{{#if apnu}},{{apnu}},{{apnp}}{{/if}}#
+APN,[apn]{{#if apnu}},[apnu],[apnp]{{/if}}#
 ```
-Explanation: Replace {{apn}} with your APN. If your carrier requires an APN username and password, supply {{apnu}} and {{apnp}} respectively. The device accepts the APN command to enable GPRS data.
+Explanation: Replace [apn] with your APN. If your carrier requires an APN username and password, supply [apnu] and [apnp] respectively. The device accepts the APN command to enable GPRS data.
 
 - Set the GPRS server to Plaspy (domain version):
 ```
@@ -111,7 +111,7 @@ STATUS#
 ```
 Explanation: Retrieve the device status to confirm network registration, GPS fix, battery/power status, and other runtime indicators.
 
-Note: Preserve the placeholders exactly as provided ({{apn}}, {{apnu}}, {{apnp}}) when preparing SMS commands. Use the domain d.plaspy.com or the server IP 54.85.159.138 with port 8888 as required. The device may accept either the domain or IP form in its SERVER command.
+Note: Preserve the placeholders exactly as provided ([apn], [apnu], [apnp]) when preparing SMS commands. Use the domain d.plaspy.com or the server IP 54.85.159.138 with port 8888 as required. The device may accept either the domain or IP form in its SERVER command.
 
 ## Configuration Notes
 

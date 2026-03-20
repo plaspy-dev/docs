@@ -83,15 +83,15 @@ El GVT-510 puede configurarse mediante comandos SMS. Los comandos de ejemplo a c
 M000000,22,{{IMEI_15}}
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario y contraseña del APN, incluya {{apnu}} y {{apnp}}:
+- Configurar el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario y contraseña del APN, incluya [apnu] y [apnp]:
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Opcional con usuario y contraseña:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
-(Explicación de marcadores: {{apn}} = APN, {{apnu}} = usuario APN, {{apnp}} = contraseña APN.)
+(Explicación de marcadores: [apn] = APN, [apnu] = usuario APN, [apnp] = contraseña APN.)
 
 - Establecer el intervalo de actualización a 60 segundos:
 ```

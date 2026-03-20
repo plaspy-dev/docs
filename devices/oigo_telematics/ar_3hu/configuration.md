@@ -77,7 +77,7 @@ When configured for Plaspy, the AR-3HU sends periodic location updates and event
 The following AT commands are a public example for AR-3HU style configuration. These commands are presented in the same order as the provided source. Preserve placeholders and replace them with your operator specific values where required.
 
 - AT+XRFD
-- AT+XAPN=1"{{apn}}"
+- AT+XAPN=1"[apn]"
 - AT+XIP="54.85.159.138",8888
 - AT+XBUB=1
 - AT+XBUBE=3,30
@@ -139,7 +139,7 @@ Fenced command block (preserve ordering for execution where order matters):
 
 ```
 AT+XRFD
-AT+XAPN=1"{{apn}}"
+AT+XAPN=1"[apn]"
 AT+XIP="54.85.159.138",8888
 AT+XBUB=1
 AT+XBUBE=3,30
@@ -199,7 +199,7 @@ AT+XRST=2
 ```
 
 Notes on placeholders and reset commands:
-- {{apn}} is a placeholder for the mobile operator APN and must be replaced with the correct APN string for the SIM card in use.
+- [apn] is a placeholder for the mobile operator APN and must be replaced with the correct APN string for the SIM card in use.
 - The final AT+XRST=1 and AT+XRST=2 commands are shown as device restart commands in this example. Treat reset steps as optional or only when required by your setup process; follow manufacturer guidance.
 
 ## Configuration Notes

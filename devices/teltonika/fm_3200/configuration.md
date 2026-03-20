@@ -49,7 +49,7 @@ Use the following public Plaspy server settings when configuring the FM 3200:
 - Ensure the FM 3200 has a reliable power source and is powered on
 - A working SIM card with data enabled and correct APN settings for the mobile network
 - Access to the official Teltonika configuration method applicable to your device and firmware such as SMS, USB, or Teltonika configuration tools
-- The APN name and optionally APN username and APN password ready to enter in placeholders like {{apn}}, {{apnu}}, and {{apnp}}
+- The APN name and optionally APN username and APN password ready to enter in placeholders like [apn], [apnu], and [apnp]
 - Knowledge of whether your installation requires UDP or TCP transport selection
 - Connectivity testing method such as verifying GPS fix and GPRS session status via the device interface or platform
 
@@ -69,7 +69,7 @@ The FM 3200 sends location and device data to the shared Plaspy server endpoint 
 2. Enter the Plaspy server endpoint using either the domain d.plaspy.com or the server IP 54.85.159.138.
 3. Set the device port to 8888 as required by Plaspy.
 4. Choose UDP or TCP transport if the FM 3200 requires an explicit transport selection.
-5. Provide APN credentials using the appropriate fields or placeholders such as {{apn}}, {{apnu}}, and {{apnp}}.
+5. Provide APN credentials using the appropriate fields or placeholders such as [apn], [apnu], and [apnp].
 6. Apply or save the configuration and restart the device if the method or firmware requires a reboot to apply settings.
 7. Validate that the device reports to Plaspy and appears in the platform using device activity or connection logs.
 
@@ -80,13 +80,13 @@ The FM 3200 can be configured with a batch command that sets APN and server para
 - Example batch configuration command (SMS or other Teltonika supported input):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes about the placeholders and command:
-- {{apn}} is the cellular APN name for the SIM provider
-- {{apnu}} is the APN username if required by the carrier
-- {{apnp}} is the APN password if required by the carrier
+- [apn] is the cellular APN name for the SIM provider
+- [apnu] is the APN username if required by the carrier
+- [apnp] is the APN password if required by the carrier
 - 2004 is configured here as d.plaspy.com and 2005 as port 8888 to point the tracker to Plaspy
 - 2006 is included in the example batch sequence; check Teltonika documentation for the exact meaning of specific parameter numbers for your firmware
 - Use the Teltonika supported delivery method for this command such as SMS or the official configuration tool depending on your device setup

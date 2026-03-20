@@ -80,19 +80,19 @@ The TS-G17H supports SMS-based commands for configuration. The public, commonly 
 FORMAT
 ```
 
-- Set the operator APN (replace {{apn}} with your mobile operator APN string):
+- Set the operator APN (replace [apn] with your mobile operator APN string):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username (replace {{apnu}} with the APN username if required):
+- Set the APN username (replace [apnu] with the APN username if required):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (replace {{apnp}} with the APN password if required):
+- Set the APN password (replace [apnp] with the APN password if required):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP and port (this command uses the IP form and port 8888):
@@ -106,9 +106,9 @@ CXZT
 ```
 
 Notes on placeholders:
-- {{apn}} — your mobile operator APN (for example: internet, web, etc.); required for data sessions.
-- {{apnu}} — APN username when the operator requires one; leave blank or omit if not used.
-- {{apnp}} — APN password when required by the operator; leave blank if not used.
+- [apn] — your mobile operator APN (for example: internet, web, etc.); required for data sessions.
+- [apnu] — APN username when the operator requires one; leave blank or omit if not used.
+- [apnp] — APN password when required by the operator; leave blank if not used.
 - The numeric password prefix 123456 in SMS commands above is the device default password used in the manufacturer examples.
 
 ## Configuration Notes

@@ -79,13 +79,13 @@ The TZ-DP070 is configured to send data to the Plaspy server endpoint and port s
 
 The TZ-DP070 can be configured by sending SMS commands to the device. The following public SMS commands are provided in the manufacturer content and are shown in the order they should be applied. Replace placeholders and the device password as appropriate for your installation.
 
-- Set the operator APN. Replace {{apn}} with your SIM carrier APN. If your APN requires a username or password, include {{apnu}} and {{apnp}} respectively. Send this SMS to the device number:
+- Set the operator APN. Replace [apn] with your SIM carrier APN. If your APN requires a username or password, include [apnu] and [apnp] respectively. Send this SMS to the device number:
 ```text
-*000000,011,{{apn}}{{# if apnu or apnp then }},{{apnu}},{{apnp}}{{# end }}#
+*000000,011,[apn]{{# if apnu or apnp then }},[apnu],[apnp]{{# end }}#
 ```
 Example without username and password:
 ```text
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 - Set the update interval to 60 seconds (and a second parameter used by the device). Send:
@@ -106,7 +106,7 @@ You may alternatively point to the domain d.plaspy.com if your device accepts do
 
 Notes on the command format
 - The example commands use 000000 as the SMS configuration password shown in the public content. Replace 000000 with your device password if it has been changed.  
-- Bracketed placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your operator APN, APN username, and APN password respectively. Leave optional fields out if they are not required by your carrier.  
+- Bracketed placeholders such as [apn], [apnu], and [apnp] should be replaced with your operator APN, APN username, and APN password respectively. Leave optional fields out if they are not required by your carrier.  
 - Send commands as plain SMS messages to the device control number. Allow a short interval after each command for the device to process and apply settings.
 
 ## Configuration Notes

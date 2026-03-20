@@ -1,6 +1,7 @@
 ---
 slug: /autofon/d
 id: d
+sidebar_key: autofod_index_d
 sidebar_label: D-Маяк
 title: AutoFon - D-Маяк
 sidebar_class_name: menu_item_tracker

@@ -87,11 +87,11 @@ W000000,990,099###
 W000000,010,{{IMEI_FIRST14}}
 ```
 
-- Set the operator APN. Replace {{apn}} with your SIM operator APN. If the APN requires username and password, append ,{{apnu}},{{apnp}}:
+- Set the operator APN. Replace [apn] with your SIM operator APN. If the APN requires username and password, append ,[apnu],[apnp]:
 ```text
-W000000,011,{{apn}}            (or) W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn]            (or) W000000,011,[apn],[apnu],[apnp]
 ```
-Explicación: {{apn}} es la cadena APN de la red móvil. {{apnu}} y {{apnp}} son opciones para usuario y contraseña del APN.
+Explicación: [apn] es la cadena APN de la red móvil. [apnu] y [apnp] son opciones para usuario y contraseña del APN.
 
 - Set the GPRS server to the Plaspy public server IP and port:
 ```text

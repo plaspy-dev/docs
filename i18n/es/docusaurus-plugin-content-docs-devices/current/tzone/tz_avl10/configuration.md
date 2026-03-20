@@ -75,10 +75,10 @@ Cuando se configura para Plaspy, el TZ-AVL10 usa GPRS para abrir una sesión de 
 
 Para configurar el TZ-AVL10 usando comandos SMS públicos, envíe los siguientes mensajes desde un teléfono al rastreador. Estos comandos siguen el patrón publicado públicamente para el equipo. El ejemplo usa la contraseña SMS pública mostrada (*000000); si su equipo usa una contraseña diferente, reemplace *000000 por su contraseña de dispositivo.
 
-1. Configure el APN del operador. Use {{apn}} y los marcadores opcionales {{apnu}} y {{apnp}} para usuario y contraseña del APN cuando sean necesarios. Formato ejemplo:
+1. Configure el APN del operador. Use [apn] y los marcadores opcionales [apnu] y [apnp] para usuario y contraseña del APN cuando sean necesarios. Formato ejemplo:
 
 ```
-*000000,011,{{apn}}{{# if apnu or apnp }},{{apnu}},{{apnp}}{{# end }}#
+*000000,011,[apn]{{# if apnu or apnp }},[apnu],[apnp]{{# end }}#
 ```
 
 (Reemplace los valores marcadores con el APN de su operador. Si no se requieren usuario o contraseña, omita esos campos.)
@@ -103,7 +103,7 @@ Para configurar el TZ-AVL10 usando comandos SMS públicos, envíe los siguientes
 
 Notas sobre los comandos anteriores:
 - Mantenga el orden de comandos según el ejemplo del fabricante: APN primero, parámetros de reporte a continuación, dirección del servidor y finalmente habilitar GPRS.
-- Los marcadores como {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por los valores de su operador. Si su APN no requiere usuario o contraseña, dichos campos pueden omitirse como se muestra en el patrón público.
+- Los marcadores como [apn], [apnu] y [apnp] deben reemplazarse por los valores de su operador. Si su APN no requiere usuario o contraseña, dichos campos pueden omitirse como se muestra en el patrón público.
 - Si prefiere usar el nombre de host en lugar de la IP para el servidor, establezca d.plaspy.com donde el dispositivo acepte hostnames en el comando de servidor.
 
 ## Notas de configuración

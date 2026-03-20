@@ -81,7 +81,7 @@ Existen múltiples canales de configuración que CanTrack suministra para el TK0
 - Usar la herramienta de configuración PC de CanTrack para establecer los campos de servidor y puerto a d.plaspy.com y 8888.
 - Enviar comandos de configuración por SMS si su firmware lo soporta para establecer servidor, puerto y transporte.
 
-Para dispositivos y firmware que aceptan comandos SMS, en los ejemplos se usan marcadores como {{apn}}, {{apnu}} o {{apnp}}. Estos marcadores representan el nombre del APN del operador móvil, el usuario del APN y la contraseña del APN respectivamente y deben reemplazarse por los valores proporcionados por su operador SIM cuando el dispositivo lo requiera.
+Para dispositivos y firmware que aceptan comandos SMS, en los ejemplos se usan marcadores como [apn], [apnu] o [apnp]. Estos marcadores representan el nombre del APN del operador móvil, el usuario del APN y la contraseña del APN respectivamente y deben reemplazarse por los valores proporcionados por su operador SIM cuando el dispositivo lo requiera.
 
 ## Notas de configuración
 

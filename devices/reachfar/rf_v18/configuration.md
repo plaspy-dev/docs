@@ -88,7 +88,7 @@ SERVER,set,d.plaspy.com,8888
 SERVER,set,54.85.159.138,8888
 ```
 
-If your vendor documentation uses placeholders for APN or credentials, you may see tokens such as {{apn}}, {{apnu}}, or {{apnp}}. Keep those placeholders and substitute the correct values for your SIM operator when applying APN configuration.
+If your vendor documentation uses placeholders for APN or credentials, you may see tokens such as [apn], [apnu], or [apnp]. Keep those placeholders and substitute the correct values for your SIM operator when applying APN configuration.
 
 ## Configuration Notes
 

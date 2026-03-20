@@ -63,7 +63,7 @@ When configured, the EV-07B sends location updates, SOS alarms and basic telemet
 ## Common Configuration Workflow
 
 1. Access the official Eview configuration method for the EV-07B such as the SMS command interface or vendor configuration tool.
-2. Prepare APN settings for the device carrier and any placeholders like {{apn}}, {{apnu}}, and {{apnp}} if required.
+2. Prepare APN settings for the device carrier and any placeholders like [apn], [apnu], and [apnp] if required.
 3. Enter the Plaspy server as d.plaspy.com or the server IP 54.85.159.138 in the device server configuration area.
 4. Set the port to 8888 as required by Plaspy.
 5. Choose UDP or TCP transport if the device requires a transport selection; otherwise rely on Plaspy automatic detection.
@@ -72,7 +72,7 @@ When configured, the EV-07B sends location updates, SOS alarms and basic telemet
 
 ## Example Configuration Commands
 
-The EV-07B supports SMS based setup. The manufacturer provides sample SMS commands. The device default password used in these example commands is 123456. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier APN values when sending.
+The EV-07B supports SMS based setup. The manufacturer provides sample SMS commands. The device default password used in these example commands is 123456. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your carrier APN values when sending.
 
 1. Set the time zone to UTC 0
 ```
@@ -81,15 +81,15 @@ The EV-07B supports SMS based setup. The manufacturer provides sample SMS comman
 
 2. Set the operator APN
 ```
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 If your carrier requires APN username and password, include them as optional fields:
 ```
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-- {{apn}} is the carrier APN.
-- {{apnu}} is the APN username if required.
-- {{apnp}} is the APN password if required.
+- [apn] is the carrier APN.
+- [apnu] is the APN username if required.
+- [apnp] is the APN password if required.
 
 3. Set the Plaspy server IP and port
 Note: some firmware versions require the manufacturer to enable the ability to change the server address. Contact Eview if the command does not apply.

@@ -84,9 +84,9 @@ GMT,0000,0#
 
 - Establecer el APN del operador con marcadores de posición para APN, usuario APN y contraseña APN
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explicación: reemplace {{apn}} por el APN de su operador, {{apnu}} por el usuario APN si se requiere y {{apnp}} por la contraseña APN si se requiere. Si no se necesita usuario o contraseña, muchos operadores aceptan valores vacíos o su omisión según la sintaxis del fabricante.
+Explicación: reemplace [apn] por el APN de su operador, [apnu] por el usuario APN si se requiere y [apnp] por la contraseña APN si se requiere. Si no se necesita usuario o contraseña, muchos operadores aceptan valores vacíos o su omisión según la sintaxis del fabricante.
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
 ```

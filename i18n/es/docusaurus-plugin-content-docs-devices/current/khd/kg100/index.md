@@ -1,6 +1,7 @@
 ---
 slug: /khd/kg100
 id: kg100
+sidebar_key: khkg100_index_kg100
 sidebar_label: KG100
 title: KHD - KG100
 sidebar_class_name: menu_item_tracker

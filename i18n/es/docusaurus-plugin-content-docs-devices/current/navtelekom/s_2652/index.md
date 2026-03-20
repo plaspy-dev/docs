@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/s_2652
 id: s_2652
+sidebar_key: navtelekos_2652_index_s_2652
 sidebar_label: СИГНАЛ S-2652
 title: Navtelekom - СИГНАЛ S-2652
 sidebar_class_name: menu_item_tracker

@@ -72,7 +72,7 @@ The VT150-L reports position, status, and events to Plaspy over cellular data ne
 
 ## Example Configuration Commands
 
-To set the VT150-L using SMS commands, send the following messages in order. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values where required. The factory reset is optional and recommended only when preparing devices to a known baseline.
+To set the VT150-L using SMS commands, send the following messages in order. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values where required. The factory reset is optional and recommended only when preparing devices to a known baseline.
 
 1. Optional factory reset to return the device to default settings
 ```
@@ -84,9 +84,9 @@ FACTORY#
 GMT,E,0#
 ```
 
-3. Set the operator APN. Replace {{apn}} with your operator APN. If your operator requires username or password include {{apnu}} and {{apnp}} respectively.
+3. Set the operator APN. Replace [apn] with your operator APN. If your operator requires username or password include [apnu] and [apnp] respectively.
 ```
-APN,{{apn}}{{# if apnu or apnp }},{{apnu}},{{apnp}}{{/ if }}#
+APN,[apn]{{# if apnu or apnp }},[apnu],[apnp]{{/ if }}#
 ```
 (If your tool or SMS client does not support template syntax, send either APN,apn# or APN,apn,username,password# as required.)
 

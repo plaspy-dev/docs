@@ -81,9 +81,9 @@ The Meitrack T622E-F9 / T622G-F9 supports SMS-based configuration. The following
 0000,F11
 ```
 
-- Set the GPRS server to Plaspy. Replace {{apn}} with your SIM APN. If your APN requires authentication, include {{apnu}} and {{apnp}} as the APN username and APN password respectively.
+- Set the GPRS server to Plaspy. Replace [apn] with your SIM APN. If your APN requires authentication, include [apnu] and [apnp] as the APN username and APN password respectively.
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 
 - Set the time zone to UTC+0:
@@ -102,9 +102,9 @@ The Meitrack T622E-F9 / T622G-F9 supports SMS-based configuration. The following
 ```
 
 Notes on placeholders:
-- {{apn}} — your mobile network APN string required for GPRS data.
-- {{apnu}} — optional APN username if your carrier requires it.
-- {{apnp}} — optional APN password if your carrier requires it.
+- [apn] — your mobile network APN string required for GPRS data.
+- [apnu] — optional APN username if your carrier requires it.
+- [apnp] — optional APN password if your carrier requires it.
 Replace placeholders with the correct values for your SIM; omit APN username and password fields if not required by your network.
 
 ## Configuration Notes

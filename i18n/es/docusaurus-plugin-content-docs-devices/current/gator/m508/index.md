@@ -1,6 +1,7 @@
 ---
 slug: /gator/m508
 id: m508
+sidebar_key: gatom508_index_m508
 sidebar_label: M508
 title: Gator - M508
 sidebar_class_name: menu_item_tracker

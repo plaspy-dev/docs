@@ -79,16 +79,16 @@ If you use the CM-311 SMS workflow below, follow the command order and substitut
 
 The CM-311 supports SMS-based configuration. The following example commands are taken from the publicly available CM-311 configuration pattern. The default device password shown in these examples is 0000. Send each line as an SMS to the device number (the device SIM). Preserve the placeholders and replace them with your actual values.
 
-1. Set the operator APN (replace {{apn}} with your operator APN; include {{apnu}} and {{apnp}} only if your operator requires an APN username and password)
+1. Set the operator APN (replace [apn] with your operator APN; include [apnu] and [apnp] only if your operator requires an APN username and password)
 ```text
-APN,0000,{{apn}}
+APN,0000,[apn]
 ```
 Or with username and password
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn],[apnu],[apnp]
 ```
 
-2. Set a 5 digit alias identifier for the device. Use the last 5 digits of the IMEI to create this alias. Replace <last5imei> with that value and include the trailing hash
+2. Set a 5 digit alias identifier for the device. Use the last 5 digits of the IMEI to create this alias. Replace \<last5imei> with that value and include the trailing hash
 ```text
 ALIAS,0000,<last5imei>#
 ```
@@ -128,7 +128,7 @@ CONEXION,0000#
 
 Important:
 - The numeric password 0000 in the examples is the device default password shown in the public configuration content. If the device password has been changed, use the current password.
-- Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator values. Use <last5imei> as described when setting the alias.
+- Replace placeholders such as [apn], [apnu], and [apnp] with your operator values. Use \<last5imei> as described when setting the alias.
 
 ## Configuration Notes
 

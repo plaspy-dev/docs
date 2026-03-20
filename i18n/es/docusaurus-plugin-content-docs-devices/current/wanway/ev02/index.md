@@ -1,6 +1,7 @@
 ---
 slug: /wanway/ev02
 id: ev02
+sidebar_key: wanwaev02_index_ev02
 sidebar_label: EV02
 title: WanWay - EV02
 sidebar_class_name: menu_item_tracker

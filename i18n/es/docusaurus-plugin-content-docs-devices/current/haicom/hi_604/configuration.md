@@ -79,9 +79,9 @@ El HI-604 se configura comúnmente enviando comandos SMS desde un teléfono al d
 - Configurar el APN del operador
   - Comando (enviar por SMS)
   ```text
-  #0000,200,{{apn}},{{apnu}},{{apnp}}
+  #0000,200,[apn],[apnu],[apnp]
   ```
-  - Explicación: reemplace {{apn}} con el APN de su operador móvil. {{apnu}} es el usuario del APN si se requiere y {{apnp}} es la contraseña del APN si se requiere. Si no hay usuario o contraseña deje esos marcadores vacíos o según lo requiera la sintaxis del comando del equipo.
+  - Explicación: reemplace [apn] con el APN de su operador móvil. [apnu] es el usuario del APN si se requiere y [apnp] es la contraseña del APN si se requiere. Si no hay usuario o contraseña deje esos marcadores vacíos o según lo requiera la sintaxis del comando del equipo.
 
 - Establecer el servidor GPRS a Plaspy
   - Comando (enviar por SMS)
@@ -107,7 +107,7 @@ Notas sobre estos comandos de ejemplo:
 - El HI-604 admite configuración por SMS según la documentación pública; esto es una opción práctica cuando no están disponibles las herramientas de configuración remota.
 - Seleccione UDP o TCP en función de las necesidades de la instalación y del comportamiento de la red; Plaspy acepta cualquiera de los dos y detectará automáticamente el protocolo.
 - Dado que Plaspy usa el mismo puerto 8888 para todos los dispositivos, asegúrese de que el puerto configurado en el equipo coincida con 8888 para simplificar la integración.
-- Si los comandos incluyen marcadores como {{apn}}, consérvelos y sustituya únicamente los valores requeridos por su operador móvil.
+- Si los comandos incluyen marcadores como [apn], consérvelos y sustituya únicamente los valores requeridos por su operador móvil.
 
 ## Por qué usar Plaspy con esta configuración
 

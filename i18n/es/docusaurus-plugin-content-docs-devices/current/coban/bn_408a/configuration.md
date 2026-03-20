@@ -77,7 +77,7 @@ Si usa configuración por SMS, envíe los comandos en el orden recomendado por e
 
 ## Ejemplos de comandos de configuración
 
-El BN-408A admite comandos de configuración vía SMS. La contraseña predeterminada del dispositivo indicada en documentación pública es 123456. Envíe los siguientes comandos por SMS al número del dispositivo utilizando esa contraseña. Conserve y reemplace los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} con las credenciales de su operador.
+El BN-408A admite comandos de configuración vía SMS. La contraseña predeterminada del dispositivo indicada en documentación pública es 123456. Envíe los siguientes comandos por SMS al número del dispositivo utilizando esa contraseña. Conserve y reemplace los marcadores de posición como [apn], [apnu] y [apnp] con las credenciales de su operador.
 
 - Reset inicial opcional de fábrica (solo si requiere un restablecimiento completo):
 ```sms
@@ -89,14 +89,14 @@ begin123456
 time zone123456 0
 ```
 
-- Configure el APN del operador (reemplace {{apn}} con el APN de su operador móvil):
+- Configure el APN del operador (reemplace [apn] con el APN de su operador móvil):
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Configure el nombre de usuario y la contraseña del APN (reemplace {{apnu}} y {{apnp}} con los valores del operador; algunos operadores permiten campos vacíos):
+- Configure el nombre de usuario y la contraseña del APN (reemplace [apnu] y [apnp] con los valores del operador; algunos operadores permiten campos vacíos):
 ```sms
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Configure el servidor GPRS hacia Plaspy usando la IP pública y el puerto:
@@ -129,9 +129,9 @@ protocol123456 18
 ```
 
 Notas sobre marcadores de posición:
-- {{apn}} es la cadena APN de su operador móvil.
-- {{apnu}} es el nombre de usuario del APN si lo requiere el operador.
-- {{apnp}} es la contraseña del APN si lo requiere el operador.
+- [apn] es la cadena APN de su operador móvil.
+- [apnu] es el nombre de usuario del APN si lo requiere el operador.
+- [apnp] es la contraseña del APN si lo requiere el operador.
 
 Mantenga el orden de los comandos SMS conforme a la guía del fabricante. El comando de reset es opcional y solo debe usarse cuando pretenda restaurar los valores de fábrica.
 

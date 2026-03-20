@@ -77,7 +77,7 @@ El MT65PLUS puede configurarse mediante comandos SMS. El ejemplo público que si
 
 Notas sobre los marcadores de posición
 - {{imei}} se refiere al número IMEI del dispositivo. Cuando el equipo requiere un identificador de 15 dígitos derivado del IMEI, use los últimos 15 dígitos del IMEI, rellenando si es necesario.
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores para el APN del operador, el nombre de usuario del APN y la contraseña del APN, respectivamente. Proporcione solo los campos que requiera su operador móvil.
+- [apn], [apnu] y [apnp] son marcadores para el APN del operador, el nombre de usuario del APN y la contraseña del APN, respectivamente. Proporcione solo los campos que requiera su operador móvil.
 
 Set device ID using the device password and a 15 digit device identifier
 ```
@@ -86,12 +86,12 @@ M000000,22,<last15digits_of_IMEI>
 
 Set the operator APN. Use only the APN if no username or password is required
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
 Or include APN username and password if required by the operator
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 Set the update interval to 60 seconds

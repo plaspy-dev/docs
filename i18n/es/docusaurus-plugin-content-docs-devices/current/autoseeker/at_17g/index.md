@@ -1,6 +1,7 @@
 ---
 slug: /autoseeker/at_17g
 id: at_17g
+sidebar_key: autoseekeat_17g_index_at_17g
 sidebar_label: AT-17G
 title: Autoseeker - AT-17G
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /navis/ch_5703
 id: ch_5703
+sidebar_key: navich_5703_index_ch_5703
 sidebar_label: CH -5703
 title: Navis - CH -5703
 sidebar_class_name: menu_item_tracker

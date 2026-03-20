@@ -85,15 +85,15 @@ El GT02A puede configurarse enviando comandos SMS al equipo. Los siguientes coma
 ```
 - Configurar el APN del operador (solo APN)
 ```text
-802#{{apn}}#
+802#[apn]#
 ```
 - Configurar APN con usuario y contraseña si es necesario
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-  - {{apn}} es la cadena APN del operador requerida para datos móviles.  
-  - {{apnu}} es el nombre de usuario del APN si su operador lo solicita.  
-  - {{apnp}} es la contraseña del APN si su operador la solicita.
+  - [apn] es la cadena APN del operador requerida para datos móviles.  
+  - [apnu] es el nombre de usuario del APN si su operador lo solicita.  
+  - [apnp] es la contraseña del APN si su operador la solicita.
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
 ```text

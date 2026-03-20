@@ -88,9 +88,9 @@ RESET
 
 - Set the APN of the mobile operator
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-Explicación: reemplace {{apn}} por el APN del operador, {{apnu}} por el usuario del APN si fuera necesario y {{apnp}} por la contraseña del APN si fuera requerida. Deje usuario o contraseña en blanco si el operador no los solicita.
+Explicación: reemplace [apn] por el APN del operador, [apnu] por el usuario del APN si fuera necesario y [apnp] por la contraseña del APN si fuera requerida. Deje usuario o contraseña en blanco si el operador no los solicita.
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port
 ```text
@@ -125,7 +125,7 @@ Envíe RCONF para solicitar la configuración actual al rastreador y así confir
 - Si el dispositivo o el firmware admiten nombres de dominio, puede usar d.plaspy.com en lugar de la IP 54.85.159.138. Si no, use la IP tal como se indica.
 - Elija UDP o TCP según la fiabilidad de la red y el tipo de instalación. Plaspy detectará automáticamente el protocolo entrante.
 - La configuración por SMS es útil para intervenciones en campo, mientras que las herramientas del fabricante pueden ofrecer opciones de configuración masiva o por USB.
-- Mantenga los marcadores de posición como {{apn}} {{apnu}} y {{apnp}} y proporcione valores reales de su operador móvil durante la configuración.
+- Mantenga los marcadores de posición como [apn] [apnu] y [apnp] y proporcione valores reales de su operador móvil durante la configuración.
 
 ## Por qué usar Plaspy con esta configuración
 

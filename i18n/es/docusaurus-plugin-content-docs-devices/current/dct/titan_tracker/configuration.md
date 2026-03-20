@@ -64,7 +64,7 @@ Al configurarlo, el Titan Tracker envía actualizaciones de posición, eventos d
 ## Flujo habitual de configuración
 
 1. Acceda al método o software de configuración oficial del fabricante, por ejemplo Syrus Desk o la plataforma Pegasus Gateway IoT.  
-2. Prepare los valores APN para el dispositivo e ingréselos en la configuración (use los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} si el script los requiere).  
+2. Prepare los valores APN para el dispositivo e ingréselos en la configuración (use los marcadores de posición [apn], [apnu] y [apnp] si el script los requiere).  
 3. Introduzca d.plaspy.com o 54.85.159.138 como dirección del servidor remoto en la configuración del dispositivo.  
 4. Configure el puerto en 8888 y elija UDP o TCP si el dispositivo requiere seleccionar el transporte.  
 5. Aplique o guarde la configuración en la herramienta del fabricante y suba o envíe el script/perfil al Titan Tracker.  
@@ -84,10 +84,10 @@ El fabricante proporcionó un ejemplo de script Syrus SB que puede guardarse con
 >SRT;CONFIG<
 >SXADP**U<
 # configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 # The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 # A Destination Address holding the server destination
@@ -102,8 +102,8 @@ El fabricante proporcionó un ejemplo de script Syrus SB que puede guardarse con
 ```
 
 Notas sobre los comandos anteriores:
-- >SRT;CONFIG< se incluye en el script para borrar cualquier configuración anterior; considérelo como un reinicio inicial opcional al comenzar una configuración desde cero.  
-- Los marcadores de posición de APN {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN, el usuario APN y la contraseña APN de su operador móvil cuando sea necesario.  
+- >SRT;CONFIG\< se incluye en el script para borrar cualquier configuración anterior; considérelo como un reinicio inicial opcional al comenzar una configuración desde cero.  
+- Los marcadores de posición de APN [apn], [apnu] y [apnp] deben reemplazarse por el APN, el usuario APN y la contraseña APN de su operador móvil cuando sea necesario.  
 - La dirección del servidor remoto se establece en d.plaspy.com con el puerto 8888 en el comando SXADP. Puede sustituir el dominio por la IP 54.85.159.138 si lo prefiere.  
 - El ejemplo usa comandos específicos de Syrus SB para el dispositivo; cargue el .tmf en Syrus Desk y empújelo al dispositivo según las instrucciones del fabricante.
 
@@ -111,7 +111,7 @@ Notas sobre los comandos anteriores:
 
 - Las diferencias de firmware y SKU pueden cambiar el conjunto exacto de comandos y su comportamiento; siempre confirme los comandos disponibles para la versión de firmware de su dispositivo antes de aplicar un script.  
 - Cuando tenga la opción, elija UDP o TCP según sus necesidades de red y fiabilidad; Plaspy acepta ambos y detecta el protocolo automáticamente en el puerto 8888.  
-- Sustituya los marcadores de posición de APN {{apn}}, {{apnu}} y {{apnp}} por los valores específicos del operador; dejar los marcadores sin modificar impedirá que el dispositivo establezca una conexión de datos.  
+- Sustituya los marcadores de posición de APN [apn], [apnu] y [apnp] por los valores específicos del operador; dejar los marcadores sin modificar impedirá que el dispositivo establezca una conexión de datos.  
 - Use Syrus Desk o la herramienta de gestión de dispositivos del fabricante para importar el script .tmf y revisar cualquier respuesta del dispositivo o los registros de carga.  
 - Dado que Plaspy utiliza el mismo puerto para todos los dispositivos compatibles, no necesita un puerto único por dispositivo al apuntar los trackers a Plaspy.
 

@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g60
 id: g60
+sidebar_key: gotog60_index_g60
 sidebar_label: G60
 title: GOTOP - G60
 sidebar_class_name: menu_item_tracker

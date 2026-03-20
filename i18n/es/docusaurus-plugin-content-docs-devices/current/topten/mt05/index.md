@@ -1,6 +1,7 @@
 ---
 slug: /topten/mt05
 id: mt05
+sidebar_key: toptemt05_index_mt05
 sidebar_label: MT05
 title: TopTen - MT05
 sidebar_class_name: menu_item_tracker

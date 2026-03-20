@@ -73,7 +73,7 @@ The PST-AVL01 is configured to open a GPRS session and send data to the Plaspy s
 6. Restart or power cycle the device if required by the device instructions to apply network settings.  
 7. Validate that the device reports to Plaspy by checking for a device connection or initial location update in the Plaspy platform.
 
-If you are using the PST SMS method, execute the configuration commands in the order required by PST and replace placeholders like {{apn}} with your mobile operator values.
+If you are using the PST SMS method, execute the configuration commands in the order required by PST and replace placeholders like [apn] with your mobile operator values.
 
 ## Example Configuration Commands
 
@@ -86,12 +86,12 @@ W000000,032,0
 
 2. Set the operator APN
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-- {{apn}} is the mobile operator APN string.
-- {{apnu}} is the APN username if required by the operator. Leave blank if not used.
-- {{apnp}} is the APN password if required by the operator. Leave blank if not used.
-- If your operator does not require username or password, send only W000000,011,{{apn}}.
+- [apn] is the mobile operator APN string.
+- [apnu] is the APN username if required by the operator. Leave blank if not used.
+- [apnp] is the APN password if required by the operator. Leave blank if not used.
+- If your operator does not require username or password, send only W000000,011,[apn].
 
 3. Set the GPRS server to the Plaspy IP and port
 ```text
@@ -114,7 +114,7 @@ Notes on these commands:
 - The PST-AVL01 example above uses SMS based configuration which is common for many PST devices. Verify your specific device supports SMS configuration.  
 - Firmware and hardware revisions can change command formats, required parameters, or default passwords. Confirm commands against the manufacturer documentation for your device revision.  
 - Choose UDP or TCP based on network reliability and operator support. Some networks are more reliable with UDP and others with TCP. Plaspy accepts both on port 8888.  
-- Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with values provided by the mobile operator. If the operator does not require a username or password, omit those values or leave them empty per device instructions.  
+- Replace placeholders such as [apn], [apnu], and [apnp] with values provided by the mobile operator. If the operator does not require a username or password, omit those values or leave them empty per device instructions.  
 - Plaspy uses a shared server port and automatic protocol detection, so once the device is pointed to the Plaspy endpoint the platform will attempt to recognize the tracker protocol.
 
 ## Why Use Plaspy with This Configuration

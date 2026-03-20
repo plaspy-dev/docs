@@ -87,11 +87,11 @@ El PT-600 se puede configurar mediante comandos SMS enviados desde un teléfono 
 000000GID<last14imei>
 ```
 
-- Configurar el APN del operador móvil. Reemplace los marcadores {{apn}}, {{apnu}} y {{apnp}} según corresponda
+- Configurar el APN del operador móvil. Reemplace los marcadores [apn], [apnu] y [apnp] según corresponda
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explicación: {{apn}} es el nombre del APN. {{apnu}} y {{apnp}} son el usuario y la contraseña opcionales del APN y deben dejarse vacíos u omitirse si el operador no los exige.
+Explicación: [apn] es el nombre del APN. [apnu] y [apnp] son el usuario y la contraseña opcionales del APN y deben dejarse vacíos u omitirse si el operador no los exige.
 
 - Configurar el servidor GPRS de Plaspy por IP y puerto
 ```text

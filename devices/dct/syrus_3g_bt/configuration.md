@@ -72,7 +72,7 @@ The Syrus 3G+ BT is configured to forward telemetry and location data to the sha
 
 ## Example Configuration Commands
 
-The following example is a Syrus SB script provided as a public Getting Started example. You can copy and paste this content into a new empty text file, save it with a .tmf extension, and load it with Syrus Desk. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN values.
+The following example is a Syrus SB script provided as a public Getting Started example. You can copy and paste this content into a new empty text file, save it with a .tmf extension, and load it with Syrus Desk. Preserve the placeholders [apn], [apnu], and [apnp] and replace them with your operator APN values.
 
 - Full example script for Syrus Desk
 
@@ -85,10 +85,10 @@ The following example is a Syrus SB script provided as a public Getting Started 
 >SXADP**U
 
 # configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 
 # The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
@@ -109,9 +109,9 @@ The following example is a Syrus SB script provided as a public Getting Started 
 ```
 
 Notes about placeholders used in the script:
-- {{apn}} is the mobile network APN string required for data connectivity.
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders if your operator requires authentication.
-- The script includes an initial deletion of prior configuration (>SRT;CONFIG<) which you may use for a clean setup during initial deployments; treat that as optional during incremental updates.
+- [apn] is the mobile network APN string required for data connectivity.
+- [apnu] and [apnp] are optional APN username and password placeholders if your operator requires authentication.
+- The script includes an initial deletion of prior configuration (>SRT;CONFIG\<) which you may use for a clean setup during initial deployments; treat that as optional during incremental updates.
 
 ## Configuration Notes
 

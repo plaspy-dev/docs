@@ -80,20 +80,20 @@ El fabricante provee plantillas de comandos SMS para configurar el OGT01. La con
 W000000,990,099###
 ```
 
-- Establecer el id del dispositivo (use los primeros 14 dígitos del IMEI). Plaspy identifica dispositivos por IMEI, así que asegúrese de que el IMEI sea correcto al registrarlo en la plataforma. Reemplace <first14ofIMEI> con los primeros 14 dígitos del IMEI.
+- Establecer el id del dispositivo (use los primeros 14 dígitos del IMEI). Plaspy identifica dispositivos por IMEI, así que asegúrese de que el IMEI sea correcto al registrarlo en la plataforma. Reemplace \<first14ofIMEI> con los primeros 14 dígitos del IMEI.
 ```text
 W000000,010,<first14ofIMEI>
 ```
 
 - Configurar el APN del operador. Use los valores de APN proporcionados por el operador de la SIM. Los campos de nombre de usuario y contraseña del APN son opcionales y se pueden añadir si son necesarios.
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 Forma opcional con usuario y contraseña del APN:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-Nota: {{apn}} es el Access Point Name del operador. {{apnu}} y {{apnp}} son los marcadores de posición opcionales para usuario y contraseña del APN.
+Nota: [apn] es el Access Point Name del operador. [apnu] y [apnp] son los marcadores de posición opcionales para usuario y contraseña del APN.
 
 - Configurar el servidor GPRS al endpoint de Plaspy y el puerto 8888. Este comando usa la IP del servidor Plaspy; puede configurar el dominio d.plaspy.com en su lugar si el dispositivo soporta DNS.
 ```text

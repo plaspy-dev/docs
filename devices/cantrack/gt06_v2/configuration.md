@@ -82,9 +82,9 @@ begin123456
 
 - Set the operator APN
 ```text
-apn123456 {{apn}} {{apnu}} {{apnp}}
+apn123456 [apn] [apnu] [apnp]
 ```
-Explanation: replace {{apn}} with the operator APN string, {{apnu}} with the APN username if required, and {{apnp}} with the APN password if required. Leave username or password blank if not used.
+Explanation: replace [apn] with the operator APN string, [apnu] with the APN username if required, and [apnp] with the APN password if required. Leave username or password blank if not used.
 
 - Set the timezone to UTC0 (example)
 ```text
@@ -107,7 +107,7 @@ check123456
 - SMS based configuration is a common public method for GT06 v2 but vendor tools or firmware utilities may also be available for batch provisioning
 - Different firmware versions or hardware revisions may accept slightly different command formats or have different default passwords and behavior
 - Choose UDP or TCP according to installer preference and network conditions; Plaspy supports both and will detect the protocol automatically
-- Preserve placeholders such as {{apn}} {{apnu}} and {{apnp}} and substitute values supplied by your mobile operator
+- Preserve placeholders such as [apn] [apnu] and [apnp] and substitute values supplied by your mobile operator
 - If you perform a factory reset as an initial step, reapply APN and server settings afterward
 
 ## Why Use Plaspy with This Configuration

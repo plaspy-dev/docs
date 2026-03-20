@@ -91,11 +91,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} por su APN. Si su APN requiere nombre de usuario y contraseña, incluya {{apnu}} y {{apnp}} donde el dispositivo lo permita:
+- Configurar el APN del operador. Reemplace [apn] por su APN. Si su APN requiere nombre de usuario y contraseña, incluya [apnu] y [apnp] donde el dispositivo lo permita:
 ```text
-APN,{{apn}}{{apnu and apnp placeholder}},{{apnu}},{{apnp}}#
+APN,[apn]{{apnu and apnp placeholder}},[apnu],[apnp]#
 ```
-Nota: Si el firmware del dispositivo usa un formato de comando APN diferente, utilice la sintaxis proporcionada por el fabricante. Los marcadores {{apn}}, {{apnu}} y {{apnp}} se muestran tal como aparecen en el conjunto de comandos público del TK121.
+Nota: Si el firmware del dispositivo usa un formato de comando APN diferente, utilice la sintaxis proporcionada por el fabricante. Los marcadores [apn], [apnu] y [apnp] se muestran tal como aparecen en el conjunto de comandos público del TK121.
 
 - Configurar el servidor GPRS para usar el dominio de Plaspy en el puerto 8888:
 ```text

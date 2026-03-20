@@ -1,6 +1,7 @@
 ---
 slug: /sentar/d32
 id: d32
+sidebar_key: sentad32_index_d32
 sidebar_label: D32
 title: Sentar - D32
 sidebar_class_name: menu_item_tracker

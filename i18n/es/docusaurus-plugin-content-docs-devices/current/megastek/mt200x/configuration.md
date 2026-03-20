@@ -85,12 +85,12 @@ M000000,22,IMEI15
 
 2) Configurar el APN del operador (reemplace los marcadores con los valores de su operadora)
 ```sms
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 - Marcadores:
-  - {{apn}} = nombre del APN de la operadora
-  - {{apnu}} = nombre de usuario del APN (si la operadora lo requiere)
-  - {{apnp}} = contraseña del APN (si la operadora lo requiere)
+  - [apn] = nombre del APN de la operadora
+  - [apnu] = nombre de usuario del APN (si la operadora lo requiere)
+  - [apnp] = contraseña del APN (si la operadora lo requiere)
 - Si usuario o contraseña no son necesarios, el comando puede omitir esos campos según las pautas del fabricante.
 
 3) Ajustar el intervalo de actualización a 60 segundos

@@ -1,6 +1,7 @@
 ---
 slug: /skypatrol/sp3801
 id: sp3801
+sidebar_key: skypatrosp3801_index_sp3801
 sidebar_label: SP3801
 title: SkyPatrol - SP3801
 sidebar_class_name: menu_item_tracker

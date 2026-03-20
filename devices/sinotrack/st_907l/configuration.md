@@ -86,9 +86,9 @@ RESET
 
 - Set the APN for your mobile operator (replace placeholders as needed):
 ```
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-Explanation: {{apn}} is the operator APN, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. Omit or leave placeholders blank per your operator requirements.
+Explanation: [apn] is the operator APN, [apnu] is the APN username if required, and [apnp] is the APN password if required. Omit or leave placeholders blank per your operator requirements.
 
 - Set up the GPRS server to point to Plaspy using the server IP and port:
 ```
@@ -123,7 +123,7 @@ Send these commands exactly as provided by SinoTrack SMS procedures. If your ope
 - SMS based configuration is documented for the ST-907L; manufacturer tools or newer firmware may offer alternative configuration interfaces.
 - Firmware and hardware revisions can change command formats or available parameters; always verify command compatibility with the device firmware you have installed.
 - Choose UDP or TCP based on installer preference; Plaspy accepts both and automatically detects the protocol when the device connects on port 8888.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} available to replace with your mobile operator values; missing or incorrect APN prevents GPRS connectivity.
+- Keep APN placeholders [apn], [apnu], and [apnp] available to replace with your mobile operator values; missing or incorrect APN prevents GPRS connectivity.
 - Use the RCONF verification command to confirm the device ID and server settings before attempting to register or locate the device in Plaspy.
 
 ## Why Use Plaspy with This Configuration

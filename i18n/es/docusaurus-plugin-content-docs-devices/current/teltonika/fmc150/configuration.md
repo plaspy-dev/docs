@@ -78,13 +78,13 @@ Para configurar parámetros básicos en el FMC150 usando un comando setparam al 
 - Ejemplo de comando setparam para configurar APN y servidor Plaspy
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de marcadores de posición y campos
-  - {{apn}} — reemplace con el nombre del APN de su operador celular
-  - {{apnu}} — reemplace con el usuario APN si el operador lo requiere; deje vacío si no aplica
-  - {{apnp}} — reemplace con la contraseña APN si el operador la requiere; deje vacío si no aplica
+  - [apn] — reemplace con el nombre del APN de su operador celular
+  - [apnu] — reemplace con el usuario APN si el operador lo requiere; deje vacío si no aplica
+  - [apnp] — reemplace con la contraseña APN si el operador la requiere; deje vacío si no aplica
   - El campo 2004 configura el dominio del servidor a d.plaspy.com
   - El campo 2005 configura el puerto del servidor a 8888
   - El campo 2006 habitualmente indica el transporte o un flag de activación según el firmware de Teltonika; consulte la documentación del dispositivo o el configurador para la semántica exacta

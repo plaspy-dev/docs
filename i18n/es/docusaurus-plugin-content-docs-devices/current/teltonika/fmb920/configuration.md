@@ -77,13 +77,13 @@ El comando de ejemplo público provisto para la configuración básica de parám
 - Comando SMS por lotes de ejemplo (preserve los marcadores de posición):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores de posición y campos en el comando:
-- {{apn}} es el nombre del APN de la red móvil necesario para la conexión de datos.  
-- {{apnu}} es el usuario del APN cuando su operador lo requiera.  
-- {{apnp}} es la contraseña del APN cuando su operador lo requiera.  
+- [apn] es el nombre del APN de la red móvil necesario para la conexión de datos.  
+- [apnu] es el usuario del APN cuando su operador lo requiera.  
+- [apnp] es la contraseña del APN cuando su operador lo requiera.  
 - 2004 configura el host del servidor a d.plaspy.com para Plaspy; puede sustituir 54.85.159.138 si su herramienta o política requiere una IP.  
 - 2005 configura el puerto del servidor en 8888, que es el puerto compartido de Plaspy.  
 - 2006 se usa en esquemas de parámetros de Teltonika para controlar el transporte u opciones relacionadas en algunas versiones de firmware; verifique el mapeo numérico exacto en la documentación de Teltonika para su firmware.

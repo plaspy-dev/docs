@@ -64,7 +64,7 @@ El D37 transmite ubicación y telemetría por datos celulares hacia el endpoint 
 ## Flujo de configuración común
 
 1. Acceda al método oficial de configuración de Sentar para el D37 (comandos SMS, app del fabricante o herramienta del proveedor) y confirme la sintaxis de comandos para su versión de firmware.
-2. Prepare los datos del APN del operador y las credenciales necesarias (use marcadores como {{apn}}, {{apnu}}, {{apnp}} donde corresponda).
+2. Prepare los datos del APN del operador y las credenciales necesarias (use marcadores como [apn], [apnu], [apnp] donde corresponda).
 3. Ingrese el servidor de Plaspy como d.plaspy.com o utilice la IP 54.85.159.138 en la configuración del dispositivo.
 4. Establezca el puerto 8888 como puerto de reporte del dispositivo; todos los dispositivos de Plaspy usan el mismo puerto.
 5. Seleccione UDP o TCP en el dispositivo si requiere elección explícita.
@@ -91,9 +91,9 @@ pw,123456,imsi#
 ```
 
 - Establecer el APN del operador
-Nota: {{apn}} es el nombre del APN, {{apnu}} es el usuario del APN si es necesario, y {{apnp}} es la contraseña del APN si es necesaria. Reemplace xxxyy con la concatenación de los códigos MCC y MNC si el comando lo requiere.
+Nota: [apn] es el nombre del APN, [apnu] es el usuario del APN si es necesario, y [apnp] es la contraseña del APN si es necesaria. Reemplace xxxyy con la concatenación de los códigos MCC y MNC si el comando lo requiere.
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Configurar el servidor GPRS con la IP y el puerto de Plaspy
@@ -119,7 +119,7 @@ Si su dispositivo acepta un nombre de dominio en lugar de una IP, reemplace la I
 - La configuración por SMS es un método público común para el D37; asegúrese de que su origen de SMS pueda enviar mensajes al reloj y de que el dispositivo acepte la sintaxis de configuración por SMS para su firmware.
 - Las revisiones de firmware y hardware pueden modificar la sintaxis de comandos y las opciones disponibles; verifique los comandos contra la documentación actual de Sentar.
 - Elija UDP o TCP según el soporte del dispositivo y el comportamiento de la red; Plaspy acepta ambos y detecta el protocolo automáticamente.
-- Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} cuando documente y reemplácelos por los valores del operador al realizar la configuración.
+- Conserve los marcadores [apn], [apnu] y [apnp] cuando documente y reemplácelos por los valores del operador al realizar la configuración.
 - Si usa un restablecimiento de fábrica, considérelo opcional y ejecútelo solo cuando necesite borrar una configuración previa.
 
 ## Por qué usar Plaspy con esta configuración

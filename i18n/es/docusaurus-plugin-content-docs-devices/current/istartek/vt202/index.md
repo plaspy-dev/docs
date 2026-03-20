@@ -1,6 +1,7 @@
 ---
 slug: /istartek/vt202
 id: vt202
+sidebar_key: istartevt202_index_vt202
 sidebar_label: VT202
 title: iStartek - VT202
 sidebar_class_name: menu_item_tracker

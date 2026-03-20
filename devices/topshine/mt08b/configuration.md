@@ -85,13 +85,13 @@ W000000,990,099###
 ```text
 W000000,010,<14-digit-device-id>
 ```
-- Explanation: replace <14-digit-device-id> with the first 14 digits from the device IMEI if required by the device. Plaspy will use the device IMEI (15 digits) to identify the device in the platform.
+- Explanation: replace \<14-digit-device-id> with the first 14 digits from the device IMEI if required by the device. Plaspy will use the device IMEI (15 digits) to identify the device in the platform.
 
 3. Set the operator APN (placeholders preserved)
 ```text
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
-- Explanation: replace {{apn}} with your mobile operator APN. If your operator requires a username and password, provide {{apnu}} and {{apnp}} respectively (the comma and placeholders are used only when needed).
+- Explanation: replace [apn] with your mobile operator APN. If your operator requires a username and password, provide [apnu] and [apnp] respectively (the comma and placeholders are used only when needed).
 
 4. Set the GPRS server to Plaspy by IP and port
 ```text
@@ -119,7 +119,7 @@ W000000,601
 ## Configuration Notes
 
 - SMS-based setup is publicly documented by the vendor and is commonly used for field configuration of the MT08B; follow vendor command syntax exactly and preserve the device password.
-- APN credentials are operator specific; if your APN requires a username and password, include {{apnu}} and {{apnp}} in the APN command.
+- APN credentials are operator specific; if your APN requires a username and password, include [apnu] and [apnp] in the APN command.
 - Choose TCP or UDP based on installation needs; Plaspy supports both and will automatically detect the tracker protocol when the device connects to the shared port.
 - Firmware and command syntax can differ between production runs or firmware versions; always verify the exact command format for your device revision with TopShine documentation.
 - After applying settings, confirm the device reports to Plaspy by checking the device appears online in the platform and by reviewing recent position messages.

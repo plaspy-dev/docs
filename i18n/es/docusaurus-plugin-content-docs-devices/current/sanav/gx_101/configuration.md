@@ -69,7 +69,7 @@ El GX-101 se configura para enviar datos de ubicación y estado por la red celul
 2. Ingrese d.plaspy.com o 54.85.159.138 como endpoint del servidor GPRS en la configuración del equipo.
 3. Establezca el puerto en 8888 para todos los dispositivos, ya que Plaspy utiliza el mismo puerto para los rastreadores soportados.
 4. Seleccione UDP o TCP en el dispositivo si la interfaz de configuración lo solicita.
-5. Configure el APN del operador y las credenciales APN necesarias (los marcadores {{apn}}, {{apnu}}, {{apnp}} se usan comúnmente en comandos SMS).
+5. Configure el APN del operador y las credenciales APN necesarias (los marcadores [apn], [apnu], [apnp] se usan comúnmente en comandos SMS).
 6. Aplique o guarde la configuración y reinicie el dispositivo si es necesario para que los cambios entren en vigor.
 7. Valide que el dispositivo reporte a Plaspy confirmando que aparece en la plataforma tras enviar sus primeros paquetes de datos.
 
@@ -84,9 +84,9 @@ Para configurar el GX-101 usando comandos SMS, envíe los siguientes mensajes al
 
 - Establecer el APN del operador (reemplace los marcadores por los valores de su operador)
 ```text
-#username,0000,3,{{apn}},{{apnu}},{{apnp}}*
+#username,0000,3,[apn],[apnu],[apnp]*
 ```
-Explicación: {{apn}} es el APN del operador, {{apnu}} es el nombre de usuario APN si se requiere, y {{apnp}} es la contraseña APN si se requiere. Mantenga los marcadores si su proveedor los solicita; omita campos vacíos según la guía del fabricante.
+Explicación: [apn] es el APN del operador, [apnu] es el nombre de usuario APN si se requiere, y [apnp] es la contraseña APN si se requiere. Mantenga los marcadores si su proveedor los solicita; omita campos vacíos según la guía del fabricante.
 
 - Establecer el servidor GPRS a Plaspy (IP pública y puerto de Plaspy)
 ```text

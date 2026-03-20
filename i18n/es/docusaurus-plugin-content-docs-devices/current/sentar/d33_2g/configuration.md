@@ -93,12 +93,12 @@ pw,123456,imsi#
 ```
 
 4. Configurar el APN del operador
-- {{apn}} es la cadena APN del operador móvil
-- {{apnu}} es el nombre de usuario del APN si se requiere
-- {{apnp}} es la contraseña del APN si se requiere
+- [apn] es la cadena APN del operador móvil
+- [apnu] es el nombre de usuario del APN si se requiere
+- [apnp] es la contraseña del APN si se requiere
 - xxxyy representa MCC y MNC concatenados según lo indique el dispositivo
 ```
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 5. Configurar el servidor GPRS a Plaspy usando la IP pública y el puerto
@@ -119,7 +119,7 @@ Nota: Algunas variantes de firmware esperan una coma después de la contraseña,
 pw,123456,ts#
 ```
 
-Estos comandos se presentan en su forma pública original. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador cuando envíe los SMS al dispositivo.
+Estos comandos se presentan en su forma pública original. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador cuando envíe los SMS al dispositivo.
 
 ## Notas de configuración
 

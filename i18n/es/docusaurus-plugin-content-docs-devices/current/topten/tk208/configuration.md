@@ -49,7 +49,7 @@ Estos valores son los ajustes públicos del endpoint de Plaspy que debe ingresar
 ## Requisitos previos
 
 - Una unidad TK208 con alimentación y accesible, con una tarjeta SIM funcional que permita SMS y conexión de datos GPRS.
-- APN, usuario APN y contraseña APN del operador móvil para completar la configuración del dispositivo (pueden aparecer marcadores como {{apn}}, {{apnu}}, {{apnp}}).
+- APN, usuario APN y contraseña APN del operador móvil para completar la configuración del dispositivo (pueden aparecer marcadores como [apn], [apnu], [apnp]).
 - Conocer el IMEI del dispositivo para identificar el ID del rastreador que reporta el equipo y que usa Plaspy.
 - Acceso al método de comandos SMS del fabricante o al software/herramienta oficial de configuración de TopTen.
 - Un teléfono capaz de enviar comandos SMS al rastreador si realiza la configuración por SMS.
@@ -85,12 +85,12 @@ El TopTen TK208 admite configuración por SMS. Los siguientes comandos públicos
 ```
 - Establecer APN y parámetros del servidor GPRS y el intervalo de reporte (reemplazar marcadores por los valores del operador):
 ```
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
   - Explicación de marcadores:
-    - {{apn}} = nombre del APN del operador móvil
-    - {{apnu}} = usuario del APN si el operador lo requiere (dejar en blanco si no se usa)
-    - {{apnp}} = contraseña del APN si el operador lo requiere (dejar en blanco si no se usa)
+    - [apn] = nombre del APN del operador móvil
+    - [apnu] = usuario del APN si el operador lo requiere (dejar en blanco si no se usa)
+    - [apnp] = contraseña del APN si el operador lo requiere (dejar en blanco si no se usa)
   - El comando anterior dirige el rastreador a la IP y puerto del servidor Plaspy e incluye parámetros de ejemplo de reporte y sueño según la documentación pública.
 
 - Consultar la configuración WWW actual para verificar el servidor y el APN:

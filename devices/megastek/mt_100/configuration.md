@@ -83,11 +83,11 @@ M000000,22,XXXXXXXXXXXXXXX
 
 2. Set the operator APN (APN and optional APN user and password)
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
-- {{apn}} is the mobile operator APN string.
-- {{apnu}} is the APN username if required by the operator; leave empty or omit if not used.
-- {{apnp}} is the APN password if required; leave empty or omit if not used.
+- [apn] is the mobile operator APN string.
+- [apnu] is the APN username if required by the operator; leave empty or omit if not used.
+- [apnp] is the APN password if required; leave empty or omit if not used.
 
 3. Set the update interval to 60 seconds
 ```text

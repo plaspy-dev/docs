@@ -79,17 +79,17 @@ Los siguientes comandos LMU-900 son los comandos SMS públicos usados para estab
 
 - Establecer el APN del operador
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Establecer el nombre de usuario del APN (opcional, solo si su operador lo requiere)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Establecer la contraseña del APN (opcional, solo si su operador lo requiere)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy por IP
@@ -113,9 +113,9 @@ Los siguientes comandos LMU-900 son los comandos SMS públicos usados para estab
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es la cadena APN suministrada por el proveedor de red móvil.
-- {{apnu}} es el usuario del APN cuando el operador lo requiere.
-- {{apnp}} es la contraseña del APN cuando el operador lo requiere.
+- [apn] es la cadena APN suministrada por el proveedor de red móvil.
+- [apnu] es el usuario del APN cuando el operador lo requiere.
+- [apnp] es la contraseña del APN cuando el operador lo requiere.
 
 Envíe estos comandos por SMS al número de teléfono del dispositivo. El equipo devuelve mensajes de confirmación; use el comando !RO para revisar los ajustes aplicados. El comando de reinicio es comúnmente necesario para activar los nuevos parámetros GPRS.
 

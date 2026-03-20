@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv350mg
 id: gv350mg
+sidebar_key: queclingv350mg_index_gv350mg
 sidebar_label: GV350MG
 title: QuecLink - GV350MG
 sidebar_class_name: menu_item_tracker

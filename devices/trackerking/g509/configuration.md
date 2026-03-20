@@ -77,7 +77,7 @@ When the G509 is configured to report to Plaspy, the device sends its location a
 
 The manufacturer specific commands or configuration screens for the G509 vary by firmware and the configuration method used by the installer. Plaspy requires only that the device point to d.plaspy.com or 54.85.159.138 on port 8888 and use UDP or TCP as the transport when the device asks for it.
 
-If you have TrackerKing provided SMS or CLI commands from the device manual, map the server and port fields to the values above and preserve any required authentication or APN placeholders. Placeholders commonly seen in manufacturer commands might include items such as {{apn}}, {{apnu}}, or {{apnp}} and should be replaced with your carrier APN settings when required.
+If you have TrackerKing provided SMS or CLI commands from the device manual, map the server and port fields to the values above and preserve any required authentication or APN placeholders. Placeholders commonly seen in manufacturer commands might include items such as [apn], [apnu], or [apnp] and should be replaced with your carrier APN settings when required.
 
 ## Configuration Notes
 

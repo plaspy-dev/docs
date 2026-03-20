@@ -89,9 +89,9 @@ El T8 soporta configuración vía SMS. Los siguientes comandos SMS públicos se 
 
 - Configurar el APN del operador (reemplace los marcadores con los valores de su operador):
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-Explicación: {{apn}} es el nombre del APN, {{apnu}} es el usuario del APN (opcional) y {{apnp}} es la contraseña del APN (opcional). Si su operador no requiere usuario ni contraseña, envíe solamente el APN en lugar de {{apn}} y omita los demás marcadores.
+Explicación: [apn] es el nombre del APN, [apnu] es el usuario del APN (opcional) y [apnp] es la contraseña del APN (opcional). Si su operador no requiere usuario ni contraseña, envíe solamente el APN en lugar de [apn] y omita los demás marcadores.
 
 - Configurar el servidor GPRS al endpoint y puerto de Plaspy:
 ```text

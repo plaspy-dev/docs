@@ -87,22 +87,22 @@ The manufacturer provides the following SMS command sequence as a public example
 FORMAT
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN):
+- Set the operator APN (replace [apn] with your carrier APN):
 
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username (replace {{apnu}} with your carrier APN username if required):
+- Set the APN username (replace [apnu] with your carrier APN username if required):
 
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (replace {{apnp}} with your carrier APN password if required):
+- Set the APN password (replace [apnp] with your carrier APN password if required):
 
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP and port (this is the manufacturer example command; the server details for Plaspy are IP 54.85.159.138 and port 8888):
@@ -118,9 +118,9 @@ CXZT
 ```
 
 Notes on placeholders and password:
-- {{apn}} is a placeholder for your carrier APN name.
-- {{apnu}} is a placeholder for the APN username if the carrier requires it.
-- {{apnp}} is a placeholder for the APN password if the carrier requires it.
+- [apn] is a placeholder for your carrier APN name.
+- [apnu] is a placeholder for the APN username if the carrier requires it.
+- [apnp] is a placeholder for the APN password if the carrier requires it.
 - The sample SMS commands above use the device password 123456 as shown in the manufacturer's public guidance. Confirm the correct password for your device before sending commands.
 
 ## Configuration Notes

@@ -78,12 +78,12 @@ Cuando se configura correctamente, el TFT100 envía flujos de ubicación y telem
 Para configurar los parámetros básicos en su dispositivo Teltonika a través de la interfaz de comandos del dispositivo, use el siguiente comando de ejemplo. Este comando establece los parámetros del APN y dirige el rastreador al servidor y puerto de Plaspy. Reemplace los marcadores por sus credenciales de operador.
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
-- {{apn}} = el nombre del APN de su operador móvil
-- {{apnu}} = nombre de usuario del APN si su operador lo exige
-- {{apnp}} = contraseña del APN si su operador lo exige
+- [apn] = el nombre del APN de su operador móvil
+- [apnu] = nombre de usuario del APN si su operador lo exige
+- [apnp] = contraseña del APN si su operador lo exige
 
 Este comando único configura los campos de APN y apunta el rastreador a d.plaspy.com en el puerto 8888. También puede introducir el servidor como la IP 54.85.159.138 si su proceso de configuración lo requiere. Si usa Teltonika Configurator o FOTA WEB, introduzca los mismos valores en los campos correspondientes de servidor y APN. Si es necesario reiniciar tras aplicar los ajustes, hágalo para asegurar que la nueva configuración esté activa.
 

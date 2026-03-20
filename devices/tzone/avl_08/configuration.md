@@ -78,13 +78,13 @@ The AVL-08 supports SMS-based configuration. Send these commands by SMS to the d
 - Set the operator APN
   - Command format (APN required, username and password optional):
   ```
-  *000000,011,{{apn}},{{apnu}},{{apnp}}#
+  *000000,011,[apn],[apnu],[apnp]#
   ```
   - If your APN does not require username or password, send:
   ```
-  *000000,011,{{apn}}#
+  *000000,011,[apn]#
   ```
-  - Explanation: {{apn}} is your mobile operator APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+  - Explanation: [apn] is your mobile operator APN. [apnu] and [apnp] are optional APN username and password placeholders.
 
 - Set the update interval to 60 seconds
   ```

@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/t333l
 id: t333l
+sidebar_key: meitract333l_index_t333l
 sidebar_label: T333L
 title: Meitrack - T333L
 sidebar_class_name: menu_item_tracker

@@ -80,15 +80,15 @@ FORMAT
 ```
 - Establecer el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 - Establecer el usuario del APN
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 - Establecer la contraseña del APN
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Configurar el servidor GPRS a la IP de Plaspy con puerto 8888
 ```text
@@ -100,9 +100,9 @@ CXZT
 ```
 
 Notas sobre los marcadores de posición y uso
-- {{apn}} reemplace por la cadena APN de su operadora móvil.  
-- {{apnu}} reemplace por el usuario del APN si su operador lo requiere; de lo contrario deje en blanco u omita según el manual del dispositivo.  
-- {{apnp}} reemplace por la contraseña del APN si es requerida.  
+- [apn] reemplace por la cadena APN de su operadora móvil.  
+- [apnu] reemplace por el usuario del APN si su operador lo requiere; de lo contrario deje en blanco u omita según el manual del dispositivo.  
+- [apnp] reemplace por la contraseña del APN si es requerida.  
 - La contraseña por defecto mostrada en ejemplos públicos es 123456 cuando la sintaxis del comando requiere un prefijo de contraseña. Confirme la contraseña actual de su dispositivo antes de enviar comandos.  
 - Envíe estos comandos SMS al número telefónico del dispositivo tal como se describe en la documentación de ThingSys para configuración por SMS.
 

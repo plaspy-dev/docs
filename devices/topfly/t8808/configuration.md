@@ -82,11 +82,11 @@ GMT,0000,0#
 ```
 
 - Set the operator APN. Replace placeholders with your operator values:
-  - {{apn}} = APN name for your mobile operator
-  - {{apnu}} = APN username if required (keep empty if not used)
-  - {{apnp}} = APN password if required (keep empty if not used)
+  - [apn] = APN name for your mobile operator
+  - [apnu] = APN username if required (keep empty if not used)
+  - [apnp] = APN password if required (keep empty if not used)
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server using the Plaspy server IP and port
@@ -101,7 +101,7 @@ TIMER,0000,60:60:0:0#
 
 Notes on these commands:
 - The default device password used in these examples is 0000. If you have changed the device password, replace 0000 with your device password.
-- Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when preparing SMS templates and replace them with your live operator credentials.
+- Preserve the placeholders [apn], [apnu], and [apnp] when preparing SMS templates and replace them with your live operator credentials.
 - Some installers prefer to use a domain name instead of IP if the device firmware supports it; if using a domain, follow TopFly instructions for domain syntax.
 
 ## Configuration Notes

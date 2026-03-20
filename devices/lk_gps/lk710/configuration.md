@@ -79,7 +79,7 @@ The LK710 sends GPS positions and device telemetry over the cellular data link t
 
 No public LK710-specific configuration commands are provided on this page. The exact commands and syntax vary by LK-GPS firmware, distributor tools and SMS command versions. Typical manufacturer tools let you enter the server domain or IP and port 8888 directly, or you may send SMS configuration commands to set the GPRS server, transport and APN. Consult the official LK-GPS configuration manual or your device supplier for the exact command set and examples.
 
-When using SMS commands provided by the manufacturer, you will generally point the device at d.plaspy.com or 54.85.159.138 and set port 8888. Preserve any placeholder values from manufacturer examples such as {{apn}}, {{apnu}}, or {{apnp}} and replace them with your mobile operator APN settings as instructed by LK-GPS documentation.
+When using SMS commands provided by the manufacturer, you will generally point the device at d.plaspy.com or 54.85.159.138 and set port 8888. Preserve any placeholder values from manufacturer examples such as [apn], [apnu], or [apnp] and replace them with your mobile operator APN settings as instructed by LK-GPS documentation.
 
 ## Configuration Notes
 

@@ -78,19 +78,19 @@ The TK209A can be configured by SMS. Below are the public SMS commands in the do
 begin123456
 ```
 
-2. Set the operator APN (replace {{apn}} with your carrier APN)
+2. Set the operator APN (replace [apn] with your carrier APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-3. Set the APN username if required by your operator (replace {{apnu}} with the username)
+3. Set the APN username if required by your operator (replace [apnu] with the username)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-4. Set the APN password if required by your operator (replace {{apnp}} with the password)
+4. Set the APN password if required by your operator (replace [apnp] with the password)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 5. Set the GPRS server to Plaspy using the server IP and port
@@ -109,9 +109,9 @@ gprs123456
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN string required for data connectivity.
-- {{apnu}} is the APN username if your network requires authentication.
-- {{apnp}} is the APN password if your network requires authentication.
+- [apn] is the mobile operator APN string required for data connectivity.
+- [apnu] is the APN username if your network requires authentication.
+- [apnp] is the APN password if your network requires authentication.
 - The default SMS password shown in these public commands is 123456. Consult TK-Star documentation to change the password securely if needed.
 
 ## Configuration Notes

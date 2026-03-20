@@ -1,6 +1,7 @@
 ---
 slug: /aoya/a206b
 id: a206b
+sidebar_key: aoya206b_index_a206b
 sidebar_label: A206b
 title: AoYa - A206b
 sidebar_class_name: menu_item_tracker

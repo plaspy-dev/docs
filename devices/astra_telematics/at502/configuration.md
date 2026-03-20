@@ -81,15 +81,15 @@ To set the tracker by SMS, Astra Telematics publishes the following commands. Se
 
 - Set the operator APN
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 - Set the username of APN operator (optional, use if your APN requires a username)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 - Set the password of APN operator (optional, use if your APN requires a password)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 - Set the GPRS server (Plaspy server IP)
 ```text
@@ -101,9 +101,9 @@ $PORT,8888
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator APN string required for data connectivity.
-- {{apnu}} is the optional APN username when provided by the operator.
-- {{apnp}} is the optional APN password when provided by the operator.
+- [apn] is the mobile operator APN string required for data connectivity.
+- [apnu] is the optional APN username when provided by the operator.
+- [apnp] is the optional APN password when provided by the operator.
 
 If your device or firmware supports pointing to a domain instead of the IP, you may enter d.plaspy.com using the manufacturer configuration method. Some firmware may require a separate command or BLE/firmware interface to select UDP versus TCP transport; consult Astra Telematics documentation for the exact syntax if needed.
 

@@ -78,26 +78,26 @@ If you are using SMS-based commands, follow CalmAmp published SMS syntax exactly
 
 The AUT-620 can be configured by SMS using the public commands published by CalmAmp. The device replies with a MID identifier after a query command; that MID is used as the device ID in follow-up commands when required.
 
-Note: Keep the placeholder fields as shown. Replace {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator APN, APN username, and APN password respectively.
+Note: Keep the placeholder fields as shown. Replace [apn], [apnu], and [apnp] with your mobile operator APN, APN username, and APN password respectively.
 
 - To request the device ID (the device replies with MID 10 digits):
 ```text
 !R0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
-- Set the APN username if required (replace {{apnu}} with the username):
+- Set the APN username if required (replace [apnu] with the username):
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
-- Set the APN password if required (replace {{apnp}} with the password):
+- Set the APN password if required (replace [apnp] with the password):
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy (public Plaspy server IP shown here):
@@ -127,7 +127,7 @@ Follow the exact command order when the manufacturer specifies an order. The reb
 - CalmAmp supports SMS-based configuration for the AUT-620 as shown; you can also use CalmAmp over-the-air tools such as PULS if available for batch or remote updates.
 - Plaspy uses the same port (8888) for all supported devices and automatically detects the tracker protocol, so the key configuration items on the device are server address and port.
 - Transport selection (UDP or TCP) is device-side; choose the transport the device firmware supports or requires. Plaspy accepts both transports on port 8888.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} ready: these must match the mobile operator settings for data connectivity.
+- Keep APN placeholders [apn], [apnu], and [apnp] ready: these must match the mobile operator settings for data connectivity.
 - Firmware revisions and hardware variations may change available commands or parameter indexes; confirm commands and indexes with CalmAmp documentation for your device firmware.
 
 ## Why Use Plaspy with This Configuration

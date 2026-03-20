@@ -77,16 +77,16 @@ El CS-146 se configura para enviar mensajes de ubicación y estado al punto de c
 
 El CS-146 admite configuración por SMS. Los comandos que siguen son ejemplos públicos extraídos del contenido de configuración del dispositivo. La contraseña por defecto del dispositivo usada en estos ejemplos es 0000. Envíe cada comando como un SMS al dispositivo desde un número autorizado cuando utilice la configuración por SMS.
 
-- Establecer el APN del operador. Los marcadores {{apn}}, {{apnu}} y {{apnp}} se preservan y representan los valores de APN y, opcionalmente, usuario y contraseña del APN requeridos por su operador de SIM.
+- Establecer el APN del operador. Los marcadores [apn], [apnu] y [apnp] se preservan y representan los valores de APN y, opcionalmente, usuario y contraseña del APN requeridos por su operador de SIM.
 
 ```
-APN,0000,{{apn}}
+APN,0000,[apn]
 ```
 
 Si su APN requiere usuario y contraseña inclúyalos como sigue.
 
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn],[apnu],[apnp]
 ```
 
 - Establecer un identificador de 5 dígitos (use los últimos 5 dígitos del IMEI). Reemplace XXXXX con los últimos 5 dígitos del IMEI del dispositivo.
@@ -133,7 +133,7 @@ CONEXION,0000#
 
 Notas sobre marcadores y formato
 - 0000 es la contraseña por defecto del dispositivo que aparece en los comandos públicos. Si su dispositivo usa una contraseña distinta, sustitúyala en consecuencia.  
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores para APN, usuario APN y contraseña APN. Reemplace con los valores de su operador de SIM.  
+- [apn], [apnu] y [apnp] son marcadores para APN, usuario APN y contraseña APN. Reemplace con los valores de su operador de SIM.  
 - Reemplace XXXXX en el comando ALIAS con los últimos cinco dígitos reales del IMEI del dispositivo.  
 - Los comandos se listan en el orden provisto por la configuración pública y normalmente se envían por SMS. Siga las indicaciones de Condor sobre números autorizados y el formato de los SMS.
 

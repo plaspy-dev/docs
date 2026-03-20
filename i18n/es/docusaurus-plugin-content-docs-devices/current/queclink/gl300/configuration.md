@@ -88,11 +88,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configurar el APN del operador (reemplazar los marcadores con los valores de su SIM)
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = la cadena APN del operador
-- {{apnu}} = usuario del APN si se requiere (dejar vacío si no se usa)
-- {{apnp}} = contraseña del APN si se requiere (dejar vacío si no se usa)
+- [apn] = la cadena APN del operador
+- [apnu] = usuario del APN si se requiere (dejar vacío si no se usa)
+- [apnp] = contraseña del APN si se requiere (dejar vacío si no se usa)
 
 4. Configurar el servidor GPRS para que apunte a Plaspy (se incluyen dominio e IP en el ejemplo público)
 ```

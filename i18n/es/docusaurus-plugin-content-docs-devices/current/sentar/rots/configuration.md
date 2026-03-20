@@ -93,12 +93,12 @@ pw,123456,imsi#
 ```
 
 - Set operator APN where xxx is MCC and yy is MNC. Placeholders:
-  - {{apn}} = operator APN
-  - {{apnu}} = APN username
-  - {{apnp}} = APN password
+  - [apn] = operator APN
+  - [apnu] = APN username
+  - [apnp] = APN password
   - xxxyy = combined MCC and MNC when required
 ```
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Set GPRS server to Plaspy using the Plaspy server IP and shared port 8888:
@@ -118,7 +118,7 @@ pw,123456,ts#
 
 Notas sobre los comandos anteriores:
 - La contraseña por defecto mostrada es 123456 en el conjunto de comandos públicos. Reemplace la porción de la contraseña por su contraseña de dispositivo si la ha cambiado.
-- Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} al reemplazarlos por valores reales del operador.
+- Preserve los marcadores de posición como [apn], [apnu] y [apnp] al reemplazarlos por valores reales del operador.
 - Algunos comandos en la guía pública usan convenciones de puntuación ligeramente distintas. Si un comando falla, consulte el manual de Sentar para la sintaxis específica del firmware o use la herramienta del proveedor cuando esté disponible.
 
 ## Observaciones de configuración

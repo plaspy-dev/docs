@@ -76,11 +76,11 @@ The XT49 supports SMS based configuration. The following public SMS commands are
 
 1. Set the operator APN
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apn}} is the APN string required by your mobile operator.
-- {{apnu}} is the APN username if required by the operator; leave empty if not used.
-- {{apnp}} is the APN password if required by the operator; leave empty if not used.
+- [apn] is the APN string required by your mobile operator.
+- [apnu] is the APN username if required by the operator; leave empty if not used.
+- [apnp] is the APN password if required by the operator; leave empty if not used.
 
 2. Set the GPRS server for Plaspy
 ```text

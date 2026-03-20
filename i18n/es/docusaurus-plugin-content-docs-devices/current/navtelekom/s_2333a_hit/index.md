@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/s_2333a_hit
 id: s_2333a_hit
+sidebar_key: navtelekos_2333a_hit_index_s_2333a_hit
 sidebar_label: СМАРТ S-2333A HIT
 title: Navtelekom - СМАРТ S-2333A HIT
 sidebar_class_name: menu_item_tracker

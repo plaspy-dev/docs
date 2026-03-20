@@ -77,7 +77,7 @@ El NT910-G1 envía ubicación y telemetría a Plaspy a través de la red celular
 
 ## Comandos de configuración de ejemplo
 
-El NT910-G1 admite configuración por SMS usando una contraseña de dispositivo. Los ejemplos públicos a continuación están presentados en el orden que aparece en el contenido público del fabricante. La muestra utiliza la contraseña por defecto 123456 tal como aparece en los ejemplos públicos de Telic. Reemplace los marcadores {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador donde corresponda.
+El NT910-G1 admite configuración por SMS usando una contraseña de dispositivo. Los ejemplos públicos a continuación están presentados en el orden que aparece en el contenido público del fabricante. La muestra utiliza la contraseña por defecto 123456 tal como aparece en los ejemplos públicos de Telic. Reemplace los marcadores [apn], [apnu] y [apnp] por los valores de su operador donde corresponda.
 
 - Reset de fábrica (opcional al preparar inicialmente)
 ```text
@@ -91,13 +91,13 @@ time zone123456 0
 
 - Establecer el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-(Reemplace {{apn}} por el APN de su operador móvil)
+(Reemplace [apn] por el APN de su operador móvil)
 
 - Establecer usuario y contraseña del APN si es necesario
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 (Envíe esto solo si su APN requiere usuario y contraseña; mantenga los marcadores si no se usan)
 
@@ -123,7 +123,7 @@ check123456
 
 Notas sobre los comandos SMS anteriores
 - Los comandos de ejemplo usan la contraseña por defecto 123456 según los ejemplos públicos de Telic. Cambie la contraseña cuando sea posible por motivos de seguridad.
-- Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por los valores del operador cuando sea necesario.
+- Conserve los marcadores [apn], [apnu] y [apnp] y sustitúyalos por los valores del operador cuando sea necesario.
 - Aplique el comando de reset de fábrica únicamente cuando sea necesario durante la provisión inicial o cuando esté explícitamente indicado.
 
 ## Notas de configuración

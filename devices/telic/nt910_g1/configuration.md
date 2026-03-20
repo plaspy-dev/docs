@@ -77,7 +77,7 @@ The NT910-G1 sends location and telemetry to Plaspy over the cellular network us
 
 ## Example Configuration Commands
 
-The NT910-G1 supports SMS based configuration using a device password. The public sample commands below are presented in the order given in the manufacturer provided content. The sample uses the default device password 123456 as shown in the public Telic examples. Replace the placeholders {{apn}}, {{apnu}}, and {{apnp}} with your operator values where needed.
+The NT910-G1 supports SMS based configuration using a device password. The public sample commands below are presented in the order given in the manufacturer provided content. The sample uses the default device password 123456 as shown in the public Telic examples. Replace the placeholders [apn], [apnu], and [apnp] with your operator values where needed.
 
 - Factory reset optional initial setup
 ```text
@@ -91,13 +91,13 @@ time zone123456 0
 
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-(Replace {{apn}} with your mobile operator APN value)
+(Replace [apn] with your mobile operator APN value)
 
 - Set the APN username and password if required
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 (Only send this if your APN requires a username or password; keep placeholders if not used)
 
@@ -123,7 +123,7 @@ check123456
 
 Notes on the SMS commands above
 - The sample commands use the default device password 123456 as shown in the public Telic sample. Change the password when applicable for security.
-- Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with operator values where required.
+- Preserve the placeholders [apn], [apnu], and [apnp] and replace them with operator values where required.
 - Apply the factory reset command only when required during initial provisioning or when explicitly needed.
 
 ## Configuration Notes

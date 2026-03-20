@@ -89,15 +89,15 @@ Descripción: Configure el identificador del dispositivo. En la mayoría de las 
 Nota de ejemplo: Si su IMEI es 123456789012345, los últimos 14 dígitos serían 23456789012345. Reemplace \<14-digit-identifier> con ese valor.
 
 3. Establecer el APN para conectividad GPRS
-Descripción: Reemplace los marcadores con los valores APN de su operador. Si su APN requiere usuario o contraseña incluya los marcadores {{apnu}} y {{apnp}}.
+Descripción: Reemplace los marcadores con los valores APN de su operador. Si su APN requiere usuario o contraseña incluya los marcadores [apnu] y [apnp].
 ```
-000000APN{{apn}}
+000000APN[apn]
 ```
 Variante opcional con usuario y contraseña del APN
 ```
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explicación: {{apn}} es la cadena APN del operador, {{apnu}} es el usuario del APN si se requiere y {{apnp}} es la contraseña del APN si se requiere.
+Explicación: [apn] es la cadena APN del operador, [apnu] es el usuario del APN si se requiere y [apnp] es la contraseña del APN si se requiere.
 
 4. Configurar el servidor GPRS hacia Plaspy
 Descripción: Configure la dirección y el puerto del servidor para que el rastreador reporte a Plaspy. Esto establece la IP numérica y el puerto publicados para Plaspy.

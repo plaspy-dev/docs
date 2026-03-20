@@ -75,7 +75,7 @@ When configured, the Sentar V80 sends periodic location and device messages to t
 
 ## Example Configuration Commands
 
-The Sentar V80 may be configured by sending SMS commands to the device. The sample public commands below use the device default password 123456. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when substituting your operator values. Replace xxxyy with the MCC and MNC string if required.
+The Sentar V80 may be configured by sending SMS commands to the device. The sample public commands below use the device default password 123456. Preserve placeholders such as [apn], [apnu], and [apnp] when substituting your operator values. Replace xxxyy with the MCC and MNC string if required.
 
 - Optional initial factory reset (use only if you need to return the device to factory defaults):
 ```
@@ -92,9 +92,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Set the operator APN where {{apn}} is the APN, {{apnu}} is the APN username, {{apnp}} is the APN password, and xxxyy is the MCC and MNC combined:
+- Set the operator APN where [apn] is the APN, [apnu] is the APN username, [apnp] is the APN password, and xxxyy is the MCC and MNC combined:
 ```
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port 8888 (this command points the device to Plaspy):
@@ -113,9 +113,9 @@ pw,123456,ts#
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile data access point name for the SIM operator.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is the mobile data access point name for the SIM operator.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
 - xxxyy is the combined MCC and MNC values when required by the device for operator selection.
 
 ## Configuration Notes

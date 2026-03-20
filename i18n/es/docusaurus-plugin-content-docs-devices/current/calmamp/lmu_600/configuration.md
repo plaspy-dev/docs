@@ -82,19 +82,19 @@ Nota: Reemplace los marcadores por sus valores de red. El ID referenciado en alg
 !R0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
-- Set the APN username when required (replace {{apnu}} with your APN username)
+- Set the APN username when required (replace [apnu] with your APN username)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
-- Set the APN password when required (replace {{apnp}} with your APN password)
+- Set the APN password when required (replace [apnp] with your APN password)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy by IP
@@ -118,9 +118,9 @@ Nota: Reemplace los marcadores por sus valores de red. El ID referenciado en alg
 ```
 
 Explicación de los marcadores:
-- {{apn}} — cadena APN del operador requerida para datos GPRS.  
-- {{apnu}} — usuario APN opcional cuando el operador exige credenciales.  
-- {{apnp}} — contraseña APN opcional cuando el operador exige credenciales.
+- [apn] — cadena APN del operador requerida para datos GPRS.  
+- [apnu] — usuario APN opcional cuando el operador exige credenciales.  
+- [apnp] — contraseña APN opcional cuando el operador exige credenciales.
 
 Al usar comandos SMS, el formato exacto del mensaje y si se requiere un prefijo con ID dependen del firmware y de las opciones de aprovisionamiento de CalAmp. Utilice el valor MID de la respuesta a !R0 cuando su flujo de instalación solicite un ID.
 
@@ -129,7 +129,7 @@ Al usar comandos SMS, el formato exacto del mensaje y si se requiere un prefijo 
 - Las diferencias de firmware entre las revisiones de hardware LMU-600 pueden modificar el formato exacto de los comandos SMS y los parámetros disponibles; verifíquelo en la documentación de CalAmp.  
 - El LMU-600 soporta configuración por SMS y reporte por GPRS; seleccione UDP o TCP en el puerto 8888 según el firmware del dispositivo y los resultados de la red.  
 - Plaspy utiliza el mismo puerto para todos los dispositivos y detecta automáticamente el protocolo del rastreador, por lo que normalmente no es necesario seleccionar el protocolo en el servidor.  
-- Las credenciales del APN son específicas del operador; si su operador requiere usuario o contraseña, incluya los valores {{apnu}} y {{apnp}} al enviar los comandos de configuración.  
+- Las credenciales del APN son específicas del operador; si su operador requiere usuario o contraseña, incluya los valores [apnu] y [apnp] al enviar los comandos de configuración.  
 - Si utiliza CalAmp PULS o aprovisionamiento por aire (OTA), verifique si esos sistemas sobrescribirán los ajustes SMS manuales antes de aplicar cambios.
 
 ## Por qué usar Plaspy con esta configuración

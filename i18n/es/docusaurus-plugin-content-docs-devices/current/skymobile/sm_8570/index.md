@@ -1,6 +1,7 @@
 ---
 slug: /skymobile/sm_8570
 id: sm_8570
+sidebar_key: skymobilsm_8570_index_sm_8570
 sidebar_label: SM-8570
 title: SkyMobile - SM-8570
 sidebar_class_name: menu_item_tracker

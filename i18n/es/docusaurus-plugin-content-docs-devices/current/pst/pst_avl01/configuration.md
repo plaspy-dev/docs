@@ -73,7 +73,7 @@ El PST-AVL01 se configura para abrir una sesión GPRS y enviar datos al endpoint
 6. Reinicie o corte la alimentación del equipo si las instrucciones del dispositivo indican hacerlo para aplicar los ajustes de red.  
 7. Valide que el dispositivo reporte a Plaspy comprobando la conexión del equipo o la primera actualización de ubicación en la plataforma Plaspy.
 
-Si usa el método SMS de PST, ejecute los comandos de configuración en el orden requerido por PST y reemplace los marcadores de posición como {{apn}} por los valores de su operador móvil.
+Si usa el método SMS de PST, ejecute los comandos de configuración en el orden requerido por PST y reemplace los marcadores de posición como [apn] por los valores de su operador móvil.
 
 ## Comandos de configuración de ejemplo
 
@@ -86,12 +86,12 @@ W000000,032,0
 
 2. Configurar el APN del operador
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-- {{apn}} es la cadena APN del operador móvil.  
-- {{apnu}} es el usuario del APN si el operador lo requiere. Dejar en blanco si no se usa.  
-- {{apnp}} es la contraseña del APN si el operador la requiere. Dejar en blanco si no se usa.  
-- Si su operador no requiere usuario ni contraseña, envíe solo W000000,011,{{apn}}.
+- [apn] es la cadena APN del operador móvil.  
+- [apnu] es el usuario del APN si el operador lo requiere. Dejar en blanco si no se usa.  
+- [apnp] es la contraseña del APN si el operador la requiere. Dejar en blanco si no se usa.  
+- Si su operador no requiere usuario ni contraseña, envíe solo W000000,011,[apn].
 
 3. Establecer el servidor GPRS con la IP y puerto de Plaspy
 ```text
@@ -114,7 +114,7 @@ Notas sobre estos comandos:
 - El ejemplo del PST-AVL01 arriba usa configuración por SMS, que es común en muchos dispositivos PST. Verifique que su dispositivo específico soporte configuración por SMS.  
 - Las versiones de firmware y revisiones de hardware pueden cambiar el formato de los comandos, los parámetros requeridos o las contraseñas por defecto. Confirme los comandos con la documentación del fabricante para la revisión de su equipo.  
 - Elija UDP o TCP según la fiabilidad de la red y el soporte del operador. Algunas redes son más fiables con UDP y otras con TCP. Plaspy acepta ambos en el puerto 8888.  
-- Reemplace marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} con los valores proporcionados por el operador móvil. Si el operador no requiere usuario o contraseña, omita esos valores o déjelos vacíos según las instrucciones del dispositivo.  
+- Reemplace marcadores de posición como [apn], [apnu] y [apnp] con los valores proporcionados por el operador móvil. Si el operador no requiere usuario o contraseña, omita esos valores o déjelos vacíos según las instrucciones del dispositivo.  
 - Plaspy usa un puerto de servidor compartido y detección automática de protocolo, por lo que una vez que el dispositivo apunte al endpoint de Plaspy la plataforma intentará reconocer el protocolo del rastreador.
 
 ## Por qué usar Plaspy con esta configuración

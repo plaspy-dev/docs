@@ -78,13 +78,13 @@ El GS21 acepta comandos SMS para la configuración básica. A continuación est�
 - Configure el APN del operador. Use los campos de marcador de posición del APN según lo requiera su operador. Si no se necesitan usuario y contraseña, use la forma simple.
 
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 
 o, si su operador requiere usuario y contraseña del APN:
 
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Establezca el servidor GPRS a Plaspy usando el dominio y el puerto. El ejemplo configura el índice de servidor 1 a d.plaspy.com en el puerto 8888.
@@ -118,9 +118,9 @@ STATUS#
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es el nombre del APN de su operador.
-- {{apnu}} es el usuario del APN si el operador lo requiere.
-- {{apnp}} es la contraseña del APN si el operador la requiere.
+- [apn] es el nombre del APN de su operador.
+- [apnu] es el usuario del APN si el operador lo requiere.
+- [apnp] es la contraseña del APN si el operador la requiere.
 
 Envíe cada comando como un único SMS al dispositivo. El formato exacto de la respuesta y los índices disponibles pueden variar según el firmware.
 

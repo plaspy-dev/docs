@@ -82,21 +82,21 @@ Etiqueta: configuración inicial opcional o reinicio de recuperación. Use solo 
 
 2. Establecer el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- Reemplace el marcador {{apn}} por la cadena APN de su operador móvil.
+- Reemplace el marcador [apn] por la cadena APN de su operador móvil.
 
 3. (Opcional) Establecer el usuario del APN
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- {{apnu}} es el marcador para el nombre de usuario del APN cuando el operador requiere autenticación.
+- [apnu] es el marcador para el nombre de usuario del APN cuando el operador requiere autenticación.
 
 4. (Opcional) Establecer la contraseña del APN
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-- {{apnp}} es el marcador para la contraseña del APN cuando el operador requiere autenticación.
+- [apnp] es el marcador para la contraseña del APN cuando el operador requiere autenticación.
 
 5. Configurar el servidor GPRS hacia Plaspy usando la IP pública y el puerto
 ```text
@@ -117,7 +117,7 @@ gprs123456
 
 Notas sobre marcadores y contraseña
 - La contraseña por defecto mostrada en estos comandos es 123456; utilice la contraseña configurada para su unidad.
-- Mantenga los marcadores como {{apn}}, {{apnu}} y {{apnp}} tal como aparecen y sustitúyalos por las credenciales de su operador durante la configuración real.
+- Mantenga los marcadores como [apn], [apnu] y [apnp] tal como aparecen y sustitúyalos por las credenciales de su operador durante la configuración real.
 
 ## Observaciones de configuración
 

@@ -46,7 +46,7 @@ The goal of configuring a GL52S for Plaspy is to prepare the tracker to report l
 
 - A powered GL52S device with access to receive SMS if using SMS-based configuration.
 - Knowledge of the device default password (example default shown below is queclink) and ability to change it if required.
-- APN credentials ({{apn}}, {{apnu}}, {{apnp}}) if the device requires GPRS settings for connectivity.
+- APN credentials ([apn], [apnu], [apnp]) if the device requires GPRS settings for connectivity.
 - Access to official QuecLink configuration tools or documentation for your firmware and hardware revision.
 - A Plaspy account or provisioning instructions so you can confirm the device is visible after configuration.
 
@@ -66,7 +66,7 @@ When configured, the GL52S sends its position and event data to Plaspy's shared 
 2. Enter the Plaspy server as d.plaspy.com or use the server IP 54.85.159.138 when a numeric host is required.
 3. Set the port to 8888 as Plaspy uses this port for all supported devices.
 4. Choose UDP or TCP if the device requires a transport selection.
-5. Provide APN and authentication details if configuring GPRS mode (use placeholders such as {{apn}}, {{apnu}}, {{apnp}} where required).
+5. Provide APN and authentication details if configuring GPRS mode (use placeholders such as [apn], [apnu], [apnp] where required).
 6. Apply or save the configuration and restart the device if the method requires a reboot to apply settings.
 7. Validate that the device reports to Plaspy by checking for incoming data and device status in the Plaspy platform.
 
@@ -88,11 +88,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN (replace placeholders)
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = APN name
-- {{apnu}} = APN username (if required)
-- {{apnp}} = APN password (if required)
+- [apn] = APN name
+- [apnu] = APN username (if required)
+- [apnp] = APN password (if required)
 - Provide the correct APN credentials supplied by your mobile operator when using GPRS.
 
 4. Set the GPRS server to Plaspy (domain and IP provided)

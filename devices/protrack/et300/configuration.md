@@ -79,13 +79,13 @@ The ET300 supports SMS based configuration. The following public commands are pr
 - Configure the carrier APN. Replace the placeholders with the carrier APN values. Keep the braces when preparing templates if you use automated provisioning.
 
 ```
-APN,{{apn}}
+APN,[apn]
 ```
 
 - If your APN requires username and password, use the extended APN form. Placeholders are shown and must be replaced with your carrier credentials when needed.
 
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to point to Plaspy using the domain and the port 8888. This command configures server entry 1 to use d.plaspy.com and port 8888.
@@ -119,9 +119,9 @@ STATUS#
 ```
 
 Notes on placeholders
-- {{apn}} = your carrier APN string.
-- {{apnu}} = APN username if required by the carrier.
-- {{apnp}} = APN password if required by the carrier.
+- [apn] = your carrier APN string.
+- [apnu] = APN username if required by the carrier.
+- [apnp] = APN password if required by the carrier.
 Preserve placeholders when building scripts or templates and replace them with your carrier values before sending.
 
 ## Configuration Notes

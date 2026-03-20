@@ -80,13 +80,13 @@ El FM 2100 admite comandos SMS por lotes para la configuración básica de pará
 - Ejemplo de comando por lote (conserve los marcadores al reemplazarlos):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de los marcadores y campos en el ejemplo de comando:
-  - {{apn}} es el APN de la red móvil necesario para la conectividad de datos.
-  - {{apnu}} es el nombre de usuario del APN si su operador lo requiere; en caso contrario, déjelo vacío.
-  - {{apnp}} es la contraseña del APN si la exige el operador.
+  - [apn] es el APN de la red móvil necesario para la conectividad de datos.
+  - [apnu] es el nombre de usuario del APN si su operador lo requiere; en caso contrario, déjelo vacío.
+  - [apnp] es la contraseña del APN si la exige el operador.
   - 2004 se establece en d.plaspy.com para apuntar el rastreador al dominio del servidor Plaspy.
   - 2005 se establece en 8888, que es el puerto compartido de Plaspy usado por todos los dispositivos.
   - 2006 se incluye en el lote para definir una bandera relacionada con el transporte en la secuencia de parámetros; consulte la documentación de Teltonika para el significado exacto de sus valores posibles.

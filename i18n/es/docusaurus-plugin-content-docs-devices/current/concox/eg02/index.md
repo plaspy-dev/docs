@@ -1,6 +1,7 @@
 ---
 slug: /concox/eg02
 id: eg02
+sidebar_key: concoeg02_index_eg02
 sidebar_label: EG02
 title: Concox - EG02
 sidebar_class_name: menu_item_tracker

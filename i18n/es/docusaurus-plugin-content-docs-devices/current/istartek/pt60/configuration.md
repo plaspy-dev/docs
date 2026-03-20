@@ -87,9 +87,9 @@ GMT,E,0#
 
 - Establecer el APN del operador
 ```text
-APN,{{apn}}[,{{apnu}},{{apnp}}]#
+APN,[apn][,[apnu],[apnp]]#
 ```
-Nota: {{apn}} es el nombre del APN de su operador móvil. {{apnu}} y {{apnp}} son marcadores de posición opcionales para usuario y contraseña del APN y deben incluirse solo si su operador los requiere.
+Nota: [apn] es el nombre del APN de su operador móvil. [apnu] y [apnp] son marcadores de posición opcionales para usuario y contraseña del APN y deben incluirse solo si su operador los requiere.
 
 - Establecer el servidor GPRS usando el dominio y puerto de Plaspy
 ```text
@@ -118,7 +118,7 @@ Siga el orden exacto cuando el fabricante indique que el orden es importante. Us
 - El firmware del fabricante y el comportamiento de los comandos pueden variar según la revisión del dispositivo y la región; verifique los comandos con la documentación actual de iStartek.  
 - El PT60 admite configuración vía SMS como se muestra, pero algunos instaladores prefieren herramientas del proveedor o métodos OTA cuando están disponibles.  
 - Elegir UDP o TCP afecta cómo se transportan los paquetes; Plaspy acepta ambos y detectará el protocolo automáticamente.  
-- Asegúrese de que sus credenciales APN sean correctas; use el marcador {{apn}} para el APN e incluya {{apnu}} y {{apnp}} cuando el operador requiera usuario o contraseña.  
+- Asegúrese de que sus credenciales APN sean correctas; use el marcador [apn] para el APN e incluya [apnu] y [apnp] cuando el operador requiera usuario o contraseña.  
 - Debido a que Plaspy utiliza el mismo puerto para todos los dispositivos, solo necesita establecer el puerto 8888 y el endpoint de servidor correspondiente.
 
 ## Por qué usar Plaspy con esta configuración

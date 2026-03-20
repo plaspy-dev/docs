@@ -1,6 +1,7 @@
 ---
 slug: /autofon/44
 id: 44
+sidebar_key: autofo44_index_44
 sidebar_label: Маяк 4.4
 title: AutoFon - Маяк 4.4
 sidebar_class_name: menu_item_tracker

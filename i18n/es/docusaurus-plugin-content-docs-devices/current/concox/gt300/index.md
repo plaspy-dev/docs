@@ -1,6 +1,7 @@
 ---
 slug: /concox/gt300
 id: gt300
+sidebar_key: concogt300_index_gt300
 sidebar_label: GT300
 title: Concox - GT300
 sidebar_class_name: menu_item_tracker

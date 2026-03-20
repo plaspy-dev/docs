@@ -1,6 +1,7 @@
 ---
 slug: /supermate/k20
 id: k20
+sidebar_key: supermatk20_index_k20
 sidebar_label: K20
 title: Supermate - K20
 sidebar_class_name: menu_item_tracker

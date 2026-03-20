@@ -85,9 +85,9 @@ GMT,E,0#
 ```
 3. Set the operator APN
 ```
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-- Explanation: replace {{apn}} with the carrier APN. If the APN requires a username or password include {{apnu}} and {{apnp}} respectively. The command may omit username and password if not required.
+- Explanation: replace [apn] with the carrier APN. If the APN requires a username or password include [apnu] and [apnp] respectively. The command may omit username and password if not required.
 
 4. Set the GPRS server by domain for Plaspy
 ```

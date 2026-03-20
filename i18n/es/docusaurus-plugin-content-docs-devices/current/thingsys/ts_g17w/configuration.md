@@ -81,19 +81,19 @@ FORMAT
 ```
 Nota: FORMAT se proporciona en la muestra como comando de reset de fábrica. Ejecute esto solo si es necesario un reseteo completo durante la configuración inicial.
 
-- Establecer el APN del operador (reemplazar {{apn}} con el nombre APN del operador):
+- Establecer el APN del operador (reemplazar [apn] con el nombre APN del operador):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario del APN (reemplazar {{apnu}} con el usuario APN si aplica):
+- Establecer el usuario del APN (reemplazar [apnu] con el usuario APN si aplica):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN (reemplazar {{apnp}} con la contraseña APN si aplica):
+- Establecer la contraseña del APN (reemplazar [apnp] con la contraseña APN si aplica):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS a la IP y puerto de Plaspy:
@@ -106,7 +106,7 @@ Nota: Este comando configura el rastreador para reportar a la IP y puerto de Pla
 ```text
 CXZT
 ```
-Explicación de los marcadores de posición: {{apn}} es el nombre del APN del operador móvil; {{apnu}} es el usuario APN; {{apnp}} es la contraseña APN. Los comandos de muestra hacen referencia a la contraseña del dispositivo 123456 como valor por defecto cuando el proveedor la publicó; incluya el prefijo de contraseña en los formatos SMS si el dispositivo requiere autenticación antes de aceptar comandos.
+Explicación de los marcadores de posición: [apn] es el nombre del APN del operador móvil; [apnu] es el usuario APN; [apnp] es la contraseña APN. Los comandos de muestra hacen referencia a la contraseña del dispositivo 123456 como valor por defecto cuando el proveedor la publicó; incluya el prefijo de contraseña en los formatos SMS si el dispositivo requiere autenticación antes de aceptar comandos.
 
 ## Notas de configuración
 

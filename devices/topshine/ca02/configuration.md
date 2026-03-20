@@ -87,11 +87,11 @@ W000000,010,{{imei14}}
 ```
 
 3. Set the operator APN
-- Preserve placeholders for APN, username, and password. Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator values as needed.
+- Preserve placeholders for APN, username, and password. Replace [apn], [apnu], and [apnp] with your operator values as needed.
 ```sms
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-- If your APN has no username or password, omit the {{apnu}} and {{apnp}} placeholders as applicable.
+- If your APN has no username or password, omit the [apnu] and [apnp] placeholders as applicable.
 
 4. Set the GPRS server to Plaspy (server IP and port)
 ```sms

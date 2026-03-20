@@ -79,13 +79,13 @@ Para configurar los parámetros básicos en su dispositivo Teltonika, introduzca
 - Ejemplo de comando setparam por lotes
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando y los marcadores:
-- {{apn}} es el Access Point Name del operador móvil requerido para datos.
-- {{apnu}} es el nombre de usuario APN si su operador requiere autenticación.
-- {{apnp}} es la contraseña APN si su operador requiere autenticación.
+- [apn] es el Access Point Name del operador móvil requerido para datos.
+- [apnu] es el nombre de usuario APN si su operador requiere autenticación.
+- [apnp] es la contraseña APN si su operador requiere autenticación.
 - El comando configura el dispositivo para reportar a d.plaspy.com en el puerto 8888 como se muestra arriba.
 - Si su interfaz de configuración requiere una dirección IP en lugar de un dominio, puede usar 54.85.159.138 en el campo del servidor.
 - Los parámetros numéricos mostrados forman parte del formato setparam de Teltonika. Consulte la documentación de Teltonika para detalles sobre la numeración de parámetros y las banderas de transporte.

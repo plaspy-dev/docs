@@ -75,7 +75,7 @@ Cuando se configura para Plaspy, el TK-102-2 usa la conexión de datos móviles 
 
 ## Ejemplos de comandos de configuración
 
-El TK-102-2 puede configurarse mediante comandos SMS. Los ejemplos del fabricante que se muestran abajo usan la contraseña por defecto del dispositivo 123456. Si ha personalizado la contraseña, reemplace la contraseña numérica en cada comando según corresponda. Los marcadores como {{apn}}, {{apnu}} y {{apnp}} deben sustituirse por el APN, el usuario APN y la contraseña APN de su operador.
+El TK-102-2 puede configurarse mediante comandos SMS. Los ejemplos del fabricante que se muestran abajo usan la contraseña por defecto del dispositivo 123456. Si ha personalizado la contraseña, reemplace la contraseña numérica en cada comando según corresponda. Los marcadores como [apn], [apnu] y [apnp] deben sustituirse por el APN, el usuario APN y la contraseña APN de su operador.
 
 - Comando opcional de restablecimiento de fábrica al partir de configuraciones desconocidas
 ```text
@@ -84,17 +84,17 @@ begin123456
 
 - Configurar el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Configurar el usuario del APN si lo requiere el operador
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
 - Configurar la contraseña del APN si lo requiere el operador
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS a la IP y puerto de Plaspy
@@ -113,9 +113,9 @@ t060s***n123456
 ```
 
 Notas sobre marcadores y contraseña
-- {{apn}} es la cadena APN de su operador móvil.  
-- {{apnu}} es el usuario APN cuando el operador lo exige.  
-- {{apnp}} es la contraseña APN cuando el operador lo exige.  
+- [apn] es la cadena APN de su operador móvil.  
+- [apnu] es el usuario APN cuando el operador lo exige.  
+- [apnp] es la contraseña APN cuando el operador lo exige.  
 - 123456 se muestra aquí como la contraseña por defecto del dispositivo en este ejemplo público. Cámbiela si su equipo usa otra contraseña.
 
 ## Notas de configuración

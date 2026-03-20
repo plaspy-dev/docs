@@ -1,6 +1,7 @@
 ---
 slug: /aquila/ts101_basic
 id: ts101_basic
+sidebar_key: aquilts101_basic_index_ts101_basic
 sidebar_label: TS101-Basic
 title: Aquila - TS101-Basic
 sidebar_class_name: menu_item_tracker

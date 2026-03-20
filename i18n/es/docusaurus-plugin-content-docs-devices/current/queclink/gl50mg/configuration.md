@@ -48,7 +48,7 @@ Estos son los valores públicos del endpoint de Plaspy que debe usar al configur
 
 - Un dispositivo GL50MG con batería cargada y una SIM activa con datos si se utiliza reporte celular.
 - Capacidad para enviar SMS al dispositivo si emplea el método de configuración por SMS que se muestra.
-- Credenciales APN del operador de la SIM, a menudo representadas por los marcadores {{apn}}, {{apnu}} y {{apnp}} en los comandos del fabricante.
+- Credenciales APN del operador de la SIM, a menudo representadas por los marcadores [apn], [apnu] y [apnp] en los comandos del fabricante.
 - Acceso a las instrucciones o al software de configuración de QuecLink para su versión de firmware y revisión de hardware específica.
 - Conocimientos básicos sobre si su despliegue prefiere transporte UDP o TCP para las conexiones dispositivo-servidor.
 - Una forma de observar los reportes del dispositivo en Plaspy para confirmar que el equipo está en línea tras la configuración.
@@ -75,7 +75,7 @@ Al configurarse para Plaspy, el GL50MG envía actualizaciones periódicas de ubi
 
 ## Ejemplos de comandos de configuración
 
-Los siguientes comandos son los ejemplos públicos de comandos SMS extraídos de la guía de QuecLink. Se presentan en orden y usan la contraseña de dispositivo queclink como ejemplo de contraseña por defecto. Envíe estos comandos como mensajes SMS al número del dispositivo cuando la configuración por SMS esté soportada. Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador.
+Los siguientes comandos son los ejemplos públicos de comandos SMS extraídos de la guía de QuecLink. Se presentan en orden y usan la contraseña de dispositivo queclink como ejemplo de contraseña por defecto. Envíe estos comandos como mensajes SMS al número del dispositivo cuando la configuración por SMS esté soportada. Mantenga los marcadores [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador.
 
 1. Comando opcional de restauración a fábrica
 ```
@@ -91,9 +91,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configurar el APN del operador
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- Reemplace {{apn}} con el APN del operador móvil, {{apnu}} con el usuario del APN si aplica, y {{apnp}} con la contraseña del APN si aplica. Mantenga los marcadores hasta sustituirlos por valores reales.
+- Reemplace [apn] con el APN del operador móvil, [apnu] con el usuario del APN si aplica, y [apnp] con la contraseña del APN si aplica. Mantenga los marcadores hasta sustituirlos por valores reales.
 
 4. Configurar el servidor GPRS a Plaspy
 ```

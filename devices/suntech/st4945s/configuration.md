@@ -78,16 +78,16 @@ The ST4945(S) public configuration examples use SMS commands. First, determine t
 
 Placeholders used below:
 - {{device_id}} = the six digit device id derived from the IMEI as described above
-- {{apn}} = your mobile network APN
-- {{apnu}} = APN username if required by your carrier (leave empty if not used)
-- {{apnp}} = APN password if required by your carrier (leave empty if not used)
+- [apn] = your mobile network APN
+- [apnu] = APN username if required by your carrier (leave empty if not used)
+- [apnp] = APN password if required by your carrier (leave empty if not used)
 - For fields that are conditional, set the indicator to 1 if a username or password is provided, otherwise set to 0
 
 1) Set the operator APN and GPRS server to point to Plaspy
 - Send this SMS to the device, replacing placeholders and setting the username flag to 1 if apnu or apnp is provided, otherwise 0.
 
 ```
-SA200NTW;{{device_id}};02;<username_flag>;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;<username_flag>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 2) Set the reporting interval to 60 seconds (public example)
@@ -105,7 +105,7 @@ SA200CMD;{{device_id}};02;PresetA
 ```
 
 Notes about placeholders and flags
-- {{apn}} is required for data reporting. If your APN requires credentials supply {{apnu}} and {{apnp}} and set <username_flag> to 1. If no credentials are required set <username_flag> to 0.
+- [apn] is required for data reporting. If your APN requires credentials supply [apnu] and [apnp] and set \<username_flag> to 1. If no credentials are required set \<username_flag> to 0.
 - Replace {{device_id}} with the six digit id calculated from the IMEI as described above.
 - These commands are public-format examples; adapt exact field ordering to match the firmware release on your unit and confirm the command syntax in the official Suntech documentation if unsure.
 

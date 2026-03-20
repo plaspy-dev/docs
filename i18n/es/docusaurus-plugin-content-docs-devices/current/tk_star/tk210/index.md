@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tk210
 id: tk210
+sidebar_key: tk_statk210_index_tk210
 sidebar_label: TK210
 title: TK-Star - TK210
 sidebar_class_name: menu_item_tracker

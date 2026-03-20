@@ -90,12 +90,12 @@ The Winrich TK102 accepts SMS commands for configuration. Below are the commonly
 
 - Set the operator APN. Replace the placeholders with your operator APN values. The APN username and password are optional and only required by some providers:
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 Explanation of placeholders:
-- {{apn}} = your mobile operator APN
-- {{apnu}} = APN username if required by the operator
-- {{apnp}} = APN password if required by the operator
+- [apn] = your mobile operator APN
+- [apnu] = APN username if required by the operator
+- [apnp] = APN password if required by the operator
 
 - Set the GPRS server to Plaspy using the public IP and port shown in this guide:
 ```text
@@ -128,7 +128,7 @@ Follow the command order above when order is important. Send each SMS from the d
 ## Configuration Notes
 
 - SMS-based configuration is the public method shown here; some variants or firmware revisions may additionally support configuration through a USB tool or vendor software.
-- Keep the APN placeholders {{apn}}, {{apnu}}, and {{apnp}} exactly as template fields when preparing commands; replace them with operator values when sending.
+- Keep the APN placeholders [apn], [apnu], and [apnp] exactly as template fields when preparing commands; replace them with operator values when sending.
 - Some firmware accepts domain names while others require an IP address; use the format your device and firmware support.
 - Plaspy uses the same port for all supported devices and automatically detects the tracker protocol, so the only required server target values are the domain or IP and the port 8888.
 - If your device supports choosing UDP or TCP, test the transport that gives reliable packet delivery for your network conditions.

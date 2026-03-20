@@ -86,15 +86,15 @@ begin123456
 ```
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 - Set the APN username if required by your operator
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 - Set the APN password if required by your operator
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Set the GPRS server to the Plaspy IP and port
 ```text
@@ -110,9 +110,9 @@ gprs123456
 ```
 
 Notes on the placeholders
-- {{apn}} is your cellular operator APN string
-- {{apnu}} is the APN username when required by the operator
-- {{apnp}} is the APN password when required by the operator
+- [apn] is your cellular operator APN string
+- [apnu] is the APN username when required by the operator
+- [apnp] is the APN password when required by the operator
 
 These SMS commands reflect the public manufacturer examples. Keep the command order when required by the device, and change the default password after initial setup if supported by your deployment policies.
 
@@ -122,7 +122,7 @@ These SMS commands reflect the public manufacturer examples. Keep the command or
 - The device supports configuring the server by IP as shown. Many installers also accept a server domain, and Plaspy can be referenced as d.plaspy.com in platform or tool interfaces.
 - Choose UDP or TCP based on installer preference and any transport requirements; Plaspy accepts either on port 8888 and detects the protocol automatically.
 - SMS based setup is a common public method for TK910 4G configuration; use the manufacturer tool if provided for bulk or remote configuration.
-- Remember to replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your actual operator values when sending commands.
+- Remember to replace placeholders such as [apn], [apnu], and [apnp] with your actual operator values when sending commands.
 
 ## Why Use Plaspy with This Configuration
 

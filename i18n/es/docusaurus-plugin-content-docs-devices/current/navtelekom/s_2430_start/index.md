@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/s_2430_start
 id: s_2430_start
+sidebar_key: navtelekos_2430_start_index_s_2430_start
 sidebar_label: СМАРТ S-2430 START
 title: Navtelekom - СМАРТ S-2430 START
 sidebar_class_name: menu_item_tracker

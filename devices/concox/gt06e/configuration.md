@@ -92,13 +92,13 @@ GMT,E,0#
 ```
 
 - Set the operator APN
-Note: {{apn}} is the mobile operator APN. Optional placeholders {{apnu}} and {{apnp}} represent APN username and APN password if required by the operator.
+Note: [apn] is the mobile operator APN. Optional placeholders [apnu] and [apnp] represent APN username and APN password if required by the operator.
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 Or if username and password are required:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to Plaspy by domain (preferred for DNS)
@@ -137,7 +137,7 @@ Send these SMS commands to the device phone number in the order appropriate for 
 - SMS and GPRS configuration shown here are public commands commonly associated with the GT06E; actual syntax can vary by firmware or vendor customizations.
 - Plaspy accepts connections via domain or IP and uses port 8888 for all devices; you can set either d.plaspy.com or the IP address in the SERVER command.
 - Choose UDP or TCP based on your network and device firmware capabilities; some installers prefer UDP for simplicity while others prefer TCP where reliable delivery is required.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with operator values. If your SIM does not require username or password, only the APN is required.
+- Keep APN placeholders [apn], [apnu], and [apnp] and replace them with operator values. If your SIM does not require username or password, only the APN is required.
 - Always confirm command support and exact syntax with Concox documentation or your supplier before applying changes in production.
 
 ## Why Use Plaspy with This Configuration

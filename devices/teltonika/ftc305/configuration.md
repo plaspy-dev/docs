@@ -79,13 +79,13 @@ The manufacturer provided a compact command that updates APN and server paramete
 - Example single command to set APN and Plaspy server parameters
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on this command and placeholders
-- {{apn}} is the cellular operator APN name required for data connection.  
-- {{apnu}} is the APN username if your operator requires one; leave blank or omit if not used.  
-- {{apnp}} is the APN password if required by the operator.  
+- [apn] is the cellular operator APN name required for data connection.  
+- [apnu] is the APN username if your operator requires one; leave blank or omit if not used.  
+- [apnp] is the APN password if required by the operator.  
 - The command sets the server domain to d.plaspy.com and the port to 8888 as required by Plaspy.  
 - Send this command using the manufacturer supported method such as SMS or the vendor configuration tool per your device documentation.  
 - Do not change the domain or port values unless instructed by Plaspy or your integrator; Plaspy uses the same port for all supported devices and will detect the tracker protocol automatically.

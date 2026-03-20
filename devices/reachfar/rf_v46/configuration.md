@@ -75,7 +75,7 @@ When configured for Plaspy, the RF-V46 sends periodic location pings and selecte
 
 The RF-V46 may be configured using vendor tools, SMS commands, or a web interface depending on firmware and the distributor. Exact commands and the format depend on Reachfar documentation and firmware. Because methods vary by tool and firmware, follow the official Reachfar configuration guide or your vendor's instructions to perform command based setup or SMS provisioning.
 
-If you have a set of public SMS or TCP commands from the Reachfar documentation, those commands should be executed in the order recommended by Reachfar. Retain placeholders such as {{apn}} or {{apnu}} if they appear in commands and replace them with your SIM carrier APN values when instructed by the manufacturer.
+If you have a set of public SMS or TCP commands from the Reachfar documentation, those commands should be executed in the order recommended by Reachfar. Retain placeholders such as [apn] or [apnu] if they appear in commands and replace them with your SIM carrier APN values when instructed by the manufacturer.
 
 ## Configuration Notes
 

@@ -77,13 +77,13 @@ El ejemplo público de configuración para dispositivos Teltonika usa un comando
 - Ejemplo de comando SMS/GPRS por lotes para establecer parámetros básicos:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores de posición en el comando anterior:
-- {{apn}} — el nombre del APN de su red celular (requerido para la conexión de datos).
-- {{apnu}} — nombre de usuario del APN si su operador lo requiere; de lo contrario déjelo vacío.
-- {{apnp}} — contraseña del APN si su operador la requiere; de lo contrario déjela vacía.
+- [apn] — el nombre del APN de su red celular (requerido para la conexión de datos).
+- [apnu] — nombre de usuario del APN si su operador lo requiere; de lo contrario déjelo vacío.
+- [apnp] — contraseña del APN si su operador la requiere; de lo contrario déjela vacía.
 
 Explicación y recomendaciones:
 - Este comando configura los parámetros de APN seguidos del dominio del servidor Plaspy (d.plaspy.com) y el puerto de Plaspy (8888).

@@ -1,6 +1,7 @@
 ---
 slug: /castel/mpip_618w_yb
 id: mpip_618w_yb
+sidebar_key: castempip_618w_yb_index_mpip_618w_yb
 sidebar_label: MPIP-618W-YB
 title: Castel - MPIP-618W-YB
 sidebar_class_name: menu_item_tracker

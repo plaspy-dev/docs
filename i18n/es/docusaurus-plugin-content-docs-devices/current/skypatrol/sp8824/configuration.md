@@ -76,7 +76,7 @@ El SP8824 transmite información de ubicación y movimiento mediante su enlace c
 
 El método de configuración y los comandos exactos del SP8824 dependen de las herramientas de SkyPatrol, el firmware y los procesos de provisión. Algunos fabricantes ofrecen comandos por SMS, herramientas seriales o utilidades de PC para establecer la dirección del servidor y el puerto. Como los métodos varían según el firmware y la cadena de herramientas del proveedor, consulte la guía de configuración de SkyPatrol para el SP8824 para conocer los comandos y la sintaxis precisos necesarios para establecer el servidor en d.plaspy.com o 54.85.159.138 y el puerto en 8888.
 
-Si dispone de comandos públicos específicos de SkyPatrol para el SP8824, inclúyalos aquí usando la sintaxis proporcionada por el fabricante. Conserve marcadores de posición como {{apn}} cuando formen parte del conjunto oficial de comandos y siga la guía de SkyPatrol para los valores de APN y credenciales.
+Si dispone de comandos públicos específicos de SkyPatrol para el SP8824, inclúyalos aquí usando la sintaxis proporcionada por el fabricante. Conserve marcadores de posición como [apn] cuando formen parte del conjunto oficial de comandos y siga la guía de SkyPatrol para los valores de APN y credenciales.
 
 ## Notas de configuración
 

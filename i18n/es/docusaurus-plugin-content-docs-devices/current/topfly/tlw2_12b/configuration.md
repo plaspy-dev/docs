@@ -85,11 +85,11 @@ GMT,0000,0#
 
 - Configurar el APN del operador
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-  - {{apn}} es el APN de su operador de SIM.
-  - {{apnu}} es el usuario APN cuando el operador lo requiere; deje en blanco si no se usa.
-  - {{apnp}} es la contraseña APN cuando el operador la requiere; deje en blanco si no se usa.
+  - [apn] es el APN de su operador de SIM.
+  - [apnu] es el usuario APN cuando el operador lo requiere; deje en blanco si no se usa.
+  - [apnp] es la contraseña APN cuando el operador la requiere; deje en blanco si no se usa.
 
 - Establecer el servidor GPRS a Plaspy por IP y puerto
 ```

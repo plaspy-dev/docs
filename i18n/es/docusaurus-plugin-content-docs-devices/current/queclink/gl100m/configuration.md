@@ -73,7 +73,7 @@ El GL100M suele configurarse para enviar reportes de posición y notificaciones 
 
 ## Ejemplos de comandos de configuración
 
-El GL100M puede configurarse enviando comandos SMS. Los comandos de ejemplo a continuación reflejan una secuencia pública típica de configuración. La configuración de muestra usa la contraseña de fábrica queclink. Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador móvil.
+El GL100M puede configurarse enviando comandos SMS. Los comandos de ejemplo a continuación reflejan una secuencia pública típica de configuración. La configuración de muestra usa la contraseña de fábrica queclink. Reemplace los marcadores como [apn], [apnu] y [apnp] con los valores de su operador móvil.
 
 1. Paso inicial opcional — restaurar la configuración de fábrica (opcional si necesita una configuración limpia)
 ```
@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Establecer el APN del operador (reemplace los marcadores con los valores de su operador)
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = APN de la red móvil
-- {{apnu}} = nombre de usuario del APN si el operador lo requiere
-- {{apnp}} = contraseña del APN si el operador lo requiere
+- [apn] = APN de la red móvil
+- [apnu] = nombre de usuario del APN si el operador lo requiere
+- [apnp] = contraseña del APN si el operador lo requiere
 
 4. Configurar el servidor GPRS a Plaspy usando el dominio y la IP con puerto 8888
 ```
@@ -116,7 +116,7 @@ Estos comandos son ejemplos extraídos de muestras públicas de configuración p
 - La sintaxis exacta de los SMS y los parámetros disponibles pueden variar según la versión de firmware y la configuración de fábrica del GL100M; confirme siempre con la respuesta del dispositivo o la documentación oficial de QuecLink.
 - Puede configurar el GL100M por SMS o con el software de configuración de QuecLink cuando esté disponible; elija el método compatible con su despliegue y firmware.
 - Al elegir UDP frente a TCP, tenga en cuenta que Plaspy acepta ambos en el puerto 8888 y detecta el protocolo automáticamente; seleccione el transporte que mejor se adapte a su red y al comportamiento del dispositivo.
-- Reemplace los marcadores de APN {{apn}}, {{apnu}} y {{apnp}} con las credenciales de su operador móvil; ajustes APN faltantes o incorrectos impedirán la conectividad GPRS.
+- Reemplace los marcadores de APN [apn], [apnu] y [apnp] con las credenciales de su operador móvil; ajustes APN faltantes o incorrectos impedirán la conectividad GPRS.
 - Si el dispositivo usa una contraseña de fábrica (por ejemplo queclink en este ejemplo público), cámbiela después de la configuración para asegurar el equipo.
 
 ## Por qué usar Plaspy con esta configuración

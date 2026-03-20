@@ -81,12 +81,12 @@ begin123456
 
 - Configure el APN del operador. Reemplace los marcadores con el APN, usuario APN y contraseña APN de su operador según lo requiera la SIM.
 ```text
-apn123456 {{apn}} {{apnu}} {{apnp}}
+apn123456 [apn] [apnu] [apnp]
 ```
 Explicación de los marcadores:
-- {{apn}} es la cadena APN del operador móvil
-- {{apnu}} es el usuario APN si es requerido (dejar en blanco u omitir si no se usa)
-- {{apnp}} es la contraseña APN si es requerida (dejar en blanco u omitir si no se usa)
+- [apn] es la cadena APN del operador móvil
+- [apnu] es el usuario APN si es requerido (dejar en blanco u omitir si no se usa)
+- [apnp] es la contraseña APN si es requerida (dejar en blanco u omitir si no se usa)
 
 - Ajuste la zona horaria a UTC0 (el ejemplo usa el valor 0 para UTC)
 ```text

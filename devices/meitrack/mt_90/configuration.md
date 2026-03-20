@@ -45,7 +45,7 @@ Preparing the MT-90 for use with Plaspy means configuring the device to report o
 ## Typical Requirements Before Setup
 
 - A charged and operational MT-90 unit with access to SMS or the manufacturer configuration method.
-- A valid SIM card with data enabled and the carrier APN details available for {{apn}}, {{apnu}}, and {{apnp}} placeholders.
+- A valid SIM card with data enabled and the carrier APN details available for [apn], [apnu], and [apnp] placeholders.
 - Ability to send SMS commands to the device or access to Meitrack configuration software if preferred.
 - Basic knowledge of the device password used for SMS commands; the public sample uses 0000 as the default.
 - Stable power source or charged battery during initial configuration to avoid interruptions.
@@ -82,16 +82,16 @@ This command resets factory settings and is commonly used as an initial step if 
 
 - Set the GPRS server to Plaspy using the server IP and port and include APN placeholders
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Explanation:
 - 0000 is the default device password in the public sample.
 - A21 sets the GPRS server entry.
 - 2 indicates primary server type depending on device syntax in Meitrack documentation.
 - 54.85.159.138 and 8888 are the Plaspy server IP and port.
-- {{apn}} is the carrier APN name placeholder.
-- {{apnu}} is an optional APN username placeholder.
-- {{apnp}} is an optional APN password placeholder.
+- [apn] is the carrier APN name placeholder.
+- [apnu] is an optional APN username placeholder.
+- [apnp] is an optional APN password placeholder.
 
 - Set the time zone to UTC 0
 ```text
@@ -111,7 +111,7 @@ This commonly configures periodic GPS reporting behavior; check manufacturer doc
 This sets event reporting options; refer to Meitrack documentation for event bitmask details.
 
 Note on placeholders
-- Replace {{apn}} with your mobile carrier APN value. If your carrier requires credentials, replace {{apnu}} and {{apnp}} with username and password. If no credentials are needed, those placeholders can typically be omitted.
+- Replace [apn] with your mobile carrier APN value. If your carrier requires credentials, replace [apnu] and [apnp] with username and password. If no credentials are needed, those placeholders can typically be omitted.
 
 ## Configuration Notes
 

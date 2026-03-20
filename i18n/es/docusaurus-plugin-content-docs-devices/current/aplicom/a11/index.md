@@ -1,6 +1,7 @@
 ---
 slug: /aplicom/a11
 id: a11
+sidebar_key: aplicoa11_index_a11
 sidebar_label: A11
 title: Aplicom - A11
 sidebar_class_name: menu_item_tracker

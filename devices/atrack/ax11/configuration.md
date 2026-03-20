@@ -47,7 +47,7 @@ The goal of configuration is to prepare the AX11 to communicate reliably with Pl
 - Physical access to the vehicle OBDII port for device installation and verification.
 - A powered AX11 device with an active SIM and cellular data enabled for GPRS or LTE connectivity.
 - Access to the ATrack configuration interface or command channel used for your device variant such as ADM, SMS, or USB.
-- The carrier APN, username, and password for the SIM card to populate {{apn}}, {{apnu}}, and {{apnp}} placeholders.
+- The carrier APN, username, and password for the SIM card to populate [apn], [apnu], and [apnp] placeholders.
 - A terminal or configuration tool capable of sending AT style commands or using the manufacturer software to apply settings.
 - The ability to restart the device after applying configuration if required by firmware.
 
@@ -67,7 +67,7 @@ The AX11 sends GNSS fixes, vehicle-bus telemetry and event messages over its cel
 2. Enter the Plaspy server address using d.plaspy.com or the numeric endpoint 54.85.159.138 as required.
 3. Set the server port to 8888.
 4. Choose UDP or TCP transport if the device requires an explicit transport selection.
-5. Configure APN settings and any required credentials using your carrier values for {{apn}}, {{apnu}}, and {{apnp}}.
+5. Configure APN settings and any required credentials using your carrier values for [apn], [apnu], and [apnp].
 6. Apply or save the configuration on the device and restart the device if the procedure requires a reboot.
 7. Validate that the device reports to Plaspy by checking device status locally and confirming data arrival on Plaspy.
 
@@ -95,13 +95,13 @@ AT$FORM=1,@P,0,""
 
 - Configure the GPRS server including APN placeholders and the Plaspy server IP and port
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 Notes on placeholders
-- {{apn}} is the carrier Access Point Name required by the SIM.
-- {{apnu}} is the APN username when the carrier requires authentication.
-- {{apnp}} is the APN password when required.
+- [apn] is the carrier Access Point Name required by the SIM.
+- [apnu] is the APN username when the carrier requires authentication.
+- [apnp] is the APN password when required.
 
 - Check device status and configuration
 ```text

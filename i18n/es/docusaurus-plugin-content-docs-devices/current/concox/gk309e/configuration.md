@@ -45,7 +45,7 @@ Configurar un GK309E para Plaspy garantiza que el equipo pueda establecer una se
 ## Requisitos previos típicos
 
 - Una tarjeta SIM válida con plan de datos y capacidad de SMS instalada en el GK309E  
-- Credenciales APN del operador móvil (use el marcador de posición {{apn}} y los campos opcionales {{apnu}} y {{apnp}} si son necesarios)  
+- Credenciales APN del operador móvil (use el marcador de posición [apn] y los campos opcionales [apnu] y [apnp] si son necesarios)  
 - Acceso a un teléfono o herramienta de gestión capaz de enviar SMS de configuración al dispositivo, o bien la utilidad oficial de Concox si prefiere ese método  
 - Alimentación o batería cargada y una posición de instalación estable para que el equipo obtenga conectividad GNSS y GPRS  
 - Acceso a la plataforma Plaspy para confirmar que el rastreador reporte correctamente después de la configuración
@@ -83,15 +83,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the mobile operator APN (replace {{apn}} and optional {{apnu}} and {{apnp}} as needed):
+- Set the mobile operator APN (replace [apn] and optional [apnu] and [apnp] as needed):
 ```text
-APN,{{apn}}#, 
+APN,[apn]#, 
 ```
 If your operator requires username and password, include them as:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Placeholders: {{apn}} = APN name, {{apnu}} = APN username, {{apnp}} = APN password.)
+(Placeholders: [apn] = APN name, [apnu] = APN username, [apnp] = APN password.)
 
 - Set the GPRS server to Plaspy by domain (public example using domain):
 ```text

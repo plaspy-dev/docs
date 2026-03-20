@@ -73,7 +73,7 @@ When configured, the CyberLabelX 100 sends location and telemetry packets to the
 
 ## Example Configuration Commands
 
-The CyberLabelX 100 can be configured by sending SMS messages. The public example commands below use the device default password 0000. Preserve placeholders like {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values when sending commands.
+The CyberLabelX 100 can be configured by sending SMS messages. The public example commands below use the device default password 0000. Preserve placeholders like [apn], [apnu], and [apnp] and replace them with your operator values when sending commands.
 
 - Set the time zone to UTC 0
 ```text
@@ -82,9 +82,9 @@ GMT,0000,0#
 
 - Set the operator APN (replace placeholders with your APN, APN username, and APN password)
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explanation: {{apn}} is the APN name provided by your mobile operator. {{apnu}} is the APN username if required. {{apnp}} is the APN password if required.
+Explanation: [apn] is the APN name provided by your mobile operator. [apnu] is the APN username if required. [apnp] is the APN password if required.
 
 - Set the GPRS server to Plaspy using the public server IP and port
 ```text

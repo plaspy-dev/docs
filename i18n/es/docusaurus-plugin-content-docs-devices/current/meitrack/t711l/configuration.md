@@ -74,7 +74,7 @@ El T711L se configura para enviar ubicación y eventos de dispositivo al endpoin
 
 ## Comandos de configuración de ejemplo
 
-Los ejemplos de SMS siguientes se basan en formatos de comando públicos de Meitrack. El ejemplo usa la contraseña SMS del dispositivo 0000 que figura como predeterminada en la muestra pública. Reemplace {{apn}}, {{apnu}} y {{apnp}} con el APN de su operador, el usuario del APN y la contraseña del APN según corresponda.
+Los ejemplos de SMS siguientes se basan en formatos de comando públicos de Meitrack. El ejemplo usa la contraseña SMS del dispositivo 0000 que figura como predeterminada en la muestra pública. Reemplace [apn], [apnu] y [apnp] con el APN de su operador, el usuario del APN y la contraseña del APN según corresponda.
 
 Tenga en cuenta que el ejemplo establece el servidor GPRS usando la IP 54.85.159.138 y el puerto 8888. Si prefiere usar el dominio de Plaspy, verifique que su firmware acepte nombres de dominio en lugar de la IP en el comando de servidor.
 
@@ -85,13 +85,13 @@ Tenga en cuenta que el ejemplo establece el servidor GPRS usando la IP 54.85.159
 
 2. Establecer el servidor GPRS a Plaspy usando IP y marcador de APN
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 - Explicación de marcadores
-  - {{apn}} es el APN de datos móviles proporcionado por su operador
-  - {{apnu}} es el usuario del APN si se requiere
-  - {{apnp}} es la contraseña del APN si se requiere
-- Si su operador no requiere credenciales de APN, omita {{apnu}} y {{apnp}} según lo permita el formato del dispositivo
+  - [apn] es el APN de datos móviles proporcionado por su operador
+  - [apnu] es el usuario del APN si se requiere
+  - [apnp] es la contraseña del APN si se requiere
+- Si su operador no requiere credenciales de APN, omita [apnu] y [apnp] según lo permita el formato del dispositivo
 
 3. Establecer la zona horaria a UTC 0
 ```text
@@ -117,7 +117,7 @@ Si usa la herramienta de configuración de Meitrack en lugar de SMS, ingrese los
 - Las versiones de firmware y las revisiones de hardware pueden cambiar los formatos de comando y el comportamiento de los parámetros; verifique la sintaxis de los comandos para su firmware exacto antes de desplegar masivamente
 - Elija UDP o TCP según la fiabilidad de su red y sus preferencias; ambos transportes son compatibles en el puerto 8888
 - En los ejemplos públicos se usa la contraseña SMS por defecto 0000; cambie la contraseña del dispositivo después de la configuración inicial por seguridad operativa
-- Los marcadores de APN {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse con los valores de su operador cuando sean necesarios
+- Los marcadores de APN [apn], [apnu] y [apnp] deben reemplazarse con los valores de su operador cuando sean necesarios
 
 ## Por qué usar Plaspy con esta configuración
 

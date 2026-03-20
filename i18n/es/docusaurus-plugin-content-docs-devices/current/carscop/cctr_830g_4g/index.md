@@ -1,6 +1,7 @@
 ---
 slug: /carscop/cctr_830g_4g
 id: cctr_830g_4g
+sidebar_key: carscocctr_830g_4g_index_cctr_830g_4g
 sidebar_label: CCTR-830G-4G
 title: Carscop - CCTR-830G-4G
 sidebar_class_name: menu_item_tracker

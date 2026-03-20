@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/start_s_2012
 id: start_s_2012
+sidebar_key: navtelekostart_s_2012_index_start_s_2012
 sidebar_label: START S-2012
 title: Navtelekom - START S-2012
 sidebar_class_name: menu_item_tracker

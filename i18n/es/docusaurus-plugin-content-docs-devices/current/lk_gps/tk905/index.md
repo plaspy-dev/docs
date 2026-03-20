@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/tk905
 id: tk905
+sidebar_key: lk_gptk905_index_tk905
 sidebar_label: TK905
 title: LK-GPS - TK905
 sidebar_class_name: menu_item_tracker

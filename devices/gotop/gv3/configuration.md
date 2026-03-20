@@ -83,7 +83,7 @@ The GV3 supports manufacturer configuration methods such as SMS commands or vend
 - Choose UDP or TCP based on the manufacturer recommendations and network reliability; Plaspy will detect the device protocol automatically once data arrives.
 - Because Plaspy uses the same port for all devices, confirm port 8888 is set correctly on the tracker to avoid connectivity issues.
 - If you configure the device by SMS, allow a short propagation time and restart the tracker if changes do not appear to take effect.
-- Keep APN and SIM settings handy if the device requires them; placeholders such as {{apn}}, {{apnu}}, or {{apnp}} are sometimes used in manufacturer templates to indicate carrier values.
+- Keep APN and SIM settings handy if the device requires them; placeholders such as [apn], [apnu], or [apnp] are sometimes used in manufacturer templates to indicate carrier values.
 
 ## Why Use Plaspy with This Configuration
 

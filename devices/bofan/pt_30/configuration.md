@@ -81,7 +81,7 @@ The PT-30 supports SMS based configuration. The manufacturer provides the follow
 000000DFT
 ```
 
-- Set a 14 digit identifier used with Plaspy. The identifier is typically the last 14 digits of the IMEI. Replace \<14-digit-id> with the actual 14 digit value.
+- Set a 14 digit identifier used with Plaspy. The identifier is typically the last 14 digits of the IMEI. Replace \\<14-digit-id> with the actual 14 digit value.
 ```text
 000000GID<14-digit-id>
 ```
@@ -90,14 +90,14 @@ Example using a 14 digit id
 000000GID12345678901234
 ```
 
-- Set the APN for your mobile operator. Keep placeholders {{apn}}, {{apnu}}, and {{apnp}} as needed. Replace or remove username and password segments if your operator does not require them.
+- Set the APN for your mobile operator. Keep placeholders [apn], [apnu], and [apnp] as needed. Replace or remove username and password segments if your operator does not require them.
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
 Explanation of placeholders:
-- {{apn}} empty placeholder for operator APN name
-- {{apnu}} empty placeholder for APN username if required
-- {{apnp}} empty placeholder for APN password if required
+- [apn] empty placeholder for operator APN name
+- [apnu] empty placeholder for APN username if required
+- [apnp] empty placeholder for APN password if required
 
 - Set the GPRS server to Plaspy using the public server IP and port from this guide
 ```text

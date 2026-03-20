@@ -66,7 +66,7 @@ The ST25T is a telemetry interface that forwards vehicle bus and sensor data to 
 2. Enter the Plaspy server address using d.plaspy.com or the server IP 54.85.159.138 in the network/GPRS server field.
 3. Set the server port to 8888 (Plaspy uses this same port across supported devices).
 4. Choose UDP or TCP if the device requires explicit transport selection and ensure the same selection is acceptable on the gateway side.
-5. Enter the operator APN and optional APN username and password fields (use placeholders {{apn}}, {{apnu}}, {{apnp}} as needed).
+5. Enter the operator APN and optional APN username and password fields (use placeholders [apn], [apnu], [apnp] as needed).
 6. Apply or save the configuration and restart the device or gateway if required by the manufacturer instructions.
 7. Validate that the device is reporting to Plaspy by using the verification SMS command or checking device connectivity in Plaspy.
 
@@ -78,13 +78,13 @@ Note: send these commands as SMS messages to the device or gateway phone number 
 
 - Network and GPRS server command (set APN and point to Plaspy)
 ```text
-SA200NTW;{{device_id}};02;<auth_flag>;<apn>;{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;<auth_flag>;<apn>;[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Explanation:
   - {{device_id}} = six digits extracted from the IMEI as described above.
-  - <auth_flag> = 1 if you provide APN username or password ({{apnu}} or {{apnp}}), otherwise 0.
-  - {{apn}} = operator APN placeholder.
-  - {{apnu}} and {{apnp}} = optional APN username and APN password placeholders.
+  - \<auth_flag> = 1 if you provide APN username or password ([apnu] or [apnp]), otherwise 0.
+  - [apn] = operator APN placeholder.
+  - [apnu] and [apnp] = optional APN username and APN password placeholders.
   - The command uses the Plaspy server IP 54.85.159.138 and port 8888.
 
 - Set the update/report interval to 60 seconds
@@ -103,7 +103,7 @@ These commands are public examples extracted from the device configuration conte
 - Firmware and gateway firmware versions can change command formats and supported parameters; always verify the exact SMS syntax for your firmware revision.
 - The ST25T typically forwards telemetry to a Plaspy-enabled gateway; confirm whether you should program the ST25T itself or the gateway when applying server and APN settings.
 - Choose UDP or TCP based on network reliability and gateway behavior; both transports are supported by Plaspy on port 8888.
-- When using APN authentication include the appropriate username and password and set the <auth_flag> field to 1 in the SA200NTW template.
+- When using APN authentication include the appropriate username and password and set the \<auth_flag> field to 1 in the SA200NTW template.
 - SMS-based configuration is commonly supported in public examples shown here; consult the official Suntech instructions for alternative configuration methods such as a local Bluetooth tool or vendor software.
 
 ## Why Use Plaspy with This Configuration

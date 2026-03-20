@@ -87,9 +87,9 @@ GMT,E,0#
 ```
 
 - Configurar el APN del operador
-Nota: {{apn}} es el nombre del APN. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN y pueden omitirse si su operador no los requiere.
+Nota: [apn] es el nombre del APN. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN y pueden omitirse si su operador no los requiere.
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS para usar el dominio de Plaspy (UDP o TCP en el puerto 8888)
@@ -119,7 +119,7 @@ Use el formato de comando SERVER que coincida con su preferencia por dominio o I
 - El GPT19 admite configuración mediante SMS como se muestra en los comandos de ejemplo; utilice la sintaxis SMS oficial de Eelink para su versión de firmware.
 - Algunas revisiones de firmware pueden variar en la sintaxis de comandos o en los parámetros disponibles. Verifique los comandos en el manual del dispositivo antes de enviarlos.
 - Elija UDP o TCP según las condiciones de la red y las recomendaciones de su proveedor de conectividad; Plaspy acepta ambos transportes en el puerto 8888.
-- Cuando utilice marcadores de posición como {{apn}}, sustitúyalos por la cadena APN real proporcionada por el operador móvil. Si el usuario o la contraseña del APN no son necesarios, omita esos campos según las reglas de comandos del dispositivo.
+- Cuando utilice marcadores de posición como [apn], sustitúyalos por la cadena APN real proporcionada por el operador móvil. Si el usuario o la contraseña del APN no son necesarios, omita esos campos según las reglas de comandos del dispositivo.
 - Confirme siempre los ajustes usando la consulta PARAM# y comprobando la visibilidad del dispositivo en Plaspy tras la configuración.
 
 ## Por qué usar Plaspy con esta configuración

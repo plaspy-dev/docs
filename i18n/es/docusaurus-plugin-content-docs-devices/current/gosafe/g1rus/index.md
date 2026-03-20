@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/g1rus
 id: g1rus
+sidebar_key: gosafg1rus_index_g1rus
 sidebar_label: G1RUS
 title: Gosafe - G1RUS
 sidebar_class_name: menu_item_tracker

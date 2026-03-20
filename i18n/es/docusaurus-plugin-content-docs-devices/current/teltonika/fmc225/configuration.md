@@ -77,13 +77,13 @@ Para configurar los parámetros básicos en su equipo Teltonika, se suele utiliz
 - Comando de parámetros en lote de ejemplo
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explicación de marcadores y campos
-- {{apn}} es el APN del operador requerido para datos celulares.
-- {{apnu}} es el nombre de usuario del APN cuando su operador lo solicita.
-- {{apnp}} es la contraseña del APN cuando su operador la solicita.
+- [apn] es el APN del operador requerido para datos celulares.
+- [apnu] es el nombre de usuario del APN cuando su operador lo solicita.
+- [apnp] es la contraseña del APN cuando su operador la solicita.
 - 2004:d.plaspy.com configura el equipo para reportar al dominio del servidor Plaspy.
 - 2005:8888 establece el puerto compartido de Plaspy usado por todos los dispositivos.
 - 2006:1 se incluye en esta cadena de parámetros como parte del conjunto de parámetros del equipo. Consulte la documentación de Teltonika para conocer el significado exacto de cada índice numérico de parámetro según su versión de firmware.

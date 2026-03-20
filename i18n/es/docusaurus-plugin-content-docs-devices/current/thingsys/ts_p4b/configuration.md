@@ -82,20 +82,20 @@ FORMAT
 ```
 Nota: FORMAT es un comando de restablecimiento de fábrica en las instrucciones públicas y sólo debe usarse cuando sea necesario.
 
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador)
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Este comando muestra el patrón donde 123456 es el prefijo de contraseña del dispositivo. Mantenga el marcador {{apn}} y reemplácelo por la cadena APN del operador.
+Este comando muestra el patrón donde 123456 es el prefijo de contraseña del dispositivo. Mantenga el marcador [apn] y reemplácelo por la cadena APN del operador.
 
-- Establecer el usuario APN (reemplace {{apnu}} por el usuario APN si es requerido)
+- Establecer el usuario APN (reemplace [apnu] por el usuario APN si es requerido)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña APN (reemplace {{apnp}} por la contraseña APN si es requerida)
+- Establecer la contraseña APN (reemplace [apnp] por la contraseña APN si es requerida)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
@@ -111,9 +111,9 @@ CXZT
 Envíe CXZT para solicitar un informe de ajustes del dispositivo cuando el firmware lo soporte.
 
 Explicación de marcadores:
-- {{apn}} es el APN proporcionado por su operador de red móvil.
-- {{apnu}} es el usuario APN si el operador lo requiere.
-- {{apnp}} es la contraseña APN si el operador lo requiere.
+- [apn] es el APN proporcionado por su operador de red móvil.
+- [apnu] es el usuario APN si el operador lo requiere.
+- [apnp] es la contraseña APN si el operador lo requiere.
 - 123456 se muestra en las instrucciones públicas como la contraseña por defecto del dispositivo utilizada en los prefijos de comandos SMS.
 
 ## Notas de configuración

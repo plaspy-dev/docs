@@ -73,7 +73,7 @@ El GPT48‑X se configura para reportar posiciones GNSS y telemetría de disposi
 
 ## Ejemplos de comandos de configuración
 
-El GPT48‑X admite configuración por SMS. Los siguientes comandos públicos son proporcionados por el fabricante y deben enviarse como mensajes SMS al dispositivo. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} al suministrar los valores específicos del operador.
+El GPT48‑X admite configuración por SMS. Los siguientes comandos públicos son proporcionados por el fabricante y deben enviarse como mensajes SMS al dispositivo. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] al suministrar los valores específicos del operador.
 
 - Restablecer el dispositivo a configuración de fábrica (paso inicial opcional):
 ```text
@@ -85,13 +85,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} por el APN de su operadora; si el APN requiere usuario o contraseña incluya {{apnu}} y {{apnp}}):
+- Configurar el APN del operador (reemplazar [apn] por el APN de su operadora; si el APN requiere usuario o contraseña incluya [apnu] y [apnp]):
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Si su APN requiere usuario y contraseña use:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Establecer el servidor GPRS a Plaspy por dominio (recomendado):
@@ -115,8 +115,8 @@ PARAM#
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es la cadena APN del operador móvil requerida para la conectividad de datos.  
-- {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN cuando el operador los exige.
+- [apn] es la cadena APN del operador móvil requerida para la conectividad de datos.  
+- [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN cuando el operador los exige.
 
 Si utiliza el comando SERVER,1,d.plaspy.com,8888# el rastreador resolverá el dominio a la IP de Plaspy y se conectará al puerto 8888. Tanto el dominio como la IP mostrados arriba son opciones públicas de configuración.
 

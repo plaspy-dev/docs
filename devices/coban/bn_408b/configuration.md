@@ -84,14 +84,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your mobile operator APN)
+- Set the operator APN (replace [apn] with your mobile operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username and password (replace placeholders with your operator credentials)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP and port
@@ -124,8 +124,8 @@ protocol123456 18
 ```
 
 Notes on placeholders and commands
-- {{apn}} is the mobile operator APN string required for data connectivity.
-- {{apnu}} and {{apnp}} are optional APN username and password fields; use them only if your operator requires authentication.
+- [apn] is the mobile operator APN string required for data connectivity.
+- [apnu] and [apnp] are optional APN username and password fields; use them only if your operator requires authentication.
 - The adminip command above uses the Plaspy server IP and port shown earlier; you may alternatively use the domain d.plaspy.com with supported manufacturer syntax if the device supports domain names.
 - The factory reset command begin123456 is optional and typically used only in initial setup or to restore defaults.
 

@@ -79,22 +79,22 @@ El LMU-200 puede configurarse mediante comandos SMS. Los siguientes comandos pú
 
 Notas:
 - El ID del dispositivo para comandos SMS es el MID de 10 dígitos que devuelve el comando !R0.
-- Marcadores: {{apn}} es el APN de su operador, {{apnu}} es el nombre de usuario del APN si se requiere, y {{apnp}} es la contraseña del APN si se requiere.
+- Marcadores: [apn] es el APN de su operador, [apnu] es el nombre de usuario del APN si se requiere, y [apnp] es la contraseña del APN si se requiere.
 - El comando de reinicio está incluido y debe usarse cuando su flujo de instalación lo requiera.
 
 1. Establecer el APN del operador
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 2. Establecer el usuario del APN del operador (usar solo si su APN requiere un usuario)
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 3. Establecer la contraseña del APN del operador (usar solo si su APN requiere una contraseña)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 4. Establecer el servidor GPRS a Plaspy por IP
@@ -124,7 +124,7 @@ Use estos comandos en el orden mostrado cuando el orden sea importante. Si su fi
 - La configuración vía SMS está documentada públicamente aquí; sin embargo, algunas instalaciones utilizan herramientas de gestión de CalAmp o actualizaciones OTA para aprovisionamiento masivo.
 - Las revisiones de firmware o hardware pueden cambiar los números de comando o el comportamiento. Confirme la sintaxis de los comandos para su nivel de firmware antes de realizar una configuración masiva.
 - Elija UDP o TCP según los requisitos de estabilidad de la instalación y cualquier recomendación de su operador o del equipo de integración.
-- Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con los valores correctos para su tarjeta SIM y operador.
+- Conserve los marcadores [apn], [apnu] y [apnp] y reemplácelos con los valores correctos para su tarjeta SIM y operador.
 - Plaspy utiliza el mismo puerto para todos los dispositivos compatibles y realiza detección automática de protocolos, por lo que normalmente no necesita especificar un mapeo de protocolo en Plaspy.
 
 ## Por qué usar Plaspy con esta configuración

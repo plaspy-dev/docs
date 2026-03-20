@@ -82,13 +82,13 @@ The public Teltonika example command below illustrates setting APN credentials a
 - Example setparam command (preserve placeholders when replacing with actual values):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and fields in the example command:
-- {{apn}} is the cellular APN provided by your mobile operator  
-- {{apnu}} is the APN username if required by the operator; leave blank if not used  
-- {{apnp}} is the APN password if required by the operator; leave blank if not used  
+- [apn] is the cellular APN provided by your mobile operator  
+- [apnu] is the APN username if required by the operator; leave blank if not used  
+- [apnp] is the APN password if required by the operator; leave blank if not used  
 - 2004 sets the server domain to d.plaspy.com and 2005 sets the port to 8888 in this example  
 - 2006:1 is included in the example sequence; verify parameter mappings for your firmware in Teltonika documentation as the numeric parameter meanings can vary by firmware and model  
 - Use the Teltonika SMS or configuration tool safe sending procedures and confirm the device accepts the command

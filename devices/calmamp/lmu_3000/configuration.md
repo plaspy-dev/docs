@@ -81,17 +81,17 @@ The LMU-3000 can be configured by sending SMS commands to the device. The follow
 
 - Set the operator APN
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Set the APN operator username (if required)
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Set the APN operator password (if required)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public IP
@@ -115,9 +115,9 @@ The LMU-3000 can be configured by sending SMS commands to the device. The follow
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN string
-- {{apnu}} is the APN username when required by the operator
-- {{apnp}} is the APN password when required
+- [apn] is the mobile operator APN string
+- [apnu] is the APN username when required by the operator
+- [apnp] is the APN password when required
 
 Send each command as an SMS to the tracker following the manufacturer instructions. The order above is conventional: set APN and credentials first, then server and port, then reboot to apply. The MID returned by the !R0 command is used by some workflows as the device ID.
 

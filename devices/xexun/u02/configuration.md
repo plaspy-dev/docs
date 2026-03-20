@@ -22,7 +22,7 @@ keywords:
 
 This page documents the public configuration context for using the Xexun U02 with Plaspy. It focuses on the practical server settings, the common setup workflow, and SMS commands that are publicly available for configuring GPRS reporting to the Plaspy platform. Use this page to prepare the device for visibility in Plaspy and to understand the required values that the device must report to.
 
-Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol. Manufacturer side setup steps can vary by firmware version, hardware revision, installation type, and vendor tools. The U02 also supports SMS based configuration in its public documentation; where SMS commands are provided below, they follow the U02 manufacturer format and preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}}.
+Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol. Manufacturer side setup steps can vary by firmware version, hardware revision, installation type, and vendor tools. The U02 also supports SMS based configuration in its public documentation; where SMS commands are provided below, they follow the U02 manufacturer format and preserve placeholders such as [apn], [apnu], and [apnp].
 
 ## Configuration Overview
 
@@ -79,19 +79,19 @@ The U02 public configuration includes SMS commands that configure APN, set the P
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN string):
+- Set the operator APN (replace [apn] with your operator APN string):
 ```
-apn123456 {{apn}}
-```
-
-- Set the APN username if required by your operator (replace {{apnu}} with APN username):
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-- Set the APN password if required by your operator (replace {{apnp}} with APN password):
+- Set the APN username if required by your operator (replace [apnu] with APN username):
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+- Set the APN password if required by your operator (replace [apnp] with APN password):
+```
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to report to Plaspy. This uses the Plaspy server IP and port exactly as publicly specified:
@@ -110,8 +110,8 @@ t060s***n123456
 ```
 
 Notes on placeholders and password:
-- {{apn}} is a placeholder for your mobile operator APN.  
-- {{apnu}} and {{apnp}} are optional placeholders for APN username and password when the operator requires them.  
+- [apn] is a placeholder for your mobile operator APN.  
+- [apnu] and [apnp] are optional placeholders for APN username and password when the operator requires them.  
 - 123456 is shown in the public example as the device default password. If your device has a different password, use that password in each command string where the password appears.
 
 ## Configuration Notes

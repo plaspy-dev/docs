@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/g05n
 id: g05n
+sidebar_key: cantracg05n_index_g05n
 sidebar_label: G05N
 title: CanTrack - G05N
 sidebar_class_name: menu_item_tracker

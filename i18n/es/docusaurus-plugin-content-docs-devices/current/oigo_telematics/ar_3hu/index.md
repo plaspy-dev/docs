@@ -1,6 +1,7 @@
 ---
 slug: /oigo_telematics/ar_3hu
 id: ar_3hu
+sidebar_key: oigo_telematicar_3hu_index_ar_3hu
 sidebar_label: AR-3HU
 title: Oigo Telematics - AR-3HU
 sidebar_class_name: menu_item_tracker

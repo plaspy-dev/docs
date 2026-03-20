@@ -77,13 +77,13 @@ El GS22 soporta configuración vía SMS. Los siguientes comandos SMS públicos s
 
 - Configurar el APN del operador
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 APN con nombre de usuario y contraseña opcionales (cuando el operador lo requiere)
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} es el APN de su operador móvil. {{apnu}} y {{apnp}} son marcadores de usuario y contraseña del APN opcionales.
+Explicación: [apn] es el APN de su operador móvil. [apnu] y [apnp] son marcadores de usuario y contraseña del APN opcionales.
 
 - Configurar el servidor GPRS para apuntar a Plaspy
 ```text
@@ -118,7 +118,7 @@ Use los comandos PARAM# y STATUS# para verificar el servidor, el APN y el estado
 
 - El GS22 admite configuración por SMS como se muestra arriba; algunos instaladores pueden preferir herramientas del proveedor o una app de configuración según el firmware.
 - Revisiones de firmware o versiones de hardware pueden cambiar la sintaxis de comandos SMS o los parámetros requeridos; siempre confirme con el manual del GS22 para su unidad específica.
-- Al enviar comandos APN, incluya {{apnu}} y {{apnp}} solo si su operador requiere usuario y contraseña.
+- Al enviar comandos APN, incluya [apnu] y [apnp] solo si su operador requiere usuario y contraseña.
 - Elija UDP o TCP según las necesidades de la instalación; Plaspy acepta ambos en el puerto 8888 y detectará automáticamente el protocolo utilizado.
 - Permita tiempo después de guardar los ajustes o reiniciar para que el dispositivo establezca GPRS y reporte a Plaspy.
 

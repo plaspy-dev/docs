@@ -80,9 +80,9 @@ El TLT-3A suele aceptar comandos SMS para configuración. Los siguientes comando
 *RESET#0000##
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario y contraseña para el APN, reemplace {{apnu}} y {{apnp}} por esos valores. Los campos de usuario y contraseña son opcionales según el operador.
+- Configurar el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario y contraseña para el APN, reemplace [apnu] y [apnp] por esos valores. Los campos de usuario y contraseña son opcionales según el operador.
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
 
 - Configurar el servidor GPRS a Plaspy usando la IP pública del servidor y el puerto 8888
@@ -110,7 +110,7 @@ El TLT-3A suele aceptar comandos SMS para configuración. Los siguientes comando
 2220000
 ```
 
-Use estos comandos en el orden mostrado al realizar una configuración inicial. Ajuste los valores de tiempo y los campos de APN para que coincidan con los requisitos de su despliegue. Los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN del operador, usuario de APN y contraseña de APN respectivamente cuando sean necesarios.
+Use estos comandos en el orden mostrado al realizar una configuración inicial. Ajuste los valores de tiempo y los campos de APN para que coincidan con los requisitos de su despliegue. Los marcadores de posición [apn], [apnu] y [apnp] deben reemplazarse por el APN del operador, usuario de APN y contraseña de APN respectivamente cuando sean necesarios.
 
 ## Notas de configuración
 

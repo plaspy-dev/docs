@@ -68,7 +68,7 @@ Cuando se configura para reportar a Plaspy, el FMU125 envía actualizaciones de 
 2. Ingrese el dominio del servidor Plaspy d.plaspy.com o la IP del servidor 54.85.159.138 en el parámetro de servidor u host primario del dispositivo.
 3. Ajuste el puerto del dispositivo a 8888, que es el puerto común usado por Plaspy para todos los dispositivos compatibles.
 4. Seleccione UDP o TCP en el dispositivo si el firmware requiere elección de transporte.
-5. Proporcione las credenciales APN usando marcadores como {{apn}} {{apnu}} y {{apnp}} donde sea necesario para datos celulares.
+5. Proporcione las credenciales APN usando marcadores como [apn] [apnu] y [apnp] donde sea necesario para datos celulares.
 6. Aplique o guarde la configuración en la herramienta Teltonika y reinicie el rastreador si la herramienta o el dispositivo lo requieren.
 7. Valide que el dispositivo reporte correctamente a Plaspy verificando su estado en la plataforma o mediante el método de respuesta disponible del dispositivo.
 
@@ -79,13 +79,13 @@ El siguiente comando por lotes público se usa comúnmente para establecer pará
 - Ejemplo de comando por lotes
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Qué significan los marcadores
-  - {{apn}} Reemplace con el nombre APN de los datos de su SIM.
-  - {{apnu}} Reemplace con el usuario APN si su operador lo requiere; deje en blanco si no aplica.
-  - {{apnp}} Reemplace con la contraseña APN si es necesaria; deje en blanco si no corresponde.
+  - [apn] Reemplace con el nombre APN de los datos de su SIM.
+  - [apnu] Reemplace con el usuario APN si su operador lo requiere; deje en blanco si no aplica.
+  - [apnp] Reemplace con la contraseña APN si es necesaria; deje en blanco si no corresponde.
 
 Nota: Este comando establece los marcadores APN y el dominio del servidor Plaspy d.plaspy.com con el puerto 8888 en un solo comando por lotes. Los números de parámetro se corresponden con parámetros del dispositivo Teltonika; consulte la documentación de Teltonika para el mapeo exacto de parámetros y el significado del parámetro 2006 antes de aplicar.
 

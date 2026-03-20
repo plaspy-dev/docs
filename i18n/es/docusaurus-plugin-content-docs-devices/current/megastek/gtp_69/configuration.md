@@ -73,7 +73,7 @@ El GTP-69 se configura para iniciar una sesión de datos GPRS usando el APN del 
 
 ## Ejemplos de comandos de configuración
 
-Los ejemplos públicos de Megastek para el GTP-69 usan comandos por SMS. Los ejemplos a continuación emplean la contraseña predeterminada del dispositivo 000000 según las muestras del fabricante. Reemplace los marcadores antes de enviar los SMS. Mantenga los marcadores como {{apn}}, {{apnu}}, {{apnp}} y {{imei}} al preparar los mensajes.
+Los ejemplos públicos de Megastek para el GTP-69 usan comandos por SMS. Los ejemplos a continuación emplean la contraseña predeterminada del dispositivo 000000 según las muestras del fabricante. Reemplace los marcadores antes de enviar los SMS. Mantenga los marcadores como [apn], [apnu], [apnp] y {{imei}} al preparar los mensajes.
 
 - Establecer el ID del dispositivo
   ```
@@ -83,16 +83,16 @@ Los ejemplos públicos de Megastek para el GTP-69 usan comandos por SMS. Los eje
 
 - Configurar el APN del operador (incluya usuario y contraseña solo si son necesarios)
   ```
-  M000000,23,{{apn}}
+  M000000,23,[apn]
   ```
   o con usuario y contraseña opcionales:
   ```
-  M000000,23,{{apn}},{{apnu}},{{apnp}}
+  M000000,23,[apn],[apnu],[apnp]
   ```
   Notas de marcadores
-  - {{apn}} = cadena del APN del operador
-  - {{apnu}} = nombre de usuario del APN cuando sea requerido
-  - {{apnp}} = contraseña del APN cuando sea requerida
+  - [apn] = cadena del APN del operador
+  - [apnu] = nombre de usuario del APN cuando sea requerido
+  - [apnp] = contraseña del APN cuando sea requerida
 
 - Establecer el intervalo de actualización a 60 segundos
   ```

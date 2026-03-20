@@ -74,7 +74,7 @@ El GV56RS reporta posiciones GNSS, estados de entradas y la telemetría de senso
 
 ## Comandos de configuración de ejemplo
 
-Los siguientes comandos estilo AT por SMS se toman de ejemplos públicos de configuración del QuecLink GV56RS. La secuencia de ejemplo usa la contraseña del dispositivo queclink que aparece como valor por defecto en los comandos de ejemplo. Si ha cambiado la contraseña del dispositivo, sustitúyala donde los comandos muestran la contraseña. Los marcadores como {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse con los valores de su operador móvil.
+Los siguientes comandos estilo AT por SMS se toman de ejemplos públicos de configuración del QuecLink GV56RS. La secuencia de ejemplo usa la contraseña del dispositivo queclink que aparece como valor por defecto en los comandos de ejemplo. Si ha cambiado la contraseña del dispositivo, sustitúyala donde los comandos muestran la contraseña. Los marcadores como [apn], [apnu] y [apnp] deben reemplazarse con los valores de su operador móvil.
 
 - Reinicio opcional a valores de fábrica (usar sólo si necesita restaurar los valores de fábrica):
 ```text
@@ -88,9 +88,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Configurar el APN del operador y credenciales opcionales:
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explicación: reemplace {{apn}} por el nombre del APN de su operador. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN.
+Explicación: reemplace [apn] por el nombre del APN de su operador. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN.
 
 - Configurar el servidor GPRS para apuntar a Plaspy usando dominio e IP con puerto 8888:
 ```text

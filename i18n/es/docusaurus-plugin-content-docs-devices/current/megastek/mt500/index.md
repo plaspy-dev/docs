@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt500
 id: mt500
+sidebar_key: megastemt500_index_mt500
 sidebar_label: MT500
 title: Megastek - MT500
 sidebar_class_name: menu_item_tracker

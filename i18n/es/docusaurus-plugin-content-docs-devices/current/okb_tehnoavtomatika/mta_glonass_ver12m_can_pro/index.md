@@ -1,6 +1,7 @@
 ---
 slug: /okb_tehnoavtomatika/mta_glonass_ver12m_can_pro
 id: mta_glonass_ver12m_can_pro
+sidebar_key: okb_tehnoavtomatikmta_glonass_ver12m_can_pro_index_mta_glonass_ver12m_can_pro
 sidebar_label: MTA-Glonass (ver.12M-CAN-PRO)
 title: OKB Tehnoavtomatika - MTA-Glonass (ver.12M-CAN-PRO)
 sidebar_class_name: menu_item_tracker

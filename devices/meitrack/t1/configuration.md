@@ -79,13 +79,13 @@ The Meitrack T1 can be configured via SMS using the device password followed by 
 ```
 0000,F11
 ```
-- Set the GPRS server to Plaspy using the server IP and port. {{apn}} is the mobile network APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders and should be included only if your mobile operator requires them.
+- Set the GPRS server to Plaspy using the server IP and port. [apn] is the mobile network APN. [apnu] and [apnp] are optional APN username and password placeholders and should be included only if your mobile operator requires them.
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 - Variant including APN username and password placeholders
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 - Set the time zone to UTC 0
 ```
@@ -101,9 +101,9 @@ The Meitrack T1 can be configured via SMS using the device password followed by 
 ```
 
 Notes on placeholders:
-- {{apn}} Replace with your cellular provider APN name required for GPRS data.
-- {{apnu}} Replace with APN username if required by your operator.
-- {{apnp}} Replace with APN password if required by your operator.
+- [apn] Replace with your cellular provider APN name required for GPRS data.
+- [apnu] Replace with APN username if required by your operator.
+- [apnp] Replace with APN password if required by your operator.
 
 Keep the command order when performing an initial setup: optional factory reset, server configuration, timezone, reporting interval, and event settings. If your installer workflow uses a configuration tool instead of SMS, the same server and port values apply.
 

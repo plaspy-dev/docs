@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/nb20
 id: nb20
+sidebar_key: cantracnb20_index_nb20
 sidebar_label: NB20
 title: CanTrack - NB20
 sidebar_class_name: menu_item_tracker

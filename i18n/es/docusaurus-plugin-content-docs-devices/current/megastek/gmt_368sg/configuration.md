@@ -83,13 +83,13 @@ M000000,22,{{('XXXXXXXXXXXXXXX' + imei.substring(0,15)).slice(-15)}}
 
 Explicación: Reemplace la expresión por el IMEI de 15 dígitos o por el ID de dispositivo que desea que el rastreador informe.
 
-2. Configurar el APN del operador (incluya el usuario y la contraseña del APN si son necesarios). Reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores del APN de su operador:
+2. Configurar el APN del operador (incluya el usuario y la contraseña del APN si son necesarios). Reemplace [apn], [apnu] y [apnp] con los valores del APN de su operador:
 
 ```
-M000000,23,{{apn}}{{,{{apnu}},{{apnp}}}}
+M000000,23,[apn]{{,[apnu],[apnp]}}
 ```
 
-Explicación: {{apn}} es la cadena del APN. {{apnu}} y {{apnp}} son opcionales y representan el usuario y la contraseña del APN.
+Explicación: [apn] es la cadena del APN. [apnu] y [apnp] son opcionales y representan el usuario y la contraseña del APN.
 
 3. Establecer el intervalo de actualización a 60 segundos:
 

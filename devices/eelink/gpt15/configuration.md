@@ -66,13 +66,13 @@ The GPT15 is configured to send its location and event telemetry to the shared P
 2. Enter the Plaspy server address: use d.plaspy.com or the server IP 54.85.159.138 in the SERVER configuration field.  
 3. Set the server port to 8888 (Plaspy uses the same port for all supported devices).  
 4. If the device requires a transport selection, choose UDP or TCP on port 8888.  
-5. Configure the SIM operator APN and any required APN credentials (use placeholders like {{apn}}, {{apnu}}, {{apnp}} when preparing SMS templates).  
+5. Configure the SIM operator APN and any required APN credentials (use placeholders like [apn], [apnu], [apnp] when preparing SMS templates).  
 6. Apply or save the configuration and restart the device if the manufacturer recommends a reboot.  
 7. Validate that the device reports to Plaspy by checking device presence and recent activity in your Plaspy account or dashboard.
 
 ## Example Configuration Commands
 
-The GPT15 supports SMS-based configuration. The following SMS commands are the publicly documented sequence for basic setup. Send each command as a single SMS message to the device SIM number. Preserve placeholders such as {{apn}} where shown.
+The GPT15 supports SMS-based configuration. The following SMS commands are the publicly documented sequence for basic setup. Send each command as a single SMS message to the device SIM number. Preserve placeholders such as [apn] where shown.
 
 - Optional initial factory reset (use only if you need to restore defaults)
 ```text
@@ -86,13 +86,13 @@ GMT,E,0#
 
 - Set the operator APN (replace placeholders with your operator values; include username and password only if required)
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 or with username and password where supported:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explanation: {{apn}} = APN name, {{apnu}} = APN username (optional), {{apnp}} = APN password (optional).
+Explanation: [apn] = APN name, [apnu] = APN username (optional), [apnp] = APN password (optional).
 
 - Set the GPRS server to use Plaspy by domain (preferred readable form)
 ```text

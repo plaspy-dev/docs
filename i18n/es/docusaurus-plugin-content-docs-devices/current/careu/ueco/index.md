@@ -1,6 +1,7 @@
 ---
 slug: /careu/ueco
 id: ueco
+sidebar_key: careueco_index_ueco
 sidebar_label: Ueco
 title: CAREU - Ueco
 sidebar_class_name: menu_item_tracker

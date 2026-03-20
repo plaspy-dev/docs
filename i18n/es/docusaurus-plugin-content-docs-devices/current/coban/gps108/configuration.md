@@ -81,7 +81,7 @@ El GPS108 suele aceptar comandos SMS para la puesta a punto. Los ejemplos siguie
 
 Notas:
 - Los comandos abajo se envían al dispositivo como mensajes SMS.
-- Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por su APN del operador, nombre de usuario del APN y contraseña del APN respectivamente.
+- Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por su APN del operador, nombre de usuario del APN y contraseña del APN respectivamente.
 - El comando de restauración de fábrica es opcional y generalmente se usa solo al inicio o para limpiar configuraciones previas.
 
 1. Restauración de fábrica (paso inicial opcional)
@@ -96,12 +96,12 @@ time zone123456 0
 
 3. Configurar el APN del operador
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Establecer el usuario y la contraseña del APN
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Configurar el servidor GPRS de Plaspy usando la IP directa y el puerto
@@ -137,7 +137,7 @@ check123456
 protocol123456 18
 ```
 
-Reemplace los marcadores {{apn}}, {{apnu}} y {{apnp}} con los valores del APN de su operador. Por ejemplo, apn123456 internet configuraría el APN como internet. La contraseña por defecto para control por SMS usada arriba es 123456; si la contraseña de su dispositivo ha sido cambiada, utilice la contraseña actual.
+Reemplace los marcadores [apn], [apnu] y [apnp] con los valores del APN de su operador. Por ejemplo, apn123456 internet configuraría el APN como internet. La contraseña por defecto para control por SMS usada arriba es 123456; si la contraseña de su dispositivo ha sido cambiada, utilice la contraseña actual.
 
 ## Notas de configuración
 

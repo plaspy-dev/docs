@@ -83,12 +83,12 @@ The CT-24 supports SMS based configuration. The following example commands are t
 ```
 
 - Set the operator APN. Replace the placeholders with your operator values:
-  - {{apn}} is the APN name
-  - {{apnu}} is the APN username if required
-  - {{apnp}} is the APN password if required
+  - [apn] is the APN name
+  - [apnu] is the APN username if required
+  - [apnp] is the APN password if required
 
 ```
-#username,0000,3,{{apn}},{{apnu}},{{apnp}}*
+#username,0000,3,[apn],[apnu],[apnp]*
 ```
 
 - Set the GPRS server to Plaspy using the public Plaspy server IP and port
@@ -112,7 +112,7 @@ The CT-24 supports SMS based configuration. The following example commands are t
 Notes for the commands
 - Keep the command order when following manufacturer guidance if they recommend a specific sequence.
 - Replace #username with the device username or command prefix required by your CT-24 firmware if applicable.
-- Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and substitute them with your operator values.
+- Preserve the placeholders [apn], [apnu], and [apnp] and substitute them with your operator values.
 - The GPRS server entry points the tracker to Plaspy using the server IP and port 54.85.159.138:8888 which maps to d.plaspy.com.
 
 ## Configuration Notes

@@ -77,16 +77,16 @@ Las instrucciones públicas de configuración del ST4932 incluyen comandos SMS. 
 
 Marcadores importantes:
 - {{device_id}} — reemplace con el ID de 6 dígitos derivado del IMEI según lo descrito arriba.
-- {{apn}} — nombre del APN del operador.
-- {{apnu}} — usuario del APN si el operador lo requiere.
-- {{apnp}} — contraseña del APN si el operador lo requiere.
+- [apn] — nombre del APN del operador.
+- [apnu] — usuario del APN si el operador lo requiere.
+- [apnp] — contraseña del APN si el operador lo requiere.
 - Para la bandera de usuario APN, establezca 1 si se requiere usuario o contraseña, de lo contrario 0.
 
 1. Configure el APN del operador y el servidor GPRS. Reemplace los marcadores al enviar como SMS al dispositivo:
 ```text
-SA200NTW;{{device_id}};02;{{apn_user_flag}};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{{apn_user_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
-- {{apn_user_flag}} debe ser 1 si proporciona un nombre de usuario o contraseña en {{apnu}} o {{apnp}}; de lo contrario, establezca 0.
+- {{apn_user_flag}} debe ser 1 si proporciona un nombre de usuario o contraseña en [apnu] o [apnp]; de lo contrario, establezca 0.
 
 2. Ajuste el intervalo de actualización a 60 segundos:
 ```text

@@ -86,9 +86,9 @@ The TLT-1D can be configured by sending SMS commands. The following public comma
 ```
 
 2. Set the operator APN
-   - Replace the placeholders with your operator APN values. {{apn}} is the APN name. {{apnu}} is the APN username if required. {{apnp}} is the APN password if required. If your carrier does not require username or password leave those placeholders empty according to device command rules.
+   - Replace the placeholders with your operator APN values. [apn] is the APN name. [apnu] is the APN username if required. [apnp] is the APN password if required. If your carrier does not require username or password leave those placeholders empty according to device command rules.
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}#
+#803#0000#[apn]#[apnu]#[apnp]#
 ```
 
 3. Set the GPRS reporting server and port
@@ -122,7 +122,7 @@ The TLT-1D can be configured by sending SMS commands. The following public comma
 ```
 
 Note on placeholders and verification
-- Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} as shown and replace them with your carrier details. The default device password shown in the public commands is 0000. Confirm any differences on your device before sending commands.
+- Keep the placeholders [apn], [apnu], and [apnp] as shown and replace them with your carrier details. The default device password shown in the public commands is 0000. Confirm any differences on your device before sending commands.
 
 ## Configuration Notes
 

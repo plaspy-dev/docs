@@ -1,6 +1,7 @@
 ---
 slug: /appello/master
 id: master
+sidebar_key: appellmaster_index_master
 sidebar_label: Master
 title: Appello - Master
 sidebar_class_name: menu_item_tracker

@@ -77,9 +77,9 @@ When configured for GPRS, the MT01 sends position and event reports to the share
 The MT01 can be configured by sending SMS commands to the device. The public examples below preserve the ordering and placeholders shown in the manufacturer guidance. The sample commands use the default device password 000000 which appears in the public setup examples.
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN string
-- {{apnu}} and {{apnp}} are optional APN username and password values when required by the operator
-- <device_id> below represents the 14 digit device ID derived from the IMEI as shown in the public commands; Plaspy uses the full 15 digit IMEI for platform identification
+- [apn] is the mobile operator APN string
+- [apnu] and [apnp] are optional APN username and password values when required by the operator
+- \<device_id> below represents the 14 digit device ID derived from the IMEI as shown in the public commands; Plaspy uses the full 15 digit IMEI for platform identification
 
 1. Optional initial factory reset command (label this as an initial or optional step)
 ```
@@ -90,16 +90,16 @@ W000000,990,099###
 ```
 W000000,010,<14-digit-device-id>
 ```
-- Example approach: extract the first 14 digits from the IMEI and send in place of <14-digit-device-id>
+- Example approach: extract the first 14 digits from the IMEI and send in place of \<14-digit-device-id>
 - Public note from device guidance: the device uses a 14 digit ID, while Plaspy identifies devices by the full 15 digit IMEI
 
 3. Set the APN for the mobile operator. Use the APN placeholder or include optional username and password
 ```
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 or, when APN username and password are needed:
 ```
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 
 4. Set the GPRS server to Plaspy using the public IP and port
@@ -132,7 +132,7 @@ Important: the commands shown use the default password 000000 in the public exam
 - SMS based setup is supported and commonly used for the MT01 but vendor tools or a configuration interface may also be available depending on the package and firmware
 - Firmware versions and hardware revisions can change command formats or required parameters; always confirm command syntax with current manufacturer documentation
 - Choose UDP or TCP based on installer preference and network environment; Plaspy will accept either transport and will detect the protocol automatically
-- Use the APN placeholders {{apn}}, {{apnu}}, {{apnp}} exactly as needed for your mobile operator; leaving username and password blank is valid when not required
+- Use the APN placeholders [apn], [apnu], [apnp] exactly as needed for your mobile operator; leaving username and password blank is valid when not required
 - Restart the device after applying GPRS/server changes if recommended by the manufacturer to ensure settings take effect
 
 ## Why Use Plaspy with This Configuration

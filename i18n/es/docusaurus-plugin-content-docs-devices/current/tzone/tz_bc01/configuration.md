@@ -76,9 +76,9 @@ Para configurar el TZ-BC01 vía SMS, envíe los comandos en el orden mostrado. E
 
 - Configure el APN del operador (reemplace los marcadores por los valores de su operador)
 ```text
-*000000,011,{{apn}}{{# if apnu or apnp then }},{{apnu}},{{apnp}}{{# endif }}#
+*000000,011,[apn]{{# if apnu or apnp then }},[apnu],[apnp]{{# endif }}#
 ```
-Explicación: {{apn}} es el APN del operador móvil. {{apnu}} es el nombre de usuario del APN y {{apnp}} es la contraseña del APN. El comando usa el prefijo de contraseña del dispositivo mostrado como 000000 en este ejemplo; reemplace si su dispositivo usa una contraseña distinta.
+Explicación: [apn] es el APN del operador móvil. [apnu] es el nombre de usuario del APN y [apnp] es la contraseña del APN. El comando usa el prefijo de contraseña del dispositivo mostrado como 000000 en este ejemplo; reemplace si su dispositivo usa una contraseña distinta.
 
 - Establecer el intervalo de actualización a 60 segundos
 ```text

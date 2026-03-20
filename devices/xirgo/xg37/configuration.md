@@ -76,12 +76,12 @@ The XG37 supports SMS based configuration. Below are the public SMS commands ava
 
 - Set the operator APN. Replace placeholders with your operator values:
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explanation of placeholders:
-- {{apn}} — the APN name string provided by the mobile operator.  
-- {{apnu}} — the APN username if required by the operator; leave empty if not required.  
-- {{apnp}} — the APN password if required by the operator; leave empty if not required.
+- [apn] — the APN name string provided by the mobile operator.  
+- [apnu] — the APN username if required by the operator; leave empty if not required.  
+- [apnp] — the APN password if required by the operator; leave empty if not required.
 
 - Set the GPRS server to Plaspy using the server IP and Plaspy port 8888. This command configures the device server entry to point at Plaspy:
 ```text
@@ -97,7 +97,7 @@ Notes:
 - SMS based setup is supported by the public commands shown here, but many installers use the manufacturer configuration tool when available.  
 - When given a choice, select UDP or TCP according to your firmware capability and network conditions; Plaspy will auto detect protocol on connection.  
 - Plaspy uses the same port 8888 for all devices so the server port value is consistent across models.  
-- Always confirm any placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator or installer before sending configuration SMS.
+- Always confirm any placeholders such as [apn], [apnu], and [apnp] with your mobile operator or installer before sending configuration SMS.
 
 ## Why Use Plaspy with This Configuration
 

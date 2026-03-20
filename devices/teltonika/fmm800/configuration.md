@@ -82,13 +82,13 @@ The following public example shows a Teltonika batch parameter command used to s
 - Example SMS or batch setparam command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explanation of placeholders and fields
-- {{apn}} Replace with the mobile network APN name for the SIM.
-- {{apnu}} Replace with the APN username if required by the operator. Leave blank if not required.
-- {{apnp}} Replace with the APN password if required by the operator. Leave blank if not required.
+- [apn] Replace with the mobile network APN name for the SIM.
+- [apnu] Replace with the APN username if required by the operator. Leave blank if not required.
+- [apnp] Replace with the APN password if required by the operator. Leave blank if not required.
 - 2004 in the command is set to d.plaspy.com the Plaspy server domain used for reporting.
 - 2005 in the command is set to 8888 the Plaspy port used across devices.
 - 2006 in the command in this example selects a transport mode. Verify the numeric values for UDP or TCP in the Teltonika documentation or device parameter reference for your firmware.
@@ -100,7 +100,7 @@ If your provisioning workflow requires the server IP instead of the domain, you 
 - Teltonika firmware versions and parameter codes can vary; confirm parameter numbers and accepted values in the official Teltonika Configurator or parameter reference for your firmware revision.
 - The example command shows SMS or batch style provisioning which is commonly supported by Teltonika tools; use Teltonika Configurator or FOTA WEB for centralized provisioning at scale.
 - Choose UDP or TCP according to your network and operational needs; Plaspy supports both and detects the protocol automatically when the tracker connects.
-- Preserve placeholders such as {{apn}} {{apnu}} and {{apnp}} when preparing commands and replace them with your operator credentials before sending.
+- Preserve placeholders such as [apn] [apnu] and [apnp] when preparing commands and replace them with your operator credentials before sending.
 - After applying settings, validate connectivity and telemetry in Plaspy to ensure the device is visible and reporting as expected.
 
 ## Why Use Plaspy with This Configuration

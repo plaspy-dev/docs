@@ -76,7 +76,7 @@ The G6C sends GNSS coordinates and telematics data over the cellular network to 
 
 The G6C supports configuration through Gosafe tools and manufacturer utilities; exact command formats and SMS or serial strings vary by firmware and vendor tool. Because manufacturer configuration methods change across firmware revisions and regional variants, follow the official Gosafe instructions for your device model and firmware revision when entering server and port values.
 
-If you have specific public commands from Gosafe for the G6C, apply them in the order shown by the manufacturer and preserve placeholders such as {{apn}} or other APN fields exactly as provided. Placeholders represent values you must supply, for example an operator APN string or login credentials.
+If you have specific public commands from Gosafe for the G6C, apply them in the order shown by the manufacturer and preserve placeholders such as [apn] or other APN fields exactly as provided. Placeholders represent values you must supply, for example an operator APN string or login credentials.
 
 ## Configuration Notes
 

@@ -87,11 +87,11 @@ Label: optional initial reset. Replace {{device_id}} with the last 9 IMEI digits
 
 2. Set operator APN and GPRS server. If you need to send APN username or password set the APN flag to 1, otherwise set it to 0. Fields: command;device_id;02;APN_FLAG;APN;APN_USER;APN_PASS;SERVER_IP;SERVER_PORT;;;;
 ```
-ST300NTW;{{device_id}};02;0;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notes:
-- Replace the fourth field (0) with 1 if you provide {{apnu}} or {{apnp}} credentials.
-- {{apn}} is the operator APN, {{apnu}} is the APN username, and {{apnp}} is the APN password.
+- Replace the fourth field (0) with 1 if you provide [apnu] or [apnp] credentials.
+- [apn] is the operator APN, [apnu] is the APN username, and [apnp] is the APN password.
 - This command points the device to Plaspy using the public server IP and port.
 
 3. Set reporting interval to 60 seconds (example reporting configuration):

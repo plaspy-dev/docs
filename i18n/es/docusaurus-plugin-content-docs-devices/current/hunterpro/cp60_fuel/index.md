@@ -1,6 +1,7 @@
 ---
 slug: /hunterpro/cp60_fuel
 id: cp60_fuel
+sidebar_key: hunterprcp60_fuel_index_cp60_fuel
 sidebar_label: CP60-FUEL
 title: HunterPro - CP60-FUEL
 sidebar_class_name: menu_item_tracker

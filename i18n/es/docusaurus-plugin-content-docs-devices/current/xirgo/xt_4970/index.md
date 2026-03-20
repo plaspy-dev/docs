@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt_4970
 id: xt_4970
+sidebar_key: xirgxt_4970_index_xt_4970
 sidebar_label: XT-4970
 title: Xirgo - XT-4970
 sidebar_class_name: menu_item_tracker

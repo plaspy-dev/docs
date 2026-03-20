@@ -89,14 +89,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your mobile operator APN)
+- Set the operator APN (replace [apn] with your mobile operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username and password (replace {{apnu}} and {{apnp}} as needed)
+- Set the APN username and password (replace [apnu] and [apnp] as needed)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP and port
@@ -130,9 +130,9 @@ protocol123456 18
 ```
 
 Placeholders explanation:
-- {{apn}} — your mobile operator APN name
-- {{apnu}} — APN username if required by operator
-- {{apnp}} — APN password if required by operator
+- [apn] — your mobile operator APN name
+- [apnu] — APN username if required by operator
+- [apnp] — APN password if required by operator
 
 Use the check123456 command to verify settings after applying them. If you perform a factory reset with begin123456, treat it as an optional first step when you need to restore defaults.
 

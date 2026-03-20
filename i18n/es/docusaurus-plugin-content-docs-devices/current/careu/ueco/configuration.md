@@ -48,7 +48,7 @@ El objetivo de esta configuración es preparar el CAREU Ueco para comunicarse de
 - Confirme que el Ueco tiene una tarjeta SIM activa con datos habilitados y crédito o plan de datos suficiente para el reporte móvil.
 - Asegúrese de que el equipo esté con alimentación y funcione correctamente según las comprobaciones del fabricante.
 - Tenga acceso al método o software de configuración oficial de CAREU provisto por el vendedor para enviar los ajustes de servidor y APN.
-- Conozca los valores de APN, usuario y contraseña requeridos por el proveedor celular (manténgalos como {{apn}}, {{apnu}}, {{apnp}} en herramientas que acepten marcadores).
+- Conozca los valores de APN, usuario y contraseña requeridos por el proveedor celular (manténgalos como [apn], [apnu], [apnp] en herramientas que acepten marcadores).
 - Verifique la versión de firmware y cualquier nota del proveedor que afecte la configuración remota o la selección de transporte.
 - Disponga de un método para reiniciar o cortar y volver a aplicar la alimentación del tracker después de aplicar ajustes, si fuera necesario.
 
@@ -80,7 +80,7 @@ El CAREU Ueco puede configurarse usando herramientas del fabricante, conjuntos d
 
 - El firmware importa: distintas revisiones de firmware o hardware pueden cambiar la sintaxis de comandos, los transportes soportados o las capacidades de configuración remota.
 - Elección de transporte: TCP y UDP están soportados en el puerto 8888; elija el transporte que coincida con su método de aprovisionamiento o las condiciones de la red local.
-- Marcadores de APN: muchas herramientas usan marcadores como {{apn}}, {{apnu}} y {{apnp}} para los ajustes celulares; mantenga estos marcadores cuando la interfaz de configuración lo requiera.
+- Marcadores de APN: muchas herramientas usan marcadores como [apn], [apnu] y [apnp] para los ajustes celulares; mantenga estos marcadores cuando la interfaz de configuración lo requiera.
 - FOTA y actualizaciones: el Ueco soporta FOTA vía FTP según la documentación del fabricante; asegúrese de que cualquier proceso FOTA no sobrescriba inadvertidamente los ajustes de servidor.
 - Verifique la documentación del proveedor sobre las opciones de configuración por SMS frente a la configuración por software y cualquier función opcional, como voz bidireccional o sistemas GNSS adicionales.
 

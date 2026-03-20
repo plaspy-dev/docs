@@ -76,13 +76,13 @@ El NR100 se configura para enviar datos de ubicación y eventos al endpoint comp
 El NR100 admite provisión por SMS con comandos enviados desde un teléfono móvil. Los ejemplos públicos a continuación usan la contraseña por defecto de fábrica 000000. Reemplace 000000 por la contraseña actual del dispositivo si fue modificada. Conserve los marcadores de posición y los parámetros opcionales tal como se muestran.
 
 1. Establecer el APN del operador  
-   - Use este comando para definir el APN de su SIM. {{apn}} es obligatorio. {{apnu}} y {{apnp}} son marcadores de posición opcionales para nombre de usuario y contraseña si el APN requiere autenticación.
+   - Use este comando para definir el APN de su SIM. [apn] es obligatorio. [apnu] y [apnp] son marcadores de posición opcionales para nombre de usuario y contraseña si el APN requiere autenticación.
 ```text
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
    - Si no se requiere usuario ni contraseña del APN, envíe:
 ```text
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 
 2. Configurar el servidor GPRS hacia Plaspy por IP y puerto  
@@ -104,7 +104,7 @@ A000000,004
 
 Notas sobre los comandos anteriores:
 - Los comandos de ejemplo usan la contraseña por defecto 000000 incluida tal como se muestra. Si la contraseña de su dispositivo es distinta, reemplace 000000 por la contraseña real.  
-- Mantenga los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} como están al preparar los comandos; sustitúyalos por el APN y las credenciales opcionales de su operador.  
+- Mantenga los marcadores de posición [apn], [apnu] y [apnp] como están al preparar los comandos; sustitúyalos por el APN y las credenciales opcionales de su operador.  
 - El orden de los comandos es importante en la configuración inicial: primero establezca el APN, luego el servidor y finalmente active GPRS.
 
 ## Observaciones de configuración

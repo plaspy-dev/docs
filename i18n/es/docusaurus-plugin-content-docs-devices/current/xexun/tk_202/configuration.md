@@ -83,17 +83,17 @@ Los siguientes comandos son ejemplos públicos en formato SMS usados por disposi
 ```text
 begin123456
 ```
-- Set the operator APN. Replace {{apn}} with your operator APN string
+- Set the operator APN. Replace [apn] with your operator APN string
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- Set the APN username if required. Replace {{apnu}} with the APN username
+- Set the APN username if required. Replace [apnu] with the APN username
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- Set the APN password if required. Replace {{apnp}} with the APN password
+- Set the APN password if required. Replace [apnp] with the APN password
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Set the GPRS server to Plaspy using the Plaspy server IP and port
 ```text
@@ -109,8 +109,8 @@ t060s***n123456
 ```
 
 Notas sobre los marcadores y la contraseña
-- {{apn}} es el marcador del APN del operador que debe reemplazarse por el APN real de su SIM.
-- {{apnu}} y {{apnp}} son marcadores opcionales para nombre de usuario y contraseña del APN cuando el operador exige credenciales.
+- [apn] es el marcador del APN del operador que debe reemplazarse por el APN real de su SIM.
+- [apnu] y [apnp] son marcadores opcionales para nombre de usuario y contraseña del APN cuando el operador exige credenciales.
 - La contraseña numérica 123456 en estos ejemplos es la mostrada en los materiales del fabricante. Si usted cambió la contraseña, use la contraseña actual en cada comando.
 
 ## Notas de configuración

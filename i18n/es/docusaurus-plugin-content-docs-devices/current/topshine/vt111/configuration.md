@@ -51,7 +51,7 @@ Todos los dispositivos en Plaspy usan el mismo puerto y la plataforma detectará
 - Una tarjeta SIM funcional con datos habilitados y el APN correcto del operador móvil.
 - Acceso al IMEI del dispositivo y a la contraseña del equipo para la configuración por SMS (los comandos de ejemplo usan la contraseña pública por defecto 000000 según el ejemplo del fabricante).
 - Capacidad para enviar y recibir SMS al dispositivo o acceso a la herramienta de configuración del fabricante si está disponible.
-- Conocimiento de los valores APN del operador para completar los marcadores {{apn}}, {{apnu}} y {{apnp}} cuando se requiera.
+- Conocimiento de los valores APN del operador para completar los marcadores [apn], [apnu] y [apnp] cuando se requiera.
 - Un plan para verificar que el rastreador aparece en Plaspy después de la configuración.
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -87,16 +87,16 @@ W000000,990,099###
 ```text
 W000000,010,<14 digit device id derived from IMEI>
 ```
-- Nota: Reemplace <14 digit device id derived from IMEI> con los primeros 14 dígitos del IMEI según indica el ejemplo del fabricante.
+- Nota: Reemplace \<14 digit device id derived from IMEI> con los primeros 14 dígitos del IMEI según indica el ejemplo del fabricante.
 
-3. Configurar el APN del operador y el usuario y contraseña opcionales del APN. Reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador. apnu y apnp son opcionales y solo se requieren para algunos operadores.
+3. Configurar el APN del operador y el usuario y contraseña opcionales del APN. Reemplace [apn], [apnu] y [apnp] con los valores de su operador. apnu y apnp son opcionales y solo se requieren para algunos operadores.
 ```text
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
 - Explicación de los marcadores:
-  - {{apn}} = nombre del APN del operador
-  - {{apnu}} = nombre de usuario del APN (opcional)
-  - {{apnp}} = contraseña del APN (opcional)
+  - [apn] = nombre del APN del operador
+  - [apnu] = nombre de usuario del APN (opcional)
+  - [apnp] = contraseña del APN (opcional)
 
 4. Establecer el servidor GPRS usando la IP pública de Plaspy y el puerto mostrado en el ejemplo del fabricante.
 ```text
@@ -130,7 +130,7 @@ Siga las indicaciones del fabricante al enviar comandos SMS. Reemplace la contra
 - El firmware del fabricante y el comportamiento de los comandos pueden variar según la revisión de hardware y la versión de firmware. Confirme qué comandos SMS acepta su firmware VT111 antes de un despliegue a gran escala.
 - Los comandos de ejemplo del VT111 usan SMS para establecer APN y valores de servidor. Si tiene acceso a una herramienta de configuración del proveedor, esa herramienta puede ofrecer un flujo de trabajo más conveniente.
 - Elija UDP o TCP según lo que soporte su firmware; el comportamiento puede diferir en retransmisiones y manejo de sesiones.
-- Mantenga los marcadores de credenciales APN {{apn}}, {{apnu}} y {{apnp}} y complételos con valores específicos del operador; algunos carriers requieren usuario y contraseña mientras que otros no.
+- Mantenga los marcadores de credenciales APN [apn], [apnu] y [apnp] y complételos con valores específicos del operador; algunos carriers requieren usuario y contraseña mientras que otros no.
 - La contraseña por defecto 000000 aparece en el ejemplo público. Cambíela si su política de seguridad exige una contraseña diferente en los dispositivos.
 
 ## Por qué usar Plaspy con esta configuración

@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/s_4513
 id: s_4513
+sidebar_key: navtelekos_4513_index_s_4513
 sidebar_label: СМАРТ S-4513
 title: Navtelekom - СМАРТ S-4513
 sidebar_class_name: menu_item_tracker

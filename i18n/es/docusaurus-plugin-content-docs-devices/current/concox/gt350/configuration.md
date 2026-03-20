@@ -77,7 +77,7 @@ El GT350 se configura para reportar ubicación y eventos del dispositivo al punt
 
 ## Ejemplos de comandos de configuración
 
-El GT350 soporta configuración vía SMS. A continuación se muestran los comandos públicos más comunes publicados para el dispositivo. Conserve los marcadores como {{apn}}, {{apnu}} y {{apnp}} cuando aplique las credenciales de su operador.
+El GT350 soporta configuración vía SMS. A continuación se muestran los comandos públicos más comunes publicados para el dispositivo. Conserve los marcadores como [apn], [apnu] y [apnp] cuando aplique las credenciales de su operador.
 
 - Reinicio opcional a configuración de fábrica (usar solo si necesita restaurar valores por defecto):
 ```text
@@ -89,9 +89,9 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}}, {{apnu}}, {{apnp}} con su APN, usuario y contraseña si se requieren. Si no necesita usuario ni contraseña, incluya solo el APN.
+- Configurar el APN del operador. Reemplace [apn], [apnu], [apnp] con su APN, usuario y contraseña si se requieren. Si no necesita usuario ni contraseña, incluya solo el APN.
 ```text
-APN,{{apn}}{{apnu ? ',{{apnu}}' : ''}}{{apnp ? ',{{apnp}}' : ''}}#
+APN,[apn]{{apnu ? ',[apnu]' : ''}}{{apnp ? ',[apnp]' : ''}}#
 ```
 (Ejemplo práctico si solo se requiere APN)
 ```text
@@ -127,8 +127,8 @@ GPRSSET#
 ```
 
 Notas sobre los marcadores de posición y uso:
-- {{apn}} es la cadena APN del operador móvil necesaria para la conectividad de datos.
-- {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN cuando el operador requiere credenciales.
+- [apn] es la cadena APN del operador móvil necesaria para la conectividad de datos.
+- [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN cuando el operador requiere credenciales.
 - Los ejemplos del comando SERVER muestran tanto el dominio (d.plaspy.com) como la IP numérica (54.85.159.138). Cualquiera de las dos formas es válida para apuntar el rastreador a Plaspy y ambas usan el puerto 8888.
 
 ## Notas de configuración

@@ -90,9 +90,9 @@ GMT,E,0#
 
 3. Set the operator APN
 ```text
-APN,{{apn}}{{#if apnu}},{{apnu}}{{/if}}{{#if apnp}},{{apnp}}{{/if}}#
+APN,[apn]{{#if apnu}},[apnu]{{/if}}{{#if apnp}},[apnp]{{/if}}#
 ```
-- Explanation: Replace {{apn}} with your mobile operator APN. If your operator requires username and password, include {{apnu}} and {{apnp}} respectively. Keep the placeholder format if you use a provisioning tool that substitutes values.
+- Explanation: Replace [apn] with your mobile operator APN. If your operator requires username and password, include [apnu] and [apnp] respectively. Keep the placeholder format if you use a provisioning tool that substitutes values.
 
 4. Set the GPRS server to use the Plaspy domain and port (preferred, readable)
 ```text

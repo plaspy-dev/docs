@@ -48,7 +48,7 @@ Este proceso prepara el TAT240 para enviar datos de ubicación y eventos a Plasp
 - Un dispositivo TAT240 cargado y accesible con alimentación aplicada para que pueda recibir comandos de configuración
 - Una tarjeta SIM celular activa con datos y la información APN correcta para su operador móvil
 - Acceso a las herramientas de configuración de Teltonika o permiso para enviar comandos SMS de configuración al dispositivo
-- Conocimiento de los valores APN de su SIM incluyendo marcadores como {{apn}}, {{apnu}} y {{apnp}}
+- Conocimiento de los valores APN de su SIM incluyendo marcadores como [apn], [apnu] y [apnp]
 - Capacidad para reiniciar o cortar la alimentación del dispositivo si se requiere un reinicio tras aplicar los ajustes
 - Acceso a una cuenta Plaspy o a un administrador para verificar la conectividad del dispositivo en la plataforma
 
@@ -68,7 +68,7 @@ Una vez configurado, el TAT240 envía datos de posición y eventos desde su radi
 2. Introduzca la dirección del servidor de Plaspy como d.plaspy.com o la IP 54.85.159.138 en el campo de servidor de la herramienta de configuración.
 3. Ajuste el puerto a 8888, que es el puerto compartido que Plaspy utiliza para todos los dispositivos.
 4. Elija el transporte UDP o TCP si el dispositivo requiere una selección explícita durante la configuración.
-5. Configure los ajustes APN y las credenciales del operador usando marcadores como {{apn}}, {{apnu}} y {{apnp}} si es necesario.
+5. Configure los ajustes APN y las credenciales del operador usando marcadores como [apn], [apnu] y [apnp] si es necesario.
 6. Aplique o guarde la configuración y reinicie o realice un ciclo de alimentación del dispositivo si el firmware requiere un reinicio para activar los nuevos parámetros.
 7. Valide la conectividad confirmando que el dispositivo reporta a Plaspy y aparece en la plataforma con datos de posición y eventos recientes.
 
@@ -79,13 +79,13 @@ El siguiente ejemplo es un comando SMS público al estilo Teltonika que establec
 - Ejemplo de comando SMS en lote para establecer APN y parámetros del servidor Plaspy
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando
-- {{apn}} es la cadena APN del operador móvil requerida para la conectividad de datos.
-- {{apnu}} es el usuario del APN si su operador lo requiere; déjelo vacío si no es necesario.
-- {{apnp}} es la contraseña del APN si su operador la requiere; déjelo vacío si no es necesario.
+- [apn] es la cadena APN del operador móvil requerida para la conectividad de datos.
+- [apnu] es el usuario del APN si su operador lo requiere; déjelo vacío si no es necesario.
+- [apnp] es la contraseña del APN si su operador la requiere; déjelo vacío si no es necesario.
 - 2004 se establece en d.plaspy.com que es el dominio del servidor Plaspy usado para el reporte.
 - 2005 se establece en 8888 que es el puerto compartido de Plaspy para todos los dispositivos.
 - 2006 comúnmente corresponde a un parámetro de transporte o modo de conexión en dispositivos Teltonika; confirme el mapeo exacto para su firmware en la documentación de Teltonika antes de cambiar este valor.

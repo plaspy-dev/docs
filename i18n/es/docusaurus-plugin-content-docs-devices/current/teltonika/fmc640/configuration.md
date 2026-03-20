@@ -49,7 +49,7 @@ Estos valores son los ajustes públicos de conexión de Plaspy usados para dispo
 - Alimentación confiable al FMC640 y una instalación de hardware completada según las indicaciones de Teltonika.
 - Una SIM activa con datos y opcionalmente capacidad SMS si planea usar comandos SMS para la configuración.
 - Acceso al método oficial de configuración de Teltonika que prefiera, por ejemplo Teltonika Configurator, FOTA Web o comandos SMS.
-- Credenciales APN del operador móvil representadas por marcadores como {{apn}}, {{apnu}} y {{apnp}}.
+- Credenciales APN del operador móvil representadas por marcadores como [apn], [apnu] y [apnp].
 - Acceso a la cuenta Plaspy o a los datos de incorporación para poder confirmar que el dispositivo aparece después de la configuración.
 - Conocimientos básicos sobre si su instalación usará transporte UDP o TCP para la comunicación rastreador-servidor.
 
@@ -65,7 +65,7 @@ Una vez configurado, el FMC640 envía datos de dispositivo y posición al endpoi
 ## Flujo de configuración común
 
 1. Acceda al método oficial de configuración de Teltonika como Teltonika Configurator, FOTA Web o la interfaz de comandos SMS.
-2. Configure las credenciales APN del dispositivo usando los marcadores proporcionados para su operador (por ejemplo {{apn}}, {{apnu}}, {{apnp}}).
+2. Configure las credenciales APN del dispositivo usando los marcadores proporcionados para su operador (por ejemplo [apn], [apnu], [apnp]).
 3. Ingrese el endpoint del servidor Plaspy como d.plaspy.com o 54.85.159.138 según su preferencia.
 4. Establezca el puerto en 8888 ya que Plaspy usa el mismo puerto para todos los dispositivos compatibles.
 5. Elija UDP o TCP si el dispositivo requiere selección explícita del transporte.
@@ -81,13 +81,13 @@ La configuración pública del modelo proporciona un comando SMS de ejemplo para
 - Ejemplo de comando de configuración por SMS
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando de ejemplo:
-- {{apn}} es el nombre del APN del operador móvil.
-- {{apnu}} es el nombre de usuario del APN cuando el operador lo exige.
-- {{apnp}} es la contraseña del APN cuando el operador lo exige.
+- [apn] es el nombre del APN del operador móvil.
+- [apnu] es el nombre de usuario del APN cuando el operador lo exige.
+- [apnp] es la contraseña del APN cuando el operador lo exige.
 - El comando incluye d.plaspy.com como servidor y 8888 como puerto para apuntar el dispositivo al endpoint de Plaspy.
 - El parámetro 2006 se relaciona con la selección de transporte o ajustes de protocolo en el dispositivo. Confirme el valor correcto para su firmware y elección de transporte consultando la documentación de Teltonika antes de cambiarlo.
 

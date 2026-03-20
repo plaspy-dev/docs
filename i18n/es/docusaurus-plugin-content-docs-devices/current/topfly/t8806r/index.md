@@ -1,6 +1,7 @@
 ---
 slug: /topfly/t8806r
 id: t8806r
+sidebar_key: topflt8806r_index_t8806r
 sidebar_label: T8806+R
 title: TopFly - T8806+R
 sidebar_class_name: menu_item_tracker

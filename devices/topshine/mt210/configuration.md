@@ -89,13 +89,13 @@ Explanation: set the tracker internal id using the first 14 digits from the IMEI
 
 - Set the operator APN (placeholders shown)
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 If APN requires username and password:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-Explanation: replace {{apn}} with your mobile operator APN. If the APN requires authentication, also supply {{apnu}} for username and {{apnp}} for password.
+Explanation: replace [apn] with your mobile operator APN. If the APN requires authentication, also supply [apnu] for username and [apnp] for password.
 
 - Set the GPRS server to Plaspy using the public IP and port from Plaspy
 ```text

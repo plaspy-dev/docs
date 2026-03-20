@@ -76,13 +76,13 @@ El NR006 transmite paquetes concisos de posición y eventos de alarma a Plaspy p
 El NR006 puede configurarse mediante comandos SMS. Los siguientes comandos públicos son ejemplos mostrados en el contenido oficial del fabricante. Estos ejemplos usan la contraseña de fábrica 000000 en la cadena del comando. Si su contraseña ha sido cambiada, reemplace la parte de la contraseña según corresponda.
 
 - Establecer el APN del operador
-  - Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario o contraseña de APN incluya {{apnu}} y {{apnp}} como se muestra.
+  - Reemplace [apn] por el APN de su operador. Si su operador requiere usuario o contraseña de APN incluya [apnu] y [apnp] como se muestra.
 ```text
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 - Establecer el APN del operador incluyendo usuario y contraseña cuando aplique
 ```text
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 - Establecer el servidor GPRS hacia Plaspy usando la IP y el puerto de Plaspy
 ```text

@@ -84,9 +84,9 @@ GMT,0000,0#
 
 - Configurar el APN del operador y credenciales opcionales
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} es la cadena APN del operador, {{apnu}} es el usuario del APN (si se requiere) y {{apnp}} es la contraseña del APN (si se requiere). Si su APN no necesita usuario ni contraseña, deje {{apnu}} y {{apnp}} vacíos según la sintaxis SMS del dispositivo.
+Explicación: [apn] es la cadena APN del operador, [apnu] es el usuario del APN (si se requiere) y [apnp] es la contraseña del APN (si se requiere). Si su APN no necesita usuario ni contraseña, deje [apnu] y [apnp] vacíos según la sintaxis SMS del dispositivo.
 
 - Establecer el servidor GPRS de Plaspy usando la IP pública y el puerto que se muestran en esta guía
 ```text

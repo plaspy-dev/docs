@@ -75,7 +75,7 @@ The Signal S-2115 is configured to send its position and event data to the share
 
 The exact commands and syntax for the Signal S-2115 depend on the firmware and the manufacturer tools. Some units support SMS commands, while others are configured via the Navtelekom USB utility. Because model specific command sets vary, consult the Navtelekom manual for exact command syntax. Common public steps include sending server and port settings either through the configuration tool or via SMS with placeholders for APN or credentials when required by the device.
 
-If you have vendor supplied SMS commands for the Signal S-2115, use the manufacturer manual to format them correctly and include placeholders such as {{apn}} if the device requires an APN. Example command forms provided by manufacturers typically look like this pattern in documentation (replace placeholders with your values):
+If you have vendor supplied SMS commands for the Signal S-2115, use the manufacturer manual to format them correctly and include placeholders such as [apn] if the device requires an APN. Example command forms provided by manufacturers typically look like this pattern in documentation (replace placeholders with your values):
 
 ```text
 SERVER,d.plaspy.com,8888
@@ -87,7 +87,7 @@ or with IP
 SERVER,54.85.159.138,8888
 ```
 
-If your device uses SMS syntax with placeholders for APN or authentication, preserve placeholders as shown in your manufacturer guide such as {{apn}} {{apnu}} or {{apnp}} and replace them with the values for your SIM plan. Refer to the Navtelekom manual for the exact SMS or USB command formats that apply to your firmware.
+If your device uses SMS syntax with placeholders for APN or authentication, preserve placeholders as shown in your manufacturer guide such as [apn] [apnu] or [apnp] and replace them with the values for your SIM plan. Refer to the Navtelekom manual for the exact SMS or USB command formats that apply to your firmware.
 
 ## Configuration Notes
 

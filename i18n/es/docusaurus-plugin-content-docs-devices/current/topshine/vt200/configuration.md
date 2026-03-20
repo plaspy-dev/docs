@@ -75,9 +75,9 @@ El VT200 envía paquetes GPRS o mensajes SMS que contienen posición y telemetr�
 El VT200 admite configuración vía SMS en formatos provistos por el fabricante. Los siguientes comandos públicos son sintaxis de ejemplo extraídas de la documentación de TopShine. Los comandos usan la contraseña por defecto del dispositivo 000000 cuando se requiere. Preserve los marcadores de posición exactamente como se muestran y reemplácelos por sus valores al enviar comandos.
 
 - Nota sobre los marcadores de posición
-  - {{apn}} is the mobile network APN for the SIM card.
-  - {{apnu}} is the APN username when required.
-  - {{apnp}} is the APN password when required.
+  - [apn] is the mobile network APN for the SIM card.
+  - [apnu] is the APN username when required.
+  - [apnp] is the APN password when required.
   - Replace {{device_id}} with the required device identifier derived from the IMEI as specified below.
 
 1. Optional initial factory reset (use only when required for initial setup)
@@ -93,11 +93,11 @@ W000000,010,{{device_id}}
 
 3. Set the operator APN (username and password optional)
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 Or, when APN username and password are required:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 
 4. Set the GPRS server to Plaspy using the public IP and port

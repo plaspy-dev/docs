@@ -78,7 +78,7 @@ Cuando está configurado para reportes GPRS, el TK-208 envía sus coordenadas GP
 
 El TK-208 puede configurarse mediante comandos SMS, la app del fabricante o una herramienta de configuración en línea, según el firmware y la variante regional. La sintaxis exacta de los comandos puede variar entre revisiones de firmware y distribuciones del proveedor, por lo que debe consultar el manual del TK-208 para los formatos precisos de los comandos SMS. Dado que el contenido de configuración pública específico de este modelo no se reproduce aquí, los comandos exactos no están incluidos en esta página.
 
-Si usa configuración por SMS, los pasos típicos incluyen enviar un comando de autorización, establecer el APN, configurar el host y puerto del servidor y habilitar la subida por GPRS. Al usar marcadores de posición en los comandos, puede ver tokens como {{apn}} que debe reemplazar por la cadena APN de su operador móvil.
+Si usa configuración por SMS, los pasos típicos incluyen enviar un comando de autorización, establecer el APN, configurar el host y puerto del servidor y habilitar la subida por GPRS. Al usar marcadores de posición en los comandos, puede ver tokens como [apn] que debe reemplazar por la cadena APN de su operador móvil.
 
 ## Notas sobre la configuración
 

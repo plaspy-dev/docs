@@ -77,7 +77,7 @@ Follow these practical steps to configure a Sentar Q60 to communicate with Plasp
 
 ## Example Configuration Commands
 
-The Sentar Q60 can be configured using SMS commands. The following public commands are provided in the manufacturer's sample configuration. Commands assume the device password is 123456 (the factory default in the public sample). Use the exact command format required by your device firmware and preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when replacing APN values.
+The Sentar Q60 can be configured using SMS commands. The following public commands are provided in the manufacturer's sample configuration. Commands assume the device password is 123456 (the factory default in the public sample). Use the exact command format required by your device firmware and preserve the placeholders [apn], [apnu], and [apnp] when replacing APN values.
 
 - Factory reset (optional initial step; only use if you need to restore factory defaults)
 ```text
@@ -96,9 +96,9 @@ pw,123456,imsi#
 
 - Set the operator APN where xxx is MCC and yy is MNC
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explanation: {{apn}} is the operator APN, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. Replace xxxyy with the concatenated MCC and MNC if your device requires it.
+Explanation: [apn] is the operator APN, [apnu] is the APN username if required, and [apnp] is the APN password if required. Replace xxxyy with the concatenated MCC and MNC if your device requires it.
 
 - Set GPRS server to Plaspy by IP and port
 ```text
@@ -124,7 +124,7 @@ Use the verification command to confirm that the device has applied settings and
 - The sample commands above use the factory default password 123456; change the password after initial setup if required by your security policy.
 - Plaspy accepts both UDP and TCP on port 8888; choose the transport mode supported by your device and network. Plaspy will automatically detect the protocol used.
 - SMS-based configuration is supported by the public commands above; some installers prefer vendor tools or PC software—use whatever method matches your device firmware.
-- Replace APN placeholders ({{apn}}, {{apnu}}, {{apnp}}) with the values provided by your mobile operator. The MCC/MNC check and entry may be required in certain regions.
+- Replace APN placeholders ([apn], [apnu], [apnp]) with the values provided by your mobile operator. The MCC/MNC check and entry may be required in certain regions.
 
 ## Why Use Plaspy with This Configuration
 

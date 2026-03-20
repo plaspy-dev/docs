@@ -77,7 +77,7 @@ The FM-Pro4 is configured to send its telemetry and on board data to the Plaspy 
 
 The exact commands and SMS templates for the FM-Pro4 depend on Ruptela firmware and the configuration tool you are using. Manufacturers often provide both desktop configuration utilities and SMS command families. Because commands vary by firmware and distribution, use Ruptela documentation or the provided configuration tool for device specific command syntax.
 
-If you plan to configure by SMS with a supported FM-Pro4 firmware, refer to the Ruptela SMS command reference for the correct templates and placeholders. Typical placeholders you may see in commands include APN related tokens such as {{apn}}, {{apnu}}, and {{apnp}} which should be replaced with your SIM provider credentials when required.
+If you plan to configure by SMS with a supported FM-Pro4 firmware, refer to the Ruptela SMS command reference for the correct templates and placeholders. Typical placeholders you may see in commands include APN related tokens such as [apn], [apnu], and [apnp] which should be replaced with your SIM provider credentials when required.
 
 ## Configuration Notes
 

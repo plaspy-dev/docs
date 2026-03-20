@@ -1,6 +1,7 @@
 ---
 slug: /eelink/gpt48x
 id: gpt48x
+sidebar_key: eelingpt48x_index_gpt48x
 sidebar_label: GPT48‑X
 title: EElink - GPT48‑X
 sidebar_class_name: menu_item_tracker

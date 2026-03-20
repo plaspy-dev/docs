@@ -82,9 +82,9 @@ If you use the manufacturer sample SMS commands below, send them in the order sh
 The GT-89 sample configuration can be performed by SMS. The following public commands are provided in the manufacturer sample. The sample uses the device password 000000 by default. Replace the password if you have changed it.
 
 - Notes on placeholders
-  - Replace <IMEI> with the device 15 digit IMEI when required.
-  - {{apn}} is the mobile operator APN placeholder.
-  - {{apnu}} and {{apnp}} are optional APN username and APN password placeholders and should be included only if your operator requires them.
+  - Replace \<IMEI> with the device 15 digit IMEI when required.
+  - [apn] is the mobile operator APN placeholder.
+  - [apnu] and [apnp] are optional APN username and APN password placeholders and should be included only if your operator requires them.
 
 1. Set the device ID
    - Replace XXXXXXXXXXXXXXX with the device IMEI or the 15 digit identifier required by your vendor tools.
@@ -93,13 +93,13 @@ The GT-89 sample configuration can be performed by SMS. The following public com
    ```
 
 2. Set the operator APN
-   - Replace {{apn}} with your operator APN. If needed, include {{apnu}} and {{apnp}} for APN username and password.
+   - Replace [apn] with your operator APN. If needed, include [apnu] and [apnp] for APN username and password.
    ```sms
-   M000000,23,{{apn}}{{,{{apnu}},{{apnp}}}}
+   M000000,23,[apn]{{,[apnu],[apnp]}}
    ```
    Example with optional fields visible:
    ```sms
-   M000000,23,{{apn}},{{apnu}},{{apnp}}
+   M000000,23,[apn],[apnu],[apnp]
    ```
 
 3. Set the update interval to 60 seconds

@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv55w
 id: gv55w
+sidebar_key: queclingv55w_index_gv55w
 sidebar_label: GV55W
 title: QuecLink - GV55W
 sidebar_class_name: menu_item_tracker

@@ -81,19 +81,19 @@ El TK-203 puede configurarse enviando mensajes SMS al dispositivo. Los comandos 
 begin123456
 ```
 
-- Establecer el APN del operador móvil. Reemplace {{apn}} por el APN de su operador.
+- Establecer el APN del operador móvil. Reemplace [apn] por el APN de su operador.
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el nombre de usuario del APN si su operador lo requiere. Reemplace {{apnu}} por el usuario del APN.
+- Establecer el nombre de usuario del APN si su operador lo requiere. Reemplace [apnu] por el usuario del APN.
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN si su operador lo requiere. Reemplace {{apnp}} por la contraseña del APN.
+- Establecer la contraseña del APN si su operador lo requiere. Reemplace [apnp] por la contraseña del APN.
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el endpoint y puerto GPRS hacia Plaspy. El comando siguiente usa la IP y puerto de Plaspy. Si su firmware acepta nombres de dominio puede usar d.plaspy.com en lugar de la IP cuando corresponda.
@@ -112,9 +112,9 @@ t060s***n123456
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es el APN de su operador móvil para datos GPRS
-- {{apnu}} es el nombre de usuario del APN si el operador lo exige
-- {{apnp}} es la contraseña del APN si el operador lo exige
+- [apn] es el APN de su operador móvil para datos GPRS
+- [apnu] es el nombre de usuario del APN si el operador lo exige
+- [apnp] es la contraseña del APN si el operador lo exige
 
 Envíe cada SMS al TK-203 desde un número autorizado y espere las respuestas de confirmación del dispositivo cuando estén disponibles. Use el comando de restauración de fábrica solo cuando pretenda restablecer la configuración a los valores por defecto.
 

@@ -82,14 +82,14 @@ The following example commands are extracted from publicly available manufacture
 
 Notes about placeholders:
 - {{imei}} — Replace with the device IMEI or identifier.
-- {{apn}} — Access Point Name for the mobile data network where required.
-- {{apnu}} — APN username if required by the mobile network.
-- {{apnp}} — APN password if required by the mobile network.
+- [apn] — Access Point Name for the mobile data network where required.
+- [apnu] — APN username if required by the mobile network.
+- [apnp] — APN password if required by the mobile network.
 - {{checksum}} and {{checksumreeboot}} — Hexadecimal checksum values computed over the command body as described below.
 
 Command to set the tracker server, APN placeholders, and Plaspy endpoint:
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Optional reboot command to apply settings (send after configuration if required):
@@ -114,7 +114,7 @@ Preserve the command order when sending for initial setup: apply the GSS setup c
 - The LT-501 example commands above use SMS-based configuration as shown in the public vendor example; if your unit uses a software tool or USB configuration, follow that method instead.
 - Choose UDP or TCP according to device capability and network conditions; Plaspy accepts either and will auto-detect the protocol.
 - Plaspy uses the same port 8888 for all supported devices; this simplifies configuration across multiple trackers.
-- If APN fields are required include correct {{apn}}, {{apnu}}, and {{apnp}} values; leaving them empty or incorrect will prevent cellular connectivity where applicable.
+- If APN fields are required include correct [apn], [apnu], and [apnp] values; leaving them empty or incorrect will prevent cellular connectivity where applicable.
 
 ## Why Use Plaspy with This Configuration
 

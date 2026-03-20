@@ -1,6 +1,7 @@
 ---
 slug: /gotop/a5g
 id: a5g
+sidebar_key: gotoa5g_index_a5g
 sidebar_label: A5G
 title: GOTOP - A5G
 sidebar_class_name: menu_item_tracker

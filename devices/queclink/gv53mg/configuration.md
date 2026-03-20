@@ -48,7 +48,7 @@ Preparing the GV53MG for Plaspy primarily means pointing the device at Plaspy's 
 - Device powered and accessible for SMS or manufacturer configuration tool access
 - Active SIM card with data enabled and correct APN details for the target mobile operator
 - Device password or access credentials where required for SMS provisioning or the manufacturer management tool
-- Knowledge of the APN values to replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}}
+- Knowledge of the APN values to replace placeholders such as [apn], [apnu], and [apnp]
 - A way to receive device reports in Plaspy so you can validate successful registration and telemetry delivery
 - Access to the official QuecLink configuration reference or installer documentation for the GV53MG
 
@@ -68,7 +68,7 @@ The GV53MG is configured to report buffered and live telemetry to Plaspy by send
 2. Provide or confirm the device password for SMS commands if required the default password in public examples is queclink
 3. Enter the Plaspy server as d.plaspy.com or the alternate server IP 54.85.159.138 in the device server configuration
 4. Set the port to 8888 and choose UDP or TCP if the device requires a transport selection
-5. Set the APN and related credentials using the placeholders {{apn}}, {{apnu}}, and {{apnp}} as appropriate for your SIM
+5. Set the APN and related credentials using the placeholders [apn], [apnu], and [apnp] as appropriate for your SIM
 6. Apply or save the configuration and restart the device if required by the tracker
 7. Validate that the device reports to Plaspy and that location and event messages appear in the platform
 
@@ -89,11 +89,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} placeholder is the carrier access point name
-- {{apnu}} placeholder is the APN username if required by the SIM provider
-- {{apnp}} placeholder is the APN password if required by the SIM provider
+- [apn] placeholder is the carrier access point name
+- [apnu] placeholder is the APN username if required by the SIM provider
+- [apnp] placeholder is the APN password if required by the SIM provider
 
 4. Set the GPRS server to Plaspy using both domain and IP with port
 ```text
@@ -122,7 +122,7 @@ Notes about commands
 - Firmware and hardware revisions can change accepted command formats or available parameters so confirm commands against the current device firmware documentation
 - Choose UDP or TCP based on your deployment needs and network reliability considerations. Plaspy will automatically detect the protocol used
 - Plaspy requires port 8888 for all devices so use that port when configuring the GV53MG
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} available for operator specific values and do not share sensitive credentials in public channels
+- Keep APN placeholders [apn], [apnu], and [apnp] available for operator specific values and do not share sensitive credentials in public channels
 
 ## Why Use Plaspy with This Configuration
 

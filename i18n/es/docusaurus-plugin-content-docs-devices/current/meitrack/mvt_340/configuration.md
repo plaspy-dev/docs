@@ -82,9 +82,9 @@ El MVT-340 soporta configuración por SMS. Los siguientes comandos SMS de muestr
 
 - Establecer el servidor GPRS a la IP de Plaspy con puerto y marcadores de APN:
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-Explicación: {{apn}} es el APN del operador móvil. {{apnu}} y {{apnp}} son marcadores opcionales para usuario APN y contraseña APN. Mantenga estos marcadores y reemplácelos por las credenciales de su operador según sea necesario.
+Explicación: [apn] es el APN del operador móvil. [apnu] y [apnp] son marcadores opcionales para usuario APN y contraseña APN. Mantenga estos marcadores y reemplácelos por las credenciales de su operador según sea necesario.
 
 - Ajustar la zona horaria a UTC 0:
 ```
@@ -110,7 +110,7 @@ Notas sobre estos comandos
 
 - Las revisiones de firmware y hardware pueden alterar la sintaxis exacta de los comandos SMS o los parámetros disponibles; siempre consulte la documentación del dispositivo para su versión de firmware.
 - La configuración por SMS está soportada por el conjunto de comandos públicos del MVT-340 mostrado arriba; una utilidad de configuración del fabricante puede ofrecer una alternativa gráfica.
-- Use los marcadores {{apn}}, {{apnu}} y {{apnp}} para insertar las credenciales de su operador cuando la SIM lo requiera.
+- Use los marcadores [apn], [apnu] y [apnp] para insertar las credenciales de su operador cuando la SIM lo requiera.
 - Elija TCP o UDP según su preferencia de instalación y la capacidad del dispositivo; Plaspy detectará automáticamente el protocolo usado por el rastreador.
 - Plaspy opera en el mismo puerto para todos los dispositivos soportados, lo que simplifica la configuración del servidor y reduce la complejidad por dispositivo.
 

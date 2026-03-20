@@ -1,6 +1,7 @@
 ---
 slug: /gotop/w10sa
 id: w10sa
+sidebar_key: gotow10sa_index_w10sa
 sidebar_label: W10SA
 title: GOTOP - W10SA
 sidebar_class_name: menu_item_tracker

@@ -83,7 +83,7 @@ If you have a manufacturer list of public commands, include them here following 
 - Port to 8888
 - Transport to UDP or TCP if prompted
 
-Note: When manufacturer commands include placeholders like {{apn}} or {{apnu}} preserve those placeholders and substitute your operator APN credentials when prompted by the device tool.
+Note: When manufacturer commands include placeholders like [apn] or [apnu] preserve those placeholders and substitute your operator APN credentials when prompted by the device tool.
 
 ## Configuration Notes
 

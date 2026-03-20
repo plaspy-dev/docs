@@ -89,14 +89,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN)
+- Set the operator APN (replace [apn] with your carrier APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set APN username and password (replace placeholders with operator credentials)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the provided public IP and port
@@ -129,8 +129,8 @@ protocol123456 18
 ```
 
 Notes on placeholders and password
-- {{apn}} is the SIM operator APN you must provide.
-- {{apnu}} and {{apnp}} are the APN username and APN password if your operator requires authentication.
+- [apn] is the SIM operator APN you must provide.
+- [apnu] and [apnp] are the APN username and APN password if your operator requires authentication.
 - The SMS examples use the default device password 123456 shown in public configuration documentation; use the device password currently configured on your unit if it has been changed.
 
 ## Configuration Notes

@@ -75,7 +75,7 @@ El S-2117 envía posiciones GNSS y mensajes de telemetría a través del enlace 
 
 El contenido de configuración pública del modelo aquí proporcionado no incluye cadenas de comandos específicas del dispositivo. Los comandos exactos y su sintaxis varían según el firmware de Navtelekom y el método de configuración que utilice (configurador de PC, comandos SMS o herramienta de servicio del proveedor). Al usar comandos o herramientas del fabricante, siga las instrucciones oficiales de Navtelekom para establecer la dirección del servidor y el puerto a d.plaspy.com o 54.85.159.138 y puerto 8888, y seleccione UDP o TCP según corresponda.
 
-Si dispone de ejemplos de comandos suministrados por el proveedor o de una exportación del configurador oficial, inclúyalos en el orden requerido por la herramienta y preserve cualquier marcador de posición. Los marcadores de posición como {{apn}}, {{apnu}} o {{apnp}} deben mantenerse y reemplazarse con los datos de su operador celular cuando el equipo lo solicite.
+Si dispone de ejemplos de comandos suministrados por el proveedor o de una exportación del configurador oficial, inclúyalos en el orden requerido por la herramienta y preserve cualquier marcador de posición. Los marcadores de posición como [apn], [apnu] o [apnp] deben mantenerse y reemplazarse con los datos de su operador celular cuando el equipo lo solicite.
 
 ## Notas de configuración
 

@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmb208
 id: fmb208
+sidebar_key: teltonikfmb208_index_fmb208
 sidebar_label: FMB208
 title: Teltonika - FMB208
 sidebar_class_name: menu_item_tracker

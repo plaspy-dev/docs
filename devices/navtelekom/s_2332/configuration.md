@@ -79,7 +79,7 @@ The СМАРТ S-2332 sends GNSS fixes and sensor telemetry over GSM to the shar
 
 The S-2332 configuration commands and exact syntax can differ by firmware version and the manufacturer tool used. Because model specific command formats are published by Navtelekom, please consult the official device manual for precise SMS or serial commands. Plaspy requires the server settings listed above when entering server address and port values.
 
-If you have Navtelekom command examples from the device manual, apply them in the order recommended by the manufacturer, substituting the host with d.plaspy.com or 54.85.159.138 and the port with 8888, and selecting UDP or TCP as appropriate. Keep placeholders such as {{apn}} if the command set uses them and replace them with your SIM operator APN details.
+If you have Navtelekom command examples from the device manual, apply them in the order recommended by the manufacturer, substituting the host with d.plaspy.com or 54.85.159.138 and the port with 8888, and selecting UDP or TCP as appropriate. Keep placeholders such as [apn] if the command set uses them and replace them with your SIM operator APN details.
 
 ## Configuration Notes
 

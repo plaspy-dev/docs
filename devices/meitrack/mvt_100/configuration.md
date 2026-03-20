@@ -73,7 +73,7 @@ The MVT-100 is configured to send its telemetry and event messages over GPRS to 
 
 ## Example Configuration Commands
 
-The example below is derived from available public SMS commands for the MVT-100. The sample commands use the device default password 0000. Send each line as a separate SMS to the device phone number. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your SIM provider APN settings when executing commands.
+The example below is derived from available public SMS commands for the MVT-100. The sample commands use the device default password 0000. Send each line as a separate SMS to the device phone number. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your SIM provider APN settings when executing commands.
 
 - Optional initial or factory reset (use only if you need to restore factory settings):
 ```text
@@ -82,9 +82,9 @@ The example below is derived from available public SMS commands for the MVT-100.
 
 - Set the GPRS server to the Plaspy IP, port, and APN placeholder (this command uses the public IP form):
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-Note: {{apn}} is the network access point name supplied by your mobile operator. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+Note: [apn] is the network access point name supplied by your mobile operator. [apnu] and [apnp] are optional APN username and password placeholders.
 
 - Set the time zone to UTC-0:
 ```text

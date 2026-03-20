@@ -1,6 +1,7 @@
 ---
 slug: /astra_telematics/at405
 id: at405
+sidebar_key: astra_telematicat405_index_at405
 sidebar_label: AT405
 title: Astra Telematics - AT405
 sidebar_class_name: menu_item_tracker

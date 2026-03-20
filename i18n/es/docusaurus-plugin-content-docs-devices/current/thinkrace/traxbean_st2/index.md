@@ -1,6 +1,7 @@
 ---
 slug: /thinkrace/traxbean_st2
 id: traxbean_st2
+sidebar_key: thinkractraxbean_st2_index_traxbean_st2
 sidebar_label: Traxbean ST2
 title: ThinkRace - Traxbean ST2
 sidebar_class_name: menu_item_tracker

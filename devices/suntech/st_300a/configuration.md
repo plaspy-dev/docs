@@ -78,9 +78,9 @@ The Suntech ST 300A supports SMS-based configuration. The public example command
 
 Important placeholders
 - {{deviceId}} — the 9 digit device identifier extracted from the IMEI as described above
-- {{apn}} — the operator APN name
-- {{apnu}} — the APN username if required by the operator
-- {{apnp}} — the APN password if required by the operator
+- [apn] — the operator APN name
+- [apnu] — the APN username if required by the operator
+- [apnp] — the APN password if required by the operator
 
 1. (Optional initial step) Reset factory settings
 ```text
@@ -90,10 +90,10 @@ Label this reset step optional and use only if you need to return the device to 
 
 2. Set the operator APN and GPRS server including Plaspy server IP and port
 ```text
-ST300NTW;{{deviceId}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;{{deviceId}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - The fourth field (here shown as 1) may indicate use of APN credentials when required; include 0 or 1 according to the device command syntax.
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with the mobile operator values. If your operator does not require a username or password, leave {{apnu}} and {{apnp}} empty as supported by the command format.
+- Replace [apn], [apnu], and [apnp] with the mobile operator values. If your operator does not require a username or password, leave [apnu] and [apnp] empty as supported by the command format.
 - You can substitute d.plaspy.com for the IP if preferred and supported by the device, but the manufacturer example uses the server IP 54.85.159.138 and port 8888.
 
 3. Set update/reporting interval to 60 seconds

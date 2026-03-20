@@ -80,14 +80,14 @@ Si utiliza el método de configuración por SMS o lote de Teltonika, incluya los
 El ejemplo público de Teltonika para configuración por SMS en lote puede establecer parámetros de APN y apuntar el dispositivo a Plaspy. El siguiente comando aparece en contenido público de configuración de dispositivos y preserva marcadores para valores del operador.
 
 - Explicación de los marcadores
-  - {{apn}} es el APN de la red móvil
-  - {{apnu}} es el nombre de usuario del APN si lo requiere el operador
-  - {{apnp}} es la contraseña del APN si lo requiere el operador
+  - [apn] es el APN de la red móvil
+  - [apnu] es el nombre de usuario del APN si lo requiere el operador
+  - [apnp] es la contraseña del APN si lo requiere el operador
 
 Example SMS batch command to set APN and point the device to Plaspy:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Envíe este SMS al dispositivo siguiendo el flujo de trabajo SMS recomendado por Teltonika o introdúzcalo mediante la herramienta de configuración del proveedor cuando esté soportado. El comando establece los parámetros de red y la dirección del servidor a d.plaspy.com con el puerto Plaspy 8888. Plaspy detectará automáticamente el protocolo del rastreador cuando el dispositivo se conecte.

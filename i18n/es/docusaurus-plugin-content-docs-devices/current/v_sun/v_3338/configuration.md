@@ -81,11 +81,11 @@ El V-3338 admite configuración por SMS. Los comandos que siguen son los ejemplo
 ```
 2. Establecer el APN del operador. Reemplace los marcadores con los valores de su operador:
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
-- {{apn}} es el nombre del punto de acceso del operador.
-- {{apnu}} es el usuario del APN si el operador lo requiere.
-- {{apnp}} es la contraseña del APN si el operador lo requiere.
+- [apn] es el nombre del punto de acceso del operador.
+- [apnu] es el usuario del APN si el operador lo requiere.
+- [apnp] es la contraseña del APN si el operador lo requiere.
 
 3. Configurar el servidor GPRS de Plaspy por IP y puerto:
 ```
@@ -108,7 +108,7 @@ El V-3338 admite configuración por SMS. Los comandos que siguen son los ejemplo
 2220000
 ```
 
-Siga los comandos en el orden indicado cuando la secuencia sea relevante y ajuste el campo de la contraseña si la cambió desde el valor por defecto 0000. Si su operador requiere credenciales APN, proporcione {{apnu}} y {{apnp}} como se muestra. Los valores numéricos de los intervalos son provistos por el fabricante y pueden representar segundos o unidades internas según el firmware.
+Siga los comandos en el orden indicado cuando la secuencia sea relevante y ajuste el campo de la contraseña si la cambió desde el valor por defecto 0000. Si su operador requiere credenciales APN, proporcione [apnu] y [apnp] como se muestra. Los valores numéricos de los intervalos son provistos por el fabricante y pueden representar segundos o unidades internas según el firmware.
 
 ## Notas de configuración
 

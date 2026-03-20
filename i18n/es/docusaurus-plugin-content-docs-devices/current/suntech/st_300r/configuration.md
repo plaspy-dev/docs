@@ -72,7 +72,7 @@ El ST 300R se configura para enviar su telemetría y estado al endpoint y puerto
 
 ## Ejemplos de comandos de configuración
 
-El ST 300R puede configurarse por SMS. A continuación aparecen las secuencias públicas de comandos SMS extraídas del contenido público de Suntech. Reemplace {{device_id}} con el ID de dispositivo calculado a partir del IMEI como se indica más abajo. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} en sus SMS si necesita suministrar credenciales APN del operador.
+El ST 300R puede configurarse por SMS. A continuación aparecen las secuencias públicas de comandos SMS extraídas del contenido público de Suntech. Reemplace {{device_id}} con el ID de dispositivo calculado a partir del IMEI como se indica más abajo. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] en sus SMS si necesita suministrar credenciales APN del operador.
 
 Cómo calcular el ID de dispositivo
 - El ID de dispositivo son los últimos 9 dígitos del IMEI excluyendo el dígito verificador final. Por ejemplo, si el IMEI es 123456789012345, el ID de dispositivo serían los 9 dígitos que comienzan en la posición 6 hasta la posición 14 de la secuencia IMEI; use los 9 dígitos finales antes del último dígito.
@@ -85,7 +85,7 @@ ST300CMD;{{device_id}};02;Reset
 2) Establecer el APN del operador y el servidor GPRS
 - Este comando configura los valores APN y la IP y puerto del servidor Plaspy. Conserve los marcadores de posición para las credenciales APN si su operador las requiere.
 ```text
-ST300NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Notas:
   - El cuarto campo aquí es una bandera para habilitar el APN; ajústela según la herramienta del dispositivo si espera un valor diferente.
@@ -107,7 +107,7 @@ ST300CMD;{{device_id}};02;PresetA
 - El cálculo del ID de dispositivo debe seguir la regla del fabricante mostrada arriba; un ID incorrecto impedirá que Plaspy asigne los mensajes a su cuenta.
 - La selección TCP frente a UDP depende de la preferencia del instalador y de las condiciones de la red; Plaspy acepta ambos y determina el protocolo automáticamente.
 - Las revisiones de firmware y las variantes regionales pueden cambiar la sintaxis exacta de los SMS y la posición de los parámetros, por lo que verifique los comandos con la documentación actual de Suntech.
-- Al suministrar credenciales APN, conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores del operador necesarios para su SIM.
+- Al suministrar credenciales APN, conserve los marcadores de posición [apn], [apnu] y [apnp] y reemplácelos por los valores del operador necesarios para su SIM.
 
 ## Por qué usar Plaspy con esta configuración
 

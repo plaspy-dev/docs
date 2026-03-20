@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/tr_900
 id: tr_900
+sidebar_key: globalsatr_900_index_tr_900
 sidebar_label: TR-900
 title: GlobalSat - TR-900
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /calmamp/lmu_4520
 id: lmu_4520
+sidebar_key: calmamlmu_4520_index_lmu_4520
 sidebar_label: LMU-4520
 title: CalmAmp - LMU-4520
 sidebar_class_name: menu_item_tracker

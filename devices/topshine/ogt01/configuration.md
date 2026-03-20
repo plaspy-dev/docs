@@ -80,20 +80,20 @@ The manufacturer provides SMS command templates for configuring the OGT01. The d
 W000000,990,099###
 ```
 
-- Set the device id (use the first 14 digits from the device IMEI). Plaspy identifies devices by IMEI so ensure the IMEI is correct when registering on the platform. Replace <first14ofIMEI> with the first 14 digits of the IMEI.
+- Set the device id (use the first 14 digits from the device IMEI). Plaspy identifies devices by IMEI so ensure the IMEI is correct when registering on the platform. Replace \<first14ofIMEI> with the first 14 digits of the IMEI.
 ```text
 W000000,010,<first14ofIMEI>
 ```
 
 - Set the operator APN. Use the APN values provided by the SIM operator. Optional username and password fields can be appended if required.
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 Optional form with APN username and APN password:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-Note: {{apn}} is the operator Access Point Name. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders.
+Note: [apn] is the operator Access Point Name. [apnu] and [apnp] are optional APN username and APN password placeholders.
 
 - Set the GPRS server to the Plaspy endpoint and port 8888. This command uses the Plaspy server IP; you can configure the domain d.plaspy.com instead if the device supports DNS.
 ```text

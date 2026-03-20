@@ -89,12 +89,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN and credentials
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 - Placeholders explanation:
-  - {{apn}} is the mobile operator APN name
-  - {{apnu}} is the APN username if required by the operator
-  - {{apnp}} is the APN password if required by the operator
+  - [apn] is the mobile operator APN name
+  - [apnu] is the APN username if required by the operator
+  - [apnp] is the APN password if required by the operator
 
 4. Set the GPRS server to Plaspy by domain and IP with port 8888
 ```text
@@ -123,7 +123,7 @@ Note about SMS configuration
 - The GV58LAU example above uses SMS commands and a default password queclink shown in public documentation. Change device passwords from defaults in production deployments when possible.
 - Both TCP and UDP transports are supported by Plaspy and by the device configuration workflow; choose transport based on network and reliability preferences.
 - Keep APN credentials and SIM provisioning ready prior to applying GPRS server settings so the device can immediately establish connectivity.
-- When a command contains placeholders such as {{apn}}, replace them with operator-specific values; do not include the curly braces in the final SMS.
+- When a command contains placeholders such as [apn], replace them with operator-specific values; do not include the curly braces in the final SMS.
 
 ## Why Use Plaspy with This Configuration
 

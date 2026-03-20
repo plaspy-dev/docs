@@ -76,16 +76,16 @@ The TG-610 reports location and I/O events over the cellular GPRS network to the
 
 The Condor TG-610 publicly documents SMS configuration commands. The device uses a default password of 0000 in these examples. Send these commands by SMS to the TG-610 number in the order shown to set up APN, alias, timezone, Plaspy server, reporting interval, and GPRS mode. Preserve the placeholders when relevant.
 
-- Set the operator APN. If your operator requires APN username or password, include the optional placeholders {{apnu}} and {{apnp}}.
+- Set the operator APN. If your operator requires APN username or password, include the optional placeholders [apnu] and [apnp].
 ```text
-APN,0000,{{apn}}
+APN,0000,[apn]
 ```
 Optional extended APN format with username and password:
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn],[apnu],[apnp]
 ```
 
-- Set a 5-digit identifier to be used for the device. Use the last 5 digits of the IMEI as the alias. Replace <LAST5> with the actual last five digits.
+- Set a 5-digit identifier to be used for the device. Use the last 5 digits of the IMEI as the alias. Replace \<LAST5> with the actual last five digits.
 ```text
 ALIAS,0000,<LAST5>#
 ```
@@ -120,9 +120,9 @@ CONEXION,0000#
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN string required for data connectivity.
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders; include them only if your operator requires them.
-- <LAST5> should be replaced with the last five digits of the device IMEI as instructed by the manufacturer.
+- [apn] is the mobile operator APN string required for data connectivity.
+- [apnu] and [apnp] are optional APN username and password placeholders; include them only if your operator requires them.
+- \<LAST5> should be replaced with the last five digits of the device IMEI as instructed by the manufacturer.
 
 ## Configuration Notes
 

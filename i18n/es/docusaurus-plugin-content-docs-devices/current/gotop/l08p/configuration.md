@@ -80,7 +80,7 @@ Siga estos pasos prácticos y públicos al preparar un L08P para Plaspy:
 
 La configuración del modelo L08P puede realizarse mediante las herramientas de aprovisionamiento de GOTOP o la aplicación móvil. Las cadenas de comando exactas y su formato varían según el firmware y la interfaz de configuración del fabricante, por lo que no existen comandos públicos universales que incluir aquí. Al usar una herramienta del fabricante, ingrese el dominio del servidor Plaspy d.plaspy.com (o 54.85.159.138) y el puerto 8888, seleccione UDP o TCP según se requiera, guarde los ajustes y luego confirme la conectividad.
 
-Si dispone de comandos SMS o de consola proporcionados por GOTOP, aplíquelos en el orden que indique GOTOP y sustituya los marcadores de posición según lo documentado por el proveedor. Conserve siempre marcadores como {{apn}} exactamente como aparecen en las instrucciones del proveedor y reemplácelos por los valores APN de su red cuando sea necesario.
+Si dispone de comandos SMS o de consola proporcionados por GOTOP, aplíquelos en el orden que indique GOTOP y sustituya los marcadores de posición según lo documentado por el proveedor. Conserve siempre marcadores como [apn] exactamente como aparecen en las instrucciones del proveedor y reemplácelos por los valores APN de su red cuando sea necesario.
 
 ## Notas de configuración
 

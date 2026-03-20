@@ -80,15 +80,15 @@ The EV manufacturer provides public SMS commands for basic setup. Below are the 
 123456L+00
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If your APN needs a username or password, include {{apnu}} and {{apnp}} as applicable.
+- Set the operator APN. Replace [apn] with your operator APN. If your APN needs a username or password, include [apnu] and [apnp] as applicable.
 ```text
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 Or with APN username and password:
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-(Placeholders: {{apn}} is required for data. {{apnu}} and {{apnp}} are optional and used only if your operator requires them.)
+(Placeholders: [apn] is required for data. [apnu] and [apnp] are optional and used only if your operator requires them.)
 
 - Set the device server. The published sample uses the Plaspy server IP and port. Note that EV documentation indicates you may need to contact the manufacturer to enable the option to change the server before this command is accepted.
 ```text
@@ -105,7 +105,7 @@ Important notes about the commands above:
 - SMS based setup is publicly documented for EV-201M, but manufacturer tools or desktop utilities may also be available; use the official EV guidance for your unit.
 - Firmware differences or hardware revisions may change the exact command syntax or features; verify commands against the EV documentation for your device firmware.
 - Choosing UDP versus TCP is a device option; Plaspy accepts both and automatically detects protocol once reports reach the server on port 8888.
-- The APN placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with operator values when sending SMS commands; leave username or password out if not required.
+- The APN placeholders [apn], [apnu], and [apnp] must be replaced with operator values when sending SMS commands; leave username or password out if not required.
 - Some EV-201M units require the vendor to enable the ability to change the server address; contact the manufacturer if you cannot set the server using SMS.
 
 ## Why Use Plaspy with This Configuration

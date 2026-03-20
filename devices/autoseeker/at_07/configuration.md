@@ -105,7 +105,7 @@ The exact commands and syntax for the AT-07 depend on the Autoseeker configurati
   restart
   ```
 
-Note: The exact command names and syntax vary by firmware and manufacturer tool. Preserve any placeholders provided by the Autoseeker documentation such as {{apn}} or {{apnu}} when those values are part of the official command set. Consult the Autoseeker manual for precise commands for your device and firmware.
+Note: The exact command names and syntax vary by firmware and manufacturer tool. Preserve any placeholders provided by the Autoseeker documentation such as [apn] or [apnu] when those values are part of the official command set. Consult the Autoseeker manual for precise commands for your device and firmware.
 
 ## Configuration Notes
 

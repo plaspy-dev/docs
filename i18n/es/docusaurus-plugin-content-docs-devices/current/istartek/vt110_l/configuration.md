@@ -72,7 +72,7 @@ El VT110-L se configura para reportar posición, estado y datos de eventos al en
 
 ## Comandos de configuración de ejemplo
 
-El VT110-L soporta configuración por SMS. Los siguientes comandos públicos aparecen en la documentación del dispositivo. Preserve los marcadores como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores del APN de su operador donde corresponda.
+El VT110-L soporta configuración por SMS. Los siguientes comandos públicos aparecen en la documentación del dispositivo. Preserve los marcadores como [apn], [apnu] y [apnp] y reemplácelos por los valores del APN de su operador donde corresponda.
 
 1. Reinicio opcional a configuración de fábrica (usar solo si se requiere un reset para la configuración inicial):
 ```
@@ -84,13 +84,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-3. Establecer el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario o contraseña, pueden incluirse los marcadores opcionales {{apnu}} y {{apnp}}.
+3. Establecer el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario o contraseña, pueden incluirse los marcadores opcionales [apnu] y [apnp].
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 O, si se requieren usuario y contraseña:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Configurar el servidor GPRS al dominio Plaspy y puerto usando SERVER con dominio (el ejemplo usa índice de servidor 1):
@@ -113,7 +113,7 @@ TIMER,60#
 PARAM#
 ```
 
-Notas sobre marcadores: {{apn}} es el nombre del punto de acceso del operador para datos. {{apnu}} y {{apnp}} son los campos opcionales de usuario y contraseña del APN cuando los exige el operador móvil.
+Notas sobre marcadores: [apn] es el nombre del punto de acceso del operador para datos. [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN cuando los exige el operador móvil.
 
 ## Notas de configuración
 

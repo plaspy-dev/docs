@@ -87,9 +87,9 @@ GMT,E,0#
 ```
 
 3. Set the operator APN
-- Replace the placeholders with your carrier values. {{apn}} is required. {{apnu}} and {{apnp}} are optional username and password fields if your carrier requires them.
+- Replace the placeholders with your carrier values. [apn] is required. [apnu] and [apnp] are optional username and password fields if your carrier requires them.
 ```
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
 Example variants you may send:
 ```
@@ -97,7 +97,7 @@ APN,your.apn.name#
 ```
 or if username and password are required:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Set the GPRS server to the Plaspy domain and port
@@ -122,7 +122,7 @@ PARAM#
 
 Notes on commands
 - Send each command as an independent SMS to the device. Maintain the order where it matters (for example set APN before setting the server if the device needs network access immediately).
-- Placeholders {{apn}}, {{apnu}}, and {{apnp}} should be replaced with the carrier APN, APN username, and APN password as provided by the mobile operator.
+- Placeholders [apn], [apnu], and [apnp] should be replaced with the carrier APN, APN username, and APN password as provided by the mobile operator.
 - The SERVER command can use either the domain d.plaspy.com or the public IP 54.85.159.138; both target Plaspy on port 8888.
 
 ## Configuration Notes

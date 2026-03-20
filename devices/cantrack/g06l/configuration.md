@@ -87,9 +87,9 @@ set server 54.85.159.138 8888
 set tcp udp_mode on
 ```
 
-- If configuration uses APN placeholders you may encounter variables such as {{apn}} {{apnu}} or {{apnp}} which represent the SIM carrier APN name user and password respectively. Example:
+- If configuration uses APN placeholders you may encounter variables such as [apn] [apnu] or [apnp] which represent the SIM carrier APN name user and password respectively. Example:
 ```
-set apn {{apn}} {{apnu}} {{apnp}}
+set apn [apn] [apnu] [apnp]
 ```
 
 Note that the exact SMS strings, PC software steps, and command names will vary by firmware. Consult the CanTrack G06L configuration manual for the precise commands for your firmware version.

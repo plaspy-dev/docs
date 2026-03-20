@@ -81,13 +81,13 @@ The FM 4200 supports SMS based batch commands for setting basic parameters. The 
 - Example SMS batch command to set APN and Plaspy server values
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and fields in the command above:
-- {{apn}} = your mobile network APN name
-- {{apnu}} = APN username if required by your operator
-- {{apnp}} = APN password if required by your operator
+- [apn] = your mobile network APN name
+- [apnu] = APN username if required by your operator
+- [apnp] = APN password if required by your operator
 - 2004 is set to d.plaspy.com which points the device to the Plaspy domain
 - 2005 is set to 8888 which is the Plaspy listening port
 - 2006 is included in this example as a transport or mode parameter from the public command; consult Teltonika documentation or release notes for the exact meaning on your firmware version

@@ -74,7 +74,7 @@ The GPT46 is configured to send location fixes and telemetry packets to Plaspy u
 
 ## Example Configuration Commands
 
-The manufacturer provides SMS based commands for the GPT46. Send these SMS messages to the device number in the order required by your deployment. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with the operator APN, APN username, and APN password respectively.
+The manufacturer provides SMS based commands for the GPT46. Send these SMS messages to the device number in the order required by your deployment. Placeholders such as [apn], [apnu], and [apnp] should be replaced with the operator APN, APN username, and APN password respectively.
 
 - Optional initial factory reset (use only if you need to restore factory defaults):
 ```text
@@ -86,13 +86,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace placeholders as needed). If your operator requires username or password, include {{apnu}} and {{apnp}}:
+- Set the operator APN (replace placeholders as needed). If your operator requires username or password, include [apnu] and [apnp]:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 Note: If your APN does not require username or password, send:
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 
 - Set the GPRS server by domain on Plaspy and port 8888:
@@ -122,7 +122,7 @@ Send each command as an SMS message to the device. The order above is practical 
 - The manufacturer SMS method is a public configuration channel shown here; device tools or USB configuration utilities may also be available depending on firmware and model variants.
 - Behaviour and exact command syntax can differ between firmware versions and hardware revisions. Always verify commands with the device documentation for your specific firmware.
 - TCP versus UDP selection can affect delivery guarantees and overhead; choose based on installer preference and network conditions.
-- Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when preparing commands and replace them with operator values as required.
+- Preserve the placeholders [apn], [apnu], and [apnp] when preparing commands and replace them with operator values as required.
 - Use PARAM# after configuration to confirm settings and verify the server, APN, and timer values applied correctly.
 
 ## Why Use Plaspy with This Configuration

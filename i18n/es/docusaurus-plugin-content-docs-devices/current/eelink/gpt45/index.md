@@ -1,6 +1,7 @@
 ---
 slug: /eelink/gpt45
 id: gpt45
+sidebar_key: eelingpt45_index_gpt45
 sidebar_label: GPT45
 title: EElink - GPT45
 sidebar_class_name: menu_item_tracker

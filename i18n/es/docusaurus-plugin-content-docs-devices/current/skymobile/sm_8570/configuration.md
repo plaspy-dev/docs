@@ -48,7 +48,7 @@ Este proceso prepara el SM-8570 para comunicarse con Plaspy configurando el APN 
 - Una tarjeta SIM activa provisionada para datos y SMS según lo requiera el dispositivo y su red.
 - Capacidad para enviar comandos de configuración por SMS o acceso al software o herramienta oficial del fabricante.
 - Conocimiento de la contraseña del dispositivo para configuración por SMS (el ejemplo público aquí usa la contraseña por defecto SM8570).
-- Valores de APN confirmados con el operador para completar los marcadores {{apn}}, {{apnu}} y {{apnp}}.
+- Valores de APN confirmados con el operador para completar los marcadores [apn], [apnu] y [apnp].
 - Acceso a la documentación del fabricante o soporte del proveedor para comportamientos específicos del firmware.
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -73,11 +73,11 @@ El SM-8570 se configura para enviar datos de ubicación y eventos a un endpoint 
 
 ## Ejemplos de comandos de configuración
 
-El SM-8570 puede configurarse enviando comandos SMS al dispositivo. Los ejemplos públicos siguientes preservan la secuencia mostrada en ejemplos del fabricante. La contraseña del dispositivo en estos comandos es la por defecto SM8570. Reemplace los marcadores {{apn}}, {{apnu}} y {{apnp}} con el APN, usuario y contraseña de su operador según corresponda.
+El SM-8570 puede configurarse enviando comandos SMS al dispositivo. Los ejemplos públicos siguientes preservan la secuencia mostrada en ejemplos del fabricante. La contraseña del dispositivo en estos comandos es la por defecto SM8570. Reemplace los marcadores [apn], [apnu] y [apnp] con el APN, usuario y contraseña de su operador según corresponda.
 
 - Establecer el APN del operador (reemplace los marcadores según sea necesario)
 ```text
-AT+GTBSI=SM8570,{{apn}},{{apnu}},{{apnp}},,,,,0002$
+AT+GTBSI=SM8570,[apn],[apnu],[apnp],,,,,0002$
 ```
 
 - Configurar el servidor GPRS para apuntar a Plaspy (se indican dominio e IP)
@@ -101,9 +101,9 @@ AT+GTNMD=SM8570,8,3,2,3,1800,1800,,,,,,,,0005$
 ```
 
 Notas sobre marcadores y uso:
-- {{apn}} es la cadena APN del operador necesaria para datos GPRS.
-- {{apnu}} es el usuario del APN si el operador lo requiere; dejar vacío si no es necesario.
-- {{apnp}} es la contraseña del APN si el operador la solicita.
+- [apn] es la cadena APN del operador necesaria para datos GPRS.
+- [apnu] es el usuario del APN si el operador lo requiere; dejar vacío si no es necesario.
+- [apnp] es la contraseña del APN si el operador la solicita.
 - Envíe cada comando como SMS al dispositivo desde un número autorizado, o use la herramienta de configuración oficial si está disponible.
 - Mantenga la contraseña por defecto SM8570 si su dispositivo todavía la usa; cambie la contraseña siguiendo la guía del proveedor después de la configuración si lo considera necesario.
 

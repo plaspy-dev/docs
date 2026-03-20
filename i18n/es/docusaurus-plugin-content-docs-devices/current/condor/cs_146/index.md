@@ -1,6 +1,7 @@
 ---
 slug: /condor/cs_146
 id: cs_146
+sidebar_key: condocs_146_index_cs_146
 sidebar_label: CS-146
 title: Condor - CS-146
 sidebar_class_name: menu_item_tracker

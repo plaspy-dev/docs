@@ -1,6 +1,7 @@
 ---
 slug: /winrich/q50
 id: q50
+sidebar_key: winricq50_index_q50
 sidebar_label: Q50
 title: Winrich - Q50
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /skypatrol/sp3400c
 id: sp3400c
+sidebar_key: skypatrosp3400c_index_sp3400c
 sidebar_label: SP3400C
 title: SkyPatrol - SP3400C
 sidebar_class_name: menu_item_tracker

@@ -77,18 +77,18 @@ El Gator M528 soporta configuración mediante SMS. A continuación se muestran l
 
 - Si su APN requiere usuario y contraseña use el comando extendido:
 ```text
-SS,*{{apn}}*,*{{apnu}}*,*{{apnp}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 - Si su APN no requiere usuario ni contraseña use el comando corto:
 ```text
-S,*{{apn}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 Notas sobre los marcadores:
-- {{apn}} — el APN de su operador móvil
-- {{apnu}} — usuario del APN si es requerido
-- {{apnp}} — contraseña del APN si es requerida
+- [apn] — el APN de su operador móvil
+- [apnu] — usuario del APN si es requerido
+- [apnp] — contraseña del APN si es requerida
 - {{DeviceID}} — el ID del dispositivo o IMEI según lo requiera el comando
 - {{phoneNumberUser}} — un número de teléfono de contacto que se almacene o use en la configuración del dispositivo
 - 123456 — ejemplo de contraseña de fábrica del dispositivo usada en el comando de muestra (cámbiela si su dispositivo tiene otra contraseña)

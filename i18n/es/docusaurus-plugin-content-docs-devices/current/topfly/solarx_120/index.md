@@ -1,6 +1,7 @@
 ---
 slug: /topfly/solarx_120
 id: solarx_120
+sidebar_key: topflsolarx_120_index_solarx_120
 sidebar_label: SolarX 120
 title: TopFly - SolarX 120
 sidebar_class_name: menu_item_tracker

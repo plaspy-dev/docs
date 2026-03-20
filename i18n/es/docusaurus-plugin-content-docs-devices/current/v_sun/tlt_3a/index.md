@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/tlt_3a
 id: tlt_3a
+sidebar_key: v_sutlt_3a_index_tlt_3a
 sidebar_label: TLT-3A
 title: V-SUN - TLT-3A
 sidebar_class_name: menu_item_tracker

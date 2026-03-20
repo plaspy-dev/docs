@@ -1,6 +1,7 @@
 ---
 slug: /arknav/rv_8
 id: rv_8
+sidebar_key: arknarv_8_index_rv_8
 sidebar_label: RV-8
 title: ArkNav - RV-8
 sidebar_class_name: menu_item_tracker

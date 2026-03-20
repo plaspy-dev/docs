@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/g3s
 id: g3s
+sidebar_key: gosafg3s_index_g3s
 sidebar_label: G3S
 title: Gosafe - G3S
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/ts101_basic_4g
 id: ts101_basic_4g
+sidebar_key: itrianglts101_basic_4g_index_ts101_basic_4g
 sidebar_label: TS101 Basic 4G
 title: iTriangle - TS101 Basic 4G
 sidebar_class_name: menu_item_tracker

@@ -79,19 +79,19 @@ Si utiliza el flujo de comandos SMS o GPRS de Teltonika, incluya los valores del
 
 El FMB002 soporta configuración por SMS o comandos GPRS. El ejemplo público a continuación establece valores de APN y apunta el dispositivo a Plaspy. Conserve los marcadores y sustitúyalos por los valores de su operador:
 
-- {{apn}} es el APN del operador
-- {{apnu}} es el usuario APN si se requiere
-- {{apnp}} es la contraseña APN si se requiere
+- [apn] es el APN del operador
+- [apnu] es el usuario APN si se requiere
+- [apnp] es la contraseña APN si se requiere
 
 Sample Teltonika setparam command (public example):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando anterior:
 - El comando establece los parámetros de APN y asigna el dominio d.plaspy.com y el puerto 8888 para Plaspy.
-- Reemplace {{apn}}, {{apnu}} y {{apnp}} con la configuración de APN de su operador.
+- Reemplace [apn], [apnu] y [apnp] con la configuración de APN de su operador.
 - Use el canal de configuración Teltonika que prefiera (SMS, GPRS o Teltonika Configurator) para enviar este comando.
 - La numeración de parámetros y la sintaxis exacta pueden variar entre versiones de firmware, por lo que verifique los IDs de comando en la documentación de Teltonika para su versión de firmware.
 

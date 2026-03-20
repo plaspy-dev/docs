@@ -76,7 +76,7 @@ El BN-407 admite configuración vía SMS. Los comandos que siguen provienen de l
 
 Notas:
 - La contraseña de muestra en estos comandos es 123456 (valor por defecto mostrado en la documentación pública). Considere cambiar la contraseña después de la configuración inicial.
-- Los marcadores de posición aparecen como {{apn}}, {{apnu}} y {{apnp}} y deben sustituirse por el APN, usuario APN y contraseña APN de su operador respectivamente.
+- Los marcadores de posición aparecen como [apn], [apnu] y [apnp] y deben sustituirse por el APN, usuario APN y contraseña APN de su operador respectivamente.
 
 1. Restaurar a configuración de fábrica (paso inicial opcional)
 ```text
@@ -88,14 +88,14 @@ begin123456
 time zone123456 0
 ```
 
-3. Establecer el APN del operador (reemplace {{apn}} por el APN de su operador)
+3. Establecer el APN del operador (reemplace [apn] por el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Configurar usuario y contraseña del APN (reemplace los marcadores por sus credenciales)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Establecer el servidor GPRS con la IP y puerto de Plaspy

@@ -75,26 +75,26 @@ Cuando se configura para reportar a Plaspy, el TK210 usa la red de datos celular
 
 ## Ejemplos de comandos de configuración
 
-Los ejemplos públicos de configuración del TK210 muestran comandos SMS que se usan comúnmente para configurar el dispositivo. Los comandos siguientes preservan el orden y los marcadores que aparecen en las instrucciones públicas de TK-Star. La contraseña por defecto del dispositivo en estos ejemplos públicos es 123456. Reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador según corresponda.
+Los ejemplos públicos de configuración del TK210 muestran comandos SMS que se usan comúnmente para configurar el dispositivo. Los comandos siguientes preservan el orden y los marcadores que aparecen en las instrucciones públicas de TK-Star. La contraseña por defecto del dispositivo en estos ejemplos públicos es 123456. Reemplace marcadores como [apn], [apnu] y [apnp] con los valores de su operador según corresponda.
 
 - Restauración opcional a ajustes de fábrica inicial (usar solo cuando sea necesario como paso inicial)
 ```text
 begin123456
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador)
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario del APN (usar si su operador requiere usuario; reemplace {{apnu}})
+- Establecer el usuario del APN (usar si su operador requiere usuario; reemplace [apnu])
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN (usar si su operador requiere contraseña; reemplace {{apnp}})
+- Establecer la contraseña del APN (usar si su operador requiere contraseña; reemplace [apnp])
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy (la IP y el puerto deben coincidir con los valores de Plaspy)
@@ -113,9 +113,9 @@ gprs123456
 ```
 
 Notas sobre los marcadores:
-- {{apn}} — cadena APN de su operador móvil.
-- {{apnu}} — usuario APN si lo requiere el operador.
-- {{apnp}} — contraseña APN si lo requiere el operador.
+- [apn] — cadena APN de su operador móvil.
+- [apnu] — usuario APN si lo requiere el operador.
+- [apnp] — contraseña APN si lo requiere el operador.
 - 123456 en estos ejemplos es la contraseña pública por defecto del dispositivo; reemplácela por la contraseña configurada si ya fue cambiada.
 
 ## Observaciones sobre la configuración

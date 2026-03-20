@@ -92,11 +92,11 @@ W000000,010,{{('XXXXXXXXXXXXXX' + imei.substring(0,14)).slice(-14)}}
 
 3. Set the operator APN (use placeholders as needed)
 ```
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-- {{apn}} = APN del operador móvil  
-- {{apnu}} = nombre de usuario APN (opcional)  
-- {{apnp}} = contraseña APN (opcional)  
+- [apn] = APN del operador móvil  
+- [apnu] = nombre de usuario APN (opcional)  
+- [apnp] = contraseña APN (opcional)  
 - Si no se requiere usuario/contraseña, omita los campos opcionales según la sintaxis del dispositivo.
 
 4. Set the GPRS server to Plaspy (public IP and port shown)

@@ -74,7 +74,7 @@ Cuando está configurado, el BN-108A envía posiciones GNSS, alarmas y telemetr�
 
 ## Ejemplos de comandos de configuración
 
-A continuación se muestran los comandos SMS públicos más comunes para el BN-108A en el orden en que suelen aplicarse. Los comandos de ejemplo usan la contraseña por defecto 123456 cuando es necesario. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador.
+A continuación se muestran los comandos SMS públicos más comunes para el BN-108A en el orden en que suelen aplicarse. Los comandos de ejemplo usan la contraseña por defecto 123456 cuando es necesario. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador.
 
 1. Comando opcional de restauración de fábrica
 ```text
@@ -86,15 +86,15 @@ time zone123456 0
 ```
 3. Establecer el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} es la cadena APN de datos móviles proporcionada por su operador
+- [apn] es la cadena APN de datos móviles proporcionada por su operador
 
 4. Establecer usuario y contraseña del APN si el operador los requiere
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-- {{apnu}} y {{apnp}} son marcadores para el usuario y la contraseña del APN respectivamente; muchos operadores no requieren estos valores
+- [apnu] y [apnp] son marcadores para el usuario y la contraseña del APN respectivamente; muchos operadores no requieren estos valores
 
 5. Configurar el servidor GPRS a Plaspy por IP y puerto
 ```text
@@ -138,7 +138,7 @@ Nota sobre contraseñas
 - Las revisiones de firmware pueden cambiar formatos de comando o parámetros soportados; siempre verifique la sintaxis del comando contra el manual del dispositivo para su versión de firmware
 - Elija UDP o TCP según sus necesidades operativas y la guía del proveedor; Plaspy soporta ambos y detectará el protocolo automáticamente
 - Plaspy utiliza el puerto 8888 para todos los dispositivos, por lo que debe apuntar el BN-108A al puerto 8888 al configurar la dirección del servidor
-- Tenga cuidado con los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos exactamente por los valores que le proporcione su operador móvil
+- Tenga cuidado con los marcadores de posición como [apn], [apnu] y [apnp] y sustitúyalos exactamente por los valores que le proporcione su operador móvil
 
 ## Por qué usar Plaspy con esta configuración
 

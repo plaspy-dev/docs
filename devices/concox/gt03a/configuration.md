@@ -48,7 +48,7 @@ The objective of this configuration process is to prepare a GT03A tracker to com
 - A charged GT03A unit installed or powered so it can accept SMS and establish data sessions
 - A working SIM card with enabled data and SMS capability and the correct APN information
 - Access to the device configuration method supported by your unit such as SMS commands or manufacturer software
-- Knowledge of the APN settings for your mobile operator including optional username and password placeholders like {{apn}}, {{apnu}}, and {{apnp}}
+- Knowledge of the APN settings for your mobile operator including optional username and password placeholders like [apn], [apnu], and [apnp]
 - A way to send SMS commands to the device from a trusted phone number if SMS configuration is used
 - Confirmed Plaspy server details to enter which are d.plaspy.com or 54.85.159.138 and port 8888
 
@@ -88,12 +88,12 @@ GMT,E,0#
 ```
 
 3. Set the mobile operator APN
-- Replace {{apn}} with your operator APN
-- If your APN requires a username or password, include {{apnu}} and {{apnp}} where supported
+- Replace [apn] with your operator APN
+- If your APN requires a username or password, include [apnu] and [apnp] where supported
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(If only APN is required, sending APN,{{apn}}# is acceptable.)
+(If only APN is required, sending APN,[apn]# is acceptable.)
 
 4. Set the GPRS server to Plaspy using the domain (recommended)
 ```
@@ -124,9 +124,9 @@ GPRSSET#
 ```
 
 Notes on placeholders
-- {{apn}} is the APN string for your mobile provider
-- {{apnu}} is an optional APN username if your operator requires one
-- {{apnp}} is an optional APN password if required
+- [apn] is the APN string for your mobile provider
+- [apnu] is an optional APN username if your operator requires one
+- [apnp] is an optional APN password if required
 
 ## Configuration Notes
 

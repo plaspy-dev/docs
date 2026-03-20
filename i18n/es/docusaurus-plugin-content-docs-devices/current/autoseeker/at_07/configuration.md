@@ -105,7 +105,7 @@ Los comandos exactos y la sintaxis del AT-07 dependen del método de configuraci
   restart
   ```
 
-Nota: Los nombres exactos de los comandos y su sintaxis varían según el firmware y la herramienta del fabricante. Preserve cualquier marcador de posición proporcionado por la documentación de Autoseeker, como {{apn}} o {{apnu}}, cuando esos valores formen parte del conjunto oficial de comandos. Consulte el manual de Autoseeker para los comandos precisos de su dispositivo y firmware.
+Nota: Los nombres exactos de los comandos y su sintaxis varían según el firmware y la herramienta del fabricante. Preserve cualquier marcador de posición proporcionado por la documentación de Autoseeker, como [apn] o [apnu], cuando esos valores formen parte del conjunto oficial de comandos. Consulte el manual de Autoseeker para los comandos precisos de su dispositivo y firmware.
 
 ## Notas de configuración
 

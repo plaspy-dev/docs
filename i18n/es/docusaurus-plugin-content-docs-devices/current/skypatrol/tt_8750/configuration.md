@@ -74,7 +74,7 @@ Cuando el TT 8750+ se configura para Plaspy, abre una sesión de datos y transmi
 
 ## Comandos de configuración de ejemplo
 
-Los siguientes comandos son ejemplos públicos usados para configurar un SkyPatrol TT 8750+. Conservan el orden original e incluyen marcadores de posición donde procede. Reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}} con el APN y credenciales de su operador.
+Los siguientes comandos son ejemplos públicos usados para configurar un SkyPatrol TT 8750+. Conservan el orden original e incluyen marcadores de posición donde procede. Reemplace marcadores como [apn], [apnu] y [apnp] con el APN y credenciales de su operador.
 
 Initial reset to factory defaults and save
 ```
@@ -84,12 +84,12 @@ AT&W
 
 Set APN for data connection
 ```
-AT+CGDCONT=1,"IP","{{apn}}"
+AT+CGDCONT=1,"IP","[apn]"
 ```
 
 Optional APN username and password command (include only if required by your operator)
 ```
-AT$CGPCO=1,"{{apnu}},{{apnp}}",0
+AT$CGPCO=1,"[apnu],[apnp]",0
 ```
 
 Configure Plaspy server destination using the Plaspy public IP and port 8888
@@ -166,7 +166,7 @@ Optional restart to apply settings
 ```
 AT$RESET
 ```
-Notas sobre los marcadores de posición: {{apn}} es el APN celular de su SIM. {{apnu}} y {{apnp}} son valores opcionales de usuario y contraseña APN usados por algunos operadores. Mantenga los marcadores de posición sin cambios hasta reemplazarlos por sus valores reales del operador.
+Notas sobre los marcadores de posición: [apn] es el APN celular de su SIM. [apnu] y [apnp] son valores opcionales de usuario y contraseña APN usados por algunos operadores. Mantenga los marcadores de posición sin cambios hasta reemplazarlos por sus valores reales del operador.
 
 ## Notas de configuración
 

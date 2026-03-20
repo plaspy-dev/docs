@@ -69,7 +69,7 @@ The TR-900 is configured to report location and OBDII diagnostics to the shared 
 2. Enter the Plaspy server as d.plaspy.com or use the server IP 54.85.159.138 in the device server settings.
 3. Set the device port to 8888 which is the shared Plaspy port for all supported devices.
 4. Choose UDP or TCP if the TR-900 requires a transport selection and save that choice.
-5. Provide APN settings {{apn}}, {{apnu}}, and {{apnp}} if the device needs mobile data parameters and they are not already present.
+5. Provide APN settings [apn], [apnu], and [apnp] if the device needs mobile data parameters and they are not already present.
 6. Apply or save the configuration on the device and send any required SMS commands from a phone if using SMS setup.
 7. Restart or reboot the TR-900 if required to apply the new server settings.
 8. Validate the device reports to Plaspy and appears in the platform monitoring view.
@@ -80,14 +80,14 @@ The TR-900 supports SMS-based configuration using command templates. The followi
 
 Important placeholders:
 - {{imei}} — replace with the device IMEI number
-- {{apn}} — replace with the mobile network APN
-- {{apnu}} — replace with the APN username if required
-- {{apnp}} — replace with the APN password if required
+- [apn] — replace with the mobile network APN
+- [apnu] — replace with the APN username if required
+- [apnp] — replace with the APN password if required
 - {{checksum}} and {{checksumreeboot}} — two character uppercase hexadecimal XOR checksums computed over the command text before the asterisk character
 
 Primary setup command
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 - This command sets APN fields and server E0 to 54.85.159.138 and port E1 to 8888. Keep placeholders and replace them with your values before sending.
 

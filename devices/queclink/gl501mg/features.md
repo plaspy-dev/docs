@@ -37,7 +37,7 @@ The GL501MG is a compact, battery powered GPS tracker designed for long term una
 ## Core Features of QuecLink - GL501MG
 
 - LTE Cat M1 / NB1 cellular modem with EGPRS 2G fallback for resilient telemetry.
-- u‑blox GNSS receiver with <2.5 m CEP autonomous positioning accuracy.
+- u‑blox GNSS receiver with \<2.5 m CEP autonomous positioning accuracy.
 - Internal sensors: temperature sensor, light sensor, and 3‑axis accelerometer for motion and tamper detection.
 - BLE 4.2 radio for accessory connectivity and on device configuration.
 - Built in battery with low standby current and support for Qi wireless charging for maintenance ease.

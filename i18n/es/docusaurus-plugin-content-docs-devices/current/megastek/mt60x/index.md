@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt60x
 id: mt60x
+sidebar_key: megastemt60x_index_mt60x
 sidebar_label: MT60X
 title: Megastek - MT60X
 sidebar_class_name: menu_item_tracker

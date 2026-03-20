@@ -87,9 +87,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 ```
 
 3. Set the operator APN
-Note: Replace the placeholders with your operator APN values. {{apn}} is the APN name, {{apnu}} is the APN username, and {{apnp}} is the APN password. If your operator does not require username or password, use empty values as appropriate.
+Note: Replace the placeholders with your operator APN values. [apn] is the APN name, [apnu] is the APN username, and [apnp] is the APN password. If your operator does not require username or password, use empty values as appropriate.
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4. Set the GPRS server to Plaspy

@@ -73,7 +73,7 @@ The GL100M is commonly configured to send position reports and event notificatio
 
 ## Example Configuration Commands
 
-The GL100M can be configured by sending SMS commands. The sample commands below reflect a typical public setup sequence. The sample setup uses the factory default device password queclink. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator values.
+The GL100M can be configured by sending SMS commands. The sample commands below reflect a typical public setup sequence. The sample setup uses the factory default device password queclink. Replace placeholders such as [apn], [apnu], and [apnp] with your mobile operator values.
 
 1. Optional initial step — restore factory settings (optional when you need a clean configuration)
 ```
@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN (replace placeholders with your operator values)
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = mobile network APN
-- {{apnu}} = APN username if required by operator
-- {{apnp}} = APN password if required by operator
+- [apn] = mobile network APN
+- [apnu] = APN username if required by operator
+- [apnp] = APN password if required by operator
 
 4. Set the GPRS server to Plaspy using the domain and IP with port 8888
 ```
@@ -116,7 +116,7 @@ These commands are examples drawn from publicly available configuration samples 
 - The exact SMS syntax and available parameters can vary by GL100M firmware version and factory settings; always confirm with the device response or official QuecLink documentation.
 - You can configure the GL100M by SMS or with QuecLink configuration software where available; choose the method supported by your deployment and firmware.
 - When choosing UDP versus TCP, note that Plaspy accepts both on port 8888 and detects the protocol automatically; pick the transport that fits your network and device behavior.
-- Replace APN placeholders {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator credentials; missing or incorrect APN settings will prevent GPRS connectivity.
+- Replace APN placeholders [apn], [apnu], and [apnp] with your mobile operator credentials; missing or incorrect APN settings will prevent GPRS connectivity.
 - If the device uses a factory default password (for example queclink in this public example), change it after successful configuration to secure the device.
 
 ## Why Use Plaspy with This Configuration

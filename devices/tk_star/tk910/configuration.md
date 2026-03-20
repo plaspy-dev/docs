@@ -80,15 +80,15 @@ begin123456
 ```
 - Set the operator APN using your carrier APN placeholder
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 - Set the APN username if your carrier requires it
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 - Set the APN password if your carrier requires it
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Set the GPRS server to the Plaspy server IP and port
 ```text
@@ -105,9 +105,9 @@ gprs123456
 ```
 
 Placeholders explanation
-- {{apn}} represents the carrier APN string required for GPRS.
-- {{apnu}} represents the APN username when required by the mobile operator.
-- {{apnp}} represents the APN password when required by the mobile operator.
+- [apn] represents the carrier APN string required for GPRS.
+- [apnu] represents the APN username when required by the mobile operator.
+- [apnp] represents the APN password when required by the mobile operator.
 
 If your installation requires a different upload interval, change the numeric value in the upload command accordingly. The restore command begin123456 is typically optional and should only be used when performing a factory reset as part of initial setup.
 

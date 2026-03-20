@@ -77,7 +77,7 @@ If you use the SMS commands below, send them in the order shown and confirm each
 
 ## Example Configuration Commands
 
-The TLW2-6BL manufacturer provides an SMS command set for configuration. The following public commands are examples that can be sent as SMS messages. The sample setup uses the device default password 0000. Keep {{apn}}, {{apnu}}, and {{apnp}} as placeholders for your network APN, username, and password.
+The TLW2-6BL manufacturer provides an SMS command set for configuration. The following public commands are examples that can be sent as SMS messages. The sample setup uses the device default password 0000. Keep [apn], [apnu], and [apnp] as placeholders for your network APN, username, and password.
 
 - Set the time zone to UTC 0
 ```text
@@ -86,9 +86,9 @@ GMT,0000,0#
 
 - Set the operator APN (replace placeholders with your operator values)
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explanation: {{apn}} is your carrier APN, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. If the operator does not require username or password, leave those placeholders blank according to manufacturer SMS syntax.
+Explanation: [apn] is your carrier APN, [apnu] is the APN username if required, and [apnp] is the APN password if required. If the operator does not require username or password, leave those placeholders blank according to manufacturer SMS syntax.
 
 - Set the GPRS server to Plaspy using the public IP and port
 ```text

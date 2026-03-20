@@ -77,7 +77,7 @@ Cuando se configura para Plaspy, el TK08A envía datos de ubicación y eventos a
 
 El TK08A puede configurarse usando las herramientas del fabricante, software de configuración USB o comandos SMS según el firmware y la cadena de herramientas del proveedor. Los comandos exactos y la sintaxis los proporciona CanTrack y pueden variar por firmware, por lo que debe consultar la documentación oficial o la utilidad de configuración para el conjunto de comandos aplicable a su dispositivo y versión de firmware.
 
-Si usa comandos SMS con su modelo y versión de firmware TK08A, siga la sintaxis publicada por CanTrack y reemplace los marcadores de posición por los valores de su operador o entorno cuando sea necesario. Para marcadores como APN o usuario, la documentación del fabricante mostrará cómo usar valores como {{apn}}, {{apnu}} o {{apnp}} si esos marcadores son compatibles con su firmware.
+Si usa comandos SMS con su modelo y versión de firmware TK08A, siga la sintaxis publicada por CanTrack y reemplace los marcadores de posición por los valores de su operador o entorno cuando sea necesario. Para marcadores como APN o usuario, la documentación del fabricante mostrará cómo usar valores como [apn], [apnu] o [apnp] si esos marcadores son compatibles con su firmware.
 
 ## Notas de configuración
 

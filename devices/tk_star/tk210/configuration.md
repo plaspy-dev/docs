@@ -75,26 +75,26 @@ When configured to report to Plaspy, the TK210 uses the cellular data network to
 
 ## Example Configuration Commands
 
-The TK210 public configuration examples show SMS commands commonly used to set up the device. The commands below preserve the order and placeholders from the publicly available TK-Star instructions. The device default password in these public examples is 123456. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator values as needed.
+The TK210 public configuration examples show SMS commands commonly used to set up the device. The commands below preserve the order and placeholders from the publicly available TK-Star instructions. The device default password in these public examples is 123456. Replace placeholders such as [apn], [apnu], and [apnp] with your operator values as needed.
 
 - Optional initial factory restore (use only when required as an initial setup step)
 ```text
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN)
+- Set the operator APN (replace [apn] with your carrier APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username (use if your operator requires an APN username; replace {{apnu}})
+- Set the APN username (use if your operator requires an APN username; replace [apnu])
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (use if your operator requires an APN password; replace {{apnp}})
+- Set the APN password (use if your operator requires an APN password; replace [apnp])
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy (server IP and port must match Plaspy values)
@@ -113,9 +113,9 @@ gprs123456
 ```
 
 Notes on placeholders:
-- {{apn}} — your mobile operator APN string.
-- {{apnu}} — APN username if required by the operator.
-- {{apnp}} — APN password if required by the operator.
+- [apn] — your mobile operator APN string.
+- [apnu] — APN username if required by the operator.
+- [apnp] — APN password if required by the operator.
 - 123456 in these examples is the public default device password; replace with your configured device password if it has been changed.
 
 ## Configuration Notes

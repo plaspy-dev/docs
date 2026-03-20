@@ -82,11 +82,11 @@ clear
 
 - Set the operator APN
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
 If your operator requires username and password, use the extended form:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}
+APN,[apn],[apnu],[apnp]
 ```
 - Set the GPRS server to Plaspy by IP and port
 ```text
@@ -102,9 +102,9 @@ C
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator APN
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the mobile operator APN
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 Send each command as an individual SMS from the device administrator phone number as described in ThinkRace documentation. Apply the factory reset only when needed or as part of an initial clean setup.
 

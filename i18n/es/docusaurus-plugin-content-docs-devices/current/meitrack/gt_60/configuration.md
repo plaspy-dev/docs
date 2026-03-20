@@ -46,7 +46,7 @@ Preparar un GT-60 para funcionar con Plaspy implica configurar el dispositivo pa
 
 - Un GT-60 con batería cargada y acceso físico al equipo para enviar comandos SMS o acceso a un administrador del dispositivo
 - Una tarjeta SIM activa instalada en el equipo con plan de datos válido o capacidad para enviar SMS según sea necesario
-- Conocimiento de los ajustes APN del operador para completar el marcador {{apn}} y opcionalmente {{apnu}} y {{apnp}}
+- Conocimiento de los ajustes APN del operador para completar el marcador [apn] y opcionalmente [apnu] y [apnp]
 - Acceso a un teléfono móvil capaz de enviar SMS al GT-60 usando la contraseña del dispositivo
 - La contraseña por defecto del dispositivo si no fue cambiada aparece en los ejemplos como 0000
 - Acceso a la documentación oficial de Meitrack o a herramientas del fabricante para referencias y detalles específicos de firmware
@@ -83,10 +83,10 @@ Use esto solo si desea restaurar los ajustes de fábrica antes de aplicar una nu
 
 2. Configurar el servidor GPRS a Plaspy usando IP y puerto con marcador APN
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 - Este comando establece el servidor GPRS con la IP y el puerto de Plaspy. El ejemplo incluye marcadores para los ajustes APN.
-- {{apn}} es el APN de su operador. {{apnu}} y {{apnp}} son usuario y contraseña del APN opcionales. Si su operador no requiere usuario ni contraseña, puede omitir esos valores según las reglas del dispositivo.
+- [apn] es el APN de su operador. [apnu] y [apnp] son usuario y contraseña del APN opcionales. Si su operador no requiere usuario ni contraseña, puede omitir esos valores según las reglas del dispositivo.
 
 3. Establecer la zona horaria a UTC 0
 ```
@@ -107,7 +107,7 @@ Use esto solo si desea restaurar los ajustes de fábrica antes de aplicar una nu
 - Este comando ajusta el reporte de eventos según el conjunto de comandos público del GT-60. Modifique los parámetros según sus preferencias de eventos.
 
 Nota sobre marcadores y formato
-- Mantenga los marcadores {{apn}} {{apnu}} y {{apnp}} al preparar los comandos y reemplácelos por los valores de su operador antes de enviar los SMS
+- Mantenga los marcadores [apn] [apnu] y [apnp] al preparar los comandos y reemplácelos por los valores de su operador antes de enviar los SMS
 - Los ejemplos respetan el orden de comandos que suele ser importante en la configuración inicial
 
 ## Notas de configuración

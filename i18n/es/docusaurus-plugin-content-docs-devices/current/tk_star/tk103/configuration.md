@@ -78,17 +78,17 @@ El TK103 puede configurarse por SMS usando la contraseña del dispositivo. Los c
 ```
 begin123456
 ```
-2. Establecer el APN del operador (reemplace {{apn}} por el APN de su operador móvil):
+2. Establecer el APN del operador (reemplace [apn] por el APN de su operador móvil):
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-3. Establecer el usuario del APN si su operador lo requiere (reemplace {{apnu}} por el nombre de usuario del APN):
+3. Establecer el usuario del APN si su operador lo requiere (reemplace [apnu] por el nombre de usuario del APN):
 ```
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-4. Establecer la contraseña del APN si es necesaria (reemplace {{apnp}} por la contraseña del APN):
+4. Establecer la contraseña del APN si es necesaria (reemplace [apnp] por la contraseña del APN):
 ```
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 5. Establecer el servidor GPRS a Plaspy usando la IP y el puerto del servidor Plaspy (esto apunta el dispositivo a Plaspy en el puerto 8888):
 ```
@@ -104,9 +104,9 @@ gprs123456
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es el Access Point Name del operador necesario para datos móviles.
-- {{apnu}} es el usuario del APN, usado solo si su operador requiere autenticación.
-- {{apnp}} es la contraseña del APN, usada solo si su operador la requiere.
+- [apn] es el Access Point Name del operador necesario para datos móviles.
+- [apnu] es el usuario del APN, usado solo si su operador requiere autenticación.
+- [apnp] es la contraseña del APN, usada solo si su operador la requiere.
 - Mantenga la contraseña del dispositivo (123456 en el ejemplo) al enviar los SMS de configuración, a menos que la haya cambiado.
 
 ## Notas de configuración

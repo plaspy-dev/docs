@@ -79,7 +79,7 @@ When configured, the Cityeasy 200 sends position updates and event alerts to the
 
 The Cityeasy 200 may be configured using the manufacturer tools or SMS commands supplied by Cityeasy. Exact commands and syntax vary by firmware and vendor tool. Because manufacturer command sets are not included here, consult the Cityeasy manual for precise command formats and use the general server settings from the Plaspy section above when composing commands.
 
-If you have a Cityeasy command list from the manufacturer, apply the server domain or IP and port as shown in the workflow. Preserve placeholders provided by the vendor such as {{apn}} or similar when present and replace them with operator specific values.
+If you have a Cityeasy command list from the manufacturer, apply the server domain or IP and port as shown in the workflow. Preserve placeholders provided by the vendor such as [apn] or similar when present and replace them with operator specific values.
 
 ## Configuration Notes
 

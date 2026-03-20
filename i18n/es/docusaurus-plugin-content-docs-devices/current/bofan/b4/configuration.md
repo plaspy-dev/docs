@@ -88,11 +88,11 @@ La guía pública de Bofan incluye comandos por SMS que se envían al dispositiv
 ```
 Explicación: Use los últimos 14 dígitos del IMEI como identificador cuando Plaspy lo solicite.
 
-- Configurar el APN del operador móvil. Reemplace {{apn}} con el APN de su operador e incluya {{apnu}} y {{apnp}} si se requiere usuario o contraseña:
+- Configurar el APN del operador móvil. Reemplace [apn] con el APN de su operador e incluya [apnu] y [apnp] si se requiere usuario o contraseña:
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explicación: {{apn}} es la cadena APN proporcionada por el operador. {{apnu}} y {{apnp}} son marcadores de posición opcionales para usuario y contraseña del APN.
+Explicación: [apn] es la cadena APN proporcionada por el operador. [apnu] y [apnp] son marcadores de posición opcionales para usuario y contraseña del APN.
 
 - Establecer el servidor GPRS para apuntar a Plaspy. Este comando usa la IP pública y el puerto:
 ```text

@@ -64,7 +64,7 @@ When configured, the GTR-388C1 sends GNSS positions and event telemetry to the s
 ## Common Configuration Workflow
 
 1. Access the official GlobalSat configuration method for the GTR-388C1 such as SMS commands or the vendor tool described in manufacturer documentation.
-2. Prepare the command string replacing placeholders such as the device IMEI and APN values {{apn}}, {{apnu}}, and {{apnp}}.
+2. Prepare the command string replacing placeholders such as the device IMEI and APN values [apn], [apnu], and [apnp].
 3. Enter d.plaspy.com or the Plaspy server IP 54.85.159.138 as the server destination in the command.
 4. Set the port to 8888 and choose UDP or TCP if the device requires explicit transport selection.
 5. Send the configuration SMS to the device and apply or save the settings per the device procedure.
@@ -79,10 +79,10 @@ Format note shown in the public content
 TSPRXAB27GHKLMnaicz*U!
 
 Primary setup command
-Replace {{imei}} with the device IMEI and {{apn}}, {{apnu}}, {{apnp}} with your operator APN settings. Compute the checksum for the characters before the asterisk and place the two-character uppercase hex checksum in the {{checksum}} placeholder.
+Replace {{imei}} with the device IMEI and [apn], [apnu], [apnp] with your operator APN settings. Compute the checksum for the characters before the asterisk and place the two-character uppercase hex checksum in the {{checksum}} placeholder.
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Optional reboot command
@@ -97,9 +97,9 @@ Checksum explanation
 
 Placeholder brief descriptions
 - {{imei}} — the device IMEI number used to target the tracker for SMS setup
-- {{apn}} — Access Point Name for the SIM operator
-- {{apnu}} — APN username if required by the operator
-- {{apnp}} — APN password if required by the operator
+- [apn] — Access Point Name for the SIM operator
+- [apnu] — APN username if required by the operator
+- [apnp] — APN password if required by the operator
 - {{checksum}} and {{checksumreeboot}} — two character uppercase hexadecimal XOR checksum values computed from the command text before the asterisk
 
 ## Configuration Notes

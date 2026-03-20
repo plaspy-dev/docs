@@ -84,7 +84,7 @@ Common public actions you will perform when applying commands or settings are:
 - Select transport as UDP or TCP if required
 - Save and reboot the device to apply changes
 
-If you have the GOTOP SMS or CLI command list from the manufacturer, use the provided syntax and replace server and port values with the Plaspy settings above. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} if present in manufacturer examples and fill them with your SIM operator APN credentials.
+If you have the GOTOP SMS or CLI command list from the manufacturer, use the provided syntax and replace server and port values with the Plaspy settings above. Keep placeholders such as [apn], [apnu], and [apnp] if present in manufacturer examples and fill them with your SIM operator APN credentials.
 
 ## Configuration Notes
 

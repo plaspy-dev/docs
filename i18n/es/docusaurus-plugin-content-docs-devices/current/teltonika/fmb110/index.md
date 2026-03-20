@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmb110
 id: fmb110
+sidebar_key: teltonikfmb110_index_fmb110
 sidebar_label: FMB110
 title: Teltonika - FMB110
 sidebar_class_name: menu_item_tracker

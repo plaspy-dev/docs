@@ -1,6 +1,7 @@
 ---
 slug: /concox/ll301
 id: ll301
+sidebar_key: concoll301_index_ll301
 sidebar_label: LL301
 title: Concox - LL301
 sidebar_class_name: menu_item_tracker

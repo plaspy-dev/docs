@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/dg_388
 id: dg_388
+sidebar_key: globalsadg_388_index_dg_388
 sidebar_label: DG-388
 title: GlobalSat - DG-388
 sidebar_class_name: menu_item_tracker

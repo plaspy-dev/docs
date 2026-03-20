@@ -46,7 +46,7 @@ El objetivo al configurar un GL52S para Plaspy es preparar el rastreador para qu
 
 - Un equipo GL52S encendido y capaz de recibir SMS si va a usar configuración por SMS.
 - Conocimiento de la contraseña por defecto del dispositivo (el ejemplo por defecto que se muestra abajo es queclink) y posibilidad de cambiarla si fuese necesario.
-- Credenciales APN ({{apn}}, {{apnu}}, {{apnp}}) si el dispositivo requiere ajustes GPRS para conectividad.
+- Credenciales APN ([apn], [apnu], [apnp]) si el dispositivo requiere ajustes GPRS para conectividad.
 - Acceso a las herramientas oficiales de configuración de QuecLink o a la documentación correspondiente a su versión de firmware y revisión de hardware.
 - Una cuenta de Plaspy o instrucciones de aprovisionamiento para confirmar que el dispositivo es visible tras la configuración.
 
@@ -66,7 +66,7 @@ Cuando está configurado, el GL52S envía su posición y datos de eventos al end
 2. Ingrese el servidor de Plaspy como d.plaspy.com o use la IP 54.85.159.138 cuando se requiera un host numérico.
 3. Configure el puerto en 8888 ya que Plaspy utiliza este puerto para todos los dispositivos compatibles.
 4. Elija UDP o TCP si el dispositivo solicita una selección de transporte.
-5. Proporcione APN y datos de autenticación si configura el modo GPRS (use los marcadores como {{apn}}, {{apnu}}, {{apnp}} donde corresponda).
+5. Proporcione APN y datos de autenticación si configura el modo GPRS (use los marcadores como [apn], [apnu], [apnp] donde corresponda).
 6. Aplique o guarde la configuración y reinicie el equipo si el método requiere un reboot para aplicar los cambios.
 7. Valide que el dispositivo reporta a Plaspy verificando la llegada de datos y el estado del equipo en la plataforma Plaspy.
 
@@ -88,11 +88,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Establecer el APN del operador (reemplace los marcadores)
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = nombre del APN
-- {{apnu}} = usuario del APN (si se requiere)
-- {{apnp}} = contraseña del APN (si se requiere)
+- [apn] = nombre del APN
+- [apnu] = usuario del APN (si se requiere)
+- [apnp] = contraseña del APN (si se requiere)
 - Proporcione las credenciales APN correctas que suministre su operador móvil cuando use GPRS.
 
 4. Configurar el servidor GPRS a Plaspy (se muestra dominio e IP)

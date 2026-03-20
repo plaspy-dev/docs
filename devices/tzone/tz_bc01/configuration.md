@@ -76,9 +76,9 @@ To set the TZ-BC01 via SMS, send the commands in the order shown. These public c
 
 - Set the operator APN (replace placeholders with your operator values)
 ```text
-*000000,011,{{apn}}{{# if apnu or apnp then }},{{apnu}},{{apnp}}{{# endif }}#
+*000000,011,[apn]{{# if apnu or apnp then }},[apnu],[apnp]{{# endif }}#
 ```
-Explanation: {{apn}} is the mobile operator APN. {{apnu}} is the APN username and {{apnp}} is the APN password. The command uses the device password prefix shown as 000000 in this example; replace if your device uses a different password.
+Explanation: [apn] is the mobile operator APN. [apnu] is the APN username and [apnp] is the APN password. The command uses the device password prefix shown as 000000 in this example; replace if your device uses a different password.
 
 - Set the update interval to 60 seconds
 ```text

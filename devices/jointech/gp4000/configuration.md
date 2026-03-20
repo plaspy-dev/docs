@@ -81,21 +81,21 @@ The Jointech GP4000 can be configured using SMS commands. The following public c
 
 - Note on placeholders
   - {{trackerID}} must be replaced with your device IMEI or tracker ID as required by Jointech
-  - {{apn}} is the carrier APN string for mobile data
-  - {{apnu}} and {{apnp}} are optional APN username and password if your carrier requires them
+  - [apn] is the carrier APN string for mobile data
+  - [apnu] and [apnp] are optional APN username and password if your carrier requires them
 
 1. Set the GPRS server and APN
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 or using the server domain
 ```text
-({{trackerID}},2,S02,129,1,d.plaspy.com,8888,{{apn}})
+({{trackerID}},2,S02,129,1,d.plaspy.com,8888,[apn])
 ```
 
 2. (Optional) Set the APN user and password if required by the carrier
 ```text
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Instructions

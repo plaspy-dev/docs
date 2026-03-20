@@ -81,13 +81,13 @@ The following SMS commands are public examples used with the V-SUN TLT-8B. The d
 *RESET#0000##
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If your APN requires a username and password include {{apnu}} and {{apnp}}:
+- Set the operator APN. Replace [apn] with your operator APN. If your APN requires a username and password include [apnu] and [apnp]:
 ```
-#803#0000#{{apn}}##
+#803#0000#[apn]##
 ```
 or with username and password:
 ```
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
 (Keep the placeholders exactly as shown and replace them with your operator values.)
 

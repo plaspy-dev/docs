@@ -79,7 +79,7 @@ El GVT-430 puede configurarse vía SMS usando las plantillas públicas de comand
 
 Notas:
 - La contraseña por defecto del dispositivo usada en estos ejemplos es 000000.
-- Reemplace {{apn}}, {{apnu}} y {{apnp}} con el APN de su operador, el usuario del APN y la contraseña del APN según lo requiera su SIM.
+- Reemplace [apn], [apnu] y [apnp] con el APN de su operador, el usuario del APN y la contraseña del APN según lo requiera su SIM.
 - Reemplace la expresión del IMEI por su IMEI de 15 dígitos donde se indique.
 
 1) Establecer el ID del dispositivo (reemplace la expresión del IMEI por su IMEI; la expresión mostrada es la forma de plantilla del fabricante)
@@ -93,11 +93,11 @@ M000000,22,123456789012345
 
 2) Establecer el APN del operador (incluya usuario y contraseña del APN solo si su operador los requiere)
 ```
-M000000,23,{{apn}}{{#if apnu}},{{apnu}},{{apnp}}{{/if}}
+M000000,23,[apn]{{#if apnu}},[apnu],[apnp]{{/if}}
 ```
 Forma de plantilla tal como aparece en ejemplos del fabricante:
 ```
-M000000,23,{{apn}}{{,{{apnu}},{{apnp}}}}
+M000000,23,[apn]{{,[apnu],[apnp]}}
 ```
 Ejemplo (sin usuario ni contraseña de APN):
 ```

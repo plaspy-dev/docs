@@ -81,9 +81,9 @@ The V-690 can be configured using SMS commands. The following public SMS command
 
 - Set the operator APN
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
-Explanation: {{apn}} is the operator APN. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders. Include the username and password fields only if your operator requires them.
+Explanation: [apn] is the operator APN. [apnu] and [apnp] are optional APN username and APN password placeholders. Include the username and password fields only if your operator requires them.
 
 - Set the GPRS server to use Plaspy IP and port
 ```text
@@ -118,7 +118,7 @@ Follow the command order when the sequence matters, and replace the default pass
 - SMS commands shown here are the publicly available example sequence for the V-690; some firmware versions may require slightly different command formats.
 - You can specify the Plaspy server as either the domain d.plaspy.com or the IP 54.85.159.138; both should point to the same Plaspy service on port 8888.
 - Choose UDP or TCP based on device options and network conditions; Plaspy accepts either and detects the protocol automatically.
-- Preserve APN placeholders {{apn}}, {{apnu}}, and {{apnp}} when preparing commands and replace them with your operator values as needed.
+- Preserve APN placeholders [apn], [apnu], and [apnp] when preparing commands and replace them with your operator values as needed.
 - If you have a custom installer tool from V-SUN or a vendor, follow that tool for bulk provisioning rather than manual SMS where possible.
 
 ## Why Use Plaspy with This Configuration

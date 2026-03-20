@@ -80,7 +80,7 @@ The RX-9 3G sends its position and event data over the cellular network to the s
 
 The ArkNav RX-9 3G may be configured using manufacturer tools, SMS commands, or over the air firmware utilities depending on firmware and vendor setup. Exact commands depend on the ArkNav configuration syntax and firmware version and are not provided here as part of this public guide.
 
-Refer to the ArkNav user manual or your vendor tool for the specific command format required to set the server domain, server IP, port, transport type, and APN. If you have a set of manufacturer commands, apply them in the order required by the device and include placeholders such as {{apn}} or {{apnu}} exactly as provided by the manufacturer; these placeholders should be replaced with your SIM APN, username, and password when required.
+Refer to the ArkNav user manual or your vendor tool for the specific command format required to set the server domain, server IP, port, transport type, and APN. If you have a set of manufacturer commands, apply them in the order required by the device and include placeholders such as [apn] or [apnu] exactly as provided by the manufacturer; these placeholders should be replaced with your SIM APN, username, and password when required.
 
 ## Configuration Notes
 

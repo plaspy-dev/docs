@@ -88,13 +88,13 @@ GMT,E,0#
 
 - Set the operator APN. Basic APN only:
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 - Set the operator APN with optional username and password (if required by the operator). Keep placeholders as provided:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Explanation: replace {{apn}} with your mobile operator APN. Use {{apnu}} and {{apnp}} only if the APN requires a username and password.)
+(Explanation: replace [apn] with your mobile operator APN. Use [apnu] and [apnp] only if the APN requires a username and password.)
 
 - Set the GPRS server using the Plaspy domain (preferred for dynamic IP handling):
 ```text
@@ -126,7 +126,7 @@ Notes:
 - Firmware versions and hardware revisions can change command syntax or available parameters; always verify command compatibility with your VT200 firmware.
 - SMS-based configuration is common for VT200 units; if you have a vendor configuration tool, consider using it for bulk provisioning.
 - Choose UDP or TCP based on your network environment and device requirements; Plaspy accepts either transport but the device side must be set correctly.
-- Keep APN placeholders ({{apn}}, {{apnu}}, {{apnp}}) intact in documentation and replace them with operator-specific values during provisioning.
+- Keep APN placeholders ([apn], [apnu], [apnp]) intact in documentation and replace them with operator-specific values during provisioning.
 - After applying settings, use PARAM# or the platform to confirm the device appears on Plaspy and is reporting as expected.
 
 ## Why Use Plaspy with This Configuration

@@ -72,7 +72,7 @@ When configured, the AoYa super mini sends location and event data to the Plaspy
 
 ## Example Configuration Commands
 
-The AoYa super mini supports SMS-based configuration. The following public sample commands show the typical order and parameters. The sample device password used here is 123456 (this is the factory default and should be replaced if you have changed the password). Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when you replace them with your operator values.
+The AoYa super mini supports SMS-based configuration. The following public sample commands show the typical order and parameters. The sample device password used here is 123456 (this is the factory default and should be replaced if you have changed the password). Preserve placeholders such as [apn], [apnu], and [apnp] when you replace them with your operator values.
 
 - Optional initial factory reset (use when required or for initial setup):
 ```
@@ -84,14 +84,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username and password if required by your operator (replace {{apnu}} and {{apnp}} with credentials):
+- Set the APN username and password if required by your operator (replace [apnu] and [apnp] with credentials):
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Configure the GPRS server to Plaspy using the Plaspy server IP and port:
@@ -113,7 +113,7 @@ gprs123456
 check123456
 ```
 
-Notes on placeholders: {{apn}} is the mobile operator APN, {{apnu}} is the APN username, and {{apnp}} is the APN password. Replace these with the values provided by your mobile operator.
+Notes on placeholders: [apn] is the mobile operator APN, [apnu] is the APN username, and [apnp] is the APN password. Replace these with the values provided by your mobile operator.
 
 ## Configuration Notes
 

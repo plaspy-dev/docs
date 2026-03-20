@@ -82,11 +82,11 @@ GMT,0000,0#
 ```
 
 - Configurar el APN del operador. Reemplace los marcadores con los datos de su operador:
-  - {{apn}} nombre del APN
-  - {{apnu}} usuario APN (deje en blanco si no aplica)
-  - {{apnp}} contraseña APN (deje en blanco si no aplica)
+  - [apn] nombre del APN
+  - [apnu] usuario APN (deje en blanco si no aplica)
+  - [apnp] contraseña APN (deje en blanco si no aplica)
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS a Plaspy por IP y puerto
@@ -102,7 +102,7 @@ TIMER,0000,60:60:0:0#
 Notas sobre estos comandos:
 - Los comandos se muestran en el orden recomendado para la configuración inicial
 - La contraseña por defecto en el ejemplo público es 0000; reemplácela por la contraseña real si fue cambiada
-- Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} con las credenciales de su operador
+- Reemplace los marcadores como [apn], [apnu] y [apnp] con las credenciales de su operador
 
 ## Notas de configuración
 

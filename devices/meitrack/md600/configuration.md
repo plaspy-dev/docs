@@ -81,11 +81,11 @@ The MD600 can be configured via SMS commands. The sample commands below use the 
 ```
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port. Placeholders:
-  - {{apn}} = your SIM carrier APN
-  - {{apnu}} = APN username (optional)
-  - {{apnp}} = APN password (optional)
+  - [apn] = your SIM carrier APN
+  - [apnu] = APN username (optional)
+  - [apnp] = APN password (optional)
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Note: This command shows the IP address form used in the sample manufacturer guidance. You may enter d.plaspy.com in device tools or UIs that accept domain names instead of an IP.
 

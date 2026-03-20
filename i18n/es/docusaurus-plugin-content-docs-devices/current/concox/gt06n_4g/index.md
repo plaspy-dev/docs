@@ -1,6 +1,7 @@
 ---
 slug: /concox/gt06n_4g
 id: gt06n_4g
+sidebar_key: concogt06n_4g_index_gt06n_4g
 sidebar_label: GT06N 4G
 title: Concox - GT06N 4G
 sidebar_class_name: menu_item_tracker

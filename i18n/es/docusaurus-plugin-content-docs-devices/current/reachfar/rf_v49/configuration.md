@@ -81,7 +81,7 @@ El método de configuración del RF-V49 varía según el firmware de Reachfar y 
 - Establezca el puerto de reporte en 8888
 - Elija el transporte UDP o TCP si es necesario
 
-Si dispone de comandos SMS proporcionados por el fabricante o de un archivo de configuración, aplíquelos en el orden especificado por Reachfar. Conserve cualquier marcador de posición que use el fabricante (por ejemplo, si los comandos incluyen marcadores como {{apn}}, manténgalos y sustituya los valores correctos). Consulte la documentación de Reachfar para la sintaxis de comandos y ejemplos específicos para el firmware de su RF-V49.
+Si dispone de comandos SMS proporcionados por el fabricante o de un archivo de configuración, aplíquelos en el orden especificado por Reachfar. Conserve cualquier marcador de posición que use el fabricante (por ejemplo, si los comandos incluyen marcadores como [apn], manténgalos y sustituya los valores correctos). Consulte la documentación de Reachfar para la sintaxis de comandos y ejemplos específicos para el firmware de su RF-V49.
 
 ## Notas de configuración
 

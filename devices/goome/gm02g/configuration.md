@@ -82,9 +82,9 @@ The GM02G supports SMS-based configuration. The following public SMS commands ar
 FACTORY#
 ```
 
-- Set the operator APN. Replace the placeholders with your operator values. {{apn}} is required. {{apnu}} and {{apnp}} are optional username and password fields if your operator requires them:
+- Set the operator APN. Replace the placeholders with your operator values. [apn] is required. [apnu] and [apnp] are optional username and password fields if your operator requires them:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 Example explanation: If your APN is internet, send APN,internet# or include credentials when needed.
 
@@ -116,7 +116,7 @@ STATUS#
 - SMS-based configuration is a common public method for the GM02G; commands and syntax can vary by firmware version or vendor customization.
 - If the device or vendor tool supports hostnames, you can use d.plaspy.com instead of the IP address; the public SMS example uses the IP address 54.85.159.138.
 - Choose UDP or TCP according to installation needs; Plaspy supports both transports on port 8888 and will auto-detect the tracker protocol.
-- Preserve APN placeholders exactly as provided: {{apn}} for the operator APN, {{apnu}} for APN username, and {{apnp}} for APN password.
+- Preserve APN placeholders exactly as provided: [apn] for the operator APN, [apnu] for APN username, and [apnp] for APN password.
 - After saving settings, a power cycle or restart may be necessary for some firmware versions to apply changes.
 
 ## Why Use Plaspy with This Configuration

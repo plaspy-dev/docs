@@ -85,10 +85,10 @@ SRT;CONFIG
 SXADP**U
 
 # configuring the APN
-SRFA{{apn}}
+SRFA[apn]
 SRFI
-SRFL{{apnu}}
-SRFP{{apnp}}
+SRFL[apnu]
+SRFP[apnp]
 
 # The remote AVL server address and port
 SXADP0000d.plaspy.com;8888
@@ -123,12 +123,12 @@ Included in the example script. Consult manufacturer documentation for exact mea
 
 - APN settings with placeholders
 ```text
-SRFA{{apn}}
-SRFL{{apnu}}
-SRFP{{apnp}}
+SRFA[apn]
+SRFL[apnu]
+SRFP[apnp]
 SRFI
 ```
-Keep the placeholders {{apn}} for your carrier APN, {{apnu}} for APN username if required, and {{apnp}} for APN password if required. The SRFI line finalizes APN configuration in this example.
+Keep the placeholders [apn] for your carrier APN, [apnu] for APN username if required, and [apnp] for APN password if required. The SRFI line finalizes APN configuration in this example.
 
 - Remote server and port pointing to Plaspy
 ```text
@@ -146,9 +146,9 @@ SED05NV4;IP3+
 These lines are example destination and event trigger definitions from the script. Keep them in order if using the example script.
 
 Note about placeholders
-- {{apn}} Replace with the mobile network APN for your SIM carrier.
-- {{apnu}} Replace with the APN username if required by your carrier.
-- {{apnp}} Replace with the APN password if required by your carrier.
+- [apn] Replace with the mobile network APN for your SIM carrier.
+- [apnu] Replace with the APN username if required by your carrier.
+- [apnp] Replace with the APN password if required by your carrier.
 
 Always confirm the exact syntax required by your device firmware or Syrus Desk version before applying commands.
 

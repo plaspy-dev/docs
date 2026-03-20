@@ -81,7 +81,7 @@ The exact configuration commands and strings depend on the Gosafe configuration 
   - Port: 8888
   - Transport: UDP or TCP
 
-If you use a manufacturer SMS command interface or a text command file, follow the exact command syntax supplied by Gosafe for your firmware. The placeholders {{apn}}, {{apnu}}, and {{apnp}} are commonly used by some manufacturers for APN settings; if present in your Gosafe documentation preserve them and replace with the carrier APN values when required.
+If you use a manufacturer SMS command interface or a text command file, follow the exact command syntax supplied by Gosafe for your firmware. The placeholders [apn], [apnu], and [apnp] are commonly used by some manufacturers for APN settings; if present in your Gosafe documentation preserve them and replace with the carrier APN values when required.
 
 ## Configuration Notes
 

@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g08
 id: g08
+sidebar_key: gotog08_index_g08
 sidebar_label: G08
 title: GOTOP - G08
 sidebar_class_name: menu_item_tracker

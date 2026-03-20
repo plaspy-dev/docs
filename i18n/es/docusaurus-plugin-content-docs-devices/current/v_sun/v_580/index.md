@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/v_580
 id: v_580
+sidebar_key: v_suv_580_index_v_580
 sidebar_label: V-580
 title: V-SUN - V-580
 sidebar_class_name: menu_item_tracker

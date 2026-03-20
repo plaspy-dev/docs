@@ -81,12 +81,12 @@ The following SMS style commands are provided as public example configuration co
 
 - Set the operator APN
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explanation
-- {{apn}} is the mobile operator APN string required for data connections.
-- {{apnu}} is the APN username where required by the operator.
-- {{apnp}} is the APN password where required by the operator.
+- [apn] is the mobile operator APN string required for data connections.
+- [apnu] is the APN username where required by the operator.
+- [apnp] is the APN password where required by the operator.
 Replace the placeholders with your operator credentials exactly as required.
 
 - Set the GPRS server to Plaspy

@@ -80,7 +80,7 @@ The T303 transmits GNSS fixes and telemetry over GPRS to Plaspy using the shared
 
 The exact configuration commands and the method to send them depend on Ulbotech tools and the device firmware. Some installations use a USB tool, a manufacturer desktop application, or SMS command strings. Because manufacturer tools and firmware versions vary, follow the official Ulbotech configuration guide for specific commands and syntax. If your installation method supports SMS or command line configuration, apply the Plaspy endpoint (d.plaspy.com or 54.85.159.138) and port 8888 exactly as shown in the device tool.
 
-If you have an Ulbotech command list from the vendor, apply the server domain or IP and port in the same order recommended by Ulbotech, then save and restart the device. Preserve any placeholders from manufacturer examples such as {{apn}} or {{apnu}} and replace them with your SIM operator values when instructed.
+If you have an Ulbotech command list from the vendor, apply the server domain or IP and port in the same order recommended by Ulbotech, then save and restart the device. Preserve any placeholders from manufacturer examples such as [apn] or [apnu] and replace them with your SIM operator values when instructed.
 
 ## Configuration Notes
 

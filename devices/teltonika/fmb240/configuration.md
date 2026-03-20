@@ -22,7 +22,7 @@ keywords:
 
 This page covers the public configuration context for using the Teltonika FMB240 tracker with Plaspy. It summarizes the practical server settings, typical preparation steps, and an example command that is commonly used to point an FMB240 to Plaspy. The FMB240 is a compact IP67 rated device with CAN bus reading and Bluetooth LE support, and this guide explains how to prepare it for Plaspy integration using public configuration details.
 
-Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol, while the exact manufacturer side setup steps can vary by firmware, hardware revision, installation type, and vendor tools. Where available we include the common SMS style device command used to set server parameters and preserve placeholders such as {{apn}} so you can substitute carrier values as needed.
+Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol, while the exact manufacturer side setup steps can vary by firmware, hardware revision, installation type, and vendor tools. Where available we include the common SMS style device command used to set server parameters and preserve placeholders such as [apn] so you can substitute carrier values as needed.
 
 ## Configuration Overview
 
@@ -47,7 +47,7 @@ Applying the configuration prepares the FMB240 to send location and CAN derived 
 - A powered and operational FMB240 installed or accessible for configuration
 - A working SIM card with a data plan and correct APN details for the mobile operator
 - Access to the official Teltonika configuration method such as SMS commands or the manufacturer configuration tool
-- Knowledge of required APN values for your cellular provider to populate placeholders such as {{apn}} {{apnu}} and {{apnp}}
+- Knowledge of required APN values for your cellular provider to populate placeholders such as [apn] [apnu] and [apnp]
 - A test area with cellular coverage for the device bands supported by the tracker
 - Administrative access to Plaspy to confirm the device appears after configuration
 
@@ -78,13 +78,13 @@ The following public example command is commonly used to set basic parameters on
 - Example SMS style parameter command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and parameters
-- {{apn}} is the mobile data Access Point Name for your cellular operator
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required by the operator
+- [apn] is the mobile data Access Point Name for your cellular operator
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required by the operator
 - 2004 sets the server domain to d.plaspy.com which is Plaspy's public server domain
 - 2005 sets the server port to 8888 which Plaspy uses for all supported devices
 - 2006 is a transport selection parameter in the Teltonika setparam schema; consult Teltonika documentation to confirm the numeric values for UDP or TCP if needed

@@ -1,6 +1,7 @@
 ---
 slug: /orion/et_100
 id: et_100
+sidebar_key: orioet_100_index_et_100
 sidebar_label: ET-100
 title: Orion - ET-100
 sidebar_class_name: menu_item_tracker

@@ -85,9 +85,9 @@ Utilice esto únicamente si necesita restablecer el dispositivo a los valores de
 
 - Set the operator APN with placeholders
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-Reemplace {{apn}} por la cadena APN del operador. Reemplace {{apnu}} y {{apnp}} por el usuario y la contraseña del APN si son necesarios. Si el APN no requiere usuario ni contraseña, deje esos marcadores vacíos según lo permita el firmware del dispositivo.
+Reemplace [apn] por la cadena APN del operador. Reemplace [apnu] y [apnp] por el usuario y la contraseña del APN si son necesarios. Si el APN no requiere usuario ni contraseña, deje esos marcadores vacíos según lo permita el firmware del dispositivo.
 
 - Set the GPRS server to Plaspy using the server IP and port
 ```text
@@ -113,7 +113,7 @@ Nota sobre el envío de comandos: envíe cada comando como una única cadena SMS
 
 - Las diferencias de firmware y las versiones de las herramientas del proveedor pueden cambiar la sintaxis de los comandos y el significado de los parámetros. Confirme los comandos con la documentación del firmware del dispositivo.
 - La elección entre TCP y UDP puede afectar el comportamiento de entrega y el consumo de datos móviles. Seleccione el transporte que se ajuste a su red y a las expectativas de la plataforma.
-- Los marcadores de APN {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por los valores específicos del operador. Si el operador no requiere usuario o contraseña, esos campos normalmente pueden dejarse en blanco.
+- Los marcadores de APN [apn], [apnu] y [apnp] deben reemplazarse por los valores específicos del operador. Si el operador no requiere usuario o contraseña, esos campos normalmente pueden dejarse en blanco.
 - La configuración por SMS es un método práctico para instalaciones de campo, mientras que la herramienta para Windows puede ser más rápida para aprovisionamiento masivo o cuando se dispone de una conexión USB.
 - Tenga presente la contraseña por defecto 000000 para la configuración inicial y cámbiela si el flujo del dispositivo permite actualizar la contraseña tras el aprovisionamiento.
 

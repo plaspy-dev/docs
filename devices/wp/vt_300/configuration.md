@@ -75,7 +75,7 @@ When configured for Plaspy, the VT-300 sends its location and event messages to 
 
 The VT-300 supports multiple configuration mechanisms and the exact commands or menu steps depend on the manufacturer tool and firmware version. Because manufacturer SMS commands, serial commands, and vendor software interfaces vary by release, consult the WP configuration guide provided with the device for the exact syntax and any placeholders you must fill.
 
-If you use SMS based configuration, typical workflows will include replacing placeholders such as {{apn}} with your carrier APN values or providing credentials where required. When the manufacturer provides example commands, follow their exact order and syntax and preserve placeholders.
+If you use SMS based configuration, typical workflows will include replacing placeholders such as [apn] with your carrier APN values or providing credentials where required. When the manufacturer provides example commands, follow their exact order and syntax and preserve placeholders.
 
 ## Configuration Notes
 

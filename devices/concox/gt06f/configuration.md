@@ -89,13 +89,13 @@ GMT,E,0#
 
 - Set the operator APN
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If your operator requires username or password include them as placeholders:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the operator APN, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required.
+Note: [apn] is the operator APN, [apnu] is the APN username if required, and [apnp] is the APN password if required.
 
 - Set the GPRS server to Plaspy using the domain (recommended)
 ```text
@@ -134,7 +134,7 @@ Send each SMS command to the device number and wait for confirmation SMS respons
 - Some firmware revisions require different transport flags or slightly different command parameters; check the device response SMS for confirmation.
 - Choose UDP or TCP based on your installation and network conditions; Plaspy accepts either on port 8888 and will detect the protocol automatically.
 - When using domain based SERVER commands the device must be able to resolve DNS; if DNS is unavailable you can use the Plaspy IP alternative.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} as provided and replace them with operator specific values when sending commands.
+- Keep APN placeholders [apn], [apnu], and [apnp] as provided and replace them with operator specific values when sending commands.
 
 ## Why Use Plaspy with This Configuration
 

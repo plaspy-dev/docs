@@ -83,7 +83,7 @@ Si dispone de una lista de comandos públicos del fabricante, inclúyalos aquí 
 - Port to 8888
 - Transport to UDP or TCP if prompted
 
-Nota: Cuando los comandos del fabricante incluyan marcadores de posición como {{apn}} o {{apnu}} conserve esos marcadores y sustituya las credenciales APN de su operador cuando la herramienta del dispositivo lo solicite.
+Nota: Cuando los comandos del fabricante incluyan marcadores de posición como [apn] o [apnu] conserve esos marcadores y sustituya las credenciales APN de su operador cuando la herramienta del dispositivo lo solicite.
 
 ## Notas de configuración
 

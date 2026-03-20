@@ -88,12 +88,12 @@ Label: optional initial factory reset when required by your deployment.
 
 - APN and GPRS server setup command
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explanation:
-- Replace {{apn}} with your mobile operator APN name.
-- Replace {{apnu}} with the APN username if required by your operator, or leave blank if none.
-- Replace {{apnp}} with the APN password if required, or leave blank if none.
+- Replace [apn] with your mobile operator APN name.
+- Replace [apnu] with the APN username if required by your operator, or leave blank if none.
+- Replace [apnp] with the APN password if required, or leave blank if none.
 - This command points the device to the Plaspy server IP 54.85.159.138 and port 8888, and sets reporting and sleep related parameters as provided in the manufacturer's example.
 
 - Verification command to check current WWW settings
@@ -109,7 +109,7 @@ Note: The manufacturer example uses the server IP 54.85.159.138 rather than the 
 - Firmware and OS revisions can change the exact SMS syntax and available parameters; always confirm with the TopTen documentation for your device firmware.
 - The PT99 example uses SMS for configuration; some deployments may also provide a vendor tool or configuration utility—use the official method you have available.
 - When a device requires a transport selection, try UDP or TCP on port 8888 depending on installer preference; Plaspy will accept either and detect the protocol automatically.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} as shown; replace them with values from your mobile operator.
+- Keep APN placeholders [apn], [apnu], and [apnp] as shown; replace them with values from your mobile operator.
 - The device identifier used by Plaspy is derived from the IMEI; the PT99 tracker ID corresponds to the last 14 digits returned in the PAR response.
 
 ## Why Use Plaspy with This Configuration

@@ -87,15 +87,15 @@ time zone123456 0
 
 - Establecer el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Explicación: reemplace {{apn}} por el nombre del APN de su operador móvil.
+Explicación: reemplace [apn] por el nombre del APN de su operador móvil.
 
 - Establecer nombre de usuario y contraseña del APN si son necesarios
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Explicación: reemplace {{apnu}} por el usuario del APN y {{apnp}} por la contraseña del APN. Envíe este comando solo si su APN requiere autenticación.
+Explicación: reemplace [apnu] por el usuario del APN y [apnp] por la contraseña del APN. Envíe este comando solo si su APN requiere autenticación.
 
 - Establecer el servidor GPRS hacia Plaspy usando la IP y el puerto
 ```text
@@ -124,7 +124,7 @@ Use estos comandos SMS en el orden mostrado al realizar una configuración inici
 - Las versiones de firmware del fabricante pueden cambiar la sintaxis de los comandos y los parámetros aceptados. Verifique la sintaxis SMS exacta en la documentación NVS correspondiente a su revisión de firmware.
 - El dispositivo admite configuración vía SMS según el ejemplo público, pero también pueden existir herramientas del proveedor o utilidades de PC que simplifiquen despliegues masivos.
 - Elija UDP o TCP según las necesidades de su instalación; Plaspy admite ambos y detectará automáticamente el comportamiento del protocolo cuando el dispositivo se conecte.
-- Recuerde reemplazar los marcadores como {{apn}}, {{apnu}} y {{apnp}} con valores reales del operador antes de enviar los comandos.
+- Recuerde reemplazar los marcadores como [apn], [apnu] y [apnp] con valores reales del operador antes de enviar los comandos.
 - Después de aplicar los ajustes de servidor y APN, cambiar a modo GPRS y reiniciar la unidad suele completar la secuencia de activación.
 
 ## Por qué usar Plaspy con esta configuración

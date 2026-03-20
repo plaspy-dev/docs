@@ -73,15 +73,15 @@ The EV02 connects to Plaspy by establishing a GPRS session and sending location 
 
 ## Example Configuration Commands
 
-The EV02 supports SMS-based configuration. Send these commands from an authorized phone number to the device in the order shown. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier values when sending.
+The EV02 supports SMS-based configuration. Send these commands from an authorized phone number to the device in the order shown. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your carrier values when sending.
 
 - Configure the carrier APN (replace placeholders with your carrier values):
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 If your carrier requires username and password, include them:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Set the GPRS server to Plaspy (server entry 1 pointing to d.plaspy.com on port 8888):
 ```
@@ -105,8 +105,8 @@ STATUS#
 ```
 
 Notes on placeholders:
-- {{apn}} is the carrier APN string required to open a GPRS session.  
-- {{apnu}} and {{apnp}} are optional APN username and password fields when the carrier requires credentials.
+- [apn] is the carrier APN string required to open a GPRS session.  
+- [apnu] and [apnp] are optional APN username and password fields when the carrier requires credentials.
 
 ## Configuration Notes
 

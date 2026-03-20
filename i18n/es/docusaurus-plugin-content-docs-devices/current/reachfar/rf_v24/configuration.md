@@ -95,7 +95,7 @@ o
 settransport tcp
 ```
 
-Nota: Los bloques anteriores son patrones ilustrativos. Use la sintaxis exacta del manual Reachfar o de la herramienta de su proveedor. Si en los comandos del proveedor aparecen marcadores como {{apn}}, {{apnu}} o {{apnp}}, déjelos tal como están y reemplácelos por el APN, usuario APN y contraseña APN de su operador celular cuando el dispositivo lo requiera.
+Nota: Los bloques anteriores son patrones ilustrativos. Use la sintaxis exacta del manual Reachfar o de la herramienta de su proveedor. Si en los comandos del proveedor aparecen marcadores como [apn], [apnu] o [apnp], déjelos tal como están y reemplácelos por el APN, usuario APN y contraseña APN de su operador celular cuando el dispositivo lo requiera.
 
 ## Notas de configuración
 

@@ -83,7 +83,7 @@ El GV3 admite métodos de configuración del fabricante como comandos SMS o soft
 - Elija UDP o TCP según las recomendaciones del fabricante y la fiabilidad de la red; Plaspy detectará automáticamente el protocolo del dispositivo una vez que lleguen los datos.
 - Debido a que Plaspy utiliza el mismo puerto para todos los dispositivos, confirme que el puerto 8888 esté configurado correctamente en el rastreador para evitar problemas de conectividad.
 - Si configura el dispositivo por SMS, permita un breve tiempo de propagación y reinicie el rastreador si los cambios no parecen aplicarse.
-- Tenga a la mano los ajustes de APN y SIM si el dispositivo los requiere; los marcadores de posición como {{apn}}, {{apnu}} o {{apnp}} a veces se usan en plantillas del fabricante para indicar los valores del operador.
+- Tenga a la mano los ajustes de APN y SIM si el dispositivo los requiere; los marcadores de posición como [apn], [apnu] o [apnp] a veces se usan en plantillas del fabricante para indicar los valores del operador.
 
 ## Por qué usar Plaspy con esta configuración
 

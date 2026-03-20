@@ -48,7 +48,7 @@ These values are the public Plaspy endpoint settings for the AoYa T2D. Plaspy us
 
 - A powered and installed AoYa T2D tracker with access to its SMS command interface.
 - A working 2G GSM/GPRS SIM card with data enabled and the correct APN for the mobile operator.
-- Knowledge of the APN and, if required, APN username and password for your SIM (placeholders appear below as {{apn}}, {{apnu}}, {{apnp}}).
+- Knowledge of the APN and, if required, APN username and password for your SIM (placeholders appear below as [apn], [apnu], [apnp]).
 - Basic access to the device's default password or credentials used for SMS setup (the public example uses 123456).
 - A phone capable of sending SMS commands to the device and the ability to receive SMS responses for verification.
 - Access to the official manufacturer documentation or installer tools for reference.
@@ -66,7 +66,7 @@ The AoYa T2D is configured to use GPRS to send location and device data to the P
 ## Common Configuration Workflow
 
 1. Access the official manufacturer configuration method, typically SMS commands for the T2D or the vendor installer tool, and confirm the device default password.
-2. Set the APN for your mobile operator using the SMS command with the APN placeholder {{apn}} and provide APN credentials if required.
+2. Set the APN for your mobile operator using the SMS command with the APN placeholder [apn] and provide APN credentials if required.
 3. Enter the Plaspy server address by sending either d.plaspy.com or the IP 54.85.159.138, and set the port to 8888.
 4. Choose the transport mode UDP or TCP if the device requires an explicit selection.
 5. Apply or save the configuration and, if applicable, restart the device or trigger a reconnect so the new GPRS session starts.
@@ -86,14 +86,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set APN username and password if required (replace {{apnu}} and {{apnp}} with the actual credentials):
+- Set APN username and password if required (replace [apnu] and [apnp] with the actual credentials):
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port:
@@ -117,9 +117,9 @@ check123456
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator APN name.
-- {{apnu}} is the APN username when required.
-- {{apnp}} is the APN password when required.
+- [apn] is the mobile operator APN name.
+- [apnu] is the APN username when required.
+- [apnp] is the APN password when required.
 - Replace 123456 with the device password if you have changed it from the factory default.
 
 ## Configuration Notes

@@ -1,6 +1,7 @@
 ---
 slug: /concox/qbit_m
 id: qbit_m
+sidebar_key: concoqbit_m_index_qbit_m
 sidebar_label: Qbit M
 title: Concox - Qbit M
 sidebar_class_name: menu_item_tracker

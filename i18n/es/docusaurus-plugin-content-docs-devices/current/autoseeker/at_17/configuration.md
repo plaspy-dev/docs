@@ -79,7 +79,7 @@ Si su firmware del AT-17 admite configuración por comandos SMS, los pasos públ
 - Use la lista oficial de comandos de Autoseeker para establecer el dominio o la IP del servidor, el puerto y el transporte.
 - Proporcione las credenciales APN si el operador de la SIM las requiere, usando el formato de comando APN del dispositivo.
 
-Note: The device specific SMS or serial command syntax is maintained by Autoseeker. Refer to the official user manual for command examples and placeholders such as {{apn}}, {{apnu}}, and {{apnp}} if present in vendor instructions.
+Note: The device specific SMS or serial command syntax is maintained by Autoseeker. Refer to the official user manual for command examples and placeholders such as [apn], [apnu], and [apnp] if present in vendor instructions.
 
 ## Notas de configuración
 

@@ -1,6 +1,7 @@
 ---
 slug: /eelink/k30
 id: k30
+sidebar_key: eelink30_index_k30
 sidebar_label: K30
 title: EElink - K30
 sidebar_class_name: menu_item_tracker

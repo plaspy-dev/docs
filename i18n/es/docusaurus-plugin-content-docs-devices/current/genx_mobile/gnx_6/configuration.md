@@ -79,7 +79,7 @@ Siga estos pasos prácticos y públicos para configurar un GNX-6 con Plaspy. Los
 
 El método de configuración del GNX-6 varía según el firmware de GenX Mobile y la herramienta del proveedor. Dado que GenX Mobile ofrece diferentes interfaces de configuración, no se presentan aquí comandos o cadenas SMS exactas. Consulte la guía de configuración oficial de GenX Mobile o la herramienta del fabricante para la sintaxis y los ejemplos precisos.
 
-Si recibe ejemplos de comandos de GenX Mobile o de un revendedor, aplíquelos en el orden recomendado por el fabricante y mantenga los marcadores como {{apn}}, {{apnu}} o {{apnp}} exactamente como se proporcionan hasta que los reemplace por los valores de su operador.
+Si recibe ejemplos de comandos de GenX Mobile o de un revendedor, aplíquelos en el orden recomendado por el fabricante y mantenga los marcadores como [apn], [apnu] o [apnp] exactamente como se proporcionan hasta que los reemplace por los valores de su operador.
 
 ## Notas de configuración
 

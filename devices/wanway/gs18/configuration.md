@@ -78,16 +78,16 @@ The GS18 supports SMS based configuration. The following commands are public exa
 
 1. Configure your carrier APN
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If your carrier requires a username and password, use the extended form
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Explanation of placeholders
-  - {{apn}} is the carrier APN name
-  - {{apnu}} is the APN username if required by the operator
-  - {{apnp}} is the APN password if required by the operator
+  - [apn] is the carrier APN name
+  - [apnu] is the APN username if required by the operator
+  - [apnp] is the APN password if required by the operator
 
 2. Setup the GPRS server to Plaspy
 ```

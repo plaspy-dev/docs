@@ -86,13 +86,13 @@ Note: This resets the device to factory defaults. Use only if you need to restor
 ```text
 000000GID<14-digit-identifier>
 ```
-Explanation: Use the last 14 digits of the IMEI as the identifier if you follow the common Plaspy convention. Replace \<14-digit-identifier> with the actual 14 digits.
+Explanation: Use the last 14 digits of the IMEI as the identifier if you follow the common Plaspy convention. Replace \\<14-digit-identifier> with the actual 14 digits.
 
 - Set the APN for the operator
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explanation: Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}}. Fill {{apn}} with the operator APN. Use {{apnu}} for APN username and {{apnp}} for APN password if required by the mobile operator. If no username or password is needed, omit those values or leave them blank according to the device SMS syntax.
+Explanation: Keep the placeholders [apn], [apnu], and [apnp]. Fill [apn] with the operator APN. Use [apnu] for APN username and [apnp] for APN password if required by the mobile operator. If no username or password is needed, omit those values or leave them blank according to the device SMS syntax.
 
 - Set the GPRS server to Plaspy using the public IP and port
 ```text

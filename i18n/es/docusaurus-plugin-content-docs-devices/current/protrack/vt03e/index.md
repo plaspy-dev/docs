@@ -1,6 +1,7 @@
 ---
 slug: /protrack/vt03e
 id: vt03e
+sidebar_key: protracvt03e_index_vt03e
 sidebar_label: VT03E+
 title: Protrack - VT03E+
 sidebar_class_name: menu_item_tracker

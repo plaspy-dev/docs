@@ -83,14 +83,14 @@ RESET*123456
 TIMEZONE*123456*+00
 ```
 
-- Configurar el APN del operador móvil (reemplazar {{apn}} por el APN de su operador):
+- Configurar el APN del operador móvil (reemplazar [apn] por el APN de su operador):
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
-- Establecer usuario y contraseña APN si son requeridos (reemplazar {{apnu}} y {{apnp}} por las credenciales del operador):
+- Establecer usuario y contraseña APN si son requeridos (reemplazar [apnu] y [apnp] por las credenciales del operador):
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Configurar el servidor GPRS a Plaspy usando la IP pública y el puerto:
@@ -104,8 +104,8 @@ KEEPONLINE*123456
 ```
 
 Notas sobre los marcadores y la contraseña
-- {{apn}} es el APN proporcionado por su operador móvil.
-- {{apnu}} y {{apnp}} son opcionales y corresponden al usuario y contraseña APN que algunos operadores exigen.
+- [apn] es el APN proporcionado por su operador móvil.
+- [apnu] y [apnp] son opcionales y corresponden al usuario y contraseña APN que algunos operadores exigen.
 - 123456 aparece como la contraseña predeterminada en ejemplos públicos del CC-318; confirme o cambie la contraseña conforme a su política de seguridad.
 
 ## Notas de configuración

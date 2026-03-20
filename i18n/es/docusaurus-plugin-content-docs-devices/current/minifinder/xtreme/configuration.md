@@ -82,11 +82,11 @@ El MiniFinder Xtreme puede configurarse usando comandos SMS. Los siguientes coma
 tz+00
 ```
 
-- Establecer el APN del operador. Reemplace los marcadores con los valores de su operador de SIM. {{apn}} es obligatorio. {{apnu}} y {{apnp}} son marcadores opcionales de usuario y contraseña que algunos operadores requieren.
+- Establecer el APN del operador. Reemplace los marcadores con los valores de su operador de SIM. [apn] es obligatorio. [apnu] y [apnp] son marcadores opcionales de usuario y contraseña que algunos operadores requieren.
 ```text
-S1,{{apn}}{{,{{apnu}},{{apnp}}}}
+S1,[apn]{{,[apnu],[apnp]}}
 ```
-Explicación: Si su operador requiere usuario y contraseña de APN incluya los valores adicionales. Si no, envíe solo S1,{{apn}}.
+Explicación: Si su operador requiere usuario y contraseña de APN incluya los valores adicionales. Si no, envíe solo S1,[apn].
 
 - Establecer el servidor GPRS con la IP y el puerto de Plaspy
 ```text
@@ -102,7 +102,7 @@ Notas:
 - El Xtreme soporta la configuración por SMS como se describe, pero las herramientas del proveedor o portales de servicio pueden ofrecer métodos alternativos.
 - Elija TCP o UDP según la preferencia del instalador y el soporte del firmware; Plaspy acepta ambos y detecta automáticamente el protocolo usado.
 - Dado que Plaspy usa el mismo puerto para todos los dispositivos, asegúrese de que el puerto 8888 esté configurado correctamente en el rastreador para evitar problemas de conectividad.
-- Si los comandos contienen marcadores como {{apn}}, {{apnu}} o {{apnp}}, sustitúyalos por los valores específicos de su operador antes de enviarlos.
+- Si los comandos contienen marcadores como [apn], [apnu] o [apnp], sustitúyalos por los valores específicos de su operador antes de enviarlos.
 
 ## Por qué usar Plaspy con esta configuración
 

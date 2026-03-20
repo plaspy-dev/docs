@@ -71,7 +71,7 @@ The AS3 sends position and event data to the Plaspy server endpoint and port so 
 
 ## Example Configuration Commands
 
-The following public AS3 commands are provided in ATrack example content. They are shown in order and preserve placeholders used for APN configuration. Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier APN, username, and password as needed.
+The following public AS3 commands are provided in ATrack example content. They are shown in order and preserve placeholders used for APN configuration. Keep the placeholders [apn], [apnu], and [apnp] and replace them with your carrier APN, username, and password as needed.
 
 - Set ACC input event reporting and related actions
 ```text
@@ -93,9 +93,9 @@ AT$FORM=1,@P,0,""
 
 - Configure GPRS server and APN with Plaspy IP and port
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-Note: {{apn}} is the mobile network APN, {{apnu}} is the APN username, and {{apnp}} is the APN password. Replace these placeholders with your SIM provider values. Plaspy also publishes the domain d.plaspy.com; if your firmware accepts domain names you may choose to use d.plaspy.com instead of the IP after confirming with ATrack documentation.
+Note: [apn] is the mobile network APN, [apnu] is the APN username, and [apnp] is the APN password. Replace these placeholders with your SIM provider values. Plaspy also publishes the domain d.plaspy.com; if your firmware accepts domain names you may choose to use d.plaspy.com instead of the IP after confirming with ATrack documentation.
 
 - Check device status
 ```text

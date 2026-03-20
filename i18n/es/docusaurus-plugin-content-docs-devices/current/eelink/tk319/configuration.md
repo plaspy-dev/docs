@@ -89,13 +89,13 @@ GMT,E,0#
 
 - Establecer el APN del operador. Reemplace los marcadores por los valores de su operador:
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
-Si su APN requiere usuario y contraseña incluya la siguiente forma donde {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN:
+Si su APN requiere usuario y contraseña incluya la siguiente forma donde [apnu] es el usuario del APN y [apnp] es la contraseña del APN:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por sus valores reales del operador.
+Nota: mantenga los marcadores [apn], [apnu] y [apnp] y sustitúyalos por sus valores reales del operador.
 
 - Configurar el servidor GPRS para usar el dominio Plaspy en el puerto compartido:
 ```text
@@ -117,7 +117,7 @@ TIMER,60#
 PARAM#
 ```
 
-Siga la sintaxis SMS del fabricante exactamente. Los marcadores como {{apn}} deben reemplazarse por el APN de su operador. Los ejemplos anteriores respetan el orden público de comandos cuando corresponde.
+Siga la sintaxis SMS del fabricante exactamente. Los marcadores como [apn] deben reemplazarse por el APN de su operador. Los ejemplos anteriores respetan el orden público de comandos cuando corresponde.
 
 ## Notas de configuración
 

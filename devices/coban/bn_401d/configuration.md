@@ -73,7 +73,7 @@ The BN-401D is configured to send GPS positions, alarm events, and device state 
 
 ## Example Configuration Commands
 
-The BN-401D supports SMS configuration commands. The public sample commands below use the device default password 123456. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when substituting your mobile operator values.
+The BN-401D supports SMS configuration commands. The public sample commands below use the device default password 123456. Preserve the placeholders [apn], [apnu], and [apnp] when substituting your mobile operator values.
 
 - Optional initial factory reset (use only when needed)
 ```text
@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username and password (replace {{apnu}} and {{apnp}} with operator credentials)
+- Set the APN username and password (replace [apnu] and [apnp] with operator credentials)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP and port
@@ -125,8 +125,8 @@ protocol123456 18
 ```
 
 Notes on placeholders and commands
-- {{apn}} is the mobile operator APN string required for data connectivity.
-- {{apnu}} and {{apnp}} are the APN username and password where the operator requires authentication; many operators use empty values.
+- [apn] is the mobile operator APN string required for data connectivity.
+- [apnu] and [apnp] are the APN username and password where the operator requires authentication; many operators use empty values.
 - The example adminip command above sets the device to report to the Plaspy server IP 54.85.159.138 on port 8888. You may alternatively use the domain d.plaspy.com if your device resolves domain names via DNS.
 
 ## Configuration Notes

@@ -86,9 +86,9 @@ RESET
 
 - Set the operator APN and optional username and password
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-Explanation: keep the placeholders as shown. {{apn}} is your mobile operator APN. {{apnu}} is the APN username and {{apnp}} is the APN password. If your operator does not require username or password, leave those fields blank as specified by the device instructions.
+Explanation: keep the placeholders as shown. [apn] is your mobile operator APN. [apnu] is the APN username and [apnp] is the APN password. If your operator does not require username or password, leave those fields blank as specified by the device instructions.
 
 - Configure the GPRS server to point to Plaspy by IP and port
 ```text

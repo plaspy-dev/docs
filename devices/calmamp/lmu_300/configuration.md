@@ -83,15 +83,15 @@ The LMU-300 public SMS commands for basic setup are published by CalmAmp. Send t
 ```
 - Set the operator APN
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 - Set the APN operator username (if applicable)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 - Set the APN operator password (if applicable)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 - Set the GPRS server to Plaspy by IP
 ```text
@@ -111,8 +111,8 @@ The LMU-300 public SMS commands for basic setup are published by CalmAmp. Send t
 ```
 
 Notes on placeholders and usage:
-- {{apn}} is a placeholder for your mobile operator APN string.
-- {{apnu}} and {{apnp}} are placeholders for APN username and APN password if your operator requires them.
+- [apn] is a placeholder for your mobile operator APN string.
+- [apnu] and [apnp] are placeholders for APN username and APN password if your operator requires them.
 - Preserve the order above: set APN first, then server and port, then reboot.
 - If the device requires including the 10 digit MID as an ID prefix in SMS commands, include it as per device requirements after obtaining it with !R0.
 

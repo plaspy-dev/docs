@@ -1,6 +1,7 @@
 ---
 slug: /pointer/cello_track_8m
 id: cello_track_8m
+sidebar_key: pointecello_track_8m_index_cello_track_8m
 sidebar_label: Cello Track 8M
 title: Pointer - Cello Track 8M
 sidebar_class_name: menu_item_tracker

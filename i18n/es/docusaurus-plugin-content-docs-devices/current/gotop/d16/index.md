@@ -1,6 +1,7 @@
 ---
 slug: /gotop/d16
 id: d16
+sidebar_key: gotod16_index_d16
 sidebar_label: D16
 title: GOTOP - D16
 sidebar_class_name: menu_item_tracker

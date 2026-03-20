@@ -90,11 +90,11 @@ El TK103 soporta configuración por SMS. Los siguientes comandos públicos muest
 
 3. Establecer el APN del operador
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-- {{apn}} es el nombre del punto de acceso de la red para el operador de la SIM
-- {{apnu}} es el nombre de usuario del APN si el operador lo requiere
-- {{apnp}} es la contraseña del APN si el operador lo requiere
+- [apn] es el nombre del punto de acceso de la red para el operador de la SIM
+- [apnu] es el nombre de usuario del APN si el operador lo requiere
+- [apnp] es la contraseña del APN si el operador lo requiere
 - Si su operador solo requiere un APN, envíe el APN y omita el usuario y la contraseña según lo permita su dispositivo
 
 4. Configurar el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy

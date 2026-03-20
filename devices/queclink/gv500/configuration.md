@@ -77,7 +77,7 @@ If the device uses SMS commands for configuration, send the properly formatted S
 
 ## Example Configuration Commands
 
-The following public SMS commands are a common example sequence for QuecLink GV500 devices. These commands are typically sent by SMS to the device phone number. The sample commands use the default device password queclink where required. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN, APN username, and APN password.
+The following public SMS commands are a common example sequence for QuecLink GV500 devices. These commands are typically sent by SMS to the device phone number. The sample commands use the default device password queclink where required. Preserve the placeholders [apn], [apnu], and [apnp] and replace them with your operator APN, APN username, and APN password.
 
 - Optional initial step to restore factory settings
 ```text
@@ -91,9 +91,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Set the operator APN and optional APN credentials
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explanation: replace {{apn}} with your operator APN. If your carrier requires username or password, replace {{apnu}} and {{apnp}} accordingly. If not required, leave those placeholders empty per your device command syntax.
+Explanation: replace [apn] with your operator APN. If your carrier requires username or password, replace [apnu] and [apnp] accordingly. If not required, leave those placeholders empty per your device command syntax.
 
 - Set the GPRS server to Plaspy using both domain and IP with port 8888
 ```text

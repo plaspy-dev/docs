@@ -80,13 +80,13 @@ To configure basic parameters on an FMB110, Teltonika devices commonly accept a 
 - Example batch parameter command (preserve placeholders):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - What the placeholders mean
-  - {{apn}} : APN name for the SIM card provider
-  - {{apnu}} : APN username if required by the operator
-  - {{apnp}} : APN password if required by the operator
+  - [apn] : APN name for the SIM card provider
+  - [apnu] : APN username if required by the operator
+  - [apnp] : APN password if required by the operator
 
 Note: This example shows the use of d.plaspy.com and port 8888 as required by Plaspy. The final parameter in the batch often selects transport mode or other device behavior. Consult Teltonika documentation or the Configurator for the exact meaning of numbered parameters and accepted values for your firmware version.
 

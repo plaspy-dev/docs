@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN (replace placeholders with your SIM/APN details)
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} = APN name from your mobile operator
-- {{apnu}} = APN username if required (leave blank if not used)
-- {{apnp}} = APN password if required (leave blank if not used)
+- [apn] = APN name from your mobile operator
+- [apnu] = APN username if required (leave blank if not used)
+- [apnp] = APN password if required (leave blank if not used)
 
 4. Configure the GPRS server to report to Plaspy (domain and IP with port 8888)
 ```
@@ -116,7 +116,7 @@ Estos comandos SMS reflejan un flujo de configuración público. Si utiliza el s
 - Plaspy acepta tanto TCP como UDP en el puerto 8888 y detectará automáticamente el protocolo del rastreador; elija el transporte que coincida con su red y el comportamiento del firmware.
 - Las revisiones de firmware y las variantes regionales de hardware pueden cambiar la sintaxis de comandos o las funciones disponibles; verifique los comandos con el manual del QuecLink GV310LAU correspondiente a su firmware.
 - Mantenga la contraseña por defecto en los ejemplos solo si entiende las implicaciones de seguridad del equipo; cambie las contraseñas del dispositivo después del aprovisionamiento cuando sea apropiado.
-- Los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por las credenciales de su operador al enviar los comandos.
+- Los marcadores de posición como [apn], [apnu] y [apnp] deben reemplazarse por las credenciales de su operador al enviar los comandos.
 
 ## Por qué usar Plaspy con esta configuración
 

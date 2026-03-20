@@ -1,6 +1,7 @@
 ---
 slug: /enfora/mini_mt
 id: mini_mt
+sidebar_key: enformini_mt_index_mini_mt
 sidebar_label: Mini MT
 title: Enfora - Mini MT
 sidebar_class_name: menu_item_tracker

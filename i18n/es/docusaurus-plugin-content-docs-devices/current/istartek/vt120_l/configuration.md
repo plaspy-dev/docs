@@ -73,7 +73,7 @@ El VT120-L se configura para enviar mensajes de ubicación y estado al endpoint 
 
 ## Comandos de ejemplo para configuración
 
-El VT120-L puede configurarse enviando comandos por SMS. Los comandos abajo se presentan en el orden típico usado en guías públicas. Conserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} cuando inserte los valores de su operador.
+El VT120-L puede configurarse enviando comandos por SMS. Los comandos abajo se presentan en el orden típico usado en guías públicas. Conserve los marcadores de posición como [apn], [apnu] y [apnp] cuando inserte los valores de su operador.
 
 - Reinicio opcional a configuración de fábrica (usar sólo si es necesario revertir a valores por defecto)
 ```text
@@ -85,9 +85,9 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} con el APN de su operador. Si su operador requiere usuario y contraseña incluya {{apnu}} y {{apnp}} respectivamente; omítalos si no son necesarios.
+- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si su operador requiere usuario y contraseña incluya [apnu] y [apnp] respectivamente; omítalos si no son necesarios.
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS por dominio apuntando a Plaspy (usa el índice de servidor 1 del dispositivo)
@@ -113,7 +113,7 @@ PARAM#
 Notas sobre los comandos anteriores
 - Envíe cada comando como un SMS separado al VT120-L según las instrucciones del dispositivo.
 - El comando SERVER puede usar el dominio d.plaspy.com o la IP del servidor Plaspy 54.85.159.138; ambos apuntan a Plaspy en el puerto 8888.
-- El comando APN incluye los marcadores {{apn}}, {{apnu}} y {{apnp}}. Reemplace estos con el APN, usuario y contraseña de su operador cuando correspondan.
+- El comando APN incluye los marcadores [apn], [apnu] y [apnp]. Reemplace estos con el APN, usuario y contraseña de su operador cuando correspondan.
 - El comando FACTORY# es opcional y sólo debe utilizarse cuando sea necesario reiniciar a valores de fábrica.
 
 ## Observaciones sobre la configuración

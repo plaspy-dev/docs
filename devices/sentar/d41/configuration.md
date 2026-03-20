@@ -91,9 +91,9 @@ pw,123456,imsi#
 
 - Set the operator APN where xxx is MCC and yy is MNC
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explanation: {{apn}} is the operator APN, {{apnu}} is the APN username, and {{apnp}} is the APN password. Replace xxxyy with the carrier MCC and MNC concatenated where required.
+Explanation: [apn] is the operator APN, [apnu] is the APN username, and [apnp] is the APN password. Replace xxxyy with the carrier MCC and MNC concatenated where required.
 
 - Set GPRS server to point the device at Plaspy (public example)
 ```text
@@ -118,7 +118,7 @@ pw,123456,ts#
 - The D41 supports SMS-based provisioning as shown in the public commands; if a software or web provisioning tool is available from the vendor, prefer that tool for bulk deployments.
 - Choose UDP or TCP depending on network reliability and device firmware support; Plaspy accepts either transport on the shared port and detects the protocol automatically.
 - Plaspy uses the same port (8888) for all supported devices, so confirming the port value is critical during setup.
-- When placeholders like {{apn}}, {{apnu}}, and {{apnp}} are present, replace them with your carrier values; incorrect APN settings will prevent GPRS registration.
+- When placeholders like [apn], [apnu], and [apnp] are present, replace them with your carrier values; incorrect APN settings will prevent GPRS registration.
 
 ## Why Use Plaspy with This Configuration
 

@@ -83,21 +83,21 @@ El LMU-2100 puede configurarse enviando comandos SMS a la unidad. Los comandos q
 
 - Establecer el APN del operador
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
-Reemplace {{apn}} con el APN de su operador móvil.
+Reemplace [apn] con el APN de su operador móvil.
 
 - Establecer el nombre de usuario del APN (si es necesario)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
-Reemplace {{apnu}} con el nombre de usuario del APN. Omitir si su APN no requiere usuario.
+Reemplace [apnu] con el nombre de usuario del APN. Omitir si su APN no requiere usuario.
 
 - Establecer la contraseña del APN (si es necesario)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
-Reemplace {{apnp}} con la contraseña del APN. Omitir si no se requiere.
+Reemplace [apnp] con la contraseña del APN. Omitir si no se requiere.
 
 - Establecer el servidor GPRS a Plaspy por IP
 ```text
@@ -131,7 +131,7 @@ Nota: El comando !R0 puede usarse para solicitar el MID del dispositivo, que se 
 - El LMU-2100 soporta CalAmp PULS para programación OTA y el equipo puede aceptar también la configuración por SMS como se mostró en los ejemplos.
 - Elija UDP o TCP según la fiabilidad de la red y las necesidades de la instalación; Plaspy acepta cualquiera de los dos transportes en el puerto 8888.
 - Todos los dispositivos en Plaspy usan el mismo puerto y Plaspy realiza detección automática de protocolo, por lo que no es necesaria la selección de protocolo en la plataforma.
-- Al usar comandos SMS conserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores específicos de su operador móvil.
+- Al usar comandos SMS conserve los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los valores específicos de su operador móvil.
 
 ## Por qué usar Plaspy con esta configuración
 

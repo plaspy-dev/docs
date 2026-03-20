@@ -77,7 +77,7 @@ When configured for Plaspy, the LK970 reports position and status data to the pl
 
 The exact configuration commands and syntax used to set the LK970 server, transport, and port depend on the LK-GPS firmware and the manufacturer-provided command set or configuration tool. Some installations use SMS commands while others use a configuration app or desktop utility. Consult the LK-GPS documentation or vendor tool for the precise command format for your device and firmware.
 
-If your LK970 firmware supports SMS configuration, you will typically send SMS strings provided by the manufacturer to set server address, port, and transport. Preserve any placeholders supplied by manufacturer documentation, for example placeholders such as {{apn}} or similar when configuring network parameters.
+If your LK970 firmware supports SMS configuration, you will typically send SMS strings provided by the manufacturer to set server address, port, and transport. Preserve any placeholders supplied by manufacturer documentation, for example placeholders such as [apn] or similar when configuring network parameters.
 
 ## Configuration Notes
 

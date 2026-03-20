@@ -1,6 +1,7 @@
 ---
 slug: /gpsmarker/m100
 id: m100
+sidebar_key: gpsmarkem100_index_m100
 sidebar_label: M100
 title: GPSMarker - M100
 sidebar_class_name: menu_item_tracker

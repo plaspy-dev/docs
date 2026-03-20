@@ -74,18 +74,18 @@ The FMC003 is configured to send location and OBD telemetry to Plaspy using the 
 
 ## Example Configuration Commands
 
-The FMC003 can accept batch parameter commands. A commonly used public configuration example sets APN credentials and the Plaspy server details. Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your network APN, APN username, and APN password.
+The FMC003 can accept batch parameter commands. A commonly used public configuration example sets APN credentials and the Plaspy server details. Keep the placeholders [apn], [apnu], and [apnp] and replace them with your network APN, APN username, and APN password.
 
 - This example is provided in the public Teltonika command format and is typically sent via SMS or applied with Teltonika tools.
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command:
-- {{apn}} = the APN for your mobile operator.
-- {{apnu}} = APN username if required by the operator; leave empty if not used.
-- {{apnp}} = APN password if required by the operator; leave empty if not used.
+- [apn] = the APN for your mobile operator.
+- [apnu] = APN username if required by the operator; leave empty if not used.
+- [apnp] = APN password if required by the operator; leave empty if not used.
 - The string includes the Plaspy server domain d.plaspy.com and port 8888 as required by Plaspy.
 - 2006 is a device parameter that relates to transport or connection behavior on Teltonika devices; consult Teltonika documentation for specific numeric values and their meaning for your firmware.
 - Send this command using the device phone number as an SMS or apply equivalent settings in Teltonika Configurator or FOTA WEB as preferred.

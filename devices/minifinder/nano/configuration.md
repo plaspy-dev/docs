@@ -83,11 +83,11 @@ The MiniFinder Nano can be configured by SMS according to the public commands sh
 tz+00
 ```
 
-- Set the operator APN (replace {{apn}} with your APN; include {{apnu}} and {{apnp}} only if your provider requires a username and password)
+- Set the operator APN (replace [apn] with your APN; include [apnu] and [apnp] only if your provider requires a username and password)
 ```
-S1,{{apn}},{{apnu}},{{apnp}}
+S1,[apn],[apnu],[apnp]
 ```
-Explanation: S1 sets the primary APN. If your provider does not require username or password, you can send S1,{{apn}} without the additional placeholders.
+Explanation: S1 sets the primary APN. If your provider does not require username or password, you can send S1,[apn] without the additional placeholders.
 
 - Set the GPRS server to Plaspy by IP and port
 ```
@@ -100,7 +100,7 @@ Notes: The manufacturer also allows domain entries in some tools. As an alternat
 - Firmware differences can change exact command syntax or SMS behavior; always confirm the syntax for your Nano firmware revision.
 - SMS based setup is a common public option shown by MiniFinder, but vendor configuration tools or remote management portals may also be available for the Nano.
 - When the device requires a transport selection, test both UDP and TCP modes if you encounter delivery issues; Plaspy supports both transports and automatically detects the device protocol on arrival.
-- Preserve APN placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when drafting commands and replace them with your mobile operator credentials.
+- Preserve APN placeholders such as [apn], [apnu], and [apnp] when drafting commands and replace them with your mobile operator credentials.
 - Keep the device powered and ensure cellular connectivity during configuration so the tracker can register and transmit immediately.
 
 ## Why Use Plaspy with This Configuration

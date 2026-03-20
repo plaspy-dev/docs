@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/bharat101_plus_4g
 id: bharat101_plus_4g
+sidebar_key: itrianglbharat101_plus_4g_index_bharat101_plus_4g
 sidebar_label: Bharat101 Plus 4G
 title: iTriangle - Bharat101 Plus 4G
 sidebar_class_name: menu_item_tracker

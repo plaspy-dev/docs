@@ -83,14 +83,14 @@ The Suntech SNT 100 can be configured by sending SMS commands to the device. The
   - Example: IMEI 123456789012345 -> device ID 901234
 
 1) Set the operator APN and GPRS server
-- Template command (send by SMS, replace <device_id> and APN placeholders):
+- Template command (send by SMS, replace \<device_id> and APN placeholders):
 ```
-SA200NTW;<device_id>;02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;<device_id>;02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notes:
-- {{apn}} is the carrier APN string
-- {{apnu}} is the APN username if required by the carrier; leave empty if not used
-- {{apnp}} is the APN password if required; leave empty if not used
+- [apn] is the carrier APN string
+- [apnu] is the APN username if required by the carrier; leave empty if not used
+- [apnp] is the APN password if required; leave empty if not used
 - The transport and mode flags in the original manufacturer format may vary by firmware; the important public values are the Plaspy server address 54.85.159.138 and port 8888
 
 2) Set the update/reporting interval to 60 seconds
@@ -107,7 +107,7 @@ SA200CMD;<device_id>;02;PresetA
 ```
 This command requests the device to return its current PresetA values so you can confirm the active configuration.
 
-Keep the command order when performing an initial setup: set APN and server first, then reporting interval, then verify settings. Use the device IMEI to compute <device_id> before sending the SMS commands.
+Keep the command order when performing an initial setup: set APN and server first, then reporting interval, then verify settings. Use the device IMEI to compute \<device_id> before sending the SMS commands.
 
 ## Configuration Notes
 

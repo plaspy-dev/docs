@@ -1,6 +1,7 @@
 ---
 slug: /careu/uwatch_wt1
 id: uwatch_wt1
+sidebar_key: careuwatch_wt1_index_uwatch_wt1
 sidebar_label: uWatch WT1
 title: CAREU - uWatch WT1
 sidebar_class_name: menu_item_tracker

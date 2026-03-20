@@ -72,7 +72,7 @@ El GPT12‑X envía telemetría compacta y mensajes de evento a Plaspy a través
 
 ## Comandos de configuración de ejemplo
 
-El GPT12‑X soporta configuración por SMS con los siguientes comandos públicos. Envíe cada comando como un SMS separado al dispositivo. Conserve los marcadores de posición como {{apn}} cuando los reemplace por el valor de APN de su operador.
+El GPT12‑X soporta configuración por SMS con los siguientes comandos públicos. Envíe cada comando como un SMS separado al dispositivo. Conserve los marcadores de posición como [apn] cuando los reemplace por el valor de APN de su operador.
 
 - Reinicio de fábrica opcional (usar solo cuando sea necesario para la configuración inicial):
 ```text
@@ -84,11 +84,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} con el APN de su operador; incluya {{apnu}} y {{apnp}} si requiere usuario y contraseña de APN):
+- Configurar el APN del operador (reemplazar [apn] con el APN de su operador; incluya [apnu] y [apnp] si requiere usuario y contraseña de APN):
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Explicación: {{apn}} es la cadena APN requerida por su operador móvil. {{apnu}} y {{apnp}} son marcadores opcionales para el usuario y la contraseña del APN.
+Explicación: [apn] es la cadena APN requerida por su operador móvil. [apnu] y [apnp] son marcadores opcionales para el usuario y la contraseña del APN.
 
 - Configurar el servidor GPRS a Plaspy usando el dominio (la selección UDP/TCP se gestiona por separado si es necesario):
 ```text
@@ -117,7 +117,7 @@ Notas sobre el orden de los comandos: aplique el APN antes de intentar usar el r
 - Diferencias de firmware: la sintaxis exacta de los comandos y las funciones disponibles pueden variar entre versiones de firmware; confirme siempre con las notas de la versión del firmware del dispositivo.
 - SMS versus software: esta página muestra comandos por SMS porque están documentados públicamente; muchas instalaciones usan la herramienta de configuración de EElink o gestión OTA para aprovisionamiento masivo.
 - Elección de transporte: TCP y UDP son compatibles con Plaspy en el puerto 8888; seleccione el transporte que mejor se adapte a su red y entorno de firewall.
-- Marcadores de APN: conserve {{apn}}, {{apnu}} y {{apnp}} como marcadores de posición cuando prepare plantillas SMS y reemplace con los valores de su operador en su región.
+- Marcadores de APN: conserve [apn], [apnu] y [apnp] como marcadores de posición cuando prepare plantillas SMS y reemplace con los valores de su operador en su región.
 - Verifique después del reinicio: después de aplicar los ajustes y reiniciar, use PARAM# o su panel de Plaspy para confirmar que el dispositivo está reportando como se espera.
 
 ## Por qué usar Plaspy con esta configuración

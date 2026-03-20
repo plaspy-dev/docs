@@ -80,13 +80,13 @@ El AVL-08 soporta configuración vía SMS. Envíe estos comandos por SMS al disp
 - Establecer el APN del operador
   - Formato del comando (APN obligatorio, usuario y contraseña del APN opcionales):
   ```
-  *000000,011,{{apn}},{{apnu}},{{apnp}}#
+  *000000,011,[apn],[apnu],[apnp]#
   ```
   - Si su APN no requiere usuario ni contraseña, envíe:
   ```
-  *000000,011,{{apn}}#
+  *000000,011,[apn]#
   ```
-  - Explicación: {{apn}} es el APN de su operador móvil. {{apnu}} y {{apnp}} son usuario y contraseña del APN, opcionales.
+  - Explicación: [apn] es el APN de su operador móvil. [apnu] y [apnp] son usuario y contraseña del APN, opcionales.
 
 - Establecer el intervalo de actualización a 60 segundos
   ```

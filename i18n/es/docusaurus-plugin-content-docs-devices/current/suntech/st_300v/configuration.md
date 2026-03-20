@@ -84,9 +84,9 @@ ST300CMD;{{device_id}};02;Reset
 Marque este comando como opcional o úselo solo cuando sea necesario un reinicio de fábrica.
 
 - Establecer APN del operador y servidor GPRS
-Notas: El cuarto campo es 1 si se proporciona nombre de usuario o contraseña del APN, de lo contrario use 0. Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} exactamente y reemplácelos por el APN, usuario y contraseña del operador según corresponda.
+Notas: El cuarto campo es 1 si se proporciona nombre de usuario o contraseña del APN, de lo contrario use 0. Conserve los marcadores [apn], [apnu] y [apnp] exactamente y reemplácelos por el APN, usuario y contraseña del operador según corresponda.
 ```text
-ST300NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;
+ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;
 ```
 Si no tiene usuario ni contraseña para su APN, ponga el cuarto campo en 0 y deje vacíos los campos de usuario y contraseña.
 
@@ -107,7 +107,7 @@ Use un teléfono capaz de enviar SMS para remitir estos comandos al dispositivo 
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis o el comportamiento de los comandos; confirme la sintaxis con la documentación del Suntech ST 300V correspondiente a su firmware.
 - El dispositivo admite tanto la configuración por SMS como por GPRS/servidor; use SMS cuando sea necesario el aprovisionamiento remoto o la herramienta del proveedor cuando esté disponible.
 - Elija UDP o TCP según las necesidades de fiabilidad de su red; Plaspy acepta conexiones en ambos transportes y detectará el protocolo automáticamente.
-- Asegúrese de introducir correctamente el APN y cualquier credencial del operador; el comando ST300NTW incluye los marcadores {{apn}}, {{apnu}} y {{apnp}} para estos valores.
+- Asegúrese de introducir correctamente el APN y cualquier credencial del operador; el comando ST300NTW incluye los marcadores [apn], [apnu] y [apnp] para estos valores.
 - Todos los dispositivos en Plaspy usan el mismo puerto y la plataforma detectará automáticamente el protocolo del rastreador cuando este se conecte.
 
 ## Por qué usar Plaspy con esta configuración

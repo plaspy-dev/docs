@@ -79,15 +79,15 @@ El AT110 puede configurarse enviando comandos SMS al dispositivo. Los siguientes
 
 - Set the operator APN
 ```
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 - Set the APN username (optional)
 ```
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 - Set the APN password (optional)
 ```
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 - Set the GPRS server IP for Plaspy
 ```
@@ -99,9 +99,9 @@ $PORT,8888
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es la cadena APN del operador celular requerida para la conectividad de datos.
-- {{apnu}} es el usuario del APN si su operador lo exige.
-- {{apnp}} es la contraseña del APN si su operador la exige.
+- [apn] es la cadena APN del operador celular requerida para la conectividad de datos.
+- [apnu] es el usuario del APN si su operador lo exige.
+- [apnp] es la contraseña del APN si su operador la exige.
 
 El AT110 también puede aceptar el servidor como nombre de dominio (d.plaspy.com) en las herramientas del proveedor o en los menús en lugar de la IP numérica. La selección de transporte (UDP o TCP) normalmente se ajusta en la herramienta del fabricante o en el menú del dispositivo cuando es necesario; no se proporcionaron comandos específicos de transporte en el conjunto público anterior.
 

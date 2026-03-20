@@ -76,9 +76,9 @@ The MT100 public configuration examples include SMS based commands. The default 
 
 - Note on placeholders
   - {{imei}} means the 15 digit IMEI of the device. Use the last 15 digits of the IMEI if required by your device.
-  - {{apn}} is the mobile operator APN string.
-  - {{apnu}} is the APN username when required, otherwise omit.
-  - {{apnp}} is the APN password when required, otherwise omit.
+  - [apn] is the mobile operator APN string.
+  - [apnu] is the APN username when required, otherwise omit.
+  - [apnp] is the APN password when required, otherwise omit.
 
 1) Set the device ID using IMEI
 ```text
@@ -88,13 +88,13 @@ Explanation: replace {{imei}} with the device IMEI (15 digits). This associates 
 
 2) Set the operator APN (optional username and password)
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 If your APN requires username and password include them like this:
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
-Explanation: replace {{apn}}, {{apnu}}, and {{apnp}} with your operator values. If username and password are not required omit those fields.
+Explanation: replace [apn], [apnu], and [apnp] with your operator values. If username and password are not required omit those fields.
 
 3) Set the update interval to 60 seconds
 ```text

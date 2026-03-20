@@ -77,15 +77,15 @@ The following example commands are provided by the model configuration as SMS me
 
 1. Set the operator APN
 ```
-APN,0000,{{apn}}
+APN,0000,[apn]
 ```
 If your operator requires an APN username or password, include the optional placeholders:
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn],[apnu],[apnp]
 ```
-- {{apn}} is the operator APN string
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the operator APN string
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 2. Set a 5 digit identifier (use the last 5 digits of the IMEI)
 ```

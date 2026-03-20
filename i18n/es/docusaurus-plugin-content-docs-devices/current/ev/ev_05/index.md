@@ -1,6 +1,7 @@
 ---
 slug: /ev/ev_05
 id: ev_05
+sidebar_key: eev_05_index_ev_05
 sidebar_label: EV-05
 title: EV - EV-05
 sidebar_class_name: menu_item_tracker

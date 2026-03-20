@@ -74,26 +74,26 @@ El TK-201-2 se configura para reportar posiciones y eventos al endpoint y puerto
 
 ## Ejemplos de comandos de configuración
 
-El TK-201-2 puede configurarse mediante comandos SMS. Los ejemplos siguientes usan la contraseña del dispositivo 123456, que es la contraseña por defecto que aparece en documentación pública. Mantenga el orden de los comandos durante la configuración inicial. Las marcas {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por su APN, usuario APN y contraseña APN del operador respectivamente.
+El TK-201-2 puede configurarse mediante comandos SMS. Los ejemplos siguientes usan la contraseña del dispositivo 123456, que es la contraseña por defecto que aparece en documentación pública. Mantenga el orden de los comandos durante la configuración inicial. Las marcas [apn], [apnu] y [apnp] deben reemplazarse por su APN, usuario APN y contraseña APN del operador respectivamente.
 
 - Reinicio inicial opcional o restauración de fábrica (usar solo si es necesario):
 ```text
 begin123456
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} por el APN de su operador móvil):
+- Establecer el APN del operador (reemplazar [apn] por el APN de su operador móvil):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el nombre de usuario del APN si es necesario (reemplazar {{apnu}} por el usuario APN):
+- Establecer el nombre de usuario del APN si es necesario (reemplazar [apnu] por el usuario APN):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN si es necesaria (reemplazar {{apnp}} por la contraseña APN):
+- Establecer la contraseña del APN si es necesaria (reemplazar [apnp] por la contraseña APN):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS con la IP y el puerto de Plaspy:
@@ -112,8 +112,8 @@ t060s***n123456
 ```
 
 Notas sobre los espacios reservados y la contraseña
-- {{apn}} es el APN del operador de la red. Reemplácelo por la cadena exacta proporcionada por su operador de SIM.
-- {{apnu}} y {{apnp}} son opcionales y solo necesarios si su operador exige autenticación del APN.
+- [apn] es el APN del operador de la red. Reemplácelo por la cadena exacta proporcionada por su operador de SIM.
+- [apnu] y [apnp] son opcionales y solo necesarios si su operador exige autenticación del APN.
 - 123456 en estos ejemplos es la contraseña del dispositivo usada en estos comandos públicos. Use la contraseña real de su equipo si la ha cambiado.
 
 ## Notas de configuración

@@ -85,13 +85,13 @@ El flujo público de configuración del EV-603 admite comandos SMS. Los ejemplos
 
 2) Configurar el APN del operador
 ```text
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 - Comando básico de APN. Si su operador requiere usuario y contraseña para el APN, amplíe el comando con los marcadores opcionales:
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-- {{apn}} es la cadena APN del operador. {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Mantenga estos marcadores y reemplácelos por los valores reales del operador.
+- [apn] es la cadena APN del operador. [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Mantenga estos marcadores y reemplácelos por los valores reales del operador.
 
 3) Establecer el servidor a la IP pública de Plaspy y el puerto
 ```text

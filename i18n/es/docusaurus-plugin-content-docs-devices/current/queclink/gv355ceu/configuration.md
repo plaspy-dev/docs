@@ -89,9 +89,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configurar el APN del operador
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- Reemplace los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} con el APN del operador, el usuario APN y la contraseña APN según lo requiera el operador de la SIM. Si no se necesita usuario o contraseña, deje los marcadores vacíos de acuerdo con la sintaxis del fabricante.
+- Reemplace los marcadores de posición [apn], [apnu] y [apnp] con el APN del operador, el usuario APN y la contraseña APN según lo requiera el operador de la SIM. Si no se necesita usuario o contraseña, deje los marcadores vacíos de acuerdo con la sintaxis del fabricante.
 
 4. Configurar el servidor GPRS a Plaspy
 ```
@@ -113,7 +113,7 @@ AT+GTSOS=queclink,2,2,,0,0,0,0,0,0,,,FFFF$
 
 Notas sobre marcadores de posición y contraseña
 - Los comandos de ejemplo usan la contraseña queclink como prefijo de comando. Confirme y use la contraseña configurada en su hardware.
-- {{apn}}, {{apnu}}, {{apnp}} son marcadores de posición para el APN del operador, el usuario APN y la contraseña APN respectivamente. Reemplácelos con los valores correctos para su SIM.
+- [apn], [apnu], [apnp] son marcadores de posición para el APN del operador, el usuario APN y la contraseña APN respectivamente. Reemplácelos con los valores correctos para su SIM.
 
 ## Observaciones de configuración
 

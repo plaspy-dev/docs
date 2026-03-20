@@ -59,7 +59,7 @@ Estos valores son el endpoint público y el puerto al que el ST-904L debe report
 - Un ST-904L con batería cargada o alimentación externa conectada.
 - Tarjeta SIM activa en el dispositivo con plan de datos y capacidad de SMS, y credenciales APN correctas.
 - Acceso al instalador o propietario del dispositivo para enviar comandos de configuración por SMS.
-- Conocimiento de los valores APN del operador para los marcadores {{apn}}, {{apnu}} y {{apnp}}.
+- Conocimiento de los valores APN del operador para los marcadores [apn], [apnu] y [apnp].
 - Una cuenta Plaspy o acceso administrativo para verificar que el dispositivo aparece después de la configuración.
 - Capacidad para consultar la configuración del equipo mediante el comando RCONF y confirmar los ajustes.
 
@@ -100,12 +100,12 @@ RESET
 
 - Configurar el APN del operador (reemplazar los marcadores con los valores de su operador):
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 Explicación de los marcadores:
-- {{apn}} = Nombre del APN proporcionado por el operador móvil
-- {{apnu}} = Nombre de usuario del APN si es requerido (dejar en blanco si no se usa)
-- {{apnp}} = Contraseña del APN si es requerida (dejar en blanco si no se usa)
+- [apn] = Nombre del APN proporcionado por el operador móvil
+- [apnu] = Nombre de usuario del APN si es requerido (dejar en blanco si no se usa)
+- [apnp] = Contraseña del APN si es requerida (dejar en blanco si no se usa)
 
 - Configurar el servidor GPRS hacia Plaspy usando la IP pública y el puerto:
 ```text

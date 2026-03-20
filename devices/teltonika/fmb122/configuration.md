@@ -80,13 +80,13 @@ The following public command is a common Teltonika style batch command to set ba
 - Example Teltonika setparam command (preserves placeholders):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the placeholders:
-- {{apn}} — your SIM card APN name (replace with your operator APN).
-- {{apnu}} — APN username if required by your operator (leave blank if not used).
-- {{apnp}} — APN password if required by your operator (leave blank if not used).
+- [apn] — your SIM card APN name (replace with your operator APN).
+- [apnu] — APN username if required by your operator (leave blank if not used).
+- [apnp] — APN password if required by your operator (leave blank if not used).
 
 This public command sets the host to d.plaspy.com and the port to 8888 as required for Plaspy. The numeric parameter IDs correspond to Teltonika device parameters; consult Teltonika documentation for exact parameter mappings if you need to modify other settings or understand the meaning of a specific numeric ID such as 2006.
 

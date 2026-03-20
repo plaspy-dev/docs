@@ -78,13 +78,13 @@ The following example is derived from published Teltonika style setparam command
 - Example SMS batch command format provided by the device documentation:
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and fields
-- {{apn}} is the mobile network APN name for your SIM.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is the mobile network APN name for your SIM.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
 - The command sets the server domain to d.plaspy.com and the server port to 8888 as required by Plaspy.
 - The final parameter 2006 is included in the published example; consult Teltonika documentation to confirm what transport or mode value is expected for your firmware and whether you should use UDP or TCP.
 

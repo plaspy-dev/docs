@@ -1,0 +1,21 @@
+#!/bin/bash
+ls */*/index.md | while read file; do
+  # Saltar si ya tiene sidebar_key
+  if grep -q "sidebar_key:" "$file"; then
+    continue
+  fi
+
+  # Obtener id
+  id=$(grep "^id:" "$file" | head -n1 | awk '{print $2}')
+  
+  if [ -n "$id" ]; then
+    # Crear key única basada en ruta + id
+    path=$(echo "$file" | sed 's|./||; s|/|_|g; s|\.md$||')
+    key="${path}_${id}"
+
+    # Insertar después de id:
+    sed -i "/^id: $id/a sidebar_key: $key" "$file"
+    
+    echo "✔ $file -> $key"
+  fi
+done

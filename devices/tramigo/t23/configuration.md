@@ -78,9 +78,9 @@ The Tramigo T23 provides an SMS based configuration flow in public documentation
 
 - Set the operator APN and optional username and password
 ```text
-GPRS,APN,{{apn}},{{apnu}},{{apnp}}
+GPRS,APN,[apn],[apnu],[apnp]
 ```
-Explanation: Replace {{apn}} with your carrier APN. Use {{apnu}} and {{apnp}} if your operator requires APN username and password. If not required leave the placeholders empty or omit if the device accepts a shorter form.
+Explanation: Replace [apn] with your carrier APN. Use [apnu] and [apnp] if your operator requires APN username and password. If not required leave the placeholders empty or omit if the device accepts a shorter form.
 
 - Turn on FIND reporting with a 1 minute reporting interval
 ```text

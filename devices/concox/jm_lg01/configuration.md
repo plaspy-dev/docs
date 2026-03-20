@@ -72,7 +72,7 @@ The JM-LG01 is configured to report GNSS fixes and telemetry to Plaspy by sendin
 
 ## Example Configuration Commands
 
-The JM-LG01 supports SMS based configuration. The manufacturer provides the following publicly documented SMS commands. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values when sending.
+The JM-LG01 supports SMS based configuration. The manufacturer provides the following publicly documented SMS commands. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values when sending.
 
 - Reset factory settings (optional initial step)
 ```text
@@ -85,9 +85,9 @@ GMT,E,0#
 ```
 
 - Set the operator APN
-Note: {{apn}} is required. {{apnu}} and {{apnp}} are optional and represent APN username and APN password respectively.
+Note: [apn] is required. [apnu] and [apnp] are optional and represent APN username and APN password respectively.
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server using Plaspy domain (UDP or TCP selection handled separately)

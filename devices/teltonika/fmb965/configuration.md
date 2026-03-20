@@ -80,13 +80,13 @@ The following example is extracted from Teltonika public configuration content a
 - Example command (single line):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and use:
-- {{apn}} is the cellular network APN name required by the SIM
-- {{apnu}} is the APN username if the network requires one; leave blank if not used
-- {{apnp}} is the APN password if required by the operator
+- [apn] is the cellular network APN name required by the SIM
+- [apnu] is the APN username if the network requires one; leave blank if not used
+- [apnp] is the APN password if required by the operator
 - The command sets the Plaspy server domain d.plaspy.com and port 8888 as shown
 - Depending on the Teltonika tool or SMS interface you use, send this command using the recommended format for that method
 - Adjust transport or additional parameters according to Teltonika documentation or your provisioning plan

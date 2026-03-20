@@ -1,6 +1,7 @@
 ---
 slug: /eelink/k6
 id: k6
+sidebar_key: eelink6_index_k6
 sidebar_label: K6
 title: EElink - K6
 sidebar_class_name: menu_item_tracker

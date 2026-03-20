@@ -82,13 +82,13 @@ El TZ-AVL19 puede configurarse mediante comandos SMS. Los siguientes comandos p�
 - Configurar el APN del operador
   - Forma básica (solo APN):
   ```
-  *000000,011,{{apn}}#
+  *000000,011,[apn]#
   ```
   - Con usuario y contraseña de APN (si el operador lo requiere):
   ```
-  *000000,011,{{apn}},{{apnu}},{{apnp}}#
+  *000000,011,[apn],[apnu],[apnp]#
   ```
-  - Explicación: reemplace {{apn}} con el APN de su operador. Si su operador exige usuario y contraseña, reemplace {{apnu}} y {{apnp}} por esos valores; de lo contrario omítalos cuando el formato lo permita.
+  - Explicación: reemplace [apn] con el APN de su operador. Si su operador exige usuario y contraseña, reemplace [apnu] y [apnp] por esos valores; de lo contrario omítalos cuando el formato lo permita.
 
 - Establecer el intervalo de actualización a 60 segundos
   ```

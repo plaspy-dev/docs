@@ -82,17 +82,17 @@ ThingSys publishes SMS-style commands for the TS-V7. The commands below are publ
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with the operator APN string):
+- Set the operator APN (replace [apn] with the operator APN string):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Explanation: {{apn}} is a placeholder for your SIM provider APN, for example internet or the APN provided by your carrier.
+Explanation: [apn] is a placeholder for your SIM provider APN, for example internet or the APN provided by your carrier.
 
 - Set the APN username and password if required by your operator (replace placeholders as needed):
 ```text
-user {{apnu}} {{apnp}}
+user [apnu] [apnp]
 ```
-Explanation: {{apnu}} and {{apnp}} are placeholders for APN username and APN password. If your SIM does not require credentials, this command can be skipped.
+Explanation: [apnu] and [apnp] are placeholders for APN username and APN password. If your SIM does not require credentials, this command can be skipped.
 
 - Set the device reporting ID using the last 11 digits of the IMEI
 ```text

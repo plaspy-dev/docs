@@ -72,7 +72,7 @@ The CCTR-804 reports position and telemetry over the cellular network using its 
 
 ## Example Configuration Commands
 
-The CCTR-804 supports SMS based setup. The following public example commands show a typical sequence. The sample setup uses a default device password of 123456 as shown in the public commands. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator values.
+The CCTR-804 supports SMS based setup. The following public example commands show a typical sequence. The sample setup uses a default device password of 123456 as shown in the public commands. Replace placeholders such as [apn], [apnu], and [apnp] with your operator values.
 
 - Optional initial factory reset (use only if you need to restore defaults):
 ```text
@@ -84,14 +84,14 @@ RESET*123456
 TIMEZONE*123456*+00
 ```
 
-- Set the mobile operator APN (replace {{apn}} with your operator APN):
+- Set the mobile operator APN (replace [apn] with your operator APN):
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
-- Set the APN username and password if required by the operator (replace {{apnu}} and {{apnp}} with credentials):
+- Set the APN username and password if required by the operator (replace [apnu] and [apnp] with credentials):
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public server IP and port:
@@ -105,8 +105,8 @@ KEEPONLINE*123456
 ```
 
 Notes on placeholders and alternatives:
-- {{apn}} is the carrier APN string.  
-- {{apnu}} and {{apnp}} are the APN username and password when required by the mobile operator.  
+- [apn] is the carrier APN string.  
+- [apnu] and [apnp] are the APN username and password when required by the mobile operator.  
 - The example uses the server IP 54.85.159.138 and port 8888 as shown in the public commands. Some firmware versions accept a domain name instead of an IP; consult Carscop documentation if you prefer to use d.plaspy.com.
 
 ## Configuration Notes

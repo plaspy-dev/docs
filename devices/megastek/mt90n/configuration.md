@@ -77,20 +77,20 @@ The MT90N is configured to report position and telemetry to the shared Plaspy se
 
 The MT90N can be configured with SMS commands. The following example commands are extracted from the public device configuration guidance and use the device default password 000000. Replace placeholders and IMEI values with the actual device IMEI or operator APN values.
 
-- Note: {{apn}} placeholder stands for your operator APN. Optional APN username and password placeholders are {{apnu}} and {{apnp}}.
+- Note: [apn] placeholder stands for your operator APN. Optional APN username and password placeholders are [apnu] and [apnp].
 
-1. Set the device ID using the device IMEI (use the last 15 digits if required by the manufacturer). Replace <15_DIGIT_IMEI> with your device IMEI value:
+1. Set the device ID using the device IMEI (use the last 15 digits if required by the manufacturer). Replace \<15_DIGIT_IMEI> with your device IMEI value:
 ```
 M000000,22,<15_DIGIT_IMEI>
 ```
 
-2. Set the operator APN. Provide {{apn}} and, if needed, include {{apnu}} and {{apnp}} separated by commas:
+2. Set the operator APN. Provide [apn] and, if needed, include [apnu] and [apnp] separated by commas:
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 If your APN requires a username and password:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Set the update/reporting interval to 60 seconds (example):
@@ -115,7 +115,7 @@ Follow the commands in the order shown for initial setup: set device ID, configu
 - Megastek firmware versions and regional device variants can change the exact SMS command syntax or parameter order; verify the syntax in the manufacturer documentation for your device firmware.
 - SMS configuration is a common method shown here, but some installations use vendor tools or an onboarding portal; use the official manufacturer method indicated for your MT90N unit.
 - Plaspy supports both TCP and UDP on the same port 8888; choose the transport based on installer preference and network conditions.
-- Always replace placeholder values such as IMEI, {{apn}}, {{apnu}}, and {{apnp}} with values appropriate to your device and mobile operator.
+- Always replace placeholder values such as IMEI, [apn], [apnu], and [apnp] with values appropriate to your device and mobile operator.
 - If configuration does not take effect immediately, try restarting the device or power cycling after saving settings.
 
 ## Why Use Plaspy with This Configuration

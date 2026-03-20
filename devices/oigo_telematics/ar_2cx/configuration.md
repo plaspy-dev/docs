@@ -73,13 +73,13 @@ The AR-2CX is configured to send location and event data to the shared Plaspy se
 
 ## Example Configuration Commands
 
-The following sample AT commands are taken from publicly available AR series configuration content and shown in the original order where order can be important. These commands illustrate how an AR-2CX can be pointed to Plaspy and tuned for reporting. Keep placeholders such as {{apn}} as shown and replace them with your network APN when you configure the device.
+The following sample AT commands are taken from publicly available AR series configuration content and shown in the original order where order can be important. These commands illustrate how an AR-2CX can be pointed to Plaspy and tuned for reporting. Keep placeholders such as [apn] as shown and replace them with your network APN when you configure the device.
 
 - Full example command set
 
 ```text
 AT+XRFD
-AT+XAPN=1"{{apn}}"
+AT+XAPN=1"[apn]"
 AT+XIP="54.85.159.138",8888
 AT+XBUB=1
 AT+XBUBE=3,30
@@ -139,7 +139,7 @@ AT+XRST=2
 ```
 
 Notes on the commands above:
-- AT+XAPN includes the placeholder {{apn}}. Replace {{apn}} with your cellular provider APN string.
+- AT+XAPN includes the placeholder [apn]. Replace [apn] with your cellular provider APN string.
 - AT+XIP sets the Plaspy server IP and port to 54.85.159.138 and 8888. You can also set the server to d.plaspy.com where the device supports domain names.
 - AT+XRST=1 and AT+XRST=2 are reset commands present at the end of the sample. Treat reset commands as optional initial or final restart steps when required by the device or firmware.
 

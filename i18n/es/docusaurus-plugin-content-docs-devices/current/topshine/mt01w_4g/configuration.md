@@ -89,13 +89,13 @@ W000000,990,099###
 ```text
 W000000,010,<14_digit_device_id>
 ```
-Reemplace <14_digit_device_id> con los primeros 14 dígitos derivados del IMEI del dispositivo según lo requiera el rastreador. Plaspy identifica los equipos por el IMEI.
+Reemplace \<14_digit_device_id> con los primeros 14 dígitos derivados del IMEI del dispositivo según lo requiera el rastreador. Plaspy identifica los equipos por el IMEI.
 
 - Configurar el APN del operador con marcadores opcionales de usuario y contraseña:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-Si no se requieren nombre de usuario o contraseña para el APN, envíe solo el APN usando el mismo patrón de comando y omita los campos opcionales. Reemplace {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador.
+Si no se requieren nombre de usuario o contraseña para el APN, envíe solo el APN usando el mismo patrón de comando y omita los campos opcionales. Reemplace [apn], [apnu] y [apnp] por los valores de su operador.
 
 - Establecer el servidor GPRS a la IP pública de Plaspy y el puerto:
 ```text

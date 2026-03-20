@@ -87,9 +87,9 @@ AT+GTTMA=SM9570,+,0,0,0,,,,,,FFFF$
 
 - Configurar el APN del operador
 ```text
-AT+GTBSI=SM9570,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=SM9570,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explicación: Reemplace {{apn}} con el APN de su operador móvil. Si su operador requiere usuario o contraseña para el APN, reemplace {{apnu}} y {{apnp}} según corresponda. Deje los marcadores de posición en blanco si el operador no los requiere.
+Explicación: Reemplace [apn] con el APN de su operador móvil. Si su operador requiere usuario o contraseña para el APN, reemplace [apnu] y [apnp] según corresponda. Deje los marcadores de posición en blanco si el operador no los requiere.
 
 - Configurar el servidor GPRS a Plaspy usando dominio e IP con puerto 8888
 ```text
@@ -120,7 +120,7 @@ Envíe cada comando como un mensaje SMS al dispositivo. Mantenga el orden de los
 - Los ejemplos públicos anteriores utilizan configuración por SMS. Si su instalación usa una herramienta de configuración del proveedor o una interfaz USB, consulte la documentación del fabricante para los pasos equivalentes.
 - Elija UDP o TCP según los requisitos de red y servidor. Plaspy soporta ambos y detectará automáticamente el protocolo del rastreador.
 - Plaspy usa el puerto 8888 para todos los dispositivos compatibles en la plataforma. Use ese puerto al configurar los ajustes del servidor para el SM-9570.
-- Conserve los marcadores de posición del APN como {{apn}}, {{apnu}} y {{apnp}} al preparar los comandos y reemplácelos por los valores específicos del operador.
+- Conserve los marcadores de posición del APN como [apn], [apnu] y [apnp] al preparar los comandos y reemplácelos por los valores específicos del operador.
 
 ## Por qué usar Plaspy con esta configuración
 

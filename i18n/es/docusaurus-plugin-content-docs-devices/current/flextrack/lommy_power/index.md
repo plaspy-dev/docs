@@ -1,6 +1,7 @@
 ---
 slug: /flextrack/lommy_power
 id: lommy_power
+sidebar_key: flextraclommy_power_index_lommy_power
 sidebar_label: Lommy Power
 title: Flextrack - Lommy Power
 sidebar_class_name: menu_item_tracker

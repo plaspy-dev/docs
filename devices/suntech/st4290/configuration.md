@@ -77,18 +77,18 @@ Device ID note
 - The SMS commands for Suntech ST4290 use a device ID derived from the IMEI. The device ID is the six digits starting at IMEI position 9 through 14 (that is, the last six digits excluding the final IMEI digit). Example: if IMEI is 123456789012345 the device ID is 901234 (digits 9–14). Use that six digit value in the commands as {{device_id}}.
 
 1) Set operator APN and Plaspy GPRS server
-- The command below sets APN, optional APN username and password, and the Plaspy server IP and port. Replace {{device_id}} with the six digit ID derived from the IMEI as explained above. Use {{apn}}, {{apnu}}, and {{apnp}} as placeholders for your carrier APN, APN username, and APN password. If you do not use APN username or password, some devices require the APN credential flag set to 0 or omitted per vendor guidance; the command below includes that flag position.
+- The command below sets APN, optional APN username and password, and the Plaspy server IP and port. Replace {{device_id}} with the six digit ID derived from the IMEI as explained above. Use [apn], [apnu], and [apnp] as placeholders for your carrier APN, APN username, and APN password. If you do not use APN username or password, some devices require the APN credential flag set to 0 or omitted per vendor guidance; the command below includes that flag position.
 
 ```
-SA200NTW;{{device_id}};02;[1 or 0];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;[1 or 0];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Explanation of fields:
   - {{device_id}} — six digit device ID derived from IMEI (digits 9–14).
   - [1 or 0] — set to 1 if you are providing APN username or password, set to 0 if not.
-  - {{apn}} — carrier APN name placeholder.
-  - {{apnu}} — APN username placeholder (keep empty if not used).
-  - {{apnp}} — APN password placeholder (keep empty if not used).
+  - [apn] — carrier APN name placeholder.
+  - [apnu] — APN username placeholder (keep empty if not used).
+  - [apnp] — APN password placeholder (keep empty if not used).
   - 54.85.159.138 and 8888 — Plaspy server IP and port (required).
 
 2) Set reporting / update interval to 60 seconds

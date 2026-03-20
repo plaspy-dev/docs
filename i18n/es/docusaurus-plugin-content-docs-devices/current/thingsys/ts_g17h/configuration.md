@@ -80,19 +80,19 @@ El TS-G17H admite comandos vía SMS para configuración. A continuación se list
 FORMAT
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} por el APN de su operador móvil):
+- Configurar el APN del operador (reemplazar [apn] por el APN de su operador móvil):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Configurar el usuario APN (reemplazar {{apnu}} por el usuario APN si se requiere):
+- Configurar el usuario APN (reemplazar [apnu] por el usuario APN si se requiere):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Configurar la contraseña APN (reemplazar {{apnp}} por la contraseña APN si se requiere):
+- Configurar la contraseña APN (reemplazar [apnp] por la contraseña APN si se requiere):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS a la IP y puerto de Plaspy (este comando usa la forma IP y el puerto 8888):
@@ -106,9 +106,9 @@ CXZT
 ```
 
 Notas sobre los marcadores:
-- {{apn}} — el APN de su operador móvil (por ejemplo: internet, web, etc.); requerido para sesiones de datos.
-- {{apnu}} — nombre de usuario del APN si el operador lo solicita; deje vacío u omita si no se usa.
-- {{apnp}} — contraseña del APN si el operador la solicita; deje vacío si no se usa.
+- [apn] — el APN de su operador móvil (por ejemplo: internet, web, etc.); requerido para sesiones de datos.
+- [apnu] — nombre de usuario del APN si el operador lo solicita; deje vacío u omita si no se usa.
+- [apnp] — contraseña del APN si el operador la solicita; deje vacío si no se usa.
 - El prefijo numérico de contraseña 123456 en los comandos SMS anteriores es la contraseña por defecto del dispositivo usada en los ejemplos del fabricante.
 
 ## Observaciones de configuración

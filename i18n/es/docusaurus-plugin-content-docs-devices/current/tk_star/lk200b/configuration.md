@@ -79,19 +79,19 @@ El LK200B admite configuración por SMS. Los siguientes comandos SMS públicos a
 begin123456
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} por el APN de su operador):
+- Configurar el APN del operador (reemplazar [apn] por el APN de su operador):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario del APN (opcional, reemplace {{apnu}} con el usuario APN):
+- Establecer el usuario del APN (opcional, reemplace [apnu] con el usuario APN):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN (opcional, reemplace {{apnp}} con la contraseña APN):
+- Establecer la contraseña del APN (opcional, reemplace [apnp] con la contraseña APN):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Apuntar el servidor GPRS a Plaspy usando la IP pública y el puerto:
@@ -111,9 +111,9 @@ gprs123456
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es el nombre APN del operador móvil.  
-- {{apnu}} es el usuario del APN si el operador lo requiere.  
-- {{apnp}} es la contraseña del APN si el operador lo requiere.  
+- [apn] es el nombre APN del operador móvil.  
+- [apnu] es el usuario del APN si el operador lo requiere.  
+- [apnp] es la contraseña del APN si el operador lo requiere.  
 - Mantenga la contraseña administrativa numérica (123456) si no la ha cambiado; se usa como parte de cada cadena de comando SMS. Cambie la contraseña usando los procedimientos oficiales del dispositivo si fuera necesario.
 
 ## Observaciones sobre la configuración

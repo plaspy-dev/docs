@@ -79,17 +79,17 @@ The TS-V6Ws public configuration examples include SMS commands used to set APN, 
 ```
 FORMAT
 ```
-2. Set operator APN (replace {{apn}} with the mobile operator APN string)
+2. Set operator APN (replace [apn] with the mobile operator APN string)
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-3. Set APN username (replace {{apnu}} with the APN username if required)
+3. Set APN username (replace [apnu] with the APN username if required)
 ```
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-4. Set APN password (replace {{apnp}} with the APN password if required)
+4. Set APN password (replace [apnp] with the APN password if required)
 ```
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 5. Set the GPRS server to Plaspy using the server IP and port (this sets 54.85.159.138 and port 8888 as the device server)
 ```
@@ -102,7 +102,7 @@ CXZT
 
 Notes on the commands above:
 - These examples are sent as SMS messages to the tracker’s SIM number using the device’s configured password format shown (sample default password 123456).
-- Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN values when sending the SMS.
+- Keep the placeholders [apn], [apnu], and [apnp] and replace them with your operator APN values when sending the SMS.
 - Only perform a factory reset (FORMAT) if needed; it will remove customized settings and return the device to factory defaults.
 - After setting the server to 54.85.159.138 8888 you may alternatively set the DNS name d.plaspy.com via manufacturer tools if DNS-based server entry is supported.
 

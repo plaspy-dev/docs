@@ -78,12 +78,12 @@ The XT-4800 can be configured using SMS messages. The public SMS commands below 
 
 - Set the operator APN (replace placeholders as needed):
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explanation of placeholders:
-- {{apn}} is the APN name provided by your mobile operator.
-- {{apnu}} is the APN username when required by the carrier; use an empty value if not required.
-- {{apnp}} is the APN password when required by the carrier; use an empty value if not required.
+- [apn] is the APN name provided by your mobile operator.
+- [apnu] is the APN username when required by the carrier; use an empty value if not required.
+- [apnp] is the APN password when required by the carrier; use an empty value if not required.
 
 - Set the GPRS server to Plaspy (this configures port and server IP for the device):
 ```text

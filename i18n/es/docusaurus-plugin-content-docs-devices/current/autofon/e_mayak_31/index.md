@@ -1,6 +1,7 @@
 ---
 slug: /autofon/e_mayak_31
 id: e_mayak_31
+sidebar_key: autofoe_mayak_31_index_e_mayak_31
 sidebar_label: E-Mayak 3.1
 title: AutoFon - E-Mayak 3.1
 sidebar_class_name: menu_item_tracker

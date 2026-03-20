@@ -81,12 +81,12 @@ Las notas públicas de configuración del GT08S incluyen comandos SMS para resta
 
 - Establecer APN y servidor GPRS para apuntar a Plaspy usando IP y puerto, incluyendo marcadores de posición para el APN
 ```
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Notas sobre los marcadores de posición
-- {{apn}} es el nombre del APN de la red móvil
-- {{apnu}} es el usuario APN si el operador lo requiere
-- {{apnp}} es la contraseña APN si el operador la requiere
+- [apn] es el nombre del APN de la red móvil
+- [apnu] es el usuario APN si el operador lo requiere
+- [apnp] es la contraseña APN si el operador la requiere
 
 - Comando de verificación para solicitar la configuración WWW actual al rastreador
 ```

@@ -77,7 +77,7 @@ The GOTOP C790 sends location and event data over GPRS to the Plaspy server endp
 
 The exact commands or configuration screens for the GOTOP C790 vary by firmware and the manufacturer tool you use. Because manufacturer methods differ, consult the GOTOP configuration guide or support tools for exact command syntax. Plaspy requires the same endpoint and port values shown above (d.plaspy.com or 54.85.159.138 on port 8888) and accepts connections over UDP or TCP.
 
-If you have access to GOTOP command strings or an SMS configuration interface from official documentation, apply the server domain or IP and port exactly as shown and then save and reboot the device. Keep placeholders such as APN, APN user, and APN password (for example {{apn}}, {{apnu}}, {{apnp}}) if the manufacturer's commands use them, and replace those placeholders with your SIM operator values.
+If you have access to GOTOP command strings or an SMS configuration interface from official documentation, apply the server domain or IP and port exactly as shown and then save and reboot the device. Keep placeholders such as APN, APN user, and APN password (for example [apn], [apnu], [apnp]) if the manufacturer's commands use them, and replace those placeholders with your SIM operator values.
 
 ## Configuration Notes
 

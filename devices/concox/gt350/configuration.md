@@ -77,7 +77,7 @@ The GT350 is configured to report location and device events to the Plaspy serve
 
 ## Example Configuration Commands
 
-The GT350 supports SMS based configuration. Below are the common public commands published for the device. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when applying your operator credentials.
+The GT350 supports SMS based configuration. Below are the common public commands published for the device. Preserve placeholders such as [apn], [apnu], and [apnp] when applying your operator credentials.
 
 - Optional initial factory reset (use only if you need to restore defaults):
 ```text
@@ -89,9 +89,9 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}}, {{apnu}}, {{apnp}} with your operator APN, username, and password if required. If no username or password are needed, include only the APN.
+- Set the operator APN. Replace [apn], [apnu], [apnp] with your operator APN, username, and password if required. If no username or password are needed, include only the APN.
 ```text
-APN,{{apn}}{{apnu ? ',{{apnu}}' : ''}}{{apnp ? ',{{apnp}}' : ''}}#
+APN,[apn]{{apnu ? ',[apnu]' : ''}}{{apnp ? ',[apnp]' : ''}}#
 ```
 (Practical example if only APN is required)
 ```text
@@ -127,8 +127,8 @@ GPRSSET#
 ```
 
 Notes on placeholders and usage:
-- {{apn}} is the mobile operator APN string required for data connectivity.
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders when the operator requires credentials.
+- [apn] is the mobile operator APN string required for data connectivity.
+- [apnu] and [apnp] are optional APN username and password placeholders when the operator requires credentials.
 - The SERVER command examples show both the domain (d.plaspy.com) and the numeric IP (54.85.159.138). Either form is acceptable for pointing the tracker to Plaspy, and both use port 8888.
 
 ## Configuration Notes

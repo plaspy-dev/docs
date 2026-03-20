@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/gt_30i
 id: gt_30i
+sidebar_key: meitracgt_30i_index_gt_30i
 sidebar_label: GT-30i
 title: Meitrack - GT-30i
 sidebar_class_name: menu_item_tracker

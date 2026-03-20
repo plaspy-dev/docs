@@ -89,9 +89,9 @@ GMT,E,0#
 
 - Configurar el APN del operador (reemplace los marcadores por los valores de su SIM)
 ```
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Nota: {{apn}} es el host APN. Si su APN requiere usuario y contraseña, proporcione {{apnu}} y {{apnp}} respectivamente. El formato anterior mantiene opcionales los campos de usuario y contraseña.
+Nota: [apn] es el host APN. Si su APN requiere usuario y contraseña, proporcione [apnu] y [apnp] respectivamente. El formato anterior mantiene opcionales los campos de usuario y contraseña.
 
 - Configurar el servidor GPRS a Plaspy usando el dominio Plaspy (el transporte UDP o TCP depende de la selección del dispositivo)
 ```

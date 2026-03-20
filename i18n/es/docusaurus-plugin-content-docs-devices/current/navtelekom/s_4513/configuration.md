@@ -78,7 +78,7 @@ El S-4513 transmite posiciones GNSS y telemetría de sensores a través del enla
 
 Este ejemplo no incluye cadenas SMS ni comandos por línea de comando específicos del proveedor. Los comandos exactos y su sintaxis varían según el firmware del fabricante y el método de configuración que utilice (NTC Configurator, DRC o comandos SMS del proveedor). Use las herramientas y la documentación oficiales de Navtelekom para el formato de comandos. Habitualmente, las herramientas del proveedor ofrecen campos en la interfaz gráfica para ingresar el host (d.plaspy.com o 54.85.159.138), el puerto 8888 y la selección de transporte, y a continuación envían los comandos apropiados al dispositivo.
 
-Si recibe o utiliza cadenas de comandos suministradas por el proveedor que contengan marcadores de posición (por ejemplo {{apn}}, {{apnu}} o {{apnp}}), mantenga los marcadores y reemplácelos con los ajustes APN de su operador según las indicaciones del fabricante.
+Si recibe o utiliza cadenas de comandos suministradas por el proveedor que contengan marcadores de posición (por ejemplo [apn], [apnu] o [apnp]), mantenga los marcadores y reemplácelos con los ajustes APN de su operador según las indicaciones del fabricante.
 
 ## Notas de configuración
 

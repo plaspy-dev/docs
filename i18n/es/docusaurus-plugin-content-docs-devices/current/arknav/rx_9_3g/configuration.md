@@ -80,7 +80,7 @@ El RX-9 3G envía su posición y datos de eventos a través de la red celular al
 
 El ArkNav RX-9 3G puede configurarse usando herramientas del fabricante, comandos SMS o utilidades OTA según el firmware y la configuración del vendedor. Los comandos exactos dependen de la sintaxis de configuración de ArkNav y la versión de firmware, y no se incluyen aquí como parte de esta guía pública.
 
-Consulte el manual de usuario de ArkNav o su herramienta de proveedor para el formato de comando específico necesario para establecer el dominio del servidor, la IP del servidor, el puerto, el tipo de transporte y el APN. Si dispone de un conjunto de comandos del fabricante, aplíquelos en el orden requerido por el dispositivo e incluya marcadores de posición tales como {{apn}} o {{apnu}} exactamente como los proporcione el fabricante; estos marcadores deben reemplazarse por el APN, nombre de usuario y contraseña de su SIM cuando sea necesario.
+Consulte el manual de usuario de ArkNav o su herramienta de proveedor para el formato de comando específico necesario para establecer el dominio del servidor, la IP del servidor, el puerto, el tipo de transporte y el APN. Si dispone de un conjunto de comandos del fabricante, aplíquelos en el orden requerido por el dispositivo e incluya marcadores de posición tales como [apn] o [apnu] exactamente como los proporcione el fabricante; estos marcadores deben reemplazarse por el APN, nombre de usuario y contraseña de su SIM cuando sea necesario.
 
 ## Notas de configuración
 

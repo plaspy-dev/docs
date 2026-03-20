@@ -85,22 +85,22 @@ El TTU-1200 puede configurarse por SMS usando los comandos documentados por el f
 !R0
 ```
 
-2. Configure el APN del operador (reemplazar {{apn}} con la cadena APN de su operadora):
+2. Configure el APN del operador (reemplazar [apn] con la cadena APN de su operadora):
 
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
-3. Configure el nombre de usuario APN si la operadora lo requiere (reemplazar {{apnu}} con el nombre de usuario APN):
+3. Configure el nombre de usuario APN si la operadora lo requiere (reemplazar [apnu] con el nombre de usuario APN):
 
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
-4. Configure la contraseña APN si la operadora la requiere (reemplazar {{apnp}} con la contraseña APN):
+4. Configure la contraseña APN si la operadora la requiere (reemplazar [apnp] con la contraseña APN):
 
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 5. Configure el servidor GPRS para Plaspy usando la IP pública del servidor:
@@ -128,9 +128,9 @@ Verificación: compruebe los ajustes configurados en el dispositivo con:
 ```
 
 Notas sobre los marcadores:
-- {{apn}} es la cadena APN de la operadora requerida para datos GPRS.  
-- {{apnu}} es el nombre de usuario APN opcional para la autenticación con la operadora.  
-- {{apnp}} es la contraseña APN opcional para la autenticación con la operadora.  
+- [apn] es la cadena APN de la operadora requerida para datos GPRS.  
+- [apnu] es el nombre de usuario APN opcional para la autenticación con la operadora.  
+- [apnp] es la contraseña APN opcional para la autenticación con la operadora.  
 Mantenga los marcadores tal como aparecen y reemplácelos por las credenciales de la operadora correspondientes a su tarjeta SIM.
 
 ## Observaciones sobre la configuración

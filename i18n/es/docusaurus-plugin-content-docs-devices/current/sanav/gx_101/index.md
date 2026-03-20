@@ -1,6 +1,7 @@
 ---
 slug: /sanav/gx_101
 id: gx_101
+sidebar_key: sanagx_101_index_gx_101
 sidebar_label: GX-101
 title: Sanav - GX-101
 sidebar_class_name: menu_item_tracker

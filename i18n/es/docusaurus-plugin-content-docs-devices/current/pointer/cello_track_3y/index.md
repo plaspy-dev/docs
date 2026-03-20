@@ -1,6 +1,7 @@
 ---
 slug: /pointer/cello_track_3y
 id: cello_track_3y
+sidebar_key: pointecello_track_3y_index_cello_track_3y
 sidebar_label: Cello Track 3Y
 title: Pointer - Cello Track 3Y
 sidebar_class_name: menu_item_tracker

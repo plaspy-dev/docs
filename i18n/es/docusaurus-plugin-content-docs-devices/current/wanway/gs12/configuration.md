@@ -76,22 +76,22 @@ El GS12 envía la ubicación GNSS y la telemetría de eventos del dispositivo a 
 
 El GS12 admite configuración por SMS. A continuación encontrará comandos públicos de ejemplo que puede enviar al dispositivo por SMS. Conserve los marcadores de posición cuando los reemplace por los valores específicos del operador.
 
-- Configure el APN del operador. Reemplace {{apn}} por el APN de su operador. Si el operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} tal como se los proporcione el operador.
+- Configure el APN del operador. Reemplace [apn] por el APN de su operador. Si el operador requiere usuario y contraseña, incluya [apnu] y [apnp] tal como se los proporcione el operador.
 
 ```
-APN,{{apn}}{{# if apnu then }},{{apnu}},{{apnp}}{{# endif }}#
+APN,[apn]{{# if apnu then }},[apnu],[apnp]{{# endif }}#
 ```
 
 (Si su sistema de mensajería no soporta sintaxis condicional, use una de las siguientes formas según si su APN requiere credenciales.)
 
 Solo APN:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 
 Con usuario y contraseña del APN:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configure el servidor GPRS para apuntar a Plaspy usando el dominio público y el puerto:
@@ -125,8 +125,8 @@ STATUS#
 ```
 
 Notas sobre marcadores de posición y comandos:
-- {{apn}} es la cadena APN del operador necesaria para datos celulares.
-- {{apnu}} y {{apnp}} son marcadores de posición opcionales para usuario y contraseña del APN, usados solo cuando el operador exige credenciales.
+- [apn] es la cadena APN del operador necesaria para datos celulares.
+- [apnu] y [apnp] son marcadores de posición opcionales para usuario y contraseña del APN, usados solo cuando el operador exige credenciales.
 - Mantenga el carácter de almohadilla final (#) tal como se muestra; forma parte del formato de comandos SMS del GS12.
 
 ## Notas de configuración

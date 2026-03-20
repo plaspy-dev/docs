@@ -76,13 +76,13 @@ El TP-810 puede configurarse para enviar datos de posición y eventos por GPRS a
 La documentación del TP-810 ofrece una secuencia de configuración basada en SMS. La contraseña por defecto usada en estos ejemplos es 0000. Reemplace los marcadores y valores según se indica antes de enviar cada SMS.
 
 - Configurar APN  
-  Use este comando para establecer el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} donde el dispositivo lo soporte.
+  Use este comando para establecer el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario y contraseña, incluya [apnu] y [apnp] donde el dispositivo lo soporte.
   ```
-  APN,0000,{{apn}}
+  APN,0000,[apn]
   ```
   Opcional con usuario y contraseña:
   ```
-  APN,0000,{{apn}},{{apnu}},{{apnp}}
+  APN,0000,[apn],[apnu],[apnp]
   ```
 
 - Establecer un identificador de 5 dígitos (alias)  
@@ -126,7 +126,7 @@ Mantenga el orden de los comandos al inicializar el dispositivo para asegurar qu
 - La sintaxis de comandos SMS y los parámetros disponibles pueden variar según la revisión de firmware y las herramientas del proveedor, por lo que verifique los comandos con la documentación vigente del Condor TP-810.  
 - Algunos rastreadores aceptan nombres de dominio y otros requieren una dirección IP en el comando de servidor. El ejemplo público usa la IP 54.85.159.138, pero d.plaspy.com también es el dominio canónico de Plaspy.  
 - La elección entre TCP y UDP afecta el comportamiento del transporte; seleccione el que sea compatible con su red y dispositivo. Plaspy escucha en el puerto 8888 para ambos transportes.  
-- APN, usuario y contraseña del APN son específicos del operador; conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador.  
+- APN, usuario y contraseña del APN son específicos del operador; conserve los marcadores [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador.  
 - La configuración por SMS es útil para despliegues en campo, pero confirme que el dispositivo tenga acceso suficiente a datos y SMS antes de depender del reporte por GPRS.
 
 ## Por qué usar Plaspy con esta configuración

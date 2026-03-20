@@ -76,7 +76,7 @@ When configured for Plaspy the STL060 sends its position and any supported event
 
 ## Example Configuration Commands
 
-The STL060 supports SMS based configuration and manufacturer tools, and exact command syntax can vary by firmware and release. Because manufacturer command formats and special parameters differ over time, follow the official device manual or configuration tool for exact commands. If you use SMS commands provided by the vendor, preserve any placeholders the manufacturer uses such as {{apn}}, {{apnu}}, or {{apnp}} when required, and replace them with your SIM APN details.
+The STL060 supports SMS based configuration and manufacturer tools, and exact command syntax can vary by firmware and release. Because manufacturer command formats and special parameters differ over time, follow the official device manual or configuration tool for exact commands. If you use SMS commands provided by the vendor, preserve any placeholders the manufacturer uses such as [apn], [apnu], or [apnp] when required, and replace them with your SIM APN details.
 
 For SMS configuration the patterns may include sending a server command and a port command and then saving or rebooting. Use the official STL documentation for the exact text strings if SMS is your chosen method.
 

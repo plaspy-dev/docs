@@ -79,17 +79,17 @@ El TKSTAR suele aceptar comandos SMS para su configuración. La contraseña púb
 ```text
 begin123456
 ```
-2. Establecer el APN del operador (reemplace {{apn}} con el APN del operador móvil)
+2. Establecer el APN del operador (reemplace [apn] con el APN del operador móvil)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-3. Configurar el usuario del APN si el operador lo exige (reemplace {{apnu}} con el usuario APN)
+3. Configurar el usuario del APN si el operador lo exige (reemplace [apnu] con el usuario APN)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-4. Configurar la contraseña del APN si es necesaria (reemplace {{apnp}} con la contraseña APN)
+4. Configurar la contraseña del APN si es necesaria (reemplace [apnp] con la contraseña APN)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 5. Señalar el servidor GPRS a Plaspy usando la IP pública y el puerto
 ```text
@@ -105,9 +105,9 @@ gprs123456
 ```
 
 Notas sobre marcadores y comandos
-- {{apn}} es la cadena APN del operador móvil requerida para datos.  
-- {{apnu}} es el usuario APN cuando el operador lo requiere.  
-- {{apnp}} es la contraseña APN cuando se solicita.  
+- [apn] es la cadena APN del operador móvil requerida para datos.  
+- [apnu] es el usuario APN cuando el operador lo requiere.  
+- [apnp] es la contraseña APN cuando se solicita.  
 - El comando adminip anterior apunta el dispositivo a la IP del servidor Plaspy y utiliza el puerto 8888; alternativamente puede especificar d.plaspy.com en la herramienta del fabricante si admite nombres de dominio.  
 - Algunas variantes de firmware incluyen comandos separados para seleccionar UDP o TCP; si su dispositivo requiere una selección explícita de transporte, configúrelo en UDP o TCP antes de guardar.
 

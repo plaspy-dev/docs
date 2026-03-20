@@ -22,7 +22,7 @@ keywords:
 
 Esta página documenta el contexto público de configuración para usar el rastreador Concox JM-LL01 con Plaspy. Reúne los ajustes de servidor prácticos y los comandos SMS de uso común para apuntar este modelo a Plaspy, y explica qué debe verificar antes de intentar la integración. El contenido refleja información pública de configuración y los comandos SMS que los instaladores suelen emplear.
 
-Plaspy usa ajustes de servidor compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador. Los pasos del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor; trate los comandos y el flujo a continuación como una guía pública y práctica, no como el único método posible. Cuando corresponda, esta guía conserva marcadores como {{apn}}, {{apnu}} y {{apnp}} para que pueda sustituir los valores del operador durante la configuración.
+Plaspy usa ajustes de servidor compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador. Los pasos del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor; trate los comandos y el flujo a continuación como una guía pública y práctica, no como el único método posible. Cuando corresponda, esta guía conserva marcadores como [apn], [apnu] y [apnp] para que pueda sustituir los valores del operador durante la configuración.
 
 ## Resumen de configuración
 
@@ -46,7 +46,7 @@ Este proceso prepara el JM-LL01 para comunicarse de forma confiable con Plaspy, 
 
 - Un JM-LL01 alimentado con una tarjeta SIM válida instalada y con datos móviles activos para GPRS o NB-IoT/LTE según corresponda.
 - Acceso al método de configuración que soporte la unidad: SMS, aplicación móvil, configuración local por BLE o herramienta de PC según el firmware y las herramientas disponibles.
-- La información correcta del APN para el operador elegido (use los marcadores {{apn}}, {{apnu}}, {{apnp}} si es necesario).
+- La información correcta del APN para el operador elegido (use los marcadores [apn], [apnu], [apnp] si es necesario).
 - Capacidad para enviar y recibir SMS si utiliza configuración por SMS y una batería cargada o una fuente de alimentación temporal.
 - Un plan de pruebas básico para validar el reporte a Plaspy tras la configuración (vea el comando de verificación más abajo).
 
@@ -84,11 +84,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador (reemplace {{apn}}, {{apnu}}, {{apnp}} según sea necesario)
+- Configurar el APN del operador (reemplace [apn], [apnu], [apnp] según sea necesario)
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: {{apn}} es el APN del operador. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN; inclúyalos solo si su operador exige credenciales.
+Nota: [apn] es el APN del operador. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN; inclúyalos solo si su operador exige credenciales.
 
 - Establecer el servidor GPRS usando el dominio de Plaspy (la selección UDP/TCP depende del dispositivo)
 ```text
@@ -126,7 +126,7 @@ Envíe los comandos en el orden mostrado cuando siga una secuencia de configurac
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis de los comandos o las funciones disponibles; valide siempre los comandos en un único equipo antes de implementaciones masivas.
 - El dispositivo soporta la configuración por SMS como se muestra; BLE, app móvil o herramientas de PC pueden ofrecer flujos alternativos con interfaz gráfica.
 - Elija UDP o TCP en función de la fiabilidad de la red y las restricciones del ISP; ambos transportes son compatibles al apuntar a Plaspy en el puerto 8888.
-- Conserve y sustituya los marcadores como {{apn}}, {{apnu}} y {{apnp}} con los valores del operador al configurar la SIM/APN.
+- Conserve y sustituya los marcadores como [apn], [apnu] y [apnp] con los valores del operador al configurar la SIM/APN.
 - Todos los dispositivos en Plaspy usan el mismo puerto y Plaspy detectará automáticamente el protocolo del rastreador, por lo que puede usar el endpoint compartido de Plaspy.
 
 ## Por qué usar Plaspy con esta configuración

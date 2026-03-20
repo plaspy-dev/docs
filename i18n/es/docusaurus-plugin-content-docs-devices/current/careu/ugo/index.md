@@ -1,6 +1,7 @@
 ---
 slug: /careu/ugo
 id: ugo
+sidebar_key: careugo_index_ugo
 sidebar_label: Ugo
 title: CAREU - Ugo
 sidebar_class_name: menu_item_tracker

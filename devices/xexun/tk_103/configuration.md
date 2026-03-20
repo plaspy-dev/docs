@@ -81,19 +81,19 @@ The TK-103 can be configured by sending SMS messages to the device. The followin
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if required (replace {{apnu}} with the APN username)
+- Set the APN username if required (replace [apnu] with the APN username)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if required (replace {{apnp}} with the APN password)
+- Set the APN password if required (replace [apnp] with the APN password)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the server IP and port
@@ -112,8 +112,8 @@ t060s***n123456
 ```
 
 Notes on placeholders and password
-- {{apn}} is the mobile operator APN string required for GPRS data
-- {{apnu}} and {{apnp}} are optional APN username and password fields if your operator requires them
+- [apn] is the mobile operator APN string required for GPRS data
+- [apnu] and [apnp] are optional APN username and password fields if your operator requires them
 - Replace 123456 with the device password if it has been changed from the factory default
 - Send each command as an SMS to the tracker and allow short time for the device to apply settings before sending the next command
 

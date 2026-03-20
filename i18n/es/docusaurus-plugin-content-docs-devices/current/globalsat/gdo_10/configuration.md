@@ -77,9 +77,9 @@ La configuración pública del GDO-10 incluye comandos formateados para SMS. El 
 
 Notas sobre los marcadores
 - {{imei}} Reemplace por el número IMEI del dispositivo.
-- {{apn}} Reemplace por el nombre APN de su operador móvil.
-- {{apnu}} Reemplace por el nombre de usuario del APN si su operador lo requiere. Deje vacío si no es necesario.
-- {{apnp}} Reemplace por la contraseña del APN si su operador lo requiere. Deje vacío si no es necesario.
+- [apn] Reemplace por el nombre APN de su operador móvil.
+- [apnu] Reemplace por el nombre de usuario del APN si su operador lo requiere. Deje vacío si no es necesario.
+- [apnp] Reemplace por la contraseña del APN si su operador lo requiere. Deje vacío si no es necesario.
 - {{checksum}} y {{checksumreeboot}} son sumas de comprobación hexadecimales de dos caracteres en mayúsculas calculadas como el XOR de todos los caracteres antes del asterisco en la cadena del comando.
 
 Nota sobre el formato
@@ -89,7 +89,7 @@ Nota sobre el formato
 Envíe este SMS al número del dispositivo tras reemplazar los marcadores y calcular la suma de verificación:
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 2) Comando opcional de reinicio

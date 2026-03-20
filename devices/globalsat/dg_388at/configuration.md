@@ -80,13 +80,13 @@ If your DG-388AT deployment uses the standard BLE + GPX path, pair with ez-Conne
 The following example commands are extracted from publicly available manufacturer-styled configuration content. They use placeholders that you must replace with device-specific values before sending. Preserve the placeholders when preparing commands:
 
 - {{imei}} — replace with the device IMEI when required by the command format.
-- {{apn}}, {{apnu}}, {{apnp}} — APN placeholders for cellular variants; only relevant if your unit supports cellular or SMS-based configuration.
+- [apn], [apnu], [apnp] — APN placeholders for cellular variants; only relevant if your unit supports cellular or SMS-based configuration.
 - {{checksum}} and {{checksumreeboot}} — hexadecimal checksum values computed over the command text before the star character.
 
 Primary setup command (replace placeholders and compute checksum as described below):
 
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Optional reboot command (label this as reboot or apply step if required):

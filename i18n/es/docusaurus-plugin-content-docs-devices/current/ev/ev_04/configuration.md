@@ -78,11 +78,11 @@ El fabricante de EV documenta la configuración por SMS para el EV-04. Los coman
 123456L+00
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}}, e incluir {{apnu}} y {{apnp}} si su operador requiere usuario y contraseña)
+- Establecer el APN del operador (reemplazar [apn], e incluir [apnu] y [apnp] si su operador requiere usuario y contraseña)
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-Explicación: {{apn}} es el APN del operador móvil. {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña del APN que solo se usan si su operador los requiere.
+Explicación: [apn] es el APN del operador móvil. [apnu] y [apnp] son campos opcionales de usuario y contraseña del APN que solo se usan si su operador los requiere.
 
 - Establecer la IP y el puerto del servidor a Plaspy (nota del fabricante: puede necesitar solicitar que se habilite el cambio de servidor)
 ```text
@@ -97,7 +97,7 @@ Notas:
 - La configuración por SMS está soportada según los comandos públicos mostrados; confirme que su unidad utiliza el mismo conjunto de comandos SMS y la contraseña por defecto antes de enviar comandos.
 - Revisiones de firmware o hardware pueden cambiar la sintaxis de comandos o las contraseñas por defecto; verifique con la documentación del fabricante o con su soporte.
 - Elija UDP o TCP según el menú de configuración del dispositivo; Plaspy aceptará cualquiera de los dos transportes en el puerto 8888 y detectará automáticamente el protocolo correcto.
-- Confirme los valores APN con su operador móvil y conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} tal como aparecen cuando corresponda.
+- Confirme los valores APN con su operador móvil y conserve los marcadores [apn], [apnu] y [apnp] tal como aparecen cuando corresponda.
 - Contacte al fabricante o al proveedor si el dispositivo no acepta cambios de servidor; algunas unidades requieren un paso de habilitación o activación por parte del distribuidor.
 
 ## Por qué usar Plaspy con esta configuración

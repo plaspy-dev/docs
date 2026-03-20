@@ -80,12 +80,12 @@ TSPRXAB27GHKLMnaicz*U!
 
 Setup command template
 - Replace {{imei}} with the device IMEI.
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with your carrier APN, APN username, and APN password as required.
+- Replace [apn], [apnu], and [apnp] with your carrier APN, APN username, and APN password as required.
 - The command string requires a checksum value calculated over the text before the asterisk then appended in uppercase hexadecimal two digit form.
 
 Setup command
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Optional reboot command (use if required to apply settings)
@@ -100,9 +100,9 @@ Checksum calculation
 
 Placeholders explained
 - {{imei}}: the device IMEI number required by the command to target a specific tracker.
-- {{apn}}: your carrier access point name for data connectivity.
-- {{apnu}}: carrier APN username if required by your SIM profile.
-- {{apnp}}: carrier APN password if required by your SIM profile.
+- [apn]: your carrier access point name for data connectivity.
+- [apnu]: carrier APN username if required by your SIM profile.
+- [apnp]: carrier APN password if required by your SIM profile.
 - {{checksum}}: the XOR checksum value as described above.
 
 Follow the command order as shown when provisioning. Sending the setup command first and then the reboot command is a common sequence when a reboot is required for settings to take effect.

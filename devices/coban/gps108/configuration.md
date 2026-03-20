@@ -81,7 +81,7 @@ The GPS108 commonly accepts SMS commands for setup. The examples below are taken
 
 Notes:
 - Commands below are sent to the device as SMS messages.
-- Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN, APN username, and APN password respectively.
+- Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator APN, APN username, and APN password respectively.
 - The factory reset command is optional and typically used only during initial setup or when clearing previous settings.
 
 1. Factory reset (optional initial step)
@@ -96,12 +96,12 @@ time zone123456 0
 
 3. Set the operator APN
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Set the APN username and password
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Set the GPRS server to Plaspy using the direct IP and port
@@ -137,7 +137,7 @@ check123456
 protocol123456 18
 ```
 
-Replace the placeholders {{apn}}, {{apnu}}, and {{apnp}} with your operator APN values. For example, apn123456 internet would set the APN to internet. The default SMS control password used above is 123456; if your device password has been changed use the current password.
+Replace the placeholders [apn], [apnu], and [apnp] with your operator APN values. For example, apn123456 internet would set the APN to internet. The default SMS control password used above is 123456; if your device password has been changed use the current password.
 
 ## Configuration Notes
 

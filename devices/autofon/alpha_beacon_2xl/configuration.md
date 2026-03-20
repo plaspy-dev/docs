@@ -79,7 +79,7 @@ The Alpha-Beacon 2XL reports location and telemetry to Plaspy using the device r
 
 The Alpha-Beacon 2XL configuration method may vary by firmware and by whether you use the AvtoFon KSA web portal, the mobile app, or SMS command strings. No universal public command set for this device was provided here; follow AutoFon instructions for commands or use the official configuration interface. If you manage the tracker via SMS commands or a local configuration utility, enter the Plaspy server address d.plaspy.com or 54.85.159.138 and set port 8888, selecting UDP or TCP where requested by the device.
 
-If you have manufacturer provided command examples or an SMS syntax from AutoFon, preserve those exact commands and their order when applying them. Placeholders such as {{apn}} or {{apnu}} found in manufacturer documentation should be left as placeholders and replaced with your network credentials when required.
+If you have manufacturer provided command examples or an SMS syntax from AutoFon, preserve those exact commands and their order when applying them. Placeholders such as [apn] or [apnu] found in manufacturer documentation should be left as placeholders and replaced with your network credentials when required.
 
 ## Configuration Notes
 

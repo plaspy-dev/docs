@@ -81,21 +81,21 @@ begin123456
 
 - Establecer el APN del operador
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Reemplace {{apn}} con la cadena APN de su operador.
+Reemplace [apn] con la cadena APN de su operador.
 
 - Establecer el usuario del APN (opcional)
 ```sms
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-Reemplace {{apnu}} con el usuario del APN si el operador lo requiere.
+Reemplace [apnu] con el usuario del APN si el operador lo requiere.
 
 - Establecer la contraseña del APN (opcional)
 ```sms
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-Reemplace {{apnp}} con la contraseña del APN si el operador lo requiere.
+Reemplace [apnp] con la contraseña del APN si el operador lo requiere.
 
 - Configurar el servidor GPRS a Plaspy usando la IP y el puerto
 ```sms
@@ -114,7 +114,7 @@ Ajuste el valor del intervalo según la frecuencia de reporte deseada.
 gprs123456
 ```
 
-Notas sobre los marcadores: {{apn}} es el APN de la red, {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Mantenga la contraseña del dispositivo (123456 en estos ejemplos) según lo requiera su unidad; reemplácela si tiene una contraseña de administrador diferente.
+Notas sobre los marcadores: [apn] es el APN de la red, [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Mantenga la contraseña del dispositivo (123456 en estos ejemplos) según lo requiera su unidad; reemplácela si tiene una contraseña de administrador diferente.
 
 ## Notas de configuración
 

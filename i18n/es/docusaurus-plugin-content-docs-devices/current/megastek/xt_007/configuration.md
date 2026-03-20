@@ -76,9 +76,9 @@ El XT-007 normalmente soporta comandos vía SMS. Los comandos públicos de muest
 
 - Notas sobre los marcadores
   - {{imei}} significa el número IMEI del dispositivo, normalmente 15 dígitos
-  - {{apn}} es el APN del operador móvil
-  - {{apnu}} es el nombre de usuario del APN si se requiere
-  - {{apnp}} es la contraseña del APN si se requiere
+  - [apn] es el APN del operador móvil
+  - [apnu] es el nombre de usuario del APN si se requiere
+  - [apnp] es la contraseña del APN si se requiere
 
 1. Establezca el ID del dispositivo o mapee el IMEI (reemplace {{imei}} con el IMEI del equipo)
 ```
@@ -87,11 +87,11 @@ M000000,22,{{imei}}
 
 2. Configure el APN del operador. Si el APN requiere usuario o contraseña inclúyalos como se muestra. Reemplace los marcadores según corresponda.
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 O si se requieren usuario y contraseña:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Establezca el intervalo de actualización a 60 segundos

@@ -82,8 +82,8 @@ The SkyPatrol TT 9200 can be configured with AT style commands. The following pu
 
 ```text
 AT&F
-AT+CGDCONT=1,"IP","{{apn}}"
-AT$CGPCO=1,"{{apnu}},{{apnp}}",0
+AT+CGDCONT=1,"IP","[apn]"
+AT$CGPCO=1,"[apnu],[apnp]",0
 AT$TTARG=2
 AT$TTSRVDST=1,1,"54.85.159.138",8888,2
 AT$TTWAKEUP=1,1
@@ -93,8 +93,8 @@ AT$RESET
 
 Notes on the commands above:
 - AT&F resets to factory radio defaults as a starting point for configuration.
-- AT+CGDCONT sets the PDP context with the APN placeholder {{apn}}. Replace {{apn}} with the SIM data APN for your mobile operator.
-- AT$CGPCO is shown with {{apnu}} and {{apnp}} placeholders for an APN username and password; include this only if your operator requires credentials. This command may appear conditionally depending on firmware and operator needs.
+- AT+CGDCONT sets the PDP context with the APN placeholder [apn]. Replace [apn] with the SIM data APN for your mobile operator.
+- AT$CGPCO is shown with [apnu] and [apnp] placeholders for an APN username and password; include this only if your operator requires credentials. This command may appear conditionally depending on firmware and operator needs.
 - AT$TTSRVDST sets the server destination. The example uses the Plaspy server IP 54.85.159.138 and port 8888. The final parameter in this command sequence is device specific; follow your manufacturer guide for exact parameter meanings.
 - AT$TTWAKEUP enables wake or heartbeat behavior as part of startup; adjust as needed per installation.
 - AT&W saves settings to nonvolatile memory.
@@ -106,7 +106,7 @@ If your vendor tool or firmware exposes the same fields in a graphical interface
 
 - Firmware and hardware revisions can change available AT commands and parameter ordering; check the device firmware release notes before applying commands.
 - Use UDP or TCP based on network reliability and device behavior; some installers prefer UDP for lower overhead and others prefer TCP for session reliability.
-- When inserting APN credentials keep placeholders {{apn}}, {{apnu}}, and {{apnp}} intact until you replace them with your operator values.
+- When inserting APN credentials keep placeholders [apn], [apnu], and [apnp] intact until you replace them with your operator values.
 - If you use the server domain d.plaspy.com you can also supply the server IP 54.85.159.138 directly; both point to Plaspy on port 8888.
 - Saving settings with AT&W and performing a controlled restart helps ensure persistent configuration across power cycles.
 

@@ -83,11 +83,11 @@ GMT,0000,0#
 
 - Set the operator APN (placeholders shown)
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-- {{apn}} = APN name provided by your mobile operator
-- {{apnu}} = APN username if required by the operator; leave blank if not used
-- {{apnp}} = APN password if required by the operator; leave blank if not used
+- [apn] = APN name provided by your mobile operator
+- [apnu] = APN username if required by the operator; leave blank if not used
+- [apnp] = APN password if required by the operator; leave blank if not used
 
 - Set the GPRS server to the Plaspy server IP and port
 ```text

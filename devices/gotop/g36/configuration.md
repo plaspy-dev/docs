@@ -80,7 +80,7 @@ The G36 sends GNSS-derived position fixes plus auxiliary event messages over the
 
 The G36 model configuration methods vary by GOTOP firmware and the manufacturer configuration tool. Because there are multiple supported configuration interfaces across firmware and markets, the exact commands or SMS strings (when available) are manufacturer specific and may change over time. Refer to GOTOP documentation or the configuration utility you obtained from GOTOP for exact command formats and syntax.
 
-If you obtain specific public command strings or SMS configuration patterns from GOTOP, place them in the device tool exactly as provided and preserve any placeholders such as {{apn}} or other APN fields.
+If you obtain specific public command strings or SMS configuration patterns from GOTOP, place them in the device tool exactly as provided and preserve any placeholders such as [apn] or other APN fields.
 
 ## Configuration Notes
 

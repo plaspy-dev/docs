@@ -82,19 +82,19 @@ El TS-V1 soporta configuración mediante SMS. Los siguientes comandos SMS públi
 FORMAT
 ```
 
-2. Establecer el APN del operador (reemplazar {{apn}} por el APN de su operador)
+2. Establecer el APN del operador (reemplazar [apn] por el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-3. Establecer el usuario APN (reemplazar {{apnu}} por el usuario APN)
+3. Establecer el usuario APN (reemplazar [apnu] por el usuario APN)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-4. Establecer la contraseña APN (reemplazar {{apnp}} por la contraseña APN)
+4. Establecer la contraseña APN (reemplazar [apnp] por la contraseña APN)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 5. Establecer la IP y el puerto del servidor GPRS para apuntar el dispositivo a Plaspy (ejemplo público usa la IP y puerto de Plaspy)
@@ -108,9 +108,9 @@ CXZT
 ```
 
 Explicación de marcadores de posición:
-- {{apn}} es la cadena APN del operador necesaria para la conectividad de datos.
-- {{apnu}} es el nombre de usuario APN si su operador lo requiere.
-- {{apnp}} es la contraseña APN si su operador lo requiere.
+- [apn] es la cadena APN del operador necesaria para la conectividad de datos.
+- [apnu] es el nombre de usuario APN si su operador lo requiere.
+- [apnp] es la contraseña APN si su operador lo requiere.
 
 Envíe cada comando como SMS desde un número autorizado si el dispositivo requiere configuración por SMS. El orden es importante en la configuración inicial cuando el APN y el servidor deben estar presentes antes de que pueda comenzar el reporte de datos.
 

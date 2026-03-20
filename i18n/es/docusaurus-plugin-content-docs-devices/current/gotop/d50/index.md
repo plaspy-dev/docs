@@ -1,6 +1,7 @@
 ---
 slug: /gotop/d50
 id: d50
+sidebar_key: gotod50_index_d50
 sidebar_label: D50
 title: GOTOP - D50
 sidebar_class_name: menu_item_tracker

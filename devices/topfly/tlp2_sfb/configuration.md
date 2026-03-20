@@ -86,11 +86,11 @@ GMT,0000,0#
 
 2. Set the operator APN
 ```sms
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-- {{apn}} is the operator APN name
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required by the operator
+- [apn] is the operator APN name
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required by the operator
 
 3. Set the GPRS server to Plaspy using the public server IP and port
 ```sms

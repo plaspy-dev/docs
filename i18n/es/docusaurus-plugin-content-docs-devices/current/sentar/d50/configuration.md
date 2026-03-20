@@ -93,9 +93,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Establecer APN del operador donde {{apn}} es el nombre del APN, {{apnu}} es el usuario del APN, {{apnp}} es la contraseña del APN, y xxxyy es MCC+MNC si se requiere
+- Establecer APN del operador donde [apn] es el nombre del APN, [apnu] es el usuario del APN, [apnp] es la contraseña del APN, y xxxyy es MCC+MNC si se requiere
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
@@ -114,7 +114,7 @@ pw,123456,ts#
 ```
 
 Notas sobre marcadores y formato:
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores para el nombre del APN de su operador, el usuario del APN y la contraseña del APN. Reemplácelos por los valores de su operador al enviar los comandos.
+- [apn], [apnu] y [apnp] son marcadores para el nombre del APN de su operador, el usuario del APN y la contraseña del APN. Reemplácelos por los valores de su operador al enviar los comandos.
 - La contraseña de ejemplo mostrada arriba es 123456 según el contenido público. Use la contraseña actual del dispositivo si ha sido cambiada.
 - Los comandos se presentan tal como fueron publicados. La sintaxis y los separadores pueden variar según la versión de firmware. Confirme la sintaxis exacta con la documentación de Sentar si algún comando no es aceptado.
 

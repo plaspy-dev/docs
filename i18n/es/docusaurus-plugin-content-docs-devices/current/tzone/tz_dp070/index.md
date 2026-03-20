@@ -1,6 +1,7 @@
 ---
 slug: /tzone/tz_dp070
 id: tz_dp070
+sidebar_key: tzontz_dp070_index_tz_dp070
 sidebar_label: TZ-DP070
 title: TZone - TZ-DP070
 sidebar_class_name: menu_item_tracker

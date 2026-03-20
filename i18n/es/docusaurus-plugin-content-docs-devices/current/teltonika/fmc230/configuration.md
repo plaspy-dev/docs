@@ -78,13 +78,13 @@ El FMC230 puede aceptar comandos de configuración vía SMS. El siguiente ejempl
 - Comando SMS de ejemplo para establecer APN y parámetros del servidor Plaspy
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de marcadores y parámetros
-  - {{apn}}  Reemplace con el nombre APN de su operador móvil.  
-  - {{apnu}} Reemplace con el usuario APN si su operador lo requiere, de lo contrario deje en blanco.  
-  - {{apnp}} Reemplace con la contraseña APN si su operador lo requiere, de lo contrario deje en blanco.  
+  - [apn]  Reemplace con el nombre APN de su operador móvil.  
+  - [apnu] Reemplace con el usuario APN si su operador lo requiere, de lo contrario deje en blanco.  
+  - [apnp] Reemplace con la contraseña APN si su operador lo requiere, de lo contrario deje en blanco.  
   - El parámetro 2004 establece el dominio del servidor a d.plaspy.com.  
   - El parámetro 2005 establece el puerto en 8888.  
   - El parámetro 2006 puede representar una bandera de habilitación para GPRS o un perfil de conexión según el firmware, por lo que debe verificarlo en la documentación de Teltonika correspondiente a su versión de firmware.

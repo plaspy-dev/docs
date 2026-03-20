@@ -75,7 +75,7 @@ Una vez configurado, el Sentar V80 envía periódicamente mensajes de ubicación
 
 ## Ejemplos de comandos de configuración
 
-El Sentar V80 puede configurarse enviando comandos SMS al dispositivo. Los ejemplos públicos que siguen usan la contraseña por defecto del dispositivo 123456. Conserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} al sustituir los valores de su operador. Reemplace xxxyy con la cadena MCC y MNC si es necesario.
+El Sentar V80 puede configurarse enviando comandos SMS al dispositivo. Los ejemplos públicos que siguen usan la contraseña por defecto del dispositivo 123456. Conserve los marcadores de posición como [apn], [apnu] y [apnp] al sustituir los valores de su operador. Reemplace xxxyy con la cadena MCC y MNC si es necesario.
 
 - Restablecimiento de fábrica inicial opcional (usar solo si necesita devolver el dispositivo a valores de fábrica):
 ```
@@ -92,9 +92,9 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Configurar el APN del operador donde {{apn}} es el APN, {{apnu}} es el usuario APN, {{apnp}} es la clave APN, y xxxyy es el MCC y MNC combinados:
+- Configurar el APN del operador donde [apn] es el APN, [apnu] es el usuario APN, [apnp] es la clave APN, y xxxyy es el MCC y MNC combinados:
 ```
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto 8888 (este comando apunta el dispositivo a Plaspy):
@@ -113,9 +113,9 @@ pw,123456,ts#
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es el nombre del punto de acceso de datos móviles para el operador de la SIM.
-- {{apnu}} es el usuario del APN si lo requiere el operador.
-- {{apnp}} es la contraseña del APN si la requiere el operador.
+- [apn] es el nombre del punto de acceso de datos móviles para el operador de la SIM.
+- [apnu] es el usuario del APN si lo requiere el operador.
+- [apnp] es la contraseña del APN si la requiere el operador.
 - xxxyy son los valores combinados MCC y MNC cuando el dispositivo los necesita para seleccionar el operador.
 
 ## Notas de configuración

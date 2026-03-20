@@ -75,15 +75,15 @@ The AT202 supports SMS based provisioning with the following public commands. Se
 
 - Set the operator APN
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 - Set the username of the APN operator (optional, only if your APN requires it)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 - Set the password of the APN operator (optional, only if your APN requires it)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 - Set the GPRS server to the Plaspy server IP
 ```text
@@ -95,8 +95,8 @@ $PORT,8888
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN name required for GPRS or cellular data.
-- {{apnu}} and {{apnp}} are the APN username and password fields when the operator requires authentication.
+- [apn] is the mobile operator APN name required for GPRS or cellular data.
+- [apnu] and [apnp] are the APN username and password fields when the operator requires authentication.
 - The IP address and port commands point the device to Plaspy. You can alternatively use d.plaspy.com where the device supports hostname entries.
 
 ## Configuration Notes

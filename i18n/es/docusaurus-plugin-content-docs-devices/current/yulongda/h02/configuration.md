@@ -79,19 +79,19 @@ Si utiliza los comandos SMS proporcionados, siga el orden y los valores predeter
 
 Los siguientes comandos se extraen del ejemplo público de configuración del modelo H02. Se usan mensajes SMS enviados desde un teléfono de control al dispositivo. Los ejemplos asumen la contraseña inicial del equipo 000000, que puede ser la predeterminada de fábrica. Mantenga los marcadores de posición tal como aparecen.
 
-- Establecer el APN del operador. Si el APN requiere usuario o contraseña, envíe la variante que incluye {{apnu}} y {{apnp}}.
+- Establecer el APN del operador. Si el APN requiere usuario o contraseña, envíe la variante que incluye [apnu] y [apnp].
 
 ```
-*APN#000000#{{apn}}#
+*APN#000000#[apn]#
 ```
 
 Variante opcional con usuario y contraseña del APN:
 
 ```
-*APN#000000#{{apn}}#{{apnu}}#{{apnp}}#
+*APN#000000#[apn]#[apnu]#[apnp]#
 ```
 
-Nota: Reemplace {{apn}} por la cadena APN de su operador móvil. Reemplace {{apnu}} y {{apnp}} por el usuario y la contraseña del APN si su operador los requiere. Si no se necesita usuario ni contraseña, use el comando más corto.
+Nota: Reemplace [apn] por la cadena APN de su operador móvil. Reemplace [apnu] y [apnp] por el usuario y la contraseña del APN si su operador los requiere. Si no se necesita usuario ni contraseña, use el comando más corto.
 
 - Apuntar el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy:
 

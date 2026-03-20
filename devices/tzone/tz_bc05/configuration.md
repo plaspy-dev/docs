@@ -76,10 +76,10 @@ When configured for network reporting, the TZ-BC05 is set to send its data to th
 
 The TZ-BC05 manufacturer provides an SMS command workflow for public configuration. The following commands are shown in the same order as commonly applied. Replace the SMS password and placeholders as needed.
 
-- Set the operator APN. Replace 000000 with the device SMS password if it has been changed, and replace {{apn}}, {{apnu}}, {{apnp}} with your operator values. The username and password fields are optional and only required if your carrier requires them.
+- Set the operator APN. Replace 000000 with the device SMS password if it has been changed, and replace [apn], [apnu], [apnp] with your operator values. The username and password fields are optional and only required if your carrier requires them.
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
 - Set the update interval to 60 seconds (example). This controls how often the device sends position updates.
@@ -102,9 +102,9 @@ The TZ-BC05 manufacturer provides an SMS command workflow for public configurati
 
 Notes on placeholders:
 - 000000 is the SMS admin password placeholder. Replace this with your SMS password if it has been changed from the factory value.
-- {{apn}} is the carrier APN name.
-- {{apnu}} is the APN username when required by the carrier.
-- {{apnp}} is the APN password when required by the carrier.
+- [apn] is the carrier APN name.
+- [apnu] is the APN username when required by the carrier.
+- [apnp] is the APN password when required by the carrier.
 
 ## Configuration Notes
 

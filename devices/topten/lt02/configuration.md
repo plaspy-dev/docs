@@ -83,12 +83,12 @@ The TopTen LT02 supports SMS-based configuration. The manufacturer provides thes
 
 - Configure APN and the Plaspy server (replace placeholders with your SIM APN values). This command sets the network APN, the server IP, the port, reporting interval, and other runtime parameters:
 ```
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explanation of placeholders:
-- {{apn}} — primary APN name for the mobile operator
-- {{apnu}} — APN username if required by the operator (leave empty if not required)
-- {{apnp}} — APN password if required by the operator (leave empty if not required)
+- [apn] — primary APN name for the mobile operator
+- [apnu] — APN username if required by the operator (leave empty if not required)
+- [apnp] — APN password if required by the operator (leave empty if not required)
 
 - Check or query the current WWW settings on the device:
 ```

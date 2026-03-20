@@ -80,7 +80,7 @@ If you are using the example AT command sequence shown below, run those commands
 The AR-2GM public command sequence below is provided as an example extracted from public manufacturer content. These AT commands are commonly applied via the manufacturer configuration tool, serial interface, or SMS depending on your device. Preserve the order where command order is important.
 
 Key points:
-- AT+XAPN includes a placeholder {{apn}}. Replace {{apn}} with the APN for your mobile operator.
+- AT+XAPN includes a placeholder [apn]. Replace [apn] with the APN for your mobile operator.
 - AT+XIP specifies the Plaspy server IP and port.
 - The final AT+XRST commands are device restarts; treat them as optional or as part of initial setup where appropriate.
 
@@ -88,7 +88,7 @@ Key points:
 
 ```
 AT+XRFD
-AT+XAPN=1"{{apn}}"
+AT+XAPN=1"[apn]"
 AT+XIP="54.85.159.138",8888
 AT+XBUB=1
 AT+XBUBE=3,30
@@ -148,7 +148,7 @@ AT+XRST=2
 ```
 
 Placeholders and notes:
-- {{apn}} is a placeholder for the mobile network APN string required by the installed SIM. Replace this with your operator APN.
+- [apn] is a placeholder for the mobile network APN string required by the installed SIM. Replace this with your operator APN.
 - The AT+XIP command above points the device to Plaspy using the public server IP and port. You can use the domain d.plaspy.com in manufacturer tools that accept a domain string instead of an IP.
 - AT+XRST commands are device restart operations shown in the sequence; use them as part of initial configuration or when the manufacturer recommends a restart to apply settings.
 

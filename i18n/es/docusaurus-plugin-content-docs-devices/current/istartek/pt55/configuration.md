@@ -48,7 +48,7 @@ Use estos ajustes públicos del servidor Plaspy al configurar el PT55. Plaspy em
 
 - Un dispositivo PT55 cargado con la SIM instalada y un plan de datos móviles activo si va a usar reportes GPRS.
 - Capacidad para enviar SMS para mandar mensajes de configuración al número del dispositivo y realizar la configuración remota.
-- Credenciales APN del operador móvil (conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} por si fueran necesarios).
+- Credenciales APN del operador móvil (conserve los marcadores [apn], [apnu] y [apnp] por si fueran necesarios).
 - Acceso a las instrucciones oficiales de iStartek o a la herramienta del instalador para guía específica de firmware.
 - Un procedimiento para validar la visibilidad del dispositivo en Plaspy una vez aplicada la configuración.
 
@@ -89,13 +89,13 @@ GMT,E,0#
 3. Configure el APN del operador
 - Solo APN mínimo:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
-- APN con usuario y contraseña opcionales (incluya {{apnu}} y {{apnp}} si su operador lo exige):
+- APN con usuario y contraseña opcionales (incluya [apnu] y [apnp] si su operador lo exige):
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Nota: {{apn}} es el APN del operador móvil. {{apnu}} y {{apnp}} son los marcadores opcionales de usuario y contraseña del APN. Mantenga esos marcadores si su operador requiere autenticación.
+Nota: [apn] es el APN del operador móvil. [apnu] y [apnp] son los marcadores opcionales de usuario y contraseña del APN. Mantenga esos marcadores si su operador requiere autenticación.
 
 4. Configure el servidor GPRS para usar Plaspy por dominio (UDP/TCP en puerto 8888)
 ```
@@ -122,7 +122,7 @@ PARAM#
 - La configuración por SMS es compatible y común para el PT55, pero algunas implementaciones pueden preferir herramientas del proveedor o configuración por cable si están disponibles.
 - Las versiones de firmware y las revisiones de hardware pueden afectar la sintaxis exacta de los comandos y los parámetros disponibles; consulte la documentación oficial de iStartek para notas específicas de firmware.
 - Elija UDP o TCP según la fiabilidad de la red y el comportamiento del operador; Plaspy acepta ambos y detectará el protocolo automáticamente.
-- Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} al preparar los comandos; reemplácelos con los valores de su operador.
+- Conserve los marcadores [apn], [apnu] y [apnp] al preparar los comandos; reemplácelos con los valores de su operador.
 - Plaspy usa el mismo puerto 8888 para todos los dispositivos compatibles y detectará el protocolo automáticamente cuando el dispositivo envíe datos.
 
 ## Por qué usar Plaspy con esta configuración

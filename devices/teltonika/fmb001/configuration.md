@@ -80,13 +80,13 @@ The FMB001 supports SMS style parameter setting in common Teltonika command form
 - Single SMS batch command to set APN credentials and Plaspy server
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explanation of placeholders and fields
-- {{apn}} = your cellular carrier APN name
-- {{apnu}} = APN username if required by your carrier, otherwise leave blank or omit if supported
-- {{apnp}} = APN password if required by your carrier, otherwise leave blank or omit if supported
+- [apn] = your cellular carrier APN name
+- [apnu] = APN username if required by your carrier, otherwise leave blank or omit if supported
+- [apnp] = APN password if required by your carrier, otherwise leave blank or omit if supported
 - 2004 sets the server domain to d.plaspy.com
 - 2005 sets the server port to 8888
 - 2006 typically controls transport or an index value in Teltonika parameter sets; confirm the meaning in your Teltonika documentation or Configurator view
@@ -98,7 +98,7 @@ Note: This example is the public SMS style command from the manufacturer configu
 - Firmware differences and regional device variants can change parameter IDs and available configuration options; verify parameter numbers in the Teltonika Configurator for your firmware version.
 - SMS based configuration is supported by the example command above, but provisioning at scale is typically easier with Teltonika Configurator or FOTA WEB.
 - Choose UDP or TCP based on network reliability and your operational preference; Plaspy accepts both and will auto detect the protocol.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} as shown and substitute real carrier values when applying the command.
+- Keep APN placeholders [apn], [apnu], and [apnp] as shown and substitute real carrier values when applying the command.
 - The FMB001 has EOL information noted by the manufacturer; confirm current availability and recommended replacements with Teltonika before large deployments.
 
 ## Why Use Plaspy with This Configuration

@@ -1,6 +1,7 @@
 ---
 slug: /gotop/l15
 id: l15
+sidebar_key: gotol15_index_l15
 sidebar_label: L15
 title: GOTOP - L15
 sidebar_class_name: menu_item_tracker

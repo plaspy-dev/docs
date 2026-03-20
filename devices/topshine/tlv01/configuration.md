@@ -75,7 +75,7 @@ The TLV01 connects to Plaspy primarily by sending location and event data over G
 
 ## Example Configuration Commands
 
-The TLV01 supports SMS-based configuration. The following public SMS commands are supplied in the TLV01 documentation. The device default password used in these examples is 000000. Replace placeholders such as IMEI, {{apn}}, {{apnu}}, and {{apnp}} with your device values.
+The TLV01 supports SMS-based configuration. The following public SMS commands are supplied in the TLV01 documentation. The device default password used in these examples is 000000. Replace placeholders such as IMEI, [apn], [apnu], and [apnp] with your device values.
 
 - Optional initial factory reset (use only if you need to restore factory defaults):
 ```text
@@ -88,11 +88,11 @@ W000000,010,<first 14 digits of IMEI>
 ```
 Note: The TLV01 reference indicates using the 14 first digits from IMEI for the device ID. Keep the full IMEI handy for platform mapping.
 
-- Set the operator APN (use {{apn}} and optionally {{apnu}} and {{apnp}} for username and password):
+- Set the operator APN (use [apn] and optionally [apnu] and [apnp] for username and password):
 ```text
-W000000,011,{{apn}}{{apnu ? ',' + {{apnu}} : ''}}{{apnp ? ',' + {{apnp}} : ''}}
+W000000,011,[apn]{{apnu ? ',' + [apnu] : ''}}{{apnp ? ',' + [apnp] : ''}}
 ```
-Explanation: {{apn}} is the mobile operator APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders. Send a comma separated string with APN then username then password if your carrier requires them.
+Explanation: [apn] is the mobile operator APN. [apnu] and [apnp] are optional APN username and password placeholders. Send a comma separated string with APN then username then password if your carrier requires them.
 
 - Set the GPRS server to Plaspy using the provided server IP and port:
 ```text

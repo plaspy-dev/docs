@@ -69,7 +69,7 @@ El TR-900 se configura para reportar ubicación y diagnósticos OBDII al endpoin
 2. Ingrese el servidor de Plaspy como d.plaspy.com o utilice la IP 54.85.159.138 en los ajustes del servidor del dispositivo.
 3. Establezca el puerto del dispositivo en 8888, que es el puerto compartido de Plaspy para todos los dispositivos compatibles.
 4. Seleccione UDP o TCP si el TR-900 requiere elección de transporte y guarde esa opción.
-5. Proporcione los ajustes APN {{apn}}, {{apnu}} y {{apnp}} si el dispositivo necesita parámetros de datos móviles y éstos no están ya configurados.
+5. Proporcione los ajustes APN [apn], [apnu] y [apnp] si el dispositivo necesita parámetros de datos móviles y éstos no están ya configurados.
 6. Aplique o guarde la configuración en el dispositivo y envíe los SMS necesarios desde un teléfono si utiliza la configuración por SMS.
 7. Reinicie o reinicie el TR-900 si es necesario para aplicar los nuevos ajustes del servidor.
 8. Valide que el dispositivo reporte a Plaspy y aparezca en la vista de monitoreo de la plataforma.
@@ -80,14 +80,14 @@ El TR-900 admite configuración basada en SMS mediante plantillas de comando. La
 
 Marcadores importantes:
 - {{imei}} — reemplace con el número IMEI del dispositivo
-- {{apn}} — reemplace con el APN de la red móvil
-- {{apnu}} — reemplace con el usuario del APN si es necesario
-- {{apnp}} — reemplace con la contraseña del APN si es necesaria
+- [apn] — reemplace con el APN de la red móvil
+- [apnu] — reemplace con el usuario del APN si es necesario
+- [apnp] — reemplace con la contraseña del APN si es necesaria
 - {{checksum}} y {{checksumreeboot}} — sumas de comprobación XOR en hexadecimal de dos caracteres en mayúsculas, calculadas sobre el texto del comando antes del carácter asterisco
 
 Comando principal de configuración
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 - Este comando establece los campos APN y configura E0 como 54.85.159.138 y el puerto E1 como 8888. Mantenga los marcadores y sustitúyalos por sus valores antes de enviar.
 

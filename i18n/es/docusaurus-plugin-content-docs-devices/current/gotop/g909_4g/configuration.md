@@ -84,7 +84,7 @@ Acciones públicas comunes que realizará al aplicar comandos o ajustes:
 - Seleccionar el transporte como UDP o TCP si es necesario
 - Guardar y reiniciar el dispositivo para aplicar los cambios
 
-Si dispone de la lista de comandos SMS o CLI de GOTOP proporcionada por el fabricante, use la sintaxis indicada y reemplace los valores de servidor y puerto por los ajustes de Plaspy arriba. Mantenga marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} si aparecen en ejemplos del fabricante y complételos con las credenciales APN de su operador SIM.
+Si dispone de la lista de comandos SMS o CLI de GOTOP proporcionada por el fabricante, use la sintaxis indicada y reemplace los valores de servidor y puerto por los ajustes de Plaspy arriba. Mantenga marcadores de posición como [apn], [apnu] y [apnp] si aparecen en ejemplos del fabricante y complételos con las credenciales APN de su operador SIM.
 
 ## Notas sobre la configuración
 

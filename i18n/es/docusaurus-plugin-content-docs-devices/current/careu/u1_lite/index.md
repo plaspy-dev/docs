@@ -1,6 +1,7 @@
 ---
 slug: /careu/u1_lite
 id: u1_lite
+sidebar_key: careu1_lite_index_u1_lite
 sidebar_label: U1 Lite+
 title: CAREU - U1 Lite+
 sidebar_class_name: menu_item_tracker

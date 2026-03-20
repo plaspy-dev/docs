@@ -22,7 +22,7 @@ keywords:
 
 This page documents the public configuration context for using the Concox JM-LL01 tracker with Plaspy. It gathers the practical server settings and SMS configuration commands that are commonly used to point this model at Plaspy, and explains what you should check before attempting integration. The content here reflects publicly available setup information and the included SMS commands that installers frequently use.
 
-Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol. Manufacturer-side setup steps can vary by firmware, hardware revision, installation type, and vendor tools, so treat the commands and workflow below as practical, public guidance rather than the only possible method. Where applicable this guide preserves placeholders such as {{apn}}, {{apnu}}, and {{apnp}} so you can substitute operator values during setup.
+Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol. Manufacturer-side setup steps can vary by firmware, hardware revision, installation type, and vendor tools, so treat the commands and workflow below as practical, public guidance rather than the only possible method. Where applicable this guide preserves placeholders such as [apn], [apnu], and [apnp] so you can substitute operator values during setup.
 
 ## Configuration Overview
 
@@ -46,7 +46,7 @@ This configuration process prepares the JM-LL01 to communicate reliably with Pla
 
 - A powered JM-LL01 with a valid SIM card installed and active mobile data allowance for GPRS or NB-IoT/LTE as applicable.
 - Access to the device configuration method supported by the unit: SMS, mobile app, BLE local configuration, or PC tool depending on model firmware and tooling.
-- The correct APN information for the chosen mobile operator (use the {{apn}}, {{apnu}}, {{apnp}} placeholders if required).
+- The correct APN information for the chosen mobile operator (use the [apn], [apnu], [apnp] placeholders if required).
 - Ability to send and receive SMS if using SMS-based configuration and a charged battery or temporary power source.
 - A basic test plan to validate reporting to Plaspy after configuration (see verification command below).
 
@@ -84,11 +84,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace {{apn}}, {{apnu}}, {{apnp}} as required)
+- Set the operator APN (replace [apn], [apnu], [apnp] as required)
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the operator APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders; include them only if your operator requires credentials.
+Note: [apn] is the operator APN. [apnu] and [apnp] are optional APN username and password placeholders; include them only if your operator requires credentials.
 
 - Set the GPRS server using the Plaspy domain (UDP/TCP transport selection is device dependent)
 ```text
@@ -126,7 +126,7 @@ Send commands in the order shown when following an initial setup sequence. Use t
 - Firmware and hardware revisions may change command syntax or available features; always validate commands on a single device before mass deployment.
 - The device supports SMS-based configuration as shown above; BLE, mobile app, or PC tools may provide alternative GUI-based workflows.
 - Choose UDP or TCP based on network reliability and ISP restrictions; both transports are supported when pointing to Plaspy on port 8888.
-- Preserve and substitute placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with operator values when configuring the SIM/APN.
+- Preserve and substitute placeholders such as [apn], [apnu], and [apnp] with operator values when configuring the SIM/APN.
 - All devices in Plaspy use the same port and Plaspy will automatically detect the tracker protocol so you can use the shared Plaspy server endpoint.
 
 ## Why Use Plaspy with This Configuration

@@ -80,11 +80,11 @@ El TZ-BT07 puede configurarse para enviar sus datos al endpoint y puerto compart
 Los pasos públicos de configuración del TZ-BT07 que siguen se publican como ejemplos de comandos SMS. Envíe estos mensajes SMS al número del dispositivo en el orden mostrado. Conserve los marcadores de posición y reemplácelos con los valores de su operador según sea necesario.
 
 1. Configurar el APN del operador
-- Reemplace {{apn}} por el APN de su operador. Si requiere, use {{apnu}} y {{apnp}} para usuario y contraseña del APN.
+- Reemplace [apn] por el APN de su operador. Si requiere, use [apnu] y [apnp] para usuario y contraseña del APN.
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
-(Si su dispositivo o firmware acepta un formato más corto sin usuario ni contraseña, puede omitir los marcadores finales dejando el comando como *000000,011,{{apn}}#.)
+(Si su dispositivo o firmware acepta un formato más corto sin usuario ni contraseña, puede omitir los marcadores finales dejando el comando como *000000,011,[apn]#.)
 
 2. Establecer el intervalo de actualización a 60 segundos
 ```text
@@ -104,7 +104,7 @@ Los pasos públicos de configuración del TZ-BT07 que siguen se publican como ej
 
 Notas sobre estos comandos:
 - El valor de prefijo 000000 en estos ejemplos es el token de contraseña del dispositivo mostrado en el formato público del comando. Reemplácelo por la contraseña de su dispositivo si se ha cambiado del código de fábrica.
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores de posición para el APN, usuario de APN y contraseña de APN de su operador móvil respectivamente. Mantenga los marcadores intactos y sustituya los valores reales antes de enviar.
+- [apn], [apnu] y [apnp] son marcadores de posición para el APN, usuario de APN y contraseña de APN de su operador móvil respectivamente. Mantenga los marcadores intactos y sustituya los valores reales antes de enviar.
 - Estos comandos son los ejemplos públicos de configuración por SMS proporcionados para el TZ-BT07. Siempre verifique la sintaxis del comando contra la documentación de firmware del dispositivo si observa un comportamiento diferente.
 
 ## Observaciones de configuración

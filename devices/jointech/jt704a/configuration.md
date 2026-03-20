@@ -77,16 +77,16 @@ To set the JT704A tracker using SMS, send the device-specific SMS commands with 
 
 1. Set the GPRS server and APN
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 - Replace {{trackerID}} with the device ID printed on your unit or supplied by the manufacturer.  
-- Replace {{apn}} with your carrier APN string.
+- Replace [apn] with your carrier APN string.
 
 2. (Optional) Set the APN user and password if your operator requires them
 ```text
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
-- Replace {{apnu}} and {{apnp}} with the APN username and password if applicable.  
+- Replace [apnu] and [apnp] with the APN username and password if applicable.  
 - This command is only needed when your SIM carrier requires authentication. If not required, skip this step.
 
 Note: These SMS commands are the publicly available examples for setting the GPRS server and APN. Use the exact format required by your device firmware and confirm any differences with Jointech documentation.

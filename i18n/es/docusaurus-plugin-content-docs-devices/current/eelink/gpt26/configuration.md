@@ -89,13 +89,13 @@ GMT,E,0#
 ```
 
 - Configurar el APN del operador
-Nota: {{apn}} es un marcador para el APN de su operador móvil. Si su operador requiere usuario y contraseña del APN, incluya {{apnu}} y {{apnp}} donde corresponda.
+Nota: [apn] es un marcador para el APN de su operador móvil. Si su operador requiere usuario y contraseña del APN, incluya [apnu] y [apnp] donde corresponda.
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 O, si se requieren usuario y contraseña:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS a Plaspy por dominio y puerto (usa dominio de Plaspy):
@@ -118,7 +118,7 @@ TIMER,60#
 PARAM#
 ```
 
-Envíe estos comandos SMS al número del GPT26. Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador antes de enviar.
+Envíe estos comandos SMS al número del GPT26. Reemplace los marcadores como [apn], [apnu] y [apnp] por los valores de su operador antes de enviar.
 
 ## Notas de configuración
 

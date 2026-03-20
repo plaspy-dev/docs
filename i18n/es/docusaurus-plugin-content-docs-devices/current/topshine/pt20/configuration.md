@@ -87,19 +87,19 @@ W000000,990,099###
 ```
 
 2. Establecer el ID del dispositivo (use los primeros 14 dígitos del IMEI)
-- Reemplace <14_DIGITS_FROM_IMEI> con los primeros 14 dígitos del IMEI del dispositivo.
+- Reemplace \<14_DIGITS_FROM_IMEI> con los primeros 14 dígitos del IMEI del dispositivo.
 ```
 W000000,010,<14_DIGITS_FROM_IMEI>
 ```
 Nota del fabricante: establezca el Id del dispositivo usando los primeros 14 números del IMEI. Plaspy utiliza como id los 15 dígitos del IMEI.
 
 3. Configurar el APN del operador
-- Reemplace {{apn}} por el APN de su operador.
-- Si es necesario, incluya nombre de usuario y contraseña del APN añadiendo ,{{apnu}},{{apnp}} después del APN.
+- Reemplace [apn] por el APN de su operador.
+- Si es necesario, incluya nombre de usuario y contraseña del APN añadiendo ,[apnu],[apnp] después del APN.
 ```
-W000000,011,{{apn}}{{,{{apnu}},{{apnp}}}}
+W000000,011,[apn]{{,[apnu],[apnp]}}
 ```
-Explicación: {{apn}} es el nombre del APN para la SIM. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN; inclúyalos solo si su operador los requiere.
+Explicación: [apn] es el nombre del APN para la SIM. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN; inclúyalos solo si su operador los requiere.
 
 4. Establecer el servidor GPRS a Plaspy usando la IP pública y puerto
 ```

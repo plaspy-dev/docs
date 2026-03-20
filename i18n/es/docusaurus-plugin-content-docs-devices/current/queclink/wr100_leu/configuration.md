@@ -74,7 +74,7 @@ Si su instalación usa comandos SMS para la configuración, incluya esos comando
 
 ## Ejemplos de comandos de configuración
 
-Los siguientes comandos SMS de ejemplo se tomaron de muestras públicas de configuración de QuecLink y muestran un flujo típico de configuración por SMS. La contraseña predeterminada del dispositivo mostrada en el ejemplo público es queclink. Los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN del operador, el usuario del APN y la contraseña del APN según sea necesario.
+Los siguientes comandos SMS de ejemplo se tomaron de muestras públicas de configuración de QuecLink y muestran un flujo típico de configuración por SMS. La contraseña predeterminada del dispositivo mostrada en el ejemplo público es queclink. Los marcadores de posición como [apn], [apnu] y [apnp] deben reemplazarse por el APN del operador, el usuario del APN y la contraseña del APN según sea necesario.
 
 1. Paso inicial opcional para restaurar valores de fábrica
 ```text
@@ -88,11 +88,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configure el APN del operador con marcadores de posición
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- Reemplace {{apn}} por el APN de su operador
-- Reemplace {{apnu}} por el usuario del APN si es requerido
-- Reemplace {{apnp}} por la contraseña del APN si es requerida
+- Reemplace [apn] por el APN de su operador
+- Reemplace [apnu] por el usuario del APN si es requerido
+- Reemplace [apnp] por la contraseña del APN si es requerida
 
 4. Configure el servidor GPRS para Plaspy usando tanto el dominio como la IP y el puerto 8888
 ```text

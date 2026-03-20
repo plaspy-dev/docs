@@ -80,13 +80,13 @@ The following SMS commands are extracted from the public model configuration gui
 - Set the operator APN
 If your APN requires only the APN name:
 ```
-*APN#000000#{{apn}}#
+*APN#000000#[apn]#
 ```
 If the APN requires a username and password, include these placeholders:
 ```
-*APN#000000#{{apn}}#{{apnu}}#{{apnp}}#
+*APN#000000#[apn]#[apnu]#[apnp]#
 ```
-Notes: {{apn}} is the APN name supplied by your mobile operator. {{apnu}} and {{apnp}} are the optional APN username and password fields. Preserve these placeholders when populating with your operator credentials.
+Notes: [apn] is the APN name supplied by your mobile operator. [apnu] and [apnp] are the optional APN username and password fields. Preserve these placeholders when populating with your operator credentials.
 
 - Set the GPRS server to point to Plaspy
 ```

@@ -82,9 +82,9 @@ El Meitrack TC68L puede configurarse por SMS usando la contraseña del dispositi
 0000,F11
 ```
 
-- Configurar el servidor GPRS a Plaspy usando la IP y el puerto. Reemplace {{apn}} con el APN de su SIM. Si su operador requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} según corresponda.
+- Configurar el servidor GPRS a Plaspy usando la IP y el puerto. Reemplace [apn] con el APN de su SIM. Si su operador requiere usuario o contraseña, incluya [apnu] y [apnp] según corresponda.
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Nota: Puede usar d.plaspy.com en lugar de la IP si su dispositivo acepta un nombre de dominio en el comando A21.
 
@@ -104,9 +104,9 @@ Nota: Puede usar d.plaspy.com en lugar de la IP si su dispositivo acepta un nomb
 ```
 
 Explicación de los marcadores:
-- {{apn}} — la cadena APN de su operador móvil requerida para datos GPRS.
-- {{apnu}} — usuario del APN si el operador lo solicita.
-- {{apnp}} — contraseña del APN si el operador lo solicita.
+- [apn] — la cadena APN de su operador móvil requerida para datos GPRS.
+- [apnu] — usuario del APN si el operador lo solicita.
+- [apnp] — contraseña del APN si el operador lo solicita.
 
 Envíe cada comando SMS desde un número autorizado si el dispositivo está configurado para aceptar SMS desde números específicos, y espere un momento para que el equipo aplique los ajustes y establezca la conexión de datos.
 

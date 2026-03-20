@@ -83,12 +83,12 @@ El XT-2000 admite configuración por SMS. Los siguientes comandos SMS públicos 
 
 1) Configurar el APN del operador
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 - Explicación de los marcadores
-  - {{apn}} es el nombre del APN proporcionado por su operador móvil
-  - {{apnu}} es el nombre de usuario del APN si el operador lo requiere; déjelo vacío si no se usa
-  - {{apnp}} es la contraseña del APN si el operador la requiere; déjela vacía si no se usa
+  - [apn] es el nombre del APN proporcionado por su operador móvil
+  - [apnu] es el nombre de usuario del APN si el operador lo requiere; déjelo vacío si no se usa
+  - [apnp] es la contraseña del APN si el operador la requiere; déjela vacía si no se usa
 
 2) Configurar el servidor GPRS y el puerto para Plaspy
 ```text

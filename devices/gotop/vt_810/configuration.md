@@ -79,7 +79,7 @@ The VT-810 uses its GSM GPRS channel to send position and status reports to a co
 
 The VT-810 configuration method depends on the GOTOP firmware and the vendor's configuration tools. Some installers use GOTOP software or SMS command sequences to set server, port, and transport, while others use a web or serial interface. Because model specific commands and formats vary, consult the official GOTOP configuration guide for exact command syntax and examples.
 
-If you have manufacturer-provided command examples or SMS templates from GOTOP, apply them as instructed and replace values for the server with d.plaspy.com or 54.85.159.138 and the port with 8888. If the commands include placeholders such as {{apn}}, {{apnu}}, or {{apnp}}, keep those placeholders and substitute them with your SIM carrier values as required.
+If you have manufacturer-provided command examples or SMS templates from GOTOP, apply them as instructed and replace values for the server with d.plaspy.com or 54.85.159.138 and the port with 8888. If the commands include placeholders such as [apn], [apnu], or [apnp], keep those placeholders and substitute them with your SIM carrier values as required.
 
 ## Configuration Notes
 

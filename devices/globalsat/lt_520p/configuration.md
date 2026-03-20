@@ -80,14 +80,14 @@ The manufacturer has published example SMS-style commands for server configurati
 
 - Placeholders:
   - {{imei}} — device IMEI number
-  - {{apn}} — APN name for the SIM network
-  - {{apnu}} — APN username if required
-  - {{apnp}} — APN password if required
+  - [apn] — APN name for the SIM network
+  - [apnu] — APN username if required
+  - [apnp] — APN password if required
   - {{checksum}} and {{checksumreeboot}} — two digit hexadecimal XOR checksum computed over the command text before the asterisk
 
 Setup command (replace placeholders and calculate checksum):
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Reboot command (optional, use when a restart is required to apply settings):
@@ -104,7 +104,7 @@ Note: the example uses the numeric Plaspy IP (E0=54.85.159.138) and the port (E1
 - Firmware differences can change supported command formats, checksum calculation, and field names; always verify the command syntax against the device firmware release notes.
 - The device supports BLE for local configuration and LoRaWAN uplinks for telemetry as described by the manufacturer; SMS-based configuration commands are published by the vendor and can be used where supported.
 - When a transport (UDP vs TCP) must be chosen, select the one recommended by your installation guide; Plaspy accepts both and detects protocol automatically.
-- APN placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with the network operator values for your SIM if using SMS or cellular commands.
+- APN placeholders [apn], [apnu], and [apnp] must be replaced with the network operator values for your SIM if using SMS or cellular commands.
 - After applying settings and rebooting, allow several reporting cycles and verify the device appears and updates correctly in Plaspy.
 
 ## Why Use Plaspy with This Configuration

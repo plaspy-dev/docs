@@ -80,7 +80,7 @@ Los flujos típicos del fabricante incluyen:
 - Usar comandos SMS de aprovisionamiento (cuando están soportados) para establecer servidor, puerto y valores de APN.
 - Usar una herramienta de aprovisionamiento para instaladores suministrada por su distribuidor local de Huabao para despliegues masivos.
 
-Si dispone del conjunto de comandos SMS del dispositivo proporcionado por Huabao, utilice los comandos exactamente como los documenta el fabricante para establecer servidor y APN. Preserve cualquier marcador de posición como {{apn}}, {{apnu}} o {{apnp}} al aplicar plantillas SMS; estos representan el APN del operador y el usuario o contraseña opcionales del APN.
+Si dispone del conjunto de comandos SMS del dispositivo proporcionado por Huabao, utilice los comandos exactamente como los documenta el fabricante para establecer servidor y APN. Preserve cualquier marcador de posición como [apn], [apnu] o [apnp] al aplicar plantillas SMS; estos representan el APN del operador y el usuario o contraseña opcionales del APN.
 
 ## Notas de configuración
 

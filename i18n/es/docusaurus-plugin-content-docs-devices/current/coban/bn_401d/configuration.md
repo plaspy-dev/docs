@@ -73,7 +73,7 @@ El BN-401D se configura para enviar posiciones GPS, eventos de alarma y estado d
 
 ## Comandos de configuración de ejemplo
 
-El BN-401D soporta comandos de configuración por SMS. Los ejemplos públicos que siguen usan la contraseña por defecto del dispositivo 123456. Preserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} al sustituir los valores de su operadora móvil.
+El BN-401D soporta comandos de configuración por SMS. Los ejemplos públicos que siguen usan la contraseña por defecto del dispositivo 123456. Preserve los marcadores de posición [apn], [apnu] y [apnp] al sustituir los valores de su operadora móvil.
 
 - Reinicio de fábrica opcional inicial (usar solo si es necesario)
 ```text
@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} por el APN de su operador)
+- Configurar el APN del operador (reemplazar [apn] por el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer usuario y contraseña del APN (reemplazar {{apnu}} y {{apnp}} con las credenciales del operador)
+- Establecer usuario y contraseña del APN (reemplazar [apnu] y [apnp] con las credenciales del operador)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
@@ -125,8 +125,8 @@ protocol123456 18
 ```
 
 Notas sobre marcadores de posición y comandos
-- {{apn}} es la cadena APN del operador móvil requerida para la conectividad de datos.
-- {{apnu}} y {{apnp}} son el nombre de usuario y la contraseña del APN cuando el operador exige autenticación; muchos operadores usan valores vacíos.
+- [apn] es la cadena APN del operador móvil requerida para la conectividad de datos.
+- [apnu] y [apnp] son el nombre de usuario y la contraseña del APN cuando el operador exige autenticación; muchos operadores usan valores vacíos.
 - El comando adminip de ejemplo arriba configura el dispositivo para reportar a la IP del servidor Plaspy 54.85.159.138 en el puerto 8888. Alternativamente puede usar el dominio d.plaspy.com si su equipo resuelve nombres de dominio vía DNS.
 
 ## Observaciones de configuración

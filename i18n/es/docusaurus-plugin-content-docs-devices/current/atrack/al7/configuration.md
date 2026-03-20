@@ -74,7 +74,7 @@ Una vez configurado, el AL7 abre una sesión GPRS y envía mensajes de ubicació
 
 ## Comandos de configuración de ejemplo
 
-Los siguientes comandos públicos de ejemplo se publican para configurar un AL7 para Plaspy. Muestran cómo establecer un evento ACC, un intervalo de rastreo de 60 segundos, formato de salida binario y el servidor GPRS. Preserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} cuando sustituya los valores de su operador.
+Los siguientes comandos públicos de ejemplo se publican para configurar un AL7 para Plaspy. Muestran cómo establecer un evento ACC, un intervalo de rastreo de 60 segundos, formato de salida binario y el servidor GPRS. Preserve los marcadores de posición [apn], [apnu] y [apnp] cuando sustituya los valores de su operador.
 
 1. Configurar reporte de evento ACC y acciones relacionadas
 ```text
@@ -99,9 +99,9 @@ AT$FORM=1,@P,0,""
 
 4. Configurar el servidor GPRS hacia Plaspy con marcadores de APN
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-- Explicación: configuración GPRS incluyendo campos APN y la IP y puerto del servidor Plaspy. Reemplace {{apn}}, {{apnu}} y {{apnp}} con el APN, el usuario y la contraseña de su operador si son requeridos. El comando incluye la IP del servidor Plaspy 54.85.159.138 y el puerto 8888 como se muestra.
+- Explicación: configuración GPRS incluyendo campos APN y la IP y puerto del servidor Plaspy. Reemplace [apn], [apnu] y [apnp] con el APN, el usuario y la contraseña de su operador si son requeridos. El comando incluye la IP del servidor Plaspy 54.85.159.138 y el puerto 8888 como se muestra.
 
 Comando de verificación para comprobar el estado del dispositivo
 ```text
@@ -109,13 +109,13 @@ AT$INFO=?
 ```
 - Explicación: consulta el estado y la configuración del dispositivo para verificar después de aplicar los ajustes.
 
-Nota sobre los marcadores de posición: {{apn}} es el nombre del punto de acceso del operador móvil, {{apnu}} es el nombre de usuario del APN si se requiere y {{apnp}} es la contraseña del APN si se requiere. Algunas redes solo solicitan el APN y dejan usuario y contraseña en blanco.
+Nota sobre los marcadores de posición: [apn] es el nombre del punto de acceso del operador móvil, [apnu] es el nombre de usuario del APN si se requiere y [apnp] es la contraseña del APN si se requiere. Algunas redes solo solicitan el APN y dejan usuario y contraseña en blanco.
 
 ## Notas de configuración
 
 - Las variaciones de firmware pueden cambiar la sintaxis de los comandos AT o los parámetros disponibles; verifique los comandos para su versión de firmware antes de aplicarlos.
 - Elija UDP o TCP según las necesidades de la instalación; ambos transportes son compatibles con Plaspy en el puerto 8888, pero el comportamiento (por ejemplo, persistencia de conexión) difiere según el transporte.
-- Si su operador requiere autenticación específica del APN, asegúrese de completar {{apnu}} y {{apnp}} o dejarlos vacíos según lo exija el operador.
+- Si su operador requiere autenticación específica del APN, asegúrese de completar [apnu] y [apnp] o dejarlos vacíos según lo exija el operador.
 - Algunos instaladores prefieren ingresar el IP del servidor en lugar del nombre de dominio; Plaspy soporta tanto d.plaspy.com como 54.85.159.138.
 - Use el comando de verificación AT$INFO=? después de la configuración para confirmar el estado del dispositivo y el registro en la red GPRS.
 

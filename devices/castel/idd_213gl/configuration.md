@@ -77,7 +77,7 @@ The IDD-213GL documentation includes SMS commands for GPRS and server setup. The
 
 - Set APN settings and the Plaspy server IP and port
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Check current GPRS settings on the device
@@ -87,9 +87,9 @@ The IDD-213GL documentation includes SMS commands for GPRS and server setup. The
 
 Notes on placeholders and usage:
 - {{SecretKey}} — the SMS configuration password. Public default rule: the last 6 ASCII characters of the device ID unless the installer or vendor has changed it.
-- {{apn}} — the APN string for the SIM card carrier.
-- {{apnu}} — the APN username if required by the carrier; leave empty if not required.
-- {{apnp}} — the APN password if required by the carrier; leave empty if not required.
+- [apn] — the APN string for the SIM card carrier.
+- [apnu] — the APN username if required by the carrier; leave empty if not required.
+- [apnp] — the APN password if required by the carrier; leave empty if not required.
 - Use either d.plaspy.com or 54.85.159.138 for the server field; the example command uses the IP address and port 8888 as required by Plaspy.
 - If your device or firmware requires explicit transport selection, use the manufacturer tool or documentation to choose UDP or TCP; the SMS command above sets server and port but may not set transport on all firmware versions.
 

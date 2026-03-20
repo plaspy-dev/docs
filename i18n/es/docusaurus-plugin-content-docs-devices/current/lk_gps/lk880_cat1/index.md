@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk880_cat1
 id: lk880_cat1
+sidebar_key: lk_gplk880_cat1_index_lk880_cat1
 sidebar_label: LK880 Cat1
 title: LK-GPS - LK880 Cat1
 sidebar_class_name: menu_item_tracker

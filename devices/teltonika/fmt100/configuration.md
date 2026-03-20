@@ -79,13 +79,13 @@ The FMT100 public configuration example uses a Teltonika batch parameter command
 - Example Teltonika parameter batch command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and fields
-- {{apn}} is the APN name provided by your mobile operator
-- {{apnu}} is the APN username if required by the operator, leave empty if not used
-- {{apnp}} is the APN password if required, leave empty if not used
+- [apn] is the APN name provided by your mobile operator
+- [apnu] is the APN username if required by the operator, leave empty if not used
+- [apnp] is the APN password if required, leave empty if not used
 - 2004 sets the server host to d.plaspy.com as required by Plaspy
 - 2005 sets the server port to 8888 which is the shared Plaspy port for all devices
 - 2006 sets the transport selection where 1 in this example typically indicates a transport mode supported by the device; consult Teltonika parameter documentation for numeric mapping

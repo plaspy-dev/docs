@@ -84,14 +84,14 @@ Note about format used by Plaspy
 Setup command
 - Replace the placeholders before sending
 - {{imei}} is the device IMEI
-- {{apn}} is the APN for your cellular provider
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the APN for your cellular provider
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 - {{checksum}} must be computed as the XOR checksum of the command string before the asterisk in uppercase hexadecimal two digit format
 
 Example SMS setup command
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Reboot command

@@ -82,19 +82,19 @@ The Xexun X03 can be configured by sending SMS commands to the device phone numb
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your network APN):
+- Set the operator APN (replace [apn] with your network APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if required (replace {{apnu}} with your APN username):
+- Set the APN username if required (replace [apnu] with your APN username):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if required (replace {{apnp}} with your APN password):
+- Set the APN password if required (replace [apnp] with your APN password):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port (the device may also accept the domain d.plaspy.com in place of the IP depending on firmware):
@@ -113,8 +113,8 @@ t060s***n123456
 ```
 
 Notes on placeholders and password:
-- {{apn}} is the mobile operator APN string required for GPRS data.
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders if your operator requires them.
+- [apn] is the mobile operator APN string required for GPRS data.
+- [apnu] and [apnp] are optional APN username and password placeholders if your operator requires them.
 - The sample commands above use 123456 as the device password in command syntax because that is shown in the public command examples. Change the device password after initial configuration if the device supports it.
 
 ## Configuration Notes

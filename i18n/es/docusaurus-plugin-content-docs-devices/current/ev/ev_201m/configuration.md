@@ -80,15 +80,15 @@ El fabricante EV publica comandos SMS para una configuración básica. A continu
 123456L+00
 ```
 
-- Establecer el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su APN requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} según corresponda.
+- Establecer el APN del operador. Reemplace [apn] por el APN de su operador. Si su APN requiere usuario y contraseña, incluya [apnu] y [apnp] según corresponda.
 ```text
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 O con usuario y contraseña del APN:
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-(Placeholders: {{apn}} es obligatorio para datos. {{apnu}} y {{apnp}} son opcionales y solo se usan si su operador los requiere.)
+(Placeholders: [apn] es obligatorio para datos. [apnu] y [apnp] son opcionales y solo se usan si su operador los requiere.)
 
 - Establecer el servidor del dispositivo. El ejemplo publicado usa la IP del servidor Plaspy y el puerto. Tenga en cuenta que la documentación de EV indica que puede necesitar contactar al fabricante para habilitar la opción de cambiar el servidor antes de que este comando sea aceptado.
 ```text
@@ -105,7 +105,7 @@ Notas importantes sobre los comandos anteriores:
 - La configuración por SMS está documentada públicamente para EV-201M, pero pueden existir herramientas del fabricante o utilidades de escritorio; use la guía oficial de EV para su unidad.
 - Las diferencias de firmware o revisiones de hardware pueden cambiar la sintaxis exacta de los comandos o las funciones disponibles; verifique los comandos con la documentación del firmware de su unidad EV.
 - Elegir UDP frente a TCP es una opción del dispositivo; Plaspy acepta ambos y detecta el protocolo automáticamente cuando los reportes llegan al servidor en el puerto 8888.
-- Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por los valores de su operador al enviar comandos SMS; deje usuario o contraseña fuera si no son requeridos.
+- Los marcadores [apn], [apnu] y [apnp] deben reemplazarse por los valores de su operador al enviar comandos SMS; deje usuario o contraseña fuera si no son requeridos.
 - Algunas unidades EV-201M requieren que el proveedor habilite la capacidad de cambiar la dirección del servidor; contacte al fabricante si no puede establecer el servidor vía SMS.
 
 ## Por qué usar Plaspy con esta configuración

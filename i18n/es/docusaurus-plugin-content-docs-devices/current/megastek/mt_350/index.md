@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt_350
 id: mt_350
+sidebar_key: megastemt_350_index_mt_350
 sidebar_label: MT-350
 title: Megastek - MT-350
 sidebar_class_name: menu_item_tracker

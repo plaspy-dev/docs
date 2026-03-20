@@ -87,11 +87,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-3. Set the operator APN. Replace {{apn}} with your network operator APN. If your operator requires a username and password, include {{apnu}} and {{apnp}} as provided by the carrier.
+3. Set the operator APN. Replace [apn] with your network operator APN. If your operator requires a username and password, include [apnu] and [apnp] as provided by the carrier.
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explanation: {{apn}} is the APN string. {{apnu}} is the APN username and {{apnp}} is the APN password. If no username or password is required, the command may be sent with only the APN value depending on firmware behavior.
+Explanation: [apn] is the APN string. [apnu] is the APN username and [apnp] is the APN password. If no username or password is required, the command may be sent with only the APN value depending on firmware behavior.
 
 4. Set the GPRS server to the Plaspy domain on port 8888 (preferred domain name)
 ```

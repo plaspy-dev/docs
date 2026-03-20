@@ -45,7 +45,7 @@ The goal of configuration is to connect the JM-VG01U to Plaspy so the device rel
 ## Typical Requirements Before Setup
 
 - A powered JM-VG01U installed or connected to a bench power source for configuration and testing.  
-- An active Micro SIM with data enabled and the correct APN for the mobile operator. The APN may require username and password placeholders such as {{apnu}} and {{apnp}}.  
+- An active Micro SIM with data enabled and the correct APN for the mobile operator. The APN may require username and password placeholders such as [apnu] and [apnp].  
 - Access to the device configuration method supported by your unit and firmware such as SMS commands or manufacturer software.  
 - A known SMS-capable phone number to send configuration SMS commands if using SMS setup.  
 - Basic knowledge of whether your deployment requires UDP or TCP transport and a plan to validate connectivity after changes.
@@ -84,11 +84,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN; include {{apnu}} and {{apnp}} if your APN requires a username or password):
+- Set the operator APN (replace [apn] with your operator APN; include [apnu] and [apnp] if your APN requires a username or password):
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Note: Use the form with {{apnu}} and {{apnp}} only if your network requires APN credentials. The placeholder syntax above preserves the optional username and password fields.
+Note: Use the form with [apnu] and [apnp] only if your network requires APN credentials. The placeholder syntax above preserves the optional username and password fields.
 
 - Set the GPRS server to use the Plaspy domain on port 8888:
 ```text
@@ -127,7 +127,7 @@ Follow the exact SMS syntax required by your firmware. Some firmware revisions m
 - SMS based configuration is a common public method for this model, but manufacturer tools or configuration software may also be available; use the method appropriate to your installation.  
 - Firmware versions and hardware revisions can change command syntax or available parameters; verify commands against the device firmware you have.  
 - Choose UDP or TCP according to installer preference; both transports are supported and Plaspy will accept packets on port 8888 and auto detect the protocol.  
-- Keep APN credentials accurate; incorrect APN settings are the most common cause of failed GPRS connectivity. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with operator values when required.  
+- Keep APN credentials accurate; incorrect APN settings are the most common cause of failed GPRS connectivity. Placeholders such as [apn], [apnu], and [apnp] should be replaced with operator values when required.  
 - After applying settings, reboot the tracker if the device requires it and confirm visibility in Plaspy using the verification command and platform device status.
 
 ## Why Use Plaspy with This Configuration

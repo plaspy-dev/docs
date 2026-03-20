@@ -78,7 +78,7 @@ El Xexun X01 soporta configuración mediante SMS. Los siguientes comandos públi
 
 Notas:
 - El ejemplo usa la contraseña del dispositivo 123456, que es la configuración de fábrica usada en los comandos públicos que siguen.
-- Mantenga los marcadores tal como aparecen. Reemplace {{apn}} con el APN de su operador, {{apnu}} con el nombre de usuario APN si se requiere, y {{apnp}} con la contraseña APN si se requiere.
+- Mantenga los marcadores tal como aparecen. Reemplace [apn] con el APN de su operador, [apnu] con el nombre de usuario APN si se requiere, y [apnp] con la contraseña APN si se requiere.
 - El comando adminip que aparece más abajo muestra la IP pública y el puerto de Plaspy; también puede introducir d.plaspy.com en lugar de la IP si el dispositivo acepta nombres de dominio.
 
 1. Restauración de fábrica opcional en la configuración inicial
@@ -89,17 +89,17 @@ begin123456
 
 2. Configurar el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 3. Establecer el usuario del APN (si el operador lo requiere)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
 4. Establecer la contraseña del APN (si el operador lo requiere)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 5. Configurar el servidor GPRS a Plaspy utilizando la IP pública y el puerto compartido

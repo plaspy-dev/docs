@@ -81,9 +81,9 @@ The GS-819 can be configured via SMS commands. Below are the public example comm
 
 - Set the operator APN and credentials
 ```text
-#username,0000,3,{{apn}},{{apnu}},{{apnp}}*
+#username,0000,3,[apn],[apnu],[apnp]*
 ```
-Explanation: {{apn}} is the operator APN, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. Leave username or password empty in the command if the operator does not require them.
+Explanation: [apn] is the operator APN, [apnu] is the APN username if required, and [apnp] is the APN password if required. Leave username or password empty in the command if the operator does not require them.
 
 - Set the GPRS server to Plaspy using the public server IP and port
 ```text

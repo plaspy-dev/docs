@@ -75,7 +75,7 @@ Telic Solar se configura para reenviar su telemetría y ubicación al endpoint y
 
 ## Ejemplos de comandos de configuración
 
-El Telic Solar comúnmente acepta comandos de configuración por SMS. Los siguientes comandos SMS de ejemplo son extractos públicos de la guía de configuración del dispositivo. Los comandos de muestra usan la contraseña por defecto del dispositivo 123456. Conserve y reemplace los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador.
+El Telic Solar comúnmente acepta comandos de configuración por SMS. Los siguientes comandos SMS de ejemplo son extractos públicos de la guía de configuración del dispositivo. Los comandos de muestra usan la contraseña por defecto del dispositivo 123456. Conserve y reemplace los marcadores de posición como [apn], [apnu] y [apnp] con los valores de su operador.
 
 1. Reinicio opcional a fábrica (solo si necesita volver a los valores predeterminados)
 ```text
@@ -87,14 +87,14 @@ begin123456
 time zone123456 0
 ```
 
-3. Establecer el APN del operador (reemplace {{apn}} con el APN de su operador)
+3. Establecer el APN del operador (reemplace [apn] con el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Establecer usuario y contraseña del APN cuando sean requeridos (reemplace los marcadores)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Configurar el servidor GPRS a Plaspy por IP y puerto (este ejemplo usa la IP pública y el puerto de Plaspy)
@@ -117,8 +117,8 @@ check123456
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es la cadena APN proporcionada por el operador celular.
-- {{apnu}} y {{apnp}} son, respectivamente, el usuario y la contraseña opcionales del APN.
+- [apn] es la cadena APN proporcionada por el operador celular.
+- [apnu] y [apnp] son, respectivamente, el usuario y la contraseña opcionales del APN.
 - 123456 se muestra como la contraseña predeterminada en el ejemplo público; confirme la contraseña de su dispositivo antes de enviar comandos.
 
 ## Notas de configuración

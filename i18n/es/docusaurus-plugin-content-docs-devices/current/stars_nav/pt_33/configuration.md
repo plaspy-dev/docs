@@ -82,7 +82,7 @@ Cuando use una interfaz de configuración que solicite valores de servidor y tra
 - Port: 8888
 - Transport: UDP or TCP
 
-Si dispone de una guía de configuración por SMS de Stars Nav, incluya los mismos valores anteriores en los comandos SMS correspondientes. Mantenga cualquier marcador de posición provisto por ejemplos del fabricante como {{apn}}, {{apnu}} o {{apnp}} cuando estén presentes y reemplácelos por las credenciales APN de su operador de red.
+Si dispone de una guía de configuración por SMS de Stars Nav, incluya los mismos valores anteriores en los comandos SMS correspondientes. Mantenga cualquier marcador de posición provisto por ejemplos del fabricante como [apn], [apnu] o [apnp] cuando estén presentes y reemplácelos por las credenciales APN de su operador de red.
 
 ## Notas sobre la configuración
 

@@ -90,15 +90,15 @@ TIMEZONE*123456*+00
 
 - Configurar el APN del operador
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-Reemplace {{apn}} por la cadena APN de su operador móvil.
+Reemplace [apn] por la cadena APN de su operador móvil.
 
 - Establecer usuario y contraseña del APN
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
-Reemplace {{apnu}} por el usuario del APN y {{apnp}} por la contraseña del APN. Use este comando solo si su operador requiere credenciales APN.
+Reemplace [apnu] por el usuario del APN y [apnp] por la contraseña del APN. Use este comando solo si su operador requiere credenciales APN.
 
 - Configurar el servidor GPRS a Plaspy por IP y puerto
 ```text
@@ -117,7 +117,7 @@ Este comando solicita al dispositivo mantener su comportamiento de reporte en l�
 - Los comandos por SMS son comúnmente utilizados para la configuración remota, pero la disponibilidad y la sintaxis exacta pueden variar según la versión de firmware y las personalizaciones del proveedor local.
 - Siempre que sea posible utilice el dominio d.plaspy.com o la IP 54.85.159.138 y ponga el puerto 8888, ya que Plaspy usa el mismo puerto para todos los dispositivos soportados.
 - Elija UDP o TCP según la capacidad del firmware del dispositivo y las condiciones de la red; Plaspy detecta automáticamente el protocolo del rastreador en su endpoint de ingestión.
-- Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} cuando construya los comandos reales y reemplácelos por los valores específicos de su operador.
+- Preserve los marcadores de posición como [apn], [apnu] y [apnp] cuando construya los comandos reales y reemplácelos por los valores específicos de su operador.
 - Consulte la documentación del fabricante para cualquier diferencia específica del equipo, mensajes de confirmación de comandos o pasos adicionales requeridos por su versión de firmware.
 
 ## Por qué usar Plaspy con esta configuración

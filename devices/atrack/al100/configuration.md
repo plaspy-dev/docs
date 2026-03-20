@@ -97,12 +97,12 @@ AT$FORM=1,@P,0,""
 
 4. Configure the GPRS server and APN settings for Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
-- {{apn}} is the carrier Access Point Name string required for mobile data.
-- {{apnu}} is the APN username if the carrier requires one; leave blank if not required.
-- {{apnp}} is the APN password if the carrier requires one; leave blank if not required.
+- [apn] is the carrier Access Point Name string required for mobile data.
+- [apnu] is the APN username if the carrier requires one; leave blank if not required.
+- [apnp] is the APN password if the carrier requires one; leave blank if not required.
 
 5. Check device status and configuration
 ```text

@@ -86,14 +86,14 @@ Replace DEVICEID with the derived 9 digit device ID when sending these SMS comma
 ST300CMD;DEVICEID;02;Reset
 ```
 
-2. Set operator APN and GPRS server. The fourth field is 1 if you include APN username or password, otherwise set 0. Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, APN username, and APN password as needed. The command points the device to Plaspy by IP and port.
+2. Set operator APN and GPRS server. The fourth field is 1 if you include APN username or password, otherwise set 0. Replace [apn], [apnu], and [apnp] with your operator APN, APN username, and APN password as needed. The command points the device to Plaspy by IP and port.
 
 ```
-ST300NTW;DEVICEID;02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;DEVICEID;02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Notes:
-- If you do not provide APN username or password, change the 1 to 0 and leave {{apnu}} and {{apnp}} empty.
+- If you do not provide APN username or password, change the 1 to 0 and leave [apnu] and [apnp] empty.
 - You may also substitute d.plaspy.com for the IP if the device accepts a hostname in its network command.
 
 3. Set the reporting interval to 60 seconds (example reporting configuration):
@@ -115,7 +115,7 @@ Send these commands as SMS messages to the tracker from an authorized phone numb
 - The ST 340 manufacturer examples use SMS-based configuration; confirm whether your device firmware supports SMS, a web tool, or a desktop configuration utility.
 - Derive the device ID from the IMEI exactly as shown in the manufacturer example: last 9 digits excluding the final IMEI check digit.
 - Choose TCP or UDP based on installer preference and firmware support; Plaspy supports both and will detect the protocol automatically.
-- Keep APN username and password placeholders {{apnu}} and {{apnp}} if your operator requires them; otherwise use 0 for the username/password flag.
+- Keep APN username and password placeholders [apnu] and [apnp] if your operator requires them; otherwise use 0 for the username/password flag.
 - Firmware revisions and vendor tools may change command formats or additional parameters; consult the manufacturer documentation when in doubt.
 
 ## Why Use Plaspy with This Configuration

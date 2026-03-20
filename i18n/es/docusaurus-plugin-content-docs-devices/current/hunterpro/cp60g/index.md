@@ -1,6 +1,7 @@
 ---
 slug: /hunterpro/cp60g
 id: cp60g
+sidebar_key: hunterprcp60g_index_cp60g
 sidebar_label: CP60G
 title: HunterPro - CP60G
 sidebar_class_name: menu_item_tracker

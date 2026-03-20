@@ -84,19 +84,19 @@ El TTU-700 ofrece una interfaz pública de comandos SMS para configuración. A c
 !R0
 ```
 
-- Establecer el APN del operador (reemplazar {{apn}} con el APN de su operador):
+- Establecer el APN del operador (reemplazar [apn] con el APN de su operador):
 ```
-!RP,2306,0,{{apn}}
-```
-
-- Opcionalmente establecer el usuario del APN si su operador lo requiere (reemplazar {{apnu}}):
-```
-!RP,2314,0,{{apnu}}
+!RP,2306,0,[apn]
 ```
 
-- Opcionalmente establecer la contraseña del APN si su operador lo requiere (reemplazar {{apnp}}):
+- Opcionalmente establecer el usuario del APN si su operador lo requiere (reemplazar [apnu]):
 ```
-!RP,2315,0,{{apnp}}
+!RP,2314,0,[apnu]
+```
+
+- Opcionalmente establecer la contraseña del APN si su operador lo requiere (reemplazar [apnp]):
+```
+!RP,2315,0,[apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública de Plaspy:
@@ -120,9 +120,9 @@ El TTU-700 ofrece una interfaz pública de comandos SMS para configuración. A c
 ```
 
 Notas sobre los marcadores
-- {{apn}} es la cadena APN de su operador
-- {{apnu}} es el usuario APN si su operador lo requiere
-- {{apnp}} es la contraseña APN si su operador lo requiere
+- [apn] es la cadena APN de su operador
+- [apnu] es el usuario APN si su operador lo requiere
+- [apnp] es la contraseña APN si su operador lo requiere
 
 Al enviar comandos SMS, obtenga el MID del dispositivo usando el comando !R0 e incluya el ID del equipo si su unidad lo requiere para aceptar comandos. El formato exacto de autenticación por SMS puede depender del firmware y la región.
 

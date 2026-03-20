@@ -46,7 +46,7 @@ Este proceso prepara un TR-616 para enviar datos de ubicación y estado a la pla
 
 - Una unidad TR-616 con alimentación y una tarjeta SIM funcional que tenga datos y capacidad de SMS
 - El número IMEI del dispositivo disponible para usar en comandos SMS o en herramientas del fabricante
-- Ajustes APN del proveedor de la SIM para completar los marcadores de posición {{apn}}, {{apnu}} y {{apnp}}
+- Ajustes APN del proveedor de la SIM para completar los marcadores de posición [apn], [apnu] y [apnp]
 - Un teléfono con capacidad de enviar SMS o la herramienta de configuración del fabricante para enviar comandos de configuración por SMS
 - Acceso a la documentación oficial de GlobalSat o a herramientas de soporte para orientación específica según firmware
 - Conocimientos básicos sobre si la implementación deberá usar transporte UDP o TCP
@@ -66,7 +66,7 @@ El TR-616 puede configurarse para enviar datos de posición y del dispositivo al
 2. Ingrese la dirección del servidor de Plaspy, ya sea el dominio o la IP. Use d.plaspy.com o 54.85.159.138 cuando se solicite el endpoint del servidor.
 3. Configure el puerto del servidor en 8888 según lo requiere Plaspy.
 4. Seleccione UDP o TCP si el dispositivo exige una selección de transporte.
-5. Rellene los valores de APN y cualquier autenticación requerida en los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}}.
+5. Rellene los valores de APN y cualquier autenticación requerida en los marcadores de posición como [apn], [apnu] y [apnp].
 6. Envíe o aplique la configuración y guarde los ajustes en el dispositivo.
 7. Reinicie el dispositivo si el fabricante lo requiere para aplicar los cambios.
 8. Valide que el dispositivo reporte a Plaspy y que aparezca en la lista de dispositivos de la plataforma.
@@ -77,11 +77,11 @@ El contenido del fabricante para el TR-616 incluye una plantilla de comando de c
 
 Setup command template
 - Reemplace {{imei}} por el IMEI del dispositivo
-- Reemplace {{apn}}, {{apnu}} y {{apnp}} por el APN, el usuario APN y la contraseña APN de su SIM respectivamente
+- Reemplace [apn], [apnu] y [apnp] por el APN, el usuario APN y la contraseña APN de su SIM respectivamente
 - Esta plantilla establece la IP del servidor a Plaspy y el puerto a 8888
 
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Reboot command template (optional after configuration)

@@ -86,21 +86,21 @@ begin123456
 
 2. Establecer el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- Reemplace {{apn}} con la cadena APN de su operador SIM.
+- Reemplace [apn] con la cadena APN de su operador SIM.
 
 3. Establecer el usuario APN (opcional)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- Reemplace {{apnu}} con el usuario APN si el operador lo requiere.
+- Reemplace [apnu] con el usuario APN si el operador lo requiere.
 
 4. Establecer la contraseña APN (opcional)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
-- Reemplace {{apnp}} con la contraseña APN si es necesaria.
+- Reemplace [apnp] con la contraseña APN si es necesaria.
 
 5. Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
 ```text

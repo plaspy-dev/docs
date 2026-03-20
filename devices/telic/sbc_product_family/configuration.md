@@ -90,15 +90,15 @@ time zone123456 0
 
 - Set the operator APN
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Explanation: replace {{apn}} with the cellular operator APN string.
+Explanation: replace [apn] with the cellular operator APN string.
 
 - Set APN username and password (only if your operator requires them)
 ```sms
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Explanation: replace {{apnu}} with the APN username and {{apnp}} with the APN password. If your operator does not require credentials, skip this command.
+Explanation: replace [apnu] with the APN username and [apnp] with the APN password. If your operator does not require credentials, skip this command.
 
 - Set the GPRS server to Plaspy using the public IP and the shared port
 ```sms

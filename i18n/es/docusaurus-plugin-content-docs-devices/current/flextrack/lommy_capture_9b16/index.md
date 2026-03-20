@@ -1,6 +1,7 @@
 ---
 slug: /flextrack/lommy_capture_9b16
 id: lommy_capture_9b16
+sidebar_key: flextraclommy_capture_9b16_index_lommy_capture_9b16
 sidebar_label: Lommy Capture 9B16
 title: Flextrack - Lommy Capture 9B16
 sidebar_class_name: menu_item_tracker

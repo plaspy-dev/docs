@@ -76,18 +76,18 @@ El contenido público del ST4915 muestra comandos basados en SMS. El fabricante 
 
 Notas sobre los marcadores:
 - {{device_id}} — el ID del dispositivo derivado del IMEI según se describió arriba.  
-- {{apn}} — la cadena APN del operador requerida para la conexión de datos de la SIM.  
-- {{apnu}} — usuario del APN si el operador lo requiere (mantenga el marcador si es necesario).  
-- {{apnp}} — contraseña del APN si el operador la requiere (mantenga el marcador si es necesario).  
+- [apn] — la cadena APN del operador requerida para la conexión de datos de la SIM.  
+- [apnu] — usuario del APN si el operador lo requiere (mantenga el marcador si es necesario).  
+- [apnp] — contraseña del APN si el operador la requiere (mantenga el marcador si es necesario).  
 - El comando SA200NTW contiene una bandera que debe ser 1 si se proporciona usuario o contraseña del APN, de lo contrario 0.
 
 1) Configure el APN del operador y el servidor GPRS (reemplace los marcadores según proceda):
 
 ```text
-SA200NTW;{{device_id}};02;[0 or 1];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
-- Reemplace [0 or 1] por 1 si proporciona {{apnu}} o {{apnp}}, de lo contrario 0.  
+- Reemplace [0 or 1] por 1 si proporciona [apnu] o [apnp], de lo contrario 0.  
 - Este comando apunta el rastreador a Plaspy en 54.85.159.138 puerto 8888 (mismo puerto usado para todos los dispositivos Plaspy). También puede usar d.plaspy.com en lugar de la IP si la sintaxis de SMS o la herramienta de configuración lo permite.
 
 2) Establezca el intervalo de actualización/reportes a 60 segundos (ejemplo para reportes frecuentes; ajuste según la vida útil de la batería):

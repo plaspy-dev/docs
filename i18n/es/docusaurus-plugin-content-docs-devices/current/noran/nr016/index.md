@@ -1,6 +1,7 @@
 ---
 slug: /noran/nr016
 id: nr016
+sidebar_key: noranr016_index_nr016
 sidebar_label: NR016
 title: Noran - NR016
 sidebar_class_name: menu_item_tracker

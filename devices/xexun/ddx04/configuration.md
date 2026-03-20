@@ -80,19 +80,19 @@ The DDX04 public configuration commands are commonly sent by SMS. The commands b
 begin123456
 ```
 
-2. Set the operator APN (replace {{apn}} with your operator APN)
+2. Set the operator APN (replace [apn] with your operator APN)
 ```
-apn123456 {{apn}}
-```
-
-3. Set the APN username if required (replace {{apnu}} with the APN username)
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-4. Set the APN password if required (replace {{apnp}} with the APN password)
+3. Set the APN username if required (replace [apnu] with the APN username)
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+4. Set the APN password if required (replace [apnp] with the APN password)
+```
+apnpasswd123456 [apnp]
 ```
 
 5. Set the GPRS server to the Plaspy endpoint using the Plaspy public server IP and port
@@ -111,9 +111,9 @@ t060s***n123456
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN string.
-- {{apnu}} is the APN username if your operator requires it.
-- {{apnp}} is the APN password if your operator requires it.
+- [apn] is the mobile operator APN string.
+- [apnu] is the APN username if your operator requires it.
+- [apnp] is the APN password if your operator requires it.
 - Replace the placeholders with the exact string provided by your mobile operator.
 
 These SMS commands are the publicly published sequence for the DDX04. Use them from an authorized phone number and confirm the device password before sending.

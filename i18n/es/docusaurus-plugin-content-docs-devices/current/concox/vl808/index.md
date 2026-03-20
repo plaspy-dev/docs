@@ -1,6 +1,7 @@
 ---
 slug: /concox/vl808
 id: vl808
+sidebar_key: concovl808_index_vl808
 sidebar_label: VL808
 title: Concox - VL808
 sidebar_class_name: menu_item_tracker

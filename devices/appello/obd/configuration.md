@@ -89,9 +89,9 @@ The Appello OBD supports SMS-based configuration. The following public SMS comma
 
 - Set the operator APN (replace placeholders with your operator values):
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}#
+#803#0000#[apn]#[apnu]#[apnp]#
 ```
-Explanation: {{apn}} = operator APN, {{apnu}} = APN username (optional), {{apnp}} = APN password (optional).
+Explanation: [apn] = operator APN, [apnu] = APN username (optional), [apnp] = APN password (optional).
 
 - Set the GPRS server to the Plaspy server IP and port:
 ```text
@@ -130,7 +130,7 @@ Send each of these commands as an SMS message to the device phone number. Preser
 - Firmware and hardware revisions may change command syntax or available options; verify commands on the official manufacturer documentation.
 - Choose TCP or UDP based on any deployment requirements; Plaspy supports both on port 8888 and will auto-detect protocol.
 - Keep the default password secure; if you change it, use the updated password in subsequent SMS commands.
-- Verify APN placeholders {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator before sending configuration SMS messages.
+- Verify APN placeholders [apn], [apnu], and [apnp] with your mobile operator before sending configuration SMS messages.
 
 ## Why Use Plaspy with This Configuration
 

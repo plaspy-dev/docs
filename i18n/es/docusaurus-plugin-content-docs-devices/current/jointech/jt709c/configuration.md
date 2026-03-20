@@ -76,23 +76,23 @@ Una vez configurado, el JT709C envía datos de ubicación y eventos al endpoint 
 El Jointech JT709C puede configurarse mediante comandos SMS. A continuación aparecen ejemplos de comandos SMS públicos tal como los provee el fabricante. Reemplace los marcadores por sus valores reales.
 
 1. Establecer el servidor GPRS y el APN
-- Envíe este SMS reemplazando {{trackerID}} con el ID del dispositivo y {{apn}} con el APN de su operador móvil.
+- Envíe este SMS reemplazando {{trackerID}} con el ID del dispositivo y [apn] con el APN de su operador móvil.
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 2. Opcionalmente establecer usuario y contraseña del APN
-- Envíe este SMS solo si su APN requiere usuario y contraseña. Reemplace {{apnu}} y {{apnp}} con el usuario y la contraseña del APN.
+- Envíe este SMS solo si su APN requiere usuario y contraseña. Reemplace [apnu] y [apnp] con el usuario y la contraseña del APN.
 
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notas sobre los marcadores
 - {{trackerID}}: el ID del dispositivo o IMEI que se inserta en el SMS según lo requiera Jointech
-- {{apn}}: la cadena APN de su operador móvil necesaria para la conectividad de datos
-- {{apnu}} y {{apnp}}: usuario y contraseña del APN opcionales si el operador exige autenticación
+- [apn]: la cadena APN de su operador móvil necesaria para la conectividad de datos
+- [apnu] y [apnp]: usuario y contraseña del APN opcionales si el operador exige autenticación
 
 Envíe cada comando como un único SMS al número telefónico del dispositivo JT709C usando el método SMS estándar soportado por Jointech. El segundo comando no es necesario si el APN no requiere credenciales.
 

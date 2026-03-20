@@ -1,6 +1,7 @@
 ---
 slug: /tzone/tz_tt18
 id: tz_tt18
+sidebar_key: tzontz_tt18_index_tz_tt18
 sidebar_label: TZ-TT18
 title: TZone - TZ-TT18
 sidebar_class_name: menu_item_tracker

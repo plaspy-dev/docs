@@ -1,6 +1,7 @@
 ---
 slug: /thinkrace/vt07
 id: vt07
+sidebar_key: thinkracvt07_index_vt07
 sidebar_label: VT07
 title: ThinkRace - VT07
 sidebar_class_name: menu_item_tracker

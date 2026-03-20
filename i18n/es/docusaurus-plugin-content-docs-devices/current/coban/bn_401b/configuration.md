@@ -93,15 +93,15 @@ Los comandos públicos de configuración del BN-401B se envían comúnmente por 
 
 - Configurar el APN del operador
   ```
-  apn123456 {{apn}}
+  apn123456 [apn]
   ```
-  Nota: reemplace {{apn}} con el nombre del APN de su operador móvil.
+  Nota: reemplace [apn] con el nombre del APN de su operador móvil.
 
 - Establecer usuario y contraseña del APN
   ```
-  up123456 {{apnu}} {{apnp}}
+  up123456 [apnu] [apnp]
   ```
-  Nota: reemplace {{apnu}} con el usuario del APN y {{apnp}} con la contraseña si su operador los requiere. Use valores en blanco si el operador no solicita credenciales.
+  Nota: reemplace [apnu] con el usuario del APN y [apnp] con la contraseña si su operador los requiere. Use valores en blanco si el operador no solicita credenciales.
 
 - Establecer servidor GPRS por IP y puerto apuntando a Plaspy
   ```
@@ -141,7 +141,7 @@ Los comandos públicos de configuración del BN-401B se envían comúnmente por 
 - La configuración por SMS se muestra en los comandos públicos arriba; también puede usar Bluetooth o herramientas del proveedor para la configuración local según su unidad y preferencias del instalador.
 - Las versiones de firmware y las variantes regionales pueden cambiar la sintaxis de comandos y las capacidades; confirme siempre los formatos exactos de comando para el firmware de su BN-401B.
 - Elija transporte UDP o TCP según su red y preferencias de fiabilidad; Plaspy acepta ambos y detectará el protocolo automáticamente.
-- Cuando use marcadores de posición de APN como {{apn}}, {{apnu}} y {{apnp}}, sustituya los valores por los proporcionados por su operador móvil. Si no se requieren credenciales, déjelos en blanco según lo permita el operador.
+- Cuando use marcadores de posición de APN como [apn], [apnu] y [apnp], sustituya los valores por los proporcionados por su operador móvil. Si no se requieren credenciales, déjelos en blanco según lo permita el operador.
 - Use el comando de restauración de fábrica solo cuando sea necesario durante la puesta en marcha o resolución de problemas, y tenga en cuenta que esto puede borrar configuraciones previas.
 
 ## Por qué usar Plaspy con esta configuración

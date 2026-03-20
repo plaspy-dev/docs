@@ -45,7 +45,7 @@ El objetivo de este proceso es preparar el FMM13A para que envíe telemetría y 
 ## Requisitos típicos antes de la instalación
 
 - Asegúrese de que el equipo tenga alimentación del vehículo y que la batería interna de respaldo esté cargada para realizar una configuración y pruebas seguras.  
-- Disponga de una tarjeta SIM válida con un plan de datos y la información APN correcta. Reemplace el marcador {{apn}} por el APN de su operador.  
+- Disponga de una tarjeta SIM válida con un plan de datos y la información APN correcta. Reemplace el marcador [apn] por el APN de su operador.  
 - Acceso al método de configuración del fabricante que prefiera, como comandos SMS, herramientas de Teltonika o gestión remota como FOTA WEB. El ejemplo más abajo usa un comando en estilo SMS.  
 - Conozca el número de administrador del dispositivo o tenga la unidad conectada a un cable de configuración o sistema de gestión cuando sea requerido.  
 - Verifique la versión de firmware del equipo y las notas de la versión que puedan afectar los IDs de parámetros o los formatos de comando.
@@ -77,13 +77,13 @@ El siguiente comando de ejemplo público es un estilo común de Teltonika para e
 - Comando de parámetros de ejemplo:
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de marcadores y campos:
-  - {{apn}} = cadena APN de su operador móvil. Reemplace con el APN de su proveedor.  
-  - {{apnu}} = nombre de usuario del APN si su operador lo requiere; de lo contrario déjelo vacío o use el método del dispositivo para limpiar.  
-  - {{apnp}} = contraseña del APN si su operador lo requiere; de lo contrario déjelo vacío o use el método del dispositivo para limpiar.  
+  - [apn] = cadena APN de su operador móvil. Reemplace con el APN de su proveedor.  
+  - [apnu] = nombre de usuario del APN si su operador lo requiere; de lo contrario déjelo vacío o use el método del dispositivo para limpiar.  
+  - [apnp] = contraseña del APN si su operador lo requiere; de lo contrario déjelo vacío o use el método del dispositivo para limpiar.  
   - 2004 configura el dominio del servidor a d.plaspy.com para que el equipo reporte a Plaspy.  
   - 2005 establece el puerto en 8888 que Plaspy usa para todos los dispositivos.  
   - 2006 establece una bandera de transporte o relacionada en el dispositivo; el significado exacto puede variar según el firmware, así que use el valor requerido por su equipo o consulte la documentación de Teltonika.

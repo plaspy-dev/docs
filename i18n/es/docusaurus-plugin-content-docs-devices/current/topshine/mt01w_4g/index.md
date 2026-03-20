@@ -1,6 +1,7 @@
 ---
 slug: /topshine/mt01w_4g
 id: mt01w_4g
+sidebar_key: topshinmt01w_4g_index_mt01w_4g
 sidebar_label: MT01W-4G
 title: TopShine - MT01W-4G
 sidebar_class_name: menu_item_tracker

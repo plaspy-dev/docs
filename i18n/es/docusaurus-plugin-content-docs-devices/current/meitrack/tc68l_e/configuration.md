@@ -84,11 +84,11 @@ Los siguientes comandos SMS de ejemplo provienen de contenido público del fabri
 
 2. Configure el servidor GPRS a Plaspy. Este comando establece tipo de servidor 2 con la IP del servidor Plaspy, puerto y APN. Los marcadores de APN deben reemplazarse por los valores de su operador. Usuario y contraseña APN son opcionales y se muestran como marcadores.
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-- {{apn}} = el APN de su operador móvil
-- {{apnu}} = nombre de usuario APN si su operador lo requiere (opcional)
-- {{apnp}} = contraseña APN si su operador lo requiere (opcional)
+- [apn] = el APN de su operador móvil
+- [apnu] = nombre de usuario APN si su operador lo requiere (opcional)
+- [apnp] = contraseña APN si su operador lo requiere (opcional)
 
 3. Establezca la zona horaria a UTC 0:
 ```

@@ -86,7 +86,7 @@ If you have the official Intellitrack command list from your vendor, use those c
 - transport to UDP or TCP
 - APN and any required network credentials
 
-Preserve any placeholders from manufacturer templates such as {{apn}} or {{apnu}} when applying commands and replace them with carrier specific values.
+Preserve any placeholders from manufacturer templates such as [apn] or [apnu] when applying commands and replace them with carrier specific values.
 
 ## Configuration Notes
 

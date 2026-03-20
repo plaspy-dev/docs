@@ -72,7 +72,7 @@ The GPT12‑X sends compact telemetry and event messages to Plaspy over the cell
 
 ## Example Configuration Commands
 
-The GPT12‑X supports SMS-based configuration with the following public commands. Send each command as a separate SMS to the device. Preserve placeholders such as {{apn}} when replacing with your operator APN value.
+The GPT12‑X supports SMS-based configuration with the following public commands. Send each command as a separate SMS to the device. Preserve placeholders such as [apn] when replacing with your operator APN value.
 
 - Optional initial factory reset (use only when needed for initial setup):
 ```text
@@ -84,11 +84,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN; include {{apnu}} and {{apnp}} for APN username and password if required):
+- Set the operator APN (replace [apn] with your carrier APN; include [apnu] and [apnp] for APN username and password if required):
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Explanation: {{apn}} is the APN string required by your mobile operator. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+Explanation: [apn] is the APN string required by your mobile operator. [apnu] and [apnp] are optional APN username and password placeholders.
 
 - Set the GPRS server to Plaspy using domain (UDP/TCP selection managed separately if required):
 ```text
@@ -117,7 +117,7 @@ Notes on command order: apply APN before attempting to use GPRS reporting. Use t
 - Firmware differences: exact command syntax and available features may vary between firmware versions; always confirm with the device firmware release notes.
 - SMS versus software: this page shows SMS commands because they are publicly documented; many installations use the EElink configuration tool or OTA management for bulk provisioning.
 - Transport choice: TCP and UDP are both supported by Plaspy on port 8888; select the transport best suited to your network and firewall environment.
-- APN placeholders: keep {{apn}}, {{apnu}}, and {{apnp}} as placeholders when preparing SMS templates and replace them with the operator values used in your region.
+- APN placeholders: keep [apn], [apnu], and [apnp] as placeholders when preparing SMS templates and replace them with the operator values used in your region.
 - Verify after restart: after applying settings and restarting, use a PARAM# check or your Plaspy dashboard to confirm the device is reporting as expected.
 
 ## Why Use Plaspy with This Configuration

@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv57mg
 id: gv57mg
+sidebar_key: queclingv57mg_index_gv57mg
 sidebar_label: GV57MG
 title: QuecLink - GV57MG
 sidebar_class_name: menu_item_tracker

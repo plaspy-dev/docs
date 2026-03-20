@@ -77,7 +77,7 @@ El GOTOP D02 se configura para enviar ubicación y datos del dispositivo al endp
 
 Los comandos exactos y los métodos de configuración para el GOTOP D02 dependen de la herramienta del fabricante, la versión de firmware y el método de distribución del vendedor. GOTOP suele proporcionar configuración mediante una app del proveedor, portal web o comandos SMS; consulte la documentación de GOTOP para los comandos y la sintaxis precisos. Dado que los comandos del fabricante pueden variar, siga la guía oficial de configuración GOTOP que acompañe a su dispositivo.
 
-Si utiliza una configuración basada en SMS o comandos de texto proporcionados por GOTOP, mantenga los espacios reservados que facilite el fabricante como valores de APN o credenciales intactos (por ejemplo {{apn}}, {{apnu}}, o {{apnp}}) y reemplácelos por los ajustes de su operador de red cuando se lo indiquen.
+Si utiliza una configuración basada en SMS o comandos de texto proporcionados por GOTOP, mantenga los espacios reservados que facilite el fabricante como valores de APN o credenciales intactos (por ejemplo [apn], [apnu], o [apnp]) y reemplácelos por los ajustes de su operador de red cuando se lo indiquen.
 
 ## Notas de configuración
 

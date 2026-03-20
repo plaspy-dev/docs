@@ -79,17 +79,17 @@ Los ejemplos públicos de configuración del TS-V6Ws incluyen comandos SMS usado
 ```
 FORMAT
 ```
-2. Establecer APN del operador (reemplazar {{apn}} con la cadena APN del operador móvil)
+2. Establecer APN del operador (reemplazar [apn] con la cadena APN del operador móvil)
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-3. Establecer nombre de usuario del APN (reemplazar {{apnu}} con el usuario del APN si es necesario)
+3. Establecer nombre de usuario del APN (reemplazar [apnu] con el usuario del APN si es necesario)
 ```
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-4. Establecer contraseña del APN (reemplazar {{apnp}} con la contraseña del APN si es necesaria)
+4. Establecer contraseña del APN (reemplazar [apnp] con la contraseña del APN si es necesaria)
 ```
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 5. Establecer el servidor GPRS a Plaspy usando la IP y el puerto (esto configura 54.85.159.138 y el puerto 8888 como servidor del dispositivo)
 ```
@@ -102,7 +102,7 @@ CXZT
 
 Notas sobre los comandos anteriores:
 - Estos ejemplos se envían como mensajes SMS al número de la SIM del rastreador usando el formato de contraseña del dispositivo mostrado (contraseña de ejemplo 123456).
-- Mantenga los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores del APN de su operador al enviar los SMS.
+- Mantenga los marcadores de posición [apn], [apnu] y [apnp] y reemplácelos por los valores del APN de su operador al enviar los SMS.
 - Realice un reinicio de fábrica (FORMAT) solo si es necesario; borrará las configuraciones personalizadas y devolverá el dispositivo a los valores de fábrica.
 - Después de establecer el servidor a 54.85.159.138 8888, alternativamente puede establecer el nombre DNS d.plaspy.com mediante las herramientas del fabricante si se admite la entrada de servidor basada en DNS.
 

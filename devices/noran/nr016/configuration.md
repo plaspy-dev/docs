@@ -77,14 +77,14 @@ The NR016 reports location, alarm events, and input telemetry over mobile data t
 The NR016 public configuration examples are commonly sent by SMS. The default device password used in public examples is 000000. Preserve placeholders when replacing values.
 
 - Set the operator APN
-  - Replace {{apn}} with your network APN. If the APN requires a username or password include {{apnu}} and {{apnp}} as shown.
+  - Replace [apn] with your network APN. If the APN requires a username or password include [apnu] and [apnp] as shown.
   ```sms
-  A000000,012,{{apn}}{{,{{apnu}},{{apnp}}}}
+  A000000,012,[apn]{{,[apnu],[apnp]}}
   ```
   Note: The template in some manufacturer guidance shows a comma separated format. Use the variant required by your firmware. The placeholders mean:
-  - {{apn}} is the mobile data APN
-  - {{apnu}} is the APN username when required
-  - {{apnp}} is the APN password when required
+  - [apn] is the mobile data APN
+  - [apnu] is the APN username when required
+  - [apnp] is the APN password when required
 
 - Set the GPRS server to Plaspy using the public IP and port shown in Plaspy documentation
   ```sms

@@ -1,6 +1,7 @@
 ---
 slug: /coban/gps312
 id: gps312
+sidebar_key: cobagps312_index_gps312
 sidebar_label: GPS312
 title: Coban - GPS312
 sidebar_class_name: menu_item_tracker

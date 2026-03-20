@@ -76,7 +76,7 @@ Si utiliza comandos SMS para el aprovisionamiento inicial, siga la secuencia de 
 
 ## Comandos de configuración de ejemplo
 
-El fabricante facilita comandos de configuración por SMS para el X06. La secuencia de ejemplo a continuación usa la contraseña de fábrica 123456. Mantenga el orden cuando realice el aprovisionamiento inicial en los pasos indicados. Los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} indican valores específicos del operador que deben reemplazarse.
+El fabricante facilita comandos de configuración por SMS para el X06. La secuencia de ejemplo a continuación usa la contraseña de fábrica 123456. Mantenga el orden cuando realice el aprovisionamiento inicial en los pasos indicados. Los marcadores de posición como [apn], [apnu] y [apnp] indican valores específicos del operador que deben reemplazarse.
 
 - Restaurar configuración de fábrica (reinicio inicial opcional)
 ```text
@@ -84,15 +84,15 @@ begin123456
 ```
 - Configurar el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 - Configurar el nombre de usuario del APN (si es necesario)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 - Configurar la contraseña del APN (si es necesario)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Apuntar el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy
 ```text
@@ -109,7 +109,7 @@ t060s***n123456
 
 Notas sobre los comandos anteriores:
 - El comando begin123456 se usa normalmente para restaurar la configuración de fábrica y es opcional o se emplea solo cuando se parte de un estado de fábrica.
-- Reemplace {{apn}} por el valor del APN de su operador móvil. Reemplace {{apnu}} y {{apnp}} por el nombre de usuario y la contraseña del APN si su operador los requiere.
+- Reemplace [apn] por el valor del APN de su operador móvil. Reemplace [apnu] y [apnp] por el nombre de usuario y la contraseña del APN si su operador los requiere.
 - El comando adminip apunta el dispositivo a Plaspy usando la IP pública 54.85.159.138 y el puerto 8888. Alternativamente, puede introducir el dominio d.plaspy.com si el dispositivo acepta nombres de dominio.
 - Mantenga el orden de comandos durante el aprovisionamiento inicial para asegurar que se establezca la conectividad antes de fijar los parámetros de reporte.
 

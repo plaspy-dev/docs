@@ -86,13 +86,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If your operator requires username or password, use {{apnu}} and {{apnp}} respectively where supported
+- Set the operator APN. Replace [apn] with your operator APN. If your operator requires username or password, use [apnu] and [apnp] respectively where supported
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 or, when using username and password (placeholders)
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to use the Plaspy domain (preferred) and port 8888
@@ -124,7 +124,7 @@ GPRSON,1#
 GPRSSET#
 ```
 
-Notes about placeholders: {{apn}} is the access point name for your SIM operator. {{apnu}} and {{apnp}} are optional username and password values used by some mobile operators. Replace placeholders with actual operator values as provided by your carrier.
+Notes about placeholders: [apn] is the access point name for your SIM operator. [apnu] and [apnp] are optional username and password values used by some mobile operators. Replace placeholders with actual operator values as provided by your carrier.
 
 ## Configuration Notes
 

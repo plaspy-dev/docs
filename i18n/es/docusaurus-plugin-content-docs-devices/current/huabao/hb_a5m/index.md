@@ -1,6 +1,7 @@
 ---
 slug: /huabao/hb_a5m
 id: hb_a5m
+sidebar_key: huabahb_a5m_index_hb_a5m
 sidebar_label: HB-A5M
 title: Huabao - HB-A5M
 sidebar_class_name: menu_item_tracker

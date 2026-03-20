@@ -1,6 +1,7 @@
 ---
 slug: /nvs/navitrek_um_04
 id: navitrek_um_04
+sidebar_key: nvnavitrek_um_04_index_navitrek_um_04
 sidebar_label: Navitrek UM-04
 title: NVS - Navitrek UM-04
 sidebar_class_name: menu_item_tracker

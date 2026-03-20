@@ -76,7 +76,7 @@ When the RF-S1 is configured for Plaspy, it reports position, status and event m
 
 The RF-S1 model configuration commands and exact command syntax are provided by Reachfar and can vary by firmware and vendor tool. Plaspy accepts device messages sent to d.plaspy.com or 54.85.159.138 on port 8888 over UDP or TCP, and Plaspy will automatically detect the tracker protocol. For the precise SMS commands, vendor application steps, or desktop tool instructions to set the server endpoint and transport on the RF-S1, consult the Reachfar documentation or your device supplier.
 
-If you have Reachfar supplied command templates that include placeholders such as {{apn}}, {{apnu}} or {{apnp}}, keep those placeholders when you apply them and replace them with your network operator values as required by the manufacturer instructions.
+If you have Reachfar supplied command templates that include placeholders such as [apn], [apnu] or [apnp], keep those placeholders when you apply them and replace them with your network operator values as required by the manufacturer instructions.
 
 ## Configuration Notes
 

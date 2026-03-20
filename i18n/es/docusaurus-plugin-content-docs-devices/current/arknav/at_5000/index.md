@@ -1,6 +1,7 @@
 ---
 slug: /arknav/at_5000
 id: at_5000
+sidebar_key: arknaat_5000_index_at_5000
 sidebar_label: AT-5000
 title: ArkNav - AT-5000
 sidebar_class_name: menu_item_tracker

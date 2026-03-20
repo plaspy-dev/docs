@@ -88,12 +88,12 @@ Los comandos SMS públicos de QuecLink a continuación son ejemplos usados para 
 
 - Establecer el APN del operador
   ```
-  AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+  AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
   ```
   Reemplace los marcadores con los valores de su operador SIM:
-  - {{apn}} es el nombre del APN
-  - {{apnu}} es el usuario del APN si se requiere
-  - {{apnp}} es la contraseña del APN si se requiere
+  - [apn] es el nombre del APN
+  - [apnu] es el usuario del APN si se requiere
+  - [apnp] es la contraseña del APN si se requiere
 
 - Configurar el servidor GPRS a Plaspy usando dominio e IP y puerto 8888
   ```

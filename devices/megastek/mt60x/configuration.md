@@ -101,15 +101,15 @@ M000000,22,123456789012345
 ```
 
 2. Set the operator APN
-   - Replace {{apn}} with your SIM APN. If your operator requires a username and password, include {{apnu}} and {{apnp}} respectively
+   - Replace [apn] with your SIM APN. If your operator requires a username and password, include [apnu] and [apnp] respectively
 
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
    or with APN user and password
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Set the update interval to 60 seconds

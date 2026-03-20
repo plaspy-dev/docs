@@ -77,15 +77,15 @@ La configuración pública del TA-913 utiliza comandos SMS. Los comandos que apa
 
 - Configure el APN del operador
 ```
-APN,0000,{{apn}}{{,{{apnu}},{{apnp}}}}
+APN,0000,[apn]{{,[apnu],[apnp]}}
 ```
-Nota: Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} respectivamente. Si no son necesarios, omítalos.
+Nota: Reemplace [apn] por el APN de su operador. Si su operador requiere usuario o contraseña, incluya [apnu] y [apnp] respectivamente. Si no son necesarios, omítalos.
 
 - Configure un identificador de 5 dígitos (use los últimos 5 dígitos del IMEI)
 ```
 ALIAS,0000,<last5imei>#
 ```
-Nota: Reemplace <last5imei> con los últimos cinco dígitos del IMEI del equipo. El rastreador usa este alias para identificación.
+Nota: Reemplace \<last5imei> con los últimos cinco dígitos del IMEI del equipo. El rastreador usa este alias para identificación.
 
 - Configure la zona horaria a UTC 0
 ```

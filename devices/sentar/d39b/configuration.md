@@ -75,7 +75,7 @@ The D39B is configured to report position and device telemetry to the shared Pla
 
 ## Example Configuration Commands
 
-The D39B public configuration examples use SMS messages to set common options. The sample commands below are presented in the same order provided by the manufacturer documentation. The example device password shown is 123456 and is the default in these examples. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when substituting your operator values.
+The D39B public configuration examples use SMS messages to set common options. The sample commands below are presented in the same order provided by the manufacturer documentation. The example device password shown is 123456 and is the default in these examples. Preserve the placeholders [apn], [apnu], and [apnp] when substituting your operator values.
 
 - Factory reset (optional initial step)
 ```text
@@ -94,9 +94,9 @@ pw,123456,imsi#
 
 - Set the operator APN where xxx is MCC and yy is MNC (replace placeholders with your operator settings)
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explanation: {{apn}} is the APN name, {{apnu}} is the APN username, and {{apnp}} is the APN password. The trailing xxxyy represents MCC and MNC as required by this command syntax.
+Explanation: [apn] is the APN name, [apnu] is the APN username, and [apnp] is the APN password. The trailing xxxyy represents MCC and MNC as required by this command syntax.
 
 - Set GPRS server to Plaspy using the server IP and port
 ```text
@@ -122,7 +122,7 @@ If any command returns an unexpected response, verify the exact SMS format in Se
 - SMS-based configuration is shown in the public examples; some installers prefer a manufacturer tool or enterprise provisioning method if available for bulk or remote management.
 - Firmware variations and regional device revisions can change required SMS syntax and parameter order; verify the command format against the device firmware version.
 - Choose UDP or TCP based on your operational preference; Plaspy supports both transports and will detect the protocol automatically. All devices in Plaspy use port 8888.
-- Confirm APN placeholders {{apn}}, {{apnu}}, and {{apnp}} are replaced with your mobile operator values and test mobile data before pointing the device to Plaspy.
+- Confirm APN placeholders [apn], [apnu], and [apnp] are replaced with your mobile operator values and test mobile data before pointing the device to Plaspy.
 - If a factory reset is used, treat it as optional for initial setup and only perform it when required or when recovering a device to default settings.
 
 ## Why Use Plaspy with This Configuration

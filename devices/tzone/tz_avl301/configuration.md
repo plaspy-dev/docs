@@ -82,9 +82,9 @@ To set the tracker using SMS, send the following commands to the device phone nu
 
 1. Set the operator APN. The command includes optional APN username and password placeholders:
 ```text
-*000000,011,{{apn}}{{,{{apnu}},{{apnp}}}}#
+*000000,011,[apn]{{,[apnu],[apnp]}}#
 ```
-- Explanation: Replace {{apn}} with your operator APN. If your APN requires a username and password, include {{apnu}} and {{apnp}} respectively. The example syntax in some firmware variants uses comma separated fields after the APN.
+- Explanation: Replace [apn] with your operator APN. If your APN requires a username and password, include [apnu] and [apnp] respectively. The example syntax in some firmware variants uses comma separated fields after the APN.
 
 2. Set the update interval to 60 seconds:
 ```text
@@ -106,7 +106,7 @@ To set the tracker using SMS, send the following commands to the device phone nu
 
 Notes on the commands above:
 - The prefix "000000" in these examples is used as the administrative password token in the SMS command format shown. Use the correct password or token for your specific device if it differs from this example.
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when preparing SMS text and replace them with your actual provider details.
+- Preserve placeholders such as [apn], [apnu], and [apnp] when preparing SMS text and replace them with your actual provider details.
 - Commands must be sent in the order required by your installer guidance; the order shown here matches the public example sequence.
 
 ## Configuration Notes

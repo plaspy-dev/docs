@@ -76,21 +76,21 @@ El TZ-AVL02 se configura para iniciar una conexión GPRS y enviar su telemetría
 
 El fabricante del TZ-AVL02 proporciona comandos por SMS para configurar el rastreador. Envíe estos comandos como mensajes SMS desde un número permitido al dispositivo. Preserve los marcadores de posición al sustituir valores.
 
-1. Configure el APN del operador. Reemplace {{apn}} con el APN de su operador. Si su APN requiere usuario y contraseña incluya {{apnu}} y {{apnp}} como se muestra.
+1. Configure el APN del operador. Reemplace [apn] con el APN de su operador. Si su APN requiere usuario y contraseña incluya [apnu] y [apnp] como se muestra.
 
 ```
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 O incluya usuario y contraseña del APN si son necesarios:
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
-- {{apn}} es la cadena APN del operador móvil.
-- {{apnu}} es el usuario del APN si el operador lo exige.
-- {{apnp}} es la contraseña del APN si el operador la exige.
+- [apn] es la cadena APN del operador móvil.
+- [apnu] es el usuario del APN si el operador lo exige.
+- [apnp] es la contraseña del APN si el operador la exige.
 
 2. Configure el intervalo de actualización en 60 segundos. Esto establece reportes periódicos.
 

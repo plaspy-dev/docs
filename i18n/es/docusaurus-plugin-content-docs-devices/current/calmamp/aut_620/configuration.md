@@ -78,26 +78,26 @@ Si utiliza comandos por SMS, siga exactamente la sintaxis publicada por CalmAmp 
 
 El AUT-620 puede configurarse por SMS usando los comandos públicos publicados por CalmAmp. El dispositivo responde con un identificador MID tras un comando de consulta; ese MID se utiliza como ID de dispositivo en comandos posteriores cuando se requiere.
 
-Nota: Mantenga los campos de marcador de posición tal como están. Reemplace {{apn}}, {{apnu}} y {{apnp}} con el APN, el usuario del APN y la contraseña del APN de su operador móvil respectivamente.
+Nota: Mantenga los campos de marcador de posición tal como están. Reemplace [apn], [apnu] y [apnp] con el APN, el usuario del APN y la contraseña del APN de su operador móvil respectivamente.
 
 - Para solicitar el ID del dispositivo (el dispositivo responde con MID de 10 dígitos):
 ```text
 !R0
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador):
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador):
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
-- Establecer el usuario del APN si es necesario (reemplace {{apnu}} por el usuario):
+- Establecer el usuario del APN si es necesario (reemplace [apnu] por el usuario):
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
-- Establecer la contraseña del APN si es necesario (reemplace {{apnp}} por la contraseña):
+- Establecer la contraseña del APN si es necesario (reemplace [apnp] por la contraseña):
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy (se muestra la IP pública de Plaspy aquí):
@@ -127,7 +127,7 @@ Siga el orden exacto de comandos cuando el fabricante especifique un orden. Se r
 - CalmAmp admite la configuración por SMS para el AUT-620 como se muestra; también puede usar herramientas OTA de CalmAmp como PULS si están disponibles para actualizaciones masivas o remotas.
 - Plaspy utiliza el mismo puerto (8888) para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, por lo que los elementos clave en el dispositivo son la dirección del servidor y el puerto.
 - La selección del transporte (UDP o TCP) se realiza en el dispositivo; elija el transporte que el firmware del dispositivo soporte o requiera. Plaspy acepta ambos transportes en el puerto 8888.
-- Tenga listos los marcadores {{apn}}, {{apnu}} y {{apnp}}: deben coincidir con la configuración del operador móvil para la conectividad de datos.
+- Tenga listos los marcadores [apn], [apnu] y [apnp]: deben coincidir con la configuración del operador móvil para la conectividad de datos.
 - Las revisiones de firmware y las variaciones de hardware pueden cambiar los comandos disponibles o los índices de parámetros; confirme comandos e índices con la documentación de CalmAmp para la versión de firmware de su dispositivo.
 
 ## Por qué usar Plaspy con esta configuración

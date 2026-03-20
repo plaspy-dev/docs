@@ -82,7 +82,7 @@ If you have a manufacturer command list from Aquila or your vendor, apply the sa
 - Port 8888
 - Transport UDP or TCP
 
-For SMS or console commands that include placeholders, preserve placeholders such as {{apn}}, {{apnu}}, or {{apnp}} and substitute them with your SIM operator values when performing configuration.
+For SMS or console commands that include placeholders, preserve placeholders such as [apn], [apnu], or [apnp] and substitute them with your SIM operator values when performing configuration.
 
 ## Configuration Notes
 

@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st410mg
 id: st410mg
+sidebar_key: suntecst410mg_index_st410mg
 sidebar_label: ST410MG
 title: Suntech - ST410MG
 sidebar_class_name: menu_item_tracker

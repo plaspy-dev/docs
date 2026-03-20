@@ -84,9 +84,9 @@ Los siguientes comandos SMS provienen de la guía pública de configuración de 
 
 2. Configure el servidor GPRS hacia Plaspy y provea los marcadores de APN
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-- Este comando establece el servidor GPRS a la IP de Plaspy 54.85.159.138 y el puerto 8888. Incluye marcadores {{apn}} para el APN, {{apnu}} para el usuario del APN y {{apnp}} para la contraseña del APN. Conserve estos marcadores y reemplácelos con los valores de su operador según sea necesario.
+- Este comando establece el servidor GPRS a la IP de Plaspy 54.85.159.138 y el puerto 8888. Incluye marcadores [apn] para el APN, [apnu] para el usuario del APN y [apnp] para la contraseña del APN. Conserve estos marcadores y reemplácelos con los valores de su operador según sea necesario.
 - Alternativamente puede configurar el servidor usando el dominio d.plaspy.com si el equipo admite DNS.
 
 3. Configure la zona horaria a UTC 0

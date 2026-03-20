@@ -1,6 +1,7 @@
 ---
 slug: /arusnavi/arnavi_bts_v5
 id: arnavi_bts_v5
+sidebar_key: arusnavarnavi_bts_v5_index_arnavi_bts_v5
 sidebar_label: Arnavi BTS v.5
 title: Arusnavi - Arnavi BTS v.5
 sidebar_class_name: menu_item_tracker

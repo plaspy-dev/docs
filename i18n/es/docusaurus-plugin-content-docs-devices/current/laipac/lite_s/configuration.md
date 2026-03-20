@@ -76,14 +76,14 @@ El Lite S se configurará para enviar informes periódicos y por eventos al endp
 
 Los comandos exactos de configuración y su sintaxis dependen del firmware de Laipac y del método de configuración elegido (herramienta web, software del proveedor o SMS). Debido a que las herramientas y formatos de comandos del fabricante varían, consulte el manual oficial de Laipac para las cadenas SMS exactas o los campos de la herramienta. Las tareas típicas que realizará en la herramienta del fabricante incluyen ingresar el dominio o IP del servidor, establecer el puerto 8888 y elegir UDP o TCP como transporte.
 
-Si su instalación utiliza comandos SMS, consulte la lista de comandos de Laipac para el formato preciso del mensaje. En las guías del fabricante es común encontrar marcadores como {{apn}} para indicar dónde insertar los valores del APN del operador.
+Si su instalación utiliza comandos SMS, consulte la lista de comandos de Laipac para el formato preciso del mensaje. En las guías del fabricante es común encontrar marcadores como [apn] para indicar dónde insertar los valores del APN del operador.
 
 ## Notas de configuración
 
 - Las diferencias de firmware y las revisiones de hardware pueden cambiar los menús disponibles y los formatos de comandos SMS; siempre verifique los comandos contra el manual del dispositivo para su versión de firmware.
 - TCP y UDP funcionan con Plaspy en el puerto 8888; elija el transporte que se ajuste a sus preferencias de fiabilidad y latencia o a la guía del instalador.
 - Plaspy usa el mismo puerto para todos los dispositivos compatibles y detecta automáticamente el protocolo cuando un rastreador se conecta, así que utilice el puerto 8888 de forma consistente.
-- Si usa una SIM celular, asegúrese de que el APN y las credenciales de la SIM sean correctos; las herramientas del fabricante suelen mostrar marcadores como {{apn}} para estos valores.
+- Si usa una SIM celular, asegúrese de que el APN y las credenciales de la SIM sean correctos; las herramientas del fabricante suelen mostrar marcadores como [apn] para estos valores.
 - Mantenga una copia de los ajustes originales del dispositivo antes de aplicar cambios para poder revertirlos si es necesario.
 
 ## Por qué usar Plaspy con esta configuración

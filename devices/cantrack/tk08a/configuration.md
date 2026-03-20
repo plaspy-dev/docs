@@ -77,7 +77,7 @@ When configured for Plaspy, the TK08A forwards location and event data to the sh
 
 The TK08A can be configured using manufacturer tools, USB configuration software or SMS commands depending on the firmware and vendor toolchain. Exact commands and syntax are provided by CanTrack and can vary by firmware, so consult the official documentation or the configuration utility for the exact command set applicable to your device and firmware revision.
 
-If you use SMS commands with your TK08A model and firmware version, follow CanTrack published SMS syntax and replace placeholders with your carrier or environment values where required. For APN or user placeholders, the manufacturer documentation will show how to use values like {{apn}}, {{apnu}} or {{apnp}} if those placeholders are supported by your firmware.
+If you use SMS commands with your TK08A model and firmware version, follow CanTrack published SMS syntax and replace placeholders with your carrier or environment values where required. For APN or user placeholders, the manufacturer documentation will show how to use values like [apn], [apnu] or [apnp] if those placeholders are supported by your firmware.
 
 ## Configuration Notes
 

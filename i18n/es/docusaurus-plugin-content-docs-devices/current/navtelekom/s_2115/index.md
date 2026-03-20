@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/s_2115
 id: s_2115
+sidebar_key: navtelekos_2115_index_s_2115
 sidebar_label: СИГНАЛ S-2115
 title: Navtelekom - СИГНАЛ S-2115
 sidebar_class_name: menu_item_tracker

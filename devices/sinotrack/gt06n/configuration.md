@@ -91,12 +91,12 @@ Label this RESET step as optional or only use when a full factory restore is req
 
 - Set the APN of the operator
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 Explanation of placeholders:
-- {{apn}} is the APN name for the mobile operator
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required by the operator
+- [apn] is the APN name for the mobile operator
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required by the operator
 If your operator does not require username or password, leave those placeholders empty or follow the manufacturer SMS syntax.
 
 - Set up the GPRS server to Plaspy by IP and port

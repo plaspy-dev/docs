@@ -82,21 +82,21 @@ The TK-103-2 supports SMS based configuration. The following public SMS commands
   ```
 
 - Set the operator APN
-  - Replace {{apn}} with your carrier APN
+  - Replace [apn] with your carrier APN
   ```
-  apn123456 {{apn}}
+  apn123456 [apn]
   ```
 
 - Set the APN username
-  - Optional, use only if your operator requires an APN username. Replace {{apnu}} with the username
+  - Optional, use only if your operator requires an APN username. Replace [apnu] with the username
   ```
-  apnuser123456 {{apnu}}
+  apnuser123456 [apnu]
   ```
 
 - Set the APN password
-  - Optional, use only if your operator requires an APN password. Replace {{apnp}} with the password
+  - Optional, use only if your operator requires an APN password. Replace [apnp] with the password
   ```
-  apnpasswd123456 {{apnp}}
+  apnpasswd123456 [apnp]
   ```
 
 - Set the GPRS server to Plaspy
@@ -118,9 +118,9 @@ The TK-103-2 supports SMS based configuration. The following public SMS commands
   ```
 
 Placeholders explanation
-- {{apn}} is the operator APN string required for GPRS data
-- {{apnu}} is the APN username when required by the operator
-- {{apnp}} is the APN password when required by the operator
+- [apn] is the operator APN string required for GPRS data
+- [apnu] is the APN username when required by the operator
+- [apnp] is the APN password when required by the operator
 - Replace 123456 in all commands with the device password if it has been changed from the factory default
 
 ## Configuration Notes

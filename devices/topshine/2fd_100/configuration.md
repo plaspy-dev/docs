@@ -86,18 +86,18 @@ W000000,990,099###
 
 2. Set the device Id
 - Use the first 14 digits from the IMEI for the device Id when the device requires a 14 digit id. TopShine notes that Plaspy uses the full 15 digit IMEI as the platform identifier.
-- Replace <IMEI14> with the first 14 digits of your device IMEI.
+- Replace \<IMEI14> with the first 14 digits of your device IMEI.
 ```
 W000000,010,<IMEI14>
 ```
 
 3. Set the operator APN
-- Replace {{apn}} with your operator APN.
-- Optional placeholders {{apnu}} and {{apnp}} represent APN username and APN password if required by your carrier.
+- Replace [apn] with your operator APN.
+- Optional placeholders [apnu] and [apnp] represent APN username and APN password if required by your carrier.
 ```
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-(If your operator does not require username or password, leave {{apnu}} and {{apnp}} empty or omit them according to device syntax.)
+(If your operator does not require username or password, leave [apnu] and [apnp] empty or omit them according to device syntax.)
 
 4. Set the GPRS server to Plaspy
 - This command points the device to the Plaspy server IP and port. Plaspy also accepts connections to d.plaspy.com; use the IP or domain per device capability.
@@ -129,7 +129,7 @@ Keep the commands in this order during initial provisioning to ensure the device
 - Firmware versions and hardware revisions can change command syntax and available options; always verify command format against the device manual for your firmware.
 - Choose TCP or UDP according to device support and network conditions; Plaspy accepts both and will automatically detect the protocol used by the tracker.
 - Plaspy uses the same port 8888 for all supported devices to simplify provisioning and platform routing.
-- Preserve placeholders such as {{apn}}, {{apnu}}, {{apnp}} when preparing SMS commands and replace them with operator supplied values as needed.
+- Preserve placeholders such as [apn], [apnu], [apnp] when preparing SMS commands and replace them with operator supplied values as needed.
 
 ## Why Use Plaspy with This Configuration
 

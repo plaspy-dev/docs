@@ -90,13 +90,13 @@ GMT,E,0#
 ```
 
 - Establecer el APN del operador
-Nota: {{apn}} es el APN del operador. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN cuando el operador los requiere.
+Nota: [apn] es el APN del operador. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN cuando el operador los requiere.
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 O, cuando se requieren usuario y contraseña:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS al dominio de Plaspy usando el puerto compartido

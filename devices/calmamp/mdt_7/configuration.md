@@ -77,17 +77,17 @@ The MDT-7 and some CalAmp devices can be configured by SMS. The following public
 
 - Set the operator APN
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Set the APN username (if required)
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Set the APN password (if required)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP
@@ -111,9 +111,9 @@ The MDT-7 and some CalAmp devices can be configured by SMS. The following public
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN string required for data connectivity.  
-- {{apnu}} is the APN username if your operator requires one.  
-- {{apnp}} is the APN password if your operator requires one.  
+- [apn] is the mobile operator APN string required for data connectivity.  
+- [apnu] is the APN username if your operator requires one.  
+- [apnp] is the APN password if your operator requires one.  
 Keep the placeholders visible and replace them with the correct values for your operator when sending SMS commands.
 
 ## Configuration Notes

@@ -71,7 +71,7 @@ El LT-501R se configura para reportar al endpoint y puerto compartidos de Plaspy
 2. Ingrese el servidor de Plaspy como dominio d.plaspy.com o como IP 54.85.159.138 en el campo de servidor o endpoint del dispositivo.
 3. Establezca el puerto de reporte en 8888 (este es el puerto compartido que usa Plaspy para todos los dispositivos).
 4. Elija UDP o TCP si el dispositivo le solicita seleccionar un protocolo de transporte.
-5. Proporcione los ajustes APN o parámetros de conectividad necesarios (use marcadores como {{apn}}, {{apnu}} y {{apnp}} cuando apliquen).
+5. Proporcione los ajustes APN o parámetros de conectividad necesarios (use marcadores como [apn], [apnu] y [apnp] cuando apliquen).
 6. Aplique o guarde la configuración en el dispositivo y, si es necesario, reinicie para activar los nuevos ajustes.
 7. Valide en Plaspy que el dispositivo reporta correctamente y aparece en su espacio de trabajo con la telemetría esperada.
 
@@ -83,13 +83,13 @@ El ejemplo del fabricante incluye comandos de configuración basados en SMS. Est
 
 - Comando de configuración (reemplace los marcadores y calcule la suma de verificación antes de enviar):
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 Explicación:
 - {{imei}} — reemplace con el número IMEI del dispositivo.
-- {{apn}} — nombre del APN para el operador de la SIM.
-- {{apnu}} — nombre de usuario del APN si lo requiere su operador; dejar en blanco si no aplica.
-- {{apnp}} — contraseña del APN si la requiere su operador; dejar en blanco si no aplica.
+- [apn] — nombre del APN para el operador de la SIM.
+- [apnu] — nombre de usuario del APN si lo requiere su operador; dejar en blanco si no aplica.
+- [apnp] — contraseña del APN si la requiere su operador; dejar en blanco si no aplica.
 - E0 y E1 son la IP y el puerto del servidor Plaspy respectivamente, como se indicó arriba.
 - A1=1 normalmente habilita la primera ranura de servidor en el dispositivo (consulte la documentación del proveedor para el significado del modo).
 - {{checksum}} es una suma de verificación hexadecimal de dos dígitos calculada sobre el texto del comando hasta antes del carácter '*'.

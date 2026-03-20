@@ -81,17 +81,17 @@ El LMU-3000 puede configurarse enviando comandos SMS al dispositivo. Los comando
 
 - Establecer el APN del operador
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Establecer el nombre de usuario del APN del operador (si se requiere)
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Establecer la contraseña del APN del operador (si se requiere)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública
@@ -115,9 +115,9 @@ El LMU-3000 puede configurarse enviando comandos SMS al dispositivo. Los comando
 ```
 
 Notas sobre los marcadores
-- {{apn}} es la cadena APN del operador móvil
-- {{apnu}} es el usuario APN cuando el operador lo requiere
-- {{apnp}} es la contraseña APN cuando el operador la requiere
+- [apn] es la cadena APN del operador móvil
+- [apnu] es el usuario APN cuando el operador lo requiere
+- [apnp] es la contraseña APN cuando el operador la requiere
 
 Envíe cada comando como un SMS al rastreador siguiendo las instrucciones del fabricante. El orden anterior es convencional: primero configure el APN y las credenciales, luego el servidor y puerto, y finalmente reinicie para aplicar. El MID devuelto por el comando !R0 se usa en algunos flujos como identificador del dispositivo.
 

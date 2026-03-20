@@ -77,17 +77,17 @@ To set the tracker send the following commands by SMS messages. The device ID is
 
 - Set the operator APN
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Set the APN username if required
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Set the APN password if required
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public server IP
@@ -112,9 +112,9 @@ Note that the reboot command is typically required to apply SMS based changes on
 ```
 
 Placeholders explanation
-- {{apn}} is your mobile operator APN
-- {{apnu}} is the APN username if your operator requires one
-- {{apnp}} is the APN password if required
+- [apn] is your mobile operator APN
+- [apnu] is the APN username if your operator requires one
+- [apnp] is the APN password if required
 Keep these placeholders and replace them with the values provided by your mobile operator.
 
 ## Configuration Notes

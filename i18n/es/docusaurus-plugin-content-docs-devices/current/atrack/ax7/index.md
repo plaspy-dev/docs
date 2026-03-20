@@ -1,6 +1,7 @@
 ---
 slug: /atrack/ax7
 id: ax7
+sidebar_key: atracax7_index_ax7
 sidebar_label: AX7
 title: ATrack - AX7
 sidebar_class_name: menu_item_tracker

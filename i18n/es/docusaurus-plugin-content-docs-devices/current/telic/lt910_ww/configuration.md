@@ -77,7 +77,7 @@ El LT910-WW se configura para enviar telemetría y estado a través del enlace d
 
 ## Comandos de configuración de ejemplo
 
-Los siguientes comandos de ejemplo se extraen de instrucciones públicas de Telic para el LT910-WW. Son comandos SMS que figuran en documentación pública. Los comandos de muestra usan la contraseña del dispositivo 123456 que aparece como valor por defecto en el ejemplo público. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador.
+Los siguientes comandos de ejemplo se extraen de instrucciones públicas de Telic para el LT910-WW. Son comandos SMS que figuran en documentación pública. Los comandos de muestra usan la contraseña del dispositivo 123456 que aparece como valor por defecto en el ejemplo público. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador.
 
 - Comando opcional de restablecimiento de fábrica inicial
 ```text
@@ -91,15 +91,15 @@ time zone123456 0
 
 - Establecer el APN de su operador móvil
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Reemplace {{apn}} por la cadena APN de su operador.
+Reemplace [apn] por la cadena APN de su operador.
 
 - Establecer el usuario y la contraseña APN si son necesarios
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Reemplace {{apnu}} y {{apnp}} por el usuario y la contraseña APN. Este comando solo es necesario si su operador requiere credenciales APN.
+Reemplace [apnu] y [apnp] por el usuario y la contraseña APN. Este comando solo es necesario si su operador requiere credenciales APN.
 
 - Establecer el servidor GPRS con la IP y el puerto de Plaspy
 ```text

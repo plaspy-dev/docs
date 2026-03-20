@@ -75,12 +75,12 @@ El PT-719 se configura para reportar su ubicación y estado al endpoint y puerto
 
 ## Ejemplos de comandos de configuración
 
-El PT-719 soporta configuración vía SMS. El fabricante provee los siguientes comandos SMS para configuración GPRS y servidor. La clave secreta por defecto para instrucciones SMS son los últimos 6 caracteres ASCII del ID del dispositivo. Mantenga los marcadores de posición como {{apn}}, {{apnu}}, {{apnp}}, y {{SecretKey}} tal como se muestran y reemplácelos por sus valores reales.
+El PT-719 soporta configuración vía SMS. El fabricante provee los siguientes comandos SMS para configuración GPRS y servidor. La clave secreta por defecto para instrucciones SMS son los últimos 6 caracteres ASCII del ID del dispositivo. Mantenga los marcadores de posición como [apn], [apnu], [apnp], y {{SecretKey}} tal como se muestran y reemplácelos por sus valores reales.
 
 - To set APN and server IP with port 8888 (replace placeholders and preserve order):
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - To check the current GPRS settings on the device:
@@ -91,9 +91,9 @@ El PT-719 soporta configuración vía SMS. El fabricante provee los siguientes c
 
 Notas sobre los marcadores de posición:
 - {{SecretKey}} — la clave SMS por defecto son los últimos 6 caracteres ASCII del ID del dispositivo, salvo que se haya cambiado.
-- {{apn}} — la cadena APN de su operador móvil.
-- {{apnu}} — el usuario APN si el operador lo requiere, de lo contrario déjelo vacío.
-- {{apnp}} — la contraseña APN si el operador la requiere, de lo contrario déjelo vacía.
+- [apn] — la cadena APN de su operador móvil.
+- [apnu] — el usuario APN si el operador lo requiere, de lo contrario déjelo vacío.
+- [apnp] — la contraseña APN si el operador la requiere, de lo contrario déjelo vacía.
 
 Si el firmware del PT-719 o su herramienta de instalación permiten ingresar un dominio de servidor en lugar de la IP, puede usar d.plaspy.com en lugar de la dirección IP donde aplique. Algunas herramientas del fabricante aceptan el dominio directamente mientras que los comandos SMS pueden requerir la IP.
 

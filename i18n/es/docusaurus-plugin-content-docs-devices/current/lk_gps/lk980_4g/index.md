@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk980_4g
 id: lk980_4g
+sidebar_key: lk_gplk980_4g_index_lk980_4g
 sidebar_label: LK980-4G
 title: LK-GPS - LK980-4G
 sidebar_class_name: menu_item_tracker

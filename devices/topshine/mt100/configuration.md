@@ -88,21 +88,21 @@ Note: Replace {{first14_IMEI}} with the first 14 digits of the device IMEI. The 
 
 - Set the operator APN and optional APN username and password
 ```
-W000000,011,{{apn}}{{,apn_user,apn_pass}}
+W000000,011,[apn]{{,apn_user,apn_pass}}
 ```
 Examples:
 - If only APN is required
 ```
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 - If APN username and password are required
 ```
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 Placeholders explanation:
-- {{apn}} is the mobile operator APN
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the mobile operator APN
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 - Set the GPRS server to Plaspy using the public IP and port
 ```

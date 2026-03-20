@@ -77,16 +77,16 @@ The CS-146 is configured to send location and status messages to the shared Plas
 
 The CS-146 supports SMS configuration. The commands below are public examples extracted from the device configuration content. The device default password used in these examples is 0000. Send each command as an SMS to the device from an authorized number when using SMS configuration.
 
-- Set the operator APN. The placeholders {{apn}}, {{apnu}}, and {{apnp}} are preserved and represent APN and optional APN username and password values required by your SIM operator.
+- Set the operator APN. The placeholders [apn], [apnu], and [apnp] are preserved and represent APN and optional APN username and password values required by your SIM operator.
 
 ```
-APN,0000,{{apn}}
+APN,0000,[apn]
 ```
 
 If your APN requires username and password include them as follows.
 
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn],[apnu],[apnp]
 ```
 
 - Set a 5 digit identifier (use the last 5 digits of the IMEI). Replace XXXXX with the last 5 digits of the device IMEI.
@@ -133,7 +133,7 @@ CONEXION,0000#
 
 Notes on placeholders and format
 - 0000 is the device default password shown in the public commands. If your device uses a different password substitute it accordingly.  
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for APN, APN username, and APN password. Replace them with values from your SIM operator.  
+- [apn], [apnu], and [apnp] are placeholders for APN, APN username, and APN password. Replace them with values from your SIM operator.  
 - Replace XXXXX in the ALIAS command with the actual last five digits of the IMEI for the device.  
 - Commands are listed in the order provided by the public configuration and are typically sent by SMS. Follow Condor guidance on authorized numbers and SMS formatting.
 

@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gl500mg
 id: gl500mg
+sidebar_key: queclingl500mg_index_gl500mg
 sidebar_label: GL500MG
 title: QuecLink - GL500MG
 sidebar_class_name: menu_item_tracker

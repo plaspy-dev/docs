@@ -87,15 +87,15 @@ GMT,E,0#
 
 3. Set the operator APN
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If your operator requires APN username or password, include the optional placeholders as provided by your carrier:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- {{apn}} = operator APN name
-- {{apnu}} = APN username if required
-- {{apnp}} = APN password if required
+- [apn] = operator APN name
+- [apnu] = APN username if required
+- [apnp] = APN password if required
 
 4. Set the GPRS server to Plaspy using domain
 ```
@@ -125,7 +125,7 @@ GPRSON,1#
 GPRSSET#
 ```
 
-Follow the exact SMS syntax required by the device firmware and confirm the device acknowledges each command. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your carrier specific values.
+Follow the exact SMS syntax required by the device firmware and confirm the device acknowledges each command. Replace placeholders such as [apn], [apnu], and [apnp] with your carrier specific values.
 
 ## Configuration Notes
 

@@ -73,7 +73,7 @@ El MVT-100 se configura para enviar su telemetría y mensajes de eventos por GPR
 
 ## Ejemplos de comandos de configuración
 
-Los ejemplos siguientes se obtienen de comandos SMS públicos disponibles para el MVT-100. Los comandos usan la contraseña por defecto 0000. Envíe cada línea como un SMS independiente al número del dispositivo. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por los datos del proveedor de la SIM al ejecutar los comandos.
+Los ejemplos siguientes se obtienen de comandos SMS públicos disponibles para el MVT-100. Los comandos usan la contraseña por defecto 0000. Envíe cada línea como un SMS independiente al número del dispositivo. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y sustitúyalos por los datos del proveedor de la SIM al ejecutar los comandos.
 
 - Opcional, inicialización o restauración a valores de fábrica (usar solo si necesita restaurar ajustes):
 ```text
@@ -82,9 +82,9 @@ Los ejemplos siguientes se obtienen de comandos SMS públicos disponibles para e
 
 - Configurar el servidor GPRS a la IP de Plaspy, puerto y APN como marcador (este comando utiliza la forma de IP pública):
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-Note: {{apn}} es el nombre del punto de acceso que suministra su operador móvil. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN.
+Note: [apn] es el nombre del punto de acceso que suministra su operador móvil. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN.
 
 - Ajustar la zona horaria a UTC-0:
 ```text

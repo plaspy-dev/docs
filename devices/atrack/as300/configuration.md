@@ -77,7 +77,7 @@ If your AS300 modelConfiguration includes specific commands (below), apply them 
 
 ## Example Configuration Commands
 
-The following public commands are provided in the AS300 modelConfiguration and can be used with the device command interface supported by ATrack. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier APN, username, and password where required.
+The following public commands are provided in the AS300 modelConfiguration and can be used with the device command interface supported by ATrack. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your carrier APN, username, and password where required.
 
 - Set ACC event behavior and event reporting rules
 ```text
@@ -99,9 +99,9 @@ AT$FORM=1,@P,0,""
 
 - Configure GPRS server and APN settings to point to Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-Note: {{apn}} is the carrier APN, {{apnu}} is the APN username (if required), and {{apnp}} is the APN password (if required). Replace placeholders with your operator credentials.
+Note: [apn] is the carrier APN, [apnu] is the APN username (if required), and [apnp] is the APN password (if required). Replace placeholders with your operator credentials.
 
 - Check device status
 ```text

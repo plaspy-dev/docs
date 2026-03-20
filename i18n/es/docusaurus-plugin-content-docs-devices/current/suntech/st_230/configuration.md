@@ -86,16 +86,16 @@ Cómo derivar el ID del dispositivo
 
 1) Establecer el APN del operador y el servidor GPRS
 - Use 1 en la bandera de usuario si proporciona usuario o contraseña APN, de lo contrario use 0.
-- Reemplace {{apn}}, {{apnu}}, {{apnp}} con el APN del operador, usuario APN y contraseña APN según corresponda.
+- Reemplace [apn], [apnu], [apnp] con el APN del operador, usuario APN y contraseña APN según corresponda.
 
 ```
-SA200NTW;DEVICEID;02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;DEVICEID;02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Ejemplo cuando no se requiere usuario ni contraseña APN (use 0 como bandera):
 
 ```
-SA200NTW;DEVICEID;02;0;{{apn}};;;54.85.159.138;8888;;;;
+SA200NTW;DEVICEID;02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 
 2) Establecer el intervalo de actualización a 60 segundos
@@ -113,9 +113,9 @@ SA200CMD;DEVICEID;02;PresetA
 ```
 
 Notas sobre los marcadores
-- {{apn}} es el nombre del punto de acceso (APN) del operador móvil para su SIM.
-- {{apnu}} es el usuario del APN cuando se requiere.
-- {{apnp}} es la contraseña del APN cuando se requiere.
+- [apn] es el nombre del punto de acceso (APN) del operador móvil para su SIM.
+- [apnu] es el usuario del APN cuando se requiere.
+- [apnp] es la contraseña del APN cuando se requiere.
 - DEVICEID debe ser el ID de seis dígitos derivado del IMEI como se describió arriba.
 
 ## Notas de configuración

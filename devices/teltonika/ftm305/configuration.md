@@ -78,11 +78,11 @@ The FTM305 can be configured using a setparam style command. The vendor provided
 - Example SMS or command line configuration for basic parameters
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - What this command does in practical terms
-  - Replaces 2001 2002 and 2003 with your APN values where {{apn}} is the APN name, {{apnu}} is the APN username, and {{apnp}} is the APN password
+  - Replaces 2001 2002 and 2003 with your APN values where [apn] is the APN name, [apnu] is the APN username, and [apnp] is the APN password
   - Sets the server address to d.plaspy.com and the server port to 8888
   - Includes a 2006 parameter used by the device to select transport or protocol mode; consult Teltonika documentation for exact numeric mappings for transport options
 

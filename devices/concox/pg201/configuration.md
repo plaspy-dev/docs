@@ -87,15 +87,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace {{apn}}, {{apnu}}, {{apnp}} as needed)
+- Set the operator APN (replace [apn], [apnu], [apnp] as needed)
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If your operator requires username and password include them as:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the operator APN name. {{apnu}} and {{apnp}} are optional APN username and password fields.
+Note: [apn] is the operator APN name. [apnu] and [apnp] are optional APN username and password fields.
 
 - Set the GPRS server to Plaspy using the domain (UDP or TCP on port 8888)
 ```text
@@ -131,7 +131,7 @@ Use these SMS commands according to Concox guidance. Replace placeholders and ch
 ## Configuration Notes
 
 - SMS based setup is publicly documented for the PG201; you can use SMS to set APN, server, timers and GPRS mode as shown above.
-- Preserve and replace placeholder values such as {{apn}}, {{apnu}} and {{apnp}} with your operator credentials. Username and password fields are optional depending on the mobile operator.
+- Preserve and replace placeholder values such as [apn], [apnu] and [apnp] with your operator credentials. Username and password fields are optional depending on the mobile operator.
 - Choose UDP or TCP transport when prompted by the device; Plaspy accepts either on port 8888 and will auto-detect the incoming protocol.
 - Firmware versions, hardware revisions and regional firmware may change command behavior or available features; consult Concox documentation if a command is rejected.
 - Use GPRSSET# to verify configured server, APN and timer settings before relying on live reporting.

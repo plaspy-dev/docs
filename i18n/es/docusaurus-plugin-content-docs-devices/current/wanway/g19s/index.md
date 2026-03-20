@@ -1,6 +1,7 @@
 ---
 slug: /wanway/g19s
 id: g19s
+sidebar_key: wanwag19s_index_g19s
 sidebar_label: G19S
 title: WanWay - G19S
 sidebar_class_name: menu_item_tracker

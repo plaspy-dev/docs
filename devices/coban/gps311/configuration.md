@@ -89,14 +89,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your SIM operator APN)
+- Set the operator APN (replace [apn] with your SIM operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username and password (replace placeholders with operator credentials)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP and port
@@ -130,8 +130,8 @@ protocol123456 18
 ```
 
 Notes about placeholders and commands:
-- {{apn}} is the mobile operator APN string required for GPRS data.
-- {{apnu}} and {{apnp}} are the APN username and APN password when the operator requires credentialed access.
+- [apn] is the mobile operator APN string required for GPRS data.
+- [apnu] and [apnp] are the APN username and APN password when the operator requires credentialed access.
 - Use the provided adminip command to set the server IP and port. If your device firmware supports domain names, you may be able to set d.plaspy.com instead of the IP; check the manufacturer documentation for domain-based commands.
 
 ## Configuration Notes

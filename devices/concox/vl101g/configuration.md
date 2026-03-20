@@ -73,7 +73,7 @@ When configured the VL101G uses its cellular link to open a data session to the 
 
 ## Example Configuration Commands
 
-The following SMS commands are a public example sequence for setting up the VL101G. Preserve the placeholders when you send commands and replace {{apn}} {{apnu}} and {{apnp}} with your operator values as needed. Note that the initial reset command is optional and should be used only when you intend to restore factory defaults.
+The following SMS commands are a public example sequence for setting up the VL101G. Preserve the placeholders when you send commands and replace [apn] [apnu] and [apnp] with your operator values as needed. Note that the initial reset command is optional and should be used only when you intend to restore factory defaults.
 
 1. Optional factory reset
 ```
@@ -86,13 +86,13 @@ GMT,E,0#
 ```
 
 3. Set the operator APN
-Replace {{apn}} with your APN. If your provider requires username and password include {{apnu}} and {{apnp}} respectively.
+Replace [apn] with your APN. If your provider requires username and password include [apnu] and [apnp] respectively.
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Or with username and password placeholders
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Set the GPRS server using Plaspy domain on port 8888 (UDP or TCP is selectable on device if required)

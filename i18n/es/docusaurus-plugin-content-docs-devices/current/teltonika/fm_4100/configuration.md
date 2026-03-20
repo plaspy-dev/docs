@@ -79,13 +79,13 @@ Para configurar los parámetros básicos de su Teltonika FM 4100 por SMS, utilic
 - Comando SMS de ejemplo para configurar APN y valores del servidor Plaspy
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Notas sobre los marcadores y valores del ejemplo anterior
-  - {{apn}} debe reemplazarse por el nombre APN de su operador móvil
-  - {{apnu}} debe reemplazarse por el usuario APN si su operador lo requiere
-  - {{apnp}} debe reemplazarse por la clave APN si su operador lo requiere
+  - [apn] debe reemplazarse por el nombre APN de su operador móvil
+  - [apnu] debe reemplazarse por el usuario APN si su operador lo requiere
+  - [apnp] debe reemplazarse por la clave APN si su operador lo requiere
   - 2004 está establecido en d.plaspy.com para apuntar el dispositivo al servidor Plaspy
   - 2005 está establecido en 8888, que es el puerto que Plaspy utiliza para todos los dispositivos
   - El ejemplo incluye el parámetro 2006; consulte la documentación de Teltonika para la correspondencia exacta de parámetros relacionados con transporte o selección de modo si es necesario

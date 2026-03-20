@@ -66,7 +66,7 @@ When configured to report to Plaspy, the GPT12‑L sends GNSS positions, event m
 ## Common Configuration Workflow
 
 1. Access the official EElink configuration method for the GPT12‑L such as the SMS command interface or the EElink configuration software documented by the manufacturer.
-2. Configure the APN for your cellular operator using the appropriate APN command or software field. Use placeholders such as {{apn}}, {{apnu}}, and {{apnp}} if required by the command format.
+2. Configure the APN for your cellular operator using the appropriate APN command or software field. Use placeholders such as [apn], [apnu], and [apnp] if required by the command format.
 3. Enter the Plaspy server endpoint either as the domain d.plaspy.com or the IP 54.85.159.138 and set the port to 8888.
 4. Choose UDP or TCP transport if the device requires an explicit transport selection for server reporting.
 5. Set the reporting interval and any event or geo‑fence rules you require, then apply or save the configuration.
@@ -89,13 +89,13 @@ GMT,E,0#
 
 3. Set the operator APN
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If your APN requires a username and password include them as additional comma separated fields:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the mobile operator access point name. {{apnu}} is the APN username and {{apnp}} is the APN password when required.
+Note: [apn] is the mobile operator access point name. [apnu] is the APN username and [apnp] is the APN password when required.
 
 4. Set the GPRS server pointing to Plaspy by domain
 ```

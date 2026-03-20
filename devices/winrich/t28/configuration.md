@@ -87,16 +87,16 @@ To set the tracker send the following commands by SMS messages in the order show
 
 3. Set the operator APN
 - Replace the placeholders with your operator values
-- {{apn}} is the APN name
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the APN name
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 - Use the shorter form if username and password are not required
 ```
-802#{{apn}}#
+802#[apn]#
 ```
 or with username and password
 ```
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 
 4. Set the GPRS server to Plaspy using the numeric IP and shared port
@@ -121,7 +121,7 @@ or with username and password
 ```
 
 Note about placeholders
-- Keep the {{apn}}, {{apnu}}, and {{apnp}} placeholders as shown and substitute real values for your SIM operator. If your operator does not require APN credentials, omit the username and password fields as in the shorter command example.
+- Keep the [apn], [apnu], and [apnp] placeholders as shown and substitute real values for your SIM operator. If your operator does not require APN credentials, omit the username and password fields as in the shorter command example.
 
 ## Configuration Notes
 

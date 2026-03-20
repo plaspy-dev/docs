@@ -1,6 +1,7 @@
 ---
 slug: /concox/gt02
 id: gt02
+sidebar_key: concogt02_index_gt02
 sidebar_label: GT02
 title: Concox - GT02
 sidebar_class_name: menu_item_tracker

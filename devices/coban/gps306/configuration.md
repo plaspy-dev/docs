@@ -76,9 +76,9 @@ The Coban GPS306 is configured to report position and device events to the share
 The GPS306 can be configured by sending SMS commands to the device. The sample commands below are public examples and use the device default password 123456. Replace placeholders where noted.
 
 - Notes on placeholders
-  - {{apn}} — replace with the mobile operator APN string
-  - {{apnu}} — replace with the APN username if required by the operator
-  - {{apnp}} — replace with the APN password if required by the operator
+  - [apn] — replace with the mobile operator APN string
+  - [apnu] — replace with the APN username if required by the operator
+  - [apnp] — replace with the APN password if required by the operator
 
 - Factory reset (optional initial step)
 ```text
@@ -92,12 +92,12 @@ time zone123456 0
 
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username and password
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP and port

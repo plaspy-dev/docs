@@ -1,6 +1,7 @@
 ---
 slug: /aoya/a12
 id: a12
+sidebar_key: aoya12_index_a12
 sidebar_label: A12
 title: AoYa - A12
 sidebar_class_name: menu_item_tracker

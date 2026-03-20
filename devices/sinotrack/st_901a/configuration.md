@@ -49,7 +49,7 @@ Use the following Plaspy server settings when configuring the ST-901A. All devic
 - A charged tracker installed or powered for configuration and testing.
 - A SIM card with an active GPRS data plan if you will use GPRS reporting.
 - Access to an SMS capable phone or tool able to send the manufacturer SMS configuration commands.
-- Knowledge of your mobile operator APN values for the placeholders {{apn}}, {{apnu}}, and {{apnp}}.
+- Knowledge of your mobile operator APN values for the placeholders [apn], [apnu], and [apnp].
 - Access to official manufacturer documentation or vendor tools for device-specific guidance.
 - A method to receive and view device responses to verification commands such as RCONF.
 
@@ -89,9 +89,9 @@ RESET
 
 - Set the APN of the mobile operator. Replace placeholders with your operator values:
 ```
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-Explanation: {{apn}} is the access point name, {{apnu}} is the APN username, and {{apnp}} is the APN password. If your APN has no username or password, keep the placeholders empty as required by the device format.
+Explanation: [apn] is the access point name, [apnu] is the APN username, and [apnp] is the APN password. If your APN has no username or password, keep the placeholders empty as required by the device format.
 
 - Set up the GPRS server to Plaspy by IP and port:
 ```
@@ -127,7 +127,7 @@ Explanation: The device response to RCONF contains the device ID. Plaspy uses th
 - Manufacturer firmware and hardware revisions can change command formats and behavior; always confirm commands against the most recent manufacturer documentation.
 - The ST-901A supports both SMS based configuration and GPRS reporting; use SMS commands when the device has no network connection or as the primary configuration method if supported.
 - Choosing TCP or UDP affects session handling on the device and server. Plaspy accepts either and will automatically detect the tracker protocol.
-- Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when preparing commands and substitute your operator-specific values before sending.
+- Keep placeholders such as [apn], [apnu], and [apnp] when preparing commands and substitute your operator-specific values before sending.
 - Resetting to factory defaults is optional and should be used when you need a clean configuration state; it will remove prior custom settings.
 
 ## Why Use Plaspy with This Configuration

@@ -76,10 +76,10 @@ Cuando se configura para reporte en red, el TZ-BC05 envía sus datos al endpoint
 
 El fabricante del TZ-BC05 proporciona un flujo de comandos por SMS para la configuración pública. Los siguientes comandos se muestran en el orden en que comúnmente se aplican. Reemplace la contraseña SMS y los marcadores de posición según sea necesario.
 
-- Configure el APN del operador. Reemplace 000000 con la contraseña SMS del equipo si se ha cambiado, y sustituya {{apn}}, {{apnu}}, {{apnp}} por los valores de su operador. Los campos de usuario y contraseña son opcionales y solo se requieren si el operador los solicita.
+- Configure el APN del operador. Reemplace 000000 con la contraseña SMS del equipo si se ha cambiado, y sustituya [apn], [apnu], [apnp] por los valores de su operador. Los campos de usuario y contraseña son opcionales y solo se requieren si el operador los solicita.
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
 - Establezca el intervalo de actualización a 60 segundos (ejemplo). Esto controla cada cuánto tiempo el equipo envía actualizaciones de posición.
@@ -102,9 +102,9 @@ El fabricante del TZ-BC05 proporciona un flujo de comandos por SMS para la confi
 
 Notas sobre los marcadores de posición:
 - 000000 es el marcador de la contraseña administrativa SMS. Reemplácelo por su contraseña SMS si se ha modificado respecto al valor de fábrica.
-- {{apn}} es el nombre del APN del operador.
-- {{apnu}} es el usuario del APN cuando el operador lo requiere.
-- {{apnp}} es la contraseña del APN cuando el operador la requiere.
+- [apn] es el nombre del APN del operador.
+- [apnu] es el usuario del APN cuando el operador lo requiere.
+- [apnp] es la contraseña del APN cuando el operador la requiere.
 
 ## Notas de configuración
 

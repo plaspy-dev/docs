@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv58cg
 id: gv58cg
+sidebar_key: queclingv58cg_index_gv58cg
 sidebar_label: GV58CG
 title: QuecLink - GV58CG
 sidebar_class_name: menu_item_tracker

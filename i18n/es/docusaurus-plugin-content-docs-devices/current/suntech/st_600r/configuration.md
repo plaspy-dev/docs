@@ -87,11 +87,11 @@ Etiqueta: reinicio inicial opcional. Reemplace {{device_id}} con los últimos 9 
 
 2. Establecer APN del operador y servidor GPRS. Si necesita enviar usuario o contraseña del APN, ponga la bandera APN en 1, de lo contrario en 0. Campos: comando;device_id;02;APN_FLAG;APN;APN_USER;APN_PASS;SERVER_IP;SERVER_PORT;;;;
 ```
-ST300NTW;{{device_id}};02;0;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notas:
-- Reemplace el cuarto campo (0) por 1 si proporciona credenciales {{apnu}} o {{apnp}}.
-- {{apn}} es el APN del operador, {{apnu}} es el usuario APN y {{apnp}} es la contraseña APN.
+- Reemplace el cuarto campo (0) por 1 si proporciona credenciales [apnu] o [apnp].
+- [apn] es el APN del operador, [apnu] es el usuario APN y [apnp] es la contraseña APN.
 - Este comando apunta el equipo a Plaspy usando la IP pública y el puerto del servidor.
 
 3. Establecer intervalo de reporte a 60 segundos (ejemplo de configuración de reporte):

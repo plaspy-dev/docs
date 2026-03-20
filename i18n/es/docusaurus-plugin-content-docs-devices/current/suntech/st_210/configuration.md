@@ -72,16 +72,16 @@ El ST 210 se configura para reportar datos de posición y eventos al endpoint y 
 
 ## Ejemplos de comandos de configuración
 
-El ST 210 soporta configuración por SMS. Las plantillas de comandos públicas a continuación se presentan en el orden típico de aplicación. Reemplace los marcadores antes de enviar por SMS. El marcador de ID de dispositivo {{device_id}} debe calcularse desde el IMEI como se describió más arriba. Mantenga {{apn}}, {{apnu}} y {{apnp}} como marcadores para el nombre del APN del operador, el usuario del APN y la contraseña del APN.
+El ST 210 soporta configuración por SMS. Las plantillas de comandos públicas a continuación se presentan en el orden típico de aplicación. Reemplace los marcadores antes de enviar por SMS. El marcador de ID de dispositivo {{device_id}} debe calcularse desde el IMEI como se describió más arriba. Mantenga [apn], [apnu] y [apnp] como marcadores para el nombre del APN del operador, el usuario del APN y la contraseña del APN.
 
 1) Configurar el APN del operador y el servidor GPRS (plantilla de ejemplo)
 
 ```
-SA200NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Propósito: Configurar el APN del operador y apuntar el dispositivo a la IP y puerto del servidor Plaspy.
-- Notas: El cuarto campo en la plantilla original indica si hay nombre de usuario/contraseña del APN. Use 1 si proporciona {{apnu}} o {{apnp}}, de lo contrario use 0.
+- Notas: El cuarto campo en la plantilla original indica si hay nombre de usuario/contraseña del APN. Use 1 si proporciona [apnu] o [apnp], de lo contrario use 0.
 
 2) Establecer el intervalo de reporte a 60 segundos
 
@@ -101,9 +101,9 @@ SA200CMD;{{device_id}};02;PresetA
 
 Explicaciones importantes de los marcadores:
 - {{device_id}} — el ID de 6 dígitos del dispositivo derivado del IMEI como se describió más arriba.
-- {{apn}} — la cadena APN de su operador móvil.
-- {{apnu}} — usuario del APN si es requerido por el operador.
-- {{apnp}} — contraseña del APN si es requerida por el operador.
+- [apn] — la cadena APN de su operador móvil.
+- [apnu] — usuario del APN si es requerido por el operador.
+- [apnp] — contraseña del APN si es requerida por el operador.
 
 Envíe estos comandos como mensajes SMS desde un número autorizado si su instalación usa configuración por SMS. Siga las indicaciones de Suntech sobre el formato requerido de comandos, los números de remitente autorizados y cualquier PIN o token de seguridad si aplica.
 

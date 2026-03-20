@@ -80,9 +80,9 @@ El XT53 puede configurarse mediante comandos SMS. Los siguientes comandos públi
 
 - Establecer el APN del operador (reemplace los marcadores con los valores de su operador)
 ```
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-Explicación: {{apnu}} es el nombre de usuario del APN si se requiere, {{apnp}} es la contraseña del APN si se requiere, y {{apn}} es la cadena del APN del operador. Proporcione valores vacíos para usuario o contraseña si su operador no los solicita.
+Explicación: [apnu] es el nombre de usuario del APN si se requiere, [apnp] es la contraseña del APN si se requiere, y [apn] es la cadena del APN del operador. Proporcione valores vacíos para usuario o contraseña si su operador no los solicita.
 
 - Establecer el servidor GPRS para apuntar el dispositivo a Plaspy
 ```

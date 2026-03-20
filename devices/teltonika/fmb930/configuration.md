@@ -79,13 +79,13 @@ To configure the basic parameters on your Teltonika device, enter the following 
 - Example setparam command to set APN and server parameters
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders and values
-  - {{apn}} — replace with your mobile operator APN
-  - {{apnu}} — replace with APN username if required by the operator; leave empty if not used
-  - {{apnp}} — replace with APN password if required by the operator; leave empty if not used
+  - [apn] — replace with your mobile operator APN
+  - [apnu] — replace with APN username if required by the operator; leave empty if not used
+  - [apnp] — replace with APN password if required by the operator; leave empty if not used
   - 2004 sets the server domain to d.plaspy.com
   - 2005 sets the server port to 8888
   - 2006 is a device parameter included in the example; confirm its exact meaning for your firmware via Teltonika documentation before changing it
@@ -96,7 +96,7 @@ If you use the device management tool (for example FOTA WEB) you can apply equiv
 
 - Firmware and hardware revisions can change parameter IDs and command formats; always confirm parameter mappings against the Teltonika FMB930 manual for your firmware version.
 - TCP versus UDP selection is done on the device side; Plaspy accepts both transports on port 8888 and will detect the protocol automatically.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} intact in templates and replace them with operator-specific values during deployment.
+- Keep APN placeholders [apn], [apnu], and [apnp] intact in templates and replace them with operator-specific values during deployment.
 - The provided command is a common public example; for large fleets use Teltonika remote management tools such as FOTA WEB for bulk provisioning and updates.
 - After applying configuration, validate device visibility and telemetry in Plaspy to confirm successful connection.
 

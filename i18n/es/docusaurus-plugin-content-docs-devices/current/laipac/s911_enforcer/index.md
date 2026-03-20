@@ -1,6 +1,7 @@
 ---
 slug: /laipac/s911_enforcer
 id: s911_enforcer
+sidebar_key: laipas911_enforcer_index_s911_enforcer
 sidebar_label: S911 Enforcer
 title: Laipac - S911 Enforcer
 sidebar_class_name: menu_item_tracker

@@ -79,11 +79,11 @@ El TK-209B envía mensajes de ubicación y eventos a un servidor remoto para que
 
 La sintaxis exacta de los comandos para el GOTOP TK-209B depende del firmware del dispositivo y de las herramientas del fabricante que utilice. Muchos dispositivos GOTOP soportan configuración via software del proveedor, una interfaz web o cadenas de comando por SMS. Dado que la sintaxis del fabricante puede variar, consulte la documentación de GOTOP o la herramienta del proveedor para los comandos precisos para establecer un dominio o IP de servidor y un puerto.
 
-Al usar un método basado en SMS del proveedor, normalmente verá marcadores de posición para APN u otros parámetros de red como {{apn}}, {{apnu}} o {{apnp}}. Mantenga esos marcadores y reemplácelos con los valores suministrados por su operador móvil. Explicación de los marcadores de ejemplo:
+Al usar un método basado en SMS del proveedor, normalmente verá marcadores de posición para APN u otros parámetros de red como [apn], [apnu] o [apnp]. Mantenga esos marcadores y reemplácelos con los valores suministrados por su operador móvil. Explicación de los marcadores de ejemplo:
 
-- {{apn}} es el APN de datos proporcionado por el operador SIM
-- {{apnu}} es el nombre de usuario del APN si se requiere
-- {{apnp}} es la contraseña del APN si se requiere
+- [apn] es el APN de datos proporcionado por el operador SIM
+- [apnu] es el nombre de usuario del APN si se requiere
+- [apnp] es la contraseña del APN si se requiere
 
 Si obtiene comandos proporcionados por el fabricante para el TK-209B, aplíquelos en el orden especificado por GOTOP y verifique la conectividad a d.plaspy.com puerto 8888 por UDP o TCP.
 

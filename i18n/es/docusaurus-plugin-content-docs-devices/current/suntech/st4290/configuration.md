@@ -77,18 +77,18 @@ Nota sobre el ID del dispositivo
 - Los comandos SMS para Suntech ST4290 usan un ID de dispositivo derivado del IMEI. El ID del dispositivo son los seis dígitos que comienzan en la posición 9 del IMEI hasta la 14 (es decir, los seis dígitos anteriores al último dígito del IMEI). Ejemplo: si el IMEI es 123456789012345, el ID del dispositivo es 901234 (dígitos 9–14). Use ese valor de seis dígitos en los comandos como {{device_id}}.
 
 1) Configurar APN del operador y servidor GPRS de Plaspy
-- El comando siguiente establece el APN, el usuario y la contraseña opcionales del APN, y la IP y puerto del servidor Plaspy. Reemplace {{device_id}} por el ID de seis dígitos derivado del IMEI como se explicó arriba. Use {{apn}}, {{apnu}} y {{apnp}} como marcadores de posición para su APN, usuario APN y contraseña APN. Si no usa usuario o contraseña de APN, algunos dispositivos requieren que la bandera de credenciales APN se ajuste a 0 o se omita según la orientación del proveedor; el siguiente comando incluye esa posición de bandera.
+- El comando siguiente establece el APN, el usuario y la contraseña opcionales del APN, y la IP y puerto del servidor Plaspy. Reemplace {{device_id}} por el ID de seis dígitos derivado del IMEI como se explicó arriba. Use [apn], [apnu] y [apnp] como marcadores de posición para su APN, usuario APN y contraseña APN. Si no usa usuario o contraseña de APN, algunos dispositivos requieren que la bandera de credenciales APN se ajuste a 0 o se omita según la orientación del proveedor; el siguiente comando incluye esa posición de bandera.
 
 ```
-SA200NTW;{{device_id}};02;[1 or 0];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;[1 or 0];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Explicación de los campos:
   - {{device_id}} — ID de dispositivo de seis dígitos derivado del IMEI (dígitos 9–14).
   - [1 or 0] — ponga 1 si va a proveer usuario o contraseña del APN, ponga 0 si no.
-  - {{apn}} — marcador del nombre del APN del operador.
-  - {{apnu}} — marcador del usuario del APN (deje vacío si no se usa).
-  - {{apnp}} — marcador de la contraseña del APN (deje vacío si no se usa).
+  - [apn] — marcador del nombre del APN del operador.
+  - [apnu] — marcador del usuario del APN (deje vacío si no se usa).
+  - [apnp] — marcador de la contraseña del APN (deje vacío si no se usa).
   - 54.85.159.138 y 8888 — IP y puerto del servidor Plaspy (requeridos).
 
 2) Establecer intervalo de reporte a 60 segundos

@@ -85,13 +85,13 @@ La documentación pública de EV para el EV-206M proporciona comandos tipo SMS u
 - Configurar el APN del operador
   - Solo APN básico
 ```text
-123456S1,{{apn}}
+123456S1,[apn]
 ```
   - APN con usuario y contraseña como marcadores
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-  - Explicación: mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por el APN, el usuario APN y la contraseña APN de su operador según sea necesario
+  - Explicación: mantenga los marcadores [apn], [apnu] y [apnp] y reemplácelos por el APN, el usuario APN y la contraseña APN de su operador según sea necesario
 
 - Establecer la IP y el puerto del servidor
   - El ejemplo público requiere que el fabricante habilite la opción de cambiar servidor en algunas unidades

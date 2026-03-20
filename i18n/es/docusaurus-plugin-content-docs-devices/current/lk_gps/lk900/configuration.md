@@ -90,7 +90,7 @@ Consulte la documentación oficial de LK-GPS para la sintaxis SMS precisa o los 
 - Las variaciones de firmware pueden cambiar la sintaxis de los comandos, los ajustes disponibles y los modos de transporte soportados; verifique la versión de firmware de su dispositivo antes de aplicar instrucciones.
 - Elija UDP cuando prefiera menor sobrecarga y la red sea estable; elija TCP si su despliegue necesita una sesión persistente orientada a conexión o si el firmware lo soporta.
 - Plaspy detecta automáticamente el protocolo del rastreador una vez que el dispositivo se conecta a d.plaspy.com en el puerto 8888, así que concéntrese en los detalles correctos de servidor, puerto y conectividad.
-- Asegúrese de que los parámetros APN sean correctos para la SIM en uso; marcadores como {{apn}}, {{apnu}} o {{apnp}} se usan comúnmente en la documentación del fabricante para indicar los valores de su operador.
+- Asegúrese de que los parámetros APN sean correctos para la SIM en uso; marcadores como [apn], [apnu] o [apnp] se usan comúnmente en la documentación del fabricante para indicar los valores de su operador.
 - Si usa comandos SMS para la configuración, pruebe primero con un solo dispositivo y confirme el comportamiento antes de desplegar a gran escala.
 
 ## Por qué usar Plaspy con esta configuración

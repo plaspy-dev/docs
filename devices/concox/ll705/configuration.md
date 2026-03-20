@@ -89,13 +89,13 @@ GMT,E,0#
 
 - Set the operator APN
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 If your APN requires a username or password keep the placeholders:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is your operator APN string. {{apnu}} and {{apnp}} are optional APN username and password fields.
+Note: [apn] is your operator APN string. [apnu] and [apnp] are optional APN username and password fields.
 
 - Set the GPRS server by domain (recommended)
 ```
@@ -126,7 +126,7 @@ GPRSON,1#
 GPRSSET#
 ```
 
-These commands are sent to the device via SMS according to Concox public guidance. Keep placeholders such as {{apn}} unchanged in the command until you replace them with the operator APN values appropriate for your SIM.
+These commands are sent to the device via SMS according to Concox public guidance. Keep placeholders such as [apn] unchanged in the command until you replace them with the operator APN values appropriate for your SIM.
 
 ## Configuration Notes
 

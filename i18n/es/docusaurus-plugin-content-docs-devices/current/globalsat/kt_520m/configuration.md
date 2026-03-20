@@ -82,13 +82,13 @@ TSPRXAB27GHKLMnaicz*U!
 
 - Plantilla de comando de configuración primaria
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 Explicación:
 - {{imei}} es el número IMEI del dispositivo.
-- {{apn}} es el nombre del APN para su SIM celular.
-- {{apnu}} es el marcador de nombre de usuario del APN si lo requiere el operador.
-- {{apnp}} es el marcador de contraseña del APN si lo requiere el operador.
+- [apn] es el nombre del APN para su SIM celular.
+- [apnu] es el marcador de nombre de usuario del APN si lo requiere el operador.
+- [apnp] es el marcador de contraseña del APN si lo requiere el operador.
 - E0 establece la IP del servidor a 54.85.159.138 y E1 establece el puerto a 8888 para Plaspy.
 - El comando incluye un marcador de checksum {{checksum}} que debe calcularse como se describe a continuación.
 

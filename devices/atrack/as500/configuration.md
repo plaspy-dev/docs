@@ -46,7 +46,7 @@ The goal of configuring an AS500 for Plaspy is to prepare the tracker to reliabl
 
 - Device powered and accessible via the manufacturer configuration interface you use (ADM, UART, or command console as applicable).
 - Active cellular data SIM or eSIM provisioned for the device with correct APN credentials.
-- APN values available for insertion into the device configuration such as {{apn}}, {{apnu}}, and {{apnp}} placeholders if required.
+- APN values available for insertion into the device configuration such as [apn], [apnu], and [apnp] placeholders if required.
 - Knowledge of the device configuration method used in your deployment for sending AT commands or using manufacturer tools.
 - A basic verification plan to confirm the device reaches the Plaspy server and that data appears in Plaspy.
 - Installer access to the physical device if a restart or power cycle is required after applying settings.
@@ -73,7 +73,7 @@ The AS500 sends location and sensor data to the Plaspy endpoint and port you con
 
 ## Example Configuration Commands
 
-The AS500 supports AT style commands for configuration. The following public example shows a common order of commands used to prepare the device for Plaspy. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} with your carrier values when you apply the GPRS command.
+The AS500 supports AT style commands for configuration. The following public example shows a common order of commands used to prepare the device for Plaspy. Preserve the placeholders [apn], [apnu], and [apnp] with your carrier values when you apply the GPRS command.
 
 - Set ACC event handling and related reporting rules
 ```text
@@ -95,7 +95,7 @@ AT$FORM=1,@P,0,""
 
 - Set the GPRS server to Plaspy using placeholders for APN credentials
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 - Verify device status
@@ -104,9 +104,9 @@ AT$INFO=?
 ```
 
 Notes on placeholders
-- {{apn}} is your carrier APN name.
-- {{apnu}} is the APN username when required by the carrier.
-- {{apnp}} is the APN password when the carrier requires one.
+- [apn] is your carrier APN name.
+- [apnu] is the APN username when required by the carrier.
+- [apnp] is the APN password when the carrier requires one.
 Replace the placeholders with the correct values for your SIM or eSIM profile before applying the GPRS command.
 
 ## Configuration Notes

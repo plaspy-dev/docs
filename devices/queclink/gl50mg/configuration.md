@@ -48,7 +48,7 @@ These values are the public Plaspy endpoint settings to use when configuring the
 
 - A charged GL50MG device with an active SIM provisioned for data if cellular reporting is used.
 - Ability to send SMS commands to the device if using the SMS configuration method shown in the public commands.
-- APN credentials for the SIM operator, often expressed as {{apn}}, {{apnu}}, and {{apnp}} placeholders in manufacturer commands.
+- APN credentials for the SIM operator, often expressed as [apn], [apnu], and [apnp] placeholders in manufacturer commands.
 - Access to QuecLink configuration instructions or software for your specific firmware version and hardware revision.
 - Basic knowledge of whether your deployment prefers UDP or TCP transport for device-to-server connections.
 - A way to observe device reports in Plaspy to confirm the device is online after configuration.
@@ -75,7 +75,7 @@ When configured for Plaspy the GL50MG sends periodic location updates and event 
 
 ## Example Configuration Commands
 
-The following commands are the public SMS commands derived from QuecLink guidance. They are presented in order and use the device password queclink as the example default password. Send these as SMS messages to the device phone number where SMS configuration is supported. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values.
+The following commands are the public SMS commands derived from QuecLink guidance. They are presented in order and use the device password queclink as the example default password. Send these as SMS messages to the device phone number where SMS configuration is supported. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values.
 
 1. Optional initial factory restore command
 ```
@@ -91,9 +91,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- Replace {{apn}} with the mobile operator APN, {{apnu}} with the APN username if required, and {{apnp}} with the APN password if required. Keep placeholders intact until you substitute real values.
+- Replace [apn] with the mobile operator APN, [apnu] with the APN username if required, and [apnp] with the APN password if required. Keep placeholders intact until you substitute real values.
 
 4. Set the GPRS server to Plaspy
 ```

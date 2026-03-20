@@ -1,6 +1,7 @@
 ---
 slug: /concox/at1
 id: at1
+sidebar_key: concoat1_index_at1
 sidebar_label: AT1
 title: Concox - AT1
 sidebar_class_name: menu_item_tracker

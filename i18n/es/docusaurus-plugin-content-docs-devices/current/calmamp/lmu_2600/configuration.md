@@ -79,19 +79,19 @@ El ejemplo público de configuración del LMU-2600 muestra comandos SMS para est
 !R0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
-- Set the APN username if required (replace {{apnu}} with your APN username)
+- Set the APN username if required (replace [apnu] with your APN username)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
-- Set the APN password if required (replace {{apnp}} with your APN password)
+- Set the APN password if required (replace [apnp] with your APN password)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP
@@ -115,8 +115,8 @@ El ejemplo público de configuración del LMU-2600 muestra comandos SMS para est
 ```
 
 Notas sobre marcadores de posición y flujo
-- {{apn}} es la cadena APN del operador móvil. Sustituya por el APN de su proveedor celular.
-- {{apnu}} y {{apnp}} son el usuario y contraseña opcionales del APN cuando el operador los requiere.
+- [apn] es la cadena APN del operador móvil. Sustituya por el APN de su proveedor celular.
+- [apnu] y [apnp] son el usuario y contraseña opcionales del APN cuando el operador los requiere.
 - El LMU-2600 devuelve un valor MID en respuesta a !R0 que debe capturar y usar como identificador del dispositivo cuando el flujo de configuración lo exija.
 - Los comandos anteriores son la secuencia SMS documentada públicamente. Si utiliza herramientas CalmAmp o PULS OTA, aplique los ajustes equivalentes allí.
 

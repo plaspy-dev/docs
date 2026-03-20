@@ -91,26 +91,26 @@ The PT30 public configuration examples are sent via SMS. The commands below are 
   
   Description: Set the device ID field. Use the first 14 digits derived from the IMEI if required by the device command format. Plaspy uses the device IMEI (full 15 digits) as the identifier on the platform.
   
-  Example (replace <14_DIGITS> with the first 14 digits of the IMEI):
+  Example (replace \<14_DIGITS> with the first 14 digits of the IMEI):
   
   ```
-  W000000,010,<14_DIGITS>
+  W000000,010,\<14_DIGITS>
   ```
 
 - Set the operator APN
   
-  Description: Configure the mobile operator APN so the device can use GPRS. Replace {{apn}} with your operator APN. If the carrier requires APN username and password, include {{apnu}} and {{apnp}} respectively. The username and password fields are optional and used only if your operator requires them.
+  Description: Configure the mobile operator APN so the device can use GPRS. Replace [apn] with your operator APN. If the carrier requires APN username and password, include [apnu] and [apnp] respectively. The username and password fields are optional and used only if your operator requires them.
   
   Example with only APN:
   
   ```
-  W000000,011,{{apn}}
+  W000000,011,[apn]
   ```
   
   Example with APN username and password:
   
   ```
-  W000000,011,{{apn}},{{apnu}},{{apnp}}
+  W000000,011,[apn],[apnu],[apnp]
   ```
 
 - Set the GPRS server to Plaspy
@@ -145,7 +145,7 @@ The PT30 public configuration examples are sent via SMS. The commands below are 
   W000000,601
   ```
 
-Note: Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values. The default SMS command password in these examples is 000000; substitute your device password if it has been changed.
+Note: Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values. The default SMS command password in these examples is 000000; substitute your device password if it has been changed.
 
 ## Configuration Notes
 

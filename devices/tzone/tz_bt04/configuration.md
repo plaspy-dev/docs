@@ -83,14 +83,14 @@ The TZ-BT04 can be configured using SMS commands. The following public commands 
 
 1. Set the operator APN
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
-- {{apn}} is the operator APN string required by your mobile provider.
-- {{apnu}} is the APN username when required by the operator, otherwise leave blank or omit if the device supports it.
-- {{apnp}} is the APN password when required by the operator, otherwise leave blank or omit if the device supports it.
+- [apn] is the operator APN string required by your mobile provider.
+- [apnu] is the APN username when required by the operator, otherwise leave blank or omit if the device supports it.
+- [apnp] is the APN password when required by the operator, otherwise leave blank or omit if the device supports it.
 - Some device firmware supports a shortened form without username and password:
 ```
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 2. Set the update interval to 60 seconds

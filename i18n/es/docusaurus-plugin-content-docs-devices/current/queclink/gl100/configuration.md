@@ -75,7 +75,7 @@ El GL100 se configura para reportar su posición y eventos al endpoint y puerto 
 
 ## Comandos de configuración de ejemplo
 
-El GL100 puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos están tomados de ejemplos públicos de tipo QuecLink. La contraseña por defecto del dispositivo usada en estos ejemplos es queclink. Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores del APN de su operador.
+El GL100 puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos están tomados de ejemplos públicos de tipo QuecLink. La contraseña por defecto del dispositivo usada en estos ejemplos es queclink. Preserve los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los valores del APN de su operador.
 
 Nota: El primer comando es una restauración de fábrica y debe usarse solo cuando sea necesario como paso inicial.
 
@@ -91,12 +91,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Configurar el APN del operador (reemplace los marcadores por los valores de su operador)
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 Explicación de los marcadores:
-- {{apn}} = APN de su operador móvil
-- {{apnu}} = nombre de usuario del APN si es requerido (dejar en blanco si no aplica)
-- {{apnp}} = contraseña del APN si es requerida (dejar en blanco si no aplica)
+- [apn] = APN de su operador móvil
+- [apnu] = nombre de usuario del APN si es requerido (dejar en blanco si no aplica)
+- [apnp] = contraseña del APN si es requerida (dejar en blanco si no aplica)
 
 - Establecer el servidor GPRS a Plaspy (incluye dominio e IP; el dispositivo usará el puerto 8888)
 ```text
@@ -121,7 +121,7 @@ Envíe cada comando como un mensaje SMS desde un número autorizado o utilice la
 - Puede especificar el servidor de Plaspy por nombre de host d.plaspy.com o por IP 54.85.159.138; incluya el puerto 8888 en los ajustes del servidor. Plaspy usa el mismo puerto para todos los dispositivos y detecta el protocolo automáticamente.
 - Elija UDP o TCP según su preferencia de instalación; Plaspy acepta ambos transportes y gestiona la detección del protocolo automáticamente.
 - Mantenga la contraseña del dispositivo segura y confirme la contraseña por defecto antes de enviar comandos; algunos despliegues requieren cambiar la contraseña por defecto después de la configuración.
-- Cuando use marcadores como {{apn}}, {{apnu}} y {{apnp}}, asegúrese de reemplazarlos con los valores exactos del operador o deje usuario/contraseña vacíos si el operador no los requiere.
+- Cuando use marcadores como [apn], [apnu] y [apnp], asegúrese de reemplazarlos con los valores exactos del operador o deje usuario/contraseña vacíos si el operador no los requiere.
 
 ## Por qué usar Plaspy con esta configuración
 

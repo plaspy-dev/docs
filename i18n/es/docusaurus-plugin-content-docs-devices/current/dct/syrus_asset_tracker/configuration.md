@@ -90,10 +90,10 @@ Full script (preserve order when loading):
 >SRT;CONFIG<
 >SXADP**U<
 #configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 #The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 #A Destination Address holding the server destination
@@ -117,11 +117,11 @@ Extractos clave de comandos y breves explicaciones:
 
 - Establecer valores APN (reemplace los marcadores por el APN de su red y opcionalmente usuario/clave):
 ```
->SRFA{{apn}}<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFA[apn]<
+>SRFL[apnu]<
+>SRFP[apnp]<
 ```
-Explicación: {{apn}} es el APN de la red móvil. {{apnu}} y {{apnp}} son el usuario y la contraseña de APN opcionales si su operador los requiere.
+Explicación: [apn] es el APN de la red móvil. [apnu] y [apnp] son el usuario y la contraseña de APN opcionales si su operador los requiere.
 
 - Apuntar el dispositivo al servidor y puerto de Plaspy:
 ```
@@ -149,7 +149,7 @@ Si tiene dudas sobre algún comando o marcador de posición, consulte la documen
 - Las revisiones de firmware y hardware pueden cambiar los comandos SB disponibles y su sintaxis; confirme siempre la compatibilidad de los comandos con la versión de firmware del dispositivo.
 - Use Syrus Desk o la herramienta oficial de provisioning de DCT para cargar scripts .tmf y lograr despliegues por lotes de manera consistente.
 - Elija UDP o TCP según la preferencia del instalador y las características de la red; Plaspy acepta ambos transportes en el puerto 8888 y detectará el protocolo automáticamente.
-- Reemplace los marcadores APN {{apn}}, {{apnu}} y {{apnp}} por los valores correctos de su operador celular antes de cargar el script.
+- Reemplace los marcadores APN [apn], [apnu] y [apnp] por los valores correctos de su operador celular antes de cargar el script.
 - Los comandos para "borrar configuración previa" son útiles para despliegues nuevos o reprovisionamiento, pero son opcionales si está actualizando una configuración existente.
 
 ## Por qué usar Plaspy con esta configuración

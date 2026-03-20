@@ -78,7 +78,7 @@ The XT62 supports SMS configuration in published public materials. The commands 
 - Set the operator APN (replace placeholders with your operator values)
 
 ```
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port 8888
@@ -88,9 +88,9 @@ The XT62 supports SMS configuration in published public materials. The commands 
 ```
 
 Notes on placeholders and command usage:
-- {{apn}} is the operator APN string required for data access.
-- {{apnu}} is the APN username when required by the operator.
-- {{apnp}} is the APN password when required by the operator.
+- [apn] is the operator APN string required for data access.
+- [apnu] is the APN username when required by the operator.
+- [apnp] is the APN password when required by the operator.
 - Send the APN command before the GPRS server command so the device can establish a data session.
 - These commands are public examples and may vary by firmware. Confirm exact syntax with Xirgo documentation.
 

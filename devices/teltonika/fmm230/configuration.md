@@ -79,13 +79,13 @@ Teltonika devices commonly support SMS-based parameter setting. The following pu
 
 - Example SMS parameter command
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders
-  - {{apn}}  Replace with your mobile operator APN name.
-  - {{apnu}} Replace with the APN username if required by the operator, otherwise leave blank.
-  - {{apnp}} Replace with the APN password if required by the operator, otherwise leave blank.
+  - [apn]  Replace with your mobile operator APN name.
+  - [apnu] Replace with the APN username if required by the operator, otherwise leave blank.
+  - [apnp] Replace with the APN password if required by the operator, otherwise leave blank.
 
 When using the SMS method, send the command from an authorized phone number or follow Teltonika instructions for allowed SMS configuration sources. If you use Teltonika configurator tools or RMS, apply the same server domain or IP and port values in the GUI or configuration file fields.
 

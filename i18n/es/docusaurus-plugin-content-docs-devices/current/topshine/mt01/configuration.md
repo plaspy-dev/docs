@@ -77,9 +77,9 @@ Cuando se configura por GPRS, el MT01 envía reportes de posición y eventos al 
 El MT01 puede configurarse enviando comandos SMS al dispositivo. Los ejemplos públicos siguientes conservan el orden y los marcadores que aparecen en la guía del fabricante. Los comandos de ejemplo usan la contraseña por defecto 000000 que figura en los ejemplos públicos.
 
 Notas sobre los marcadores
-- {{apn}} es la cadena APN del operador móvil
-- {{apnu}} y {{apnp}} son opcionales y representan usuario y contraseña del APN cuando el operador los requiere
-- <device_id> en los ejemplos representa el ID de 14 dígitos derivado del IMEI; Plaspy usa el IMEI completo de 15 dígitos para la identificación en la plataforma
+- [apn] es la cadena APN del operador móvil
+- [apnu] y [apnp] son opcionales y representan usuario y contraseña del APN cuando el operador los requiere
+- \<device_id> en los ejemplos representa el ID de 14 dígitos derivado del IMEI; Plaspy usa el IMEI completo de 15 dígitos para la identificación en la plataforma
 
 1. Comando inicial opcional de restauración de fábrica (marque esto como un paso inicial u opcional)
 ```
@@ -90,16 +90,16 @@ W000000,990,099###
 ```
 W000000,010,<14-digit-device-id>
 ```
-- Enfoque de ejemplo: extraiga los primeros 14 dígitos del IMEI y envíelos en lugar de <14-digit-device-id>
+- Enfoque de ejemplo: extraiga los primeros 14 dígitos del IMEI y envíelos en lugar de \<14-digit-device-id>
 - Nota pública de la guía del dispositivo: el equipo usa un ID de 14 dígitos, mientras que Plaspy identifica los dispositivos por el IMEI completo de 15 dígitos
 
 3. Configure el APN del operador móvil. Use el marcador de APN o incluya usuario y contraseña opcionales
 ```
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 o, cuando se requiera usuario y contraseña del APN:
 ```
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 
 4. Establezca el servidor GPRS hacia Plaspy usando la IP pública y el puerto
@@ -132,7 +132,7 @@ Importante: los comandos mostrados usan la contraseña por defecto 000000 en los
 - La configuración por SMS es habitual y soportada en el MT01, aunque también puede existir una herramienta del proveedor o una interfaz de configuración según el paquete y el firmware
 - Versiones de firmware y revisiones de hardware pueden cambiar formatos de comandos o parámetros requeridos; confirme siempre la sintaxis con la documentación vigente del fabricante
 - Elija UDP o TCP según la preferencia del instalador y el entorno de red; Plaspy aceptará cualquiera de los dos transportes y detectará el protocolo automáticamente
-- Utilice los marcadores {{apn}}, {{apnu}}, {{apnp}} exactamente según lo requiera su operador móvil; dejar usuario y contraseña en blanco es válido cuando no se requieren
+- Utilice los marcadores [apn], [apnu], [apnp] exactamente según lo requiera su operador móvil; dejar usuario y contraseña en blanco es válido cuando no se requieren
 - Reinicie el dispositivo tras aplicar cambios GPRS/servidor si el fabricante lo recomienda para asegurar que los ajustes entren en vigor
 
 ## Por qué usar Plaspy con esta configuración

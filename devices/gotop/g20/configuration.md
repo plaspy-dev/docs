@@ -83,7 +83,7 @@ The GOTOP G20 configuration method varies by vendor tool and firmware. Because t
 If you have specific SMS or serial commands from the GOTOP configuration sheet, apply them following the vendor instructions and substitute the Plaspy server values where server, IP, or port placeholders appear.
 
 Example placeholder explanation for manufacturer command strings:
-- If a command includes placeholders such as {{apn}} or similar, replace them with the carrier APN, username, or password required by your SIM.
+- If a command includes placeholders such as [apn] or similar, replace them with the carrier APN, username, or password required by your SIM.
 
 Because model specific commands were not provided in the public configuration input for this page, consult your GOTOP manual or vendor configuration guide for the exact command syntax to set server and port values.
 

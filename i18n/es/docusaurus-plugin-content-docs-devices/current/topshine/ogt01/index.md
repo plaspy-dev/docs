@@ -1,6 +1,7 @@
 ---
 slug: /topshine/ogt01
 id: ogt01
+sidebar_key: topshinogt01_index_ogt01
 sidebar_label: OGT01
 title: TopShine - OGT01
 sidebar_class_name: menu_item_tracker

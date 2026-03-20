@@ -74,7 +74,7 @@ The VT900-L is configured to send location and telemetry data to the shared Plas
 
 ## Example Configuration Commands
 
-The VT900-L can be configured by sending SMS messages with the following public commands. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when adapting commands to your operator. Commands are shown in the order commonly used for initial configuration.
+The VT900-L can be configured by sending SMS messages with the following public commands. Preserve placeholders such as [apn], [apnu], and [apnp] when adapting commands to your operator. Commands are shown in the order commonly used for initial configuration.
 
 - Optional factory reset (use when beginning fresh setup or troubleshooting):
 ```
@@ -88,9 +88,9 @@ GMT,E,0#
 
 - Set the operator APN (replace placeholders with your operator values; keep the comma separated format; include APN username and password only if required):
 ```
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Note: Use APN,{{apn}}# if no username/password are required. If your provider requires credentials, include ,{{apnu}},{{apnp}} after the APN as shown in the manufacturer examples.
+Note: Use APN,[apn]# if no username/password are required. If your provider requires credentials, include ,[apnu],[apnp] after the APN as shown in the manufacturer examples.
 
 - Set the GPRS server using the Plaspy domain (recommended) and port 8888:
 ```
@@ -120,7 +120,7 @@ Send these SMS commands from the administrator phone number that the device reco
 - Use SMS configuration for remote or in-vehicle setups when physical access to configuration software is limited; SMS commands shown are public examples from manufacturer guidance.  
 - Choose TCP or UDP based on network reliability and your operational needs; Plaspy supports both and will auto detect the device protocol on arrival.  
 - All Plaspy devices use the same port so consistency in the SERVER port value (8888) simplifies deployments.  
-- Label any placeholders clearly ({{apn}}, {{apnu}}, {{apnp}}) and confirm APN credentials with the mobile operator before sending configuration commands.
+- Label any placeholders clearly ([apn], [apnu], [apnp]) and confirm APN credentials with the mobile operator before sending configuration commands.
 
 ## Why Use Plaspy with This Configuration
 

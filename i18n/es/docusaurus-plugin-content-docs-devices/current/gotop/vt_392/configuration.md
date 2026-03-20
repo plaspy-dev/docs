@@ -79,7 +79,7 @@ El VT-392 envía datos de ubicación, alarma e identificación de conductor al e
 
 Los comandos exactos o las pantallas de configuración del VT-392 dependen de la herramienta del fabricante, el firmware y la distribución del proveedor. Dado que los métodos varían según el modelo, consulte el manual de configuración GOTOP o la herramienta del proveedor para la sintaxis y el procedimiento exacto para establecer la dirección del servidor, el puerto, el transporte y los valores APN de GPRS. Plaspy requiere que el dispositivo apunte a d.plaspy.com o 54.85.159.138 en el puerto 8888 y aceptará UDP o TCP.
 
-Si dispone de la lista de comandos del proveedor o del conjunto de comandos SMS para su VT-392, mantenga el orden que especifique el fabricante y sustituya los marcadores de APN como {{apn}}, {{apnu}} o {{apnp}} cuando el dispositivo requiera credenciales del operador. Conserve esos marcadores si se proporcionan y reemplácelos con los valores de su operador móvil al aplicar la configuración.
+Si dispone de la lista de comandos del proveedor o del conjunto de comandos SMS para su VT-392, mantenga el orden que especifique el fabricante y sustituya los marcadores de APN como [apn], [apnu] o [apnp] cuando el dispositivo requiera credenciales del operador. Conserve esos marcadores si se proporcionan y reemplácelos con los valores de su operador móvil al aplicar la configuración.
 
 ## Notas de configuración
 

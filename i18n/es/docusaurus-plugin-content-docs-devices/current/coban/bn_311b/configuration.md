@@ -77,9 +77,9 @@ El BN-311B envía datos GNSS y de estado a Plaspy por GPRS usando TCP o UDP, o m
 El BN-311B comúnmente acepta comandos de configuración vía SMS. Los ejemplos a continuación muestran el estilo de comandos del fabricante en orden. Los ejemplos públicos usan la contraseña del dispositivo 123456 como valor por defecto. Mantenga los marcadores de posición tal como aparecen y sustitúyalos por los valores de su operador.
 
 - Notas sobre los marcadores de posición
-  - {{apn}} es la cadena APN suministrada por su operador móvil
-  - {{apnu}} es el usuario del APN si es necesario
-  - {{apnp}} es la contraseña del APN si es necesaria
+  - [apn] es la cadena APN suministrada por su operador móvil
+  - [apnu] es el usuario del APN si es necesario
+  - [apnp] es la contraseña del APN si es necesaria
 
 1. Reinicio inicial de fábrica opcional (usar solo si es necesario)
 ```text
@@ -93,12 +93,12 @@ time zone123456 0
 
 3. Configurar el APN del operador
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Establecer el usuario y contraseña del APN
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Configurar el servidor GPRS usando la IP y puerto de Plaspy

@@ -85,9 +85,9 @@ Use this only if you need to reset the device to factory defaults prior to confi
 
 - Set the operator APN with placeholders
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-Replace {{apn}} with the operator APN string. Replace {{apnu}} and {{apnp}} with the APN username and password if required. If the APN does not require username or password, leave those placeholders empty as supported by the device firmware.
+Replace [apn] with the operator APN string. Replace [apnu] and [apnp] with the APN username and password if required. If the APN does not require username or password, leave those placeholders empty as supported by the device firmware.
 
 - Set the GPRS server to Plaspy using the server IP and port
 ```text
@@ -113,7 +113,7 @@ Note on sending commands: send each command as a single SMS string exactly as sh
 
 - Firmware differences and vendor tool versions can change command syntax and parameter meanings. Confirm commands with the device firmware documentation.
 - TCP versus UDP choices can affect delivery behavior and mobile data usage. Choose the transport that matches your network and platform expectations.
-- The APN placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with operator specific values. If the operator does not require username or password, those fields can often be left blank.
+- The APN placeholders [apn], [apnu], and [apnp] must be replaced with operator specific values. If the operator does not require username or password, those fields can often be left blank.
 - SMS based setup is a practical method for field installations, while the Windows configuration tool may be faster for bulk provisioning or when a USB connection is available.
 - Keep the default password 000000 in mind for initial setup and change it if the device workflow supports password updates after provisioning.
 

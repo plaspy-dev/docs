@@ -1,6 +1,7 @@
 ---
 slug: /autofon/2xl
 id: 2xl
+sidebar_key: autofo2xl_index_2xl
 sidebar_label: Альфа-Маяк 2XL
 title: AutoFon - Альфа-Маяк 2XL
 sidebar_class_name: menu_item_tracker

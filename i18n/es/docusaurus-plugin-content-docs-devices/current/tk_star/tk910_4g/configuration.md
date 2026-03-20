@@ -86,15 +86,15 @@ begin123456
 ```
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 - Set the APN username if required by your operator
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 - Set the APN password if required by your operator
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Set the GPRS server to the Plaspy IP and port
 ```text
@@ -110,9 +110,9 @@ gprs123456
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es la cadena APN de su operador celular
-- {{apnu}} es el nombre de usuario APN cuando el operador lo requiere
-- {{apnp}} es la contraseña APN cuando el operador la requiere
+- [apn] es la cadena APN de su operador celular
+- [apnu] es el nombre de usuario APN cuando el operador lo requiere
+- [apnp] es la contraseña APN cuando el operador la requiere
 
 Estos comandos SMS reflejan los ejemplos públicos del fabricante. Mantenga el orden de los comandos cuando el dispositivo lo requiera y cambie la contraseña predeterminada después de la configuración inicial si su política de despliegue lo solicita.
 
@@ -122,7 +122,7 @@ Estos comandos SMS reflejan los ejemplos públicos del fabricante. Mantenga el o
 - El dispositivo admite configurar el servidor por IP como se muestra. Muchos instaladores también aceptan un dominio de servidor, y Plaspy puede referenciarse como d.plaspy.com en interfaces de plataforma o herramientas.
 - Elija UDP o TCP según la preferencia del instalador y cualquier requisito de transporte; Plaspy acepta ambos en el puerto 8888 y detecta el protocolo automáticamente.
 - La configuración por SMS es un método público común para el TK910 4G; utilice la herramienta del fabricante si está disponible para configuraciones masivas o remotas.
-- Recuerde reemplazar marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} con los valores reales de su operador al enviar comandos.
+- Recuerde reemplazar marcadores de posición como [apn], [apnu] y [apnp] con los valores reales de su operador al enviar comandos.
 
 ## Por qué usar Plaspy con esta configuración
 

@@ -77,7 +77,7 @@ El ST 300H se configura para enviar sus datos de ubicación y estado a Plaspy es
 
 El ST 300H puede configurarse enviando comandos SMS al dispositivo. El ID de dispositivo usado en estas plantillas son los últimos 9 dígitos del IMEI excluyendo el dígito de verificación final del IMEI. Ejemplo: si el IMEI es 123456789012345, el ID será la subcadena de dígitos comenzando en la posición 6 y terminando antes del último dígito según la convención del fabricante; para el IMEI de ejemplo 123456789012345 el ID de dispositivo mostrado en el contenido del fabricante fue 678901234.
 
-Use estas plantillas SMS públicas tal como las provee Suntech. Reemplace {{device_id}} con el ID de 9 dígitos calculado y mantenga los marcadores de APN {{apn}}, {{apnu}} y {{apnp}} según corresponda.
+Use estas plantillas SMS públicas tal como las provee Suntech. Reemplace {{device_id}} con el ID de 9 dígitos calculado y mantenga los marcadores de APN [apn], [apnu] y [apnp] según corresponda.
 
 1. Reset de fábrica inicial opcional (usar cuando se inicia una configuración desde cero)
 ```
@@ -85,7 +85,7 @@ ST300CMD;{{device_id}};02;Reset
 ```
 2. Establecer APN del operador y servidor GPRS apuntando a Plaspy
 ```
-ST300NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Nota: el `1` después de la porción `02;` indica que se incluyen credenciales APN. Si no se usa usuario o contraseña APN, los marcadores correspondientes pueden dejarse en blanco.
 
@@ -101,9 +101,9 @@ ST300CMD;{{device_id}};02;PresetA
 
 Explicación de los marcadores:
 - {{device_id}} — los últimos 9 dígitos del IMEI excluyendo su dígito de verificación final según requiere el formato SMS del ST 300H.
-- {{apn}} — el APN de su operador móvil.
-- {{apnu}} — usuario APN si el operador lo requiere; dejar en blanco si no aplica.
-- {{apnp}} — contraseña APN si el operador lo requiere; dejar en blanco si no aplica.
+- [apn] — el APN de su operador móvil.
+- [apnu] — usuario APN si el operador lo requiere; dejar en blanco si no aplica.
+- [apnp] — contraseña APN si el operador lo requiere; dejar en blanco si no aplica.
 
 Envíe estos SMS desde un teléfono al número del rastreador en el orden indicado cuando el orden sea importante: realice el reset solo si es necesario, luego los ajustes de red y servidor, después el intervalo de reporte y finalmente la verificación.
 

@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/smart_s_2435_max
 id: smart_s_2435_max
+sidebar_key: navtelekosmart_s_2435_max_index_smart_s_2435_max
 sidebar_label: SMART S-2435 MAX
 title: Navtelekom - SMART S-2435 MAX
 sidebar_class_name: menu_item_tracker

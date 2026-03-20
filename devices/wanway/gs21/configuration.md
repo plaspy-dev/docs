@@ -78,13 +78,13 @@ The GS21 accepts SMS commands for basic configuration. Below are the common publ
 - Configure the carrier APN. Use the APN placeholder fields as required by your mobile operator. If username and password are not needed, use the simple form.
 
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 
 or, if your carrier requires APN username and password:
 
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to Plaspy using the domain and port. The example sets server index 1 to d.plaspy.com on port 8888.
@@ -118,9 +118,9 @@ STATUS#
 ```
 
 Notes on placeholders:
-- {{apn}} is your carrier APN name.
-- {{apnu}} is the APN username if required by the carrier.
-- {{apnp}} is the APN password if required by the carrier.
+- [apn] is your carrier APN name.
+- [apnu] is the APN username if required by the carrier.
+- [apnp] is the APN password if required by the carrier.
 
 Send each command as a single SMS to the device. The exact response format and available indexes may vary by firmware.
 

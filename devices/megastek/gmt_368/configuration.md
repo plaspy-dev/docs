@@ -90,13 +90,13 @@ M000000,22,XXXXXXXXXXXXXXX
 2. Set the operator APN
 Use the APN provided by your mobile operator. If APN username or password are required include them as additional comma separated fields.
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Or with APN username and password
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
-Note: {{apn}} is the operator access point name. {{apnu}} is the APN username placeholder. {{apnp}} is the APN password placeholder.
+Note: [apn] is the operator access point name. [apnu] is the APN username placeholder. [apnp] is the APN password placeholder.
 
 3. Set the update interval to 60 seconds
 ```text

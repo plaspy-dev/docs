@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/plug5
 id: plug5
+sidebar_key: ruptelplug5_index_plug5
 sidebar_label: Plug5
 title: Ruptela - Plug5
 sidebar_class_name: menu_item_tracker

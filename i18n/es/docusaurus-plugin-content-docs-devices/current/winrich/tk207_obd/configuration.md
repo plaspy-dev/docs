@@ -93,11 +93,11 @@ El TK207 OBD admite configuración por comandos SMS. Los siguientes comandos pú
 
 3. Configurar el APN del operador (reemplace los marcadores según sea necesario)
 ```
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-- {{apn}} es la cadena APN del operador de la SIM
-- {{apnu}} es el usuario APN si se requiere (dejar vacío si no se usa)
-- {{apnp}} es la contraseña APN si se requiere (dejar vacío si no se usa)
+- [apn] es la cadena APN del operador de la SIM
+- [apnu] es el usuario APN si se requiere (dejar vacío si no se usa)
+- [apnp] es la contraseña APN si se requiere (dejar vacío si no se usa)
 
 4. Establecer el servidor GPRS a Plaspy por IP y puerto
 ```

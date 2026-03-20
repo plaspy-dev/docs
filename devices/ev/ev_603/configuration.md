@@ -85,13 +85,13 @@ The EV-603 public configuration supports SMS commands. The sample public command
 
 2) Set the operator APN
 ```text
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 - Basic APN command. If your operator requires APN username and password, extend the command with the optional placeholders:
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
-- {{apn}} is the operator APN string. {{apnu}} is the APN username and {{apnp}} is the APN password. Keep these placeholders and replace them with actual operator values.
+- [apn] is the operator APN string. [apnu] is the APN username and [apnp] is the APN password. Keep these placeholders and replace them with actual operator values.
 
 3) Set the server to Plaspy public IP and port
 ```text

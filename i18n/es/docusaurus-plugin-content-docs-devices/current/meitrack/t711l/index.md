@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/t711l
 id: t711l
+sidebar_key: meitract711l_index_t711l
 sidebar_label: T711L
 title: Meitrack - T711L
 sidebar_class_name: menu_item_tracker

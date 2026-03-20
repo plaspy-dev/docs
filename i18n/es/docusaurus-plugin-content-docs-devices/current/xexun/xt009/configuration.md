@@ -73,26 +73,26 @@ El XT009 se configura para enviar sus reportes GPRS al endpoint y puerto compart
 
 ## Comandos de configuración de ejemplo
 
-El XT009 puede configurarse mediante comandos SMS. Los siguientes comandos son el conjunto público de SMS usados comúnmente para la configuración inicial. Los ejemplos usan la contraseña por defecto 123456. Reemplace los marcadores {{apn}}, {{apnu}} y {{apnp}} por el APN, usuario APN y contraseña APN de su operador según corresponda.
+El XT009 puede configurarse mediante comandos SMS. Los siguientes comandos son el conjunto público de SMS usados comúnmente para la configuración inicial. Los ejemplos usan la contraseña por defecto 123456. Reemplace los marcadores [apn], [apnu] y [apnp] por el APN, usuario APN y contraseña APN de su operador según corresponda.
 
 - Paso inicial opcional para restaurar valores de fábrica (usar solo si es necesario durante la configuración inicial):
 ```text
 begin123456
 ```
 
-- Configurar el APN del operador (reemplace {{apn}} con el APN de su operador móvil):
+- Configurar el APN del operador (reemplace [apn] con el APN de su operador móvil):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Configurar el usuario del APN (solo si su operador lo requiere; reemplace {{apnu}}):
+- Configurar el usuario del APN (solo si su operador lo requiere; reemplace [apnu]):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Configurar la contraseña del APN (solo si su operador la requiere; reemplace {{apnp}}):
+- Configurar la contraseña del APN (solo si su operador la requiere; reemplace [apnp]):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS para apuntar a Plaspy. Este ejemplo usa la IP pública y el puerto de Plaspy:
@@ -111,9 +111,9 @@ t060s***n123456
 ```
 
 Notas sobre los marcadores y la contraseña:
-- {{apn}} es la cadena APN de su operador móvil.  
-- {{apnu}} es el usuario APN si el operador lo requiere.  
-- {{apnp}} es la contraseña APN si el operador la requiere.  
+- [apn] es la cadena APN de su operador móvil.  
+- [apnu] es el usuario APN si el operador lo requiere.  
+- [apnp] es la contraseña APN si el operador la requiere.  
 - La contraseña por defecto del dispositivo mostrada en estos comandos es 123456. Si la contraseña de su dispositivo ha sido cambiada, utilice la contraseña actual.
 
 Envíe estos comandos SMS desde un número autorizado al XT009. Después de enviar los comandos de servidor y APN, espere a que el dispositivo establezca GPRS y confirme los reportes en Plaspy.

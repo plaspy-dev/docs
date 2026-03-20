@@ -89,9 +89,9 @@ GMT,E,0#
 
 3. Establecer el APN del operador
 ```text
-APN,{{apn}}{{apnu_and_apnp}}#
+APN,[apn]{{apnu_and_apnp}}#
 ```
-Nota sobre el comando APN: el marcador de posición {{apn}} debe reemplazarse por el APN de su operador. Si su operador requiere nombre de usuario y contraseña para el APN, el comando puede incluir {{apnu}} y {{apnp}} como campos adicionales separados por comas. El formato público original del comando era APN,{{apn}},{{apnu}},{{apnp}}# donde el usuario y la contraseña son opcionales según los requisitos del operador.
+Nota sobre el comando APN: el marcador de posición [apn] debe reemplazarse por el APN de su operador. Si su operador requiere nombre de usuario y contraseña para el APN, el comando puede incluir [apnu] y [apnp] como campos adicionales separados por comas. El formato público original del comando era APN,[apn],[apnu],[apnp]# donde el usuario y la contraseña son opcionales según los requisitos del operador.
 
 4. Establecer el servidor GPRS por nombre de host usando el host compartido de Plaspy y el puerto
 ```text

@@ -80,14 +80,14 @@ Si su dispositivo admite configuración por SMS, puede aplicar el lote de parám
 El contenido público de configuración del TAT140 incluye un comando de lote de parámetros que puede usarse para fijar los valores APN y el endpoint del servidor Plaspy. Preserve los marcadores y reemplace por los valores de su operador antes de enviar.
 
 - Reemplace los marcadores:
-  - {{apn}} = el APN de su operador
-  - {{apnu}} = usuario APN si es requerido
-  - {{apnp}} = contraseña APN si es requerida
+  - [apn] = el APN de su operador
+  - [apnu] = usuario APN si es requerido
+  - [apnp] = contraseña APN si es requerida
 
 Example SMS batch command:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando de ejemplo:

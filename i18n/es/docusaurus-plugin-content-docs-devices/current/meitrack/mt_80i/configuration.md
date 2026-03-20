@@ -73,7 +73,7 @@ El MT-80i se configura para enviar datos al endpoint y puerto compartidos de Pla
 
 ## Ejemplos de comandos de configuración
 
-El MT-80i normalmente acepta comandos de configuración por SMS. Los comandos de ejemplo del fabricante que se muestran a continuación están en el formato público de Meitrack. Los ejemplos usan la contraseña por defecto del dispositivo 0000. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los datos de su operador según sea necesario.
+El MT-80i normalmente acepta comandos de configuración por SMS. Los comandos de ejemplo del fabricante que se muestran a continuación están en el formato público de Meitrack. Los ejemplos usan la contraseña por defecto del dispositivo 0000. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los datos de su operador según sea necesario.
 
 - Reinicio a valores de fábrica opcional (usar solo cuando sea necesario):
 ```text
@@ -82,9 +82,9 @@ El MT-80i normalmente acepta comandos de configuración por SMS. Los comandos de
 
 - Establecer el servidor GPRS a Plaspy por IP y puerto con marcador de APN:
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-Nota: el comando A21 arriba especifica los parámetros del servidor GPRS. Reemplace {{apn}}, {{apnu}} y {{apnp}} por el APN del operador móvil, el usuario APN y la contraseña APN según corresponda. Si no se requiere usuario o contraseña, deje los marcadores vacíos u omítalos según la sintaxis SMS del dispositivo.
+Nota: el comando A21 arriba especifica los parámetros del servidor GPRS. Reemplace [apn], [apnu] y [apnp] por el APN del operador móvil, el usuario APN y la contraseña APN según corresponda. Si no se requiere usuario o contraseña, deje los marcadores vacíos u omítalos según la sintaxis SMS del dispositivo.
 
 - Establecer la zona horaria a UTC 0:
 ```text

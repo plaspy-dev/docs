@@ -1,6 +1,7 @@
 ---
 slug: /winrich/gt003
 id: gt003
+sidebar_key: winricgt003_index_gt003
 sidebar_label: GT003
 title: Winrich - GT003
 sidebar_class_name: menu_item_tracker

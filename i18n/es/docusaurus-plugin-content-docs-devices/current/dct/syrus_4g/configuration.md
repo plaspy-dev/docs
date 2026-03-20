@@ -84,10 +84,10 @@ Save as a new text file with a .tmf extension and load it with Syrus Desk.
 >SRT;CONFIG<
 >SXADP**U<
 #configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 #The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 #A Destination Address holding the server destination
@@ -102,18 +102,18 @@ Save as a new text file with a .tmf extension and load it with Syrus Desk.
 ```
 
 Notas sobre el script y los marcadores:
-- El bloque inicial marcado como "Delete any previous configuration" (por ejemplo >SRT;CONFIG< y >SXADP**U<) borra o reinicia entradas de configuración y debe emplearse como paso inicial cuando corresponda. Trate los comandos de reinicio como opcionales en instalaciones existentes y úselos solo si necesita una configuración limpia.  
-- {{apn}} es un marcador para el APN de su operador móvil. Reemplácelo por la cadena APN proporcionada por el operador.  
-- {{apnu}} es un marcador para el nombre de usuario del APN si su operador lo requiere. Déjelo vacío o elimínelo si no es necesario.  
-- {{apnp}} es un marcador para la contraseña del APN si su operador la solicita. Déjelo vacío o elimínelo si no es necesario.  
-- La línea de servidor >SXADP0000d.plaspy.com;8888< apunta el dispositivo a Plaspy usando el puerto compartido 8888. También puede usar la IP 54.85.159.138 si prefiere no resolver DNS en su red.  
+- El bloque inicial marcado como "Delete any previous configuration" (por ejemplo >SRT;CONFIG\< y >SXADP**U\<) borra o reinicia entradas de configuración y debe emplearse como paso inicial cuando corresponda. Trate los comandos de reinicio como opcionales en instalaciones existentes y úselos solo si necesita una configuración limpia.  
+- [apn] es un marcador para el APN de su operador móvil. Reemplácelo por la cadena APN proporcionada por el operador.  
+- [apnu] es un marcador para el nombre de usuario del APN si su operador lo requiere. Déjelo vacío o elimínelo si no es necesario.  
+- [apnp] es un marcador para la contraseña del APN si su operador la solicita. Déjelo vacío o elimínelo si no es necesario.  
+- La línea de servidor >SXADP0000d.plaspy.com;8888\< apunta el dispositivo a Plaspy usando el puerto compartido 8888. También puede usar la IP 54.85.159.138 si prefiere no resolver DNS en su red.  
 - Después de cargar el script en Syrus Desk, guarde y reinicie el dispositivo si es necesario para empezar a reportar.
 
 ## Notas de configuración
 
 - Las variaciones de firmware y las diferentes versiones de Syrus Desk pueden requerir una sintaxis de comandos o procedimientos de carga ligeramente distintos; confirme siempre la sintaxis para su firmware específico.  
 - Elija UDP o TCP según los requisitos de su red y del dispositivo; Plaspy detectará el protocolo usado por el rastreador.  
-- Si su operador requiere credenciales APN, complete {{apnu}} y {{apnp}}; si no, deje esos campos en blanco.  
+- Si su operador requiere credenciales APN, complete [apnu] y [apnp]; si no, deje esos campos en blanco.  
 - Al reutilizar o modificar scripts públicos, haga una copia de seguridad de la configuración del dispositivo antes de aplicar reinicios o comandos de eliminación.  
 - Consulte la documentación de producto de DCT para detalles específicos del dispositivo y para cualquier cambio en nombres de comandos u opciones soportadas en scripts TMF.
 

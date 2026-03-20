@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/asn_signal_s_4752_sim_ao_glonass
 id: asn_signal_s_4752_sim_ao_glonass
+sidebar_key: navtelekoasn_signal_s_4752_sim_ao_glonass_index_asn_signal_s_4752_sim_ao_glonass
 sidebar_label: ASN SIGNAL S-4752 + SIM AO "GLONASS"
 title: Navtelekom - ASN SIGNAL S-4752 + SIM AO "GLONASS"
 sidebar_class_name: menu_item_tracker

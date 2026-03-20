@@ -1,6 +1,7 @@
 ---
 slug: /winrich/gt02a
 id: gt02a
+sidebar_key: winricgt02a_index_gt02a
 sidebar_label: GT02A
 title: Winrich - GT02A
 sidebar_class_name: menu_item_tracker

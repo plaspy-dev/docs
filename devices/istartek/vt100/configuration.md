@@ -46,7 +46,7 @@ Configuring the VT100 for Plaspy prepares the device to send GNSS and status dat
 
 - A powered VT100 device with an active SIM that supports GPRS data and SMS management.  
 - Access to the installer or configuration method used by iStartek for the VT100 (SMS commands or vendor software).  
-- The mobile operator APN, username, and password if required by your SIM; keep {{apn}}, {{apnu}}, and {{apnp}} placeholders ready.  
+- The mobile operator APN, username, and password if required by your SIM; keep [apn], [apnu], and [apnp] placeholders ready.  
 - A target Plaspy account or fleet configured to accept the device once it reports to the Plaspy server.  
 - Basic knowledge of sending SMS commands to the device IMEI phone number or access to the installer tool provided by iStartek.  
 
@@ -63,7 +63,7 @@ The VT100 sends GNSS coordinates and device events over the cellular network to 
 ## Common Configuration Workflow
 
 1. Access the official iStartek configuration method for the VT100 (SMS management or the vendor configuration tool).  
-2. Configure the device APN using the operator APN values (use {{apn}} and optional {{apnu}} and {{apnp}} placeholders).  
+2. Configure the device APN using the operator APN values (use [apn] and optional [apnu] and [apnp] placeholders).  
 3. Enter the Plaspy server using either the domain d.plaspy.com or the IP 54.85.159.138.  
 4. Set port 8888 and choose UDP or TCP if the VT100 requires a transport selection.  
 5. Apply or save the configuration to the device and, if necessary, restart the device to activate settings.  
@@ -72,7 +72,7 @@ The VT100 sends GNSS coordinates and device events over the cellular network to 
 
 ## Example Configuration Commands
 
-The VT100 supports SMS command configuration. Below are the public SMS commands provided for this model. Send each command as a separate SMS to the device SIM phone number. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when required.
+The VT100 supports SMS command configuration. Below are the public SMS commands provided for this model. Send each command as a separate SMS to the device SIM phone number. Preserve placeholders such as [apn], [apnu], and [apnp] when required.
 
 Optional factory reset (use only when needed or during initial setup):
 ```
@@ -84,15 +84,15 @@ Set the time zone to UTC offset 0:
 GMT,E,0#
 ```
 
-Set the operator APN. Replace {{apn}} with the carrier APN. If your operator requires APN username and password, include {{apnu}} and {{apnp}} in order:
+Set the operator APN. Replace [apn] with the carrier APN. If your operator requires APN username and password, include [apnu] and [apnp] in order:
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Or with username and password:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Explanation: {{apn}} is the network APN string. {{apnu}} and {{apnp}} are optional APN username and password fields.)
+(Explanation: [apn] is the network APN string. [apnu] and [apnp] are optional APN username and password fields.)
 
 Set the GPRS server to Plaspy by domain (recommended) or by IP. Both options use port 8888:
 ```

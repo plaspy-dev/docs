@@ -88,15 +88,15 @@ time zone123456 0
 
 - Configurar el APN del operador
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Explicación: reemplace {{apn}} por el nombre del APN de su operador móvil.
+Explicación: reemplace [apn] por el nombre del APN de su operador móvil.
 
 - Establecer nombre de usuario y contraseña del APN si se requieren
 ```sms
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Explicación: reemplace {{apnu}} con el usuario del APN y {{apnp}} con la contraseña del APN. Envíe este SMS sólo si su operador solicita credenciales APN.
+Explicación: reemplace [apnu] con el usuario del APN y [apnp] con la contraseña del APN. Envíe este SMS sólo si su operador solicita credenciales APN.
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
 ```sms

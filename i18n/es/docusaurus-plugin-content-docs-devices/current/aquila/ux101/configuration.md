@@ -82,7 +82,7 @@ Si dispone de una lista de comandos del fabricante de Aquila o de su proveedor, 
 - Puerto 8888
 - Transporte UDP o TCP
 
-Para comandos SMS o de consola que incluyan marcadores, conserve marcadores como {{apn}}, {{apnu}} o {{apnp}} y sustitúyalos por los valores de su operador de SIM al realizar la configuración.
+Para comandos SMS o de consola que incluyan marcadores, conserve marcadores como [apn], [apnu] o [apnp] y sustitúyalos por los valores de su operador de SIM al realizar la configuración.
 
 ## Notas de configuración
 

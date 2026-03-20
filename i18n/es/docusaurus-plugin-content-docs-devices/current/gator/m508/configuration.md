@@ -69,7 +69,7 @@ El M508 puede configurarse para enviar datos a Plaspy dirigiendo sus reportes al
 2. Ingrese el dominio del servidor Plaspy d.plaspy.com o la IP del servidor 54.85.159.138 en los ajustes de servidor del dispositivo.  
 3. Configure el puerto del dispositivo en 8888, que es el puerto que Plaspy utiliza para todos los dispositivos soportados.  
 4. Elija UDP o TCP como transporte si el dispositivo solicita selección de transporte durante la configuración.  
-5. Proporcione el APN y cualquier credencial que el dispositivo requiera, reemplazando marcadores como {{apn}} por el APN de su SIM.  
+5. Proporcione el APN y cualquier credencial que el dispositivo requiera, reemplazando marcadores como [apn] por el APN de su SIM.  
 6. Aplique o guarde la configuración y envíe los comandos SMS si está usando un flujo de configuración por SMS.  
 7. Reinicie el dispositivo si el fabricante lo requiere para aplicar los nuevos ajustes.  
 8. Valide que el dispositivo reporte a Plaspy confirmando que aparece en su cuenta de Plaspy y que envía actualizaciones de ubicación.
@@ -80,18 +80,18 @@ El ejemplo del fabricante del Gator M508 usa comandos SMS para establecer el ser
 
 1) Plantilla cuando se requiere usuario y contraseña del APN
 ```
-SS,*{{apn}}*,*{{apnu}}*,*{{apnp}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 2) Plantilla cuando solo se requiere el APN
 ```
-S,*{{apn}}*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
 ```
 
 Notas sobre marcadores
-- {{apn}} — nombre del APN de su tarjeta SIM.  
-- {{apnu}} — usuario del APN si su operador lo requiere.  
-- {{apnp}} — contraseña del APN si su operador lo requiere.  
+- [apn] — nombre del APN de su tarjeta SIM.  
+- [apnu] — usuario del APN si su operador lo requiere.  
+- [apnp] — contraseña del APN si su operador lo requiere.  
 - {{DeviceID}} — identificador del rastreador, comúnmente el IMEI.  
 - {{phoneNumberUser}} — número de teléfono que se asociará para alertas o SMS de administrador.  
 - 123456 — contraseña de dispositivo de ejemplo mostrada en la plantilla del fabricante. Reemplace por la contraseña en uso si es distinta.

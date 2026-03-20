@@ -73,7 +73,7 @@ The MVT-600 is configured to report location and event data to the shared Plaspy
 
 ## Example Configuration Commands
 
-The public Meitrack MVT-600 configuration example below uses SMS commands. The sample setup assumes the device password is 0000, which is the factory default in this public example. Replace {{apn}}, {{apnu}}, and {{apnp}} with the SIM card APN, APN username, and APN password as required by your operator. Commands should be sent as separate SMS messages in the order shown when order matters.
+The public Meitrack MVT-600 configuration example below uses SMS commands. The sample setup assumes the device password is 0000, which is the factory default in this public example. Replace [apn], [apnu], and [apnp] with the SIM card APN, APN username, and APN password as required by your operator. Commands should be sent as separate SMS messages in the order shown when order matters.
 
 1. Optional initial factory reset or restore to factory settings (use only when needed):
 ```
@@ -82,9 +82,9 @@ The public Meitrack MVT-600 configuration example below uses SMS commands. The s
 
 2. Set the GPRS server to Plaspy. This example uses the Plaspy server IP and port and includes an APN placeholder. If your device accepts a domain name instead of IP, you may use d.plaspy.com in place of the IP.
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-- Explanation: {{apn}} is your mobile data APN. {{apnu}} and {{apnp}} are APN username and password placeholders and should be omitted if not required by the network operator.
+- Explanation: [apn] is your mobile data APN. [apnu] and [apnp] are APN username and password placeholders and should be omitted if not required by the network operator.
 
 3. Set the time zone to UTC 0:
 ```

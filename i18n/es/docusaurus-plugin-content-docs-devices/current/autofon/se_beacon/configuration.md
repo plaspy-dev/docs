@@ -76,7 +76,7 @@ El SE+ Beacon envía posiciones GNSS y telemetría de eventos por GPRS al endpoi
 
 El método de configuración del SE+ Beacon y los comandos exactos dependen del firmware de AutoFon y de la herramienta del proveedor utilizada. Debido a que los comandos del fabricante pueden variar, consulte el manual de configuración de AutoFon para la sintaxis y ejemplos específicos según su firmware. Los caminos de configuración típicos incluyen la utilidad de configuración del dispositivo, comandos SMS o una herramienta de configuración serial.
 
-Si dispone de comandos SMS proporcionados por el fabricante o de un script de configuración de AutoFon, siga el orden recomendado por el manual: establecer APN, configurar el dominio o IP del servidor, ajustar el puerto 8888, seleccionar el transporte si es necesario, guardar los ajustes y luego reiniciar el dispositivo. Conserve marcadores como {{apn}} o {{apnu}} si aparecen en los ejemplos del fabricante y reemplácelos con los valores de su red según las instrucciones de AutoFon.
+Si dispone de comandos SMS proporcionados por el fabricante o de un script de configuración de AutoFon, siga el orden recomendado por el manual: establecer APN, configurar el dominio o IP del servidor, ajustar el puerto 8888, seleccionar el transporte si es necesario, guardar los ajustes y luego reiniciar el dispositivo. Conserve marcadores como [apn] o [apnu] si aparecen en los ejemplos del fabricante y reemplácelos con los valores de su red según las instrucciones de AutoFon.
 
 ## Notas de configuración
 

@@ -80,21 +80,21 @@ The AT210 model provides a public SMS command set to configure APN and server se
 
 1. Set the operator APN
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
-Replace {{apn}} with your mobile operator APN name.
+Replace [apn] with your mobile operator APN name.
 
 2. Set the APN username (optional)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
-Replace {{apnu}} with the APN username if your SIM operator requires it. This command is optional.
+Replace [apnu] with the APN username if your SIM operator requires it. This command is optional.
 
 3. Set the APN password (optional)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
-Replace {{apnp}} with the APN password if required. This command is optional.
+Replace [apnp] with the APN password if required. This command is optional.
 
 4. Set the GPRS server to Plaspy by IP
 ```text

@@ -78,32 +78,32 @@ When configured to use Plaspy, the JT705C sends its telemetry and event messages
 The JT705C supports SMS-based configuration. The public handset commands below are provided in the order indicated by Jointech model configuration examples. Replace placeholders with your device-specific values.
 
 - Replace {{trackerID}} with the device's ID (IMEI or configured tracker identifier).
-- Replace {{apn}} with your mobile operator APN.
-- If your APN requires authentication, replace {{apnu}} and {{apnp}} with the APN username and password. The APN username and password command is optional when not required by the operator.
+- Replace [apn] with your mobile operator APN.
+- If your APN requires authentication, replace [apnu] and [apnp] with the APN username and password. The APN username and password command is optional when not required by the operator.
 
 1) Set the GPRS server and APN (send this SMS to the device):
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 You can also use the domain form where supported by the device (replace IP with domain if the unit resolves domains):
 
 ```
-({{trackerID}},2,S02,129,1,d.plaspy.com,8888,{{apn}})
+({{trackerID}},2,S02,129,1,d.plaspy.com,8888,[apn])
 ```
 
 2) Optional: Set APN user and password (send only if your APN requires credentials):
 
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notes on placeholders:
 - {{trackerID}} — the device's ID or IMEI used by Jointech commands.
-- {{apn}} — the operator APN string required for GPRS/data.
-- {{apnu}} — APN username if required by the operator.
-- {{apnp}} — APN password if required by the operator.
+- [apn] — the operator APN string required for GPRS/data.
+- [apnu] — APN username if required by the operator.
+- [apnp] — APN password if required by the operator.
 
 If your installation uses a Jointech configuration tool instead of SMS, apply the equivalent server, port, and APN values in that tool following the same order.
 

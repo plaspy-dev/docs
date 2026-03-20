@@ -90,10 +90,10 @@ Full script (preserve order when loading):
 >SRT;CONFIG<
 >SXADP**U<
 #configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 #The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 #A Destination Address holding the server destination
@@ -117,11 +117,11 @@ Key command excerpts and brief explanations:
 
 - Set APN values (placeholders must be replaced with your network APN and optional username/password):
 ```
->SRFA{{apn}}<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFA[apn]<
+>SRFL[apnu]<
+>SRFP[apnp]<
 ```
-Explanation: {{apn}} is the mobile network APN. {{apnu}} and {{apnp}} are optional APN username and password placeholders if required by your carrier.
+Explanation: [apn] is the mobile network APN. [apnu] and [apnp] are optional APN username and password placeholders if required by your carrier.
 
 - Point the device to Plaspy server and port:
 ```
@@ -149,7 +149,7 @@ If you are unsure about any command or placeholder, consult the official Syrus D
 - Firmware and hardware revisions may change available SB commands and their syntax; always confirm command compatibility with the device firmware version you are running.
 - Use Syrus Desk or the official DCT provisioning tool to load .tmf scripts for batch configuration and consistent deployment.
 - Choose UDP or TCP based on installer preference and network characteristics; Plaspy accepts either transport on port 8888 and will detect the protocol automatically.
-- Replace APN placeholders {{apn}}, {{apnu}}, and {{apnp}} with the correct values for your cellular carrier before loading the script.
+- Replace APN placeholders [apn], [apnu], and [apnp] with the correct values for your cellular carrier before loading the script.
 - The "delete previous configuration" commands are useful for fresh deployments or re-provisioning but are optional if you are updating an existing configuration.
 
 ## Why Use Plaspy with This Configuration

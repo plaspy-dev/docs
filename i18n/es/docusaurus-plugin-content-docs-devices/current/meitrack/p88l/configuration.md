@@ -46,7 +46,7 @@ Esta configuración prepara el P88L para enviar datos de ubicación y eventos a 
 
 - Un dispositivo P88L cargado con una tarjeta SIM activa que soporte datos y SMS para la configuración y el reporte.
 - Acceso al método de configuración Meitrack que vaya a utilizar, por ejemplo comandos SMS, la aplicación del fabricante o la herramienta del proveedor.
-- Conocimiento del APN de la SIM y, si aplica, del usuario y contraseña del APN; en los comandos a continuación aparecen como {{apn}}, {{apnu}} y {{apnp}}.
+- Conocimiento del APN de la SIM y, si aplica, del usuario y contraseña del APN; en los comandos a continuación aparecen como [apn], [apnu] y [apnp].
 - La contraseña del dispositivo para los comandos SMS si está configurada; los ejemplos públicos usan la contraseña por defecto 0000 según la documentación del fabricante.
 - Un lugar seguro para probar la conectividad donde el rastreador pueda obtener fijaciones GNSS y establecer una sesión de datos móviles para validar el funcionamiento.
 
@@ -82,20 +82,20 @@ El P88L puede configurarse enviando comandos SMS desde un número autorizado. Lo
 
 2. Establecer el servidor GPRS y el APN para Plaspy
 ```sms
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 - Alternativa usando el dominio del servidor:
 ```sms
-0000,A21,2,d.plaspy.com,8888,{{apn}}
+0000,A21,2,d.plaspy.com,8888,[apn]
 ```
 - Si su operador requiere usuario y contraseña de APN inclúyalos como campos adicionales separados por comas:
 ```sms
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 - Explicación de los marcadores:
-  - {{apn}} es el APN de su proveedor de SIM
-  - {{apnu}} es el usuario del APN si es requerido
-  - {{apnp}} es la contraseña del APN si es requerida
+  - [apn] es el APN de su proveedor de SIM
+  - [apnu] es el usuario del APN si es requerido
+  - [apnp] es la contraseña del APN si es requerida
 
 3. Ajustar la zona horaria a UTC 0
 ```sms

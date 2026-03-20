@@ -89,11 +89,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 ```
 3. Configurar el APN del operador
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} es el APN del operador móvil
-- {{apnu}} es el usuario del APN si lo requiere el operador
-- {{apnp}} es la contraseña del APN si lo requiere el operador
+- [apn] es el APN del operador móvil
+- [apnu] es el usuario del APN si lo requiere el operador
+- [apnp] es la contraseña del APN si lo requiere el operador
 
 4. Establecer el servidor GPRS a Plaspy (se proveen dominio e IP, puerto incluido)
 ```

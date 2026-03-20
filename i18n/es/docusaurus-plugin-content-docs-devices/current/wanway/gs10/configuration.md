@@ -72,13 +72,13 @@ El GS10 se configura para reportar ubicación y estado del dispositivo al endpoi
 
 ## Ejemplos de comandos de configuración
 
-El WanWay GS10 admite configuración por SMS. Envíe estos comandos como mensajes de texto al número del dispositivo en el orden indicado cuando corresponda. Conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por su APN, usuario y contraseña del operador si el proveedor los requiere.
+El WanWay GS10 admite configuración por SMS. Envíe estos comandos como mensajes de texto al número del dispositivo en el orden indicado cuando corresponda. Conserve los marcadores de posición [apn], [apnu] y [apnp] y sustitúyalos por su APN, usuario y contraseña del operador si el proveedor los requiere.
 
 1. Configure el APN del operador
 ```sms
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-- Reemplace {{apn}} por el APN de su operador. Si el APN requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} como se muestra. La variante con usuario y contraseña es opcional según los requerimientos del operador.
+- Reemplace [apn] por el APN de su operador. Si el APN requiere usuario y contraseña, incluya [apnu] y [apnp] como se muestra. La variante con usuario y contraseña es opcional según los requerimientos del operador.
 
 2. Configure el servidor GPRS apuntando a Plaspy
 ```sms
@@ -116,7 +116,7 @@ Nota: Envíe los comandos exactamente como lo requiera el firmware del GS10. Man
 - El GS10 admite configuración por SMS como se muestra, pero los instaladores pueden preferir las herramientas de WanWay cuando estén disponibles.
 - Elija UDP o TCP según la preferencia del instalador o los requisitos del sitio; Plaspy aceptará conexiones en el puerto 8888 y detectará automáticamente el protocolo utilizado.
 - Plaspy utiliza el mismo puerto para todos los dispositivos compatibles, lo que simplifica la configuración del servidor.
-- Si los comandos incluyen marcadores de posición como {{apn}}, {{apnu}} o {{apnp}}, sustitúyalos por los valores específicos del operador; no deje marcadores de posición en dispositivos en producción.
+- Si los comandos incluyen marcadores de posición como [apn], [apnu] o [apnp], sustitúyalos por los valores específicos del operador; no deje marcadores de posición en dispositivos en producción.
 
 ## Por qué usar Plaspy con esta configuración
 

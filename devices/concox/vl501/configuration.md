@@ -86,9 +86,9 @@ GMT,E,0#
 ```
 
 - Set the operator APN
-- Replace {{apn}} with your SIM provider APN. If your operator requires username or password, include {{apnu}} and {{apnp}} as needed.
+- Replace [apn] with your SIM provider APN. If your operator requires username or password, include [apnu] and [apnp] as needed.
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to Plaspy using the domain and port
@@ -121,7 +121,7 @@ GPRSSET#
 ```
 
 Notes on placeholders and alternatives:
-- {{apn}} is a placeholder for your SIM operator APN. If your operator requires a username or password for the APN, include the placeholders {{apnu}} and {{apnp}} as provided.
+- [apn] is a placeholder for your SIM operator APN. If your operator requires a username or password for the APN, include the placeholders [apnu] and [apnp] as provided.
 - The SERVER command examples show two ways to set the endpoint: one with the Plaspy domain and one with the Plaspy IP address. Use the form your provisioning policy requires.
 - The FACTORY# command resets device settings to factory defaults and should be used only when necessary during an initial setup or troubleshooting session.
 
@@ -130,7 +130,7 @@ Notes on placeholders and alternatives:
 - SMS based configuration is a common and manufacturer documented method for the VL501; use the official Concox command reference for any alternate or extended commands
 - Firmware variations or hardware revisions can change available commands and behavior; confirm commands against the device firmware version
 - Choose TCP or UDP transport per installation requirements; Plaspy accepts both and will detect protocol automatically at connection time
-- Preserve placeholders such as {{apn}} when composing SMS commands and replace them with your specific APN details before sending
+- Preserve placeholders such as [apn] when composing SMS commands and replace them with your specific APN details before sending
 - All devices in Plaspy use the same port and Plaspy will automatically detect the device protocol when the tracker connects on port 8888
 
 ## Why Use Plaspy with This Configuration

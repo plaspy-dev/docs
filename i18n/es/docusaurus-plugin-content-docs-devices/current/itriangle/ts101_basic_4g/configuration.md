@@ -79,7 +79,7 @@ El TS101 Basic 4G envía posiciones GNSS y telemetría mediante LTE Cat 1 al end
 
 El TS101 Basic 4G soporta múltiples canales de configuración y los comandos o pasos exactos dependen de la herramienta de iTriangle, el firmware y el método de aprovisionamiento elegido. Dado que las utilidades del fabricante y los conjuntos de comandos SMS varían según la revisión de firmware y la variante regional, la sintaxis precisa de los comandos la proporciona la documentación oficial de iTriangle. Los canales típicos de configuración incluyen herramientas USB, apps de aprovisionamiento por BLE y comandos SMS o cargas de configuración por TCP.
 
-Si usa comandos SMS o una utilidad de línea de comandos del fabricante, consulte la documentación oficial de iTriangle para la sintaxis exacta. Los marcadores de posición como valores APN pueden aparecer en las guías del fabricante como {{apn}} {{apnu}} o {{apnp}} y deben reemplazarse por los valores de su operador celular.
+Si usa comandos SMS o una utilidad de línea de comandos del fabricante, consulte la documentación oficial de iTriangle para la sintaxis exacta. Los marcadores de posición como valores APN pueden aparecer en las guías del fabricante como [apn] [apnu] o [apnp] y deben reemplazarse por los valores de su operador celular.
 
 ## Notas de configuración
 

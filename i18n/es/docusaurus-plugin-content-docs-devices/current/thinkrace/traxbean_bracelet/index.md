@@ -1,6 +1,7 @@
 ---
 slug: /thinkrace/traxbean_bracelet
 id: traxbean_bracelet
+sidebar_key: thinkractraxbean_bracelet_index_traxbean_bracelet
 sidebar_label: Traxbean Bracelet
 title: ThinkRace - Traxbean Bracelet
 sidebar_class_name: menu_item_tracker

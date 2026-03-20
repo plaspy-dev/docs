@@ -76,7 +76,7 @@ The T8803 PRO uses GPRS to send location and status reports to the Plaspy server
 
 ## Example Configuration Commands
 
-The T8803 PRO can be configured by SMS using the device password and the following public commands. The example uses the default device password 0000. Replace {{apn}}, {{apnu}}, and {{apnp}} with your SIM operator APN, APN username, and APN password as needed.
+The T8803 PRO can be configured by SMS using the device password and the following public commands. The example uses the default device password 0000. Replace [apn], [apnu], and [apnp] with your SIM operator APN, APN username, and APN password as needed.
 
 1. Set the time zone to UTC 0
 ```text
@@ -85,11 +85,11 @@ GMT,0000,0#
 
 2. Set the operator APN and optional credentials
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-- {{apn}} is the APN name for your mobile operator
-- {{apnu}} is the APN username when required by the operator
-- {{apnp}} is the APN password when required by the operator
+- [apn] is the APN name for your mobile operator
+- [apnu] is the APN username when required by the operator
+- [apnp] is the APN password when required by the operator
 
 3. Set the GPRS server to Plaspy using the server IP and port
 ```text

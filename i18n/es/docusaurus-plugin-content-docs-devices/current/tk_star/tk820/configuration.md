@@ -85,19 +85,19 @@ El TK820 soporta configuración vía SMS. Los comandos SMS públicos abajo usan 
 begin123456
 ```
 
-- Configurar el APN del operador (reemplace {{apn}} por el APN del operador móvil):
+- Configurar el APN del operador (reemplace [apn] por el APN del operador móvil):
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario APN (si su operador requiere usuario; reemplace {{apnu}}):
+- Establecer el usuario APN (si su operador requiere usuario; reemplace [apnu]):
 ```sms
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña APN (si su operador requiere contraseña; reemplace {{apnp}}):
+- Establecer la contraseña APN (si su operador requiere contraseña; reemplace [apnp]):
 ```sms
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS hacia Plaspy (este ejemplo usa la IP pública y el puerto de Plaspy):
@@ -116,8 +116,8 @@ gprs123456
 ```
 
 Notas sobre marcadores y contraseña:
-- {{apn}} es la cadena APN proporcionada por el operador móvil.
-- {{apnu}} es el usuario APN si se requiere; {{apnp}} es la contraseña APN si se requiere.
+- [apn] es la cadena APN proporcionada por el operador móvil.
+- [apnu] es el usuario APN si se requiere; [apnp] es la contraseña APN si se requiere.
 - 123456 es la contraseña predeterminada del dispositivo mostrada en los comandos públicos de TK-Star; reemplácela si la contraseña del dispositivo fue cambiada.
 
 Dependiendo del firmware y de las variantes regionales, el TK820 puede aceptar la configuración del servidor mediante el dominio d.plaspy.com en lugar de la IP numérica. Use la herramienta del fabricante o la sintaxis SMS soportada por su firmware para establecer el dominio si está disponible.

@@ -80,13 +80,13 @@ El GH5200 admite un comando público de parámetros que establece valores de APN
 - Example parameter command with APN placeholders
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Notas sobre marcadores de posición y campos
-  - {{apn}} es el nombre del APN del operador celular.  
-  - {{apnu}} es el nombre de usuario del APN si su operador lo requiere.  
-  - {{apnp}} es la contraseña del APN si su operador la requiere.  
+  - [apn] es el nombre del APN del operador celular.  
+  - [apnu] es el nombre de usuario del APN si su operador lo requiere.  
+  - [apnp] es la contraseña del APN si su operador la requiere.  
   - El comando establece el parámetro 2004 en el dominio del servidor Plaspy d.plaspy.com y 2005 en el puerto 8888.  
   - El parámetro 2006 es una opción numérica presente en el comando de ejemplo; consulte la documentación de Teltonika para saber qué valores corresponden a UDP, TCP u otras opciones de transporte en su firmware.
 

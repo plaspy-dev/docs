@@ -1,6 +1,7 @@
 ---
 slug: /eelink/gpt60
 id: gpt60
+sidebar_key: eelingpt60_index_gpt60
 sidebar_label: GPT60
 title: EElink - GPT60
 sidebar_class_name: menu_item_tracker

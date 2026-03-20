@@ -48,7 +48,7 @@ Todos los dispositivos en Plaspy usan el mismo puerto y Plaspy detectará el pro
 
 - Un WarriorX 100 encendido y accesible, con batería o alimentación externa disponible.
 - Una tarjeta SIM válida con capacidad de datos y SMS insertada y activa para la configuración de APN y SMS.
-- Credenciales APN del operador móvil, incluyendo marcadores como {{apn}}, {{apnu}} y {{apnp}} si su operador las requiere.
+- Credenciales APN del operador móvil, incluyendo marcadores como [apn], [apnu] y [apnp] si su operador las requiere.
 - Acceso a un teléfono que pueda enviar SMS al dispositivo o acceso a la herramienta oficial de configuración del fabricante si está disponible.
 - La contraseña del dispositivo cuando sea requerida por los comandos (el ejemplo utiliza la contraseña por defecto 0000).
 - Documentación o ficha técnica del fabricante para instrucciones específicas de firmware y la sintaxis de comandos.
@@ -84,9 +84,9 @@ GMT,0000,0#
 
 2. Establecer el APN del operador y las credenciales
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-- Explicación: reemplace {{apn}} con el APN de su operador. Si el operador requiere usuario o contraseña, introdúzcalos en {{apnu}} y {{apnp}} o déjelos en blanco según corresponda.
+- Explicación: reemplace [apn] con el APN de su operador. Si el operador requiere usuario o contraseña, introdúzcalos en [apnu] y [apnp] o déjelos en blanco según corresponda.
 
 3. Configurar el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy
 ```

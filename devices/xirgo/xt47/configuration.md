@@ -76,11 +76,11 @@ The XT47 supports SMS based configuration. The public, documented SMS commands f
 
 1. Set the operator APN (replace placeholders with your operator values)
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-- {{apnu}} is the APN username if required by your SIM
-- {{apnp}} is the APN password if required by your SIM
-- {{apn}} is the APN name for your mobile operator
+- [apnu] is the APN username if required by your SIM
+- [apnp] is the APN password if required by your SIM
+- [apn] is the APN name for your mobile operator
 
 2. Set the GPRS server to Plaspy (port and server IP are explicit in the command)
 ```text
@@ -97,7 +97,7 @@ Note: Send the commands in the order shown when following a manufacturer SMS pro
 - Firmware versions and hardware revisions can alter command formats and available options; confirm the exact syntax with Xirgo for your firmware version.
 - Plaspy uses the same port 8888 for all supported devices and will automatically detect the tracker protocol, so consistent use of the Plaspy port simplifies device onboarding.
 - Choose UDP or TCP based on installer preference and network conditions; Plaspy accepts both but network behavior can differ by transport.
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when composing SMS commands and replace them with your operator specific values.
+- Preserve placeholders such as [apn], [apnu], and [apnp] when composing SMS commands and replace them with your operator specific values.
 
 ## Why Use Plaspy with This Configuration
 

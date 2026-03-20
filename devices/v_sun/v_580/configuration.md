@@ -73,7 +73,7 @@ The V-580 is configured to report location and status to the shared Plaspy serve
 
 ## Example Configuration Commands
 
-The V-580 can be configured by sending SMS commands to the device. The sample commands below are taken from public device configuration content. The device default password used in these examples is 0000. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your carrier APN, APN username, and APN password as required.
+The V-580 can be configured by sending SMS commands to the device. The sample commands below are taken from public device configuration content. The device default password used in these examples is 0000. Replace placeholders such as [apn], [apnu], and [apnp] with your carrier APN, APN username, and APN password as required.
 
 - Optional factory reset before initial setup
   ```
@@ -82,9 +82,9 @@ The V-580 can be configured by sending SMS commands to the device. The sample co
 
 - Set the operator APN
   ```
-  #803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+  #803#0000#[apn]#[apnu]#[apnp]##
   ```
-  - Explanation: Replace {{apn}} with your carrier APN. Include {{apnu}} and {{apnp}} only if your operator requires an APN username or password.
+  - Explanation: Replace [apn] with your carrier APN. Include [apnu] and [apnp] only if your operator requires an APN username or password.
 
 - Set the GPRS server to the Plaspy server IP and port
   ```

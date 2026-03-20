@@ -79,17 +79,17 @@ The following LMU-900 commands are the public SMS commands commonly used to set 
 
 - Set the operator APN
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Set the APN username (optional, only if your operator requires it)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Set the APN password (optional, only if your operator requires it)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy by IP
@@ -113,9 +113,9 @@ The following LMU-900 commands are the public SMS commands commonly used to set 
 ```
 
 Notes on placeholders
-- {{apn}} is the operator APN string supplied by the mobile network provider.
-- {{apnu}} is the APN username where required by your operator.
-- {{apnp}} is the APN password where required by your operator.
+- [apn] is the operator APN string supplied by the mobile network provider.
+- [apnu] is the APN username where required by your operator.
+- [apnp] is the APN password where required by your operator.
 
 Send these commands by SMS to the device phone number. The device returns confirmation messages; use the !RO command to review applied settings. The reboot command is commonly required to activate new GPRS parameters.
 

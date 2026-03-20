@@ -74,7 +74,7 @@ Cuando se configura para reportar a Plaspy, el GL505 envía mensajes periódicos
 
 ## Comandos de configuración de ejemplo
 
-Los comandos públicos de configuración a continuación se proporcionan como ejemplos de SMS extraídos de contenido público de configuración. Estos comandos usan la contraseña de ejemplo queclink mostrada en el contenido público. Reemplace los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} por el APN, el usuario APN y la contraseña APN de su operador antes de enviar. Envíe estos comandos como mensajes SMS al número del dispositivo según lo requiera el fabricante.
+Los comandos públicos de configuración a continuación se proporcionan como ejemplos de SMS extraídos de contenido público de configuración. Estos comandos usan la contraseña de ejemplo queclink mostrada en el contenido público. Reemplace los marcadores de posición como [apn], [apnu] y [apnp] por el APN, el usuario APN y la contraseña APN de su operador antes de enviar. Envíe estos comandos como mensajes SMS al número del dispositivo según lo requiera el fabricante.
 
 1. Restauración de fábrica inicial opcional
 ```
@@ -88,11 +88,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configurar APN del operador
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} es el APN de su operador de red
-- {{apnu}} es el nombre de usuario del APN si se requiere
-- {{apnp}} es la contraseña del APN si se requiere
+- [apn] es el APN de su operador de red
+- [apnu] es el nombre de usuario del APN si se requiere
+- [apnp] es la contraseña del APN si se requiere
 
 4. Establecer el servidor GPRS a Plaspy (se indican dominio e IP)
 ```

@@ -49,7 +49,7 @@ Use the following public Plaspy settings when configuring the LT-10:
 - A powered LT-10 device with access to the manufacturer configuration method such as the iOS or Android app or the SMS configuration channel used by the device.
 - The LT-10 IMEI or device identifier available to include in commands or app registration.
 - If using SMS configuration, a SIM card and SMS capability on the device or an SMS gateway as required by the manufacturer command flow.
-- APN placeholders or network credentials ready when the configuration command requires them (kept as {{apn}}, {{apnu}}, and {{apnp}} in example commands).
+- APN placeholders or network credentials ready when the configuration command requires them (kept as [apn], [apnu], and [apnp] in example commands).
 - Understanding that the LT-10 uses LoRaWAN for standard tracking and that configuration methods and available transport options can depend on firmware and regional hardware.
 - A Plaspy account or access credentials so you can confirm the device appears and reports in the platform following configuration.
 
@@ -82,12 +82,12 @@ TSPRXAB27GHKLMnaicz*U!
 
 Setup command example
 - Replace {{imei}} with the device IMEI
-- Replace {{apn}}, {{apnu}}, {{apnp}} with your APN, APN username, and APN password when required by the device network configuration
+- Replace [apn], [apnu], [apnp] with your APN, APN username, and APN password when required by the device network configuration
 - {{checksum}} is the two character hexadecimal checksum calculated over the command characters before the asterisk as described below
 
 Setup command (send by SMS)
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Reboot command (optional, use if device requires a restart to apply settings)
@@ -101,8 +101,8 @@ Checksum calculation
 
 Notes on placeholders
 - {{imei}}: Device IMEI number required by the command format.
-- {{apn}}: APN string for GPRS data if the device uses cellular data.
-- {{apnu}} and {{apnp}}: APN username and APN password when required.
+- [apn]: APN string for GPRS data if the device uses cellular data.
+- [apnu] and [apnp]: APN username and APN password when required.
 - Keep the command order and punctuation exactly as shown when sending the SMS commands.
 
 ## Configuration Notes

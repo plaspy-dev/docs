@@ -76,7 +76,7 @@ The SP8824 transmits location and motion information over its cellular link to t
 
 The SP8824 configuration method and exact commands depend on SkyPatrol tools, firmware, and provisioning processes. Some manufacturers provide SMS commands, serial tools, or PC utilities to set server address and port. Because methods vary by firmware and vendor toolchain, consult the SkyPatrol configuration guide for the SP8824 for the precise commands and syntax required to set the server to d.plaspy.com or 54.85.159.138 and the port to 8888.
 
-If you have specific public commands from SkyPatrol for the SP8824, include them here using the manufacturer provided syntax. Preserve placeholders such as {{apn}} or similar when those are part of the official command set and follow SkyPatrol guidance for APN and credential values.
+If you have specific public commands from SkyPatrol for the SP8824, include them here using the manufacturer provided syntax. Preserve placeholders such as [apn] or similar when those are part of the official command set and follow SkyPatrol guidance for APN and credential values.
 
 ## Configuration Notes
 

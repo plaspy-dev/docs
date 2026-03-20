@@ -46,7 +46,7 @@ El objetivo de esta configuración es preparar el SolarGuardX 120 para enviar te
 
 - Una unidad SolarGuardX 120 alimentada con acceso a su método de configuración vía SMS o del fabricante
 - Una tarjeta SIM con datos y SMS habilitados y los valores APN correctos para su operador móvil
-- Los valores APN, usuario APN y contraseña APN de su proveedor de red móvil (los marcadores se muestran como {{apn}}, {{apnu}}, {{apnp}})
+- Los valores APN, usuario APN y contraseña APN de su proveedor de red móvil (los marcadores se muestran como [apn], [apnu], [apnp])
 - Acceso a la documentación de instalador o integrador de TopFly para comandos específicos del dispositivo vía SMS o herramientas del proveedor
 - Una cuenta en Plaspy o acceso a la plataforma Plaspy donde pueda confirmar que el dispositivo reporta correctamente
 
@@ -81,9 +81,9 @@ GMT,0000,0#
 
 - Configurar el APN de la red móvil y el usuario y contraseña APN opcionales
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-Explicación: reemplace {{apn}} con el APN de su operador. Si su APN requiere usuario o contraseña complete {{apnu}} y {{apnp}} respectivamente, de lo contrario deje esos marcadores vacíos según la sintaxis SMS que requiera TopFly.
+Explicación: reemplace [apn] con el APN de su operador. Si su APN requiere usuario o contraseña complete [apnu] y [apnp] respectivamente, de lo contrario deje esos marcadores vacíos según la sintaxis SMS que requiera TopFly.
 
 - Configurar el servidor GPRS usando la IP y puerto de Plaspy
 ```
@@ -103,7 +103,7 @@ Explicación: este comando configura el temporizador de reportes del dispositivo
 - Las versiones de firmware y la sintaxis de las herramientas del fabricante varían; los comandos y el orden de los campos pueden diferir según la revisión o el firmware específico del mercado
 - Aquí se muestra una configuración basada en SMS; algunas instalaciones pueden usar USB o una herramienta del proveedor cuando SMS no esté disponible
 - Elija UDP o TCP según la preferencia del instalador y la fiabilidad de la red; Plaspy acepta ambos transportes en el puerto 8888 y detecta el protocolo automáticamente
-- Verifique siempre los valores del APN y reemplace los marcadores {{apn}}, {{apnu}} y {{apnp}} con las credenciales específicas del operador
+- Verifique siempre los valores del APN y reemplace los marcadores [apn], [apnu] y [apnp] con las credenciales específicas del operador
 
 ## Por qué usar Plaspy con esta configuración
 

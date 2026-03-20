@@ -1,6 +1,7 @@
 ---
 slug: /appello/anywhere
 id: anywhere
+sidebar_key: appellanywhere_index_anywhere
 sidebar_label: Anywhere
 title: Appello - Anywhere
 sidebar_class_name: menu_item_tracker

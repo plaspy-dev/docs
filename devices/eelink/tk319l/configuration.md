@@ -86,13 +86,13 @@ GMT,E,0#
 
 - Set the operator APN
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If your operator requires APN username or APN password, use the extended form:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: {{apn}} is the operator APN string. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+Note: [apn] is the operator APN string. [apnu] and [apnp] are optional APN username and password placeholders.
 
 - Set the GPRS server using the domain (recommended for dynamic IP setups)
 ```

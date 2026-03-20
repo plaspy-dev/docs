@@ -72,7 +72,7 @@ El CCTR-804 envía posición y telemetría a través de la red celular usando GP
 
 ## Ejemplos de comandos de configuración
 
-El CCTR-804 soporta configuración vía SMS. Los siguientes comandos públicos muestran una secuencia típica. La configuración de ejemplo utiliza la contraseña por defecto del dispositivo 123456 indicada en los comandos públicos. Reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador.
+El CCTR-804 soporta configuración vía SMS. Los siguientes comandos públicos muestran una secuencia típica. La configuración de ejemplo utiliza la contraseña por defecto del dispositivo 123456 indicada en los comandos públicos. Reemplace marcadores como [apn], [apnu] y [apnp] por los valores de su operador.
 
 - Reset opcional a valores de fábrica (use solo si necesita restaurar a valores predeterminados):
 ```text
@@ -84,14 +84,14 @@ RESET*123456
 TIMEZONE*123456*+00
 ```
 
-- Configurar el APN del operador móvil (reemplace {{apn}} por el APN de su operador):
+- Configurar el APN del operador móvil (reemplace [apn] por el APN de su operador):
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
-- Configurar nombre de usuario y contraseña del APN si el operador los requiere (reemplace {{apnu}} y {{apnp}} por las credenciales):
+- Configurar nombre de usuario y contraseña del APN si el operador los requiere (reemplace [apnu] y [apnp] por las credenciales):
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto:
@@ -105,8 +105,8 @@ KEEPONLINE*123456
 ```
 
 Notas sobre los marcadores y alternativas:
-- {{apn}} es la cadena APN del operador.  
-- {{apnu}} y {{apnp}} son el usuario y la contraseña del APN cuando el operador los requiere.  
+- [apn] es la cadena APN del operador.  
+- [apnu] y [apnp] son el usuario y la contraseña del APN cuando el operador los requiere.  
 - El ejemplo usa la IP del servidor 54.85.159.138 y el puerto 8888 como se muestra en los comandos públicos. Algunas versiones de firmware aceptan un nombre de dominio en lugar de una IP; consulte la documentación de Carscop si prefiere usar d.plaspy.com.
 
 ## Notas de configuración

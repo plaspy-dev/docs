@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/g737
 id: g737
+sidebar_key: gosafg737_index_g737
 sidebar_label: G737
 title: Gosafe - G737
 sidebar_class_name: menu_item_tracker

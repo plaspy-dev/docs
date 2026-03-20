@@ -79,7 +79,7 @@ Siga estos pasos prácticos al integrar un CAREU U1 PLUS con Plaspy. Los menús 
 
 El CAREU U1 PLUS puede configurarse mediante las herramientas del fabricante, Bluetooth o interfaces SMS/comandos según el firmware. Los comandos públicos exactos varían por firmware y variante de modelo; la documentación y las herramientas del fabricante son las fuentes autorizadas.
 
-Si utiliza métodos SMS o comandos AT proporcionados por CAREU, siga la sintaxis de comandos indicada en la documentación oficial de CAREU. Dado que los comandos de configuración del U1 PLUS dependen del firmware y de las utilidades del proveedor, esta página no publica un conjunto genérico de comandos. Consulte las guías de CAREU para ejemplos de comandos y utilice marcadores de posición cuando sea necesario (por ejemplo, un marcador de APN como {{apn}} al configurar parámetros de datos móviles).
+Si utiliza métodos SMS o comandos AT proporcionados por CAREU, siga la sintaxis de comandos indicada en la documentación oficial de CAREU. Dado que los comandos de configuración del U1 PLUS dependen del firmware y de las utilidades del proveedor, esta página no publica un conjunto genérico de comandos. Consulte las guías de CAREU para ejemplos de comandos y utilice marcadores de posición cuando sea necesario (por ejemplo, un marcador de APN como [apn] al configurar parámetros de datos móviles).
 
 ## Notas de configuración
 

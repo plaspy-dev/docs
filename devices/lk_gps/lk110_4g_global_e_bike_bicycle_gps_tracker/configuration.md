@@ -85,7 +85,7 @@ If you have an LK-GPS command reference from the manufacturer, use the commands 
 - transport to UDP or TCP
 - any required APN or SIM related settings per carrier
 
-Always preserve placeholders such as {{apn}} or similar exactly as provided by manufacturer examples when following their command templates.
+Always preserve placeholders such as [apn] or similar exactly as provided by manufacturer examples when following their command templates.
 
 ## Configuration Notes
 

@@ -80,10 +80,10 @@ Cuando se configura para Plaspy, el TZ-AVL05 envía su ubicación y estado al pu
 
 El TZ-AVL05 puede configurarse enviando comandos SMS. Los siguientes comandos SMS públicos se proporcionan en el contenido de configuración del dispositivo y deben enviarse en el orden mostrado al realizar una configuración inicial. Reemplace los marcadores donde se indica.
 
-- Establecer el APN del operador. Reemplace {{apn}} por el APN de su operadora. Si su operador requiere usuario o contraseña del APN, incluya {{apnu}} y {{apnp}} como se muestra. apnu y apnp son opcionales y solo se necesitan si su APN requiere autenticación.
+- Establecer el APN del operador. Reemplace [apn] por el APN de su operadora. Si su operador requiere usuario o contraseña del APN, incluya [apnu] y [apnp] como se muestra. apnu y apnp son opcionales y solo se necesitan si su APN requiere autenticación.
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
 - Definir el intervalo de actualización de ubicación a 60 segundos (ejemplo). Ajuste el valor del intervalo según necesite.
@@ -105,9 +105,9 @@ El TZ-AVL05 puede configurarse enviando comandos SMS. Los siguientes comandos SM
 ```
 
 Notas sobre los marcadores
-- {{apn}} es la cadena APN del operador necesaria para datos.
-- {{apnu}} es el usuario APN y es opcional.
-- {{apnp}} es la contraseña APN y es opcional.
+- [apn] es la cadena APN del operador necesaria para datos.
+- [apnu] es el usuario APN y es opcional.
+- [apnp] es la contraseña APN y es opcional.
 - La contraseña numérica inicial 000000 en estos comandos es la contraseña de comandos del dispositivo usada en los ejemplos públicos. Confirme la contraseña por defecto con el fabricante y cámbiela si lo considera oportuno.
 
 ## Notas de configuración

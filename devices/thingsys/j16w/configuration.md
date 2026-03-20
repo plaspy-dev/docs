@@ -84,19 +84,19 @@ The following example commands are taken from published ThingSys J16W configurat
 FORMAT
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN):
+- Set the operator APN (replace [apn] with your carrier APN):
 ```
-apn123456 {{apn}}
-```
-
-- Set the APN username (replace {{apnu}} with your carrier APN username if required):
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-- Set the APN password (replace {{apnp}} with your carrier APN password if required):
+- Set the APN username (replace [apnu] with your carrier APN username if required):
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+- Set the APN password (replace [apnp] with your carrier APN password if required):
+```
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS/remote server to Plaspy using the server IP and port (this points the device to Plaspy on port 8888):
@@ -112,7 +112,7 @@ CXZT
 Notes on the commands above:
 - FORMAT is a factory reset command and should be used only during initial provisioning or when a reset is intentionally required.
 - The strings apn123456, apnuser123456, and apnpasswd123456 include the device password pattern used by the J16W SMS command set in published examples; keep the password component intact or replace 123456 if your device uses a different admin password.
-- Placeholders {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your mobile operator's APN, APN username, and APN password respectively.
+- Placeholders [apn], [apnu], and [apnp] must be replaced with your mobile operator's APN, APN username, and APN password respectively.
 - The server command uses the Plaspy server IP 54.85.159.138 and port 8888; alternatively you may configure d.plaspy.com if the device accepts a domain name.
 
 ## Configuration Notes

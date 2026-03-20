@@ -86,15 +86,15 @@ begin123456
 time zone123456 0
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} por el nombre APN de su SIM:
+- Configurar el APN del operador. Reemplace [apn] por el nombre APN de su SIM:
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Nota: {{apn}} es un marcador que representa la cadena APN de su operador.
+Nota: [apn] es un marcador que representa la cadena APN de su operador.
 
-- Establecer usuario y contraseña del APN si su operador los requiere. Reemplace {{apnu}} y {{apnp}} con el usuario y la contraseña del APN:
+- Establecer usuario y contraseña del APN si su operador los requiere. Reemplace [apnu] y [apnp] con el usuario y la contraseña del APN:
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 Nota: Mantenga los marcadores si su APN no tiene usuario o contraseña.
 

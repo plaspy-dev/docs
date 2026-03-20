@@ -84,19 +84,19 @@ Los siguientes comandos de ejemplo se extraen de la guía de configuración publ
 FORMAT
 ```
 
-- Configure el APN del operador (reemplace {{apn}} por el APN de su operador):
+- Configure el APN del operador (reemplace [apn] por el APN de su operador):
 ```
-apn123456 {{apn}}
-```
-
-- Configure el usuario del APN (reemplace {{apnu}} por el usuario APN de su operador si es necesario):
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-- Configure la contraseña del APN (reemplace {{apnp}} por la contraseña APN de su operador si es necesario):
+- Configure el usuario del APN (reemplace [apnu] por el usuario APN de su operador si es necesario):
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+- Configure la contraseña del APN (reemplace [apnp] por la contraseña APN de su operador si es necesario):
+```
+apnpasswd123456 [apnp]
 ```
 
 - Configure el servidor GPRS/remoto a Plaspy usando la IP del servidor y el puerto (esto apunta el dispositivo a Plaspy en el puerto 8888):
@@ -112,7 +112,7 @@ CXZT
 Notas sobre los comandos anteriores:
 - FORMAT es un comando de restablecimiento de fábrica y debe usarse solo durante la provisión inicial o cuando se requiera un reinicio intencional.
 - Las cadenas apn123456, apnuser123456 y apnpasswd123456 incluyen el patrón de contraseña del dispositivo utilizado por el conjunto de comandos SMS del J16W en ejemplos publicados; mantenga el componente de contraseña intacto o reemplace 123456 si su dispositivo usa otra contraseña administrativa.
-- Los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} deben sustituirse por el APN, el usuario APN y la contraseña APN de su operador móvil respectivamente.
+- Los marcadores de posición [apn], [apnu] y [apnp] deben sustituirse por el APN, el usuario APN y la contraseña APN de su operador móvil respectivamente.
 - El comando de servidor utiliza la IP del servidor Plaspy 54.85.159.138 y el puerto 8888; alternativamente puede configurar d.plaspy.com si el dispositivo acepta un nombre de dominio.
 
 ## Notas de configuración

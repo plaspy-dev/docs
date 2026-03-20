@@ -99,12 +99,12 @@ Explicación: Este comando cambia el formato de salida. Use el formato recomenda
 
 - Configurar el servidor GPRS hacia Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 Explicación: Establezca el perfil GPRS con los valores APN de su operador. Reemplace los marcadores de posición como sigue:
-- {{apn}} es el APN de datos móviles de su operador.
-- {{apnu}} es el nombre de usuario del APN si el operador lo requiere.
-- {{apnp}} es la contraseña del APN si el operador la requiere.
+- [apn] es el APN de datos móviles de su operador.
+- [apnu] es el nombre de usuario del APN si el operador lo requiere.
+- [apnp] es la contraseña del APN si el operador la requiere.
 Este comando apunta el AK7 a la IP del servidor Plaspy 54.85.159.138 en el puerto 8888. Plaspy también acepta d.plaspy.com y soporta transporte UDP o TCP; la plataforma detectará automáticamente el protocolo utilizado.
 
 - Consultar el estado del dispositivo
@@ -117,7 +117,7 @@ Explicación: Consulte el estado del dispositivo para verificar la configuració
 
 - Las diferencias de firmware pueden modificar los comandos disponibles y el orden de los parámetros. Siempre confirme la sintaxis de los comandos contra las notas de la versión de firmware del AK7 o la documentación de ATrack.
 - Elija UDP o TCP según las necesidades de la instalación; ambos transportes son compatibles con Plaspy en el puerto 8888 y la detección de protocolo es automática.
-- Preserve y configure correctamente los marcadores de APN {{apn}}, {{apnu}} y {{apnp}} al configurar GPRS para redes móviles.
+- Preserve y configure correctamente los marcadores de APN [apn], [apnu] y [apnp] al configurar GPRS para redes móviles.
 - Si utiliza SMS o la herramienta de configuración del proveedor en lugar de comandos AT directos, mapee los mismos parámetros de GPRS y reporte en los campos correspondientes de la herramienta.
 - Después de aplicar los ajustes, permita tiempo para que el dispositivo se conecte a la red celular y establezca la sesión de datos antes de validar la conectividad en Plaspy.
 

@@ -1,6 +1,7 @@
 ---
 slug: /winrich/tk207_obd
 id: tk207_obd
+sidebar_key: winrictk207_obd_index_tk207_obd
 sidebar_label: TK207 OBD
 title: Winrich - TK207 OBD
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /galileosky/galileosky_lite_v185
 id: galileosky_lite_v1.8.5
+sidebar_key: galileoskgalileosky_lite_v185_index_galileosky_lite_v1.8.5
 sidebar_label: GALILEOSKY Lite v1.8.5
 title: GalileoSky - GALILEOSKY Lite v1.8.5
 sidebar_class_name: menu_item_tracker

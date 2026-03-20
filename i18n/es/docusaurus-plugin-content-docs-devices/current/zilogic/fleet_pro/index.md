@@ -1,6 +1,7 @@
 ---
 slug: /zilogic/fleet_pro
 id: fleet_pro
+sidebar_key: zilogifleet_pro_index_fleet_pro
 sidebar_label: Fleet Pro
 title: Zilogic - Fleet Pro
 sidebar_class_name: menu_item_tracker

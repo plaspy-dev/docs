@@ -89,12 +89,12 @@ RESET
 
 - Establecer el APN y credenciales
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 Explicación: mantenga los marcadores de posición así:
-- {{apn}} = el APN de su operador móvil
-- {{apnu}} = nombre de usuario del APN si es requerido (omitir o dejar en blanco si no se requiere)
-- {{apnp}} = contraseña del APN si es requerida (omitir o dejar en blanco si no se requiere)
+- [apn] = el APN de su operador móvil
+- [apnu] = nombre de usuario del APN si es requerido (omitir o dejar en blanco si no se requiere)
+- [apnp] = contraseña del APN si es requerida (omitir o dejar en blanco si no se requiere)
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
 ```text

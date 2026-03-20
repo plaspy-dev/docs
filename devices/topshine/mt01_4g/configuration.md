@@ -83,13 +83,13 @@ The manufacturer provides SMS based configuration commands. The sample commands 
 ```
 W000000,990,099###
 ```
-- Set the device ID (use first 14 digits from the IMEI in this command). Replace <device_id_14> with the first 14 digits of the IMEI
+- Set the device ID (use first 14 digits from the IMEI in this command). Replace \<device_id_14> with the first 14 digits of the IMEI
 ```
 W000000,010,<device_id_14>
 ```
-- Set the operator APN. Replace {{apn}} with the operator APN. If required, include optional APN username and APN password as {{apnu}} and {{apnp}}
+- Set the operator APN. Replace [apn] with the operator APN. If required, include optional APN username and APN password as [apnu] and [apnp]
 ```
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
 - Set the GPRS server to Plaspy using the public IP and port
 ```
@@ -109,9 +109,9 @@ W000000,601
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator APN and must be replaced with the SIM operator APN string.
-- {{apnu}} and {{apnp}} are optional APN username and APN password placeholders when the operator requires credentials.
-- <device_id_14> stands for the first 14 digits derived from the IMEI as required by the SMS command sequence. The manufacturer example references IMEI processing when creating the device ID.
+- [apn] is the mobile operator APN and must be replaced with the SIM operator APN string.
+- [apnu] and [apnp] are optional APN username and APN password placeholders when the operator requires credentials.
+- \<device_id_14> stands for the first 14 digits derived from the IMEI as required by the SMS command sequence. The manufacturer example references IMEI processing when creating the device ID.
 
 ## Configuration Notes
 

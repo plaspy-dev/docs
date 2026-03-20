@@ -1,6 +1,7 @@
 ---
 slug: /concox/vl106
 id: vl106
+sidebar_key: concovl106_index_vl106
 sidebar_label: VL106
 title: Concox - VL106
 sidebar_class_name: menu_item_tracker

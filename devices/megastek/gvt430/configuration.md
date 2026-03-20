@@ -79,7 +79,7 @@ The GVT-430 can be configured via SMS using the public command templates below. 
 
 Notes:
 - The default device password used in these examples is 000000.
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, APN username, and APN password as required by your SIM.
+- Replace [apn], [apnu], and [apnp] with your operator APN, APN username, and APN password as required by your SIM.
 - Replace the IMEI expression with your device 15 digit IMEI where indicated.
 
 1) Set the device ID (replace the IMEI expression with your device IMEI; the expression shown is the manufacturer template form)
@@ -93,11 +93,11 @@ M000000,22,123456789012345
 
 2) Set the operator APN (include APN username and password only if required by your operator)
 ```
-M000000,23,{{apn}}{{#if apnu}},{{apnu}},{{apnp}}{{/if}}
+M000000,23,[apn]{{#if apnu}},[apnu],[apnp]{{/if}}
 ```
 Template form as rendered in manufacturer examples:
 ```
-M000000,23,{{apn}}{{,{{apnu}},{{apnp}}}}
+M000000,23,[apn]{{,[apnu],[apnp]}}
 ```
 Example (no APN username or password):
 ```

@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/lw_360hr
 id: lw_360hr
+sidebar_key: globalsalw_360hr_index_lw_360hr
 sidebar_label: LW-360HR
 title: GlobalSat - LW-360HR
 sidebar_class_name: menu_item_tracker

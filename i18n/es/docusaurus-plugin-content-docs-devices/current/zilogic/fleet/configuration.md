@@ -86,12 +86,12 @@ SET TZ +00:00
 
 - Configurar el APN del operador. Mantenga los marcadores y reemplace con los valores de su operador
 ```
-SET APN {{apn}},{{apnu}},{{apnp}}
+SET APN [apn],[apnu],[apnp]
 ```
 Explicación de los marcadores:
-- {{apn}} es el nombre del APN del operador
-- {{apnu}} es el usuario del APN si es requerido
-- {{apnp}} es la contraseña del APN si es requerida
+- [apn] es el nombre del APN del operador
+- [apnu] es el usuario del APN si es requerido
+- [apnp] es la contraseña del APN si es requerida
 
 - Establecer el servidor GPRS a la dirección IP y puerto de Plaspy
 ```

@@ -79,11 +79,11 @@ The Appello Anywhere public configuration can be performed by sending SMS comman
 format
 ```
 
-- Set the operator APN (replace {{apn}}, {{apnu}}, and {{apnp}} with your operator values; some providers do not require username or password):
+- Set the operator APN (replace [apn], [apnu], and [apnp] with your operator values; some providers do not require username or password):
 ```text
-00011,123456apn,{{apn}},{{apnu}},{{apnp}}
+00011,123456apn,[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the mobile data APN string. {{apnu}} is the APN username if required. {{apnp}} is the APN password if required.
+Explanation: [apn] is the mobile data APN string. [apnu] is the APN username if required. [apnp] is the APN password if required.
 
 - Set the GPRS server to report to Plaspy using the public server IP and port:
 ```text

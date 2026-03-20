@@ -79,7 +79,7 @@ When configured for Plaspy, the GTU5000 sends position and sensor data to the sh
 
 The exact configuration commands and method vary by Gosafe firmware and vendor tools. Some installers use an SMS command set, others use a USB or web configuration utility, and modern units may accept OTA configuration via a device management platform. Because manufacturer commands change by firmware, consult the official Gosafe configuration documentation or your vendor tool for the exact command syntax and order.
 
-If you use SMS commands or a text based configuration method provided by Gosafe, preserve any placeholders such as APN or username placeholders exactly as provided. For example, manufacturer instructions often show placeholders like {{apn}} that you must replace with your carrier APN value.
+If you use SMS commands or a text based configuration method provided by Gosafe, preserve any placeholders such as APN or username placeholders exactly as provided. For example, manufacturer instructions often show placeholders like [apn] that you must replace with your carrier APN value.
 
 ## Configuration Notes
 

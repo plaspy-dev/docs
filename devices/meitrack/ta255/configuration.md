@@ -84,12 +84,12 @@ The TA255 supports SMS based configuration commands. The sample commands below u
 
 - Set the GPRS server to the Plaspy IP address and port 8888 with APN placeholders
   ```
-  0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+  0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
   ```
   Explanation of placeholders
-  - {{apn}} is the mobile network APN name required for GPRS data
-  - {{apnu}} is the APN username if the operator requires one
-  - {{apnp}} is the APN password if required by the operator
+  - [apn] is the mobile network APN name required for GPRS data
+  - [apnu] is the APN username if the operator requires one
+  - [apnp] is the APN password if required by the operator
   Note: apnu and apnp are often optional and may be omitted if your SIM provider does not require them.
 
 - Set the time zone to UTC 0
@@ -114,7 +114,7 @@ Preserve the command order when applying them during initial setup if you rely o
 - Firmware and regional hardware variants may change available SMS commands or parameter formats; always check the Meitrack release notes for your TA255 variant.
 - The TA255 supports SMS based configuration as shown, but many installers prefer the Meitrack software tools for bulk provisioning and FOTA workflows.
 - When a device requires a transport choice, test both UDP and TCP if connectivity issues occur; Plaspy supports both transports on port 8888.
-- APN placeholders {{apn}}, {{apnu}}, and {{apnp}} must be filled with values provided by your mobile operator. Username and password are commonly optional.
+- APN placeholders [apn], [apnu], and [apnp] must be filled with values provided by your mobile operator. Username and password are commonly optional.
 - If you change the device password from the default 0000, update your provisioning records and use the new password in subsequent SMS commands.
 
 ## Why Use Plaspy with This Configuration

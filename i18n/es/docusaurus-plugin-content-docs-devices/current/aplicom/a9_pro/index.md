@@ -1,6 +1,7 @@
 ---
 slug: /aplicom/a9_pro
 id: a9_pro
+sidebar_key: aplicoa9_pro_index_a9_pro
 sidebar_label: A9 PRO
 title: Aplicom - A9 PRO
 sidebar_class_name: menu_item_tracker

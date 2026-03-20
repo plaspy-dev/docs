@@ -77,15 +77,15 @@ The ST4345LB is configured to report to the shared Plaspy server endpoint and po
 The ST4345LB provides a public SMS based configuration pattern. The device requires a device ID derived from the IMEI. The device ID is the six digits immediately before the final IMEI digit. For example, given an IMEI of 123456789012345 the device ID is 901234 (the six digits before the final digit 5).
 
 Important placeholder notes
-- {{apn}} is the mobile operator APN name.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is the mobile operator APN name.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
 - Replace [deviceID] with the six digit ID derived from the IMEI as explained above.
-- The net auth flag in the APN command should be 1 when you supply {{apnu}} or {{apnp}} and 0 when no APN username or password are used.
+- The net auth flag in the APN command should be 1 when you supply [apnu] or [apnp] and 0 when no APN username or password are used.
 
 1. Set the operator APN and Plaspy GPRS server
 ```text
-SA200NTW;[deviceID];02;[authFlag];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;[deviceID];02;[authFlag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Replace [deviceID] with the six digit device ID.
 - Replace [authFlag] with 1 if you provide an APN username or password, otherwise 0.

@@ -77,11 +77,11 @@ The TZ-AVL05 3G is configured to initiate GPRS sessions and post position and al
 The TZ-AVL05 3G can be configured by sending SMS commands to the device. The commands below are supplied in the order typically used for initial GPRS setup. Replace placeholders where necessary.
 
 1. Set the operator APN
-   - Command format (replace {{apn}} and other placeholders as required):
+   - Command format (replace [apn] and other placeholders as required):
    ```sms
-   *000000,011,{{apn}}{{#if apnu}},{{apnu}}{{/if}}{{#if apnp}},{{apnp}}{{/if}}#
+   *000000,011,[apn]{{#if apnu}},[apnu]{{/if}}{{#if apnp}},[apnp]{{/if}}#
    ```
-   - Explanation: Replace {{apn}} with your mobile operator APN. If your APN requires a username or password, provide {{apnu}} and {{apnp}} respectively. If the device password has been changed from the factory value, replace the leading 000000 with the current device password.
+   - Explanation: Replace [apn] with your mobile operator APN. If your APN requires a username or password, provide [apnu] and [apnp] respectively. If the device password has been changed from the factory value, replace the leading 000000 with the current device password.
 
 2. Set the update interval to 60 seconds
    ```sms
@@ -101,7 +101,7 @@ The TZ-AVL05 3G can be configured by sending SMS commands to the device. The com
    ```
    - Explanation: Enables GPRS mode so the device uses the configured GPRS server for reporting.
 
-Note: The initial numeric sequence in these examples (000000) is commonly the device password used in SMS commands. If your device password has been changed, use the current password. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with operator-specific values.
+Note: The initial numeric sequence in these examples (000000) is commonly the device password used in SMS commands. If your device password has been changed, use the current password. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with operator-specific values.
 
 ## Configuration Notes
 

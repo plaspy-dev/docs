@@ -77,7 +77,7 @@ El XT008 se configura para enviar datos de ubicación y estado al endpoint y pue
 
 ## Comandos de configuración de ejemplo
 
-La configuración pública del XT008 puede realizarse mediante comandos SMS. Los comandos de ejemplo a continuación usan la contraseña por defecto del dispositivo 123456. Los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por su APN de operador, usuario APN y contraseña APN respectivamente.
+La configuración pública del XT008 puede realizarse mediante comandos SMS. Los comandos de ejemplo a continuación usan la contraseña por defecto del dispositivo 123456. Los marcadores de posición como [apn], [apnu] y [apnp] deben reemplazarse por su APN de operador, usuario APN y contraseña APN respectivamente.
 
 - Comando opcional de restauración de fábrica inicial (usar solo si necesita restablecer ajustes):
 ```text
@@ -86,17 +86,17 @@ begin123456
 
 - Configurar el APN del operador:
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Configurar el usuario APN (si su operador lo requiere):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
 - Configurar la contraseña APN (si su operador lo requiere):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS y el puerto a Plaspy (el ejemplo público usa la IP y el puerto):
@@ -117,7 +117,7 @@ t060s***n123456
 Notas sobre estos comandos:
 - La contraseña por defecto 123456 se incluye en los ejemplos y debe modificarse según sus prácticas de seguridad si el dispositivo lo permite.
 - Si el firmware de su dispositivo acepta un nombre de dominio en el comando de servidor, puede sustituir d.plaspy.com por la IP; consulte la documentación de Xexun o pruebe con un único comando antes de implementarlo a gran escala.
-- Reemplace {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador móvil. Estos marcadores se conservan deliberadamente en los comandos.
+- Reemplace [apn], [apnu] y [apnp] por los valores de su operador móvil. Estos marcadores se conservan deliberadamente en los comandos.
 
 ## Notas de configuración
 

@@ -74,7 +74,7 @@ When configured to report to Plaspy, the GL505 sends periodic location and event
 
 ## Example Configuration Commands
 
-The public configuration commands below are provided as SMS command examples extracted from the device configuration content. These commands use the sample device password queclink shown in the public content. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, APN username, and APN password before sending. Send these commands as SMS messages to the device number as required by the manufacturer.
+The public configuration commands below are provided as SMS command examples extracted from the device configuration content. These commands use the sample device password queclink shown in the public content. Replace placeholders such as [apn], [apnu], and [apnp] with your operator APN, APN username, and APN password before sending. Send these commands as SMS messages to the device number as required by the manufacturer.
 
 1. Optional initial factory restore
 ```
@@ -88,11 +88,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set operator APN
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} is your network operator APN
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is your network operator APN
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 4. Set the GPRS server to Plaspy (domain and IP provided)
 ```

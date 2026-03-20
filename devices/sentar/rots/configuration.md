@@ -93,12 +93,12 @@ pw,123456,imsi#
 ```
 
 - Set operator APN where xxx is MCC and yy is MNC. Placeholders:
-  - {{apn}} = operator APN
-  - {{apnu}} = APN username
-  - {{apnp}} = APN password
+  - [apn] = operator APN
+  - [apnu] = APN username
+  - [apnp] = APN password
   - xxxyy = combined MCC and MNC when required
 ```
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 - Set GPRS server to Plaspy using the Plaspy server IP and shared port 8888:
@@ -118,7 +118,7 @@ pw,123456,ts#
 
 Notes on the commands above:
 - The default password shown is 123456 in the public command set. Replace the password portion with your device password if it has been changed.
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when replacing with real operator values.
+- Preserve placeholders such as [apn], [apnu], and [apnp] when replacing with real operator values.
 - Some commands in the public guidance use slightly different punctuation conventions. If a command fails, consult the Sentar manual for firmware specific syntax or use the vendor tool where available.
 
 ## Configuration Notes

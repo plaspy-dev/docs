@@ -1,6 +1,7 @@
 ---
 slug: /gotop/t0500
 id: t0500
+sidebar_key: gotot0500_index_t0500
 sidebar_label: T0500
 title: GOTOP - T0500
 sidebar_class_name: menu_item_tracker

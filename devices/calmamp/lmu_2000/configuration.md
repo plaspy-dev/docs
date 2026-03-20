@@ -79,7 +79,7 @@ If you are using SMS-based setup commands, perform step 1 by sending the appropr
 
 The LMU-2000 can be configured by SMS. The following public SMS commands are commonly used to set APN, server, and port. The device will report a MID (10 digit ID) in response to the query command; use that ID where the manufacturer requires it.
 
-Note: Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your mobile operator values.
+Note: Replace placeholders such as [apn], [apnu], and [apnp] with your mobile operator values.
 
 - Query device ID (returns MID 10 digits)
 ```text
@@ -88,17 +88,17 @@ Note: Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your mob
 
 - Set the operator APN
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Set the APN username (if required)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Set the APN password (if required)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy by IP
@@ -129,7 +129,7 @@ Keep the command order when applying them: set APN and credentials first, then s
 - The LMU-2000 supports SMS-based configuration and may also be managed by CalAmp provisioning systems; follow the method appropriate for your deployment.
 - You can configure the server by domain d.plaspy.com or by IP 54.85.159.138; both point to Plaspy ingestion on port 8888.
 - Choose UDP or TCP according to your device capability; Plaspy supports both and will auto-detect the tracker protocol.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} ready to fill with operator credentials; omit username or password commands if not required.
+- Keep APN placeholders [apn], [apnu], and [apnp] ready to fill with operator credentials; omit username or password commands if not required.
 
 ## Why Use Plaspy with This Configuration
 

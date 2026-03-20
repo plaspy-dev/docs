@@ -81,11 +81,11 @@ To set the ATTO using SMS commands, send messages to the device number. The comm
 tz+00
 ```
 
-- Set the operator APN. Replace the placeholders with your operator values. {{apn}} is the access point name. If required, include {{apnu}} for APN username and {{apnp}} for APN password.
+- Set the operator APN. Replace the placeholders with your operator values. [apn] is the access point name. If required, include [apnu] for APN username and [apnp] for APN password.
 ```
-S1,{{apn}},{{apnu}},{{apnp}}
+S1,[apn],[apnu],[apnp]
 ```
-Note: If your APN does not require username or password, send only S1,{{apn}}.
+Note: If your APN does not require username or password, send only S1,[apn].
 
 - Set the GPRS server to the Plaspy server IP and port
 ```
@@ -99,7 +99,7 @@ These commands are public examples for SMS based setup. Send each command as a s
 - The exact command syntax and available parameters can vary by firmware version and hardware revision; always confirm with MiniFinder documentation for your device firmware.
 - The ATTO supports SMS based configuration as shown above; some vendors also provide desktop or mobile tools that can perform the same configuration steps.
 - Choose UDP or TCP according to your local network conditions and the instructions from the device firmware; Plaspy accepts either on port 8888 and will auto detect the protocol.
-- Preserve APN placeholders {{apn}}, {{apnu}}, and {{apnp}} when preparing SMS commands and replace them with operator specific values.
+- Preserve APN placeholders [apn], [apnu], and [apnp] when preparing SMS commands and replace them with operator specific values.
 - After applying settings, a device restart may be required for changes to take effect.
 
 ## Why Use Plaspy with This Configuration

@@ -1,6 +1,7 @@
 ---
 slug: /riti/690_idu_401
 id: 690_idu_401
+sidebar_key: rit690_idu_401_index_690_idu_401
 sidebar_label: 690 (IDU-401)
 title: Riti - 690 (IDU-401)
 sidebar_class_name: menu_item_tracker

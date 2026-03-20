@@ -81,19 +81,19 @@ The TK750 commonly accepts configuration via SMS commands. The following public 
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN string):
+- Set the operator APN (replace [apn] with your operator APN string):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if required (replace {{apnu}} with the APN username):
+- Set the APN username if required (replace [apnu] with the APN username):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if required (replace {{apnp}} with the APN password):
+- Set the APN password if required (replace [apnp] with the APN password):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port shown in Plaspy documentation:
@@ -113,7 +113,7 @@ gprs123456
 
 Notes on the commands and placeholders:
 - The default password in these public examples is 123456. Confirm the password for your device before sending any commands.
-- Keep placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN, APN username, and APN password respectively.
+- Keep placeholders [apn], [apnu], and [apnp] and replace them with your operator APN, APN username, and APN password respectively.
 - The adminip command above sets the server IP and port to Plaspy. If your device firmware supports domain names you can set d.plaspy.com instead of the IP; verify support in the official TK-Star documentation before using a domain name.
 - Commands are shown in the order typically used for initial setup; follow manufacturer guidance for batching, spacing between SMS messages, or command confirmation.
 

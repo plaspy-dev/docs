@@ -84,14 +84,14 @@ begin123456
 time zone123456 0
 ```
 
-- Ajustar el APN del operador (reemplace {{apn}} por el APN de su operador móvil)
+- Ajustar el APN del operador (reemplace [apn] por el APN de su operador móvil)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Establecer usuario y contraseña del APN (reemplace los marcadores por las credenciales de su operador)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Configurar el servidor GPRS con la IP y puerto de Plaspy
@@ -124,8 +124,8 @@ protocol123456 18
 ```
 
 Notas sobre marcadores y comandos
-- {{apn}} es la cadena APN del operador móvil requerida para la conectividad de datos.
-- {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña del APN; úselos solo si su operador requiere autenticación.
+- [apn] es la cadena APN del operador móvil requerida para la conectividad de datos.
+- [apnu] y [apnp] son campos opcionales de usuario y contraseña del APN; úselos solo si su operador requiere autenticación.
 - El comando adminip anterior usa la IP y el puerto de Plaspy indicados más arriba; alternativamente puede usar el dominio d.plaspy.com si la sintaxis del fabricante admite nombres de dominio.
 - El comando de reset de fábrica begin123456 es opcional y normalmente se utiliza sólo en la configuración inicial o para restaurar valores por defecto.
 

@@ -82,16 +82,16 @@ The manufacturer provides SMS templates for basic configuration. The example bel
 M000000,22,{{imei}}
 ```
 
-2. Set the operator APN. Keep {{apnu}} and {{apnp}} only if your APN requires a username or password. Example:
+2. Set the operator APN. Keep [apnu] and [apnp] only if your APN requires a username or password. Example:
 
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
 With optional username and password included:
 
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Set the update interval to 60 seconds:
@@ -120,9 +120,9 @@ M000000,21,2
 
 Notes on placeholders
 - {{imei}} Replace with the device IMEI or the last 15 digits depending on the device requirement.
-- {{apn}} Replace with the carrier APN string.
-- {{apnu}} Optional APN username when required by the carrier.
-- {{apnp}} Optional APN password when required by the carrier.
+- [apn] Replace with the carrier APN string.
+- [apnu] Optional APN username when required by the carrier.
+- [apnp] Optional APN password when required by the carrier.
 
 Always confirm the correct SMS formatting for your firmware version before sending commands. Some firmware variants require slight formatting differences or additional parameters.
 

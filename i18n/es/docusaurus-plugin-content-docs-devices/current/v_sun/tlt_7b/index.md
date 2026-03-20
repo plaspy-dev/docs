@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/tlt_7b
 id: tlt_7b
+sidebar_key: v_sutlt_7b_index_tlt_7b
 sidebar_label: TLT-7B
 title: V-SUN - TLT-7B
 sidebar_class_name: menu_item_tracker

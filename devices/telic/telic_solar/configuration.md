@@ -75,7 +75,7 @@ Telic Solar is configured to forward its telemetry and location to the shared Pl
 
 ## Example Configuration Commands
 
-The Telic Solar commonly accepts SMS configuration commands. The following sample SMS commands are public examples extracted from the device configuration guidance. The sample commands use the device default password 123456. Preserve and replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator values.
+The Telic Solar commonly accepts SMS configuration commands. The following sample SMS commands are public examples extracted from the device configuration guidance. The sample commands use the device default password 123456. Preserve and replace placeholders such as [apn], [apnu], and [apnp] with your operator values.
 
 1. Optional initial factory reset (only if you need to return to factory defaults)
 ```text
@@ -87,14 +87,14 @@ begin123456
 time zone123456 0
 ```
 
-3. Set the operator APN (replace {{apn}} with your operator APN)
+3. Set the operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Set the APN username and password when required (replace placeholders)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Set the GPRS server to Plaspy by IP and port (this example uses the public Plaspy IP and port)
@@ -117,8 +117,8 @@ check123456
 ```
 
 Notes on placeholders:
-- {{apn}} is the APN string supplied by the cellular operator.
-- {{apnu}} and {{apnp}} are the optional APN username and password respectively.
+- [apn] is the APN string supplied by the cellular operator.
+- [apnu] and [apnp] are the optional APN username and password respectively.
 - 123456 is shown as the sample default device password in the public example; confirm your device password before sending commands.
 
 ## Configuration Notes

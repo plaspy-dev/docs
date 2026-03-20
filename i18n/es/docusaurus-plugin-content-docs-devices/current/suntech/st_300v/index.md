@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st_300v
 id: st_300v
+sidebar_key: suntecst_300v_index_st_300v
 sidebar_label: ST 300V
 title: Suntech - ST 300V
 sidebar_class_name: menu_item_tracker

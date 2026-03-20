@@ -73,7 +73,7 @@ When configured, the GT06 forwards location and telemetry to the shared Plaspy s
 
 ## Example Configuration Commands
 
-The GT06 supports an SMS based command set. The following public commands are provided in the GT06 documentation and are commonly used to configure the device for Plaspy. Preserve placeholders such as {{apn}} {{apnu}} and {{apnp}} when replacing with your operator values.
+The GT06 supports an SMS based command set. The following public commands are provided in the GT06 documentation and are commonly used to configure the device for Plaspy. Preserve placeholders such as [apn] [apnu] and [apnp] when replacing with your operator values.
 
 - Optional initial factory reset (use only if required during setup):
 ```
@@ -85,9 +85,9 @@ The GT06 supports an SMS based command set. The following public commands are pr
 801#W0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If your operator requires APN username and password, replace {{apnu}} and {{apnp}} respectively. Keep the placeholder format when sending:
+- Set the operator APN. Replace [apn] with your operator APN. If your operator requires APN username and password, replace [apnu] and [apnp] respectively. Keep the placeholder format when sending:
 ```
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 
 - Set the GPRS server to Plaspy using the server IP and port (this points the GT06 to Plaspy). Note the trailing hash as in manufacturer examples:
@@ -119,7 +119,7 @@ Alternatively you may use the domain instead of the IP if the device accepts dom
 - Firmware differences and hardware revisions can change SMS command syntax or behavior; confirm commands against your device firmware documentation before applying.  
 - The GT06 supports both SMS based configuration and GPRS server configuration; choose the method that matches your installation and access requirements.  
 - When given the option, TCP versus UDP can affect delivery characteristics; Plaspy supports either transport and will detect protocol automatically once the device connects.  
-- Replace APN placeholders {{apn}} {{apnu}} and {{apnp}} with your operator values exactly as provided by your mobile network operator.  
+- Replace APN placeholders [apn] [apnu] and [apnp] with your operator values exactly as provided by your mobile network operator.  
 - Plaspy uses the same port 8888 for all supported devices so you do not need a custom port per tracker when integrating multiple units.
 
 ## Why Use Plaspy with This Configuration

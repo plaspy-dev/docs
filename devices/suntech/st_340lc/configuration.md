@@ -66,7 +66,7 @@ The ST 340LC is configured to report its location and operational data to the sh
 2. Enter the Plaspy server address either as the domain name d.plaspy.com or the server IP 54.85.159.138 in the GPRS/server settings.
 3. Set the server port to 8888 (Plaspy uses the same port for all supported devices).
 4. Choose UDP or TCP transport if the device requires an explicit transport selection.
-5. Enter the APN, and if required the APN username and password placeholders {{apn}}, {{apnu}}, {{apnp}}.
+5. Enter the APN, and if required the APN username and password placeholders [apn], [apnu], [apnp].
 6. Apply or save the configuration and restart the device if the device or firmware requires a reboot.
 7. Validate that the device reports to Plaspy by checking device online status and recent position updates in the Plaspy platform.
 
@@ -77,7 +77,7 @@ The ST 340LC public configuration information includes SMS command syntax common
 Example device ID extraction
 - If the IMEI is shown as 12345 678901234 5 then the device ID is 678901234.
 
-Use the following commands by SMS to the device number. Replace DEVICE_ID with the nine digit device ID described above. Preserve placeholders {{apn}}, {{apnu}}, and {{apnp}} when you substitute your operator values.
+Use the following commands by SMS to the device number. Replace DEVICE_ID with the nine digit device ID described above. Preserve placeholders [apn], [apnu], and [apnp] when you substitute your operator values.
 
 1) Reset factory settings (optional initial step)
 - This command is commonly used to reset device configuration before provisioning. Use only if a reset is required.
@@ -86,15 +86,15 @@ ST300CMD;DEVICE_ID;02;Reset
 ```
 
 2) Set operator APN and GPRS server
-- The next field after DEVICE_ID contains a flag indicating whether APN username or password are provided (set 1 if you supply {{apnu}} or {{apnp}}, otherwise set 0). The server fields include the Plaspy server IP and port 54.85.159.138 and 8888.
+- The next field after DEVICE_ID contains a flag indicating whether APN username or password are provided (set 1 if you supply [apnu] or [apnp], otherwise set 0). The server fields include the Plaspy server IP and port 54.85.159.138 and 8888.
 ```
-ST300NTW;DEVICE_ID;02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+ST300NTW;DEVICE_ID;02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - If you do not provide APN username or password, change the flag to 0:
 ```
-ST300NTW;DEVICE_ID;02;0;{{apn}};;;;54.85.159.138;8888;;;;
+ST300NTW;DEVICE_ID;02;0;[apn];;;;54.85.159.138;8888;;;;
 ```
-- Note: keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and substitute your operator values. The flag 1 or 0 indicates if username or password fields are used.
+- Note: keep the placeholders [apn], [apnu], and [apnp] and substitute your operator values. The flag 1 or 0 indicates if username or password fields are used.
 
 3) Set reporting interval to 60 seconds
 - This command programs periodic reporting intervals used by the device.

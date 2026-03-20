@@ -78,7 +78,7 @@ The G25C-4G sends position fixes, alarms, and telemetry to Plaspy via its cellul
 
 The exact commands and syntax for configuring the G25C-4G vary by firmware and vendor tools. GOTOP devices commonly support both SMS and software configuration methods; if you use SMS commands or the official GOTOP configuration tool, follow the manufacturer guide for the correct command formats. Because manufacturer command sets differ between firmware revisions, consult the official GOTOP documentation for precise SMS strings or configuration file formats before applying settings.
 
-When vendor-provided SMS commands are used, they typically include a command to set server domain or IP, a command to set the port, and an optional command to select TCP or UDP. Keep placeholders such as {{apn}} or similar if using templates provided by the manufacturer and replace them with your actual values during configuration.
+When vendor-provided SMS commands are used, they typically include a command to set server domain or IP, a command to set the port, and an optional command to select TCP or UDP. Keep placeholders such as [apn] or similar if using templates provided by the manufacturer and replace them with your actual values during configuration.
 
 ## Configuration Notes
 

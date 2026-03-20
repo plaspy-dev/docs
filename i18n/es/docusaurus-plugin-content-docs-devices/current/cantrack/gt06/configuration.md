@@ -64,7 +64,7 @@ El GT06 envía datos de ubicación y telemetría por GPRS al endpoint y puerto c
 ## Flujo de trabajo común de configuración
 
 1. Acceda al método oficial de configuración del CanTrack GT06 (comandos SMS o la herramienta de configuración del fabricante).  
-2. Compruebe que el dispositivo tenga una SIM operativa e ingrese los datos del APN del operador ({{apn}}, {{apnu}}, {{apnp}} si se requiere).  
+2. Compruebe que el dispositivo tenga una SIM operativa e ingrese los datos del APN del operador ([apn], [apnu], [apnp] si se requiere).  
 3. Introduzca la información del servidor Plaspy usando d.plaspy.com o 54.85.159.138 y configure el puerto 8888.  
 4. Elija UDP o TCP como transporte si el equipo requiere selección explícita.  
 5. Aplique o guarde la configuración mediante el método del dispositivo (guardar por SMS, guardar en la herramienta o disparador de reinicio).  
@@ -85,11 +85,11 @@ El GT06 suele aceptar comandos SMS para configuración. Los comandos de ejemplo 
 #timezone#123456#W#0#00#
 ```
 
-3. Configurar el APN del operador. Reemplace {{apn}} por el host APN de su operador. Incluya {{apnu}} y {{apnp}} solo si su operador exige usuario y contraseña del APN. Los marcadores de usuario y contraseña del APN son opcionales:
+3. Configurar el APN del operador. Reemplace [apn] por el host APN de su operador. Incluya [apnu] y [apnp] solo si su operador exige usuario y contraseña del APN. Los marcadores de usuario y contraseña del APN son opcionales:
 ```
-#apn#123456#{{apn}}#{{apnu}}#{{apnp}}#
+#apn#123456#[apn]#[apnu]#[apnp]#
 ```
-Explicación: {{apn}} = host APN del operador, {{apnu}} = usuario APN (opcional), {{apnp}} = contraseña APN (opcional).
+Explicación: [apn] = host APN del operador, [apnu] = usuario APN (opcional), [apnp] = contraseña APN (opcional).
 
 4. Establecer el servidor GPRS hacia Plaspy. Puede usar la IP del servidor Plaspy o el dominio (d.plaspy.com). Este ejemplo público usa la IP de Plaspy y el puerto 8888:
 ```

@@ -76,17 +76,17 @@ The AT402 supports SMS based configuration. The following public SMS commands ar
 
 - Set the operator APN
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 
 - Set the APN username if required
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 
 - Set the APN password if required
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 
 - Set the GPRS server IP to Plaspy
@@ -100,9 +100,9 @@ $PORT,8888
 ```
 
 Notes on placeholders
-- {{apn}} is your mobile operator APN value.
-- {{apnu}} is the APN username when required by the operator.
-- {{apnp}} is the APN password when required by the operator.
+- [apn] is your mobile operator APN value.
+- [apnu] is the APN username when required by the operator.
+- [apnp] is the APN password when required by the operator.
 
 If your AT402 firmware or vendor tool supports using d.plaspy.com instead of the numeric IP, enter d.plaspy.com in the relevant configuration field. If the device requires choosing UDP or TCP for transport, select the preferred option as part of the device settings.
 

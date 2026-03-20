@@ -88,9 +88,9 @@ GMT,E,0#
 
 - Set the operator APN
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Note: The APN command can include optional APN username and APN password. Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN, APN username, and APN password as required by your mobile operator.
+Note: The APN command can include optional APN username and APN password. Keep the placeholders [apn], [apnu], and [apnp] and replace them with your operator APN, APN username, and APN password as required by your mobile operator.
 
 - Set the GPRS server to the Plaspy domain using primary server slot 1
 ```text
@@ -119,7 +119,7 @@ Send these SMS commands to the device phone number that corresponds to the SIM i
 - EElink firmware versions and hardware revisions can change command syntax or supported features; always check the device-specific manual for the exact SMS syntax if something does not respond as expected
 - The device supports both UDP and TCP transport modes; choose based on network reliability and your operational needs but remember Plaspy accepts both on port 8888
 - SMS based configuration is useful for remote installs but confirm SMS delivery and device responsiveness before relying solely on remote setup
-- Replace APN placeholders with actual operator values; if your operator requires username and password include {{apnu}} and {{apnp}} values in the APN command
+- Replace APN placeholders with actual operator values; if your operator requires username and password include [apnu] and [apnp] values in the APN command
 - Plaspy uses the same port for all devices and performs automatic protocol detection so once the server and port are set the platform will identify and process incoming messages
 
 ## Why Use Plaspy with This Configuration

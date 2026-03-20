@@ -78,7 +78,7 @@ Cuando está configurado, el GOTOP G23 envía posiciones GNSS y telemetría de e
 
 La configuración del modelo G23 normalmente se realiza mediante la utilidad de configuración serial del fabricante o el conjunto de comandos del proveedor. La sintaxis exacta de los comandos puede variar según el firmware y la herramienta del proveedor, por lo que aquí no se incluyen comandos públicos universales. Use las instrucciones de configuración de GOTOP o el documento del protocolo serial proporcionado con el dispositivo para actualizar el dominio o la IP del servidor, establecer el puerto 8888 y elegir UDP o TCP.
 
-Si dispone de la lista de comandos del proveedor, siga el orden que esa documentación indique: establecer la dirección del servidor, fijar el puerto a 8888, seleccionar el transporte UDP o TCP, guardar los ajustes y reiniciar. Mantenga cualquier marcador de posición que aparezca en los comandos del proveedor como {{apn}} y reemplácelo por los valores APN de su red.
+Si dispone de la lista de comandos del proveedor, siga el orden que esa documentación indique: establecer la dirección del servidor, fijar el puerto a 8888, seleccionar el transporte UDP o TCP, guardar los ajustes y reiniciar. Mantenga cualquier marcador de posición que aparezca en los comandos del proveedor como [apn] y reemplácelo por los valores APN de su red.
 
 ## Notas de configuración
 

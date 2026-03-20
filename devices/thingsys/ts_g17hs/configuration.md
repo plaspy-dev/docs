@@ -80,19 +80,19 @@ The TS-G17Hs can be configured using SMS messages. The sample commands below are
 FORMAT
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username (replace {{apnu}} with the APN username if required)
+- Set the APN username (replace [apnu] with the APN username if required)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password (replace {{apnp}} with the APN password if required)
+- Set the APN password (replace [apnp] with the APN password if required)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP and port (public example uses the IP)
@@ -102,7 +102,7 @@ ip54.85.159.138 8888
 
 Notes for commands
 - If you prefer to use the Plaspy domain, configure the device to use d.plaspy.com where the device firmware supports domain names rather than an IP address.
-- Placeholders {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your mobile operator values when sending SMS commands.
+- Placeholders [apn], [apnu], and [apnp] should be replaced with your mobile operator values when sending SMS commands.
 - After sending each SMS command the device typically replies with a confirmation message; monitor the device SMS responses to confirm success.
 
 - Verification command to check current settings

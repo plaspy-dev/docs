@@ -1,6 +1,7 @@
 ---
 slug: /istartek/pt19
 id: pt19
+sidebar_key: istartept19_index_pt19
 sidebar_label: PT19
 title: iStartek - PT19
 sidebar_class_name: menu_item_tracker

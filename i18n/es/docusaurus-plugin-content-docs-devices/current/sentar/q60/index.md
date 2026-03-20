@@ -1,6 +1,7 @@
 ---
 slug: /sentar/q60
 id: q60
+sidebar_key: sentaq60_index_q60
 sidebar_label: Q60
 title: Sentar - Q60
 sidebar_class_name: menu_item_tracker

@@ -91,26 +91,26 @@ Los ejemplos públicos de configuración del PT30 se envían vía SMS. Los coman
   
   Descripción: Configura el campo ID del dispositivo. Use los primeros 14 dígitos derivados del IMEI si el formato del comando lo requiere. Plaspy usa el IMEI completo (15 dígitos) como identificador en la plataforma.
   
-  Ejemplo (reemplace <14_DIGITS> con los primeros 14 dígitos del IMEI):
+  Ejemplo (reemplace \<14_DIGITS> con los primeros 14 dígitos del IMEI):
   
   ```
-  W000000,010,<14_DIGITS>
+  W000000,010,\<14_DIGITS>
   ```
 
 - Configurar el APN del operador
   
-  Descripción: Configure el APN del operador móvil para que el dispositivo pueda usar GPRS. Reemplace {{apn}} con el APN de su operador. Si el operador requiere usuario y contraseña del APN, incluya {{apnu}} y {{apnp}} respectivamente. Los campos de usuario y contraseña son opcionales y se usan solo si su operador los requiere.
+  Descripción: Configure el APN del operador móvil para que el dispositivo pueda usar GPRS. Reemplace [apn] con el APN de su operador. Si el operador requiere usuario y contraseña del APN, incluya [apnu] y [apnp] respectivamente. Los campos de usuario y contraseña son opcionales y se usan solo si su operador los requiere.
   
   Ejemplo solo con APN:
   
   ```
-  W000000,011,{{apn}}
+  W000000,011,[apn]
   ```
   
   Ejemplo con usuario y contraseña del APN:
   
   ```
-  W000000,011,{{apn}},{{apnu}},{{apnp}}
+  W000000,011,[apn],[apnu],[apnp]
   ```
 
 - Apuntar el servidor GPRS a Plaspy
@@ -145,7 +145,7 @@ Los ejemplos públicos de configuración del PT30 se envían vía SMS. Los coman
   W000000,601
   ```
 
-Nota: Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con los valores de su operador. La contraseña predeterminada de los ejemplos SMS es 000000; sustituya la contraseña si la ha cambiado en el dispositivo.
+Nota: Mantenga los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos con los valores de su operador. La contraseña predeterminada de los ejemplos SMS es 000000; sustituya la contraseña si la ha cambiado en el dispositivo.
 
 ## Notas de configuración
 

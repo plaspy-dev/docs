@@ -86,14 +86,14 @@ A continuación se muestran plantillas de comandos SMS disponibles públicamente
   
   Descripción: Definir el identificador del dispositivo. La plantilla del fabricante utiliza los primeros 14 dígitos del IMEI para el campo de id en el rastreador. Tenga en cuenta que Plaspy usa el IMEI completo de 15 dígitos como identificador del dispositivo en la plataforma.
   ```
-  W000000,010,<first 14 digits of IMEI>
+  W000000,010,\<first 14 digits of IMEI>
   ```
 
 - Establecer el APN del operador
   
-  Descripción: Configurar el APN del operador y, opcionalmente, el usuario y la contraseña del APN. Reemplace {{apn}} con el APN de su operador. Si es necesario, incluya {{apnu}} y {{apnp}} para el usuario y la contraseña del APN.
+  Descripción: Configurar el APN del operador y, opcionalmente, el usuario y la contraseña del APN. Reemplace [apn] con el APN de su operador. Si es necesario, incluya [apnu] y [apnp] para el usuario y la contraseña del APN.
   ```
-  W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+  W000000,011,[apn][,[apnu],[apnp]]
   ```
   Nota: Use la forma separada por comas e incluya los campos opcionales de usuario y contraseña del APN solo cuando su operador lo requiera.
 
@@ -125,7 +125,7 @@ A continuación se muestran plantillas de comandos SMS disponibles públicamente
   W000000,601
   ```
 
-Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} al reemplazarlos por los valores de su operador. La contraseña por defecto del dispositivo en los ejemplos es 000000; si la contraseña del dispositivo ha sido cambiada, use la contraseña actual en lugar de 000000.
+Mantenga los marcadores de posición como [apn], [apnu] y [apnp] al reemplazarlos por los valores de su operador. La contraseña por defecto del dispositivo en los ejemplos es 000000; si la contraseña del dispositivo ha sido cambiada, use la contraseña actual en lugar de 000000.
 
 ## Notas de configuración
 

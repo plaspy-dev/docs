@@ -75,19 +75,19 @@ The NR008 sends location and event data to Plaspy either over GPRS data or via S
 
 ## Example Configuration Commands
 
-The NR008 can be configured by sending SMS messages to the device. The public example commands below use the device password 000000 as the default password. Replace {{apn}} and optional placeholders with your operator values. Preserve the device password field and replace it if you have changed the default.
+The NR008 can be configured by sending SMS messages to the device. The public example commands below use the device password 000000 as the default password. Replace [apn] and optional placeholders with your operator values. Preserve the device password field and replace it if you have changed the default.
 
 1. Set the operator APN
-Send an SMS with the following format. Replace {{apn}} with your operator APN. If your operator requires APN username and password include {{apnu}} and {{apnp}} as shown.
+Send an SMS with the following format. Replace [apn] with your operator APN. If your operator requires APN username and password include [apnu] and [apnp] as shown.
 
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 
 Optional variant with APN username and password:
 
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 2. Set the GPRS server (point the device to Plaspy)
@@ -119,8 +119,8 @@ A000000,004
 
 Notes on placeholders and identifiers:
 - 000000 is the public default device password in this example. If you changed the device password, replace 000000 with your device password in all commands.
-- {{apn}} should be replaced with your mobile operator APN string.
-- {{apnu}} and {{apnp}} are optional and represent APN username and APN password where required by the operator.
+- [apn] should be replaced with your mobile operator APN string.
+- [apnu] and [apnp] are optional and represent APN username and APN password where required by the operator.
 - To get the device Id after a status check, look for the first word starting with NR in the returned status message.
 
 ## Configuration Notes

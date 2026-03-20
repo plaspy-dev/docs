@@ -86,11 +86,11 @@ Command template:
 SA200NTW;<device_id>;02;<apn_auth_flag>;<apn>;<apn_user>;<apn_pass>;54.85.159.138;8888;;;;
 ```
 Placeholders:
-- <device_id> — six-digit device ID derived from IMEI (digits 9 through 14).
-- <apn_auth_flag> — 1 if APN username or password is present, otherwise 0.
-- <apn> — replace with your operator APN (preserve the placeholder {{apn}} if you prefer).
-- <apn_user> — replace with APN username or use {{apnu}} as a placeholder.
-- <apn_pass> — replace with APN password or use {{apnp}} as a placeholder.
+- \<device_id> — six-digit device ID derived from IMEI (digits 9 through 14).
+- \<apn_auth_flag> — 1 if APN username or password is present, otherwise 0.
+- \<apn> — replace with your operator APN (preserve the placeholder [apn] if you prefer).
+- \<apn_user> — replace with APN username or use [apnu] as a placeholder.
+- \<apn_pass> — replace with APN password or use [apnp] as a placeholder.
 
 2) Set the reporting/update interval to 60 seconds
 - Purpose: configure the periodic reporting cadence used by the device.
@@ -115,7 +115,7 @@ Keep the commands in the order above when performing initial setup: first networ
 - SMS configuration is a common method for ST 215 devices but confirm the method supported by your hardware and firmware before proceeding.
 - Some firmware versions may require slightly different command formats or additional parameters; always test on a single device first.
 - Choose UDP or TCP on the device as required; Plaspy accepts either transport on port 8888 and performs automatic protocol detection on incoming connections.
-- Correct calculation of the <device_id> from the IMEI is essential for the manufacturer SMS commands to take effect.
+- Correct calculation of the \<device_id> from the IMEI is essential for the manufacturer SMS commands to take effect.
 - Keep APN credentials ready and use the APN authentication flag (1 or 0) appropriately when sending the SA200NTW command.
 
 ## Why Use Plaspy with This Configuration

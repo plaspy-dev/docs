@@ -74,7 +74,7 @@ The OTK01 can send position and vehicle telemetry to Plaspy by uploading data ov
 
 ## Example Configuration Commands
 
-The following SMS commands are the public commands provided with the OTK01 configuration guidance. Commands are shown in the order commonly used during initial setup. The default device password in these examples is 000000 as provided by the manufacturer. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN, APN username, and APN password where applicable.
+The following SMS commands are the public commands provided with the OTK01 configuration guidance. Commands are shown in the order commonly used during initial setup. The default device password in these examples is 000000 as provided by the manufacturer. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator APN, APN username, and APN password where applicable.
 
 - Optional initial factory reset (use only when you intend to restore factory defaults):
 ```text
@@ -86,9 +86,9 @@ W000000,990,099###
 W000000,010,<first_14_digits_of_IMEI>
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If your APN requires a username or password, include {{apnu}} and {{apnp}} after the APN.
+- Set the operator APN. Replace [apn] with your operator APN. If your APN requires a username or password, include [apnu] and [apnp] after the APN.
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 
 - Set the GPRS server to the Plaspy endpoint using the public Plaspy IP and port.
@@ -112,10 +112,10 @@ W000000,601
 ```
 
 Notes on placeholders:
-- {{apn}} is your mobile network operator APN string.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
-- Replace <first_14_digits_of_IMEI> with the actual digits from the device IMEI as instructed.
+- [apn] is your mobile network operator APN string.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
+- Replace \<first_14_digits_of_IMEI> with the actual digits from the device IMEI as instructed.
 
 ## Configuration Notes
 

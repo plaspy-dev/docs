@@ -46,7 +46,7 @@ The goal of this configuration process is to prepare the AoYa T6 so it reliably 
 
 - A powered and accessible AoYa T6 installed or temporarily accessible for configuration.
 - Active SIM card in the device with data and SMS enabled from the mobile operator.
-- Knowledge of the operator APN and any APN username or password if required (placeholders {{apn}}, {{apnu}}, {{apnp}} are used below).
+- Knowledge of the operator APN and any APN username or password if required (placeholders [apn], [apnu], [apnp] are used below).
 - A phone or SMS gateway capable of sending SMS commands to the tracker.
 - The device default password if unchanged; the public example setup uses 123456 as the default password.
 - Network coverage for GPRS or the appropriate mobile network to allow the device to register and send data.
@@ -64,7 +64,7 @@ When configured for Plaspy, the AoYa T6 is set to send its location and status t
 ## Common Configuration Workflow
 
 1. Access the official AoYa configuration method for the T6 (SMS commands are commonly used for this model).
-2. Set the device APN using the operator APN value (use {{apn}} placeholder where required).
+2. Set the device APN using the operator APN value (use [apn] placeholder where required).
 3. Enter d.plaspy.com or 54.85.159.138 as the GPRS server address in the device configuration.
 4. Set the port to 8888 for the Plaspy service.
 5. Choose UDP or TCP as the transport if the device requires a transport selection.
@@ -85,17 +85,17 @@ begin123456
 time zone123456 0
 ```
 
-3. Set the operator APN (replace {{apn}} with your mobile operator APN)
+3. Set the operator APN (replace [apn] with your mobile operator APN)
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} placeholder should be replaced with your operator APN string.
+- [apn] placeholder should be replaced with your operator APN string.
 
 4. Set APN username and password if required (replace placeholders with operator credentials)
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-- {{apnu}} and {{apnp}} are optional and should be set only if your APN requires authentication.
+- [apnu] and [apnp] are optional and should be set only if your APN requires authentication.
 
 5. Set the GPRS server to Plaspy using the public IP and port
 ```

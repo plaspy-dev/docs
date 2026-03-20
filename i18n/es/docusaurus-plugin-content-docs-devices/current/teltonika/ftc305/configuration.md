@@ -79,13 +79,13 @@ El fabricante proporciona un comando compacto que actualiza los parámetros de A
 - Example single command to set APN and Plaspy server parameters
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre este comando y los marcadores de posición
-- {{apn}} es el nombre del APN del operador celular requerido para la conexión de datos.  
-- {{apnu}} es el nombre de usuario del APN si su operador lo requiere; déjelo en blanco u omítalo si no se usa.  
-- {{apnp}} es la contraseña del APN si el operador lo solicita.  
+- [apn] es el nombre del APN del operador celular requerido para la conexión de datos.  
+- [apnu] es el nombre de usuario del APN si su operador lo requiere; déjelo en blanco u omítalo si no se usa.  
+- [apnp] es la contraseña del APN si el operador lo solicita.  
 - El comando establece el dominio del servidor en d.plaspy.com y el puerto en 8888, como exige Plaspy.  
 - Envíe este comando usando el método soportado por el fabricante, por ejemplo SMS o la herramienta de configuración del proveedor según la documentación del dispositivo.  
 - No cambie los valores del dominio o del puerto a menos que Plaspy o su integrador se lo indiquen; Plaspy usa el mismo puerto para todos los dispositivos compatibles y detectará automáticamente el protocolo del rastreador.

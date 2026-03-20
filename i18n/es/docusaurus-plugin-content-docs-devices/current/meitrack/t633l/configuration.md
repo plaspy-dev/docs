@@ -82,16 +82,16 @@ La configuración pública del T633L puede realizarse mediante comandos SMS. La 
 0000,F11
 ```
 
-- Configure el servidor GPRS a Plaspy usando la IP del servidor Plaspy y el puerto. Reemplace {{apn}} por el APN de su operador. Opcionalmente incluya nombre de usuario {{apnu}} y contraseña {{apnp}} si su SIM los requiere.
+- Configure el servidor GPRS a Plaspy usando la IP del servidor Plaspy y el puerto. Reemplace [apn] por el APN de su operador. Opcionalmente incluya nombre de usuario [apnu] y contraseña [apnp] si su SIM los requiere.
 
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
 
 - Si su configuración requiere nombre de usuario y contraseña APN, inclúyalos de la siguiente forma
 
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 
 - Establezca la zona horaria del dispositivo a UTC 0
@@ -113,9 +113,9 @@ La configuración pública del T633L puede realizarse mediante comandos SMS. La 
 ```
 
 Notas sobre los marcadores
-- {{apn}} es el nombre del Punto de Acceso (Access Point Name) del operador necesario para datos GPRS.
-- {{apnu}} es el nombre de usuario APN cuando el operador lo solicita.
-- {{apnp}} es la contraseña APN cuando el operador lo solicita.
+- [apn] es el nombre del Punto de Acceso (Access Point Name) del operador necesario para datos GPRS.
+- [apnu] es el nombre de usuario APN cuando el operador lo solicita.
+- [apnp] es la contraseña APN cuando el operador lo solicita.
 - El comando de reinicio inicial 0000,F11 es opcional y sólo debe emplearse al preparar un dispositivo para un nuevo despliegue o cuando lo indique su instalador.
 
 ## Notas de configuración

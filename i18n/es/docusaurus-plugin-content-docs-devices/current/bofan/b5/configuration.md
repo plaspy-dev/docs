@@ -90,16 +90,16 @@ Reemplace \<last14digits_of_IMEI> por el identificador específico de 14 dígito
 
 - Configurar el APN de su operador. Si se requieren usuario o contraseña inclúyalos así:
 ```text
-000000APN{{apn}}
+000000APN[apn]
 ```
 o con usuario y contraseña opcionales:
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
 Marcadores:
-- {{apn}} es el nombre del APN del operador.
-- {{apnu}} es el usuario del APN si se requiere.
-- {{apnp}} es la contraseña del APN si se requiere.
+- [apn] es el nombre del APN del operador.
+- [apnu] es el usuario del APN si se requiere.
+- [apnp] es la contraseña del APN si se requiere.
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto indicados en esta guía:
 ```text

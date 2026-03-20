@@ -1,6 +1,7 @@
 ---
 slug: /telic/sbc3_io
 id: sbc3_io
+sidebar_key: telisbc3_io_index_sbc3_io
 sidebar_label: SBC3 IO
 title: Telic - SBC3 IO
 sidebar_class_name: menu_item_tracker

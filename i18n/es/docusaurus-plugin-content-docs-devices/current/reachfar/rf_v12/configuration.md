@@ -83,7 +83,7 @@ Si dispone de una referencia de comandos SMS proporcionada por el proveedor, sig
 - seleccionar UDP o TCP si es necesario
 - guardar ajustes y reiniciar el dispositivo si procede
 
-Conserve cualquier marcador de posición en los comandos del proveedor como {{apn}} para APN, {{apnu}} para usuario APN y {{apnp}} para contraseña APN cuando esos valores sean requeridos por su operador. Consulte la documentación de Reachfar para la sintaxis exacta de los comandos.
+Conserve cualquier marcador de posición en los comandos del proveedor como [apn] para APN, [apnu] para usuario APN y [apnp] para contraseña APN cuando esos valores sean requeridos por su operador. Consulte la documentación de Reachfar para la sintaxis exacta de los comandos.
 
 ## Notas de configuración
 

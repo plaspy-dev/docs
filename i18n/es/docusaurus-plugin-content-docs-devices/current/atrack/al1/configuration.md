@@ -72,7 +72,7 @@ El AL1 se configura para enviar datos de GPS y eventos por GPRS al endpoint y pu
 
 ## Ejemplos de comandos de configuración
 
-Los siguientes comandos públicos se toman de ejemplos de configuración del AL1 disponibles. Conserve el orden tal como se muestra al aplicar estos comandos. Los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN, el usuario del APN y la contraseña del APN de su operador móvil.
+Los siguientes comandos públicos se toman de ejemplos de configuración del AL1 disponibles. Conserve el orden tal como se muestra al aplicar estos comandos. Los marcadores de posición como [apn], [apnu] y [apnp] deben reemplazarse por el APN, el usuario del APN y la contraseña del APN de su operador móvil.
 
 - Set ACC (input) event reporting and actions
 ```bash
@@ -94,16 +94,16 @@ AT$FORM=1,@P,0,""
 
 - Configure GPRS server pointing to Plaspy
 ```bash
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-Explanation: the AT$GPRS command includes APN, APN user, APN password, Plaspy server IP 54.85.159.138, port 8888, and additional device parameters. Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator credentials.
+Explanation: the AT$GPRS command includes APN, APN user, APN password, Plaspy server IP 54.85.159.138, port 8888, and additional device parameters. Replace [apn], [apnu], and [apnp] with your operator credentials.
 
 - Check device status and configuration
 ```bash
 AT$INFO=?
 ```
 
-Note on placeholders: {{apn}} = mobile data APN, {{apnu}} = APN username, {{apnp}} = APN password. Keep these placeholders intact until replaced with your actual credentials.
+Note on placeholders: [apn] = mobile data APN, [apnu] = APN username, [apnp] = APN password. Keep these placeholders intact until replaced with your actual credentials.
 
 ## Notas de configuración
 

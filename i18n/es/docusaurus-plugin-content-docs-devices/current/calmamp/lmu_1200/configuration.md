@@ -77,21 +77,21 @@ El LMU-1200 se configura para enviar su ubicación y datos de dispositivo al end
 
 ## Comandos de configuración de ejemplo
 
-Envíe los siguientes comandos por SMS para configurar el rastreador. El ID del dispositivo es el MID de 10 dígitos que responde el comando !R0. Los marcadores {{apn}}, {{apnu}} y {{apnp}} representan el APN de su operador móvil, el usuario del APN y la contraseña del APN, respectivamente.
+Envíe los siguientes comandos por SMS para configurar el rastreador. El ID del dispositivo es el MID de 10 dígitos que responde el comando !R0. Los marcadores [apn], [apnu] y [apnp] representan el APN de su operador móvil, el usuario del APN y la contraseña del APN, respectivamente.
 
 1. Configurar el APN del operador
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 2. Configurar el nombre de usuario del APN (si es necesario)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 3. Configurar la contraseña del APN (si es necesario)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 4. Establecer el servidor GPRS a Plaspy por IP
@@ -116,9 +116,9 @@ Comando de verificación para comprobar la configuración actual
 ```
 
 Notas sobre los marcadores
-- {{apn}} Reemplace por la cadena APN de su operador.
-- {{apnu}} Reemplace por el usuario del APN si su operador requiere autenticación.
-- {{apnp}} Reemplace por la contraseña del APN si es necesaria.
+- [apn] Reemplace por la cadena APN de su operador.
+- [apnu] Reemplace por el usuario del APN si su operador requiere autenticación.
+- [apnp] Reemplace por la contraseña del APN si es necesaria.
 
 ## Observaciones de configuración
 

@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-- Configurar el APN del operador (reemplace {{apn}} por el APN de su operador):
+- Configurar el APN del operador (reemplace [apn] por el APN de su operador):
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Configurar usuario y contraseña del APN si su operador los requiere (reemplace {{apnu}} y {{apnp}} con las credenciales):
+- Configurar usuario y contraseña del APN si su operador los requiere (reemplace [apnu] y [apnp] con las credenciales):
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Establecer el servidor GPRS al endpoint numérico de Plaspy y el puerto (Plaspy también acepta d.plaspy.com si el dispositivo soporta dominios):
@@ -114,7 +114,7 @@ gprs123456
 check123456
 ```
 
-Notas sobre marcadores: {{apn}} es el valor APN de su operador móvil, {{apnu}} es un nombre de usuario opcional del APN y {{apnp}} es una contraseña opcional del APN. Mantenga la contraseña del dispositivo (123456 en los ejemplos) en privado y cámbiela según las indicaciones de Telic si es necesario.
+Notas sobre marcadores: [apn] es el valor APN de su operador móvil, [apnu] es un nombre de usuario opcional del APN y [apnp] es una contraseña opcional del APN. Mantenga la contraseña del dispositivo (123456 en los ejemplos) en privado y cámbiela según las indicaciones de Telic si es necesario.
 
 ## Observaciones de configuración
 

@@ -89,14 +89,14 @@ RESET*123456
 TIMEZONE*123456*+00
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador)
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador)
 ```
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
-- Establecer usuario y contraseña del APN (opcional; reemplace {{apnu}} y {{apnp}} por las credenciales)
+- Establecer usuario y contraseña del APN (opcional; reemplace [apnu] y [apnp] por las credenciales)
 ```
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Configurar el servidor GPRS a Plaspy por IP y puerto
@@ -110,9 +110,9 @@ KEEPONLINE*123456
 ```
 
 Notas sobre los marcadores
-- {{apn}} — el valor APN de su operador móvil
-- {{apnu}} — usuario APN si su operador lo requiere
-- {{apnp}} — contraseña APN si su operador lo requiere
+- [apn] — el valor APN de su operador móvil
+- [apnu] — usuario APN si su operador lo requiere
+- [apnp] — contraseña APN si su operador lo requiere
 
 El orden anterior refleja una secuencia común: reset opcional, zona horaria, APN, credenciales APN, endpoint del servidor y keepalive. Use las respuestas del dispositivo para confirmar que cada comando se ejecutó correctamente.
 

@@ -75,7 +75,7 @@ Cuando se configura en modo plataforma, el LK960 envía mensajes de posición y 
 
 Los comandos exactos y las cadenas de configuración para el LK960 dependen del conjunto de comandos SMS del fabricante, la versión de firmware o la utilidad de configuración para PC proporcionada por LK GPS. Dado que los formatos de comando del fabricante varían, consulte la documentación oficial de LK GPS para los comandos SMS precisos o las secuencias de la herramienta de PC para establecer dominio o IP de servidor, puerto, modo de transporte y APN si se requiere. Plaspy acepta que el dispositivo reporte a d.plaspy.com o a 54.85.159.138 en el puerto 8888 usando UDP o TCP.
 
-Si dispone del conjunto de comandos SMS del equipo, los pasos públicos típicos son enviar mensajes SMS de configuración o aplicar los ajustes en la herramienta de PC en el siguiente orden: configurar el APN si es necesario, establecer la dirección del servidor, fijar el puerto, seleccionar el transporte y guardar. Mantenga los marcadores del fabricante como {{apn}} si aparecen en los comandos oficiales y reemplácelos por los valores de su operador móvil.
+Si dispone del conjunto de comandos SMS del equipo, los pasos públicos típicos son enviar mensajes SMS de configuración o aplicar los ajustes en la herramienta de PC en el siguiente orden: configurar el APN si es necesario, establecer la dirección del servidor, fijar el puerto, seleccionar el transporte y guardar. Mantenga los marcadores del fabricante como [apn] si aparecen en los comandos oficiales y reemplácelos por los valores de su operador móvil.
 
 ## Notas de configuración
 

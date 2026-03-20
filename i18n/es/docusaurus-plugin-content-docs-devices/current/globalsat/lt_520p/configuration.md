@@ -80,14 +80,14 @@ El fabricante ha publicado comandos de ejemplo tipo SMS para la configuración d
 
 - Marcadores de posición:
   - {{imei}} — número IMEI del dispositivo
-  - {{apn}} — nombre del APN para la red del SIM
-  - {{apnu}} — usuario APN si es requerido
-  - {{apnp}} — contraseña APN si es requerida
+  - [apn] — nombre del APN para la red del SIM
+  - [apnu] — usuario APN si es requerido
+  - [apnp] — contraseña APN si es requerida
   - {{checksum}} y {{checksumreeboot}} — checksum XOR hexadecimal de dos dígitos calculado sobre el texto del comando antes del asterisco
 
 Comando de configuración (reemplace los marcadores y calcule el checksum):
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Comando de reinicio (opcional, use cuando sea necesario reiniciar para aplicar ajustes):
@@ -104,7 +104,7 @@ Nota: el ejemplo usa la IP numérica de Plaspy (E0=54.85.159.138) y el puerto (E
 - Las diferencias de firmware pueden cambiar los formatos de comando soportados, el cálculo del checksum y los nombres de campo; siempre verifique la sintaxis de los comandos con las notas de la versión del firmware.
 - El dispositivo soporta BLE para configuración local y uplinks LoRaWAN para telemetría según lo descrito por el fabricante; los comandos por SMS publicados por el proveedor pueden usarse cuando estén soportados.
 - Cuando deba elegirse un transporte (UDP vs TCP), seleccione el recomendado por su guía de instalación; Plaspy acepta ambos y detecta el protocolo automáticamente.
-- Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por los valores del operador de la red de su SIM si usa comandos por SMS o configuración celular.
+- Los marcadores [apn], [apnu] y [apnp] deben reemplazarse por los valores del operador de la red de su SIM si usa comandos por SMS o configuración celular.
 - Después de aplicar los ajustes y reiniciar, espere varios ciclos de reporte y verifique que el dispositivo aparece y se actualiza correctamente en Plaspy.
 
 ## Por qué usar Plaspy con esta configuración

@@ -80,14 +80,14 @@ El TopTen TK218 admite configuración mediante SMS. Los siguientes comandos SMS 
 111111CLR
 ```
 
-- Comando público para configurar APN y servidor GPRS a la IP y puerto de Plaspy. Preserve los marcadores {{apn}}, {{apnu}} y {{apnp}} al reemplazarlos por los valores de su operador.
+- Comando público para configurar APN y servidor GPRS a la IP y puerto de Plaspy. Preserve los marcadores [apn], [apnu] y [apnp] al reemplazarlos por los valores de su operador.
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explicación de los marcadores
-- {{apn}} es el nombre del APN del proveedor de la tarjeta SIM.
-- {{apnu}} es el usuario del APN cuando el operador lo solicita.
-- {{apnp}} es la contraseña del APN cuando el operador lo solicita.
+- [apn] es el nombre del APN del proveedor de la tarjeta SIM.
+- [apnu] es el usuario del APN cuando el operador lo solicita.
+- [apnp] es la contraseña del APN cuando el operador lo solicita.
 
 - Comando público de verificación para consultar los ajustes actuales del servidor en el TK218:
 ```text

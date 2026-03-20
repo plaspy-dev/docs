@@ -89,9 +89,9 @@ Explicación: reemplace \<14-digit-identifier> con los últimos 14 dígitos del 
 
 - Configurar el APN de su operadora
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explicación: {{apn}} es el nombre del APN requerido por su operador. {{apnu}} y {{apnp}} son el usuario y la contraseña del APN y deben incluirse solo si su operador los requiere.
+Explicación: [apn] es el nombre del APN requerido por su operador. [apnu] y [apnp] son el usuario y la contraseña del APN y deben incluirse solo si su operador los requiere.
 
 - Establecer el servidor GPRS a Plaspy (IP del servidor y puerto)
 ```text

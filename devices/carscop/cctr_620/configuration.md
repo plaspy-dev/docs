@@ -87,14 +87,14 @@ RESET*123456
 TIMEZONE*123456*+00
 ```
 
-- Set the operator APN (replace {{apn}} with your mobile operator APN):
+- Set the operator APN (replace [apn] with your mobile operator APN):
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
 - Set the APN username and password if required by the operator (replace placeholders):
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 - Configure the GPRS server to point to Plaspy using the Plaspy server IP and port:
@@ -108,9 +108,9 @@ KEEPONLINE*123456
 ```
 
 Notes on placeholders and usage:
-- {{apn}} is the mobile operator APN string required for GPRS data.  
-- {{apnu}} is the APN username when the operator requires one.  
-- {{apnp}} is the APN password when required.  
+- [apn] is the mobile operator APN string required for GPRS data.  
+- [apnu] is the APN username when the operator requires one.  
+- [apnp] is the APN password when required.  
 - Replace the placeholders with the operator-provided values before sending the SMS.  
 - The sample commands use the public default password 123456 as shown in the manufacturer example. Confirm the password for your unit or change it if required by your security policy.
 

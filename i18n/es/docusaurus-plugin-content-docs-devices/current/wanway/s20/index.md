@@ -1,6 +1,7 @@
 ---
 slug: /wanway/s20
 id: s20
+sidebar_key: wanwas20_index_s20
 sidebar_label: S20
 title: WanWay - S20
 sidebar_class_name: menu_item_tracker

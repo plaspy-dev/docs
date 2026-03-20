@@ -80,7 +80,7 @@ Follow the Reachfar manual and installation video for device specific interface 
 
 The RF‑V22 configuration method and the exact commands or interface screens vary by firmware and the Reachfar configuration tools. Manufacturer documentation typically describes whether configuration is done via a web tool, a dedicated configuration utility, or an SMS/CLI method. Because commands differ across firmware and toolsets, consult the RF‑V22 product manual for exact syntax and step by step command examples.
 
-If your version of the RF‑V22 supports textual commands or SMS setup, use the official instructions from Reachfar to construct server and port entries. Preserve placeholders such as {{apn}}, {{apnu}}, or {{apnp}} exactly as provided by the manufacturer when those placeholders appear in official guidance.
+If your version of the RF‑V22 supports textual commands or SMS setup, use the official instructions from Reachfar to construct server and port entries. Preserve placeholders such as [apn], [apnu], or [apnp] exactly as provided by the manufacturer when those placeholders appear in official guidance.
 
 ## Configuration Notes
 

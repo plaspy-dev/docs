@@ -50,7 +50,7 @@ Use los siguientes valores de conexión de Plaspy al configurar el MPIP-618-WA:
 - Tarjeta SIM válida con servicio de datos GPRS activo y el APN correcto para su operador móvil.
 - Capacidad para enviar comandos SMS al dispositivo o acceso al software de PC del fabricante o al método COTA.
 - Información de identificación del dispositivo necesaria para derivar la clave secreta SMS si el rastreador lo requiere.
-- Familiaridad básica con marcadores de APN como {{apn}}, {{apnu}} y {{apnp}} al aplicar plantillas SMS.
+- Familiaridad básica con marcadores de APN como [apn], [apnu] y [apnp] al aplicar plantillas SMS.
 - Un breve periodo para validar y probar tras la configuración, de modo que confirme que el dispositivo reporta a Plaspy.
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -79,10 +79,10 @@ El MPIP-618-WA soporta configuración vía SMS. El fabricante documenta que los 
 
 Configurar el APN GPRS y el destino del servidor
 - Reemplace {{SecretKey}} por la clave secreta SMS del dispositivo
-- Reemplace {{apn}}, {{apnu}}, {{apnp}} por el APN, usuario APN y contraseña APN de su operador según corresponda
+- Reemplace [apn], [apnu], [apnp] por el APN, usuario APN y contraseña APN de su operador según corresponda
 
 ```
-*{{SecretKey}}#set gprs#{{apn}},{{apnu}},{{apnp}},54.85.159.138,8888*
+*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 Verificar la configuración GPRS en el dispositivo
@@ -93,7 +93,7 @@ Verificar la configuración GPRS en el dispositivo
 
 Notas sobre marcadores y uso
 - {{SecretKey}} es la contraseña para comandos SMS; por defecto es los últimos 6 caracteres ASCII del ID del dispositivo para este rastreador.
-- {{apn}} es el nombre del punto de acceso (APN) del operador de la SIM; {{apnu}} y {{apnp}} son opcionales y corresponden al usuario y contraseña del APN.
+- [apn] es el nombre del punto de acceso (APN) del operador de la SIM; [apnu] y [apnp] son opcionales y corresponden al usuario y contraseña del APN.
 - Envíe estos comandos como texto SMS simple al número asignado al rastreador.
 - El orden de los parámetros en el comando set es importante y sigue la sintaxis del fabricante: APN, usuario APN, contraseña APN, IP del servidor, puerto del servidor.
 

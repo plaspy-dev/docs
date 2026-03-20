@@ -81,7 +81,7 @@ Nota: El ejemplo usa la IP del servidor Plaspy 54.85.159.138 y el puerto 8888. S
 - Comando de configuración para ajustar valores APN y el servidor Plaspy
 
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Comando de reinicio para reiniciar el dispositivo y aplicar los ajustes (opcional pero común)
@@ -98,9 +98,9 @@ TSPRXAB27GHKLMnaicz*U!
 
 Explicación de marcadores de posición:
 - {{imei}} — Reemplace por el número IMEI del dispositivo.
-- {{apn}} — Reemplace por el nombre APN del operador si el dispositivo necesita conectividad de datos.
-- {{apnu}} — Reemplace por el usuario APN si aplica, o deje vacío si no se usa.
-- {{apnp}} — Reemplace por la contraseña APN si aplica, o deje vacío si no se usa.
+- [apn] — Reemplace por el nombre APN del operador si el dispositivo necesita conectividad de datos.
+- [apnu] — Reemplace por el usuario APN si aplica, o deje vacío si no se usa.
+- [apnp] — Reemplace por la contraseña APN si aplica, o deje vacío si no se usa.
 - {{checksum}} — Reemplace por el checksum calculado para la porción del comando anterior al asterisco. El ejemplo del fabricante calcula un checksum XOR sobre los caracteres del comando antes del '*' y convierte ese valor a dos dígitos hexadecimales en mayúsculas.
 
 Nota sobre generación de checksum:

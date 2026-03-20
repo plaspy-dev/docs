@@ -77,7 +77,7 @@ El Stars Nav Photo GPS está diseñado como un registrador GPS de almacenamiento
 
 Este documento no incluye cadenas de comando públicas específicas para el Photo GPS porque el dispositivo es principalmente un registrador de datos de almacenamiento extraíble. Los comandos exactos y la sintaxis de configuración dependen de las utilidades de Stars Nav, las versiones de firmware o las herramientas de carga de terceros. Si su herramienta del proveedor soporta el reenvío al servidor, use los ajustes del servidor indicados arriba (d.plaspy.com o 54.85.159.138 y puerto 8888) al ingresar la información del servidor.
 
-Para dispositivos o herramientas que sí publiquen formatos de configuración por SMS o línea de comandos, incluya esos comandos aquí si los proporciona su proveedor o el manual del dispositivo. Conserve los marcadores de posición como {{apn}}, {{apnu}} o {{apnp}} en los comandos del proveedor si son requeridos por su firmware y siga las indicaciones del proveedor para los valores de los marcadores.
+Para dispositivos o herramientas que sí publiquen formatos de configuración por SMS o línea de comandos, incluya esos comandos aquí si los proporciona su proveedor o el manual del dispositivo. Conserve los marcadores de posición como [apn], [apnu] o [apnp] en los comandos del proveedor si son requeridos por su firmware y siga las indicaciones del proveedor para los valores de los marcadores.
 
 ## Notas de configuración
 

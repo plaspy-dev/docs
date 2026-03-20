@@ -87,15 +87,15 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Explanation: replace {{apn}} with the carrier APN string.
+Explanation: replace [apn] with the carrier APN string.
 
-- Set APN username and password if required (replace {{apnu}} and {{apnp}} with credentials):
+- Set APN username and password if required (replace [apnu] and [apnp] with credentials):
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 Explanation: include these values only if your APN requires authentication.
 

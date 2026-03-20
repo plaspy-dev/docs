@@ -79,7 +79,7 @@ The Starfinder KAMEL may be configured using different manufacturer tools or fir
 - Use port 8888
 - Select UDP or TCP transport if prompted
 
-If your vendor documentation provides specific SMS commands, web forms, or serial commands for server and port, use those exact commands and include the Plaspy values above. Always preserve placeholders from manufacturer examples such as {{apn}} if they appear in official command templates and replace them with your network values.
+If your vendor documentation provides specific SMS commands, web forms, or serial commands for server and port, use those exact commands and include the Plaspy values above. Always preserve placeholders from manufacturer examples such as [apn] if they appear in official command templates and replace them with your network values.
 
 ## Configuration Notes
 

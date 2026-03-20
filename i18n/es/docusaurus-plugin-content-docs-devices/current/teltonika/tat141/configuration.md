@@ -78,14 +78,14 @@ Una vez configurado, el TAT141 envía reportes periódicos de ubicación y telem
 Para configurar los parámetros básicos en su dispositivo Teltonika, use el siguiente patrón de comando público. Este comando incluye marcadores de APN que debe reemplazar por los datos de su operador:
 
 - Los marcadores:
-  - {{apn}} es la cadena APN proporcionada por su operador móvil.
-  - {{apnu}} es el nombre de usuario APN si su operador lo requiere.
-  - {{apnp}} es la contraseña APN si su operador la requiere.
+  - [apn] es la cadena APN proporcionada por su operador móvil.
+  - [apnu] es el nombre de usuario APN si su operador lo requiere.
+  - [apnp] es la contraseña APN si su operador la requiere.
 
 Envíe o aplique este comando usando el método soportado por el fabricante (SMS o la herramienta de Teltonika):
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando:

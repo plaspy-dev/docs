@@ -48,7 +48,7 @@ Configurar el TK-168 para Plaspy prepara el rastreador para comunicarse de forma
 - Una tarjeta SIM activa con datos habilitados y los ajustes de APN correctos para el operador móvil.
 - Capacidad de enviar y recibir SMS en la SIM si utilizará comandos SMS para programar el dispositivo.
 - Acceso a la lista de comandos SMS de Winrich o al método de configuración oficial del fabricante correspondiente a su revisión de firmware.
-- Conocimientos básicos del APN de su operador y de los valores opcionales de usuario y contraseña del APN, representados por marcadores como {{apn}}, {{apnu}} y {{apnp}}.
+- Conocimientos básicos del APN de su operador y de los valores opcionales de usuario y contraseña del APN, representados por marcadores como [apn], [apnu] y [apnp].
 - Cobertura de red en el área de instalación para permitir el registro en GPRS y el envío de datos.
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -87,9 +87,9 @@ El TK-168 puede configurarse enviando mensajes SMS al dispositivo. Los comandos 
 
 - Configurar el APN del operador
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
-Nota: Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} tal como aparecen. Reemplace {{apn}} con el APN de su operador móvil. Si su operador no requiere usuario ni contraseña, puede dejar {{apnu}} y {{apnp}} vacíos u omitir esos campos según la sintaxis de comandos del dispositivo.
+Nota: Mantenga los marcadores [apn], [apnu] y [apnp] tal como aparecen. Reemplace [apn] con el APN de su operador móvil. Si su operador no requiere usuario ni contraseña, puede dejar [apnu] y [apnp] vacíos u omitir esos campos según la sintaxis de comandos del dispositivo.
 
 - Establecer el servidor GPRS a Plaspy por IP y puerto
 ```text

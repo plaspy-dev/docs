@@ -87,14 +87,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the APN (replace {{apn}} with your operator APN)
+- Set the APN (replace [apn] with your operator APN)
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username and password (replace placeholders as needed)
 ```sms
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port
@@ -127,8 +127,8 @@ protocol123456 18
 ```
 
 Notes on placeholders and usage:
-- {{apn}} = your cellular operator APN string.
-- {{apnu}} and {{apnp}} = APN username and APN password when required by the operator.
+- [apn] = your cellular operator APN string.
+- [apnu] and [apnp] = APN username and APN password when required by the operator.
 - Replace the example password 123456 with the device password if it has been changed from the factory default.
 - Use the factory reset command only when necessary or during initial setup, and verify device behavior after a reset.
 

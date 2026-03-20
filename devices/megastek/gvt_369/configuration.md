@@ -82,14 +82,14 @@ The manufacturer provides SMS based command examples for the GVT-369. The sample
 M000000,22,XXXXXXXXXXXXXXX
 ```
 
-- Set the operator APN. Use the basic APN form or include APN username and APN password if required by your carrier. Replace {{apn}} {{apnu}} and {{apnp}} with actual values or leave optional fields empty if not used.
+- Set the operator APN. Use the basic APN form or include APN username and APN password if required by your carrier. Replace [apn] [apnu] and [apnp] with actual values or leave optional fields empty if not used.
 
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 - Set the update interval to 60 seconds
@@ -111,7 +111,7 @@ M000000,21,2
 ```
 
 Notes about placeholders and password
-- {{apn}} is your mobile operator APN. {{apnu}} and {{apnp}} are optional APN username and APN password fields if required by your carrier.
+- [apn] is your mobile operator APN. [apnu] and [apnp] are optional APN username and APN password fields if required by your carrier.
 - XXXXXXXXXXXXXXX stands for the last 15 digits of the device IMEI. Many Megastek commands require ID fields derived from the IMEI.
 - Replace 000000 with the actual device password if it has been changed from the factory sample.
 

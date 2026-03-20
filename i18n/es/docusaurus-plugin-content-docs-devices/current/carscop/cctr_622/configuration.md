@@ -90,15 +90,15 @@ TIMEZONE*123456*+00
 
 - Establecer el APN del operador
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-Explicación: reemplace {{apn}} por el nombre del APN de su operador móvil.
+Explicación: reemplace [apn] por el nombre del APN de su operador móvil.
 
 - Establecer usuario y contraseña del APN (solo si su operador los requiere)
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
-Explicación: reemplace {{apnu}} con el usuario del APN y {{apnp}} con la contraseña del APN. Incluya este comando únicamente si su operador exige autenticación.
+Explicación: reemplace [apnu] con el usuario del APN y [apnp] con la contraseña del APN. Incluya este comando únicamente si su operador exige autenticación.
 
 - Apuntar el servidor GPRS a Plaspy usando la IP y el puerto
 ```text

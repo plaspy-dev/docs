@@ -77,17 +77,17 @@ To set the tracker send the following commands through text messages in the orde
 
 - Set the operator APN
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
 
 - Set the APN username (if required)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
 
 - Set the APN password (if required)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP
@@ -101,9 +101,9 @@ $PORT,8888
 ```
 
 Notes on placeholders:
-- {{apn}} — replace with your carrier APN string.
-- {{apnu}} — replace with the APN username if your carrier requires one; omit or leave blank if not required.
-- {{apnp}} — replace with the APN password if your carrier requires one; omit or leave blank if not required.
+- [apn] — replace with your carrier APN string.
+- [apnu] — replace with the APN username if your carrier requires one; omit or leave blank if not required.
+- [apnp] — replace with the APN password if your carrier requires one; omit or leave blank if not required.
 
 These SMS commands reflect the manufacturer provided public examples. If your deployment uses BLE provisioning, apply the same server domain or IP and port settings through the provisioning app or tool.
 

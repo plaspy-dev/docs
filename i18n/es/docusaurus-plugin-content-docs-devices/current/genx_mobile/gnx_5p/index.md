@@ -1,6 +1,7 @@
 ---
 slug: /genx_mobile/gnx_5p
 id: gnx_5p
+sidebar_key: genx_mobilgnx_5p_index_gnx_5p
 sidebar_label: GNX-5P
 title: GenX Mobile - GNX-5P
 sidebar_class_name: menu_item_tracker

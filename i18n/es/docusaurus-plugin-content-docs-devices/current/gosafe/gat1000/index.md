@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/gat1000
 id: gat1000
+sidebar_key: gosafgat1000_index_gat1000
 sidebar_label: GAT1000
 title: Gosafe - GAT1000
 sidebar_class_name: menu_item_tracker

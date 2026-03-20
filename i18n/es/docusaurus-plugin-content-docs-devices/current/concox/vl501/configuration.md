@@ -86,9 +86,9 @@ GMT,E,0#
 ```
 
 - Configurar el APN del operador
-- Reemplace {{apn}} con el APN de su proveedor de SIM. Si su operador requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} según sea necesario.
+- Reemplace [apn] con el APN de su proveedor de SIM. Si su operador requiere usuario o contraseña, incluya [apnu] y [apnp] según sea necesario.
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Establecer el servidor GPRS a Plaspy usando el dominio y puerto
@@ -121,7 +121,7 @@ GPRSSET#
 ```
 
 Notas sobre marcadores y alternativas:
-- {{apn}} es un marcador para el APN de su operador. Si su operador requiere usuario o contraseña para el APN, incluya los marcadores {{apnu}} y {{apnp}} tal como se indican.
+- [apn] es un marcador para el APN de su operador. Si su operador requiere usuario o contraseña para el APN, incluya los marcadores [apnu] y [apnp] tal como se indican.
 - Los ejemplos del comando SERVER muestran dos formas de establecer el endpoint: una con el dominio de Plaspy y otra con la IP. Use la forma que su política de aprovisionamiento requiera.
 - El comando FACTORY# restaura la configuración de fábrica y debe usarse solo cuando sea necesario durante una instalación inicial o una sesión de resolución de problemas.
 
@@ -130,7 +130,7 @@ Notas sobre marcadores y alternativas:
 - La configuración por SMS es un método común y documentado por el fabricante para el VL501; utilice la referencia oficial de comandos de Concox para comandos alternativos o extendidos
 - Las variaciones de firmware o las revisiones de hardware pueden cambiar los comandos disponibles y su comportamiento; confirme los comandos según la versión de firmware del dispositivo
 - Elija TCP o UDP según los requisitos de la instalación; Plaspy acepta ambos y detectará el protocolo automáticamente al conectar
-- Conserve los marcadores como {{apn}} al componer comandos SMS y reemplácelos con sus datos específicos antes de enviar
+- Conserve los marcadores como [apn] al componer comandos SMS y reemplácelos con sus datos específicos antes de enviar
 - Todos los dispositivos en Plaspy usan el mismo puerto y Plaspy detectará automáticamente el protocolo del dispositivo cuando el rastreador se conecte al puerto 8888
 
 ## Por qué usar Plaspy con esta configuración

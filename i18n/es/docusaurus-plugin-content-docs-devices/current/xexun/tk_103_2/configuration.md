@@ -82,21 +82,21 @@ El TK-103-2 admite configuración por SMS. Los siguientes comandos SMS públicos
   ```
 
 - Configurar el APN del operador
-  - Reemplace {{apn}} por el APN de su operador
+  - Reemplace [apn] por el APN de su operador
   ```
-  apn123456 {{apn}}
+  apn123456 [apn]
   ```
 
 - Configurar el usuario del APN
-  - Opcional, use solo si su operador requiere un usuario APN. Reemplace {{apnu}} por el usuario
+  - Opcional, use solo si su operador requiere un usuario APN. Reemplace [apnu] por el usuario
   ```
-  apnuser123456 {{apnu}}
+  apnuser123456 [apnu]
   ```
 
 - Configurar la contraseña del APN
-  - Opcional, use solo si su operador requiere una contraseña APN. Reemplace {{apnp}} por la contraseña
+  - Opcional, use solo si su operador requiere una contraseña APN. Reemplace [apnp] por la contraseña
   ```
-  apnpasswd123456 {{apnp}}
+  apnpasswd123456 [apnp]
   ```
 
 - Configurar el servidor GPRS hacia Plaspy
@@ -118,9 +118,9 @@ El TK-103-2 admite configuración por SMS. Los siguientes comandos SMS públicos
   ```
 
 Explicación de los marcadores
-- {{apn}} es la cadena APN del operador requerida para datos GPRS
-- {{apnu}} es el usuario del APN cuando lo requiera el operador
-- {{apnp}} es la contraseña del APN cuando lo requiera el operador
+- [apn] es la cadena APN del operador requerida para datos GPRS
+- [apnu] es el usuario del APN cuando lo requiera el operador
+- [apnp] es la contraseña del APN cuando lo requiera el operador
 - Reemplace 123456 en todos los comandos por la contraseña del dispositivo si se ha cambiado respecto al valor de fábrica
 
 ## Notas de configuración

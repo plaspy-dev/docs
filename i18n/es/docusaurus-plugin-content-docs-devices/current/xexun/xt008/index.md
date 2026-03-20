@@ -1,6 +1,7 @@
 ---
 slug: /xexun/xt008
 id: xt008
+sidebar_key: xexuxt008_index_xt008
 sidebar_label: XT008
 title: Xexun - XT008
 sidebar_class_name: menu_item_tracker

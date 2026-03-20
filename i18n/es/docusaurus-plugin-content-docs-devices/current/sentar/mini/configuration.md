@@ -76,7 +76,7 @@ Si utiliza los comandos SMS que aparecen a continuación, siga la guía del fabr
 
 ## Ejemplos de comandos de configuración
 
-El Mini puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos son ejemplos públicos proporcionados para el Sentar Mini. La configuración de ejemplo usa la contraseña por defecto del dispositivo 123456. Conserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores específicos del operador cuando sea necesario.
+El Mini puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos son ejemplos públicos proporcionados para el Sentar Mini. La configuración de ejemplo usa la contraseña por defecto del dispositivo 123456. Conserve los marcadores de posición como [apn], [apnu] y [apnp] y reemplácelos por los valores específicos del operador cuando sea necesario.
 
 - Restauración de fábrica (opcional en configuración inicial):
 ```text
@@ -93,11 +93,11 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Establecer APN del operador donde xxx es MCC y yy es MNC. Reemplace {{apn}}, {{apnu}}, {{apnp}} con su APN, usuario y contraseña del operador según se requiera:
+- Establecer APN del operador donde xxx es MCC y yy es MNC. Reemplace [apn], [apnu], [apnp] con su APN, usuario y contraseña del operador según se requiera:
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explicación: {{apn}} es la cadena APN del operador móvil, {{apnu}} es el usuario del APN si se requiere, y {{apnp}} es la contraseña del APN si se requiere. El sufijo xxxyy es un marcador que combina MCC y MNC cuando el dispositivo espera ese formato.
+Explicación: [apn] es la cadena APN del operador móvil, [apnu] es el usuario del APN si se requiere, y [apnp] es la contraseña del APN si se requiere. El sufijo xxxyy es un marcador que combina MCC y MNC cuando el dispositivo espera ese formato.
 
 - Establecer el servidor GPRS a Plaspy por IP y puerto (según los ajustes públicos):
 ```text

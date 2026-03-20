@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/tr_520
 id: tr_520
+sidebar_key: globalsatr_520_index_tr_520
 sidebar_label: TR-520
 title: GlobalSat - TR-520
 sidebar_class_name: menu_item_tracker

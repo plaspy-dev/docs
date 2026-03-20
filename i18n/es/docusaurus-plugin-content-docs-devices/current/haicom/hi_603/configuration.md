@@ -47,7 +47,7 @@ La configuración prepara al HI-603 para enviar datos de ubicación y eventos po
 - Una unidad HI-603 con alimentación y una SIM activa que soporte datos GPRS y SMS.  
 - Acceso al método de configuración del fabricante para el HI-603, como comandos SMS o software del proveedor.  
 - La contraseña por defecto del dispositivo si la secuencia de comandos la requiere; los ejemplos públicos usan la contraseña 0000.  
-- Credenciales APN del operador de la SIM para habilitar datos GPRS. Use los marcadores de posición {{apn}}, {{apnu}}, {{apnp}} donde corresponda.  
+- Credenciales APN del operador de la SIM para habilitar datos GPRS. Use los marcadores de posición [apn], [apnu], [apnp] donde corresponda.  
 - Una cuenta en Plaspy y acceso a la plataforma para verificar el reporte del dispositivo después de la configuración.  
 - Herramientas básicas para probar el envío de comandos SMS y reiniciar el equipo si fuera necesario.
 
@@ -76,13 +76,13 @@ Cuando está configurado para reporte vía GPRS, el HI-603 inicia una conexión 
 El HI-603 se puede configurar enviando comandos por SMS. Los comandos de ejemplo públicos que siguen usan la contraseña por defecto del dispositivo 0000. Preserve el orden cuando sea importante para su instalación y reemplace los marcadores por los valores del operador.
 
 - Nota sobre los marcadores de posición  
-  - {{apn}} es el nombre del APN del operador móvil.  
-  - {{apnu}} es el usuario del APN si el operador lo requiere.  
-  - {{apnp}} es la contraseña del APN si el operador lo requiere.
+  - [apn] es el nombre del APN del operador móvil.  
+  - [apnu] es el usuario del APN si el operador lo requiere.  
+  - [apnp] es la contraseña del APN si el operador lo requiere.
 
 1) Configurar el APN del operador
 ```
-#0000,200,{{apn}},{{apnu}},{{apnp}}
+#0000,200,[apn],[apnu],[apnp]
 ```
 
 2) Configurar el servidor GPRS a Plaspy por IP y puerto

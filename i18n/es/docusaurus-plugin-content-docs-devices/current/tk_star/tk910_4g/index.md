@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tk910_4g
 id: tk910_4g
+sidebar_key: tk_statk910_4g_index_tk910_4g
 sidebar_label: TK910 4G
 title: TK-Star - TK910 4G
 sidebar_class_name: menu_item_tracker

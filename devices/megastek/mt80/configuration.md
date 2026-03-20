@@ -50,7 +50,7 @@ Note that Plaspy uses the same port for all supported devices and relies on auto
 
 - A charged MT80 device with a working SIM that supports data and SMS as required by your setup.
 - Access to the device IMEI or serial so you can set device ID fields where required.
-- The operator APN, and optionally APN username and password if your carrier requires them (placeholders such as {{apn}}, {{apnu}}, {{apnp}} are used in commands).
+- The operator APN, and optionally APN username and password if your carrier requires them (placeholders such as [apn], [apnu], [apnp] are used in commands).
 - Ability to send SMS commands to the watch or access to the vendor configuration tool depending on the MT80 variant and firmware.
 - Knowledge of the device default password if SMS configuration requires it; the example commands below use the published default password 000000.
 
@@ -70,7 +70,7 @@ The MT80 Series can send location, event, and health telemetry to Plaspy over SM
 2. Enter the Plaspy server as either domain d.plaspy.com or the server IP 54.85.159.138 in the device server settings.
 3. Set the server port to 8888.
 4. If the device prompts for transport selection, choose UDP or TCP as appropriate for your deployment.
-5. Configure the APN and any APN credentials required by your mobile operator (use the {{apn}} {{apnu}} {{apnp}} placeholders if applicable).
+5. Configure the APN and any APN credentials required by your mobile operator (use the [apn] [apnu] [apnp] placeholders if applicable).
 6. Apply or save the configuration and restart the device if the manufacturer instructions require a reboot for settings to take effect.
 7. Validate the device reports to Plaspy by confirming location updates and event messages appear in the platform.
 
@@ -78,7 +78,7 @@ The MT80 Series can send location, event, and health telemetry to Plaspy over SM
 
 The MT80 model documentation commonly publishes SMS commands for configuration. The examples below use the device default password 000000 in the command strings as provided in public material. Replace 000000 with your device password if it differs.
 
-- Set the device ID (use the device IMEI or the last 15 digits of the IMEI as the device identifier). Replace <IMEI_15> with the device IMEI last 15 digits:
+- Set the device ID (use the device IMEI or the last 15 digits of the IMEI as the device identifier). Replace \<IMEI_15> with the device IMEI last 15 digits:
 
 ```
 M000000,22,<IMEI_15>
@@ -89,15 +89,15 @@ Example: if the device IMEI last 15 digits are 012345678901234, send:
 M000000,22,012345678901234
 ```
 
-- Set the operator APN. Replace {{apn}} with your carrier APN. If your carrier requires an APN username and password, include {{apnu}} and {{apnp}} as shown (these placeholders may be optional depending on operator):
+- Set the operator APN. Replace [apn] with your carrier APN. If your carrier requires an APN username and password, include [apnu] and [apnp] as shown (these placeholders may be optional depending on operator):
 
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
 Or with username and password:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 - Set the update interval to 60 seconds:
@@ -120,7 +120,7 @@ M000000,21,2
 
 Notes on these commands:
 - The example commands use the published default password 000000. Change the password in commands if your device has a different password.
-- Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values.
+- Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values.
 - The device may also accept domain form for the server. If using domain instead of IP, ensure the device firmware supports DNS resolution and use d.plaspy.com in place of the IP.
 - If your configuration workflow uses a vendor tool instead of SMS, apply the same server, port, and APN values in that tool.
 

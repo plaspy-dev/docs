@@ -80,17 +80,17 @@ The TK209C supports SMS-based configuration with the device password included in
 ```
 begin123456
 ```
-- Set the operator APN (replace {{apn}} with your SIM operator APN)
+- Set the operator APN (replace [apn] with your SIM operator APN)
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- Set the APN username (if required by your operator; replace {{apnu}} with the username)
+- Set the APN username (if required by your operator; replace [apnu] with the username)
 ```
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- Set the APN password (if required by your operator; replace {{apnp}} with the APN password)
+- Set the APN password (if required by your operator; replace [apnp] with the APN password)
 ```
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Set the GPRS server (this example uses the Plaspy server IP and port)
 ```
@@ -106,7 +106,7 @@ gprs123456
 ```
 
 Notes on the commands and placeholders:
-- Replace {{apn}}, {{apnu}}, and {{apnp}} with the operator APN, APN username, and APN password supplied by your mobile operator.
+- Replace [apn], [apnu], and [apnp] with the operator APN, APN username, and APN password supplied by your mobile operator.
 - The device password 123456 is shown in public documentation as the default; confirm the password for your unit and update commands if you have a different password.
 - If your TK‑Star firmware or configuration tool accepts a domain name for the server, you can use d.plaspy.com instead of the IP address; otherwise use the provided IP and port.
 

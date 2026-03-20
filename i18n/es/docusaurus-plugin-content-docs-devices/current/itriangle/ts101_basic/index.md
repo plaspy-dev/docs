@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/ts101_basic
 id: ts101_basic
+sidebar_key: itrianglts101_basic_index_ts101_basic
 sidebar_label: TS101 BASIC
 title: iTriangle - TS101 BASIC
 sidebar_class_name: menu_item_tracker

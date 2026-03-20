@@ -75,18 +75,18 @@ The GS10G is configured to send location and event data to the shared Plaspy ser
 
 ## Example Configuration Commands
 
-The GS10G public configuration uses SMS commands. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when you replace them with your carrier values.
+The GS10G public configuration uses SMS commands. Preserve placeholders such as [apn], [apnu], and [apnp] when you replace them with your carrier values.
 
 1. Configure your carrier APN
-   - Use this SMS to set the APN. Replace {{apn}} with your carrier APN. If your carrier requires a username and password include {{apnu}} and {{apnp}}.
+   - Use this SMS to set the APN. Replace [apn] with your carrier APN. If your carrier requires a username and password include [apnu] and [apnp].
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
    - If the device uses the extended APN format with username and password:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-   - Explanation: {{apn}} is your carrier APN name. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+   - Explanation: [apn] is your carrier APN name. [apnu] and [apnp] are optional APN username and password placeholders.
 
 2. Setup the GPRS server pointing to Plaspy
 ```text
@@ -124,7 +124,7 @@ Notes on using these commands
 ## Configuration Notes
 
 - The GS10G public commands show SMS based setup; vendor tools or configuration software may also be available and can streamline batch or bulk deployments.
-- APN placeholders {{apn}}, {{apnu}}, and {{apnp}} must be filled with your carrier values. If unsure, check with the mobile operator.
+- APN placeholders [apn], [apnu], and [apnp] must be filled with your carrier values. If unsure, check with the mobile operator.
 - Choose UDP or TCP transport in the device if required; Plaspy accepts both and will automatically detect the device protocol once traffic reaches the server.
 - Plaspy uses the same port 8888 for all supported devices so that port does not change across device integrations.
 - Firmware versions and hardware revisions can change available command syntax and behavior. Always verify commands against the current WanWay documentation.

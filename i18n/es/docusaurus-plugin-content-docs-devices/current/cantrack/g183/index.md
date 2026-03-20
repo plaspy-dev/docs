@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/g183
 id: g183
+sidebar_key: cantracg183_index_g183
 sidebar_label: G183
 title: CanTrack - G183
 sidebar_class_name: menu_item_tracker

@@ -79,7 +79,7 @@ When configured, the FOX3-3G sends location and device telemetry to the Plaspy e
 
 The FOX3-3G series is typically configured through Falcom tools or vendor software and exact commands can vary by firmware and configuration method. Because Falcom provides multiple configuration interfaces and options, the precise command syntax is dependent on the tool you use.
 
-Refer to the Falcom configuration manual or your installer tool for exact command formats. If you have specific Falcom command line or SMS configuration commands from official Falcom materials, include them here in order and use the configuration tool to send them. Placeholders that may appear in manufacturer commands such as {{apn}}, {{apnu}}, and {{apnp}} represent APN and authentication values for the cellular data connection and should be replaced with values from your mobile operator.
+Refer to the Falcom configuration manual or your installer tool for exact command formats. If you have specific Falcom command line or SMS configuration commands from official Falcom materials, include them here in order and use the configuration tool to send them. Placeholders that may appear in manufacturer commands such as [apn], [apnu], and [apnp] represent APN and authentication values for the cellular data connection and should be replaced with values from your mobile operator.
 
 ## Configuration Notes
 

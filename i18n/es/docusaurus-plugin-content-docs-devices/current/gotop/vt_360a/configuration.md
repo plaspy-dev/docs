@@ -84,7 +84,7 @@ El fabricante del VT-360A puede facilitar comandos SMS o de software para config
 - Tipo de transporte UDP o TCP
 - APN y parámetros relacionados con la SIM cuando use GPRS
 
-Si dispone de una lista de comandos públicos del fabricante, aplíquelos en el orden que indique el manual y mantenga los marcadores como {{apn}}, {{apnu}} o {{apnp}} cuando estén presentes.
+Si dispone de una lista de comandos públicos del fabricante, aplíquelos en el orden que indique el manual y mantenga los marcadores como [apn], [apnu] o [apnp] cuando estén presentes.
 
 ## Notas de configuración
 

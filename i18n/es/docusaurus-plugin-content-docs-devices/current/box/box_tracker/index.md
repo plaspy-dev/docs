@@ -1,6 +1,7 @@
 ---
 slug: /box/box_tracker
 id: box_tracker
+sidebar_key: bobox_tracker_index_box_tracker
 sidebar_label: Box Tracker
 title: Box - Box Tracker
 sidebar_class_name: menu_item_tracker

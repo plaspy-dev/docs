@@ -50,7 +50,7 @@ Tenga en cuenta que Plaspy utiliza el mismo puerto para todos los dispositivos c
 
 - Un MT80 con batería cargada y una SIM funcional que soporte datos y SMS según lo requiera su configuración.
 - Acceso al IMEI o al número de serie del dispositivo para poder establecer los campos de identificación cuando sea necesario.
-- El APN del operador y, opcionalmente, el usuario y la contraseña del APN si su operadora los exige (los marcadores {{apn}}, {{apnu}} y {{apnp}} se usan en los comandos).
+- El APN del operador y, opcionalmente, el usuario y la contraseña del APN si su operadora los exige (los marcadores [apn], [apnu] y [apnp] se usan en los comandos).
 - Capacidad para enviar comandos SMS al reloj o acceso a la herramienta de configuración del proveedor según la variante y el firmware del MT80.
 - Conocimiento de la contraseña por defecto del dispositivo en caso de que la configuración por SMS la requiera; los comandos de ejemplo abajo usan la contraseña publicada por defecto 000000.
 
@@ -70,7 +70,7 @@ La serie MT80 puede enviar ubicación, eventos y telemetría de salud a Plaspy p
 2. Introduzca el servidor de Plaspy como el dominio d.plaspy.com o la IP del servidor 54.85.159.138 en los ajustes del dispositivo.
 3. Configure el puerto del servidor en 8888.
 4. Si el dispositivo solicita selección de transporte, elija UDP o TCP según corresponda para su despliegue.
-5. Configure el APN y las credenciales del APN que requiera su operador móvil (use los marcadores {{apn}} {{apnu}} {{apnp}} si aplica).
+5. Configure el APN y las credenciales del APN que requiera su operador móvil (use los marcadores [apn] [apnu] [apnp] si aplica).
 6. Aplique o guarde la configuración y reinicie el dispositivo si las instrucciones del fabricante requieren un reinicio para que los ajustes surtan efecto.
 7. Valide que el dispositivo informe a Plaspy confirmando que las actualizaciones de ubicación y los mensajes de evento aparecen en la plataforma.
 
@@ -78,7 +78,7 @@ La serie MT80 puede enviar ubicación, eventos y telemetría de salud a Plaspy p
 
 La documentación del modelo MT80 publica con frecuencia comandos SMS para configuración. Los ejemplos que siguen usan la contraseña por defecto del dispositivo 000000 en las cadenas de comando tal como aparecen en material público. Reemplace 000000 por la contraseña de su dispositivo si es diferente.
 
-- Establecer el ID del dispositivo (use el IMEI del equipo o los últimos 15 dígitos del IMEI como identificador). Reemplace <IMEI_15> por los últimos 15 dígitos del IMEI del dispositivo:
+- Establecer el ID del dispositivo (use el IMEI del equipo o los últimos 15 dígitos del IMEI como identificador). Reemplace \<IMEI_15> por los últimos 15 dígitos del IMEI del dispositivo:
 
 ```
 M000000,22,<IMEI_15>
@@ -89,15 +89,15 @@ Ejemplo: si los últimos 15 dígitos del IMEI son 012345678901234, envíe:
 M000000,22,012345678901234
 ```
 
-- Establecer el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario y contraseña para el APN, incluya {{apnu}} y {{apnp}} como se muestra (estos marcadores pueden ser opcionales según el operador):
+- Establecer el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario y contraseña para el APN, incluya [apnu] y [apnp] como se muestra (estos marcadores pueden ser opcionales según el operador):
 
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 
 O con usuario y contraseña:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 - Establecer el intervalo de actualización a 60 segundos:
@@ -120,7 +120,7 @@ M000000,21,2
 
 Notas sobre estos comandos:
 - Los comandos de ejemplo usan la contraseña por defecto publicada 000000. Cambie la contraseña en los comandos si su dispositivo tiene otra.
-- Mantenga los marcadores como {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por los valores de su operador.
+- Mantenga los marcadores como [apn], [apnu] y [apnp] y reemplácelos por los valores de su operador.
 - El dispositivo también puede aceptar el servidor en forma de dominio. Si usa dominio en lugar de IP, asegúrese de que el firmware del dispositivo soporte resolución DNS y use d.plaspy.com en lugar de la IP.
 - Si su flujo de trabajo de configuración utiliza una herramienta del proveedor en lugar de SMS, aplique los mismos valores de servidor, puerto y APN en esa herramienta.
 

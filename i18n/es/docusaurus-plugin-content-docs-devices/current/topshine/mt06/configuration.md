@@ -87,15 +87,15 @@ W000000,990,099###
 W000000,010,{{IMEI14}}
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su APN requiere usuario y contraseña, incluya {{apnu}} y {{apnp}}:
+- Configurar el APN del operador. Reemplace [apn] por el APN de su operador. Si su APN requiere usuario y contraseña, incluya [apnu] y [apnp]:
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 O con usuario y contraseña del APN:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-(Placeholders: {{apn}} es su APN, {{apnu}} es el usuario del APN, {{apnp}} es la contraseña del APN.)
+(Placeholders: [apn] es su APN, [apnu] es el usuario del APN, [apnp] es la contraseña del APN.)
 
 - Configurar el servidor GPRS a Plaspy usando la IP pública y el puerto:
 ```text

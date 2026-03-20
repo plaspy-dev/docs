@@ -1,6 +1,7 @@
 ---
 slug: /jointech/gp_5000
 id: gp_5000
+sidebar_key: jointecgp_5000_index_gp_5000
 sidebar_label: GP 5000
 title: Jointech - GP 5000
 sidebar_class_name: menu_item_tracker

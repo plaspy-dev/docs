@@ -88,9 +88,9 @@ RESET
 
 - Set the APN of the mobile operator
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-Explanation: replace {{apn}} with the operator APN, {{apnu}} with the APN username if required, and {{apnp}} with the APN password if required. Leave username or password blank if the operator does not require them.
+Explanation: replace [apn] with the operator APN, [apnu] with the APN username if required, and [apnp] with the APN password if required. Leave username or password blank if the operator does not require them.
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port
 ```text
@@ -125,7 +125,7 @@ Send RCONF to request the current configuration from the tracker so you can conf
 - If the device or firmware supports domain names, you can use d.plaspy.com instead of the IP 54.85.159.138. If not, use the IP as shown.
 - Choose UDP or TCP based on network reliability and your installation. Plaspy will detect the incoming protocol automatically.
 - SMS based setup is useful for field configuration, while manufacturer tools may provide batch or USB configuration options.
-- Preserve placeholders such as {{apn}} {{apnu}} and {{apnp}} and supply real values from your mobile operator during setup.
+- Preserve placeholders such as [apn] [apnu] and [apnp] and supply real values from your mobile operator during setup.
 
 ## Why Use Plaspy with This Configuration
 

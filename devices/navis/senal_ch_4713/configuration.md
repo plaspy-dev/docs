@@ -75,7 +75,7 @@ When configured, the Señal CH 4713 sends location and device messages to the Pl
 
 The exact configuration commands and menus for the Navis Señal CH 4713 depend on the manufacturer firmware and the chosen setup method. Navis devices commonly support configuration via manufacturer software, over the air updates, or SMS commands. Because model specific command sets vary by firmware, consult the official Navis configuration guide for exact syntax and sequence.
 
-If you use SMS or a CLI provided by Navis, follow the manufacturer command reference. Preserve placeholders such as {{apn}} if they appear in commands and replace them with your operator APN values when instructed by the Navis documentation.
+If you use SMS or a CLI provided by Navis, follow the manufacturer command reference. Preserve placeholders such as [apn] if they appear in commands and replace them with your operator APN values when instructed by the Navis documentation.
 
 ## Configuration Notes
 

@@ -77,13 +77,13 @@ The provided public configuration example for Teltonika devices uses a single SM
 - Example SMS/GPRS batch command to set basic parameters:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the placeholders in the command above:
-- {{apn}} — your cellular network APN name (required for data connection).
-- {{apnu}} — APN username if your operator requires one; otherwise leave empty.
-- {{apnp}} — APN password if your operator requires one; otherwise leave empty.
+- [apn] — your cellular network APN name (required for data connection).
+- [apnu] — APN username if your operator requires one; otherwise leave empty.
+- [apnp] — APN password if your operator requires one; otherwise leave empty.
 
 Explanation and guidance:
 - This command sets APN parameters followed by the Plaspy server domain (d.plaspy.com) and the Plaspy port (8888).

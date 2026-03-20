@@ -79,9 +79,9 @@ Cuando se configura para reportar a Plaspy, el GF40 abrirá una conexión de dat
 El CanTrack GF40 soporta configuración vía conjunto de comandos SMS y herramientas del fabricante, pero los comandos exactos varían según el firmware y las compilaciones regionales. Debido a que los comandos son específicos del fabricante y no están incluidos en el modelConfiguration público de esta página, siga el manual del dispositivo para la sintaxis SMS precisa o use la utilidad oficial de CanTrack. Los flujos típicos incluyen comandos para ajustar APN, dominio o IP del servidor, puerto 8888, tipo de transporte y para consultar el estado del dispositivo.
 
 Si utiliza marcadores de posición en los SMS, los siguientes suelen aparecer en la documentación del fabricante:
-- {{apn}} para el nombre del APN celular
-- {{apnu}} para el nombre de usuario del APN si se requiere
-- {{apnp}} para la contraseña del APN si se requiere
+- [apn] para el nombre del APN celular
+- [apnu] para el nombre de usuario del APN si se requiere
+- [apnp] para la contraseña del APN si se requiere
 
 Consulte el manual de CanTrack para los formatos exactos de comando y ejemplos de líneas SMS al realizar cambios.
 

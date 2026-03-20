@@ -91,16 +91,16 @@ Note: The manufacturer example uses the first 14 IMEI digits in this command. Pl
 
 - Set the operator APN (placeholders)
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 If APN username and password are required by your operator, include them as:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 Placeholders:
-- {{apn}} = your network operator APN
-- {{apnu}} = APN username if required
-- {{apnp}} = APN password if required
+- [apn] = your network operator APN
+- [apnu] = APN username if required
+- [apnp] = APN password if required
 
 - Set the GPRS server to Plaspy using the public IP and port
 ```text

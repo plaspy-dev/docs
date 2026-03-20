@@ -75,17 +75,17 @@ The WanWay G19S is configured to report location and status using GPRS to the sh
 
 The WanWay G19S supports SMS-based configuration. Below are the common public commands published for the G19S. Preserve the placeholders when sending commands.
 
-- Set carrier APN (replace {{apn}}, and if required include username and password):
+- Set carrier APN (replace [apn], and if required include username and password):
 ```text
-APN,{{apn}}{{# if apnu }} ,{{apnu}},{{apnp}}#{{/if}}
+APN,[apn]{{# if apnu }} ,[apnu],[apnp]#{{/if}}
 ```
 Example form as provided:
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
 or when username and password are required:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Configure the GPRS server to report to Plaspy (server entry followed by the port and any device parameter):
 ```text
@@ -110,7 +110,7 @@ STATUS#
 
 Notes about the commands above:
 - Keep the order: APN first, then SERVER, then TIMER, then enable GPRS. That sequence helps ensure the device has network connectivity before pointing it at the Plaspy server.
-- {{apn}}, {{apnu}}, and {{apnp}} are placeholders for your carrier APN, APN username, and APN password respectively. Replace them with the exact values from your mobile operator.
+- [apn], [apnu], and [apnp] are placeholders for your carrier APN, APN username, and APN password respectively. Replace them with the exact values from your mobile operator.
 - The SERVER command example uses d.plaspy.com and port 8888 as required by Plaspy.
 
 ## Configuration Notes

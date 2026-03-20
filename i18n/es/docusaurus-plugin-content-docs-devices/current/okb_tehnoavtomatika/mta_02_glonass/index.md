@@ -1,6 +1,7 @@
 ---
 slug: /okb_tehnoavtomatika/mta_02_glonass
 id: mta_02_glonass
+sidebar_key: okb_tehnoavtomatikmta_02_glonass_index_mta_02_glonass
 sidebar_label: MTA-02 GLONASS
 title: OKB Tehnoavtomatika - MTA-02 GLONASS
 sidebar_class_name: menu_item_tracker

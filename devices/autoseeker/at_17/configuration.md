@@ -79,7 +79,7 @@ If your AT-17 firmware supports SMS command configuration, typical public steps 
 - Use the official command list from Autoseeker to set server domain or IP, port, and transport.
 - Provide APN credentials if required by your SIM carrier using the device's APN command format.
 
-Note: The device specific SMS or serial command syntax is maintained by Autoseeker. Refer to the official user manual for command examples and placeholders such as {{apn}}, {{apnu}}, and {{apnp}} if present in vendor instructions.
+Note: The device specific SMS or serial command syntax is maintained by Autoseeker. Refer to the official user manual for command examples and placeholders such as [apn], [apnu], and [apnp] if present in vendor instructions.
 
 ## Configuration Notes
 

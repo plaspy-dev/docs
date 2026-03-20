@@ -77,20 +77,20 @@ El MT90N se configura para enviar posición y telemetría al endpoint y puerto c
 
 El MT90N puede configurarse mediante comandos SMS. Los siguientes comandos de ejemplo se extraen de la guía pública de configuración del dispositivo y usan la contraseña por defecto 000000. Reemplace los marcadores de posición y los valores IMEI con el IMEI real del dispositivo o con los valores del APN del operador.
 
-- Nota: el marcador {{apn}} representa el APN de su operador. Los marcadores opcionales de usuario y contraseña del APN son {{apnu}} y {{apnp}}.
+- Nota: el marcador [apn] representa el APN de su operador. Los marcadores opcionales de usuario y contraseña del APN son [apnu] y [apnp].
 
-1. Establezca el ID del dispositivo usando el IMEI (use los últimos 15 dígitos si el fabricante lo requiere). Reemplace <15_DIGIT_IMEI> con el IMEI de su equipo:
+1. Establezca el ID del dispositivo usando el IMEI (use los últimos 15 dígitos si el fabricante lo requiere). Reemplace \<15_DIGIT_IMEI> con el IMEI de su equipo:
 ```
 M000000,22,<15_DIGIT_IMEI>
 ```
 
-2. Configure el APN del operador. Indique {{apn}} y, si es necesario, incluya {{apnu}} y {{apnp}} separados por comas:
+2. Configure el APN del operador. Indique [apn] y, si es necesario, incluya [apnu] y [apnp] separados por comas:
 ```
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 Si su APN requiere usuario y contraseña:
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Establezca el intervalo de actualización/reporte a 60 segundos (ejemplo):
@@ -115,7 +115,7 @@ Siga los comandos en el orden mostrado para la configuración inicial: establezc
 - Las versiones de firmware de Megastek y las variantes regionales del equipo pueden cambiar la sintaxis exacta de los comandos SMS o el orden de los parámetros; verifique la sintaxis en la documentación del fabricante para el firmware de su dispositivo.
 - La configuración por SMS es un método común mostrado aquí, pero algunas instalaciones utilizan herramientas del proveedor o un portal de incorporación; utilice el método oficial del fabricante indicado para su unidad MT90N.
 - Plaspy soporta tanto TCP como UDP en el mismo puerto 8888; elija el transporte según la preferencia del instalador y las condiciones de la red.
-- Reemplace siempre los valores de marcador como IMEI, {{apn}}, {{apnu}} y {{apnp}} por valores apropiados para su dispositivo y operador móvil.
+- Reemplace siempre los valores de marcador como IMEI, [apn], [apnu] y [apnp] por valores apropiados para su dispositivo y operador móvil.
 - Si la configuración no surte efecto de inmediato, intente reiniciar el dispositivo o cortar la alimentación después de guardar los ajustes.
 
 ## Por qué usar Plaspy con esta configuración

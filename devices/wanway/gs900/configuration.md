@@ -76,13 +76,13 @@ The GS900 is configured to report its position and event messages to Plaspy's sh
 
 The GS900 supports SMS-based configuration. Below are the public SMS commands extracted from the manufacturer-provided configuration content, preserved in order. Send each command as an SMS to the device phone number using the approved installer or admin number.
 
-1. Configure the carrier APN. Replace {{apn}} with your carrier APN. If your carrier requires APN username and password, supply {{apnu}} and {{apnp}} as needed.
+1. Configure the carrier APN. Replace [apn] with your carrier APN. If your carrier requires APN username and password, supply [apnu] and [apnp] as needed.
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 or, if username and password are required:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 2. Set the GPRS server to point the tracker at Plaspy. This uses the Plaspy server domain and port 8888.
@@ -111,7 +111,7 @@ PARAM#
 STATUS#
 ```
 
-Note: Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with the carrier-specific APN, username, and password during setup.
+Note: Preserve the placeholders [apn], [apnu], and [apnp] and replace them with the carrier-specific APN, username, and password during setup.
 
 ## Configuration Notes
 

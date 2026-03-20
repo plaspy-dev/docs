@@ -1,6 +1,7 @@
 ---
 slug: /arknav/rx_12
 id: rx_12
+sidebar_key: arknarx_12_index_rx_12
 sidebar_label: RX-12
 title: ArkNav - RX-12
 sidebar_class_name: menu_item_tracker

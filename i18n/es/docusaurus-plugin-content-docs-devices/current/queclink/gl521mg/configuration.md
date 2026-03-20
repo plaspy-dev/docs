@@ -72,7 +72,7 @@ El GL521MG envía posiciones y eventos a Plaspy al configurarse para enviar su t
 
 ## Comandos de configuración de ejemplo
 
-El GL521MG puede configurarse por SMS usando comandos estilo AT de QuecLink. Los siguientes comandos de ejemplo son parte del contenido público publicado originalmente. La contraseña del dispositivo usada en estos comandos es queclink, que es la contraseña por defecto en los ejemplos. Reemplace los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} por los valores proporcionados por su operador.
+El GL521MG puede configurarse por SMS usando comandos estilo AT de QuecLink. Los siguientes comandos de ejemplo son parte del contenido público publicado originalmente. La contraseña del dispositivo usada en estos comandos es queclink, que es la contraseña por defecto en los ejemplos. Reemplace los marcadores de posición como [apn], [apnu] y [apnp] por los valores proporcionados por su operador.
 
 - Paso opcional inicial para restaurar ajustes de fábrica (usar sólo si desea resetear el dispositivo):
 ```text
@@ -86,9 +86,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Configurar el APN del operador (reemplace los marcadores por los datos de su operador):
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explicación: {{apn}} es la cadena APN del operador, {{apnu}} es el usuario APN y {{apnp}} la contraseña APN. Deje usuario y contraseña en blanco si su operador no los requiere.
+Explicación: [apn] es la cadena APN del operador, [apnu] es el usuario APN y [apnp] la contraseña APN. Deje usuario y contraseña en blanco si su operador no los requiere.
 
 - Configurar el servidor GPRS a Plaspy por dominio e IP y especificar el puerto 8888:
 ```text

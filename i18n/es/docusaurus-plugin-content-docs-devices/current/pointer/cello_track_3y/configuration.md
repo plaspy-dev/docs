@@ -80,7 +80,7 @@ La familia Cello Track 3Y se configura para reportar ubicaciones y mensajes del 
 
 Los comandos exactos o las cadenas SMS usadas para configurar los dispositivos Pointer varían según el firmware y las variantes regionales. Dado que los comandos públicos disponibles para la familia Cello Track 3Y los proporciona Pointer y pueden entregarse mediante una herramienta de configuración o interfaz SMS, consulte la documentación oficial de Pointer o las instrucciones del proveedor para obtener los comandos precisos.
 
-Si su proveedor de dispositivos facilita ejemplos de comandos, aplíquelos en la herramienta del fabricante o envíelos siguiendo las indicaciones del vendedor. Los comandos típicos del fabricante indicarán al rastreador establecer la dirección del servidor, fijar el puerto 8888 y seleccionar el transporte UDP o TCP. Conserve marcadores como {{apn}} si aparecen en comandos proporcionados por el proveedor y siga las instrucciones del fabricante para reemplazarlos.
+Si su proveedor de dispositivos facilita ejemplos de comandos, aplíquelos en la herramienta del fabricante o envíelos siguiendo las indicaciones del vendedor. Los comandos típicos del fabricante indicarán al rastreador establecer la dirección del servidor, fijar el puerto 8888 y seleccionar el transporte UDP o TCP. Conserve marcadores como [apn] si aparecen en comandos proporcionados por el proveedor y siga las instrucciones del fabricante para reemplazarlos.
 
 ## Notas de configuración
 

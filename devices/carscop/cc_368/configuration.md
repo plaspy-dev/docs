@@ -90,15 +90,15 @@ TIMEZONE*123456*+00
 
 3) Set the operator APN
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-- {{apn}} is a placeholder for your carrier APN name for data access.
+- [apn] is a placeholder for your carrier APN name for data access.
 
 4) Set APN username and password (optional)
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
-- {{apnu}} is the APN username placeholder and {{apnp}} is the APN password placeholder. Only use if your carrier requires authentication.
+- [apnu] is the APN username placeholder and [apnp] is the APN password placeholder. Only use if your carrier requires authentication.
 
 5) Set the GPRS server to Plaspy using numeric IP and port
 ```text

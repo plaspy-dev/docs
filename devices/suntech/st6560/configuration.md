@@ -83,13 +83,13 @@ Device ID guidance
 
 Example template (replace placeholders before sending):
 ```
-SA200NTW;{{device_id}};02;{{auth_flag}};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{{auth_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - {{device_id}} = six digits derived from the IMEI as explained above.
-- {{auth_flag}} = 1 if {{apnu}} or {{apnp}} are provided, otherwise 0.
-- {{apn}} = APN provided by your mobile operator.
-- {{apnu}} = APN username if required by the carrier (may be blank).
-- {{apnp}} = APN password if required by the carrier (may be blank).
+- {{auth_flag}} = 1 if [apnu] or [apnp] are provided, otherwise 0.
+- [apn] = APN provided by your mobile operator.
+- [apnu] = APN username if required by the carrier (may be blank).
+- [apnp] = APN password if required by the carrier (may be blank).
 
 Example filled with the sample device id 901234 and no APN auth:
 ```

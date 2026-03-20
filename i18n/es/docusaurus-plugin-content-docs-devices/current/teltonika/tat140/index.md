@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/tat140
 id: tat140
+sidebar_key: teltoniktat140_index_tat140
 sidebar_label: TAT140
 title: Teltonika - TAT140
 sidebar_class_name: menu_item_tracker

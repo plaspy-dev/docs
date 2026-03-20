@@ -75,9 +75,9 @@ The MT-80 is configured to report to the shared Plaspy server endpoint and port 
 The MT-80 supports SMS based configuration. The following public SMS commands are examples drawn from Meitrack published configuration content. The sample commands use the default device password 0000. Preserve placeholders when sending commands and replace them with your actual values.
 
 - Default device password used in examples is 0000
-- {{apn}} is a placeholder for your SIM card APN string
-- {{apnu}} is a placeholder for APN username when required
-- {{apnp}} is a placeholder for APN password when required
+- [apn] is a placeholder for your SIM card APN string
+- [apnu] is a placeholder for APN username when required
+- [apnp] is a placeholder for APN password when required
 
 1. Optional initial factory settings reset
 ```sms
@@ -87,7 +87,7 @@ Label: Optional initial setup or factory restore. Use only when you need to rese
 
 2. Set the GPRS server to Plaspy using direct IP and port, include APN and optional APN credentials
 ```sms
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Note: This command configures GPRS reporting to the Plaspy server IP and port. You may substitute d.plaspy.com in DNS capable configurations if preferred.
 
@@ -113,7 +113,7 @@ Send these SMS commands from the SIM owner number or the number allowed by the d
 - SMS based configuration is supported and illustrated above. Use the method appropriate for your firmware and management workflow.
 - Plaspy supports both UDP and TCP on the same port 8888; choose the transport that matches your project requirements and device options.
 - Firmware and command syntax can differ by production batch or firmware revision. Confirm exact syntax with Meitrack documentation for your MT-80 firmware.
-- When using APN placeholders such as {{apn}}, {{apnu}}, and {{apnp}} replace them with the values provided by your mobile operator.
+- When using APN placeholders such as [apn], [apnu], and [apnp] replace them with the values provided by your mobile operator.
 - If you prefer DNS over direct IP, use d.plaspy.com as the server name instead of the IP address.
 
 ## Why Use Plaspy with This Configuration

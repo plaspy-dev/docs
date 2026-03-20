@@ -88,13 +88,13 @@ GMT,E,0#
 ```
 
 3. Set the operator APN. Replace the placeholders with your operator information:
-- {{apn}} is the APN name provided by your SIM operator
-- {{apnu}} is the APN username if required by your operator
-- {{apnp}} is the APN password if required by your operator
+- [apn] is the APN name provided by your SIM operator
+- [apnu] is the APN username if required by your operator
+- [apnp] is the APN password if required by your operator
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Note: If your operator requires no username or password, you may send only APN,{{apn}}# depending on the device firmware.
+Note: If your operator requires no username or password, you may send only APN,[apn]# depending on the device firmware.
 
 4. Set the GPRS server to the Plaspy domain using the SERVER command
 ```

@@ -79,14 +79,14 @@ Nota sobre el formato proporcionado por el fabricante
 
 Comando de configuración principal
 - Reemplace {{imei}} por el IMEI del dispositivo
-- Reemplace {{apn}} por el nombre APN de su operador móvil
-- Reemplace {{apnu}} por el usuario APN si su operador lo requiere
-- Reemplace {{apnp}} por la contraseña APN si su operador lo requiere
+- Reemplace [apn] por el nombre APN de su operador móvil
+- Reemplace [apnu] por el usuario APN si su operador lo requiere
+- Reemplace [apnp] por la contraseña APN si su operador lo requiere
 - {{checksum}} es una cadena hexadecimal de dos caracteres en mayúsculas calculada sobre el texto del comando antes del asterisco según se describe más abajo
 
 GTR-388NB setup SMS command
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Comando de reinicio (opcional, use cuando sea necesario para aplicar ajustes)

@@ -79,19 +79,19 @@ Una vez configurado, el MT500 utiliza su enlace celular para transmitir posicion
 
 El MT500 puede configurarse mediante comandos SMS enviados desde un número autorizado. Los comandos que siguen son ejemplos públicos. El dispositivo de muestra usa la contraseña por defecto 000000 en estos ejemplos. Reemplace los marcadores según corresponda.
 
-- Establecer la ID del dispositivo usando el IMEI (reemplace <IMEI15> por el IMEI de 15 dígitos). Esto asocia el IMEI con el campo de ID del dispositivo.
+- Establecer la ID del dispositivo usando el IMEI (reemplace \<IMEI15> por el IMEI de 15 dígitos). Esto asocia el IMEI con el campo de ID del dispositivo.
 
 ```
 M000000,22,<IMEI15>
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} con el APN de su operador. Si su APN requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} donde se indica.
+- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si su APN requiere usuario o contraseña, incluya [apnu] y [apnp] donde se indica.
 
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
-Explicación: {{apn}} es el nombre del punto de acceso (APN) requerido por el operador celular. {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Si el operador no requiere usuario ni contraseña, omita esos marcadores.
+Explicación: [apn] es el nombre del punto de acceso (APN) requerido por el operador celular. [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Si el operador no requiere usuario ni contraseña, omita esos marcadores.
 
 - Establecer el intervalo de actualización a 60 segundos. Ajuste el valor numérico según su política de monitoreo.
 

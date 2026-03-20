@@ -74,7 +74,7 @@ The GV56RS reports GNSS positions, input states, and configured sensor telemetry
 
 ## Example Configuration Commands
 
-The following SMS AT style commands are taken from public QuecLink GV56RS configuration examples. The sample sequence uses the device password queclink which is shown as the default in the example commands. If you have changed the device password, substitute it where the commands show the password. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} must be replaced with your mobile operator values.
+The following SMS AT style commands are taken from public QuecLink GV56RS configuration examples. The sample sequence uses the device password queclink which is shown as the default in the example commands. If you have changed the device password, substitute it where the commands show the password. Placeholders such as [apn], [apnu], and [apnp] must be replaced with your mobile operator values.
 
 - Optional initial factory reset (use only if you need to restore factory defaults):
 ```text
@@ -88,9 +88,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Set the operator APN and optional credentials:
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explanation: replace {{apn}} with your operator APN name. {{apnu}} and {{apnp}} are optional APN username and password placeholders.
+Explanation: replace [apn] with your operator APN name. [apnu] and [apnp] are optional APN username and password placeholders.
 
 - Configure the GPRS server to point to Plaspy using both domain and IP with port 8888:
 ```text

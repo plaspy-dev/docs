@@ -74,7 +74,7 @@ Al configurarse, el JM-VG02 se instruye para reportar datos de ubicación y even
 
 ## Ejemplos de comandos de configuración
 
-El JM-VG02 puede configurarse enviando mensajes SMS al dispositivo. Los siguientes comandos son públicos y se muestran en el mismo orden lógico que los flujos de configuración típicos. Se conservan las etiquetas y parámetros; los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} se usan cuando debe proporcionar los valores específicos del operador.
+El JM-VG02 puede configurarse enviando mensajes SMS al dispositivo. Los siguientes comandos son públicos y se muestran en el mismo orden lógico que los flujos de configuración típicos. Se conservan las etiquetas y parámetros; los marcadores de posición como [apn], [apnu] y [apnp] se usan cuando debe proporcionar los valores específicos del operador.
 
 - Opcional restauración a fábrica inicial (usar solo si desea restaurar valores predeterminados)
 ```text
@@ -87,13 +87,13 @@ GMT,E,0#
 ```
 
 - Establecer el APN del operador
-Use {{apn}} para el nombre del APN. Si su operador requiere usuario y contraseña de APN incluya {{apnu}} y {{apnp}} después del APN.
+Use [apn] para el nombre del APN. Si su operador requiere usuario y contraseña de APN incluya [apnu] y [apnp] después del APN.
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 O con usuario y contraseña
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Establecer el servidor GPRS usando dominio (forma legible recomendada)
@@ -126,8 +126,8 @@ GPRSSET#
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es el nombre del APN de datos móviles proporcionado por su operador de SIM.
-- {{apnu}} y {{apnp}} representan el usuario y la contraseña opcionales del APN si el operador los requiere.
+- [apn] es el nombre del APN de datos móviles proporcionado por su operador de SIM.
+- [apnu] y [apnp] representan el usuario y la contraseña opcionales del APN si el operador los requiere.
 - Use la forma con dominio SERVER,1,d.plaspy.com,8888,0# para referirse al dominio de Plaspy, o SERVER,0,54.85.159.138,8888,0# para usar la IP numérica.
 
 ## Notas de configuración

@@ -78,18 +78,18 @@ The following is a public example SMS style command shown in manufacturer guidan
 
 - Example SMS command using domain name
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Example SMS command using Plaspy server IP
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:54.85.159.138;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:54.85.159.138;2005:8888;2006:1
 ```
 
 Notes on the placeholders and command usage:
-- {{apn}} is the mobile operator APN name required for data.  
-- {{apnu}} is the APN username if your operator requires one; leave empty if not used.  
-- {{apnp}} is the APN password if required; leave empty if not used.  
+- [apn] is the mobile operator APN name required for data.  
+- [apnu] is the APN username if your operator requires one; leave empty if not used.  
+- [apnp] is the APN password if required; leave empty if not used.  
 - The command sets the device server to d.plaspy.com or the IP 54.85.159.138 and port to 8888 as shown.  
 - 2006 is a transport or protocol parameter used by the device parameter set; the numeric value and valid options can vary by firmware, so confirm the exact mapping on your device's firmware documentation.  
 - Send SMS commands from an authorized phone number or use Teltonika tools as appropriate for your deployment. Always verify the device acknowledges the command.

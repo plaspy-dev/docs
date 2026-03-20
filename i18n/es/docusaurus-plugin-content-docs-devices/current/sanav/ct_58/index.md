@@ -1,6 +1,7 @@
 ---
 slug: /sanav/ct_58
 id: ct_58
+sidebar_key: sanact_58_index_ct_58
 sidebar_label: CT-58
 title: Sanav - CT-58
 sidebar_class_name: menu_item_tracker

@@ -81,7 +81,7 @@ Enfoques comunes de configuración del fabricante que puede encontrar:
 - Comandos SMS que actualizan servidor, puerto y valores de APN usando el conjunto de comandos del equipo
 - Herramientas locales USB o serial proporcionadas por el vendedor para configuración avanzada
 
-Si planea usar comandos SMS, consulte la lista de comandos de GOTOP para las frases exactas. Los marcadores de posición que pueda ver en ejemplos de comandos suelen referirse a valores de APN como {{apn}}, {{apnu}} o {{apnp}} y deben reemplazarse por los valores de su proveedor de SIM según lo indique la guía del fabricante.
+Si planea usar comandos SMS, consulte la lista de comandos de GOTOP para las frases exactas. Los marcadores de posición que pueda ver en ejemplos de comandos suelen referirse a valores de APN como [apn], [apnu] o [apnp] y deben reemplazarse por los valores de su proveedor de SIM según lo indique la guía del fabricante.
 
 ## Notas de configuración
 

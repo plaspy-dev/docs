@@ -83,11 +83,11 @@ The public MD500S configuration examples below are SMS commands that can be sent
 - Set the GPRS server to Plaspy using the server IP and Plaspy port 8888.
   - Basic command with APN only:
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
   - If your APN requires username and password include these placeholders:
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
   - Alternatively, if you prefer to use the Plaspy domain instead of IP, point the server field in your Meitrack tool to d.plaspy.com and use port 8888.
 
@@ -107,9 +107,9 @@ The public MD500S configuration examples below are SMS commands that can be sent
 ```
 
 Notes on placeholders:
-- {{apn}} is the APN string provided by your mobile operator.
-- {{apnu}} is the APN username when required by the operator; leave empty if not needed.
-- {{apnp}} is the APN password when required by the operator; leave empty if not needed.
+- [apn] is the APN string provided by your mobile operator.
+- [apnu] is the APN username when required by the operator; leave empty if not needed.
+- [apnp] is the APN password when required by the operator; leave empty if not needed.
 
 Send these SMS commands from an authorized phone number if your device is configured to accept commands only from specific numbers. After sending server and APN commands, verify the device registers on the cellular network and establishes a session to the Plaspy server at 54.85.159.138 on port 8888.
 

@@ -83,12 +83,12 @@ El TopTen LT02 admite configuración por SMS. El fabricante publica estos comand
 
 - Configure el APN y el servidor de Plaspy (reemplace los marcadores de posición con los valores APN de su SIM). Este comando establece el APN, la IP del servidor, el puerto, el intervalo de reporte y otros parámetros de ejecución:
 ```
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explicación de los marcadores de posición:
-- {{apn}} — nombre del APN principal del operador móvil
-- {{apnu}} — nombre de usuario del APN si el operador lo requiere (dejar vacío si no es necesario)
-- {{apnp}} — contraseña del APN si el operador la requiere (dejar vacío si no es necesario)
+- [apn] — nombre del APN principal del operador móvil
+- [apnu] — nombre de usuario del APN si el operador lo requiere (dejar vacío si no es necesario)
+- [apnp] — contraseña del APN si el operador la requiere (dejar vacío si no es necesario)
 
 - Consultar los ajustes WWW actuales en el dispositivo:
 ```

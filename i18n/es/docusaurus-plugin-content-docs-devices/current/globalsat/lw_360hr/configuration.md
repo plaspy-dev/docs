@@ -80,14 +80,14 @@ Si usa configuración por SMS, siga exactamente el formato de comando del fabric
 
 El contenido público de configuración para el LW-360HR muestra comandos SMS que pueden enviarse para configurar el rastreador y que reporte a Plaspy. En la nota del formato del fabricante se indica que se requiere un encuadre específico del comando. Mantenga los marcadores de posición exactamente cuando prepare los comandos.
 
-Nota: Los comandos de ejemplo abajo usan marcadores de posición. Reemplace {{imei}} por el IMEI del dispositivo y complete {{apn}}, {{apnu}} y {{apnp}} con el APN, usuario APN y contraseña APN si su despliegue requiere parámetros celulares. Los marcadores {{checksum}} y {{checksumreeboot}} representan el checksum hexadecimal calculado sobre el texto del comando antes del asterisco según lo exige el dispositivo.
+Nota: Los comandos de ejemplo abajo usan marcadores de posición. Reemplace {{imei}} por el IMEI del dispositivo y complete [apn], [apnu] y [apnp] con el APN, usuario APN y contraseña APN si su despliegue requiere parámetros celulares. Los marcadores {{checksum}} y {{checksumreeboot}} representan el checksum hexadecimal calculado sobre el texto del comando antes del asterisco según lo exige el dispositivo.
 
 Format header used in public examples
 TSPRXAB27GHKLMnaicz*U!
 
 1) Comando de configuración para apuntar el rastreador a Plaspy y establecer placeholders de APN y valores de servidor
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Explicación:

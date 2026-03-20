@@ -1,6 +1,7 @@
 ---
 slug: /coban/bn_303f
 id: bn_303f
+sidebar_key: cobabn_303f_index_bn_303f
 sidebar_label: BN-303F
 title: Coban - BN-303F
 sidebar_class_name: menu_item_tracker

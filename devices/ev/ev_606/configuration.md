@@ -81,12 +81,12 @@ The EV-606 can be configured by SMS using the device password. The publicly avai
 
 - Set the operator APN (replace the placeholders with your operator values)
 ```text
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
 Notes:
-- {{apn}} is the APN name for your mobile operator.
-- {{apnu}} is the APN username if required by your operator; include only if needed.
-- {{apnp}} is the APN password if required by your operator; include only if needed.
+- [apn] is the APN name for your mobile operator.
+- [apnu] is the APN username if required by your operator; include only if needed.
+- [apnp] is the APN password if required by your operator; include only if needed.
 - Some operators do not require apnu or apnp; include them only when applicable.
 
 - Set the server IP and port to report to Plaspy (manufacturer enablement may be required)

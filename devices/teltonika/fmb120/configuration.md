@@ -78,13 +78,13 @@ The following public command is a common Teltonika style parameter update format
 - SMS or configuration command example:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on placeholders and fields in the command above:
-- {{apn}} is your mobile operator APN name.
-- {{apnu}} is the APN username if your operator requires one. Leave empty if not required.
-- {{apnp}} is the APN password if required by your operator.
+- [apn] is your mobile operator APN name.
+- [apnu] is the APN username if your operator requires one. Leave empty if not required.
+- [apnp] is the APN password if required by your operator.
 - 2004 is set to d.plaspy.com to point the device to the Plaspy domain. You may also use the server IP 54.85.159.138 in manufacturer tools where an IP is required.
 - 2005 sets the port to 8888 which is used by Plaspy for all devices.
 - 2006 relates to transport selection or a related parameter the device uses; consult Teltonika documentation for the exact meaning and values for your firmware.

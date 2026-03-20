@@ -87,11 +87,11 @@ W000000,010,{{imei14}}
 ```
 
 3. Configurar el APN del operador
-- Conserve los marcadores de posición para APN, usuario y contraseña. Reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador según sea necesario.
+- Conserve los marcadores de posición para APN, usuario y contraseña. Reemplace [apn], [apnu] y [apnp] con los valores de su operador según sea necesario.
 ```sms
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-- Si su APN no tiene usuario ni contraseña, omita los marcadores {{apnu}} y {{apnp}} según corresponda.
+- Si su APN no tiene usuario ni contraseña, omita los marcadores [apnu] y [apnp] según corresponda.
 
 4. Establecer el servidor GPRS a Plaspy (IP del servidor y puerto)
 ```sms

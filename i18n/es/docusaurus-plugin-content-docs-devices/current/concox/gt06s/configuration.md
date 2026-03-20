@@ -86,13 +86,13 @@ GMT,E,0#
 ```
 
 - Configurar el APN del operador
-Use el APN de su operador y, opcionalmente, el usuario y la contraseña del APN. Reemplace {{apn}} por el APN de su operador. Si es necesario incluya {{apnu}} y {{apnp}} como usuario y contraseña.
+Use el APN de su operador y, opcionalmente, el usuario y la contraseña del APN. Reemplace [apn] por el APN de su operador. Si es necesario incluya [apnu] y [apnp] como usuario y contraseña.
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 o con usuario y contraseña
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS usando dominio (recomendado)

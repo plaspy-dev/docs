@@ -78,13 +78,13 @@ The FMC650 can be configured using SMS batch commands in many deployment workflo
 - Example SMS batch command to set APN and Plaspy server parameters
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command above:
-- Replace {{apn}} with your mobile operator APN.
-- Replace {{apnu}} with the APN username if your operator requires one; leave empty if none.
-- Replace {{apnp}} with the APN password if your operator requires one; leave empty if none.
+- Replace [apn] with your mobile operator APN.
+- Replace [apnu] with the APN username if your operator requires one; leave empty if none.
+- Replace [apnp] with the APN password if your operator requires one; leave empty if none.
 - The command includes d.plaspy.com and port 8888 so the tracker will target the Plaspy server endpoint.
 - The final parameter 2006:1 is part of the parameter batch; consult Teltonika parameter documentation for the exact meaning of numeric parameter codes before changing other codes.
 

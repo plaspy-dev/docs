@@ -49,7 +49,7 @@ These values are the public Plaspy connection settings used for FMC640 devices. 
 - Reliable power to the FMC640 and a completed hardware installation according to Teltonika guidance.
 - A working SIM with data and optionally SMS capability if you plan to use SMS configuration commands.
 - Access to the official Teltonika configuration method you prefer such as Teltonika Configurator, FOTA Web, or SMS commands.
-- APN credentials for the mobile operator represented by placeholders such as {{apn}}, {{apnu}}, and {{apnp}}.
+- APN credentials for the mobile operator represented by placeholders such as [apn], [apnu], and [apnp].
 - Access to Plaspy account or onboarding details so you can confirm the device appears after configuration.
 - Basic knowledge of whether your installation will use UDP or TCP transport for tracker-server communication.
 
@@ -65,7 +65,7 @@ When configured, the FMC640 sends device and position data to the shared Plaspy 
 ## Common Configuration Workflow
 
 1. Access the official Teltonika configuration method such as Teltonika Configurator, FOTA Web, or SMS command interface.
-2. Set the device APN credentials using the placeholders provided for your operator (for example {{apn}}, {{apnu}}, {{apnp}}).
+2. Set the device APN credentials using the placeholders provided for your operator (for example [apn], [apnu], [apnp]).
 3. Enter the Plaspy server endpoint either as d.plaspy.com or 54.85.159.138 depending on your preference.
 4. Set the port to 8888 as Plaspy uses the same port for all supported devices.
 5. Choose UDP or TCP if the device requires explicit transport selection.
@@ -81,13 +81,13 @@ The public model configuration provides an example SMS command to set basic para
 - Example SMS configuration command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the example command:
-- {{apn}} is the mobile operator APN name.
-- {{apnu}} is the APN username when required by the operator.
-- {{apnp}} is the APN password when required by the operator.
+- [apn] is the mobile operator APN name.
+- [apnu] is the APN username when required by the operator.
+- [apnp] is the APN password when required by the operator.
 - The command includes d.plaspy.com as the server and 8888 as the port to point the device at the Plaspy endpoint.
 - Parameter 2006 relates to transport selection or protocol settings on the device. Confirm the correct value for your firmware and transport choice using Teltonika documentation before changing it.
 

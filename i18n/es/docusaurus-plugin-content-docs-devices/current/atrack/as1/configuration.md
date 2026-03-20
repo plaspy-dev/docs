@@ -101,11 +101,11 @@ AT$FORM=1,@P,0,""
 
 4. Configurar GPRS y APN con la IP y puerto del servidor de Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-- {{apn}} es el APN de su operador móvil
-- {{apnu}} es el usuario APN si su operador lo requiere
-- {{apnp}} es la contraseña APN si su operador la requiere
+- [apn] es el APN de su operador móvil
+- [apnu] es el usuario APN si su operador lo requiere
+- [apnp] es la contraseña APN si su operador la requiere
 
 5. Consultar estado e información del dispositivo
 ```text

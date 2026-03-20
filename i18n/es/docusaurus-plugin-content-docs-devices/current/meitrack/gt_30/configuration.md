@@ -49,7 +49,7 @@ Estos valores son los ajustes públicos del servidor que debe usar al apuntar un
 - Un GT-30 con batería cargada y encendido, con una SIM funcional y capacidad de datos para GPRS y funciones SMS.
 - Conocimiento de la contraseña por defecto del dispositivo (la contraseña por defecto usada en estos comandos es 0000).
 - Acceso al método oficial de configuración de Meitrack que prefiera (comandos SMS, software del proveedor o una herramienta de configuración).
-- Ajustes de APN válidos para el operador de la SIM; se usarán placeholders como {{apn}}, {{apnu}} y {{apnp}} cuando sea necesario.
+- Ajustes de APN válidos para el operador de la SIM; se usarán placeholders como [apn], [apnu] y [apnp] cuando sea necesario.
 - Un flujo de prueba para confirmar que el dispositivo alcanza el servidor de Plaspy y reporta ubicación o eventos a la plataforma.
 
 ## Cómo se conecta este rastreador a Plaspy
@@ -68,7 +68,7 @@ El GT-30 envía datos de ubicación y eventos al endpoint del servidor de Plaspy
 2. Ingrese la dirección del servidor de Plaspy como d.plaspy.com o la IP del servidor 54.85.159.138 en la configuración de servidor del dispositivo.
 3. Establezca el puerto del dispositivo en 8888 que es el puerto que utiliza Plaspy para todos los dispositivos soportados.
 4. Si el dispositivo requiere selección explícita de transporte, elija UDP o TCP según su preferencia o la fiabilidad de la red.
-5. Provea los detalles del APN si es necesario usando placeholders como {{apn}} y opcionalmente {{apnu}} y {{apnp}} para las credenciales del APN.
+5. Provea los detalles del APN si es necesario usando placeholders como [apn] y opcionalmente [apnu] y [apnp] para las credenciales del APN.
 6. Aplique o guarde la configuración en el dispositivo y reinicie el rastreador si el dispositivo o las instrucciones lo requieren.
 7. Valide que el dispositivo reporte a Plaspy verificando que el rastreador aparezca en la plataforma y que se reciban actualizaciones de ubicación o eventos.
 
@@ -80,9 +80,9 @@ El GT-30 puede configurarse usando comandos SMS. Los siguientes comandos SMS pú
 ```text
 0000,F11
 ```
-- Establecer el servidor GPRS para apuntar a Plaspy usando la IP del servidor, puerto y placeholder de APN. Reemplace {{apn}} con el APN de su operador y agregue {{apnu}} y {{apnp}} si el APN requiere usuario o contraseña.
+- Establecer el servidor GPRS para apuntar a Plaspy usando la IP del servidor, puerto y placeholder de APN. Reemplace [apn] con el APN de su operador y agregue [apnu] y [apnp] si el APN requiere usuario o contraseña.
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Nota: Puede usar d.plaspy.com en lugar de la dirección IP cuando el dispositivo acepte un nombre de dominio en el campo de servidor.
 
@@ -100,9 +100,9 @@ Nota: Puede usar d.plaspy.com en lugar de la dirección IP cuando el dispositivo
 ```
 
 Explicación de los placeholders:
-- {{apn}} — APN proporcionado por el operador de la SIM
-- {{apnu}} — Nombre de usuario del APN si es requerido
-- {{apnp}} — Contraseña del APN si es requerida
+- [apn] — APN proporcionado por el operador de la SIM
+- [apnu] — Nombre de usuario del APN si es requerido
+- [apnp] — Contraseña del APN si es requerida
 
 Envíe cada comando como SMS al GT-30 desde un número autorizado. Después de aplicar los ajustes de servidor y APN, confirme que el dispositivo establece una sesión GPRS y envía datos a Plaspy.
 

@@ -85,9 +85,9 @@ El GT003 soporta la configuración vía SMS usando los siguientes comandos públ
 ```
 
 - Configurar el APN del operador
-Tenga en cuenta los marcadores. Reemplace {{apn}} por el APN de su operador móvil. Si su operador requiere usuario o contraseña, use {{apnu}} y {{apnp}} respectivamente.
+Tenga en cuenta los marcadores. Reemplace [apn] por el APN de su operador móvil. Si su operador requiere usuario o contraseña, use [apnu] y [apnp] respectivamente.
 ```
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 
 - Configurar el servidor GPRS hacia Plaspy usando la IP y el puerto que Plaspy también expone como d.plaspy.com. Esta configuración envía los reportes a Plaspy en el puerto 8888.
@@ -115,7 +115,7 @@ Tenga en cuenta los marcadores. Reemplace {{apn}} por el APN de su operador móv
 - La configuración por SMS es el método público mostrado para el GT003; algunos instaladores prefieren usar herramientas del fabricante si están disponibles para despliegues masivos
 - Diferentes versiones de firmware o revisiones de hardware pueden cambiar la sintaxis exacta de los comandos o los parámetros disponibles; verifique los comandos antes de un despliegue amplio
 - Elija TCP o UDP según las necesidades de su instalación; Plaspy soporta ambos transportes en el puerto 8888 y detectará el protocolo automáticamente
-- Al configurar el APN, conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por los valores de su operador; muchos operadores solo requieren el campo APN
+- Al configurar el APN, conserve los marcadores [apn], [apnu] y [apnp] y sustitúyalos por los valores de su operador; muchos operadores solo requieren el campo APN
 - Use los comandos de verificación como 886# y 902# para confirmar ajustes y estado después de aplicar la configuración
 
 ## Por qué usar Plaspy con esta configuración

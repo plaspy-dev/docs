@@ -88,9 +88,9 @@ timezone123456 0
 
 - Establecer el APN del operador
 ```
-apn123456 {{apn}} {{apnu}} {{apnp}}
+apn123456 [apn] [apnu] [apnp]
 ```
-Explicación: reemplace {{apn}} con el APN de su operador, {{apnu}} con el nombre de usuario APN si es necesario y {{apnp}} con la contraseña APN si corresponde. Deje los marcadores vacíos si no se usan.
+Explicación: reemplace [apn] con el APN de su operador, [apnu] con el nombre de usuario APN si es necesario y [apnp] con la contraseña APN si corresponde. Deje los marcadores vacíos si no se usan.
 
 - Establecer el intervalo de actualización a 120 segundos
 ```

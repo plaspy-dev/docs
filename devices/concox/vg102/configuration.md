@@ -73,7 +73,7 @@ When configured, the VG102 sends GNSS position, event alerts, and device status 
 
 ## Example Configuration Commands
 
-To set the VG102 tracker using SMS, send the following commands in order. These are the public SMS commands provided by the manufacturer. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN values when sending.
+To set the VG102 tracker using SMS, send the following commands in order. These are the public SMS commands provided by the manufacturer. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your operator APN values when sending.
 
 - Optional initial factory reset when needed
 ```text
@@ -87,11 +87,11 @@ GMT,E,0#
 
 - Set the operator APN
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 If your APN requires username and password, include them as placeholders
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to use the Plaspy domain and port (UDP or TCP can be used on port 8888)
@@ -123,8 +123,8 @@ GPRSSET#
 ```
 
 Notes on placeholders
-- {{apn}} is the operator APN domain such as internet or the operator specific APN.
-- {{apnu}} and {{apnp}} are optional APN username and password fields when required by the mobile operator.
+- [apn] is the operator APN domain such as internet or the operator specific APN.
+- [apnu] and [apnp] are optional APN username and password fields when required by the mobile operator.
 
 ## Configuration Notes
 

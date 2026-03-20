@@ -75,7 +75,7 @@ The BN-405C is configured to send location and status messages to Plaspy using t
 
 ## Example Configuration Commands
 
-The BN-405C supports SMS based configuration. The following public SMS commands are presented in the same order often used for initial setup. The device default password used in these examples is 123456. Replace placeholders such as {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, APN username, and APN password respectively.
+The BN-405C supports SMS based configuration. The following public SMS commands are presented in the same order often used for initial setup. The device default password used in these examples is 123456. Replace placeholders such as [apn], [apnu], and [apnp] with your operator APN, APN username, and APN password respectively.
 
 Optional initial factory reset
 ```
@@ -89,12 +89,12 @@ time zone123456 0
 
 Set the operator APN
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 Set the APN username and password
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 Set the GPRS server by IP address and port
@@ -128,9 +128,9 @@ protocol123456 18
 ```
 
 Notes on placeholders
-- {{apn}} is the mobile operator access point name required for data.
-- {{apnu}} is the APN username for networks that require authentication.
-- {{apnp}} is the APN password for networks that require authentication.
+- [apn] is the mobile operator access point name required for data.
+- [apnu] is the APN username for networks that require authentication.
+- [apnp] is the APN password for networks that require authentication.
 
 If your installation uses the domain rather than the IP you can set the server accordingly using any manufacturer supported command syntax that accepts domain names. The example adminip command above uses the public Plaspy IP as provided.
 

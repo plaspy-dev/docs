@@ -87,22 +87,22 @@ El fabricante proporciona la siguiente secuencia de comandos SMS como ejemplo p�
 FORMAT
 ```
 
-- Configure el APN del operador (reemplace {{apn}} por el APN de su operador):
+- Configure el APN del operador (reemplace [apn] por el APN de su operador):
 
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establezca el nombre de usuario del APN (reemplace {{apnu}} por el nombre de usuario del APN si el operador lo requiere):
+- Establezca el nombre de usuario del APN (reemplace [apnu] por el nombre de usuario del APN si el operador lo requiere):
 
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Configure la contraseña del APN (reemplace {{apnp}} por la contraseña del APN si el operador lo requiere):
+- Configure la contraseña del APN (reemplace [apnp] por la contraseña del APN si el operador lo requiere):
 
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configure el servidor GPRS con la IP y puerto de Plaspy (este es el comando de ejemplo del fabricante; los datos del servidor para Plaspy son IP 54.85.159.138 y puerto 8888):
@@ -118,9 +118,9 @@ CXZT
 ```
 
 Notas sobre los marcadores de posición y la contraseña:
-- {{apn}} es un marcador de posición para el nombre del APN de su operador.
-- {{apnu}} es un marcador de posición para el nombre de usuario del APN si el operador lo requiere.
-- {{apnp}} es un marcador de posición para la contraseña del APN si el operador lo requiere.
+- [apn] es un marcador de posición para el nombre del APN de su operador.
+- [apnu] es un marcador de posición para el nombre de usuario del APN si el operador lo requiere.
+- [apnp] es un marcador de posición para la contraseña del APN si el operador lo requiere.
 - Los comandos SMS de ejemplo anteriores usan la contraseña del dispositivo 123456 según la guía pública del fabricante. Confirme la contraseña correcta para su dispositivo antes de enviar comandos.
 
 ## Notas de configuración

@@ -79,9 +79,9 @@ The XT-4700 manufacturer provides SMS commands for basic setup. Send these comma
 
 - Set the operator APN
 ```text
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
-Explanation: Replace the placeholders with your operator values. {{apn}} is the APN name, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required. If your operator does not require username or password, leave those placeholders empty as appropriate.
+Explanation: Replace the placeholders with your operator values. [apn] is the APN name, [apnu] is the APN username if required, and [apnp] is the APN password if required. If your operator does not require username or password, leave those placeholders empty as appropriate.
 
 - Set the GPRS server to Plaspy
 ```text

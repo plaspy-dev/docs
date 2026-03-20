@@ -83,10 +83,10 @@ Full example Syrus SB script (.tmf)
 >SRT;CONFIG<
 >SXADP**U<
 #configuring the APN
->SRFA{{apn}}<
+>SRFA[apn]<
 >SRFI<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFL[apnu]<
+>SRFP[apnp]<
 #The remote AVL server address and port
 >SXADP0000d.plaspy.com;8888<
 #A Destination Address holding the server destination
@@ -111,13 +111,13 @@ Notas clave sobre comandos y líneas individuales
 ```
 - Parámetros del APN con marcadores
 ```
->SRFA{{apn}}<
->SRFL{{apnu}}<
->SRFP{{apnp}}<
+>SRFA[apn]<
+>SRFL[apnu]<
+>SRFP[apnp]<
 ```
-  - {{apn}} es la cadena APN de la red de su proveedor  
-  - {{apnu}} es el usuario del APN si el operador lo requiere  
-  - {{apnp}} es la contraseña del APN si el operador lo requiere
+  - [apn] es la cadena APN de la red de su proveedor  
+  - [apnu] es el usuario del APN si el operador lo requiere  
+  - [apnp] es la contraseña del APN si el operador lo requiere
 - Apuntar el dispositivo al servidor Plaspy y al puerto
 ```
 >SXADP0000d.plaspy.com;8888<
@@ -136,7 +136,7 @@ Nota: El conjunto exacto de comandos y la secuencia pueden variar ligeramente se
 
 - Las diferencias de firmware pueden cambiar la disponibilidad y la sintaxis de los comandos. Verifique el conjunto de comandos correcto para la versión de firmware de su dispositivo antes de guardar los scripts.  
 - Elija UDP o TCP en función de las condiciones de la red y las políticas de su organización; ambos transportes son compatibles con Plaspy en el puerto 8888.  
-- El script de ejemplo usa marcadores de APN; reemplace {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador antes de subirlo.  
+- El script de ejemplo usa marcadores de APN; reemplace [apn], [apnu] y [apnp] por los valores de su operador antes de subirlo.  
 - Syrus Desk se usa comúnmente para cargar scripts .tmf, pero siga las instrucciones de DCT para su cadena de herramientas exacta.  
 - La comunicación satelital de respaldo y la configuración OTA del PEGASUS Gateway forman parte del ecosistema de productos Syrus y pueden requerir accesorios o herramientas adicionales del proveedor.
 

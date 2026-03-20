@@ -46,7 +46,7 @@ El proceso de configuración deja al TK109 listo para comunicarse de forma confi
 
 - Una unidad TK109 con batería y encendida, con conectividad celular operativa y una SIM que soporte datos GPRS y SMS (si va a usar configuración por SMS).  
 - Acceso al método de configuración oficial de TK‑Star, como comandos SMS o el manual del fabricante.  
-- Datos APN correctos del operador de la SIM para datos móviles; guarde marcadores de APN como {{apn}}, {{apnu}} y {{apnp}} para usar en los comandos SMS.  
+- Datos APN correctos del operador de la SIM para datos móviles; guarde marcadores de APN como [apn], [apnu] y [apnp] para usar en los comandos SMS.  
 - Una forma de enviar SMS al rastreador (un teléfono o un gateway SMS) si usa configuración vía SMS.  
 - Acceso a su cuenta Plaspy para confirmar la visibilidad del dispositivo y monitorear la telemetría entrante tras la configuración.
 
@@ -79,19 +79,19 @@ El TK109 puede configurarse mediante comandos SMS. Los siguientes comandos se ob
 begin123456
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador):
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario del APN (si su operador lo requiere; reemplace {{apnu}} por el usuario APN):
+- Establecer el usuario del APN (si su operador lo requiere; reemplace [apnu] por el usuario APN):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña del APN (si su operador lo requiere; reemplace {{apnp}} por la contraseña APN):
+- Establecer la contraseña del APN (si su operador lo requiere; reemplace [apnp] por la contraseña APN):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Apuntar el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy (esto direcciona el dispositivo a Plaspy):
@@ -111,7 +111,7 @@ gprs123456
 
 Notas sobre los comandos y los marcadores:
 - La contraseña numérica 123456 en estos ejemplos es la contraseña predeterminada común mostrada en documentación pública. Si la contraseña de su dispositivo ha sido cambiada, utilice la contraseña actual en lugar de 123456.  
-- {{apn}}, {{apnu}} y {{apnp}} son marcadores para el APN, el usuario y la contraseña de su operador de SIM. Reemplace con los valores de su operador. Si su operador no requiere usuario o contraseña, los comandos apnuser y apnpasswd no son necesarios.  
+- [apn], [apnu] y [apnp] son marcadores para el APN, el usuario y la contraseña de su operador de SIM. Reemplace con los valores de su operador. Si su operador no requiere usuario o contraseña, los comandos apnuser y apnpasswd no son necesarios.  
 - Use el comando adminip para apuntar directamente a la IP y el puerto del servidor Plaspy; algunos instaladores prefieren usar el dominio d.plaspy.com en las herramientas TK‑Star cuando se aceptan nombres de dominio. Tanto el dominio como la IP apuntan a Plaspy.
 
 ## Notas de configuración

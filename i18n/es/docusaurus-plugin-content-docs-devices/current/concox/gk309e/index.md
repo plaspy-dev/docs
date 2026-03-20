@@ -1,6 +1,7 @@
 ---
 slug: /concox/gk309e
 id: gk309e
+sidebar_key: concogk309e_index_gk309e
 sidebar_label: GK309E
 title: Concox - GK309E
 sidebar_class_name: menu_item_tracker

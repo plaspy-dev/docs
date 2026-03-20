@@ -77,7 +77,7 @@ The ADM50 transmits GNSS coordinates, event telemetry, and alarm signals over GP
 
 The ADM50 manufacturer documentation and configuration tools may offer command line, SMS, or tool driven configuration methods. The exact commands and syntax can vary by firmware and tool version. Because public manufacturer commands are not available in this guide, follow the Neomatica configuration utility or official command reference when applying settings for server address and port. In every method you must configure the destination as d.plaspy.com or 54.85.159.138 and set port 8888, and select UDP or TCP if the device requires a transport choice.
 
-If you obtain Neomatica command examples from official sources, use fenced command blocks in your internal documentation and preserve placeholders such as {{apn}} or {{apnu}} where they are required by the device command syntax.
+If you obtain Neomatica command examples from official sources, use fenced command blocks in your internal documentation and preserve placeholders such as [apn] or [apnu] where they are required by the device command syntax.
 
 ## Configuration Notes
 

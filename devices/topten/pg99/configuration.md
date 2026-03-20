@@ -87,14 +87,14 @@ The following commands are taken from the public TopTen PG99 configuration instr
 ```
 Label: Optional initial reset to restore factory settings when needed.
 
-- Set up APN and GPRS server to point the tracker at Plaspy. Replace the {{apn}}, {{apnu}}, and {{apnp}} placeholders with your SIM operator APN, APN username, and APN password as required:
+- Set up APN and GPRS server to point the tracker at Plaspy. Replace the [apn], [apnu], and [apnp] placeholders with your SIM operator APN, APN username, and APN password as required:
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Notes:
 - IPN is set to the Plaspy server IP 54.85.159.138 (you may use the domain d.plaspy.com if your device accepts a domain instead of IP).
 - COM sets the server port to 8888 which is the shared Plaspy port.
-- APN:{{apn}},{{apnu}},{{apnp}} are placeholders — replace them with the operator APN, username, and password.
+- APN:[apn],[apnu],[apnp] are placeholders — replace them with the operator APN, username, and password.
 - RPT, SLP, RUN are device-specific parameters in the public command sequence; keep them as provided by the manufacturer if applicable.
 
 - Verify or check the current WWW/GPRS settings:

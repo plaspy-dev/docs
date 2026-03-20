@@ -46,7 +46,7 @@ Preparing the PL200 for Plaspy involves configuring the device so it can establi
 
 - A charged PL200 device ready for configuration and with accessible SMS reception.
 - An active SIM card provisioned for mobile data and SMS where the PL200 will operate.
-- The APN details for the SIM operator ready to enter into the device as {{apn}} with optional {{apnu}} and {{apnp}} when applicable.
+- The APN details for the SIM operator ready to enter into the device as [apn] with optional [apnu] and [apnp] when applicable.
 - Access to the official Concox configuration method such as SMS commands or vendor software for device management.
 - A procedure to verify the device is connecting to Plaspy after configuration, for example checking device status in the Plaspy platform.
 
@@ -84,15 +84,15 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace placeholders with your operator values. If username and password are required include {{apnu}} and {{apnp}}:
+- Set the operator APN. Replace placeholders with your operator values. If username and password are required include [apnu] and [apnp]:
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 Optional extended form with username and password:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explanation: {{apn}} is the APN name provided by your mobile operator. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders.
+Explanation: [apn] is the APN name provided by your mobile operator. [apnu] and [apnp] are optional APN username and APN password placeholders.
 
 - Set the GPRS server to use the Plaspy domain on port 8888:
 ```text

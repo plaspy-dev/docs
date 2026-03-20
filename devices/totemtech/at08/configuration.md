@@ -73,7 +73,7 @@ When configured, the AT08 sends GNSS coordinates and device telemetry over the c
 
 ## Example Configuration Commands
 
-The AT08 can be configured by sending SMS commands. The sample commands below use the default device password 000000. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} when you replace them with your operator values.
+The AT08 can be configured by sending SMS commands. The sample commands below use the default device password 000000. Preserve the placeholders [apn], [apnu], and [apnp] when you replace them with your operator values.
 
 - Optional factory reset (use only when needed as an initial reset)
 ```text
@@ -82,9 +82,9 @@ The AT08 can be configured by sending SMS commands. The sample commands below us
 
 - Set the operator APN and credentials
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-Explanation: replace {{apn}} with your carrier APN, {{apnu}} with APN username if required, and {{apnp}} with APN password if required. If your operator does not require username or password, leave placeholders empty according to device SMS rules.
+Explanation: replace [apn] with your carrier APN, [apnu] with APN username if required, and [apnp] with APN password if required. If your operator does not require username or password, leave placeholders empty according to device SMS rules.
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port
 ```text

@@ -80,19 +80,19 @@ To set the tracker send the following commands by SMS messages. Begin each SMS w
 
 1) Set the GPRS server and APN
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 2) Set the APN user and password (send only if your APN requires username or password)
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 Notes on placeholders:
 - {{trackerID}} — the device ID or IMEI prefix required by the GP 5000 SMS command format
-- {{apn}} — the APN name for your mobile operator
-- {{apnu}} — APN username if required by the operator; leave empty if not needed
-- {{apnp}} — APN password if required by the operator; leave empty if not needed
+- [apn] — the APN name for your mobile operator
+- [apnu] — APN username if required by the operator; leave empty if not needed
+- [apnp] — APN password if required by the operator; leave empty if not needed
 
 Send these SMS commands from an authorized phone number to the device SIM number. Confirm success by checking the device response SMS (if supported) or by validating the device appears in Plaspy after the configuration has been applied.
 

@@ -1,6 +1,7 @@
 ---
 slug: /bofan/pt_502
 id: pt_502
+sidebar_key: bofapt_502_index_pt_502
 sidebar_label: PT-502
 title: Bofan - PT-502
 sidebar_class_name: menu_item_tracker

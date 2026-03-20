@@ -76,7 +76,7 @@ When configured for Plaspy, the AT-7 opens a TCP or UDP session to the shared Pl
 
 The exact commands or menu paths for configuring an AT-7 vary by manufacturer tool and firmware. Autoseeker devices may provide a configuration app, SMS command set, or USB/serial utility; consult the official AT-7 configuration documentation for precise command syntax. Because commands and placeholders change with firmware releases, follow Autoseeker guidance for current command formats and examples.
 
-If you have an Autoseeker command set from the manufacturer, typical public actions will include replacing the server target with d.plaspy.com or 54.85.159.138 and setting port 8888, then saving and restarting the device. Preserve any APN or SIM placeholders from manufacturer templates such as {{apn}} or {{apnu}} when you insert your carrier settings.
+If you have an Autoseeker command set from the manufacturer, typical public actions will include replacing the server target with d.plaspy.com or 54.85.159.138 and setting port 8888, then saving and restarting the device. Preserve any APN or SIM placeholders from manufacturer templates such as [apn] or [apnu] when you insert your carrier settings.
 
 ## Configuration Notes
 

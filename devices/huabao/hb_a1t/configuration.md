@@ -81,8 +81,8 @@ Exact configuration commands and the method of sending them vary by Huabao firmw
 
 If you have an SMS or terminal command set from Huabao, apply the server settings shown in this guide and preserve placeholders such as APN values if present. For example, typical placeholder usage might look like this in manufacturer examples:
 
-- Replace {{apn}} with your SIM operator APN
-- Replace {{apnu}} and {{apnp}} with APN username and password if required
+- Replace [apn] with your SIM operator APN
+- Replace [apnu] and [apnp] with APN username and password if required
 
 Refer to Huabao documentation for the exact SMS syntax and ordering required for your firmware version.
 

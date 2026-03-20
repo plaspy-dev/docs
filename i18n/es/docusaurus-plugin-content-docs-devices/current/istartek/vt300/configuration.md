@@ -87,11 +87,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace {{apn}}, and optionally {{apnu}} and {{apnp}} if your operator requires username and password):
+- Set the operator APN (replace [apn], and optionally [apnu] and [apnp] if your operator requires username and password):
 ```
-APN,{{apn}}{{? ,{{apnu}},{{apnp}}}}#
+APN,[apn]{{? ,[apnu],[apnp]}}#
 ```
-Explanation: Replace {{apn}} with your operator APN. If your operator requires an APN username and password, include {{apnu}} and {{apnp}} respectively. The device accepts APN,APN[,username,password] format.
+Explanation: Replace [apn] with your operator APN. If your operator requires an APN username and password, include [apnu] and [apnp] respectively. The device accepts APN,APN[,username,password] format.
 
 - Set the GPRS server by domain (primary example pointing to Plaspy):
 ```
@@ -116,7 +116,7 @@ PARAM#
 Notes on these commands:
 - The factory reset command FACTORY# should be used only when an initial reset is required.
 - Keep the SERVER command format exactly as shown; the second field (0 or 1) selection may control whether IP or domain is used depending on firmware behavior.
-- The APN command uses placeholders {{apn}}, {{apnu}}, and {{apnp}} which you must replace with the actual APN, username, and password provided by your mobile operator.
+- The APN command uses placeholders [apn], [apnu], and [apnp] which you must replace with the actual APN, username, and password provided by your mobile operator.
 
 ## Notas de configuración
 

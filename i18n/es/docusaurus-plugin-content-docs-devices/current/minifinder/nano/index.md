@@ -1,6 +1,7 @@
 ---
 slug: /minifinder/nano
 id: nano
+sidebar_key: minifindenano_index_nano
 sidebar_label: Nano
 title: MiniFinder - Nano
 sidebar_class_name: menu_item_tracker

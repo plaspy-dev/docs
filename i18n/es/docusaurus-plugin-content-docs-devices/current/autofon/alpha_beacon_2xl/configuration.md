@@ -79,7 +79,7 @@ El Alpha-Beacon 2XL reporta ubicación y telemetría a Plaspy utilizando los can
 
 El método de configuración del Alpha-Beacon 2XL puede variar según el firmware y dependiendo de si usa el portal AvtoFon KSA, la app móvil o cadenas de comandos por SMS. No se proporciona un conjunto público universal de comandos en esta página; siga las instrucciones de AutoFon o utilice la interfaz oficial de configuración. Si administra el rastreador mediante comandos SMS o una utilidad local de configuración, ingrese la dirección del servidor Plaspy d.plaspy.com o 54.85.159.138 y configure el puerto 8888, seleccionando UDP o TCP cuando el dispositivo lo solicite.
 
-Si dispone de ejemplos de comandos proporcionados por el fabricante o una sintaxis SMS de AutoFon, conserve esos comandos y su orden exacta al aplicarlos. Los marcadores de posición como {{apn}} o {{apnu}} que aparezcan en la documentación del fabricante deben mantenerse como marcadores hasta reemplazarlos por sus credenciales de red cuando sea necesario.
+Si dispone de ejemplos de comandos proporcionados por el fabricante o una sintaxis SMS de AutoFon, conserve esos comandos y su orden exacta al aplicarlos. Los marcadores de posición como [apn] o [apnu] que aparezcan en la documentación del fabricante deben mantenerse como marcadores hasta reemplazarlos por sus credenciales de red cuando sea necesario.
 
 ## Notas de configuración
 

@@ -84,9 +84,9 @@ El AT07 admite configuración por SMS. Los siguientes comandos SMS públicos mue
 
 - Establecer el APN del operador (reemplace los marcadores con los valores de su operador)
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} es el nombre del punto de acceso, {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Complete u omita usuario y contraseña según los requisitos de su operador de SIM.
+Explicación: [apn] es el nombre del punto de acceso, [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Complete u omita usuario y contraseña según los requisitos de su operador de SIM.
 
 - Configurar el servidor GPRS a Plaspy usando la IP pública y el puerto
 ```text

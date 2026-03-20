@@ -76,7 +76,7 @@ Cuando la Lola S se configura para Plaspy, envía sus coordenadas GNSS y los men
 
 Los comandos exactos y la sintaxis dependen del firmware de Laipac y de la herramienta de configuración del proveedor. Los dispositivos Laipac se configuran habitualmente mediante la herramienta web del fabricante, una utilidad de escritorio o servicios de aprovisionamiento del proveedor. Use el método oficial de Laipac para fijar el servidor en d.plaspy.com o 54.85.159.138 y el puerto 8888, y seleccione UDP o TCP según el transporte deseado.
 
-Si dispone de comandos públicos específicos o de un conjunto de comandos por SMS proporcionado por Laipac a través de su proveedor, siga el orden y la sintaxis indicados en ese material oficial y mantenga cualquier marcador de posición como {{apn}} o {{apnu}} cuando estén presentes. Conserve siempre el manual del dispositivo o la guía de aprovisionamiento para confirmar los comandos correctos según su firmware.
+Si dispone de comandos públicos específicos o de un conjunto de comandos por SMS proporcionado por Laipac a través de su proveedor, siga el orden y la sintaxis indicados en ese material oficial y mantenga cualquier marcador de posición como [apn] o [apnu] cuando estén presentes. Conserve siempre el manual del dispositivo o la guía de aprovisionamiento para confirmar los comandos correctos según su firmware.
 
 ## Notas de configuración
 

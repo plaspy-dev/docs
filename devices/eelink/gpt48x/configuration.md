@@ -73,7 +73,7 @@ The GPT48‑X is configured to report GNSS positions and device telemetry to the
 
 ## Example Configuration Commands
 
-The GPT48‑X supports SMS based configuration. The following public commands are provided by the manufacturer and should be sent as SMS messages to the device. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when you supply operator specific values.
+The GPT48‑X supports SMS based configuration. The following public commands are provided by the manufacturer and should be sent as SMS messages to the device. Preserve placeholders such as [apn], [apnu], and [apnp] when you supply operator specific values.
 
 - Reset device to factory defaults (optional initial step):
 ```text
@@ -85,13 +85,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace {{apn}} with your carrier APN; if your APN requires username or password include {{apnu}} and {{apnp}}):
+- Set the operator APN (replace [apn] with your carrier APN; if your APN requires username or password include [apnu] and [apnp]):
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 If your APN requires username and password use:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to Plaspy by domain (recommended):
@@ -115,8 +115,8 @@ PARAM#
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator APN string required for data connectivity.  
-- {{apnu}} and {{apnp}} are optional APN username and password fields when the operator requires them.
+- [apn] is the mobile operator APN string required for data connectivity.  
+- [apnu] and [apnp] are optional APN username and password fields when the operator requires them.
 
 If you use the domain SERVER,1,d.plaspy.com,8888# the tracker will resolve the domain to Plaspy's IP and connect to port 8888. Both the domain and the IP examples above are public configuration options.
 

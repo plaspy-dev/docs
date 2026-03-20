@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/eco5_lite
 id: eco5_lite
+sidebar_key: rupteleco5_lite_index_eco5_lite
 sidebar_label: Eco5 Lite
 title: Ruptela - Eco5 Lite
 sidebar_class_name: menu_item_tracker

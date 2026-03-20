@@ -77,13 +77,13 @@ El TT8850 se configura para reportar al endpoint y puerto compartidos de Plaspy,
 El TT8850 puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos de ejemplo muestran una secuencia común para configurar APN, servidor, intervalo de actualización, SOS y modo de energía. La muestra usa la contraseña SMS del dispositivo SM8570 según las instrucciones públicas de SkyPatrol. Preserve los marcadores de posición cuando los reemplace por los valores de su operador.
 
 - Nota sobre los marcadores de posición
-  - {{apn}} es el APN del operador móvil
-  - {{apnu}} es el nombre de usuario del APN si es requerido
-  - {{apnp}} es la contraseña del APN si es requerida
+  - [apn] es el APN del operador móvil
+  - [apnu] es el nombre de usuario del APN si es requerido
+  - [apnp] es la contraseña del APN si es requerida
 
 1. Establecer el APN del operador
 ```text
-AT+GTBSI=SM8570,{{apn}},{{apnu}},{{apnp}},,,,,0002$
+AT+GTBSI=SM8570,[apn],[apnu],[apnp],,,,,0002$
 ```
 
 2. Configurar el servidor GPRS a Plaspy (en este ejemplo se incluyen dominio e IP)

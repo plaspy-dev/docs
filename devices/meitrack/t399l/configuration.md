@@ -46,7 +46,7 @@ The goal of configuring a Meitrack T399L for Plaspy is to prepare the tracker to
 
 - A powered and accessible Meitrack T399L with its factory password available. The public sample commands use default password 0000.  
 - An active SIM card with a working mobile data plan and SMS capability for sending configuration commands.  
-- The correct APN information for the SIM provider to enable GPRS data. Placeholders such as {{apn}} may be required when entering commands.  
+- The correct APN information for the SIM provider to enable GPRS data. Placeholders such as [apn] may be required when entering commands.  
 - Access to the official Meitrack configuration method for your device firmware version such as SMS or manufacturer software.  
 - A Plaspy account or administrator access so you can confirm the device appears in the platform after configuration.  
 - Basic tools to restart or power cycle the device after applying configuration if required.
@@ -67,7 +67,7 @@ When configured, the T399L reports location and events to the Plaspy shared serv
 2. Enter the Plaspy server as either the domain d.plaspy.com or the IP 54.85.159.138 in the device GPRS server settings.  
 3. Set the port to 8888 for the GPRS/server entry.  
 4. Choose UDP or TCP transport if the device requires a transport selection. Plaspy supports both on the same port.  
-5. Provide the APN and any APN username or password placeholders required by your SIM such as {{apn}}, {{apnu}}, and {{apnp}}.  
+5. Provide the APN and any APN username or password placeholders required by your SIM such as [apn], [apnu], and [apnp].  
 6. Apply or save the configuration and restart or power cycle the tracker if the device requires a restart to apply new settings.  
 7. Validate that the device is reporting to Plaspy by checking connectivity in your Plaspy account or by confirming receipt of position/events on the platform.
 
@@ -80,13 +80,13 @@ The following SMS commands are derived from the publicly available model configu
 0000,F11
 ```
 
-2. Set the GPRS server to Plaspy using either domain or IP Replace {{apn}} with the SIM operator APN. If your SIM requires APN username or APN password include {{apnu}} and {{apnp}} in that order
+2. Set the GPRS server to Plaspy using either domain or IP Replace [apn] with the SIM operator APN. If your SIM requires APN username or APN password include [apnu] and [apnp] in that order
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Note: You can substitute d.plaspy.com for the IP address if the device accepts a domain name:
 ```
-0000,A21,2,d.plaspy.com,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,d.plaspy.com,8888,[apn],[apnu],[apnp]
 ```
 
 3. Set the time zone to UTC 0
@@ -105,9 +105,9 @@ Note: You can substitute d.plaspy.com for the IP address if the device accepts a
 ```
 
 Placeholders explanation:
-- {{apn}} is the mobile operator APN required for GPRS data connectivity  
-- {{apnu}} is the APN username when required by the operator  
-- {{apnp}} is the APN password when required by the operator
+- [apn] is the mobile operator APN required for GPRS data connectivity  
+- [apnu] is the APN username when required by the operator  
+- [apnp] is the APN password when required by the operator
 
 Send these SMS commands in the order shown when order matters, and confirm success messages from the device where supported. Use the factory reset command only when needed.
 

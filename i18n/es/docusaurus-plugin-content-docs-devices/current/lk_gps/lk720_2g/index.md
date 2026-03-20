@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk720_2g
 id: lk720_2g
+sidebar_key: lk_gplk720_2g_index_lk720_2g
 sidebar_label: LK720-2G
 title: LK-GPS - LK720-2G
 sidebar_class_name: menu_item_tracker

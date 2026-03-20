@@ -77,21 +77,21 @@ The AT111 can be configured using SMS commands. The following public commands ar
 
 - Set the operator APN
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
-(Replace {{apn}} with your mobile operator APN string.)
+(Replace [apn] with your mobile operator APN string.)
 
 - Set the username of APN operator (optional)
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
-(Replace {{apnu}} with the APN username if your operator requires one.)
+(Replace [apnu] with the APN username if your operator requires one.)
 
 - Set the password of APN operator (optional)
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
-(Replace {{apnp}} with the APN password if your operator requires one.)
+(Replace [apnp] with the APN password if your operator requires one.)
 
 - Set the GPRS server to the Plaspy numeric endpoint
 ```text

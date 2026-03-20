@@ -96,9 +96,9 @@ AT$FORM=1,@P,0,""
 
 - Set the GPRS server with APN placeholders and the Plaspy server IP and port
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
-Explanation: {{apn}} is the carrier APN, {{apnu}} is the APN username, and {{apnp}} is the APN password. Replace these placeholders with your SIM carrier values.
+Explanation: [apn] is the carrier APN, [apnu] is the APN username, and [apnp] is the APN password. Replace these placeholders with your SIM carrier values.
 
 - Check device status (verification command)
 ```text

@@ -73,7 +73,7 @@ El GT02 usa su conexión GSM/GPRS para enviar posiciones GPS y mensajes de estad
 
 ## Comandos de configuración de ejemplo
 
-La documentación del fabricante del GT02 provee un conjunto de comandos SMS para la configuración pública. Estos ejemplos usan la contraseña por defecto 666666 que aparece en la documentación pública. Preserve cualquier marcador de posición como {{apn}}, {{apnu}} y {{apnp}} y reemplácelo con el APN, usuario y contraseña de su operador según sea necesario.
+La documentación del fabricante del GT02 provee un conjunto de comandos SMS para la configuración pública. Estos ejemplos usan la contraseña por defecto 666666 que aparece en la documentación pública. Preserve cualquier marcador de posición como [apn], [apnu] y [apnp] y reemplácelo con el APN, usuario y contraseña de su operador según sea necesario.
 
 - Reinicio a fábrica inicial opcional (usar solo si desea restaurar la configuración de fábrica):
 ```text
@@ -85,11 +85,11 @@ FACTORY,666666#
 gmt,666666,e,0#
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} y opcionalmente {{apnu}} y {{apnp}}):
+- Configurar el APN del operador (reemplazar [apn] y opcionalmente [apnu] y [apnp]):
 ```text
-APN,666666,{{apn}},{{apnu}},{{apnp}}#
+APN,666666,[apn],[apnu],[apnp]#
 ```
-Nota: Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y reemplácelos con el APN, usuario y contraseña de su operador cuando sea necesario. Si no se requiere usuario o contraseña, omita esos marcadores conforme a la sintaxis del dispositivo.
+Nota: Mantenga los marcadores [apn], [apnu] y [apnp] y reemplácelos con el APN, usuario y contraseña de su operador cuando sea necesario. Si no se requiere usuario o contraseña, omita esos marcadores conforme a la sintaxis del dispositivo.
 
 - Configurar el servidor GPRS para apuntar a Plaspy por IP y puerto (el ejemplo público usa la IP y puerto de Plaspy):
 ```text
@@ -120,7 +120,7 @@ Siga el orden de comandos cuando realice una configuración inicial como se mues
 - Las revisiones de firmware y hardware pueden cambiar la sintaxis de los comandos o el orden de los parámetros; siempre verifique el formato exacto de los SMS en el manual vigente del equipo.
 - Puede elegir UDP o TCP como transporte. La documentación del GT02 muestra la configuración del servidor con parámetros numéricos; siga las indicaciones del fabricante para la selección del transporte.
 - Plaspy utiliza el mismo puerto 8888 para todos los dispositivos soportados y detecta automáticamente el protocolo del rastreador al conectarse.
-- Rellene los marcadores de APN con los datos de su operador. Si su operador requiere un usuario o contraseña para el APN, proporcione {{apnu}} y {{apnp}} como se muestra en el comando APN.
+- Rellene los marcadores de APN con los datos de su operador. Si su operador requiere un usuario o contraseña para el APN, proporcione [apnu] y [apnp] como se muestra en el comando APN.
 
 ## Por qué usar Plaspy con esta configuración
 

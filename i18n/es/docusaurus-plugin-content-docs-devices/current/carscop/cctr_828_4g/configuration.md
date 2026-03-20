@@ -89,14 +89,14 @@ RESET*123456
 TIMEZONE*123456*+00
 ```
 
-3. Establecer el APN del operador (reemplazar {{apn}} por el APN de su operador)
+3. Establecer el APN del operador (reemplazar [apn] por el APN de su operador)
 ```
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
 
-4. Establecer usuario y contraseña del APN si son requeridos (reemplazar {{apnu}} y {{apnp}} por sus credenciales)
+4. Establecer usuario y contraseña del APN si son requeridos (reemplazar [apnu] y [apnp] por sus credenciales)
 ```
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
 
 5. Configurar el servidor GPRS por IP y puerto hacia el servidor Plaspy
@@ -111,9 +111,9 @@ KEEPONLINE*123456
 ```
 
 Explicación de los marcadores:
-- {{apn}} — cadena del APN del operador necesaria para la conexión de datos.
-- {{apnu}} — nombre de usuario del APN opcional.
-- {{apnp}} — contraseña del APN opcional.
+- [apn] — cadena del APN del operador necesaria para la conexión de datos.
+- [apnu] — nombre de usuario del APN opcional.
+- [apnp] — contraseña del APN opcional.
 
 Use estos comandos SMS en el orden mostrado cuando realice la configuración inicial. El comando RESET es opcional y se usa normalmente solo cuando se desea devolver el dispositivo a los valores de fábrica antes de reconfigurarlo.
 

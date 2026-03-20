@@ -75,7 +75,7 @@ El Signal S-2115 se configura para enviar su posición y datos de eventos al end
 
 Los comandos exactos y la sintaxis para el Signal S-2115 dependen del firmware y de las herramientas del fabricante. Algunas unidades aceptan comandos SMS, mientras que otras se configuran mediante la utilidad USB de Navtelekom. Dado que los juegos de comandos son específicos por modelo, consulte el manual de Navtelekom para la sintaxis exacta. Los pasos públicos comunes incluyen enviar los ajustes de servidor y puerto ya sea a través de la herramienta de configuración o por SMS con marcadores de posición para APN o credenciales cuando el equipo lo requiera.
 
-Si cuenta con comandos SMS proporcionados por el proveedor para el Signal S-2115, use el manual del fabricante para formatearlos correctamente e incluya marcadores como {{apn}} si el dispositivo requiere un APN. Los ejemplos de comandos que suelen aparecer en la documentación del fabricante tienen este formato (reemplace los marcadores por sus valores):
+Si cuenta con comandos SMS proporcionados por el proveedor para el Signal S-2115, use el manual del fabricante para formatearlos correctamente e incluya marcadores como [apn] si el dispositivo requiere un APN. Los ejemplos de comandos que suelen aparecer en la documentación del fabricante tienen este formato (reemplace los marcadores por sus valores):
 
 ```text
 SERVER,d.plaspy.com,8888
@@ -87,7 +87,7 @@ o con IP
 SERVER,54.85.159.138,8888
 ```
 
-Si su equipo utiliza una sintaxis SMS con marcadores para APN o autenticación, conserve los marcadores tal como aparecen en la guía del fabricante, por ejemplo {{apn}} {{apnu}} o {{apnp}}, y reemplácelos por los valores de su plan SIM. Consulte el manual de Navtelekom para los formatos exactos de SMS o comandos USB que correspondan a su firmware.
+Si su equipo utiliza una sintaxis SMS con marcadores para APN o autenticación, conserve los marcadores tal como aparecen en la guía del fabricante, por ejemplo [apn] [apnu] o [apnp], y reemplácelos por los valores de su plan SIM. Consulte el manual de Navtelekom para los formatos exactos de SMS o comandos USB que correspondan a su firmware.
 
 ## Notas de configuración
 

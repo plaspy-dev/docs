@@ -79,7 +79,7 @@ Al configurarse para Plaspy, el LK880 Cat1 abre una conexión al endpoint compar
 
 El fabricante del LK880 Cat1 puede ofrecer herramientas de configuración por SMS, dentro de la app o vía web que aceptan la dirección del servidor y el puerto. Los formatos exactos de los comandos varían según el firmware del proveedor y la herramienta complementaria que utilice. Como las herramientas del fabricante difieren, siga las instrucciones suministradas por el proveedor para introducir el dominio o la IP del servidor y el puerto 8888, y para seleccionar UDP o TCP cuando sea necesario.
 
-Si su proveedor facilita comandos en texto o plantillas de configuración por SMS, ingrese los valores del servidor Plaspy exactamente como se muestran en la sección Ajustes del servidor Plaspy. Mantenga los marcadores de posición tal como los provea el proveedor, por ejemplo {{apn}} para una cadena APN cuando la SIM lo requiera.
+Si su proveedor facilita comandos en texto o plantillas de configuración por SMS, ingrese los valores del servidor Plaspy exactamente como se muestran en la sección Ajustes del servidor Plaspy. Mantenga los marcadores de posición tal como los provea el proveedor, por ejemplo [apn] para una cadena APN cuando la SIM lo requiera.
 
 ## Notas de configuración
 

@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/tlt_6c
 id: tlt_6c
+sidebar_key: v_sutlt_6c_index_tlt_6c
 sidebar_label: TLT-6C
 title: V-SUN - TLT-6C
 sidebar_class_name: menu_item_tracker

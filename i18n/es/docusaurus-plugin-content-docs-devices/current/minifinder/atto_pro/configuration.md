@@ -80,12 +80,12 @@ tz+00
 
 2. Establecer el APN del operador
 ```
-S1,{{apn}},{{apnu}},{{apnp}}
+S1,[apn],[apnu],[apnp]
 ```
-- {{apn}} es la cadena APN del operador móvil.  
-- {{apnu}} es el usuario APN opcional si el operador lo requiere.  
-- {{apnp}} es la contraseña APN opcional si el operador lo requiere.  
-- Si su operador no requiere usuario ni contraseña, envíe solo S1,{{apn}}.
+- [apn] es la cadena APN del operador móvil.  
+- [apnu] es el usuario APN opcional si el operador lo requiere.  
+- [apnp] es la contraseña APN opcional si el operador lo requiere.  
+- Si su operador no requiere usuario ni contraseña, envíe solo S1,[apn].
 
 3. Establecer el servidor GPRS a Plaspy (IP y puerto)
 ```
@@ -99,7 +99,7 @@ Nota: Estos comandos son ejemplos públicos incluidos en la guía del dispositiv
 
 - Variaciones de firmware: Los nombres y formatos de los comandos pueden cambiar entre versiones de firmware o revisiones de hardware; confirme la sintaxis exacta con la documentación de MiniFinder.  
 - SMS versus herramienta: El Atto Pro incluye ejemplos de configuración por SMS; algunos instaladores usan una aplicación de configuración dedicada o un portal del proveedor para despliegues masivos.  
-- Marcadores APN: Mantenga {{apn}}, {{apnu}} y {{apnp}} como marcadores al preparar comandos SMS; reemplácelos por los valores de su operador.  
+- Marcadores APN: Mantenga [apn], [apnu] y [apnp] como marcadores al preparar comandos SMS; reemplácelos por los valores de su operador.  
 - Elección de transporte: Si su despliegue requiere UDP o TCP, seleccione el transporte adecuado en el dispositivo; Plaspy acepta ambos y maneja automáticamente la detección de protocolo.  
 - Política de puerto único: Plaspy usa el mismo puerto 8888 para todos los dispositivos soportados, lo que simplifica la configuración del servidor entre modelos.
 

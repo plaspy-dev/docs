@@ -82,11 +82,11 @@ The TLD2-L can be configured using SMS commands. The following example commands 
 GMT,0000,0#
 ```
 
-- Set the APN. Replace {{apn}}, {{apnu}}, and {{apnp}} with your SIM operator APN name, username, and password as required
+- Set the APN. Replace [apn], [apnu], and [apnp] with your SIM operator APN name, username, and password as required
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-(Explanation: {{apn}} is the APN name supplied by the mobile operator. {{apnu}} and {{apnp}} are optional APN username and password fields. Keep the braces as placeholders and replace them with your operator values.)
+(Explanation: [apn] is the APN name supplied by the mobile operator. [apnu] and [apnp] are optional APN username and password fields. Keep the braces as placeholders and replace them with your operator values.)
 
 - Set the GPRS server to the Plaspy server IP and port
 ```text

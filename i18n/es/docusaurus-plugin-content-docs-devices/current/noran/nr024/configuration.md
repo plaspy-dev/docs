@@ -77,16 +77,16 @@ El NR024 se configura para enviar ubicación en tiempo real y el estado del disp
 
 Los siguientes comandos SMS son ejemplos públicos para la configuración por SMS del NR024. La configuración de ejemplo usa la contraseña del dispositivo 000000 en estos comandos. Mantenga los marcadores de posición donde se muestran y reemplácelos por los valores de su operador.
 
-- Establecer el APN del operador. Reemplace {{apn}} por el APN de su operador. Opcionalmente incluya {{apnu}} y {{apnp}} si su APN requiere usuario y contraseña.
+- Establecer el APN del operador. Reemplace [apn] por el APN de su operador. Opcionalmente incluya [apnu] y [apnp] si su APN requiere usuario y contraseña.
 
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 
 Comando APN extendido opcional con usuario y contraseña como marcadores de posición:
 
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto. Esto apunta el dispositivo al endpoint de Plaspy y al puerto 8888.
@@ -108,9 +108,9 @@ A000000,004
 ```
 
 Notas sobre marcadores de posición y valores predeterminados:
-- {{apn}} es el APN del operador móvil.  
-- {{apnu}} es el usuario del APN, si se requiere.  
-- {{apnp}} es la contraseña del APN, si se requiere.  
+- [apn] es el APN del operador móvil.  
+- [apnu] es el usuario del APN, si se requiere.  
+- [apnp] es la contraseña del APN, si se requiere.  
 - Los ejemplos usan la contraseña predeterminada del dispositivo 000000 tal como aparece en la documentación pública de Noran. Si su contraseña es diferente, sustitúyala en la misma posición.
 
 ## Notas de configuración

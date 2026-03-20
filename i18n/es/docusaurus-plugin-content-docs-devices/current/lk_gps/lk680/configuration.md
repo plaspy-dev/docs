@@ -79,7 +79,7 @@ Cuando está configurado, el LK680 envía su posición GNSS, eventos de movimien
 
 El LK680 puede configurarse usando las herramientas del fabricante LK-GPS, comandos SMS o una app de configuración del dispositivo. Los comandos exactos y la sintaxis varían según el firmware y la herramienta del proveedor. Dado que los comandos del fabricante son específicos del kit de dispositivo y la versión de firmware, consulte la documentación oficial de LK-GPS o la guía de configuración suministrada por su proveedor para el conjunto preciso de comandos que apunten el dispositivo a d.plaspy.com o 54.85.159.138 en el puerto 8888.
 
-Si tiene ejemplos de comandos LK-GPS de la documentación de su dispositivo, aplíquelos aquí reemplazando los valores de destino y puerto por los ajustes de Plaspy y siguiendo el orden de comandos requerido. Para la configuración del APN, conserve los marcadores de posición como {{apn}} en sus comandos y sustitúyalos por los valores del APN del operador.
+Si tiene ejemplos de comandos LK-GPS de la documentación de su dispositivo, aplíquelos aquí reemplazando los valores de destino y puerto por los ajustes de Plaspy y siguiendo el orden de comandos requerido. Para la configuración del APN, conserve los marcadores de posición como [apn] en sus comandos y sustitúyalos por los valores del APN del operador.
 
 ## Notas de configuración
 

@@ -1,6 +1,7 @@
 ---
 slug: /trackerking/g509
 id: g509
+sidebar_key: trackerking509_index_g509
 sidebar_label: G509
 title: TrackerKing - G509
 sidebar_class_name: menu_item_tracker

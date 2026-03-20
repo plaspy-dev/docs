@@ -73,7 +73,7 @@ When a T19 is configured for Plaspy, it is set to report its GPS and device stat
 
 ## Example Configuration Commands
 
-The following SMS commands are the publicly documented commands for the AoYa T19. The default device password in these examples is 123456. Send these commands by SMS to the device number. Preserve the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN and optional username and password.
+The following SMS commands are the publicly documented commands for the AoYa T19. The default device password in these examples is 123456. Send these commands by SMS to the device number. Preserve the placeholders [apn], [apnu], and [apnp] and replace them with your operator APN and optional username and password.
 
 - Factory reset (optional initial setup)
 ```text
@@ -85,14 +85,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 - Set the APN username and password if required (replace placeholders as needed)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the Plaspy server IP and port
@@ -116,9 +116,9 @@ check123456
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator APN string.
-- {{apnu}} is the APN username if required by your operator.
-- {{apnp}} is the APN password if required by your operator.
+- [apn] is the mobile operator APN string.
+- [apnu] is the APN username if required by your operator.
+- [apnp] is the APN password if required by your operator.
 
 ## Configuration Notes
 

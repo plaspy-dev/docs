@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st419ng
 id: st419ng
+sidebar_key: suntecst419ng_index_st419ng
 sidebar_label: ST419NG
 title: Suntech - ST419NG
 sidebar_class_name: menu_item_tracker

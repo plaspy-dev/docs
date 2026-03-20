@@ -77,20 +77,20 @@ Los siguientes comandos de ejemplo se extraen de contenido público de configura
 
 Notas sobre los marcadores de posición
 - {{imei}} es el IMEI del dispositivo y debe reemplazarse por el IMEI del rastreador
-- {{apn}} es el nombre del APN celular, si aplica
-- {{apnu}} es el nombre de usuario del APN si su operador lo requiere
-- {{apnp}} es la contraseña del APN si su operador lo requiere
+- [apn] es el nombre del APN celular, si aplica
+- [apnu] es el nombre de usuario del APN si su operador lo requiere
+- [apnp] es la contraseña del APN si su operador lo requiere
 - E0 y E1 en el comando se utilizan para establecer la IP y el puerto del servidor Plaspy respectivamente
 - El sufijo *{{checksum}} o *{{checksumreeboot}} debe reemplazarse con el checksum calculado por el dispositivo sobre la parte del comando anterior al asterisco, usando el algoritmo de checksum del rastreador
 
 1. Comando de configuración para apuntar el rastreador a Plaspy y establecer parámetros de red
 
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Este comando establece los marcadores de APN y la IP y el puerto del servidor Plaspy.
-- Mantenga los marcadores {{apn}}, {{apnu}}, {{apnp}} si su operador requiere credenciales APN; de lo contrario pueden dejarse vacíos o eliminarse según las indicaciones del fabricante.
+- Mantenga los marcadores [apn], [apnu], [apnp] si su operador requiere credenciales APN; de lo contrario pueden dejarse vacíos o eliminarse según las indicaciones del fabricante.
 - E0 se establece en la IP del servidor Plaspy 54.85.159.138 y E1 en el puerto 8888, según lo requerido por Plaspy.
 
 2. Comando opcional de reinicio para aplicar los ajustes inmediatamente

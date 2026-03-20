@@ -1,6 +1,7 @@
 ---
 slug: /nvs/signal_s_2115
 id: signal_s_2115
+sidebar_key: nvsignal_s_2115_index_signal_s_2115
 sidebar_label: SIGNAL S-2115
 title: NVS - SIGNAL S-2115
 sidebar_class_name: menu_item_tracker

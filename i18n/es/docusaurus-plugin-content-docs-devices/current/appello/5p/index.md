@@ -1,6 +1,7 @@
 ---
 slug: /appello/5p
 id: 5p
+sidebar_key: appell5p_index_5p
 sidebar_label: 5P
 title: Appello - 5P
 sidebar_class_name: menu_item_tracker

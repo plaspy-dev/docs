@@ -99,12 +99,12 @@ Explanation: This command switches the output format. Use the format recommended
 
 - Configure the GPRS server to Plaspy
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 Explanation: Set the GPRS profile with your APN values. Replace placeholders as follows:
-- {{apn}} is the mobile data APN for your SIM operator.
-- {{apnu}} is the APN username if required by the operator.
-- {{apnp}} is the APN password if required by the operator.
+- [apn] is the mobile data APN for your SIM operator.
+- [apnu] is the APN username if required by the operator.
+- [apnp] is the APN password if required by the operator.
 This command points the AK7 to the Plaspy server IP 54.85.159.138 on port 8888. Plaspy also accepts d.plaspy.com and supports UDP or TCP transport; the platform will auto detect the protocol used.
 
 - Check device status
@@ -117,7 +117,7 @@ Explanation: Query the device status to verify current configuration and connect
 
 - Firmware differences can change available commands and parameter ordering. Always confirm command syntax against the AK7 firmware release notes or ATrack documentation.
 - Choose UDP or TCP based on installation needs; both transports are supported by Plaspy on port 8888 and protocol detection is automatic.
-- Preserve and correctly set APN placeholders {{apn}}, {{apnu}}, and {{apnp}} when configuring GPRS for mobile networks.
+- Preserve and correctly set APN placeholders [apn], [apnu], and [apnp] when configuring GPRS for mobile networks.
 - If you use SMS or the vendor configuration tool instead of direct AT commands, map the same GPRS and reporting parameters into the tool fields.
 - After applying settings, allow time for the device to attach to the cellular network and establish a data session before validating connectivity in Plaspy.
 

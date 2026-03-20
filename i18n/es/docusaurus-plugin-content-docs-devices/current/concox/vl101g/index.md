@@ -1,6 +1,7 @@
 ---
 slug: /concox/vl101g
 id: vl101g
+sidebar_key: concovl101g_index_vl101g
 sidebar_label: VL101G
 title: Concox - VL101G
 sidebar_class_name: menu_item_tracker

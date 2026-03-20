@@ -92,9 +92,9 @@ pw,123456,imsi#
 ```
 
 4. Configurar el APN y parámetros del operador
-Nota: {{apn}}, {{apnu}} y {{apnp}} son marcadores de posición. Reemplácelos con el APN, usuario y contraseña de su operador. El sufijo xxxyy representa MCC y MNC concatenados cuando sea requerido.
+Nota: [apn], [apnu] y [apnp] son marcadores de posición. Reemplácelos con el APN, usuario y contraseña de su operador. El sufijo xxxyy representa MCC y MNC concatenados cuando sea requerido.
 ```
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 
 5. Configurar el servidor GPRS con la IP y puerto de Plaspy

@@ -81,13 +81,13 @@ The manufacturer provides SMS command templates for the TK103R. The sample comma
 ```
 W000000,990,099###
 ```
-2. Set the device ID using the first 14 digits of the IMEI (manufacturer template). Replace <IMEI14> with the first 14 digits of the device IMEI. Note that Plaspy identifies devices by the full 15 digit IMEI when registering devices in the platform.
+2. Set the device ID using the first 14 digits of the IMEI (manufacturer template). Replace \<IMEI14> with the first 14 digits of the device IMEI. Note that Plaspy identifies devices by the full 15 digit IMEI when registering devices in the platform.
 ```
 W000000,010,<IMEI14>
 ```
-3. Set the operator APN. Replace {{apn}} with your operator APN and include {{apnu}} and {{apnp}} only if your operator requires an APN username or password. Keep the placeholders if you plan to substitute values later.
+3. Set the operator APN. Replace [apn] with your operator APN and include [apnu] and [apnp] only if your operator requires an APN username or password. Keep the placeholders if you plan to substitute values later.
 ```
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
 (If your APN requires username and password, include them separated by commas. If not, send only the APN field.)
 
@@ -109,10 +109,10 @@ W000000,601
 ```
 
 Placeholders explained:
-- {{apn}} — the mobile operator APN string required for data connection.
-- {{apnu}} — optional APN username if the operator requires one.
-- {{apnp}} — optional APN password if the operator requires one.
-- <IMEI14> — first 14 digits of the device IMEI as required by the manufacturer command template. Use the full 15 digit IMEI when registering the device on Plaspy.
+- [apn] — the mobile operator APN string required for data connection.
+- [apnu] — optional APN username if the operator requires one.
+- [apnp] — optional APN password if the operator requires one.
+- \<IMEI14> — first 14 digits of the device IMEI as required by the manufacturer command template. Use the full 15 digit IMEI when registering the device on Plaspy.
 
 ## Configuration Notes
 

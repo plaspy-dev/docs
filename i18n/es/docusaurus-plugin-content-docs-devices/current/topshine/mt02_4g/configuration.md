@@ -77,7 +77,7 @@ El MT02-4G soporta configuración por SMS. Los siguientes comandos públicos son
 
 Notas:
 - Envíe cada comando como un SMS al número del dispositivo.
-- Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} con su APN de operador, nombre de usuario APN y contraseña APN respectivamente.
+- Reemplace los marcadores como [apn], [apnu] y [apnp] con su APN de operador, nombre de usuario APN y contraseña APN respectivamente.
 - Para el comando de ID del dispositivo, el fabricante indica usar los primeros 14 dígitos del IMEI al establecer el Id; Plaspy identifica los rastreadores por IMEI en su lado.
 
 1. Restablecer a configuración de fábrica (paso inicial opcional)
@@ -93,15 +93,15 @@ Ejemplo: si el IMEI es 123456789012345, use 12345678901234 en el comando.
 
 3. Configurar el APN del operador (reemplace los marcadores)
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 Si su operador requiere nombre de usuario o contraseña APN inclúyalos:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-- {{apn}} = el APN de su operador móvil
-- {{apnu}} = nombre de usuario APN si es requerido
-- {{apnp}} = contraseña APN si es requerida
+- [apn] = el APN de su operador móvil
+- [apnu] = nombre de usuario APN si es requerido
+- [apnp] = contraseña APN si es requerida
 
 4. Establecer el servidor GPRS a Plaspy (este ejemplo usa la IP pública y el puerto de Plaspy)
 ```text

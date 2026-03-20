@@ -86,13 +86,13 @@ Envíe este SMS al dispositivo:
 ```
 
 2. Configurar el APN del operador
-Reemplace {{apn}} por el APN de su operador móvil. Si su operador requiere usuario o contraseña incluya {{apnu}} y {{apnp}} respectivamente. Ejemplos:
+Reemplace [apn] por el APN de su operador móvil. Si su operador requiere usuario o contraseña incluya [apnu] y [apnp] respectivamente. Ejemplos:
 ```
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 o con credenciales
 ```
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
 Nota: Mantenga los marcadores de posición tal como están y sustituya por los valores reales del APN proporcionados por su operadora.
 

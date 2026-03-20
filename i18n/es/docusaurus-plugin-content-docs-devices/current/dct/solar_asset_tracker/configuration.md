@@ -85,10 +85,10 @@ SRT;CONFIG
 SXADP**U
 
 # configuring the APN
-SRFA{{apn}}
+SRFA[apn]
 SRFI
-SRFL{{apnu}}
-SRFP{{apnp}}
+SRFL[apnu]
+SRFP[apnp]
 
 # The remote AVL server address and port
 SXADP0000d.plaspy.com;8888
@@ -123,12 +123,12 @@ Incluido en el script de ejemplo. Consulte la documentación del fabricante para
 
 - Configuración del APN con marcadores
 ```text
-SRFA{{apn}}
-SRFL{{apnu}}
-SRFP{{apnp}}
+SRFA[apn]
+SRFL[apnu]
+SRFP[apnp]
 SRFI
 ```
-Mantenga los marcadores {{apn}} para el APN de su operador, {{apnu}} para el nombre de usuario del APN si se requiere y {{apnp}} para la contraseña del APN si se requiere. La línea SRFI finaliza la configuración del APN en este ejemplo.
+Mantenga los marcadores [apn] para el APN de su operador, [apnu] para el nombre de usuario del APN si se requiere y [apnp] para la contraseña del APN si se requiere. La línea SRFI finaliza la configuración del APN en este ejemplo.
 
 - Servidor remoto y puerto apuntando a Plaspy
 ```text
@@ -146,9 +146,9 @@ SED05NV4;IP3+
 Estas líneas son ejemplos de definiciones de destino y desencadenadores de evento del script. Manténgalas en orden si usa el script de ejemplo.
 
 Nota sobre los marcadores
-- {{apn}} Reemplace con el APN de la red móvil para su operador.
-- {{apnu}} Reemplace con el usuario del APN si su operador lo requiere.
-- {{apnp}} Reemplace con la contraseña del APN si su operador lo requiere.
+- [apn] Reemplace con el APN de la red móvil para su operador.
+- [apnu] Reemplace con el usuario del APN si su operador lo requiere.
+- [apnp] Reemplace con la contraseña del APN si su operador lo requiere.
 
 Confirme siempre la sintaxis exacta que requiere su versión de firmware o Syrus Desk antes de aplicar comandos.
 

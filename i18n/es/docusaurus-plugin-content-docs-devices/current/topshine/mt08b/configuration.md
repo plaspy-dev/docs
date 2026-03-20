@@ -85,13 +85,13 @@ W000000,990,099###
 ```text
 W000000,010,<14-digit-device-id>
 ```
-- Explanation: replace <14-digit-device-id> with the first 14 digits from the device IMEI if required by the device. Plaspy will use the device IMEI (15 digits) to identify the device in the platform.
+- Explanation: replace \<14-digit-device-id> with the first 14 digits from the device IMEI if required by the device. Plaspy will use the device IMEI (15 digits) to identify the device in the platform.
 
 3. Set the operator APN (placeholders preserved)
 ```text
-W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+W000000,011,[apn][,[apnu],[apnp]]
 ```
-- Explanation: replace {{apn}} with your mobile operator APN. If your operator requires a username and password, provide {{apnu}} and {{apnp}} respectively (the comma and placeholders are used only when needed).
+- Explanation: replace [apn] with your mobile operator APN. If your operator requires a username and password, provide [apnu] and [apnp] respectively (the comma and placeholders are used only when needed).
 
 4. Set the GPRS server to Plaspy by IP and port
 ```text
@@ -119,7 +119,7 @@ W000000,601
 ## Notas de configuración
 
 - La configuración por SMS está documentada públicamente por el proveedor y se usa comúnmente para la configuración en campo del MT08B; siga exactamente la sintaxis de comandos del proveedor y mantenga la contraseña del dispositivo.
-- Las credenciales APN son específicas del operador; si su APN requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} en el comando de APN.
+- Las credenciales APN son específicas del operador; si su APN requiere usuario y contraseña, incluya [apnu] y [apnp] en el comando de APN.
 - Elija TCP o UDP según las necesidades de la instalación; Plaspy soporta ambos y detectará automáticamente el protocolo del rastreador cuando el dispositivo se conecte al puerto compartido.
 - El firmware y la sintaxis de comandos pueden diferir entre lotes de producción o versiones de firmware; siempre verifique el formato exacto del comando para su revisión del dispositivo con la documentación de TopShine.
 - Después de aplicar los ajustes, confirme que el dispositivo reporta a Plaspy comprobando que aparece en línea en la plataforma y revisando los mensajes de posición recientes.

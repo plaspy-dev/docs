@@ -76,7 +76,7 @@ Una vez configurado, el TK102 establece conectividad GPRS y reporta su ubicació
 
 ## Ejemplo de comandos de configuración
 
-El Winrich TK102 acepta comandos SMS para la configuración. A continuación están los comandos SMS comúnmente publicados y el orden en que suelen aplicarse. Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} tal como se muestran y reemplácelos por los valores de su operador.
+El Winrich TK102 acepta comandos SMS para la configuración. A continuación están los comandos SMS comúnmente publicados y el orden en que suelen aplicarse. Mantenga los marcadores [apn], [apnu] y [apnp] tal como se muestran y reemplácelos por los valores de su operador.
 
 - Reinicio de fábrica (paso inicial opcional):
 ```text
@@ -90,12 +90,12 @@ El Winrich TK102 acepta comandos SMS para la configuración. A continuación est
 
 - Configurar el APN del operador. Reemplace los marcadores por los valores de su operador. El usuario y la contraseña del APN son opcionales y solo se requieren en algunos operadores:
 ```text
-802#{{apn}}#{{apnu}}#{{apnp}}#
+802#[apn]#[apnu]#[apnp]#
 ```
 Explicación de marcadores:
-- {{apn}} = APN de su operador móvil
-- {{apnu}} = nombre de usuario del APN si el operador lo requiere
-- {{apnp}} = contraseña del APN si el operador la requiere
+- [apn] = APN de su operador móvil
+- [apnu] = nombre de usuario del APN si el operador lo requiere
+- [apnp] = contraseña del APN si el operador la requiere
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto indicados en esta guía:
 ```text
@@ -128,7 +128,7 @@ Siga el orden de comandos anterior cuando el orden sea importante. Envíe cada S
 ## Notas de configuración
 
 - La configuración por SMS es el método público mostrado aquí; algunas variantes o revisiones de firmware pueden admitir además herramientas USB o software del proveedor.
-- Mantenga exactamente los marcadores {{apn}}, {{apnu}} y {{apnp}} como campos de plantilla al preparar los comandos; reemplácelos por los valores del operador al enviar.
+- Mantenga exactamente los marcadores [apn], [apnu] y [apnp] como campos de plantilla al preparar los comandos; reemplácelos por los valores del operador al enviar.
 - Algunos firmwares aceptan nombres de dominio y otros requieren una dirección IP; utilice el formato que soporte su dispositivo y firmware.
 - Plaspy usa el mismo puerto para todos los dispositivos soportados y detecta automáticamente el protocolo del rastreador, por lo que los únicos valores obligatorios del destino de servidor son el dominio o la IP y el puerto 8888.
 - Si su dispositivo permite elegir entre UDP o TCP, pruebe el transporte que ofrezca entrega de paquetes más fiable según las condiciones de su red.

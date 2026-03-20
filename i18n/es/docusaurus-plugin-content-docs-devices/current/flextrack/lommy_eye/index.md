@@ -1,6 +1,7 @@
 ---
 slug: /flextrack/lommy_eye
 id: lommy_eye
+sidebar_key: flextraclommy_eye_index_lommy_eye
 sidebar_label: Lommy Eye
 title: Flextrack - Lommy Eye
 sidebar_class_name: menu_item_tracker

@@ -76,18 +76,18 @@ The ST4915 public configuration content shows SMS-based commands. The manufactur
 
 Notes on placeholders:
 - {{device_id}} — the device ID derived from IMEI as described above.  
-- {{apn}} — the operator APN string required for the SIM data connection.  
-- {{apnu}} — APN username if the operator requires one (keep placeholder if required).  
-- {{apnp}} — APN password if the operator requires one (keep placeholder if required).  
+- [apn] — the operator APN string required for the SIM data connection.  
+- [apnu] — APN username if the operator requires one (keep placeholder if required).  
+- [apnp] — APN password if the operator requires one (keep placeholder if required).  
 - The SA200NTW command contains a flag that should be 1 if APN username or password are provided, otherwise 0.
 
 1) Set the operator APN and GPRS server (replace placeholders as needed):
 
 ```text
-SA200NTW;{{device_id}};02;[0 or 1];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
-- Replace [0 or 1] with 1 if you supply {{apnu}} or {{apnp}}, otherwise 0.  
+- Replace [0 or 1] with 1 if you supply [apnu] or [apnp], otherwise 0.  
 - This command points the tracker to Plaspy at 54.85.159.138 on port 8888 (same port used for all Plaspy devices). You may also use d.plaspy.com in place of the IP if supported by your SMS command syntax or configuration tool.
 
 2) Set the update/reporting interval to 60 seconds (example for frequent reporting; adjust to suit battery life needs):

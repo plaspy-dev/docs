@@ -73,7 +73,7 @@ The VT120-L is configured to send its location and status messages to the Plaspy
 
 ## Example Configuration Commands
 
-The VT120-L can be configured by sending SMS commands. The commands below are presented in the typical order used in public device guides. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when you insert your operator values.
+The VT120-L can be configured by sending SMS commands. The commands below are presented in the typical order used in public device guides. Preserve placeholders such as [apn], [apnu], and [apnp] when you insert your operator values.
 
 - Optional initial factory reset (use only if you need to revert to factory defaults)
 ```text
@@ -85,9 +85,9 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your carrier APN. If your carrier requires username and password include {{apnu}} and {{apnp}} respectively; omit them if not required.
+- Set the operator APN. Replace [apn] with your carrier APN. If your carrier requires username and password include [apnu] and [apnp] respectively; omit them if not required.
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server by domain pointing to Plaspy (uses the device server index 1)
@@ -113,7 +113,7 @@ PARAM#
 Notes on the commands above
 - Send each command as a separate SMS to the VT120-L according to the device instructions.
 - The SERVER command can use either the domain d.plaspy.com or the Plaspy server IP 54.85.159.138; both target Plaspy on port 8888.
-- The APN command includes placeholders {{apn}}, {{apnu}}, and {{apnp}}. Replace these with your operator APN, username, and password where applicable.
+- The APN command includes placeholders [apn], [apnu], and [apnp]. Replace these with your operator APN, username, and password where applicable.
 - The FACTORY# command is optional and should be used only when a reset is required.
 
 ## Configuration Notes

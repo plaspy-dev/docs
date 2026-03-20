@@ -83,21 +83,21 @@ El JT709A puede configurarse enviando comandos por SMS al dispositivo. Reemplace
 Envíe este SMS al número del dispositivo, reemplazando los marcadores según corresponda:
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 - Reemplace {{trackerID}} por el ID del dispositivo.
-- Reemplace {{apn}} por la cadena APN de su operador móvil.
+- Reemplace [apn] por la cadena APN de su operador móvil.
 
 2) Configurar usuario y contraseña del APN si el operador lo requiere
 Este comando es opcional y sólo es necesario cuando el APN exige autenticación:
 
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
-- Reemplace {{apnu}} por el usuario del APN si es requerido.
-- Reemplace {{apnp}} por la contraseña del APN si es requerida.
+- Reemplace [apnu] por el usuario del APN si es requerido.
+- Reemplace [apnp] por la contraseña del APN si es requerida.
 
 Notas sobre los comandos
 - Estos comandos SMS configuran el rastreador para usar la IP del servidor Plaspy 54.85.159.138 y el puerto 8888. Alternativamente puede usar el dominio d.plaspy.com en las herramientas del fabricante si el rastreador soporta nombres de dominio.

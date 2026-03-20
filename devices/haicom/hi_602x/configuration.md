@@ -77,9 +77,9 @@ The HI-602X supports SMS based configuration. The sample public commands shown b
 
 - Set the operator APN (replace placeholders with your APN values)
 ```text
-#0000,200,{{apn}},{{apnu}},{{apnp}}
+#0000,200,[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the APN name provided by your mobile operator. {{apnu}} and {{apnp}} are optional APN username and password fields and can often be left blank if your operator does not require them.
+Explanation: [apn] is the APN name provided by your mobile operator. [apnu] and [apnp] are optional APN username and password fields and can often be left blank if your operator does not require them.
 
 - Set the GPRS server to Plaspy (server IP and port)
 ```text

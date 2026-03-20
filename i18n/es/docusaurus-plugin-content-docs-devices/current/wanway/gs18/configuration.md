@@ -78,16 +78,16 @@ El GS18 soporta configuración vía SMS. Los siguientes comandos son ejemplos p�
 
 1. Configure el APN de su operador
 ```
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Si su operador requiere usuario y contraseña, use la forma extendida
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 - Explicación de los marcadores de posición
-  - {{apn}} es el nombre del APN del operador
-  - {{apnu}} es el usuario del APN si el operador lo solicita
-  - {{apnp}} es la contraseña del APN si el operador la solicita
+  - [apn] es el nombre del APN del operador
+  - [apnu] es el usuario del APN si el operador lo solicita
+  - [apnp] es la contraseña del APN si el operador la solicita
 
 2. Configure el servidor GPRS hacia Plaspy
 ```

@@ -1,6 +1,7 @@
 ---
 slug: /homtecs/h20
 id: h20
+sidebar_key: homtech20_index_h20
 sidebar_label: H20
 title: Homtecs - H20
 sidebar_class_name: menu_item_tracker

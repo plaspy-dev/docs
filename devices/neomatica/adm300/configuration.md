@@ -81,7 +81,7 @@ The ADM300 supports configuration via Neomatica’s official utilities and vendo
 - Port: 8888  
 - Transport: UDP or TCP
 
-If your configuration method uses placeholders for APN or credentials, preserve placeholders such as {{apn}}, {{apnu}}, or {{apnp}} and replace them with your mobile operator values when prompted by the manufacturer tool.
+If your configuration method uses placeholders for APN or credentials, preserve placeholders such as [apn], [apnu], or [apnp] and replace them with your mobile operator values when prompted by the manufacturer tool.
 
 ## Configuration Notes
 

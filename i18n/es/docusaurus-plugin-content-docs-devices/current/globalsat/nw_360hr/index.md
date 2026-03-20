@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/nw_360hr
 id: nw_360hr
+sidebar_key: globalsanw_360hr_index_nw_360hr
 sidebar_label: NW-360HR
 title: GlobalSat - NW-360HR
 sidebar_class_name: menu_item_tracker

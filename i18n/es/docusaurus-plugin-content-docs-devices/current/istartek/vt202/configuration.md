@@ -75,7 +75,7 @@ El VT202 envía datos de posición y eventos a la plataforma Plaspy reportando a
 
 ## Ejemplos de comandos de configuración
 
-El VT202 soporta configuración vía SMS. A continuación están los comandos SMS públicos en el orden comúnmente usado. Preserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} al aplicar los comandos; éstos deben reemplazarse por los valores correctos del APN proporcionados por el operador móvil.
+El VT202 soporta configuración vía SMS. A continuación están los comandos SMS públicos en el orden comúnmente usado. Preserve los marcadores de posición como [apn], [apnu] y [apnp] al aplicar los comandos; éstos deben reemplazarse por los valores correctos del APN proporcionados por el operador móvil.
 
 - Reinicio de fábrica opcional (usar al preparar un equipo por primera vez o para solucionar problemas):
 ```text
@@ -87,13 +87,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario o contraseña, facilite {{apnu}} y {{apnp}} como segundo y tercer parámetro:
+- Configurar el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario o contraseña, facilite [apnu] y [apnp] como segundo y tercer parámetro:
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 o, cuando se requiera usuario y contraseña:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Establecer el servidor GPRS usando el dominio de Plaspy (UDP o TCP determinado por la selección de transporte):
@@ -116,7 +116,7 @@ TIMER,60#
 PARAM#
 ```
 
-Notas sobre marcadores de posición: {{apn}} es el APN de la red móvil. {{apnu}} y {{apnp}} son opcionales y corresponden al nombre de usuario y contraseña del APN si su operador los solicita.
+Notas sobre marcadores de posición: [apn] es el APN de la red móvil. [apnu] y [apnp] son opcionales y corresponden al nombre de usuario y contraseña del APN si su operador los solicita.
 
 ## Notas de configuración
 

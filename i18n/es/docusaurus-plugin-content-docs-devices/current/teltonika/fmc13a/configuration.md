@@ -79,13 +79,13 @@ El siguiente comando público es una actualización de parámetros de una sola l
 - Para establecer APN y parámetros del servidor via SMS o por comando por lotes del dispositivo use:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Breve explicación de marcadores y campos
-  - {{apn}} marcador para el nombre del APN de su proveedor de datos móviles
-  - {{apnu}} marcador para el nombre de usuario del APN si la SIM lo requiere
-  - {{apnp}} marcador para la contraseña del APN si la SIM lo requiere
+  - [apn] marcador para el nombre del APN de su proveedor de datos móviles
+  - [apnu] marcador para el nombre de usuario del APN si la SIM lo requiere
+  - [apnp] marcador para la contraseña del APN si la SIM lo requiere
   - 2004 es el host del servidor fijado a d.plaspy.com
   - 2005 es el puerto del servidor fijado a 8888
   - Mantenga los marcadores hasta sustituirlos por los valores apropiados para su SIM y red

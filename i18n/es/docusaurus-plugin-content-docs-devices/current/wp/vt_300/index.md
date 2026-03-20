@@ -1,6 +1,7 @@
 ---
 slug: /wp/vt_300
 id: vt_300
+sidebar_key: wvt_300_index_vt_300
 sidebar_label: VT-300
 title: WP - VT-300
 sidebar_class_name: menu_item_tracker

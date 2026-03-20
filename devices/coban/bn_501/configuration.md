@@ -76,7 +76,7 @@ The BN-501 is configured to send location fixes, alarms, and telemetry to the sh
 
 ## Example Configuration Commands
 
-The BN-501 supports SMS-based provisioning. Below are the publicly available sample SMS commands provided by the manufacturer. The default device password shown here is 123456; if you have changed the password use your device password instead. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your operator APN values.
+The BN-501 supports SMS-based provisioning. Below are the publicly available sample SMS commands provided by the manufacturer. The default device password shown here is 123456; if you have changed the password use your device password instead. Placeholders such as [apn], [apnu], and [apnp] should be replaced with your operator APN values.
 
 1. Optional initial factory reset (use only if you need to restore defaults)
 ```
@@ -90,16 +90,16 @@ time zone123456 0
 
 3. Set the operator APN
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} = your mobile operator APN string
+- [apn] = your mobile operator APN string
 
 4. Set the APN username and password
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-- {{apnu}} = APN username (leave blank if none)
-- {{apnp}} = APN password (leave blank if none)
+- [apnu] = APN username (leave blank if none)
+- [apnp] = APN password (leave blank if none)
 
 5. Set the GPRS server to the Plaspy IP and port
 ```
@@ -139,7 +139,7 @@ protocol123456 18
 - Firmware and hardware revisions may change exact SMS command formats and available parameters; always verify with the device manual for your firmware version.
 - The device supports SMS provisioning and Bluetooth configuration; use the method that best fits field access and security considerations.
 - TCP versus UDP selection can affect delivery behavior and retransmission; choose based on network conditions and the device firmware capabilities.
-- Replace placeholder tokens such as {{apn}}, {{apnu}}, and {{apnp}} with your operator credentials. If fields are not required, leave them blank according to the manufacturer syntax.
+- Replace placeholder tokens such as [apn], [apnu], and [apnp] with your operator credentials. If fields are not required, leave them blank according to the manufacturer syntax.
 - Consider changing the default password 123456 after initial setup for improved security if the device supports it.
 
 ## Why Use Plaspy with This Configuration

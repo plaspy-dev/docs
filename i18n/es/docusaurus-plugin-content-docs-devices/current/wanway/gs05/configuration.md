@@ -77,15 +77,15 @@ El modelo GS05 soporta configuración por SMS. Envíe estos comandos como mensaj
 
 1. Configurar el APN del operador
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 Si su operador requiere usuario y contraseña APN, use:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- {{apn}} es el nombre del APN del operador
-- {{apnu}} es el usuario APN si es requerido
-- {{apnp}} es la contraseña APN si es requerida
+- [apn] es el nombre del APN del operador
+- [apnu] es el usuario APN si es requerido
+- [apnp] es la contraseña APN si es requerida
 
 2. Configurar el servidor GPRS para apuntar a Plaspy
 ```text

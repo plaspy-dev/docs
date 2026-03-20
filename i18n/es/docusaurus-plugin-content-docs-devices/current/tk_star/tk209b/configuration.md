@@ -80,19 +80,19 @@ El TK209B suele configurarse enviando mensajes SMS al equipo. Los siguientes com
 begin123456
 ```
 
-2. Establecer el APN del operador (reemplazar {{apn}} por el APN de su proveedor)
+2. Establecer el APN del operador (reemplazar [apn] por el APN de su proveedor)
 ```
-apn123456 {{apn}}
-```
-
-3. Establecer el usuario del APN si el operador lo requiere (reemplazar {{apnu}} por el usuario)
-```
-apnuser123456 {{apnu}}
+apn123456 [apn]
 ```
 
-4. Establecer la contraseña del APN si el operador la requiere (reemplazar {{apnp}} por la contraseña)
+3. Establecer el usuario del APN si el operador lo requiere (reemplazar [apnu] por el usuario)
 ```
-apnpasswd123456 {{apnp}}
+apnuser123456 [apnu]
+```
+
+4. Establecer la contraseña del APN si el operador la requiere (reemplazar [apnp] por la contraseña)
+```
+apnpasswd123456 [apnp]
 ```
 
 5. Configurar el servidor GPRS hacia Plaspy usando la IP pública y el puerto
@@ -112,9 +112,9 @@ gprs123456
 ```
 
 Explicación de marcadores:
-- {{apn}} = cadena APN de su operador móvil
-- {{apnu}} = usuario APN cuando lo solicita el operador
-- {{apnp}} = contraseña APN cuando lo solicita el operador
+- [apn] = cadena APN de su operador móvil
+- [apnu] = usuario APN cuando lo solicita el operador
+- [apnp] = contraseña APN cuando lo solicita el operador
 
 Estos comandos son ejemplos públicos; el formato exacto y el comportamiento pueden variar según firmware y variantes regionales. El comando de reinicio es opcional y debe emplearse solo cuando sea necesario.
 

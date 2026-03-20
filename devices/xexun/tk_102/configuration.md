@@ -85,15 +85,15 @@ begin123456
 ```
 - Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 - Set the APN username if required
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 - Set the APN password if required
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Set the GPRS server to Plaspy using the public IP and port
 ```text
@@ -109,8 +109,8 @@ t060s***n123456
 ```
 
 Notes on placeholders and password
-- {{apn}} is the mobile operator access point name string you must supply.
-- {{apnu}} and {{apnp}} are the APN username and APN password when your operator requires them.
+- [apn] is the mobile operator access point name string you must supply.
+- [apnu] and [apnp] are the APN username and APN password when your operator requires them.
 - 123456 in the examples is the default device password used in the public command examples. If your device has a different password use that value in place of 123456.
 
 ## Configuration Notes

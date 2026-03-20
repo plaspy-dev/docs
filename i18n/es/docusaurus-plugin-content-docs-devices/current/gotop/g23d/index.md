@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g23d
 id: g23d
+sidebar_key: gotog23d_index_g23d
 sidebar_label: G23D
 title: GOTOP - G23D
 sidebar_class_name: menu_item_tracker

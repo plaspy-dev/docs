@@ -80,15 +80,15 @@ begin123456
 ```
 - Establecer el APN del operador usando su APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 - Establecer el usuario APN si su operador lo solicita
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 - Establecer la contraseña del APN si su operador la solicita
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Establecer el servidor GPRS a la IP y puerto de Plaspy
 ```text
@@ -105,9 +105,9 @@ gprs123456
 ```
 
 Explicación de los marcadores
-- {{apn}} representa la cadena APN del operador necesaria para GPRS.
-- {{apnu}} representa el usuario del APN cuando lo requiere el operador móvil.
-- {{apnp}} representa la contraseña del APN cuando la requiere el operador móvil.
+- [apn] representa la cadena APN del operador necesaria para GPRS.
+- [apnu] representa el usuario del APN cuando lo requiere el operador móvil.
+- [apnp] representa la contraseña del APN cuando la requiere el operador móvil.
 
 Si su instalación requiere un intervalo de subida distinto, cambie el valor numérico en el comando upload en consecuencia. El comando de restauración begin123456 suele ser opcional y solo debe emplearse cuando se realiza un reseteo de fábrica como parte de la configuración inicial.
 

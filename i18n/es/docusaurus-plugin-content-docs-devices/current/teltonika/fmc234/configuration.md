@@ -79,13 +79,13 @@ El FMC234 puede configurarse usando un formato de comando por lotes para paráme
 - Ejemplo de comando por lotes SMS o setparam por lotes
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre el comando y los marcadores:
-- {{apn}} es el nombre del APN de su operador.
-- {{apnu}} es el nombre de usuario del APN cuando el operador lo requiere.
-- {{apnp}} es la contraseña del APN cuando el operador lo requiere.
+- [apn] es el nombre del APN de su operador.
+- [apnu] es el nombre de usuario del APN cuando el operador lo requiere.
+- [apnp] es la contraseña del APN cuando el operador lo requiere.
 - El comando incluye d.plaspy.com y el puerto 8888 que son los ajustes públicos del servidor Plaspy.
 - Los índices de parámetro exactos y los valores para la selección de transporte pueden variar según el firmware; consulte la documentación de Teltonika o Teltonika Configurator para mapear los números de parámetro a ajustes legibles para su versión de firmware.
 

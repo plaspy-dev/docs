@@ -82,13 +82,13 @@ El comando público de ejemplo de Teltonika que sigue ilustra cómo establecer l
 - Example setparam command (preserve placeholders when replacing with actual values):
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores y los campos del comando de ejemplo:
-- {{apn}} es el APN celular proporcionado por su operador móvil  
-- {{apnu}} es el nombre de usuario del APN si el operador lo requiere; dejar en blanco si no se usa  
-- {{apnp}} es la contraseña del APN si el operador lo requiere; dejar en blanco si no se usa  
+- [apn] es el APN celular proporcionado por su operador móvil  
+- [apnu] es el nombre de usuario del APN si el operador lo requiere; dejar en blanco si no se usa  
+- [apnp] es la contraseña del APN si el operador lo requiere; dejar en blanco si no se usa  
 - 2004 establece el dominio del servidor a d.plaspy.com y 2005 fija el puerto a 8888 en este ejemplo  
 - 2006:1 está incluido en la secuencia de ejemplo; verifique el mapeo de parámetros para su firmware en la documentación de Teltonika, ya que el significado numérico puede variar según firmware y modelo  
 - Use los procedimientos seguros de envío por SMS o de la herramienta de configuración de Teltonika y confirme que el dispositivo acepta el comando

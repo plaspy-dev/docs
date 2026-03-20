@@ -1,6 +1,7 @@
 ---
 slug: /aoya/a18
 id: a18
+sidebar_key: aoya18_index_a18
 sidebar_label: A18
 title: AoYa - A18
 sidebar_class_name: menu_item_tracker

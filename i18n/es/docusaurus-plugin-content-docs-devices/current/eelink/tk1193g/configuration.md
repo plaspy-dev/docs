@@ -49,7 +49,7 @@ Estos valores compartidos son los puntos finales públicos de Plaspy que deberá
 - Un TK119‑3G alimentado y con la instalación completada o montado para pruebas.
 - Una tarjeta SIM activa con datos y SMS habilitados y las credenciales APN correctas del operador móvil.
 - Acceso al método de configuración del fabricante, como comandos SMS o la herramienta del proveedor que soporte el TK119‑3G.
-- El APN, usuario APN y contraseña APN para la SIM (aquí se muestran marcadores de posición {{apn}}, {{apnu}}, {{apnp}}).
+- El APN, usuario APN y contraseña APN para la SIM (aquí se muestran marcadores de posición [apn], [apnu], [apnp]).
 - Un teléfono capaz de enviar SMS al dispositivo o acceso a la utilidad de configuración del equipo.
 - Una cuenta en Plaspy y la posibilidad de revisar los reportes del dispositivo en la plataforma.
 
@@ -88,13 +88,13 @@ GMT,E,0#
 ```
 
 3. Configurar el APN del operador
-- Reemplace los marcadores de posición con las credenciales de APN de su operador. {{apn}} es obligatorio. {{apnu}} y {{apnp}} son opcionales y se usan cuando el APN requiere usuario o contraseña.
+- Reemplace los marcadores de posición con las credenciales de APN de su operador. [apn] es obligatorio. [apnu] y [apnp] son opcionales y se usan cuando el APN requiere usuario o contraseña.
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
 o con usuario y contraseña
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Establecer el servidor GPRS a Plaspy por dominio (recomendado)
@@ -117,7 +117,7 @@ TIMER,60#
 PARAM#
 ```
 
-Nota: Mantenga el orden al realizar una configuración nueva: APN, luego SERVER y después TIMER es una secuencia práctica común. Reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores correctos proporcionados por su operador móvil.
+Nota: Mantenga el orden al realizar una configuración nueva: APN, luego SERVER y después TIMER es una secuencia práctica común. Reemplace [apn], [apnu] y [apnp] con los valores correctos proporcionados por su operador móvil.
 
 ## Notas de configuración
 

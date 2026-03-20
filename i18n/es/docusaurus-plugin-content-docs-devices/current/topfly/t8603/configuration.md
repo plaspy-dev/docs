@@ -46,7 +46,7 @@ El objetivo de esta configuración es preparar el T8603 para que se comunique de
 
 - Energice el dispositivo y asegúrese de que esté en un estado listo para la configuración.
 - Tenga instalada una tarjeta SIM activa con datos móviles o capacidad SMS según lo requiera su flujo de trabajo.
-- Conozca los datos APN del operador móvil para la conectividad de datos; mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} disponibles si utiliza configuración por SMS.
+- Conozca los datos APN del operador móvil para la conectividad de datos; mantenga los marcadores [apn], [apnu] y [apnp] disponibles si utiliza configuración por SMS.
 - Acceso al método oficial de configuración del fabricante, como comandos SMS o herramientas del proveedor.
 - Una cuenta en Plaspy o acceso a la plataforma para confirmar que el dispositivo aparece y envía datos una vez configurado.
 - Un medio para recibir y confirmar las respuestas SMS del rastreador si usa configuración basada en SMS.
@@ -82,12 +82,12 @@ GMT,0000,0#
 
 - Configurar el APN del operador (reemplace los marcadores con los valores de su operador):
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
 Explicación de marcadores:
-- {{apn}} es el nombre del punto de acceso (APN) de su operador móvil.
-- {{apnu}} es el usuario del APN si se requiere; deje en blanco o use 0 si no es necesario.
-- {{apnp}} es la contraseña del APN si se requiere; deje en blanco o use 0 si no es necesaria.
+- [apn] es el nombre del punto de acceso (APN) de su operador móvil.
+- [apnu] es el usuario del APN si se requiere; deje en blanco o use 0 si no es necesario.
+- [apnp] es la contraseña del APN si se requiere; deje en blanco o use 0 si no es necesaria.
 
 - Configurar el servidor GPRS a Plaspy usando la IP numérica y el puerto 8888:
 ```
@@ -106,7 +106,7 @@ Este comando TIMER configura el intervalo de reporte periódico; ajuste el valor
 - La configuración por SMS se muestra en los comandos de ejemplo y es comúnmente soportada para la configuración básica en campo del T8603.
 - Las revisiones de firmware y hardware pueden modificar la sintaxis de los comandos o los parámetros requeridos; verifique siempre el formato de comando para el firmware de su dispositivo.
 - Cuando un dispositivo ofrece tanto UDP como TCP, elija el transporte compatible con su red y confirme la conectividad; Plaspy acepta cualquiera de los dos transportes en el puerto 8888.
-- Los marcadores de APN {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por los valores de su operador móvil o dejarse como marcadores según las instrucciones del operador.
+- Los marcadores de APN [apn], [apnu] y [apnp] deben reemplazarse por los valores de su operador móvil o dejarse como marcadores según las instrucciones del operador.
 - Plaspy utiliza un puerto compartido para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando llegan los datos.
 
 ## Por qué usar Plaspy con esta configuración

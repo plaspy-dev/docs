@@ -76,11 +76,11 @@ The ST20U vendor provides SMS-based commands for APN and reporting setup. The de
 
 - APN and GPRS server command
   - Replace {{device_id}} with the six digit device ID derived from IMEI.
-  - Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator APN, APN username, and APN password. If username or password are not used by your operator, leave those placeholders empty.
+  - Replace [apn], [apnu], and [apnp] with your operator APN, APN username, and APN password. If username or password are not used by your operator, leave those placeholders empty.
   - This command points the tracker/host to the Plaspy server IP and port and includes APN fields.
 
 ```
-SA200NTW;{{device_id}};02;[mode];[apn_used_flag];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;[mode];[apn_used_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Set reporting interval to 60 seconds
@@ -99,9 +99,9 @@ SA200CMD;{{device_id}};02;PresetA
 
 Notes on placeholders and fields
 - {{device_id}} — six digit ID derived from IMEI (last six digits excluding the final check digit). Example conversion is shown above.
-- {{apn}} — operator Access Point Name string required for GPRS data.
-- {{apnu}} — APN username if required by operator, otherwise leave blank.
-- {{apnp}} — APN password if required by operator, otherwise leave blank.
+- [apn] — operator Access Point Name string required for GPRS data.
+- [apnu] — APN username if required by operator, otherwise leave blank.
+- [apnp] — APN password if required by operator, otherwise leave blank.
 - The example APN command uses the public Plaspy server IP 54.85.159.138 and port 8888. You can also use the domain d.plaspy.com where the host or tool supports domain names.
 - The device may be configured using UDP or TCP on port 8888. Plaspy automatically detects the tracker protocol.
 

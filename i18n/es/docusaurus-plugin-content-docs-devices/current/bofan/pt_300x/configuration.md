@@ -90,9 +90,9 @@ Explicación: Use las últimas 14 cifras del IMEI como identificador si sigue la
 
 - Configurar el APN del operador
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explicación: Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}}. Complete {{apn}} con el APN del operador. Use {{apnu}} para el usuario del APN y {{apnp}} para la contraseña del APN si el operador lo requiere. Si no se necesita usuario o contraseña, omita esos valores o déjelos en blanco según la sintaxis SMS del dispositivo.
+Explicación: Mantenga los marcadores [apn], [apnu] y [apnp]. Complete [apn] con el APN del operador. Use [apnu] para el usuario del APN y [apnp] para la contraseña del APN si el operador lo requiere. Si no se necesita usuario o contraseña, omita esos valores o déjelos en blanco según la sintaxis SMS del dispositivo.
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
 ```text

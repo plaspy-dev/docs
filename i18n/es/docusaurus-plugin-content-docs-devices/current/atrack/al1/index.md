@@ -1,6 +1,7 @@
 ---
 slug: /atrack/al1
 id: al1
+sidebar_key: atracal1_index_al1
 sidebar_label: AL1
 title: ATrack - AL1
 sidebar_class_name: menu_item_tracker

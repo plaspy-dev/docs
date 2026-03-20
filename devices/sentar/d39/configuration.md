@@ -96,12 +96,12 @@ pw,123456,imsi#
 
 - Set the operator APN. The command includes placeholders for APN values and an operator code section
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 Explanation of placeholders:
-- {{apn}} — primary APN name for the mobile operator
-- {{apnu}} — APN username if required by the operator, or blank if not used
-- {{apnp}} — APN password if required by the operator, or blank if not used
+- [apn] — primary APN name for the mobile operator
+- [apnu] — APN username if required by the operator, or blank if not used
+- [apnp] — APN password if required by the operator, or blank if not used
 - xxxyy — placeholder in the published command indicating combined MCC and MNC digits used by the device
 
 - Set GPRS server to Plaspy by IP and port (as published)

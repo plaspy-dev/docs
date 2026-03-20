@@ -87,11 +87,11 @@ pw,123456,lz,0,0#
 ```
 pw,123456,imsi#
 ```
-4. Set the operator APN where {{apn}} is the APN, {{apnu}} is the APN username, {{apnp}} is the APN password, and xxxyy represents MCC and MNC
+4. Set the operator APN where [apn] is the APN, [apnu] is the APN username, [apnp] is the APN password, and xxxyy represents MCC and MNC
 ```
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-- Explicación: Reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador. Los caracteres finales xxxyy representan los valores combinados MCC MNC si el dispositivo lo requiere.
+- Explicación: Reemplace [apn], [apnu] y [apnp] con los valores de su operador. Los caracteres finales xxxyy representan los valores combinados MCC MNC si el dispositivo lo requiere.
 
 5. Set the GPRS server to the Plaspy server IP and port
 ```
@@ -117,7 +117,7 @@ Nota: Algunos comandos de ejemplo muestran la forma con dominio para mayor clari
 - Variaciones de firmware y regionales pueden cambiar la sintaxis SMS exacta o las palabras clave disponibles; siempre verifique con la documentación actual de Sentar.
 - La configuración por SMS es un método público común para el Q60; si prefiere un método por software o USB, consulte los recursos de Sentar para herramientas alternas de configuración.
 - Elija UDP o TCP según la capacidad del dispositivo; Plaspy acepta ambos en el puerto 8888 pero el equipo puede preferir un modo de transporte.
-- Conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} cuando prepare comandos SMS y sustituya los valores del operador exactamente.
+- Conserve los marcadores de posición [apn], [apnu] y [apnp] cuando prepare comandos SMS y sustituya los valores del operador exactamente.
 - Los ejemplos públicos de comandos usan la contraseña predeterminada 123456 según lo publicado; cambie la contraseña del dispositivo mediante el procedimiento del fabricante cuando corresponda para asegurar la unidad.
 
 ## Por qué usar Plaspy con esta configuración

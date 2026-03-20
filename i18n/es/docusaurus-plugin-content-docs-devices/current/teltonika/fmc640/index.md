@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmc640
 id: fmc640
+sidebar_key: teltonikfmc640_index_fmc640
 sidebar_label: FMC640
 title: Teltonika - FMC640
 sidebar_class_name: menu_item_tracker

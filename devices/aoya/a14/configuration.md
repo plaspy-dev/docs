@@ -80,9 +80,9 @@ The AoYa A14 supports SMS configuration. The following commands are the public e
 
 - Note on default password: the public sample commands use the default device password 123456. Change this password after initial setup as part of your security practice.
 - Placeholders:
-  - {{apn}} is the mobile operator APN name
-  - {{apnu}} is the APN username if required
-  - {{apnp}} is the APN password if required
+  - [apn] is the mobile operator APN name
+  - [apnu] is the APN username if required
+  - [apnp] is the APN password if required
 
 Factory reset (optional initial step):
 ```text
@@ -96,12 +96,12 @@ time zone123456 0
 
 Set the operator APN:
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 Set the APN username and password (only if needed by your operator):
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 Set the GPRS server to Plaspy using the public server IP and port:

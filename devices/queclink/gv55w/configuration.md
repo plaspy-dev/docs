@@ -48,7 +48,7 @@ Configuring a GV55W for Plaspy means preparing the device to communicate with Pl
 - Knowledge of the device configuration method your unit supports such as SMS commands or an official QuecLink configuration tool.
 - The device default password or configured admin password required for SMS configuration where applicable. The sample commands below use the password queclink as the factory default.
 - Access to a mobile phone capable of sending SMS commands to the tracker or to the manufacturer configuration software.
-- Basic understanding of APN values from your cellular operator to populate placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when needed.
+- Basic understanding of APN values from your cellular operator to populate placeholders such as [apn], [apnu], and [apnp] when needed.
 
 ## How This Tracker Connects to Plaspy
 
@@ -72,7 +72,7 @@ The GV55W sends GNSS position and telemetry messages over the cellular network t
 
 ## Example Configuration Commands
 
-The following example SMS commands are provided in public GV55W configuration material. These commands are shown in the same order as commonly applied. The sample commands use the device password queclink which is the default password shown in the public example. If your device has a different admin password, replace queclink with your device password. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your cellular operator values.
+The following example SMS commands are provided in public GV55W configuration material. These commands are shown in the same order as commonly applied. The sample commands use the device password queclink which is the default password shown in the public example. If your device has a different admin password, replace queclink with your device password. Placeholders such as [apn], [apnu], and [apnp] should be replaced with your cellular operator values.
 
 - Optional initial factory restore (use only when you need to reset the device to factory defaults)
 
@@ -87,12 +87,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 ```
 
 - Set the operator APN. Replace placeholders with your operator values:
-  - {{apn}} = APN name
-  - {{apnu}} = APN username if required
-  - {{apnp}} = APN password if required
+  - [apn] = APN name
+  - [apnu] = APN username if required
+  - [apnp] = APN password if required
 
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 - Configure the GPRS server to report to Plaspy. This command includes domain and IP and sets the server port. It targets Plaspy at d.plaspy.com and 54.85.159.138 using port 8888:

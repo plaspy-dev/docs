@@ -93,9 +93,9 @@ pw,123456,imsi#
 
 - Establecer el APN del operador donde los campos APN contienen marcadores y xxxyy es MCC más MNC
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explicación: {{apn}} es el nombre del APN, {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Reemplace xxxyy con el código de red móvil formado por MCC más MNC, por ejemplo 310260 donde 310 es MCC y 260 es MNC.
+Explicación: [apn] es el nombre del APN, [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Reemplace xxxyy con el código de red móvil formado por MCC más MNC, por ejemplo 310260 donde 310 es MCC y 260 es MNC.
 
 - Configurar el servidor GPRS para apuntar a Plaspy por IP y puerto
 ```text

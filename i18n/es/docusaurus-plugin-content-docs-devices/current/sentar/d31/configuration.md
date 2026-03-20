@@ -97,9 +97,9 @@ pw,123456,imsi#
 
 - Establecer el APN del operador
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explicación: {{apn}} es el nombre del APN del operador, {{apnu}} es el usuario del APN y {{apnp}} es la contraseña del APN. Reemplace xxxyy con el MCC y MNC de la red móvil concatenados según lo proporcione el operador.
+Explicación: [apn] es el nombre del APN del operador, [apnu] es el usuario del APN y [apnp] es la contraseña del APN. Reemplace xxxyy con el MCC y MNC de la red móvil concatenados según lo proporcione el operador.
 
 - Configurar servidor GPRS a Plaspy por IP y puerto
 ```text
@@ -125,7 +125,7 @@ Si su dispositivo usa separadores o parámetros ligeramente distintos en los com
 - La configuración vía SMS es un método público común para el D31, pero también pueden existir herramientas del proveedor o software de aprovisionamiento; use las herramientas oficiales de Sentar cuando sea posible.
 - Elija UDP o TCP según lo requiera el dispositivo; Plaspy acepta ambos transportes en el puerto compartido.
 - Plaspy usa el puerto 8888 para todos los dispositivos y detecta automáticamente el protocolo del rastreador, por lo que solo necesita apuntar el dispositivo al endpoint correcto.
-- Al introducir valores de APN mantenga marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} hasta reemplazarlos por los valores del operador; una configuración incorrecta del APN impedirá las subidas de datos.
+- Al introducir valores de APN mantenga marcadores de posición como [apn], [apnu] y [apnp] hasta reemplazarlos por los valores del operador; una configuración incorrecta del APN impedirá las subidas de datos.
 
 ## Por qué usar Plaspy con esta configuración
 

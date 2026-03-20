@@ -77,7 +77,7 @@ El G01 puede entregar ubicación y telemetría a Plaspy por GPRS (enviando paque
 
 Los comandos exactos para configurar el G01 varían según el firmware y el conjunto de comandos SMS/utilidad de CanTrack. Debido a que la sintaxis de los comandos del fabricante puede cambiar, verifique y utilice las instrucciones oficiales de CanTrack o los comandos SMS que acompañan a su dispositivo. Plaspy requiere que el dispositivo apunte a d.plaspy.com o 54.85.159.138 en el puerto 8888 usando UDP o TCP según lo que se soporte.
 
-Si su G01 se configura por comandos SMS con la sintaxis de CanTrack, esos SMS típicamente establecerán la dirección del servidor, el puerto y el transporte. Conserve los marcadores de posición proporcionados por CanTrack como {{apn}} u otros valores de APN si aparecen en los comandos oficiales y reemplácelos con los valores del operador de su SIM.
+Si su G01 se configura por comandos SMS con la sintaxis de CanTrack, esos SMS típicamente establecerán la dirección del servidor, el puerto y el transporte. Conserve los marcadores de posición proporcionados por CanTrack como [apn] u otros valores de APN si aparecen en los comandos oficiales y reemplácelos con los valores del operador de su SIM.
 
 Nota: Consulte el manual del CanTrack G01 para el formato exacto de los comandos SMS o use la herramienta de configuración de CanTrack para orientación específica del firmware.
 

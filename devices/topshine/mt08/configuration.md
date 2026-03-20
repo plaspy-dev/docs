@@ -86,14 +86,14 @@ Below are the publicly available SMS command templates extracted from TopShine M
   
   Description: Set the device identifier. The manufacturer command template uses the first 14 digits from the IMEI for the device id field in the tracker. Note that Plaspy uses the full 15 digit IMEI as the platform device identifier.
   ```
-  W000000,010,<first 14 digits of IMEI>
+  W000000,010,\<first 14 digits of IMEI>
   ```
 
 - Set the operator APN
   
-  Description: Configure the carrier APN and optional APN username and password. Replace {{apn}} with your carrier APN. If required, include {{apnu}} and {{apnp}} for APN username and password.
+  Description: Configure the carrier APN and optional APN username and password. Replace [apn] with your carrier APN. If required, include [apnu] and [apnp] for APN username and password.
   ```
-  W000000,011,{{apn}}[,{{apnu}},{{apnp}}]
+  W000000,011,[apn][,[apnu],[apnp]]
   ```
   Note: Use the comma separated form only include the optional APN username and password fields when required by your carrier.
 
@@ -125,7 +125,7 @@ Below are the publicly available SMS command templates extracted from TopShine M
   W000000,601
   ```
 
-Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when replacing with your carrier values. The default device password in the samples is 000000; if the device password has changed, use the current device password in place of 000000.
+Keep placeholders such as [apn], [apnu], and [apnp] when replacing with your carrier values. The default device password in the samples is 000000; if the device password has changed, use the current device password in place of 000000.
 
 ## Configuration Notes
 

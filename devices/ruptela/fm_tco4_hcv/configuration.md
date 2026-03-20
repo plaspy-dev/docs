@@ -76,7 +76,7 @@ When configured for Plaspy, the FM-Tco4 HCV sends location and telematics data t
 
 The FM-Tco4 HCV can be configured using Ruptela configuration tools and methods supplied by the manufacturer or by installers. Exact commands and the user interface depend on the Ruptela software version and device firmware. Because methods vary, consult the Ruptela configuration manual for command syntax and step by step instructions specific to your firmware and toolset.
 
-If you use SMS-based configuration, follow Ruptela templates for composing server and APN commands. Preserve placeholders such as {{apn}}, {{apnu}}, or {{apnp}} where provided by Ruptela and replace them with your network operator values.
+If you use SMS-based configuration, follow Ruptela templates for composing server and APN commands. Preserve placeholders such as [apn], [apnu], or [apnp] where provided by Ruptela and replace them with your network operator values.
 
 ## Configuration Notes
 

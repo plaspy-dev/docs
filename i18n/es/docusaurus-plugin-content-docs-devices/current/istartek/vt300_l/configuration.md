@@ -85,9 +85,9 @@ FACTORY#
 GMT,E,0#
 ```
 
-3. Set the operator APN. Replace {{apn}} with your mobile operator APN. If your APN requires username or password, supply {{apnu}} and {{apnp}} respectively as additional comma separated fields.
+3. Set the operator APN. Replace [apn] with your mobile operator APN. If your APN requires username or password, supply [apnu] and [apnp] respectively as additional comma separated fields.
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 Notes: keep the placeholders if no username or password is required; remove the comma fields if not used.
 

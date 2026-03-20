@@ -1,6 +1,7 @@
 ---
 slug: /autofon/dx
 id: dx
+sidebar_key: autofodx_index_dx
 sidebar_label: DX Маяк
 title: AutoFon - DX Маяк
 sidebar_class_name: menu_item_tracker

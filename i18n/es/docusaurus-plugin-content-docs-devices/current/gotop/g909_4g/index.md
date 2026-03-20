@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g909_4g
 id: g909_4g
+sidebar_key: gotog909_4g_index_g909_4g
 sidebar_label: G909-4G
 title: GOTOP - G909-4G
 sidebar_class_name: menu_item_tracker

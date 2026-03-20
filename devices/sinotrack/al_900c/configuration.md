@@ -87,12 +87,12 @@ RESET
 ```
 
 - Set the APN for the mobile operator (replace placeholders with your operator values):
-  - {{apn}} = APN name
-  - {{apnu}} = APN username (leave blank if none)
-  - {{apnp}} = APN password (leave blank if none)
+  - [apn] = APN name
+  - [apnu] = APN username (leave blank if none)
+  - [apnp] = APN password (leave blank if none)
 
 ```
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 
 - Set the GPRS server to the Plaspy IP and port (Plaspy also supports the domain d.plaspy.com):
@@ -125,7 +125,7 @@ RESET
 RCONF
 ```
 
-Note: Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} as shown and replace them with your operator credentials when sending the APN command. The commands above are the public SMS commands documented for this tracker family and are presented in the order they appear in the public guidance.
+Note: Keep the placeholders [apn], [apnu], and [apnp] as shown and replace them with your operator credentials when sending the APN command. The commands above are the public SMS commands documented for this tracker family and are presented in the order they appear in the public guidance.
 
 ## Configuration Notes
 

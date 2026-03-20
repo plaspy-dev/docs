@@ -77,7 +77,7 @@ Una vez configurado, el Bharat101 Plus 4G con CAN envía posiciones GNSS, teleme
 
 El Bharat101 Plus 4G con CAN puede configurarse mediante múltiples métodos del fabricante, incluidos USB, BLE, SMS o software del proveedor. La sintaxis exacta y los comandos de configuración dependen del firmware de iTriangle y de la herramienta de configuración, y varían entre versiones. Dado que los conjuntos de comandos difieren por firmware y herramienta del proveedor, consulte el manual de configuración de iTriangle o el software del vendedor para comandos y secuencias de ejemplo precisas.
 
-Si utiliza el conjunto de comandos SMS o serie de iTriangle, siga la referencia oficial de comandos de iTriangle y reemplace cualquier APN o valores de marcador de posición con los detalles de su red. Conserve los marcadores de posición como {{apn}} o {{apnu}} si los muestra el fabricante y consulte el manual del dispositivo para la sustitución correcta.
+Si utiliza el conjunto de comandos SMS o serie de iTriangle, siga la referencia oficial de comandos de iTriangle y reemplace cualquier APN o valores de marcador de posición con los detalles de su red. Conserve los marcadores de posición como [apn] o [apnu] si los muestra el fabricante y consulte el manual del dispositivo para la sustitución correcta.
 
 ## Notas de configuración
 

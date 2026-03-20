@@ -79,7 +79,7 @@ The exact commands and syntax to configure an RF-V03 vary by firmware and the me
 - If your device uses a USB or desktop tool, use that tool to set the server to d.plaspy.com or 54.85.159.138 and set port 8888, then save and push settings to the device.
 - If a mobile or web portal is used, follow the portal fields to enter the server domain or IP and port 8888, select UDP or TCP, and save.
 
-If you have manufacturer provided command examples from Reachfar or a reseller, apply them in the same order: set server, set port, select transport, apply, then restart. Preserve any placeholders provided by the manufacturer such as {{apn}} and replace them with your carrier APN string when required.
+If you have manufacturer provided command examples from Reachfar or a reseller, apply them in the same order: set server, set port, select transport, apply, then restart. Preserve any placeholders provided by the manufacturer such as [apn] and replace them with your carrier APN string when required.
 
 ## Configuration Notes
 

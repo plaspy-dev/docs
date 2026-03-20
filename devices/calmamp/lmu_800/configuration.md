@@ -82,21 +82,21 @@ Send this command to query the device and receive the MID or unit ID that identi
 
 - Set the operator APN
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
-Replace {{apn}} with your mobile operator APN name.
+Replace [apn] with your mobile operator APN name.
 
 - Set the APN username (if required)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
-Replace {{apnu}} with the APN username if your operator requires one. This command is optional if no username is needed.
+Replace [apnu] with the APN username if your operator requires one. This command is optional if no username is needed.
 
 - Set the APN password (if required)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
-Replace {{apnp}} with the APN password if required. This is optional depending on operator settings.
+Replace [apnp] with the APN password if required. This is optional depending on operator settings.
 
 - Set the GPRS server IP to Plaspy
 ```text
@@ -123,8 +123,8 @@ A reboot is commonly required to apply the new network and server settings. Use 
 This verification command returns current configuration settings so you can confirm APN, server, and port values.
 
 Notes on placeholders
-- {{apn}} is the operator APN name required for data connectivity.
-- {{apnu}} and {{apnp}} are optional and used only if your mobile operator requires an APN username and password.
+- [apn] is the operator APN name required for data connectivity.
+- [apnu] and [apnp] are optional and used only if your mobile operator requires an APN username and password.
 
 ## Configuration Notes
 

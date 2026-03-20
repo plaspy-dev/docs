@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt80t
 id: mt80t
+sidebar_key: megastemt80t_index_mt80t
 sidebar_label: MT80T
 title: Megastek - MT80T
 sidebar_class_name: menu_item_tracker

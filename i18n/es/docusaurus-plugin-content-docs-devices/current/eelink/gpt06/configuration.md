@@ -87,9 +87,9 @@ GMT,E,0#
 ```
 
 3. Configurar el APN del operador
-- Reemplace los marcadores con los valores de su operador. {{apn}} es obligatorio. {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña si su operador los solicita.
+- Reemplace los marcadores con los valores de su operador. [apn] es obligatorio. [apnu] y [apnp] son campos opcionales de usuario y contraseña si su operador los solicita.
 ```
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
 Variantes de ejemplo que puede enviar:
 ```
@@ -97,7 +97,7 @@ APN,your.apn.name#
 ```
 o si se requieren usuario y contraseña:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Configurar el servidor GPRS al dominio y puerto de Plaspy
@@ -122,7 +122,7 @@ PARAM#
 
 Notas sobre los comandos
 - Envíe cada comando como un SMS independiente al dispositivo. Mantenga el orden cuando sea importante (por ejemplo, configure el APN antes de establecer el servidor si el dispositivo necesita acceso a la red de forma inmediata).
-- Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN del operador, el usuario APN y la contraseña APN proporcionados por el operador móvil.
+- Los marcadores [apn], [apnu] y [apnp] deben reemplazarse por el APN del operador, el usuario APN y la contraseña APN proporcionados por el operador móvil.
 - El comando SERVER puede usar tanto el dominio d.plaspy.com como la IP pública 54.85.159.138; ambos apuntan a Plaspy en el puerto 8888.
 
 ## Notas de configuración

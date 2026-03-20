@@ -83,7 +83,7 @@ Los comandos exactos y la sintaxis para configurar el S911 Enforcer dependen de 
 - port field: 8888
 - transport option: UDP or TCP
 
-Si le proporcionan comandos estilo SMS o CLI por parte de Laipac, conserve cualquier marcador de posición como {{apn}}, {{apnu}} o {{apnp}} en el texto del comando y reemplace esos valores por el APN del operador, nombre de usuario o contraseña según lo requiera su SIM.
+Si le proporcionan comandos estilo SMS o CLI por parte de Laipac, conserve cualquier marcador de posición como [apn], [apnu] o [apnp] en el texto del comando y reemplace esos valores por el APN del operador, nombre de usuario o contraseña según lo requiera su SIM.
 
 ## Notas de configuración
 

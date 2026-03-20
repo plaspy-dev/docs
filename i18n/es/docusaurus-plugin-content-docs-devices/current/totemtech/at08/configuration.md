@@ -73,7 +73,7 @@ Una vez configurado, el AT08 envía coordenadas GNSS y telemetría del dispositi
 
 ## Comandos de configuración de ejemplo
 
-El AT08 puede configurarse enviando comandos SMS. Los comandos de ejemplo abajo usan la contraseña por defecto del dispositivo 000000. Preserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} cuando los reemplace por los valores de su operador.
+El AT08 puede configurarse enviando comandos SMS. Los comandos de ejemplo abajo usan la contraseña por defecto del dispositivo 000000. Preserve los marcadores de posición [apn], [apnu] y [apnp] cuando los reemplace por los valores de su operador.
 
 - Reinicio de fábrica opcional (usar sólo si es necesario como reinicio inicial)
 ```text
@@ -82,9 +82,9 @@ El AT08 puede configurarse enviando comandos SMS. Los comandos de ejemplo abajo 
 
 - Configurar el APN del operador y las credenciales
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-Explicación: reemplace {{apn}} con el APN de su operador, {{apnu}} con el nombre de usuario del APN si se requiere, y {{apnp}} con la contraseña del APN si se requiere. Si su operador no necesita usuario o contraseña, deje los marcadores de posición vacíos según las reglas SMS del dispositivo.
+Explicación: reemplace [apn] con el APN de su operador, [apnu] con el nombre de usuario del APN si se requiere, y [apnp] con la contraseña del APN si se requiere. Si su operador no necesita usuario o contraseña, deje los marcadores de posición vacíos según las reglas SMS del dispositivo.
 
 - Establecer el servidor GPRS a Plaspy usando la IP y el puerto de Plaspy
 ```text

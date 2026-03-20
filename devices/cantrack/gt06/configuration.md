@@ -64,7 +64,7 @@ The GT06 sends location and device data over GPRS to the configured Plaspy serve
 ## Common Configuration Workflow
 
 1. Access the official CanTrack GT06 configuration method (SMS commands or the manufacturer configuration tool).  
-2. Ensure the device has a working SIM and input the operator APN details ({{apn}}, {{apnu}}, {{apnp}} if required).  
+2. Ensure the device has a working SIM and input the operator APN details ([apn], [apnu], [apnp] if required).  
 3. Enter the Plaspy server information using d.plaspy.com or 54.85.159.138 and set port 8888.  
 4. Choose UDP or TCP transport if the device requires explicit selection.  
 5. Apply or save the configuration using the device method (SMS save, tool save, or reboot trigger).  
@@ -85,11 +85,11 @@ The GT06 commonly accepts SMS commands for configuration. The sample commands be
 #timezone#123456#W#0#00#
 ```
 
-3. Set the operator APN. Replace {{apn}} with your operator APN host. Include {{apnu}} and {{apnp}} only if your operator requires an APN username and password. The APN username and password placeholders are optional:
+3. Set the operator APN. Replace [apn] with your operator APN host. Include [apnu] and [apnp] only if your operator requires an APN username and password. The APN username and password placeholders are optional:
 ```
-#apn#123456#{{apn}}#{{apnu}}#{{apnp}}#
+#apn#123456#[apn]#[apnu]#[apnp]#
 ```
-Explanation: {{apn}} = operator APN host, {{apnu}} = APN username (optional), {{apnp}} = APN password (optional).
+Explanation: [apn] = operator APN host, [apnu] = APN username (optional), [apnp] = APN password (optional).
 
 4. Set the GPRS server to Plaspy. You can use the Plaspy server IP or the domain (d.plaspy.com). This public command example uses the Plaspy IP and port 8888:
 ```

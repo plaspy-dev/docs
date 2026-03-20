@@ -75,15 +75,15 @@ The NR028 is configured to send its location and telemetry packets to the shared
 
 ## Example Configuration Commands
 
-The NR028 supports SMS based configuration. The following public example commands are provided as SMS strings. The sample uses the device default password 000000. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier values when sending.
+The NR028 supports SMS based configuration. The following public example commands are provided as SMS strings. The sample uses the device default password 000000. Preserve placeholders such as [apn], [apnu], and [apnp] and replace them with your carrier values when sending.
 
-- Set the operator APN. Replace {{apn}} with your carrier APN. If required, include {{apnu}} and {{apnp}} for APN username and password.
+- Set the operator APN. Replace [apn] with your carrier APN. If required, include [apnu] and [apnp] for APN username and password.
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
 Or with APN username and password placeholders:
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 - Set the GPRS server to the Plaspy endpoint using the Plaspy IP and port 8888. This example uses the public Plaspy server IP. You can substitute d.plaspy.com if your firmware accepts a domain instead of an IP.

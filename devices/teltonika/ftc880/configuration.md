@@ -46,7 +46,7 @@ Configuring the FTC880 for Plaspy means preparing the tracker to send location a
 
 - A charged and powered FTC880 with access to the manufacturer configuration method (SMS commands, Teltonika tools, or FOTA WEB)  
 - A working cellular service and an active SIM provisioned with the correct APN settings for your operator  
-- APN placeholders prepared: {{apn}}, {{apnu}}, {{apnp}} to be filled with your operator values as needed  
+- APN placeholders prepared: [apn], [apnu], [apnp] to be filled with your operator values as needed  
 - Access to the Teltonika configuration flow or SMS control phone number to send configuration commands if using SMS-based setup  
 - Basic knowledge of whether your installation requires UDP or TCP selection on the device
 
@@ -62,7 +62,7 @@ The FTC880 transmits GNSS position and telemetry over the cellular link to the P
 ## Common Configuration Workflow
 
 1. Access the official Teltonika configuration method you plan to use (SMS commands, Teltonika FOTA WEB, or a Teltonika configuration tool).  
-2. Prepare and enter the mobile operator APN values using the placeholders {{apn}}, {{apnu}}, and {{apnp}} if required.  
+2. Prepare and enter the mobile operator APN values using the placeholders [apn], [apnu], and [apnp] if required.  
 3. Enter the Plaspy server domain d.plaspy.com or the server IP 54.85.159.138 as the device server endpoint.  
 4. Set the device port to 8888 (Plaspy uses the same port for all supported devices).  
 5. If the device requires, choose UDP or TCP as the transport option.  
@@ -76,12 +76,12 @@ The Teltonika example command below shows a single-line setparam style batch com
 - Example setparam command for basic parameters:
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command:
-- {{apn}} is the operator Access Point Name required for cellular data.  
-- {{apnu}} and {{apnp}} are optional APN username and password placeholders; fill them only if your operator requires authentication.  
+- [apn] is the operator Access Point Name required for cellular data.  
+- [apnu] and [apnp] are optional APN username and password placeholders; fill them only if your operator requires authentication.  
 - 2004:d.plaspy.com sets the server domain to Plaspy. You may substitute 54.85.159.138 for the server IP if preferred.  
 - 2005:8888 sets the Plaspy port used for all devices.  
 - 2006:1 is a device parameter included in the example; its exact mapping (for example to transport selection) is device and firmware specific. Consult Teltonika documentation or your configuration tool for exact parameter meanings.
@@ -93,7 +93,7 @@ If you use Teltonika FOTA WEB or a desktop configuration utility, the same value
 - Teltonika firmware versions and parameter codes can vary; confirm parameter numbers and syntax in the FTC880 user manual or Teltonika support documentation.  
 - SMS-based configuration is commonly supported for Teltonika devices, but ensure the device accepts SMS from your configuration number and that SMS control is enabled.  
 - Choose UDP or TCP for transport based on your network and device firmware requirements; Plaspy will accept either on port 8888.  
-- Always replace {{apn}}, {{apnu}}, and {{apnp}} with your cellular provider credentials where required.  
+- Always replace [apn], [apnu], and [apnp] with your cellular provider credentials where required.  
 - After applying settings, allow a short window for the device to establish a session and for Plaspy to detect and parse the tracker protocol automatically.
 
 ## Why Use Plaspy with This Configuration

@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g32
 id: g32
+sidebar_key: gotog32_index_g32
 sidebar_label: G32
 title: GOTOP - G32
 sidebar_class_name: menu_item_tracker

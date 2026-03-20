@@ -80,7 +80,7 @@ Siga el manual de Reachfar y el video de instalación para pasos de interfaz esp
 
 El método de configuración del RF‑V22 y los comandos o pantallas exactas varían según el firmware y las herramientas de Reachfar. La documentación del fabricante suele detallar si la configuración se realiza vía herramienta web, utilidad dedicada o mediante SMS/CLI. Dado que los comandos difieren entre versiones de firmware y conjuntos de herramientas, consulte el manual del producto RF‑V22 para la sintaxis exacta y ejemplos paso a paso.
 
-Si su versión del RF‑V22 permite comandos textuales o configuración por SMS, utilice las instrucciones oficiales de Reachfar para construir las entradas de servidor y puerto. Preserve marcadores como {{apn}}, {{apnu}} o {{apnp}} exactamente tal como los provea el fabricante cuando aparezcan en las guías oficiales.
+Si su versión del RF‑V22 permite comandos textuales o configuración por SMS, utilice las instrucciones oficiales de Reachfar para construir las entradas de servidor y puerto. Preserve marcadores como [apn], [apnu] o [apnp] exactamente tal como los provea el fabricante cuando aparezcan en las guías oficiales.
 
 ## Notas de configuración
 

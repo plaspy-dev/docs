@@ -1,6 +1,7 @@
 ---
 slug: /aoya/t8gps
 id: t8gps
+sidebar_key: aoyt8gps_index_t8gps
 sidebar_label: T8GPS
 title: AoYa - T8GPS
 sidebar_class_name: menu_item_tracker

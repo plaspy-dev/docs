@@ -47,7 +47,7 @@ Configuring the AS700 for Plaspy means preparing the device to send GNSS, sensor
 - A charged AS700 with adequate solar or battery power for testing and configuration.
 - A working cellular subscription on a compatible SIM or eSIM and the correct APN values for the mobile network.
 - Access to manufacturer configuration tools such as ATrack Device Management (ADM) via Bluetooth or USB Type C, or an AT command interface as provided in device documentation.
-- The APN, APN username, and APN password values for your SIM provider to populate {{apn}}, {{apnu}}, {{apnp}} placeholders if required.
+- The APN, APN username, and APN password values for your SIM provider to populate [apn], [apnu], [apnp] placeholders if required.
 - Basic knowledge of whether you will use UDP or TCP for transport so you can select the transport when configuring the device.
 - Administrative access to Plaspy so you can verify the device appears in the platform after configuration.
 
@@ -67,7 +67,7 @@ The AS700 transmits location, sensor, and power telemetry over the cellular link
 2. Enter the Plaspy server as either the domain d.plaspy.com or the server IP 54.85.159.138 in the device server or GPRS configuration.
 3. Set the port to 8888 which Plaspy uses for all devices.
 4. Choose the transport protocol UDP or TCP if the device requires a transport selection.
-5. Configure APN settings including {{apn}}, {{apnu}}, and {{apnp}} as provided by your mobile operator.
+5. Configure APN settings including [apn], [apnu], and [apnp] as provided by your mobile operator.
 6. Apply or save the configuration and restart the device if the manufacturer instructions require a reboot to activate network settings.
 7. Validate that the device reports to Plaspy by checking device status in the Plaspy platform and confirming recent telemetry.
 
@@ -93,9 +93,9 @@ AT$TRAC=1,60,,,,,2
 AT$FORM=1,@P,0,""
 ```
 
-- Configure GPRS server and APN settings pointing to Plaspy. Replace {{apn}}, {{apnu}}, {{apnp}} with your mobile operator values. This example uses the Plaspy server IP and port 8888:
+- Configure GPRS server and APN settings pointing to Plaspy. Replace [apn], [apnu], [apnp] with your mobile operator values. This example uses the Plaspy server IP and port 8888:
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 - Check device status and basic information:
@@ -104,9 +104,9 @@ AT$INFO=?
 ```
 
 Notes on placeholders
-- {{apn}} is your mobile network APN.
-- {{apnu}} is the APN username when required by the carrier.
-- {{apnp}} is the APN password when required by the carrier.
+- [apn] is your mobile network APN.
+- [apnu] is the APN username when required by the carrier.
+- [apnp] is the APN password when required by the carrier.
 
 These commands reflect publicly available configuration examples. Use ADM or your chosen manufacturer tool if you prefer a graphical configuration method.
 

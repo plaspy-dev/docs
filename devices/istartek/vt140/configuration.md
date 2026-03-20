@@ -90,12 +90,12 @@ GMT,E,0#
 
 - Set the operator APN
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 Explanation of APN placeholders
-- {{apn}} is the mobile data APN for the SIM operator.
-- {{apnu}} is the APN username if required by the carrier. If not required, the field may be left blank or omitted per carrier rules.
-- {{apnp}} is the APN password if required by the carrier.
+- [apn] is the mobile data APN for the SIM operator.
+- [apnu] is the APN username if required by the carrier. If not required, the field may be left blank or omitted per carrier rules.
+- [apnp] is the APN password if required by the carrier.
 
 - Set the GPRS server to Plaspy using the domain and port
 ```text

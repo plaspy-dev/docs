@@ -77,20 +77,20 @@ The following example commands are extracted from public device configuration co
 
 Notes about placeholders
 - {{imei}} is the device IMEI and must be replaced with the tracker IMEI
-- {{apn}} is the cellular APN name if applicable
-- {{apnu}} is the APN username if required by your carrier
-- {{apnp}} is the APN password if required by your carrier
+- [apn] is the cellular APN name if applicable
+- [apnu] is the APN username if required by your carrier
+- [apnp] is the APN password if required by your carrier
 - E0 and E1 in the command are used to set the Plaspy server IP and port respectively
 - The trailing *{{checksum}} or *{{checksumreeboot}} must be replaced with the device checksum calculated over the part of the command before the asterisk using the tracker checksum algorithm
 
 1. Setup command to point the tracker to Plaspy and set network parameters
 
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - This command sets the APN placeholders and the Plaspy server IP and port.
-- Keep the placeholders {{apn}}, {{apnu}}, {{apnp}} if your carrier requires APN credentials; otherwise they can be left empty or removed per manufacturer guidance.
+- Keep the placeholders [apn], [apnu], [apnp] if your carrier requires APN credentials; otherwise they can be left empty or removed per manufacturer guidance.
 - E0 is set to Plaspy server IP 54.85.159.138 and E1 is set to port 8888 as required by Plaspy.
 
 2. Optional reboot command to apply settings immediately

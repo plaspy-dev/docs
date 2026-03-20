@@ -79,7 +79,7 @@ Use the following example SMS commands, replacing placeholders as needed. Send c
 
 - Setup command
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 - Reboot command (optional or use when required to apply settings)
 ```text
@@ -88,7 +88,7 @@ GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
 
 Notes on placeholders and checksum:
 - {{imei}} — Replace with the device IMEI number for the KT-520.
-- {{apn}}, {{apnu}}, {{apnp}} — APN, APN username, and APN password placeholders. Include values only if your device or provisioning requires a packet data path. If not required for satellite operation, these can often be left empty according to your provider guidance.
+- [apn], [apnu], [apnp] — APN, APN username, and APN password placeholders. Include values only if your device or provisioning requires a packet data path. If not required for satellite operation, these can often be left empty according to your provider guidance.
 - {{checksum}} and {{checksumreeboot}} — The commands expect a hexadecimal checksum appended after the asterisk. The checksum shown in the manufacturer sample is computed as the XOR of all characters in the command string before the '*' and represented as a two digit uppercase hexadecimal value. Ensure the checksum is correct for the full command prefix before sending.
 - The example uses E0 and E1 fields to specify the Plaspy IP and port. E0=54.85.159.138 and E1=8888 point the tracker to Plaspy. Alternatively, some configuration tools accept d.plaspy.com in a server name field.
 

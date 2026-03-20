@@ -82,17 +82,17 @@ ThingSys publica comandos estilo SMS para el TS-V7. Los comandos siguientes son 
 begin123456
 ```
 
-- Establecer el APN del operador (reemplace {{apn}} con el string APN del operador):
+- Establecer el APN del operador (reemplace [apn] con el string APN del operador):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Explicación: {{apn}} es un marcador para el APN de su proveedor de SIM, por ejemplo internet o el APN proporcionado por su operador.
+Explicación: [apn] es un marcador para el APN de su proveedor de SIM, por ejemplo internet o el APN proporcionado por su operador.
 
 - Establecer usuario y contraseña del APN si el operador los requiere (reemplace los marcadores según corresponda):
 ```text
-user {{apnu}} {{apnp}}
+user [apnu] [apnp]
 ```
-Explicación: {{apnu}} y {{apnp}} son marcadores para el nombre de usuario y la contraseña del APN. Si su SIM no requiere credenciales, puede omitir este comando.
+Explicación: [apnu] y [apnp] son marcadores para el nombre de usuario y la contraseña del APN. Si su SIM no requiere credenciales, puede omitir este comando.
 
 - Establecer el ID de reporte del dispositivo usando los últimos 11 dígitos del IMEI
 ```text

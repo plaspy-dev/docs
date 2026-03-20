@@ -77,11 +77,11 @@ The Tramigo T22 can be configured by sending SMS commands to the device. The com
 
 1. Set the operator APN
 ```text
-GPRS,APN,{{apn}},{{apnu}},{{apnp}}
+GPRS,APN,[apn],[apnu],[apnp]
 ```
-- {{apn}} is the operator APN name
-- {{apnu}} is the APN username if required by the operator
-- {{apnp}} is the APN password if required by the operator
+- [apn] is the operator APN name
+- [apnu] is the APN username if required by the operator
+- [apnp] is the APN password if required by the operator
 
 2. Turn on FIND reporting every 1 minute
 ```text
@@ -116,7 +116,7 @@ Status
 - Tramigo T22 configuration can be performed by SMS as shown in the public commands above or by using Tramigo vendor tools; follow the option appropriate to your installation.
 - Firmware and hardware revisions can change command syntax and supported parameters. If a command fails, confirm the correct syntax with Tramigo documentation for your firmware version.
 - Choose TCP or UDP based on your networking needs and device support. Plaspy accepts either transport on port 8888 and will auto detect the incoming protocol.
-- Keep APN credentials and any placeholders secure. Replace {{apn}}, {{apnu}}, and {{apnp}} with operator values before sending commands.
+- Keep APN credentials and any placeholders secure. Replace [apn], [apnu], and [apnp] with operator values before sending commands.
 - If settings do not take effect immediately, a device restart or power cycle may be required to apply network and server changes.
 
 ## Why Use Plaspy with This Configuration

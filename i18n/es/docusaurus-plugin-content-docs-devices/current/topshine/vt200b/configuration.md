@@ -78,9 +78,9 @@ El VT200B envía coordenadas GPS y telemetría al endpoint compartido de Plaspy 
 
 ## Ejemplos de comandos de configuración
 
-El VT200B admite configuración por comandos SMS. Los comandos de ejemplo del fabricante y los marcadores de posición se muestran a continuación. El ejemplo usa la contraseña por defecto 000000 donde aparece <password> en los comandos.
+El VT200B admite configuración por comandos SMS. Los comandos de ejemplo del fabricante y los marcadores de posición se muestran a continuación. El ejemplo usa la contraseña por defecto 000000 donde aparece \<password> en los comandos.
 
-Nota: Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} sin cambios y reemplace con el APN de su operador, usuario APN y contraseña APN según sea necesario.
+Nota: Mantenga los marcadores de posición como [apn], [apnu] y [apnp] sin cambios y reemplace con el APN de su operador, usuario APN y contraseña APN según sea necesario.
 
 - Restablecer a configuración de fábrica (paso inicial opcional):
 
@@ -88,22 +88,22 @@ Nota: Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} sin
 W000000,990,099###
 ```
 
-- Establecer el ID del dispositivo usando los primeros 14 dígitos derivados del IMEI (reemplazar <14-digit-imei> por el valor real de 14 dígitos):
+- Establecer el ID del dispositivo usando los primeros 14 dígitos derivados del IMEI (reemplazar \<14-digit-imei> por el valor real de 14 dígitos):
 
 ```text
 W000000,010,<14-digit-imei>
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} con su APN; incluya usuario y contraseña del APN si es necesario usando {{apnu}} y {{apnp}}):
+- Configurar el APN del operador (reemplazar [apn] con su APN; incluya usuario y contraseña del APN si es necesario usando [apnu] y [apnp]):
 
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 
 Comando APN extendido opcional con usuario y contraseña:
 
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 
 - Establecer el servidor GPRS a la IP y puerto de Plaspy proporcionados por Plaspy:
@@ -136,7 +136,7 @@ W000000,014,6
 W000000,601
 ```
 
-Reemplace la contraseña inicial 000000 por la contraseña real del dispositivo si esta se ha cambiado del valor de fábrica. Al usar el comando de APN, sustituya los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador.
+Reemplace la contraseña inicial 000000 por la contraseña real del dispositivo si esta se ha cambiado del valor de fábrica. Al usar el comando de APN, sustituya los marcadores de posición [apn], [apnu] y [apnp] por los valores de su operador.
 
 ## Notas de configuración
 

@@ -75,7 +75,7 @@ The T622L-F9 is configured to report to the shared Plaspy server endpoint and po
 
 ## Example Configuration Commands
 
-The T622L-F9 can be configured via SMS commands. The following public commands are provided in the manufacturer documentation. The device default password shown below is 0000. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your SIM carrier APN, APN username, and APN password when required.
+The T622L-F9 can be configured via SMS commands. The following public commands are provided in the manufacturer documentation. The device default password shown below is 0000. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your SIM carrier APN, APN username, and APN password when required.
 
 - Optional initial factory reset using the default device password 0000
 ```text
@@ -84,9 +84,9 @@ The T622L-F9 can be configured via SMS commands. The following public commands a
 
 - Set the GPRS server to Plaspy using the numeric server IP and port plus the SIM APN
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the SIM card data APN. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders if your carrier requires them.
+Explanation: [apn] is the SIM card data APN. [apnu] and [apnp] are optional APN username and APN password placeholders if your carrier requires them.
 
 - Set the time zone to UTC 0
 ```text

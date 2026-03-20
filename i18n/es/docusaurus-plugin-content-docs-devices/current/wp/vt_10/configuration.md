@@ -76,13 +76,13 @@ El VT-10 utiliza su conexión GPRS para enviar mensajes de rastreo al endpoint y
 
 El VT-10 puede configurarse usando los métodos provistos por el fabricante, que pueden incluir comandos SMS, una herramienta de configuración para PC o una interfaz USB/serial. Los comandos y la sintaxis exacta varían según el firmware y la herramienta del proveedor, por lo que consulte el manual del WP VT-10 para el formato preciso de los comandos.
 
-Si su proveedor ofrece plantillas de configuración por SMS, normalmente requerirán la dirección del servidor y el puerto más la selección de transporte. Mantenga los marcadores de posición para los valores APN cuando sea necesario, como {{apn}}, {{apnu}} o {{apnp}} y reemplácelos con el APN, usuario y contraseña de su operador según corresponda.
+Si su proveedor ofrece plantillas de configuración por SMS, normalmente requerirán la dirección del servidor y el puerto más la selección de transporte. Mantenga los marcadores de posición para los valores APN cuando sea necesario, como [apn], [apnu] o [apnp] y reemplácelos con el APN, usuario y contraseña de su operador según corresponda.
 
 ## Notas de configuración
 
 - Diferentes versiones de firmware o revisiones de hardware del VT-10 pueden exponer distintas opciones de configuración o sintaxis de comandos. Siempre confirme la sintaxis correcta para el firmware de su dispositivo.
 - Elija UDP o TCP según la confiabilidad de la red y las restricciones de su despliegue; Plaspy acepta cualquiera de los dos transportes en el puerto compartido.
-- Tenga listos los marcadores de posición de APN al usar una SIM de datos móviles; reemplace {{apn}} y los marcadores relacionados por los valores del operador.
+- Tenga listos los marcadores de posición de APN al usar una SIM de datos móviles; reemplace [apn] y los marcadores relacionados por los valores del operador.
 - Al usar configuración por SMS, verifique el formato del comando SMS en el manual del VT-10 para evitar una mala configuración.
 - Verifique el IMEI del dispositivo y que sea reconocido por Plaspy después de la configuración para asegurar la asignación correcta.
 

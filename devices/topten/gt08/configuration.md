@@ -83,12 +83,12 @@ Label: optional initial factory restore. Use this only if you need to clear prev
 
 - Set APN and GPRS server to point the tracker at Plaspy (example uses the Plaspy server IP and port). Replace the placeholders with your carrier values.
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explanation:
-- {{apn}} = your carrier APN name  
-- {{apnu}} = APN username if required (leave empty or remove if not used)  
-- {{apnp}} = APN password if required (leave empty or remove if not used)  
+- [apn] = your carrier APN name  
+- [apnu] = APN username if required (leave empty or remove if not used)  
+- [apnp] = APN password if required (leave empty or remove if not used)  
 - RPT, SLP, RUN parameters are part of the manufacturer syntax and control reporting intervals and runs as published by TopTen.
 
 - Verify or query the WWW/GPRS settings
@@ -105,7 +105,7 @@ Note: The GT08 uses the tracker ID that corresponds to the last 14 digits of the
 - The GT08 supports SMS based provisioning as shown above; ensure the SMS sender number has permission to manage the device if required.  
 - When configuring the server you can use either the domain d.plaspy.com or the IP 54.85.159.138; both should point the device to Plaspy on port 8888.  
 - Choose UDP or TCP according to device capability; Plaspy will automatically detect the protocol after the device connects.  
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} as templates when preparing commands; replace them with the values supplied by your mobile operator.
+- Keep APN placeholders [apn], [apnu], and [apnp] as templates when preparing commands; replace them with the values supplied by your mobile operator.
 
 ## Why Use Plaspy with This Configuration
 

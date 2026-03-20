@@ -78,7 +78,7 @@ When configured for Plaspy, the CAREU Ugo sends GNSS positions and vehicle telem
 
 The exact configuration method for CAREU Ugo can vary by firmware and vendor tool. Some installers use a desktop configuration utility or a mobile app, while others may use SMS or remote provisioning based on CAREU tools. Because manufacturer tools differ by region and firmware, follow the official CAREU configuration instructions for command syntax and exact procedures.
 
-If you have a set of public CAREU commands from your vendor documentation, run them in the order specified by CAREU and include the Plaspy server settings listed above. For placeholder fields in manufacturer commands, keep placeholders such as {{apn}} or {{apnu}} as provided and replace them with your network specific values when instructed.
+If you have a set of public CAREU commands from your vendor documentation, run them in the order specified by CAREU and include the Plaspy server settings listed above. For placeholder fields in manufacturer commands, keep placeholders such as [apn] or [apnu] as provided and replace them with your network specific values when instructed.
 
 ## Configuration Notes
 

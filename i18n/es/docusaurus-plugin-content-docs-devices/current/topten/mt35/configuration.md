@@ -85,12 +85,12 @@ El MT35 admite configuración vía SMS según la documentación pública. Los si
 
 - Establecer APN y configuración del servidor GPRS para apuntar a Plaspy
 ```text
-111111WWW:IPN:54.85.159.138;COM:8888;APN:{{apn}},{{apnu}},{{apnp}};RPT:60;SLP:60;RUN:2;
+111111WWW:IPN:54.85.159.138;COM:8888;APN:[apn],[apnu],[apnp];RPT:60;SLP:60;RUN:2;
 ```
 Explicación de marcadores de posición:
-- {{apn}} = nombre del APN proporcionado por su operador
-- {{apnu}} = nombre de usuario APN si lo requiere el operador (dejar vacío si no aplica)
-- {{apnp}} = contraseña APN si lo requiere el operador (dejar vacío si no aplica)
+- [apn] = nombre del APN proporcionado por su operador
+- [apnu] = nombre de usuario APN si lo requiere el operador (dejar vacío si no aplica)
+- [apnp] = contraseña APN si lo requiere el operador (dejar vacío si no aplica)
 
 Este comando configura el dispositivo para usar la IP del servidor Plaspy 54.85.159.138 en el puerto 8888 e incluye parámetros de reporte y suspensión (tal como se muestra en el comando público). También es aceptable usar el dominio del servidor d.plaspy.com en lugar de la IP cuando el dispositivo soporta nombres de dominio.
 

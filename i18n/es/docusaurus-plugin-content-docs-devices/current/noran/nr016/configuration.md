@@ -77,14 +77,14 @@ El NR016 envía ubicación, eventos de alarma y telemetría por datos móviles a
 Los ejemplos públicos de configuración del NR016 suelen enviarse por SMS. La contraseña por defecto usada en ejemplos públicos es 000000. Mantenga los marcadores (placeholders) al reemplazar valores.
 
 - Configurar el APN del operador
-  - Reemplace {{apn}} por el APN de su red. Si el APN requiere usuario o contraseña incluya {{apnu}} y {{apnp}} como se muestra.
+  - Reemplace [apn] por el APN de su red. Si el APN requiere usuario o contraseña incluya [apnu] y [apnp] como se muestra.
   ```sms
-  A000000,012,{{apn}}{{,{{apnu}},{{apnp}}}}
+  A000000,012,[apn]{{,[apnu],[apnp]}}
   ```
   Nota: La plantilla en alguna documentación del fabricante muestra un formato separado por comas. Use la variante que requiera su firmware. Los marcadores significan:
-  - {{apn}} es el APN de datos móviles
-  - {{apnu}} es el usuario del APN cuando se requiere
-  - {{apnp}} es la contraseña del APN cuando se requiere
+  - [apn] es el APN de datos móviles
+  - [apnu] es el usuario del APN cuando se requiere
+  - [apnp] es la contraseña del APN cuando se requiere
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto mostrados en la documentación de Plaspy
   ```sms

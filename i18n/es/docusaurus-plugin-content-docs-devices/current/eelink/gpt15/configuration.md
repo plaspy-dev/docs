@@ -66,13 +66,13 @@ El GPT15 se configura para enviar su telemetría de ubicación y eventos al endp
 2. Ingrese la dirección del servidor de Plaspy: utilice d.plaspy.com o la IP 54.85.159.138 en el campo SERVER.  
 3. Configure el puerto del servidor en 8888 (Plaspy usa el mismo puerto para todos los dispositivos compatibles).  
 4. Si el dispositivo requiere selección de transporte, elija UDP o TCP en el puerto 8888.  
-5. Configure el APN del operador de la SIM y las credenciales APN necesarias (use marcadores como {{apn}}, {{apnu}}, {{apnp}} al preparar plantillas SMS).  
+5. Configure el APN del operador de la SIM y las credenciales APN necesarias (use marcadores como [apn], [apnu], [apnp] al preparar plantillas SMS).  
 6. Aplique o guarde la configuración y reinicie el dispositivo si el fabricante recomienda un reinicio.  
 7. Valide que el dispositivo reporte a Plaspy comprobando la presencia y la actividad reciente en su cuenta o tablero de Plaspy.
 
 ## Comandos de configuración de ejemplo
 
-El GPT15 admite configuración vía SMS. Los siguientes comandos SMS corresponden a la secuencia públicamente documentada para la configuración básica. Envíe cada comando como un único SMS al número de la SIM del dispositivo. Mantenga los marcadores como {{apn}} donde se muestran.
+El GPT15 admite configuración vía SMS. Los siguientes comandos SMS corresponden a la secuencia públicamente documentada para la configuración básica. Envíe cada comando como un único SMS al número de la SIM del dispositivo. Mantenga los marcadores como [apn] donde se muestran.
 
 - Reinicio de fábrica opcional (usar solo si necesita restaurar valores por defecto)
 ```text
@@ -86,13 +86,13 @@ GMT,E,0#
 
 - Establecer el APN del operador (reemplace los marcadores por los valores del operador; incluya usuario y contraseña solo si son necesarios)
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 o con usuario y contraseña donde esté soportado:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explicación: {{apn}} = nombre del APN, {{apnu}} = usuario del APN (opcional), {{apnp}} = contraseña del APN (opcional).
+Explicación: [apn] = nombre del APN, [apnu] = usuario del APN (opcional), [apnp] = contraseña del APN (opcional).
 
 - Configurar el servidor GPRS para usar Plaspy por dominio (forma legible preferida)
 ```text

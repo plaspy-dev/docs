@@ -79,9 +79,9 @@ Si planea usar configuración vía SMS, utilice los comandos de ejemplo más aba
 El fabricante del VT-400 proporciona comandos SMS para la configuración. Los comandos de ejemplo a continuación usan la contraseña de fábrica por defecto 0000. Si su contraseña fue cambiada, reemplace 0000 por la contraseña actual del dispositivo.
 
 Nota sobre los marcadores de posición
-- {{apn}} es el nombre del punto de acceso (APN) de la red móvil necesario para datos GPRS
-- {{apnu}} es el usuario del APN cuando lo requiere el operador
-- {{apnp}} es la contraseña del APN cuando lo requiere el operador
+- [apn] es el nombre del punto de acceso (APN) de la red móvil necesario para datos GPRS
+- [apnu] es el usuario del APN cuando lo requiere el operador
+- [apnp] es la contraseña del APN cuando lo requiere el operador
 
 1. Restablecimiento opcional a configuración de fábrica inicial
 ```
@@ -91,9 +91,9 @@ Etiqueta: Restablecimiento opcional a configuración de fábrica inicial. Use es
 
 2. Configure el servidor GPRS a Plaspy usando IP y puerto e incluya los marcadores de APN
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-Explicación: Configure el modo de servidor GPRS 2 con la IP del servidor de Plaspy 54.85.159.138 y el puerto 8888. Reemplace {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador. Si prefiere usar el dominio, el servidor equivalente es d.plaspy.com.
+Explicación: Configure el modo de servidor GPRS 2 con la IP del servidor de Plaspy 54.85.159.138 y el puerto 8888. Reemplace [apn], [apnu] y [apnp] por los valores de su operador. Si prefiere usar el dominio, el servidor equivalente es d.plaspy.com.
 
 3. Establezca la zona horaria en UTC 0
 ```
@@ -120,7 +120,7 @@ Envíe estos comandos como mensajes SMS al VT-400 siguiendo las instrucciones de
 - Las revisiones de firmware y hardware pueden cambiar los formatos de comandos y los parámetros disponibles. Confirme siempre la sintaxis exacta con la documentación del fabricante para su versión de firmware.
 - El VT-400 admite configuración por SMS como se muestra arriba y reporte GPRS por TCP o UDP a Plaspy. Use la opción de transporte que mejor se adapte a su red y necesidades operativas.
 - Plaspy usa el mismo puerto 8888 para todos los dispositivos y detecta automáticamente el protocolo del rastreador, por lo que puede apuntar el dispositivo al servidor compartido sin necesitar puertos específicos por protocolo.
-- Al usar credenciales APN, conserve los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} hasta reemplazarlos con los datos del operador.
+- Al usar credenciales APN, conserve los marcadores de posición como [apn], [apnu] y [apnp] hasta reemplazarlos con los datos del operador.
 - Pruebe la configuración en un solo dispositivo antes de la provisión masiva para verificar el APN, el transporte y el comportamiento del intervalo de reporte.
 
 ## Por qué usar Plaspy con esta configuración

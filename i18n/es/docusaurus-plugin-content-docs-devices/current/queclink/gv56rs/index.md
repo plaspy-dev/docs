@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv56rs
 id: gv56rs
+sidebar_key: queclingv56rs_index_gv56rs
 sidebar_label: GV56RS
 title: QuecLink - GV56RS
 sidebar_class_name: menu_item_tracker

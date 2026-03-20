@@ -80,13 +80,13 @@ The Teltonika public example for setting basic network and server parameters can
 - Example setparam command as provided in public Teltonika guidance:
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders and items in the command
-  - {{apn}} is your cellular data access point name
-  - {{apnu}} is the APN username if required by your operator
-  - {{apnp}} is the APN password if required by your operator
+  - [apn] is your cellular data access point name
+  - [apnu] is the APN username if required by your operator
+  - [apnp] is the APN password if required by your operator
   - 2004 is set to d.plaspy.com which points the device to Plaspy
   - 2005 is set to 8888 which is the shared Plaspy port
   - 2006 is included in the example as provided; consult Teltonika documentation for the parameter meaning in your firmware

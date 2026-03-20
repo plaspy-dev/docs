@@ -87,11 +87,11 @@ RESET
 
 3. Configurar el APN del operador y credenciales (reemplazar los marcadores con los valores de su operador):
 ```
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-- {{apn}} es el nombre APN proporcionado por el operador móvil.  
-- {{apnu}} es el usuario del APN si se requiere (dejar en blanco si no aplica).  
-- {{apnp}} es la contraseña del APN si se requiere (dejar en blanco si no aplica).
+- [apn] es el nombre APN proporcionado por el operador móvil.  
+- [apnu] es el usuario del APN si se requiere (dejar en blanco si no aplica).  
+- [apnp] es la contraseña del APN si se requiere (dejar en blanco si no aplica).
 
 4. Establecer el endpoint y puerto GPRS para Plaspy (este ejemplo usa la IP y puerto del servidor Plaspy):
 ```
@@ -125,7 +125,7 @@ RCONF
 - Las revisiones de firmware y las herramientas del proveedor pueden cambiar la sintaxis o el comportamiento de los comandos; confirme siempre la sintaxis con el firmware instalado en su equipo.  
 - La configuración por SMS es un método común para los AL-900G; si usa una herramienta de configuración o interfaz USB, consulte la guía del fabricante para pasos equivalentes.  
 - Elija UDP o TCP según su red y las preferencias del instalador; Plaspy acepta ambos en el puerto 8888 y detectará el protocolo automáticamente.  
-- Tenga listos los marcadores {{apn}}, {{apnu}} y {{apnp}} con los valores del operador para evitar fallos de conexión.  
+- Tenga listos los marcadores [apn], [apnu] y [apnp] con los valores del operador para evitar fallos de conexión.  
 - Use el comando RCONF para confirmar que el dispositivo usa el servidor GPRS y los ajustes esperados antes de validar en el lado de Plaspy.
 
 ## Por qué usar Plaspy con esta configuración

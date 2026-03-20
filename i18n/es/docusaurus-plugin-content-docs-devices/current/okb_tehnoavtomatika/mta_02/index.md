@@ -1,6 +1,7 @@
 ---
 slug: /okb_tehnoavtomatika/mta_02
 id: mta_02
+sidebar_key: okb_tehnoavtomatikmta_02_index_mta_02
 sidebar_label: MTA-02
 title: OKB Tehnoavtomatika - MTA-02
 sidebar_class_name: menu_item_tracker

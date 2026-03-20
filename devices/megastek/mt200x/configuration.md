@@ -85,12 +85,12 @@ M000000,22,IMEI15
 
 2) Set the operator APN (replace placeholders with your operator values)
 ```sms
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 - Placeholders:
-  - {{apn}} = operator APN name
-  - {{apnu}} = APN username (if required by operator)
-  - {{apnp}} = APN password (if required by operator)
+  - [apn] = operator APN name
+  - [apnu] = APN username (if required by operator)
+  - [apnp] = APN password (if required by operator)
 - If username or password are not required, the command may omit those fields per manufacturer guidelines.
 
 3) Set the update interval to 60 seconds

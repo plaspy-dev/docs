@@ -86,7 +86,7 @@ Si recibe una lista de comandos SMS del fabricante GOTOP, comúnmente encontrar�
 
 - Las versiones de firmware y las revisiones de hardware pueden cambiar la sintaxis de los comandos y la ubicación de los menús; verifique comandos y opciones con el manual del TE-207S correspondiente a su revisión de dispositivo.
 - Elija UDP o TCP según sus necesidades de despliegue; Plaspy aceptará cualquiera de los dos transportes en el puerto 8888 y detectará automáticamente el protocolo del rastreador.
-- Asegúrese de que APN, usuario y contraseña estén configurados correctamente para la SIM en uso; marcadores de posición como {{apn}}, {{apnu}} o {{apnp}} suelen aparecer en plantillas del fabricante para indicar dónde colocar los valores del APN de su operador.
+- Asegúrese de que APN, usuario y contraseña estén configurados correctamente para la SIM en uso; marcadores de posición como [apn], [apnu] o [apnp] suelen aparecer en plantillas del fabricante para indicar dónde colocar los valores del APN de su operador.
 - Si usa configuración vía SMS, confirme que la SIM puede enviar SMS y que los comandos SMS están permitidos por su política de despliegue.
 - Pruebe los eventos SOS y las alarmas después de la configuración para confirmar que se reenvían y son visibles en Plaspy.
 

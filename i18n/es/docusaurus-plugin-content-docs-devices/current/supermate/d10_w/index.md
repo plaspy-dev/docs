@@ -1,6 +1,7 @@
 ---
 slug: /supermate/d10_w
 id: d10_w
+sidebar_key: supermatd10_w_index_d10_w
 sidebar_label: D10-W
 title: Supermate - D10-W
 sidebar_class_name: menu_item_tracker

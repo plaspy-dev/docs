@@ -82,11 +82,11 @@ El TLD2-L puede configurarse usando comandos SMS. Los siguientes comandos de eje
 GMT,0000,0#
 ```
 
-- Establecer el APN. Reemplace {{apn}}, {{apnu}} y {{apnp}} con el nombre del APN de su operador, el usuario y la contraseña según sea necesario
+- Establecer el APN. Reemplace [apn], [apnu] y [apnp] con el nombre del APN de su operador, el usuario y la contraseña según sea necesario
 ```text
-APN,0000,{{apn}},{{apnu}},{{apnp}}#
+APN,0000,[apn],[apnu],[apnp]#
 ```
-(Explicación: {{apn}} es el nombre del APN proporcionado por el operador móvil. {{apnu}} y {{apnp}} son campos opcionales de usuario y contraseña del APN. Mantenga las llaves como marcadores y sustituya con los valores de su operador.)
+(Explicación: [apn] es el nombre del APN proporcionado por el operador móvil. [apnu] y [apnp] son campos opcionales de usuario y contraseña del APN. Mantenga las llaves como marcadores y sustituya con los valores de su operador.)
 
 - Configurar el servidor GPRS a la IP y puerto de Plaspy
 ```text

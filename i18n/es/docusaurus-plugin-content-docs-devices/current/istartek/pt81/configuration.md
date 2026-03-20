@@ -85,12 +85,12 @@ GMT,E,0#
 
 - Configurar el APN del operador. Reemplace los marcadores según sea necesario:
 ```text
-APN,{{apn}}[,{{apnu}},{{apnp}}]#
+APN,[apn][,[apnu],[apnp]]#
 ```
 Explicación de los marcadores:
-- {{apn}} es el nombre del punto de acceso del operador móvil.
-- {{apnu}} es el usuario del APN si el operador lo requiere.
-- {{apnp}} es la contraseña del APN si el operador lo requiere.
+- [apn] es el nombre del punto de acceso del operador móvil.
+- [apnu] es el usuario del APN si el operador lo requiere.
+- [apnp] es la contraseña del APN si el operador lo requiere.
 
 - Configurar el servidor GPRS para usar el dominio de Plaspy (forma con dominio):
 ```text

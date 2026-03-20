@@ -86,18 +86,18 @@ Description: Set the device identifier. Use the last 14 digits of the IMEI as th
 ```
 000000GID<14-digit-identifier>
 ```
-Example note: If your IMEI is 123456789012345, the last 14 digits would be 23456789012345. Replace \<14-digit-identifier> with that value.
+Example note: If your IMEI is 123456789012345, the last 14 digits would be 23456789012345. Replace \\<14-digit-identifier> with that value.
 
 3. Set the APN for GPRS connectivity
-Description: Replace the placeholders with your operator APN values. If your APN requires a username or password include {{apnu}} and {{apnp}} placeholders.
+Description: Replace the placeholders with your operator APN values. If your APN requires a username or password include [apnu] and [apnp] placeholders.
 ```
-000000APN{{apn}}
+000000APN[apn]
 ```
 Optional variant with APN user and pass
 ```
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the operator APN string, {{apnu}} is the APN username if required, and {{apnp}} is the APN password if required.
+Explanation: [apn] is the operator APN string, [apnu] is the APN username if required, and [apnp] is the APN password if required.
 
 4. Set the GPRS server to Plaspy
 Description: Configure the server address and port so the tracker reports to Plaspy. This sets the numeric IP and port as published for Plaspy.

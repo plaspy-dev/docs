@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN (replace placeholders with your operator values)
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} is the APN string required by your mobile operator
-- {{apnu}} is the APN username if required, otherwise leave empty
-- {{apnp}} is the APN password if required, otherwise leave empty
+- [apn] is the APN string required by your mobile operator
+- [apnu] is the APN username if required, otherwise leave empty
+- [apnp] is the APN password if required, otherwise leave empty
 
 4. Set the GPRS server to Plaspy (this example includes both domain and IP and uses port 8888)
 ```text

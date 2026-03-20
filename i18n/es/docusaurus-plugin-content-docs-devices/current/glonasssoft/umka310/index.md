@@ -1,6 +1,7 @@
 ---
 slug: /glonasssoft/umka310
 id: umka310
+sidebar_key: glonasssofumka310_index_umka310
 sidebar_label: UMKa310
 title: GLONASSsoft - UMKa310
 sidebar_class_name: menu_item_tracker

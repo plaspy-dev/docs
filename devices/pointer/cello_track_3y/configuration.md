@@ -80,7 +80,7 @@ The Cello Track 3Y family is configured to report location and device messages t
 
 The exact commands or SMS strings used to configure Pointer devices vary across firmware and regional device variants. Because the available public configuration commands for the Cello Track 3Y family are provided by Pointer and may be delivered via a configuration tool or SMS interface, consult the official Pointer documentation or vendor instructions for the precise commands.
 
-If your device vendor provides command examples, place them in the manufacturer tool or send them following the vendor instructions. Typical manufacturer-provided commands will instruct the tracker to set server address, set port 8888, and select UDP or TCP transport. Preserve placeholders such as {{apn}} or similar if they appear in vendor-provided commands and follow the vendor guidance to replace them.
+If your device vendor provides command examples, place them in the manufacturer tool or send them following the vendor instructions. Typical manufacturer-provided commands will instruct the tracker to set server address, set port 8888, and select UDP or TCP transport. Preserve placeholders such as [apn] or similar if they appear in vendor-provided commands and follow the vendor guidance to replace them.
 
 ## Configuration Notes
 

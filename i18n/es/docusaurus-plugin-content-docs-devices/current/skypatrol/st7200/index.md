@@ -1,6 +1,7 @@
 ---
 slug: /skypatrol/st7200
 id: st7200
+sidebar_key: skypatrost7200_index_st7200
 sidebar_label: ST7200
 title: SkyPatrol - ST7200
 sidebar_class_name: menu_item_tracker

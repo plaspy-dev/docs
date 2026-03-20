@@ -81,19 +81,19 @@ El TK750 comúnmente acepta configuración mediante comandos SMS. La siguiente s
 begin123456
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} con la cadena APN de su operador):
+- Configurar el APN del operador (reemplazar [apn] con la cadena APN de su operador):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Configurar el nombre de usuario del APN si es necesario (reemplazar {{apnu}} con el nombre de usuario del APN):
+- Configurar el nombre de usuario del APN si es necesario (reemplazar [apnu] con el nombre de usuario del APN):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Configurar la contraseña del APN si es necesaria (reemplazar {{apnp}} con la contraseña del APN):
+- Configurar la contraseña del APN si es necesaria (reemplazar [apnp] con la contraseña del APN):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Configurar el servidor GPRS a Plaspy usando la IP pública y el puerto indicados en la documentación de Plaspy:
@@ -113,7 +113,7 @@ gprs123456
 
 Notas sobre los comandos y los marcadores:
 - La contraseña por defecto en estos ejemplos públicos es 123456. Confirme la contraseña de su dispositivo antes de enviar cualquier comando.
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por el APN de su operador, el nombre de usuario del APN y la contraseña del APN respectivamente.
+- Mantenga los marcadores [apn], [apnu] y [apnp] y sustitúyalos por el APN de su operador, el nombre de usuario del APN y la contraseña del APN respectivamente.
 - El comando adminip anterior establece la IP y el puerto del servidor a Plaspy. Si el firmware de su dispositivo admite nombres de dominio, puede configurar d.plaspy.com en lugar de la IP; verifique el soporte en la documentación oficial del TK-Star antes de usar un dominio.
 - Los comandos se muestran en el orden que se suele emplear para la configuración inicial; siga las indicaciones del fabricante respecto a agrupación de comandos, pausas entre SMS o confirmaciones de comando.
 

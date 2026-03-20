@@ -1,6 +1,7 @@
 ---
 slug: /topshine/mt02_4g
 id: mt02_4g
+sidebar_key: topshinmt02_4g_index_mt02_4g
 sidebar_label: MT02-4G
 title: TopShine - MT02-4G
 sidebar_class_name: menu_item_tracker

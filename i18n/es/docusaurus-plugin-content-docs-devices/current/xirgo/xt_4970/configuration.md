@@ -85,12 +85,12 @@ El XT-4970 puede configurarse por SMS usando el formato de comando público publ
 
 - Establecer el APN del operador. Reemplace los marcadores con los valores de su operador:
 ```sms
-+XT:1002,{{apnu}},{{apnp}},{{apn}}
++XT:1002,[apnu],[apnp],[apn]
 ```
 Explicación de los marcadores:
-- {{apn}} es el nombre del APN requerido por el operador móvil.
-- {{apnu}} es el usuario del APN si el operador lo solicita.
-- {{apnp}} es la contraseña del APN si el operador la solicita.
+- [apn] es el nombre del APN requerido por el operador móvil.
+- [apnu] es el usuario del APN si el operador lo solicita.
+- [apnp] es la contraseña del APN si el operador la solicita.
 
 - Configurar el servidor GPRS para apuntar el dispositivo a Plaspy. Este comando configura el puerto y la dirección IP usada por Plaspy:
 ```sms

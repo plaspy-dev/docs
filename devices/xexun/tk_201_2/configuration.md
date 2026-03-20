@@ -74,26 +74,26 @@ The TK-201-2 is configured to report positions and events to the shared Plaspy s
 
 ## Example Configuration Commands
 
-The TK-201-2 can be configured using SMS commands. The sample SMS commands below use the device password 123456 which is the default password shown in public documentation. Keep the command order when performing initial setup. The placeholders {{apn}}, {{apnu}}, and {{apnp}} should be replaced with your operator APN, APN username, and APN password respectively.
+The TK-201-2 can be configured using SMS commands. The sample SMS commands below use the device password 123456 which is the default password shown in public documentation. Keep the command order when performing initial setup. The placeholders [apn], [apnu], and [apnp] should be replaced with your operator APN, APN username, and APN password respectively.
 
 - Optional initial factory reset or initialization (use only if needed):
 ```text
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your mobile operator APN):
+- Set the operator APN (replace [apn] with your mobile operator APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if required (replace {{apnu}} with APN username):
+- Set the APN username if required (replace [apnu] with APN username):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if required (replace {{apnp}} with APN password):
+- Set the APN password if required (replace [apnp] with APN password):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP and port:
@@ -112,8 +112,8 @@ t060s***n123456
 ```
 
 Notes about placeholders and password
-- {{apn}} is the network operator APN. Replace it with the exact APN string provided by the SIM operator.
-- {{apnu}} and {{apnp}} are optional and only needed if your operator requires APN authentication.
+- [apn] is the network operator APN. Replace it with the exact APN string provided by the SIM operator.
+- [apnu] and [apnp] are optional and only needed if your operator requires APN authentication.
 - 123456 in these examples is the device password used in these public commands. Use the actual password for your device if it has been changed.
 
 ## Configuration Notes

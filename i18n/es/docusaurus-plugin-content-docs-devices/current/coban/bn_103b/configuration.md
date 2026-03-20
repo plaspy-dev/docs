@@ -74,7 +74,7 @@ El BN-103B puede transmitir coordenadas GPS y estado del equipo a Plaspy mediant
 
 ## Comandos de configuración de ejemplo
 
-El BN-103B soporta configuración por SMS. Los comandos siguientes son los comandos públicos por SMS proporcionados para la configuración inicial. La contraseña por defecto del dispositivo usada en estos comandos es 123456. Preserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} al reemplazarlos con los valores de su operador.
+El BN-103B soporta configuración por SMS. Los comandos siguientes son los comandos públicos por SMS proporcionados para la configuración inicial. La contraseña por defecto del dispositivo usada en estos comandos es 123456. Preserve los marcadores de posición [apn], [apnu] y [apnp] al reemplazarlos con los valores de su operador.
 
 1. Reinicio opcional a valores de fábrica (usar solo si es necesario)
 ```text
@@ -86,14 +86,14 @@ begin123456
 time zone123456 0
 ```
 
-3. Establecer el APN del operador móvil (reemplazar {{apn}} con el APN de su operador)
+3. Establecer el APN del operador móvil (reemplazar [apn] con el APN de su operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
 4. Configurar usuario y contraseña del APN (reemplazar los marcadores con las credenciales del operador)
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 5. Establecer el servidor GPRS a Plaspy usando la IP pública y el puerto
@@ -126,9 +126,9 @@ protocol123456 18
 ```
 
 Notas sobre marcadores de posición:
-- {{apn}} es la cadena APN de su operador móvil.
-- {{apnu}} es el nombre de usuario del APN si el operador lo requiere.
-- {{apnp}} es la contraseña del APN si el operador lo requiere.
+- [apn] es la cadena APN de su operador móvil.
+- [apnu] es el nombre de usuario del APN si el operador lo requiere.
+- [apnp] es la contraseña del APN si el operador lo requiere.
 Reemplace siempre los marcadores con los valores correctos del operador antes de enviar los comandos.
 
 ## Notas de configuración

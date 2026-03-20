@@ -65,7 +65,7 @@ Cuando se configura para Plaspy, el GT800 usa la conexión de datos móviles par
 ## Flujo común de configuración
 
 1. Acceda al método oficial de configuración Concox para su unidad GT800 (comandos SMS o el software recomendado por el fabricante).
-2. Configure el APN del dispositivo usando el comando APN, suministrando {{apn}} y opcionalmente {{apnu}} y {{apnp}} para el usuario y contraseña del APN.
+2. Configure el APN del dispositivo usando el comando APN, suministrando [apn] y opcionalmente [apnu] y [apnp] para el usuario y contraseña del APN.
 3. Ingrese el servidor Plaspy como d.plaspy.com o 54.85.159.138 y establezca el puerto en 8888.
 4. Seleccione el tipo de transporte (UDP o TCP) si el dispositivo requiere una selección explícita.
 5. Habilite el modo GPRS y configure el temporizador de reporte según sus necesidades de monitoreo.
@@ -88,10 +88,10 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace los marcadores por los valores de su operador. {{apn}} es obligatorio, {{apnu}} y {{apnp}} son opcionales y representan el usuario y la contraseña del APN:
+- Configurar el APN del operador. Reemplace los marcadores por los valores de su operador. [apn] es obligatorio, [apnu] y [apnp] son opcionales y representan el usuario y la contraseña del APN:
 
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Establecer el servidor GPRS usando el dominio Plaspy y el puerto (ejemplo con selección de dominio y campo de UDP/TCP):
@@ -131,9 +131,9 @@ GPRSSET#
 ```
 
 Notas sobre los marcadores:
-- {{apn}} = valor APN de su operador móvil.
-- {{apnu}} = usuario del APN si el operador lo requiere.
-- {{apnp}} = contraseña del APN si el operador lo requiere.
+- [apn] = valor APN de su operador móvil.
+- [apnu] = usuario del APN si el operador lo requiere.
+- [apnp] = contraseña del APN si el operador lo requiere.
 
 Envíe estos comandos como mensajes SMS al GT800 en el orden indicado al realizar la configuración inicial. Use el comando de reinicio de fábrica únicamente cuando sea apropiado.
 

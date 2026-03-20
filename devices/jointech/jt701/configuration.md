@@ -76,21 +76,21 @@ When configured with Plaspy server settings, the JT701 uses its cellular data li
 To set the tracker send the configuration commands by SMS with the device ID prefixed exactly as required by the JT701. Replace the placeholder values with your device specific values.
 
 - Note the tracker requires the device ID as the first token in the SMS command. Replace {{trackerID}} with your actual device ID.
-- {{apn}} is the mobile operator APN string.
-- {{apnu}} and {{apnp}} are optional APN username and password values if your SIM requires authentication.
+- [apn] is the mobile operator APN string.
+- [apnu] and [apnp] are optional APN username and password values if your SIM requires authentication.
 
 1. Set the GPRS server and APN
 
 Send an SMS formatted like the following, replacing placeholders:
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,{{apn}})
+({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 Alternatively you may use the server domain in place of the IP if the device supports domain names:
 
 ```
-({{trackerID}},2,S02,129,1,d.plaspy.com,8888,{{apn}})
+({{trackerID}},2,S02,129,1,d.plaspy.com,8888,[apn])
 ```
 
 2. Set the APN user and password if required by your operator
@@ -98,7 +98,7 @@ Alternatively you may use the server domain in place of the IP if the device sup
 Send this SMS only if your APN requires a username and password:
 
 ```
-({{trackerID}},2,S24,129,1,{{apnu}},{{apnp}})
+({{trackerID}},2,S24,129,1,[apnu],[apnp])
 ```
 
 These SMS commands follow the manufacturer provided public syntax. When sending, ensure the message is addressed to the JT701 phone number and that the carrier allows SMS commands to the tracker.

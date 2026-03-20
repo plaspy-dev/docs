@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/s_2654
 id: s_2654
+sidebar_key: navtelekos_2654_index_s_2654
 sidebar_label: СИГНАЛ S-2654
 title: Navtelekom - СИГНАЛ S-2654
 sidebar_class_name: menu_item_tracker

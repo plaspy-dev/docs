@@ -79,10 +79,10 @@ The GE-810 transmits device events, status, and voice event logs over the cellul
 
 The GE-810 supports SMS based configuration. The following public SMS commands show a typical setup flow. The sample device password used in these commands is 0000 which is the documented default in the public configuration content. Replace placeholders before sending.
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If your operator requires an APN username or password, include {{apnu}} and {{apnp}} where shown.
+- Set the operator APN. Replace [apn] with your operator APN. If your operator requires an APN username or password, include [apnu] and [apnp] where shown.
 ```
-APN,0000,{{apn}}
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn]
+APN,0000,[apn],[apnu],[apnp]
 ```
 - Set a 5 digit identifier (alias) to identify the device in your system. Use the last 5 digits of the IMEI. Example if IMEI ends with 67890:
 ```
@@ -110,7 +110,7 @@ CONEXION,0000#
 ```
 
 Notes on placeholders and values
-- {{apn}}, {{apnu}}, {{apnp}}: keep these placeholders and replace them with your mobile operator APN, APN username, and APN password as required.
+- [apn], [apnu], [apnp]: keep these placeholders and replace them with your mobile operator APN, APN username, and APN password as required.
 - Alias format: replace the example alias with the actual last five digits of the device IMEI.
 - The SERVIDOR command above uses the public Plaspy IP and the shared port 8888 and includes a transport indicator; preserve the order shown when issuing commands.
 

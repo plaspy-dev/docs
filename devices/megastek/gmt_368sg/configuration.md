@@ -83,13 +83,13 @@ M000000,22,{{('XXXXXXXXXXXXXXX' + imei.substring(0,15)).slice(-15)}}
 
 Explain: Replace the expression with the 15-digit IMEI or the device ID you want the tracker to report as.
 
-2. Set the operator APN (include optional APN username and password if required). Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator APN values:
+2. Set the operator APN (include optional APN username and password if required). Replace [apn], [apnu], and [apnp] with your operator APN values:
 
 ```
-M000000,23,{{apn}}{{,{{apnu}},{{apnp}}}}
+M000000,23,[apn]{{,[apnu],[apnp]}}
 ```
 
-Explain: {{apn}} is the APN string. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders.
+Explain: [apn] is the APN string. [apnu] and [apnp] are optional APN username and APN password placeholders.
 
 3. Set the update interval to 60 seconds:
 

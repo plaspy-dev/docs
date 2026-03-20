@@ -48,7 +48,7 @@ This configuration process prepares the TAT240 to send location and event data t
 - A charged and accessible TAT240 device with power applied so it can receive configuration commands
 - An active cellular SIM card with data and the correct APN information for your mobile operator
 - Access to Teltonika configuration tools or permission to send SMS configuration commands to the device
-- Knowledge of the APN values for your SIM including placeholders such as {{apn}}, {{apnu}}, and {{apnp}}
+- Knowledge of the APN values for your SIM including placeholders such as [apn], [apnu], and [apnp]
 - Ability to reboot or power-cycle the device if a restart is required after applying settings
 - Access to Plaspy account or administrator to verify device connectivity in the platform
 
@@ -68,7 +68,7 @@ When configured, the TAT240 sends position and event data from its cellular radi
 2. Enter the Plaspy server address either as d.plaspy.com or the IP 54.85.159.138 in the server field of the configuration tool.
 3. Set the port to 8888 which is the shared port Plaspy uses for all devices.
 4. Choose UDP or TCP transport if the device requires an explicit transport selection during setup.
-5. Configure APN settings and any carrier credentials using placeholders such as {{apn}}, {{apnu}}, and {{apnp}} if required.
+5. Configure APN settings and any carrier credentials using placeholders such as [apn], [apnu], and [apnp] if required.
 6. Apply or save the configuration and restart or power-cycle the device if the device or firmware requires a reboot to activate new parameters.
 7. Validate connectivity by confirming the device reports to Plaspy and appears in the platform with recent position and event data.
 
@@ -79,13 +79,13 @@ The following example is a public Teltonika SMS style command that sets basic pa
 - Example SMS batch command to set APN and Plaspy server parameters
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command
-- {{apn}} is the mobile operator APN string required for data connectivity.
-- {{apnu}} is the APN username if your operator requires it; leave empty if not required.
-- {{apnp}} is the APN password if your operator requires it; leave empty if not required.
+- [apn] is the mobile operator APN string required for data connectivity.
+- [apnu] is the APN username if your operator requires it; leave empty if not required.
+- [apnp] is the APN password if your operator requires it; leave empty if not required.
 - 2004 is set to d.plaspy.com which is the Plaspy server domain used for reporting.
 - 2005 is set to 8888 which is the shared Plaspy port for all devices.
 - 2006 commonly corresponds to a transport or connection mode parameter on Teltonika devices; confirm the exact mapping for your firmware in Teltonika documentation before changing this value.

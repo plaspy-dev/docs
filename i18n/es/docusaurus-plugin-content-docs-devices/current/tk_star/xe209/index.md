@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/xe209
 id: xe209
+sidebar_key: tk_staxe209_index_xe209
 sidebar_label: XE209
 title: TK-Star - XE209
 sidebar_class_name: menu_item_tracker

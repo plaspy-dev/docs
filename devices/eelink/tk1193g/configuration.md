@@ -49,7 +49,7 @@ These shared values are the public Plaspy endpoint details you will use when con
 - A powered TK119‑3G tracker with installation completed or mounted for testing.
 - An active SIM card with data and SMS enabled and correct APN credentials for the mobile operator.
 - Access to the manufacturer configuration method such as SMS commands or the vendor tool that supports the TK119‑3G.
-- The APN, APN username, and APN password for the SIM (placeholders shown below as {{apn}}, {{apnu}}, {{apnp}}).
+- The APN, APN username, and APN password for the SIM (placeholders shown below as [apn], [apnu], [apnp]).
 - A phone capable of sending SMS to the device or access to the device configuration utility.
 - A Plaspy account and the ability to check device reporting in the Plaspy platform.
 
@@ -88,13 +88,13 @@ GMT,E,0#
 ```
 
 3. Set the operator APN
-- Replace the placeholders with your operator APN credentials. {{apn}} is required. {{apnu}} and {{apnp}} are optional and used when the APN requires a username or password.
+- Replace the placeholders with your operator APN credentials. [apn] is required. [apnu] and [apnp] are optional and used when the APN requires a username or password.
 ```text
-APN,{{apn}}
+APN,[apn]
 ```
 or with username and password
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 4. Set the GPRS server to Plaspy by domain (recommended)
@@ -117,7 +117,7 @@ TIMER,60#
 PARAM#
 ```
 
-Note: Keep the order when performing a fresh configuration: APN then SERVER then TIMER is a common practical sequence. Replace {{apn}}, {{apnu}}, and {{apnp}} with the correct values supplied by your mobile operator.
+Note: Keep the order when performing a fresh configuration: APN then SERVER then TIMER is a common practical sequence. Replace [apn], [apnu], and [apnp] with the correct values supplied by your mobile operator.
 
 ## Configuration Notes
 

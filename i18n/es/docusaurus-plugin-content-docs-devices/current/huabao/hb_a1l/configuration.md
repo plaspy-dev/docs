@@ -76,7 +76,7 @@ El HB-A1L es un esclavo Bluetooth que reenvía eventos de puertas y seguridad a 
 
 Los comandos exactos de configuración o cadenas SMS varían según la herramienta del fabricante, la versión de firmware y la implementación del maestro HB-A1Lm. Dado que el HB-A1L es un esclavo Bluetooth, la configuración del servidor se aplica en el dispositivo maestro emparejado y no en el esclavo. Utilice la interfaz de configuración oficial del HB-A1Lm o la documentación del proveedor para realizar la configuración de servidor y transporte indicada arriba.
 
-Si utiliza una herramienta del fabricante que expone comandos en crudo, siga los ejemplos del proveedor en su documentación. Conserve los marcadores de posición como {{apn}} o similares cuando aparezcan en ejemplos del fabricante y reemplácelos por sus valores de red según las indicaciones del proveedor.
+Si utiliza una herramienta del fabricante que expone comandos en crudo, siga los ejemplos del proveedor en su documentación. Conserve los marcadores de posición como [apn] o similares cuando aparezcan en ejemplos del fabricante y reemplácelos por sus valores de red según las indicaciones del proveedor.
 
 ## Notas de configuración
 

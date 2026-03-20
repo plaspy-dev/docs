@@ -75,7 +75,7 @@ El TLV01 se conecta a Plaspy principalmente enviando datos de ubicación y event
 
 ## Ejemplos de comandos de configuración
 
-El TLV01 soporta configuración vía SMS. Los siguientes comandos SMS públicos se incluyen en la documentación del TLV01. La contraseña por defecto del dispositivo usada en estos ejemplos es 000000. Reemplace los marcadores de posición como IMEI, {{apn}}, {{apnu}}, y {{apnp}} por los valores de su equipo.
+El TLV01 soporta configuración vía SMS. Los siguientes comandos SMS públicos se incluyen en la documentación del TLV01. La contraseña por defecto del dispositivo usada en estos ejemplos es 000000. Reemplace los marcadores de posición como IMEI, [apn], [apnu], y [apnp] por los valores de su equipo.
 
 - Reinicio a configuración de fábrica opcional (usar solo si necesita restaurar valores de fábrica):
 ```text
@@ -88,11 +88,11 @@ W000000,010,<first 14 digits of IMEI>
 ```
 Nota: La referencia del TLV01 indica usar los primeros 14 dígitos del IMEI para el ID del dispositivo. Mantenga el IMEI completo disponible para el mapeo en la plataforma.
 
-- Configurar el APN del operador (use {{apn}} y opcionalmente {{apnu}} y {{apnp}} para usuario y contraseña):
+- Configurar el APN del operador (use [apn] y opcionalmente [apnu] y [apnp] para usuario y contraseña):
 ```text
-W000000,011,{{apn}}{{apnu ? ',' + {{apnu}} : ''}}{{apnp ? ',' + {{apnp}} : ''}}
+W000000,011,[apn]{{apnu ? ',' + [apnu] : ''}}{{apnp ? ',' + [apnp] : ''}}
 ```
-Explicación: {{apn}} es el APN del operador móvil. {{apnu}} y {{apnp}} son marcadores opcionales para usuario y contraseña del APN. Envíe una cadena separada por comas con APN, luego usuario y luego contraseña si su operador los requiere.
+Explicación: [apn] es el APN del operador móvil. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN. Envíe una cadena separada por comas con APN, luego usuario y luego contraseña si su operador los requiere.
 
 - Configurar el servidor GPRS hacia Plaspy usando la IP y el puerto proporcionados:
 ```text

@@ -1,6 +1,7 @@
 ---
 slug: /autofon/dx_mayak_81
 id: dx_mayak_81
+sidebar_key: autofodx_mayak_81_index_dx_mayak_81
 sidebar_label: DX Mayak 8.1
 title: AutoFon - DX Mayak 8.1
 sidebar_class_name: menu_item_tracker

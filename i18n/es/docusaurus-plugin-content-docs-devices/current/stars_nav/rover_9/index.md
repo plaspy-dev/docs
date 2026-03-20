@@ -1,6 +1,7 @@
 ---
 slug: /stars_nav/rover_9
 id: rover_9
+sidebar_key: stars_narover_9_index_rover_9
 sidebar_label: Rover 9
 title: Stars Nav - Rover 9
 sidebar_class_name: menu_item_tracker

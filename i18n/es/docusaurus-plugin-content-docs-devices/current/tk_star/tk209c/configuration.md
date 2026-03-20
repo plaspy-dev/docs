@@ -80,17 +80,17 @@ El TK209C admite configuración vía SMS incluyendo la contraseña del dispositi
 ```
 begin123456
 ```
-- Establecer el APN del operador (reemplace {{apn}} por el APN de su operador)
+- Establecer el APN del operador (reemplace [apn] por el APN de su operador)
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- Establecer el usuario APN (si su operador lo requiere; reemplace {{apnu}} por el usuario)
+- Establecer el usuario APN (si su operador lo requiere; reemplace [apnu] por el usuario)
 ```
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
-- Establecer la contraseña APN (si su operador lo requiere; reemplace {{apnp}} por la contraseña APN)
+- Establecer la contraseña APN (si su operador lo requiere; reemplace [apnp] por la contraseña APN)
 ```
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 - Establecer el servidor GPRS (este ejemplo usa la IP y el puerto del servidor Plaspy)
 ```
@@ -106,7 +106,7 @@ gprs123456
 ```
 
 Notas sobre los comandos y marcadores de posición:
-- Reemplace {{apn}}, {{apnu}} y {{apnp}} por el APN, el usuario APN y la contraseña APN suministrados por su operador móvil.
+- Reemplace [apn], [apnu] y [apnp] por el APN, el usuario APN y la contraseña APN suministrados por su operador móvil.
 - La contraseña del dispositivo 123456 se muestra en la documentación pública como valor por defecto; confirme la contraseña de su unidad y actualice los comandos si tiene una contraseña distinta.
 - Si su firmware o herramienta de configuración acepta un nombre de dominio para el servidor, puede usar d.plaspy.com en lugar de la IP; de lo contrario use la IP y el puerto provistos.
 

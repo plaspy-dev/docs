@@ -82,14 +82,14 @@ The TZ-RD05 can be configured by sending SMS commands to the device. The followi
 
 1. Set the operator APN
 ```text
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
-- Replace {{apn}} with your mobile operator APN.
-- {{apnu}} is the APN username when required by the operator; omit or leave blank if not used.
-- {{apnp}} is the APN password when required by the operator; omit or leave blank if not used.
+- Replace [apn] with your mobile operator APN.
+- [apnu] is the APN username when required by the operator; omit or leave blank if not used.
+- [apnp] is the APN password when required by the operator; omit or leave blank if not used.
 - Some firmware variants accept the shorter form without username or password:
 ```text
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 2. Set the update interval to 60 seconds

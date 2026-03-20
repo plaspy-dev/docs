@@ -89,12 +89,12 @@ GMT,E,0#
 
 3. Configurar el APN del operador
 ```
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-- {{apn}} es el nombre del APN proporcionado por su operador móvil.
-- {{apnu}} es el usuario del APN si se requiere.
-- {{apnp}} es la contraseña del APN si se requiere.
-- Si no se necesita usuario ni contraseña envíe APN,{{apn}}#.
+- [apn] es el nombre del APN proporcionado por su operador móvil.
+- [apnu] es el usuario del APN si se requiere.
+- [apnp] es la contraseña del APN si se requiere.
+- Si no se necesita usuario ni contraseña envíe APN,[apn]#.
 
 4. Configurar el servidor GPRS usando el dominio de Plaspy
 ```
@@ -132,7 +132,7 @@ Envíe cada comando como SMS al número del dispositivo LL309. Los comandos debe
 - Diferentes versiones de firmware o revisiones de hardware pueden cambiar la sintaxis de los comandos SMS o las funciones disponibles; verifique la sintaxis si un comando no es aceptado.
 - Elija UDP o TCP según su preferencia operativa; Plaspy soporta ambos y detectará automáticamente el protocolo entrante en el puerto 8888.
 - El aprovisionamiento por SMS es un método común para la puesta en marcha; BLE o herramientas de PC pueden ofrecer una experiencia de aprovisionamiento masivo más conveniente.
-- Conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} al preparar los comandos SMS y sustitúyalos por los valores del operador antes de enviar.
+- Conserve los marcadores de posición [apn], [apnu] y [apnp] al preparar los comandos SMS y sustitúyalos por los valores del operador antes de enviar.
 - Activar GPRS o el modo de datos es obligatorio para subidas en tiempo real a d.plaspy.com o a 54.85.159.138 en el puerto 8888.
 
 ## Por qué usar Plaspy con esta configuración

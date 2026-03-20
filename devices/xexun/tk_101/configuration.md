@@ -85,19 +85,19 @@ The TK-101 can be configured via SMS using the device password. The public examp
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN string):
+- Set the operator APN (replace [apn] with your operator APN string):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if required by your operator (replace {{apnu}} with the APN username). Send only if your APN requires a username:
+- Set the APN username if required by your operator (replace [apnu] with the APN username). Send only if your APN requires a username:
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if required by your operator (replace {{apnp}} with the APN password). Send only if your APN requires a password:
+- Set the APN password if required by your operator (replace [apnp] with the APN password). Send only if your APN requires a password:
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port shown in this guide:
@@ -116,9 +116,9 @@ gprsmode123456
 t060s***n123456
 ```
 Explanation of placeholders:
-- {{apn}} — your mobile operator APN string
-- {{apnu}} — APN username if required by operator
-- {{apnp}} — APN password if required by operator
+- [apn] — your mobile operator APN string
+- [apnu] — APN username if required by operator
+- [apnp] — APN password if required by operator
 Keep the device configuration password (123456 in examples) matching the tracker password. If your device uses a different password, use that password in the command text.
 
 ## Configuration Notes

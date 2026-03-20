@@ -82,9 +82,9 @@ El fabricante provee una secuencia de configuración por SMS para el GVT-390. Lo
 
 Notas sobre los marcadores:
 - {{imei}} — reemplace con el número IMEI del dispositivo (normalmente 15 dígitos)
-- {{apn}} — reemplace con el APN del operador proporcionado por la compañía de la SIM
-- {{apnu}} — nombre de usuario del APN opcional si lo requiere el operador
-- {{apnp}} — contraseña del APN opcional si lo requiere el operador
+- [apn] — reemplace con el APN del operador proporcionado por la compañía de la SIM
+- [apnu] — nombre de usuario del APN opcional si lo requiere el operador
+- [apnp] — contraseña del APN opcional si lo requiere el operador
 - La contraseña por defecto pública de ejemplo es 000000; cámbiela si su dispositivo usa otra contraseña
 
 1) Establecer el ID del dispositivo (reemplazar {{imei}} con el IMEI del dispositivo, 15 dígitos)
@@ -94,7 +94,7 @@ M000000,22,{{imei}}
 
 2) Establecer el APN del operador (reemplace los marcadores según sea necesario; apnu y apnp son opcionales)
 ```
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3) Establecer el intervalo de actualización a 60 segundos

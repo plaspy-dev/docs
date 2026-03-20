@@ -87,9 +87,9 @@ SET TZ +00:00
 
 - Set the operator APN and optional username and password
 ```
-SET APN {{apn}},{{apnu}},{{apnp}}
+SET APN [apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the operator APN name. {{apnu}} is the APN username and {{apnp}} is the APN password. If your operator does not require username or password, leave those placeholders empty or omit them according to the device manual.
+Explanation: [apn] is the operator APN name. [apnu] is the APN username and [apnp] is the APN password. If your operator does not require username or password, leave those placeholders empty or omit them according to the device manual.
 
 - Set the GPRS server using the Plaspy server IP and port
 ```

@@ -74,7 +74,7 @@ The AT05 transmits location and event data over the mobile network to the Plaspy
 
 ## Example Configuration Commands
 
-The AT05 public configuration can be performed by SMS using the manufacturer command format. The sample commands below use the default device password 000000 as shown in the public Totemtech content. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator values when sending commands.
+The AT05 public configuration can be performed by SMS using the manufacturer command format. The sample commands below use the default device password 000000 as shown in the public Totemtech content. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator values when sending commands.
 
 1. Optional factory reset (use only when you need to restore factory defaults)
 ```text
@@ -82,11 +82,11 @@ The AT05 public configuration can be performed by SMS using the manufacturer com
 ```
 2. Set the operator APN (replace placeholders with your mobile operator values)
 ```text
-*000000,002,{{apn}},{{apnu}},{{apnp}}#
+*000000,002,[apn],[apnu],[apnp]#
 ```
-- {{apn}} = your mobile network APN name
-- {{apnu}} = APN username (leave empty if not required)
-- {{apnp}} = APN password (leave empty if not required)
+- [apn] = your mobile network APN name
+- [apnu] = APN username (leave empty if not required)
+- [apnp] = APN password (leave empty if not required)
 
 3. Set the GPRS server to Plaspy using server IP and port and enable as primary (the last value typically indicates server index or enable flag)
 ```text

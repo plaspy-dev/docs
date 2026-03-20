@@ -1,6 +1,7 @@
 ---
 slug: /totemtech/at07_3g
 id: at07_3g
+sidebar_key: totemtecat07_3g_index_at07_3g
 sidebar_label: AT07-3G
 title: Totemtech - AT07-3G
 sidebar_class_name: menu_item_tracker

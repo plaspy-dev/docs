@@ -1,6 +1,7 @@
 ---
 slug: /pst/avl_011
 id: avl_011
+sidebar_key: psavl_011_index_avl_011
 sidebar_label: AVL-011
 title: PST - AVL-011
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /istartek/vt206
 id: vt206
+sidebar_key: istartevt206_index_vt206
 sidebar_label: VT206
 title: iStartek - VT206
 sidebar_class_name: menu_item_tracker

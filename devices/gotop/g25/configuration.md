@@ -79,7 +79,7 @@ When configured for Plaspy the G25 will send its position and status updates to 
 
 The GOTOP G25 supports SMS parameter settings and query functions, but the exact commands and syntax can vary by firmware and vendor tool. Because model specific command sets differ, follow the official GOTOP documentation or the configuration tool supplied by your vendor for the precise SMS or software commands to set server, port, and transport.
 
-When using SMS-based configuration, you will typically set the server domain or IP and the port. For example, device SMS syntax often includes placeholders similar to {{apn}} for the APN value. Keep placeholders intact if copying examples from manufacturer documentation and replace them with your carrier or account specific values.
+When using SMS-based configuration, you will typically set the server domain or IP and the port. For example, device SMS syntax often includes placeholders similar to [apn] for the APN value. Keep placeholders intact if copying examples from manufacturer documentation and replace them with your carrier or account specific values.
 
 ## Configuration Notes
 

@@ -1,6 +1,7 @@
 ---
 slug: /topfly/cyberlabelx_100
 id: cyberlabelx_100
+sidebar_key: topflcyberlabelx_100_index_cyberlabelx_100
 sidebar_label: CyberLabelX 100
 title: TopFly - CyberLabelX 100
 sidebar_class_name: menu_item_tracker

@@ -87,16 +87,16 @@ GMT,E,0#
 
 - Establecer el APN del operador. Reemplace los marcadores de posición con los valores de su operador:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 Si su operador requiere usuario y contraseña del APN inclúyalos así:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 Explicación de los marcadores de posición:
-- {{apn}} = el nombre del APN proporcionado por su operador móvil
-- {{apnu}} = usuario del APN opcional si es requerido
-- {{apnp}} = contraseña del APN opcional si es requerida
+- [apn] = el nombre del APN proporcionado por su operador móvil
+- [apnu] = usuario del APN opcional si es requerido
+- [apnp] = contraseña del APN opcional si es requerida
 
 - Configurar el servidor GPRS para usar el hostname y puerto de Plaspy:
 ```

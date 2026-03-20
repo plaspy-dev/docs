@@ -89,11 +89,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace {{apn}} con el APN de su operador. Si su APN requiere usuario o contraseña, incluya {{apnu}} y {{apnp}} donde se soporte:
+- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si su APN requiere usuario o contraseña, incluya [apnu] y [apnp] donde se soporte:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Si no se requieren usuario ni contraseña, el comando APN puede enviarse solo como APN,{{apn}}#)
+(Si no se requieren usuario ni contraseña, el comando APN puede enviarse solo como APN,[apn]#)
 
 - Configurar el servidor GPRS para usar el dominio de Plaspy con puerto TCP/UDP 8888:
 ```text
@@ -117,7 +117,7 @@ PARAM#
 
 Notas sobre los comandos
 - Los ejemplos del comando SERVER muestran opciones con dominio e IP; puede usar cualquiera de las dos para dirigir el PT28S a Plaspy.
-- El comando APN contiene los marcadores de posición {{apn}}, {{apnu}} y {{apnp}}. Reemplace estos valores con el APN del operador, el usuario APN y la contraseña APN respectivamente cuando sea necesario.
+- El comando APN contiene los marcadores de posición [apn], [apnu] y [apnp]. Reemplace estos valores con el APN del operador, el usuario APN y la contraseña APN respectivamente cuando sea necesario.
 - Use FACTORY# únicamente cuando necesite un reinicio inicial y comprenda que borrará los parámetros existentes.
 - Después de aplicar estos comandos, confirme que el dispositivo aparece y reporta en Plaspy.
 

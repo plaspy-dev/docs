@@ -50,7 +50,7 @@ Use the following Plaspy server settings when configuring the AX5. Plaspy uses t
 - A powered device with sufficient battery or vehicle power connected so the unit can register on the mobile network.
 - Active SIM card with mobile data enabled and correct APN credentials for your carrier.
 - Access to the official ATrack configuration method or software or an interface that accepts the AX5 AT commands.
-- Knowledge of the APN placeholders such as {{apn}}, {{apnu}}, and {{apnp}} so you can provide correct carrier values when needed.
+- Knowledge of the APN placeholders such as [apn], [apnu], and [apnp] so you can provide correct carrier values when needed.
 - Basic network visibility to confirm the device can reach the Plaspy server at d.plaspy.com or 54.85.159.138 on port 8888.
 
 ## How This Tracker Connects to Plaspy
@@ -69,7 +69,7 @@ When configured with the Plaspy server settings, the AX5 uses its GPRS connectio
 2. Enter the Plaspy server address either as the domain d.plaspy.com or the server IP 54.85.159.138.
 3. Set the server port to 8888.
 4. Choose UDP or TCP on the device if a transport selection is required by the configuration tool.
-5. Set the APN and any necessary APN username and password values for the SIM using placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when applying settings.
+5. Set the APN and any necessary APN username and password values for the SIM using placeholders such as [apn], [apnu], and [apnp] when applying settings.
 6. Apply or save the configuration and restart the device if required by the tool or firmware.
 7. Validate that the device reports to Plaspy by checking the device status with the manufacturer verification command or by confirming visibility in the Plaspy platform.
 
@@ -97,12 +97,12 @@ AT$FORM=1,@P,0,""
 
 4. Configure the GPRS server with APN placeholders and Plaspy server IP and port
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 - Explanation of placeholders
-  - {{apn}} is the carrier APN name
-  - {{apnu}} is the APN username if required by the carrier
-  - {{apnp}} is the APN password if required by the carrier
+  - [apn] is the carrier APN name
+  - [apnu] is the APN username if required by the carrier
+  - [apnp] is the APN password if required by the carrier
 
 5. Check device status
 ```text

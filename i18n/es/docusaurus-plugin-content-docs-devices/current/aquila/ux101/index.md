@@ -1,6 +1,7 @@
 ---
 slug: /aquila/ux101
 id: ux101
+sidebar_key: aquilux101_index_ux101
 sidebar_label: UX101
 title: Aquila - UX101
 sidebar_class_name: menu_item_tracker

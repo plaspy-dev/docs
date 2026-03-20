@@ -88,13 +88,13 @@ GMT,E,0#
 3. Set the operator APN
 - Basic APN only
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 - APN with username and password placeholders
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-(Explanation: keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your carrier APN, username, and password as needed.)
+(Explanation: keep the placeholders [apn], [apnu], and [apnp] and replace them with your carrier APN, username, and password as needed.)
 
 4. Set the GPRS server to use the Plaspy domain on port 8888
 ```

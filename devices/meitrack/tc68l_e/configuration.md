@@ -84,11 +84,11 @@ The following example SMS commands are taken from public manufacturer configurat
 
 2. Set the GPRS server to Plaspy. This command sets server type 2 with the Plaspy server IP, port, and APN. The APN placeholders must be replaced with your carrier values. Username and password are optional and shown here as placeholders.
 ```
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
-- {{apn}} = your mobile operator APN
-- {{apnu}} = APN username if required by your operator (optional)
-- {{apnp}} = APN password if required by your operator (optional)
+- [apn] = your mobile operator APN
+- [apnu] = APN username if required by your operator (optional)
+- [apnp] = APN password if required by your operator (optional)
 
 3. Set the time zone to UTC 0:
 ```

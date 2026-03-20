@@ -73,16 +73,16 @@ El NR200 envía ubicación y telemetría a través de redes celulares y puede co
 
 ## Comandos de configuración de ejemplo
 
-El NR200 admite configuración por SMS. El flujo de ejemplo siguiente usa la contraseña del dispositivo 000000 en las cadenas de comando. Mantenga los marcadores de posición como {{apn}}, {{apnu}} y {{apnp}} intactos y reemplácelos por el APN del operador y, si corresponde, el usuario y contraseña del APN.
+El NR200 admite configuración por SMS. El flujo de ejemplo siguiente usa la contraseña del dispositivo 000000 en las cadenas de comando. Mantenga los marcadores de posición como [apn], [apnu] y [apnp] intactos y reemplácelos por el APN del operador y, si corresponde, el usuario y contraseña del APN.
 
 1. Definir el APN del operador
-   - Reemplace {{apn}} por el APN de su operador. Si su operador requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} como valores adicionales separados por comas.
+   - Reemplace [apn] por el APN de su operador. Si su operador requiere usuario y contraseña, incluya [apnu] y [apnp] como valores adicionales separados por comas.
 ```
-A000000,012,{{apn}}
+A000000,012,[apn]
 ```
    - Si el APN requiere usuario y contraseña:
 ```
-A000000,012,{{apn}},{{apnu}},{{apnp}}
+A000000,012,[apn],[apnu],[apnp]
 ```
 
 2. Configurar el servidor GPRS a Plaspy (se muestra IP y puerto)
@@ -107,7 +107,7 @@ A000000,004
 
 Notas sobre los comandos
 - Las cadenas que comienzan con A000000 usan la contraseña de ejemplo 000000. Si su contraseña es distinta, reemplace los seis dígitos por la suya.
-- Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} al copiar comandos y sustituya con los valores reales de su operador antes de enviar.
+- Conserve los marcadores [apn], [apnu] y [apnp] al copiar comandos y sustituya con los valores reales de su operador antes de enviar.
 - Envíe estos comandos como SMS al NR200 desde un número autorizado si el dispositivo tiene control de acceso configurado.
 
 ## Notas de configuración

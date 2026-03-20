@@ -1,6 +1,7 @@
 ---
 slug: /topfly/solarguardx_200
 id: solarguardx_200
+sidebar_key: topflsolarguardx_200_index_solarguardx_200
 sidebar_label: SolarGuardX 200
 title: TopFly - SolarGuardX 200
 sidebar_class_name: menu_item_tracker

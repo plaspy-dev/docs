@@ -95,13 +95,13 @@ AT$FORM=1,@P,0,""
 
 - Configure the GPRS server and APN settings (placeholders preserved):
 ```text
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 Notes on placeholders:
-- {{apn}} is the mobile operator APN name.  
-- {{apnu}} is the APN username if required by the carrier.  
-- {{apnp}} is the APN password if required by the carrier.
+- [apn] is the mobile operator APN name.  
+- [apnu] is the APN username if required by the carrier.  
+- [apnp] is the APN password if required by the carrier.
 
 - To check device status:
 ```text

@@ -73,7 +73,7 @@ El GL33CG usa su enlace celular para enviar datos de ubicación y eventos al end
 
 ## Comandos de configuración de ejemplo
 
-El GL33CG puede configurarse enviando comandos SMS al equipo. Los siguientes comandos SMS se muestran como ejemplo público. La contraseña del dispositivo usada en estos comandos es la contraseña por defecto queclink. Reemplace {{apn}}, {{apnu}} y {{apnp}} con los ajustes APN de su operador móvil donde se indique.
+El GL33CG puede configurarse enviando comandos SMS al equipo. Los siguientes comandos SMS se muestran como ejemplo público. La contraseña del dispositivo usada en estos comandos es la contraseña por defecto queclink. Reemplace [apn], [apnu] y [apnp] con los ajustes APN de su operador móvil donde se indique.
 
 Tenga en cuenta que el comando del servidor GPRS que sigue incluye tanto el dominio de Plaspy d.plaspy.com como la IP 54.85.159.138 con puerto 8888. Plaspy acepta UDP o TCP en el puerto 8888 y detectará automáticamente el protocolo del rastreador.
 
@@ -89,12 +89,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Configurar el APN del operador. Reemplace los marcadores según sea necesario:
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 Explicación de los marcadores:
-- {{apn}} es la cadena APN de su operador móvil
-- {{apnu}} es el nombre de usuario APN si el operador lo requiere
-- {{apnp}} es la contraseña APN si el operador la requiere
+- [apn] es la cadena APN de su operador móvil
+- [apnu] es el nombre de usuario APN si el operador lo requiere
+- [apnp] es la contraseña APN si el operador la requiere
 
 - Establecer el servidor GPRS a Plaspy usando el hostname y la IP en el puerto 8888
 ```

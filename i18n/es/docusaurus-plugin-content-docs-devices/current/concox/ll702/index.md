@@ -1,6 +1,7 @@
 ---
 slug: /concox/ll702
 id: ll702
+sidebar_key: concoll702_index_ll702
 sidebar_label: LL702
 title: Concox - LL702
 sidebar_class_name: menu_item_tracker

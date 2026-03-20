@@ -81,19 +81,19 @@ The LK106 can be configured using SMS commands. The public, commonly used comman
 begin123456
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username if required by your operator (replace {{apnu}} with the APN username):
+- Set the APN username if required by your operator (replace [apnu] with the APN username):
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Set the APN password if required by your operator (replace {{apnp}} with the APN password):
+- Set the APN password if required by your operator (replace [apnp] with the APN password):
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public server IP and port 8888
@@ -112,9 +112,9 @@ gprs123456
 ```
 
 Placeholders explanation:
-- {{apn}} — the mobile operator APN string required for GPRS data.
-- {{apnu}} — optional APN username if your carrier requires authentication.
-- {{apnp}} — optional APN password if your carrier requires authentication.
+- [apn] — the mobile operator APN string required for GPRS data.
+- [apnu] — optional APN username if your carrier requires authentication.
+- [apnp] — optional APN password if your carrier requires authentication.
 
 Send these SMS commands from the authorized phone number or management number configured for the LK106. Keep the default password 123456 unless you have changed it for security; include the correct device password in every command when required.
 

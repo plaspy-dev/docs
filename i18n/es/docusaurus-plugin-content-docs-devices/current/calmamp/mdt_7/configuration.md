@@ -77,17 +77,17 @@ El MDT-7 y algunos dispositivos CalAmp pueden configurarse por SMS. Los siguient
 
 - Establecer el APN del operador
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Establecer el nombre de usuario del APN (si es necesario)
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Establecer la contraseña del APN (si es necesario)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Configurar el servidor GPRS a la IP de Plaspy
@@ -111,9 +111,9 @@ El MDT-7 y algunos dispositivos CalAmp pueden configurarse por SMS. Los siguient
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es la cadena APN del operador móvil necesaria para la conectividad de datos.  
-- {{apnu}} es el nombre de usuario del APN si su operador lo exige.  
-- {{apnp}} es la contraseña del APN si su operador la exige.  
+- [apn] es la cadena APN del operador móvil necesaria para la conectividad de datos.  
+- [apnu] es el nombre de usuario del APN si su operador lo exige.  
+- [apnp] es la contraseña del APN si su operador la exige.  
 Mantenga los marcadores visibles y reemplácelos por los valores correctos de su operador al enviar comandos SMS.
 
 ## Observaciones de configuración

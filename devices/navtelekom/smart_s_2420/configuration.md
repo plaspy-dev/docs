@@ -85,7 +85,7 @@ The SMART S-2420 model configuration does not include publicly published SMS or 
 - Server port: 8888
 - Transport: UDP or TCP
 
-If you have device-specific command strings supplied by Navtelekom or your reseller, apply them in the order indicated by the manufacturer and keep placeholders such as {{apn}}, {{apnu}}, or {{apnp}} intact when required by your SIM/APN settings. Always refer to Navtelekom manuals for exact command syntax.
+If you have device-specific command strings supplied by Navtelekom or your reseller, apply them in the order indicated by the manufacturer and keep placeholders such as [apn], [apnu], or [apnp] intact when required by your SIM/APN settings. Always refer to Navtelekom manuals for exact command syntax.
 
 ## Configuration Notes
 

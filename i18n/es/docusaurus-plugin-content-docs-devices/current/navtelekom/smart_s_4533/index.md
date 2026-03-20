@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/smart_s_4533
 id: smart_s_4533
+sidebar_key: navtelekosmart_s_4533_index_smart_s_4533
 sidebar_label: SMART S-4533
 title: Navtelekom - SMART S-4533
 sidebar_class_name: menu_item_tracker

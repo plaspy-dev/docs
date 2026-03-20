@@ -73,7 +73,7 @@ Una vez configurado, el GV350CEU envía posiciones, diagnósticos del bus vehicu
 
 ## Comandos de configuración de ejemplo
 
-El GV350CEU puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos son ejemplos públicos para dispositivos QuecLink. Los comandos usan la contraseña del dispositivo queclink que es la predeterminada en estos ejemplos. Conserve y reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador.
+El GV350CEU puede configurarse enviando comandos SMS al dispositivo. Los siguientes comandos son ejemplos públicos para dispositivos QuecLink. Los comandos usan la contraseña del dispositivo queclink que es la predeterminada en estos ejemplos. Conserve y reemplace marcadores como [apn], [apnu] y [apnp] por los valores de su operador.
 
 1. Paso inicial opcional para restaurar ajustes de fábrica
 ```text
@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Configurar el APN del operador
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} es el APN del operador móvil
-- {{apnu}} es el nombre de usuario del APN si el operador lo requiere
-- {{apnp}} es la contraseña del APN si el operador lo requiere
+- [apn] es el APN del operador móvil
+- [apnu] es el nombre de usuario del APN si el operador lo requiere
+- [apnp] es la contraseña del APN si el operador lo requiere
 
 4. Configurar el servidor GPRS para reportar a Plaspy en el puerto 8888
 ```text

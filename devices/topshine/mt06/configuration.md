@@ -87,15 +87,15 @@ W000000,990,099###
 W000000,010,{{IMEI14}}
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If your APN requires username and password, include {{apnu}} and {{apnp}}:
+- Set the operator APN. Replace [apn] with your operator APN. If your APN requires username and password, include [apnu] and [apnp]:
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 Or with APN user and password:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
-(Placeholders: {{apn}} is your operator APN, {{apnu}} is APN username, {{apnp}} is APN password.)
+(Placeholders: [apn] is your operator APN, [apnu] is APN username, [apnp] is APN password.)
 
 - Set the GPRS server to Plaspy using the public Plaspy server IP and port:
 ```text

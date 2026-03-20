@@ -49,7 +49,7 @@ Use los siguientes ajustes públicos de Plaspy al configurar el LT-10:
 - Un dispositivo LT-10 con energía y acceso al método de configuración del fabricante, ya sea la app para iOS/Android o el canal de configuración por SMS que use el dispositivo.
 - El IMEI del LT-10 o el identificador del dispositivo disponible para incluir en comandos o en el registro de la app.
 - Si usa configuración por SMS, una tarjeta SIM y capacidad de SMS en el dispositivo o un gateway SMS según lo requiera el flujo de comandos del fabricante.
-- Marcadores de APN o credenciales de red listos cuando el comando de configuración los solicite (se mantienen como {{apn}}, {{apnu}} y {{apnp}} en los ejemplos).
+- Marcadores de APN o credenciales de red listos cuando el comando de configuración los solicite (se mantienen como [apn], [apnu] y [apnp] en los ejemplos).
 - Comprensión de que el LT-10 puede usar LoRaWAN para el seguimiento estándar y que los métodos de configuración y las opciones de transporte disponibles pueden depender del firmware y la región.
 - Una cuenta de Plaspy o credenciales de acceso para confirmar que el dispositivo aparece y reporta en la plataforma tras la configuración.
 
@@ -82,12 +82,12 @@ TSPRXAB27GHKLMnaicz*U!
 
 Ejemplo de comando de configuración
 - Reemplace {{imei}} por el IMEI del dispositivo
-- Reemplace {{apn}}, {{apnu}}, {{apnp}} por su APN, nombre de usuario APN y contraseña APN cuando el dispositivo lo requiera
+- Reemplace [apn], [apnu], [apnp] por su APN, nombre de usuario APN y contraseña APN cuando el dispositivo lo requiera
 - {{checksum}} es la suma de verificación hexadecimal de dos caracteres calculada sobre los caracteres del comando antes del asterisco como se describe más abajo
 
 Comando de configuración (enviar por SMS)
 ```
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Comando de reinicio (opcional, usar si el dispositivo requiere reboot para aplicar los ajustes)
@@ -101,8 +101,8 @@ Cálculo del checksum
 
 Notas sobre los marcadores
 - {{imei}}: número IMEI del dispositivo requerido por el formato del comando.
-- {{apn}}: cadena APN para datos GPRS si el dispositivo usa datos celulares.
-- {{apnu}} y {{apnp}}: nombre de usuario y contraseña del APN cuando sean necesarios.
+- [apn]: cadena APN para datos GPRS si el dispositivo usa datos celulares.
+- [apnu] y [apnp]: nombre de usuario y contraseña del APN cuando sean necesarios.
 - Mantenga el orden y la puntuación del comando exactamente como se muestran al enviar los SMS.
 
 ## Notas de configuración

@@ -85,13 +85,13 @@ The PT-502 supports SMS-based configuration. Below are public example SMS comman
 ```text
 000000GID<14-digit-identifier>
 ```
-Explanation: replace \<14-digit-identifier> with the last 14 digits of the device IMEI. This identifier is used by Plaspy to associate the device.
+Explanation: replace \\<14-digit-identifier> with the last 14 digits of the device IMEI. This identifier is used by Plaspy to associate the device.
 
 - Set the APN for your mobile operator
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the APN name required by your operator. {{apnu}} and {{apnp}} are optional APN username and APN password placeholders and should be included only if your carrier requires them.
+Explanation: [apn] is the APN name required by your operator. [apnu] and [apnp] are optional APN username and APN password placeholders and should be included only if your carrier requires them.
 
 - Set the GPRS server to Plaspy (server IP and port)
 ```text

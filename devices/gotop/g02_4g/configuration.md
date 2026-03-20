@@ -85,7 +85,7 @@ Follow these practical public steps to configure the G02-4G to report to Plaspy.
 
 The G02-4G may be configured with vendor tools, SMS commands, or a device configuration application provided by GOTOP. Exact commands and syntax vary by firmware and tool. Because manufacturer command sets differ across firmware revisions and vendor utilities, refer to the official GOTOP configuration guide for precise command examples.
 
-If you have specific SMS or console commands published by the manufacturer, apply them using the order and syntax given by GOTOP and replace any placeholders such as {{apn}} with your mobile operator APN values. Keep manufacturer documentation handy to confirm exact command phrasing for your device firmware.
+If you have specific SMS or console commands published by the manufacturer, apply them using the order and syntax given by GOTOP and replace any placeholders such as [apn] with your mobile operator APN values. Keep manufacturer documentation handy to confirm exact command phrasing for your device firmware.
 
 ## Configuration Notes
 

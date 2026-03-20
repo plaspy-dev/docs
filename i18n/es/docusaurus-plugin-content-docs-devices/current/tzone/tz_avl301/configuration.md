@@ -82,9 +82,9 @@ Para configurar el rastreador por SMS, envíe los siguientes comandos al número
 
 1. Establecer el APN del operador. El comando incluye marcadores opcionales para usuario y contraseña del APN:
 ```text
-*000000,011,{{apn}}{{,{{apnu}},{{apnp}}}}#
+*000000,011,[apn]{{,[apnu],[apnp]}}#
 ```
-- Explicación: Reemplace {{apn}} por el APN de su operador. Si su APN requiere usuario y contraseña, incluya {{apnu}} y {{apnp}} respectivamente. En algunas variantes de firmware la sintaxis usa campos separados por comas después del APN.
+- Explicación: Reemplace [apn] por el APN de su operador. Si su APN requiere usuario y contraseña, incluya [apnu] y [apnp] respectivamente. En algunas variantes de firmware la sintaxis usa campos separados por comas después del APN.
 
 2. Establecer el intervalo de actualización a 60 segundos:
 ```text
@@ -106,7 +106,7 @@ Para configurar el rastreador por SMS, envíe los siguientes comandos al número
 
 Notas sobre los comandos anteriores:
 - El prefijo "000000" en estos ejemplos se utiliza como token o contraseña administrativa en el formato de comando SMS mostrado. Use la contraseña o token correcto para su equipo si difiere de este ejemplo.
-- Preserve marcadores como {{apn}}, {{apnu}} y {{apnp}} al preparar el texto SMS y reemplace con los datos reales de su proveedor.
+- Preserve marcadores como [apn], [apnu] y [apnp] al preparar el texto SMS y reemplace con los datos reales de su proveedor.
 - Los comandos deben enviarse en el orden requerido por la guía del instalador; el orden mostrado aquí coincide con la secuencia de ejemplo pública.
 
 ## Notas de configuración

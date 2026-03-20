@@ -80,12 +80,12 @@ tz+00
 
 2. Set the operator APN
 ```
-S1,{{apn}},{{apnu}},{{apnp}}
+S1,[apn],[apnu],[apnp]
 ```
-- {{apn}} is the mobile operator APN string.
-- {{apnu}} is the optional APN username if required by the operator.
-- {{apnp}} is the optional APN password if required by the operator.
-- If your operator does not require username or password, send only S1,{{apn}}.
+- [apn] is the mobile operator APN string.
+- [apnu] is the optional APN username if required by the operator.
+- [apnp] is the optional APN password if required by the operator.
+- If your operator does not require username or password, send only S1,[apn].
 
 3. Set the GPRS server to Plaspy (IP and port)
 ```
@@ -99,7 +99,7 @@ Note: These commands are the public examples included in the device guidance. Ex
 
 - Firmware variations: Command names and formats can change between firmware versions or hardware revisions; confirm exact syntax with MiniFinder documentation.  
 - SMS versus tool: The Atto Pro supports SMS based configuration examples; some installers use a dedicated configuration application or vendor portal for bulk deployment.  
-- APN placeholders: Keep {{apn}}, {{apnu}} and {{apnp}} as placeholders when preparing SMS commands; replace them with your operator values.  
+- APN placeholders: Keep [apn], [apnu] and [apnp] as placeholders when preparing SMS commands; replace them with your operator values.  
 - Transport choice: If your deployment requires UDP or TCP, select the appropriate transport on the device; Plaspy accepts either and automatically handles protocol detection.  
 - Single port policy: Plaspy uses the same port 8888 for all supported devices, simplifying server configuration across models.
 

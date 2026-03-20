@@ -77,15 +77,15 @@ Los siguientes comandos de ejemplo se proporcionan para enviar por SMS. La contr
 
 1. Establecer el APN del operador
 ```
-APN,0000,{{apn}}
+APN,0000,[apn]
 ```
 Si su operador requiere usuario o contraseña de APN, incluya los marcadores opcionales:
 ```
-APN,0000,{{apn}},{{apnu}},{{apnp}}
+APN,0000,[apn],[apnu],[apnp]
 ```
-- {{apn}} es la cadena APN del operador
-- {{apnu}} es el nombre de usuario del APN si se requiere
-- {{apnp}} es la contraseña del APN si se requiere
+- [apn] es la cadena APN del operador
+- [apnu] es el nombre de usuario del APN si se requiere
+- [apnp] es la contraseña del APN si se requiere
 
 2. Establecer un identificador de 5 dígitos (use los últimos 5 dígitos del IMEI)
 ```

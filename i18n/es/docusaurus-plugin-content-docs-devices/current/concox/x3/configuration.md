@@ -87,9 +87,9 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Establecer el APN del operador móvil. Reemplace {{apn}} con el APN de su operador. Si su operador requiere usuario o contraseña use {{apnu}} y {{apnp}} respectivamente:
+- Establecer el APN del operador móvil. Reemplace [apn] con el APN de su operador. Si su operador requiere usuario o contraseña use [apnu] y [apnp] respectivamente:
 ```
-APN,{{apn}}[,{{apnu}},{{apnp}}]#
+APN,[apn][,[apnu],[apnp]]#
 ```
 Nota: La coma y los marcadores entre corchetes indican los campos opcionales de usuario y contraseña. Use el formato exacto que requiera el firmware del dispositivo (por ejemplo APN,myoperator,username,password#).
 
@@ -130,7 +130,7 @@ Al enviar comandos SMS, asegúrese de usar el formato que espera el firmware del
 - El X3 admite configuración tanto por SMS como mediante la herramienta del proveedor en muchas implementaciones. Use SMS para una provisión rápida en campo o software del proveedor para configuraciones masivas o más seguras.
 - Elija TCP o UDP según la guía de la instalación o del operador; Plaspy soporta ambos y detectará automáticamente el protocolo usado por el dispositivo.
 - Plaspy usa el mismo puerto para todos los dispositivos compatibles. Configure el puerto 8888 en el equipo para que pueda enviar datos al endpoint de ingestión de Plaspy.
-- Cuando use marcadores como {{apn}}, {{apnu}} o {{apnp}}, reemplácelos por el APN del operador, el usuario del APN y la contraseña del APN respectivamente según lo requiera su proveedor de SIM.
+- Cuando use marcadores como [apn], [apnu] o [apnp], reemplácelos por el APN del operador, el usuario del APN y la contraseña del APN respectivamente según lo requiera su proveedor de SIM.
 
 ## Por qué usar Plaspy con esta configuración
 

@@ -86,16 +86,16 @@ GMT,E,0#
 
 - Set the operator APN
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 If your operator requires an APN username and password, include the optional fields
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 Explanation of placeholders:
-- {{apn}} is your mobile operator APN name
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is your mobile operator APN name
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 - Set the GPRS server to use the Plaspy domain (UDP or TCP transport selection is managed separately)
 ```text

@@ -84,17 +84,17 @@ El LMU-2010 puede configurarse por SMS usando los comandos públicos que se mues
 ```text
 !R0
 ```
-- Establezca el APN del operador (reemplazar {{apn}} por el APN de su operador):
+- Establezca el APN del operador (reemplazar [apn] por el APN de su operador):
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
-- Defina el nombre de usuario APN si se requiere (reemplazar {{apnu}} por el usuario):
+- Defina el nombre de usuario APN si se requiere (reemplazar [apnu] por el usuario):
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
-- Defina la contraseña APN si se requiere (reemplazar {{apnp}} por la contraseña):
+- Defina la contraseña APN si se requiere (reemplazar [apnp] por la contraseña):
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 - Configure el servidor GPRS a la IP de Plaspy:
 ```text
@@ -114,9 +114,9 @@ El LMU-2010 puede configurarse por SMS usando los comandos públicos que se mues
 ```
 
 Notas sobre los marcadores de posición y uso:
-- {{apn}} es un marcador para la cadena APN del operador móvil.
-- {{apnu}} es un marcador para el usuario APN si el operador lo requiere.
-- {{apnp}} es un marcador para la contraseña APN si el operador lo requiere.
+- [apn] es un marcador para la cadena APN del operador móvil.
+- [apnu] es un marcador para el usuario APN si el operador lo requiere.
+- [apnp] es un marcador para la contraseña APN si el operador lo requiere.
 - El orden de los comandos es importante: establezca credenciales de red y valores de servidor antes de reiniciar.
 - El comando de reinicio se incluye para aplicar los nuevos ajustes; considérelo obligatorio cuando su flujo o la documentación de su firmware indique que es necesario un reinicio.
 

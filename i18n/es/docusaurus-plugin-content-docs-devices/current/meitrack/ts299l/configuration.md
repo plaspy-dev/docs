@@ -22,7 +22,7 @@ keywords:
 
 Esta página ofrece orientación pública para configurar el Meitrack TS299L con la plataforma de gestión de flotas Plaspy. Se enfoca en los ajustes de servidor compartido que Plaspy requiere e incluye ejemplos prácticos de comandos SMS extraídos del formato de configuración pública del dispositivo para facilitar la puesta en marcha y la verificación.
 
-Plaspy utiliza endpoints de servidor compartidos y un único puerto de escucha para todos los rastreadores soportados, detectando automáticamente el protocolo del dispositivo. Los pasos del lado del fabricante para el TS299L pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación o las herramientas del proveedor. Los ejemplos a continuación emplean el método de configuración vía SMS mostrado en la documentación pública del equipo y conservan los marcadores de posición como {{apn}} para los parámetros de su operador.
+Plaspy utiliza endpoints de servidor compartidos y un único puerto de escucha para todos los rastreadores soportados, detectando automáticamente el protocolo del dispositivo. Los pasos del lado del fabricante para el TS299L pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación o las herramientas del proveedor. Los ejemplos a continuación emplean el método de configuración vía SMS mostrado en la documentación pública del equipo y conservan los marcadores de posición como [apn] para los parámetros de su operador.
 
 ## Resumen de la configuración
 
@@ -71,7 +71,7 @@ Al configurarse, el TS299L establece una sesión de datos GPRS y envía posicion
 
 ## Comandos de ejemplo para la configuración
 
-El TS299L admite configuración basada en SMS. Los siguientes comandos son muestras públicas que muestran una secuencia de configuración común. La contraseña de dispositivo usada en estos ejemplos es 0000, que es el valor de fábrica en la muestra pública. Conserve los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} y reemplácelos por el APN del operador, el usuario y la contraseña APN según sea necesario.
+El TS299L admite configuración basada en SMS. Los siguientes comandos son muestras públicas que muestran una secuencia de configuración común. La contraseña de dispositivo usada en estos ejemplos es 0000, que es el valor de fábrica en la muestra pública. Conserve los marcadores de posición [apn], [apnu] y [apnp] y reemplácelos por el APN del operador, el usuario y la contraseña APN según sea necesario.
 
 - Comando opcional de restablecimiento a fábrica o ajustes iniciales
 ```sms
@@ -81,12 +81,12 @@ Etiqueta: Configuración inicial opcional o restablecimiento a valores de fábri
 
 - Establecer el servidor GPRS al endpoint Plaspy usando IP y puerto e incluir el APN del operador
 ```sms
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Notas:
 - Este comando configura el servidor GPRS del dispositivo a 54.85.159.138 en el puerto 8888 tal como muestra el ejemplo público.
 - El parámetro numérico después de A21 en el ejemplo (2) forma parte del formato SMS del dispositivo usado en la muestra pública. Mantenga la sintaxis del comando exactamente como lo prescribe la documentación del equipo.
-- {{apn}} es un marcador obligatorio para el APN del operador móvil. {{apnu}} y {{apnp}} son marcadores opcionales para el usuario y la contraseña APN y deben incluirse solo si su operador los requiere.
+- [apn] es un marcador obligatorio para el APN del operador móvil. [apnu] y [apnp] son marcadores opcionales para el usuario y la contraseña APN y deben incluirse solo si su operador los requiere.
 
 - Ajustar la zona horaria a UTC 0
 ```sms
@@ -110,7 +110,7 @@ Nota: Este comando refleja el ejemplo público para la configuración de eventos
 - La configuración por SMS es un método público soportado para el TS299L. Use comandos SMS solo si dispone de cobertura celular y privilegios SMS en la SIM del equipo.
 - Revisiones de firmware del fabricante o variantes regionales de hardware pueden cambiar la sintaxis SMS y los parámetros disponibles. Verifique siempre con la documentación oficial de Meitrack correspondiente a la versión de firmware de su equipo.
 - Plaspy soporta UDP y TCP en el puerto compartido 8888. Elija el transporte que el dispositivo requiera y asegúrese de que la sintaxis del comando coincida con el formato SMS o de la herramienta del equipo.
-- Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} cuando copie los comandos de ejemplo y reemplácelos por los valores del operador según proceda.
+- Conserve los marcadores [apn], [apnu] y [apnp] cuando copie los comandos de ejemplo y reemplácelos por los valores del operador según proceda.
 - Los comandos de ejemplo muestran la contraseña por defecto 0000 del equipo en la muestra pública. Si ha cambiado la contraseña del dispositivo, utilice la contraseña actual en los comandos.
 
 ## Por qué usar Plaspy con esta configuración

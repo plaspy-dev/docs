@@ -87,11 +87,11 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN; include {{apnu}} and {{apnp}} if your operator requires username and password):
+- Set the operator APN (replace [apn] with your operator APN; include [apnu] and [apnp] if your operator requires username and password):
 ```text
-APN,{{apn}}{{# if apnu or apnp }},{{apnu}},{{apnp}}{{/ if }}#
+APN,[apn]{{# if apnu or apnp }},[apnu],[apnp]{{/ if }}#
 ```
-(When using the placeholder syntax above, replace {{apn}} with the operator APN. If your operator requires an APN username or password, use the additional placeholders {{apnu}} and {{apnp}}.)
+(When using the placeholder syntax above, replace [apn] with the operator APN. If your operator requires an APN username or password, use the additional placeholders [apnu] and [apnp].)
 
 - Set the GPRS server to the Plaspy domain using port 8888:
 ```text
@@ -129,7 +129,7 @@ Use these commands in the order shown when following a standard setup flow. Repl
 - SMS based configuration is provided above because the VL106 supports SMS command configuration; manufacturer tools may also be available and can provide a GUI alternative.
 - Different firmware versions or hardware revisions may accept slightly different command syntax or command parameters; confirm the exact command set with Concox documentation for your device firmware.
 - Choose UDP or TCP based on your installation needs; Plaspy will accept either on port 8888 and will detect the protocol automatically.
-- Keep APN placeholders {{apn}}, {{apnu}}, and {{apnp}} intact when preparing commands and replace them with your operator credentials as required.
+- Keep APN placeholders [apn], [apnu], and [apnp] intact when preparing commands and replace them with your operator credentials as required.
 - Plaspy uses the same port 8888 for all supported devices so server and port configuration is consistent across device types.
 
 ## Why Use Plaspy with This Configuration

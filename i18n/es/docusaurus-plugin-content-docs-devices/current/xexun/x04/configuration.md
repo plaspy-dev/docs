@@ -81,19 +81,19 @@ La configuración pública del Xexun X04 permite comandos SMS para el ajuste. Lo
 begin123456
 ```
 
-- Configure el APN del operador móvil. Reemplace {{apn}} con la cadena APN de su operador:
+- Configure el APN del operador móvil. Reemplace [apn] con la cadena APN de su operador:
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Configure el usuario APN si su operador lo requiere. Reemplace {{apnu}} con el usuario APN:
+- Configure el usuario APN si su operador lo requiere. Reemplace [apnu] con el usuario APN:
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Configure la contraseña APN si es necesaria. Reemplace {{apnp}} con la contraseña APN:
+- Configure la contraseña APN si es necesaria. Reemplace [apnp] con la contraseña APN:
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establezca el endpoint del servidor GPRS a Plaspy usando la IP pública y el puerto indicados en la documentación de Plaspy:
@@ -113,9 +113,9 @@ t060s***n123456
 ```
 
 Explicación de los marcadores:
-- {{apn}} es la cadena APN del operador móvil requerida para que el dispositivo use datos celulares.
-- {{apnu}} es un usuario APN opcional cuando el operador exige autenticación.
-- {{apnp}} es una contraseña APN opcional cuando el operador la exige.
+- [apn] es la cadena APN del operador móvil requerida para que el dispositivo use datos celulares.
+- [apnu] es un usuario APN opcional cuando el operador exige autenticación.
+- [apnp] es una contraseña APN opcional cuando el operador la exige.
 
 Siga la guía del fabricante para el envío de comandos SMS y asegúrese de usar la contraseña correcta del dispositivo al emitir comandos.
 

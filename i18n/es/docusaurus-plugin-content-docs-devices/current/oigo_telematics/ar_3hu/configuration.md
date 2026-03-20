@@ -77,7 +77,7 @@ Cuando se configura para Plaspy, el AR-3HU envía actualizaciones periódicas de
 Los siguientes comandos AT son un ejemplo público de configuración para estilo AR-3HU. Estos comandos se presentan en el mismo orden que la fuente; preserve los marcadores y reemplace los valores con los datos de su operador donde sea necesario.
 
 - AT+XRFD
-- AT+XAPN=1"{{apn}}"
+- AT+XAPN=1"[apn]"
 - AT+XIP="54.85.159.138",8888
 - AT+XBUB=1
 - AT+XBUBE=3,30
@@ -139,7 +139,7 @@ Fenced command block (preserve ordering for execution where order matters):
 
 ```
 AT+XRFD
-AT+XAPN=1"{{apn}}"
+AT+XAPN=1"[apn]"
 AT+XIP="54.85.159.138",8888
 AT+XBUB=1
 AT+XBUBE=3,30
@@ -199,7 +199,7 @@ AT+XRST=2
 ```
 
 Notas sobre marcadores y comandos de reinicio:
-- {{apn}} es un marcador para el APN del operador móvil y debe reemplazarse por la cadena APN correcta para la SIM en uso.
+- [apn] es un marcador para el APN del operador móvil y debe reemplazarse por la cadena APN correcta para la SIM en uso.
 - Los comandos finales AT+XRST=1 y AT+XRST=2 se muestran como comandos de reinicio del dispositivo en este ejemplo. Trate los pasos de reinicio como opcionales o ejecútelos solo cuando su proceso de configuración lo requiera; siga la orientación del fabricante.
 
 ## Notas de configuración

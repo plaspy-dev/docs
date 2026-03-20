@@ -79,13 +79,13 @@ To configure the basic parameters on your Teltonika device, enter the following 
 - Single command example for basic parameters
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notes on the command fields
-- {{apn}} placeholder is for the mobile network APN name required by the SIM
-- {{apnu}} placeholder is for APN username when the operator requires one
-- {{apnp}} placeholder is for APN password when required by the operator
+- [apn] placeholder is for the mobile network APN name required by the SIM
+- [apnu] placeholder is for APN username when the operator requires one
+- [apnp] placeholder is for APN password when required by the operator
 - 2004 sets the server domain to d.plaspy.com
 - 2005 sets the server port to 8888
 - 2006 in this command is the transport related parameter used by the device configuration string where applicable consult Teltonika documentation for exact transport values and meaning

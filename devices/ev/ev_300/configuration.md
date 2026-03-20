@@ -86,13 +86,13 @@ Send this SMS to the device:
 ```
 
 2. Set the operator APN
-Replace {{apn}} with your mobile operator APN. If your operator requires a username or password include {{apnu}} and {{apnp}} respectively. Examples:
+Replace [apn] with your mobile operator APN. If your operator requires a username or password include [apnu] and [apnp] respectively. Examples:
 ```
-123456S1,{{apn}}
+123456S1,[apn]
 ```
 or with credentials
 ```
-123456S1,{{apn}},{{apnu}},{{apnp}}
+123456S1,[apn],[apnu],[apnp]
 ```
 Note: Keep the placeholders as they are and substitute the actual APN values from your SIM provider.
 

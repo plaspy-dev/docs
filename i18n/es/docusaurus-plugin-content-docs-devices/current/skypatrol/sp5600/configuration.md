@@ -77,7 +77,7 @@ Cuando se configura para Plaspy, el SP5600 envía mensajes periódicos de ubicac
 
 Los comandos exactos o las cadenas SMS usadas para configurar un SP5600 varían según el firmware de SkyPatrol y la herramienta de configuración del proveedor. Dado que en este documento no se incluye una lista pública de comandos para este modelo, siga la documentación del fabricante o la interfaz de configuración del proveedor para conocer la sintaxis precisa. Las herramientas típicas del fabricante incluirán campos para la dirección del servidor, puerto, transporte e intervalos de reporte que corresponden a los ajustes de Plaspy mencionados arriba.
 
-Si usted recibe o encuentra ejemplos de comandos públicos del fabricante o del proveedor, aplíquelos en el orden recomendado por SkyPatrol y preserve cualquier marcador de posición como {{apn}} o {{apnu}} según se le indique. Verifique siempre los comandos con la documentación oficial de SkyPatrol antes de aplicarlos en dispositivos en producción.
+Si usted recibe o encuentra ejemplos de comandos públicos del fabricante o del proveedor, aplíquelos en el orden recomendado por SkyPatrol y preserve cualquier marcador de posición como [apn] o [apnu] según se le indique. Verifique siempre los comandos con la documentación oficial de SkyPatrol antes de aplicarlos en dispositivos en producción.
 
 ## Notas de configuración
 

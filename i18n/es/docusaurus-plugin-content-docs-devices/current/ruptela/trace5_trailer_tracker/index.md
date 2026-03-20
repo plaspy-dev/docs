@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/trace5_trailer_tracker
 id: trace5_trailer_tracker
+sidebar_key: rupteltrace5_trailer_tracker_index_trace5_trailer_tracker
 sidebar_label: Trace5 Trailer Tracker
 title: Ruptela - Trace5 Trailer Tracker
 sidebar_class_name: menu_item_tracker

@@ -88,13 +88,13 @@ Reemplace \<14-digit-identifier> con el identificador de 14 dígitos que desea u
 
 - Configurar el APN del operador móvil
 ```text
-000000APN{{apn}}
+000000APN[apn]
 ```
 O, si se requieren usuario y contraseña del APN:
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por el nombre del APN de su operador, el usuario APN y la contraseña APN respectivamente.
+Mantenga los marcadores [apn], [apnu] y [apnp] y sustitúyalos por el nombre del APN de su operador, el usuario APN y la contraseña APN respectivamente.
 
 - Configurar el servidor GPRS a Plaspy por IP numérica y puerto
 ```text
@@ -115,7 +115,7 @@ Nota: Cada comando SMS normalmente va precedido por la contraseña del dispositi
 - La configuración por SMS es una opción documentada para el PT621; muchos instaladores prefieren SMS porque no requiere conectar el dispositivo a una PC.
 - Las versiones de firmware y las revisiones de hardware del fabricante pueden cambiar la sintaxis de los comandos y las funciones disponibles; confirme los comandos actuales con la documentación de Bofan si algún comando falla.
 - Elija UDP o TCP según la fiabilidad de su red y el comportamiento del operador; UDP es común para rastreo, pero TCP puede ser preferible cuando se necesita entrega garantizada.
-- El comando APN acepta los marcadores opcionales de usuario y contraseña {{apnu}} y {{apnp}} cuando el operador requiere credenciales.
+- El comando APN acepta los marcadores opcionales de usuario y contraseña [apnu] y [apnp] cuando el operador requiere credenciales.
 - El comando de restauración de fábrica es opcional y debe usarse con precaución; realícelo sólo cuando sea necesario durante la provisión inicial o para resolver problemas.
 
 ## Por qué usar Plaspy con esta configuración

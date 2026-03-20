@@ -81,7 +81,7 @@ There are multiple vendor supplied configuration channels for the TK08AL and the
 - Using the CanTrack PC configuration tool to set server and port fields to d.plaspy.com and 8888.
 - Sending SMS configuration commands if supported by your firmware to set server, port, and transport.
 
-For devices and firmware that accept SMS commands, placeholders are commonly used in examples such as {{apn}}, {{apnu}}, or {{apnp}}. These placeholders represent your mobile operator APN name, APN username, and APN password respectively and should be replaced with values provided by your SIM operator when required by the device.
+For devices and firmware that accept SMS commands, placeholders are commonly used in examples such as [apn], [apnu], or [apnp]. These placeholders represent your mobile operator APN name, APN username, and APN password respectively and should be replaced with values provided by your SIM operator when required by the device.
 
 ## Configuration Notes
 

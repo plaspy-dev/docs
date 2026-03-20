@@ -82,12 +82,12 @@ The HI-604X supports SMS-based configuration. The publicly available sample comm
 - Set the operator APN
   - Use the following SMS command, replacing the APN placeholders as needed:
 ```sms
-#0000,200,{{apn}},{{apnu}},{{apnp}}
+#0000,200,[apn],[apnu],[apnp]
 ```
   - Explanation of placeholders:
-    - {{apn}} = operator APN name (for data)
-    - {{apnu}} = APN username if required by carrier (leave blank if unused)
-    - {{apnp}} = APN password if required by carrier (leave blank if unused)
+    - [apn] = operator APN name (for data)
+    - [apnu] = APN username if required by carrier (leave blank if unused)
+    - [apnp] = APN password if required by carrier (leave blank if unused)
 
 - Set the GPRS server to Plaspy
   - This command points the tracker to Plaspy using the public IP and port:
@@ -109,7 +109,7 @@ Send each command as a separate SMS from an authorized phone number or using the
 - Manufacturer firmware and exact SMS command syntax can vary by production run and firmware version; always review the HI-604X manual or release notes when available.
 - The HI-604X supports SMS and software configuration methods; SMS is a common fallback when USB or remote provisioning is not available.
 - Choose UDP for lower overhead or TCP for a connection-oriented session if the device and network require a specific transport; Plaspy accepts both and detects the protocol automatically.
-- Replace APN placeholders ({{apn}}, {{apnu}}, {{apnp}}) with your mobile operator credentials; some carriers do not require username or password.
+- Replace APN placeholders ([apn], [apnu], [apnp]) with your mobile operator credentials; some carriers do not require username or password.
 - If the tracker has a default password, change it if the manufacturer recommends doing so for security after initial setup.
 
 ## Why Use Plaspy with This Configuration

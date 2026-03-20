@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt45
 id: xt45
+sidebar_key: xirgxt45_index_xt45
 sidebar_label: XT45
 title: Xirgo - XT45
 sidebar_class_name: menu_item_tracker

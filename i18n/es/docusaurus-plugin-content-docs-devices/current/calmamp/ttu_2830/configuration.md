@@ -80,19 +80,19 @@ El TTU-2830 puede configurarse por SMS. Los siguientes comandos públicos por SM
 !R0
 ```
 
-2. Configure el APN del operador (reemplace {{apn}} con el APN del operador)
+2. Configure el APN del operador (reemplace [apn] con el APN del operador)
 ```
-!RP,2306,0,{{apn}}
-```
-
-3. Configure el usuario del APN si es necesario (reemplace {{apnu}} con el usuario APN)
-```
-!RP,2314,0,{{apnu}}
+!RP,2306,0,[apn]
 ```
 
-4. Configure la contraseña del APN si es necesaria (reemplace {{apnp}} con la contraseña APN)
+3. Configure el usuario del APN si es necesario (reemplace [apnu] con el usuario APN)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2314,0,[apnu]
+```
+
+4. Configure la contraseña del APN si es necesaria (reemplace [apnp] con la contraseña APN)
+```
+!RP,2315,0,[apnp]
 ```
 
 5. Establezca el servidor GPRS a Plaspy por IP
@@ -116,9 +116,9 @@ Comando de verificación para revisar los ajustes (devuelve la configuración ac
 ```
 
 Notas sobre los marcadores de posición
-- {{apn}} es la cadena APN del operador celular requerida para conectividad de datos.
-- {{apnu}} es el usuario del APN cuando el operador exige autenticación.
-- {{apnp}} es la contraseña del APN cuando el operador exige autenticación.
+- [apn] es la cadena APN del operador celular requerida para conectividad de datos.
+- [apnu] es el usuario del APN cuando el operador exige autenticación.
+- [apnp] es la contraseña del APN cuando el operador exige autenticación.
 - Envíe los comandos de usuario y contraseña únicamente si su operador o SIM los requiere.
 
 ## Notas de configuración

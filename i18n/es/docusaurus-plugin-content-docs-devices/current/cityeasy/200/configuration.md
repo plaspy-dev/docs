@@ -79,7 +79,7 @@ Cuando está configurado, el Cityeasy 200 envía actualizaciones de posición y 
 
 El Cityeasy 200 puede configurarse usando las herramientas del fabricante o comandos SMS suministrados por Cityeasy. Los comandos exactos y la sintaxis varían según el firmware y la herramienta del proveedor. Dado que los conjuntos de comandos del fabricante no se incluyen aquí, consulte el manual de Cityeasy para los formatos precisos y utilice los ajustes de servidor de la sección Plaspy al componer los comandos.
 
-Si dispone de una lista de comandos de Cityeasy proporcionada por el fabricante, aplique el dominio o IP del servidor y el puerto según el flujo de trabajo. Preserve los marcadores que proporcione el proveedor como {{apn}} cuando estén presentes y reemplácelos por los valores específicos del operador.
+Si dispone de una lista de comandos de Cityeasy proporcionada por el fabricante, aplique el dominio o IP del servidor y el puerto según el flujo de trabajo. Preserve los marcadores que proporcione el proveedor como [apn] cuando estén presentes y reemplácelos por los valores específicos del operador.
 
 ## Notas de configuración
 

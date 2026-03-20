@@ -89,11 +89,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 ```
 
 3. Configurar el APN del operador. Reemplace los marcadores de posición con los valores de su operador:
-- {{apn}} es el nombre del APN para la SIM
-- {{apnu}} es el usuario del APN si se requiere
-- {{apnp}} es la contraseña del APN si se requiere
+- [apn] es el nombre del APN para la SIM
+- [apnu] es el usuario del APN si se requiere
+- [apnp] es la contraseña del APN si se requiere
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
 4. Configurar la entrada del servidor GPRS para apuntar a Plaspy. Este ejemplo incluye tanto el dominio como la IP y establece el puerto 8888. El comando muestra el dominio d.plaspy.com y la IP del servidor 54.85.159.138 con puerto 8888.
@@ -114,7 +114,7 @@ AT+GTSOS=queclink,2,2,,0,0,0,0,0,0,,,FFFF$
 Notas sobre los comandos anteriores:
 - El orden de los comandos es importante para un comportamiento predecible. Aplique la configuración de red y servidor antes de habilitar reportes programados.
 - Mantenga la contraseña del dispositivo correcta en cada comando; los ejemplos usan la contraseña pública por defecto queclink.
-- Reemplace valores marcadores como {{apn}}, {{apnu}} y {{apnp}} con las credenciales de su operador.
+- Reemplace valores marcadores como [apn], [apnu] y [apnp] con las credenciales de su operador.
 
 ## Observaciones sobre la configuración
 

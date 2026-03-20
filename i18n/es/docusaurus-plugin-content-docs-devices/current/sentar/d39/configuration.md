@@ -96,12 +96,12 @@ pw,123456,imsi#
 
 - Establecer el APN del operador. El comando incluye marcadores para los valores APN y una sección de código de operador
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
 Explicación de los marcadores:
-- {{apn}} — nombre del APN primario del operador móvil
-- {{apnu}} — nombre de usuario del APN si el operador lo requiere, o en blanco si no se usa
-- {{apnp}} — contraseña del APN si el operador lo requiere, o en blanco si no se usa
+- [apn] — nombre del APN primario del operador móvil
+- [apnu] — nombre de usuario del APN si el operador lo requiere, o en blanco si no se usa
+- [apnp] — contraseña del APN si el operador lo requiere, o en blanco si no se usa
 - xxxyy — marcador en el comando publicado que indica los dígitos combinados MCC y MNC usados por el dispositivo
 
 - Configurar el servidor GPRS a Plaspy por IP y puerto (tal como fue publicado)

@@ -79,19 +79,19 @@ The LMU-2600 public configuration example shows SMS commands used to set APN, se
 !R0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN)
+- Set the operator APN (replace [apn] with your operator APN)
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
-- Set the APN username if required (replace {{apnu}} with your APN username)
+- Set the APN username if required (replace [apnu] with your APN username)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
-- Set the APN password if required (replace {{apnp}} with your APN password)
+- Set the APN password if required (replace [apnp] with your APN password)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP
@@ -115,8 +115,8 @@ The LMU-2600 public configuration example shows SMS commands used to set APN, se
 ```
 
 Notes on placeholders and workflow
-- {{apn}} is the mobile operator APN string. Replace it with your cellular provider APN.
-- {{apnu}} and {{apnp}} are optional APN username and password values when the operator requires them.
+- [apn] is the mobile operator APN string. Replace it with your cellular provider APN.
+- [apnu] and [apnp] are optional APN username and password values when the operator requires them.
 - The LMU-2600 returns a MID value in response to !R0 which you should capture and use as the device ID when the configuration flow requires it.
 - The commands above are the publicly documented SMS sequence. If you use CalmAmp tools or PULS OTA, apply equivalent settings there.
 

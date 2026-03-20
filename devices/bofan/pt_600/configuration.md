@@ -82,16 +82,16 @@ The PT-600 can be configured using SMS commands sent from a mobile phone or SMS 
 000000DFT
 ```
 
-- Set a 14 digit device identifier for Plaspy. Replace \<last14imei> with the last 14 digits of the device IMEI
+- Set a 14 digit device identifier for Plaspy. Replace \\<last14imei> with the last 14 digits of the device IMEI
 ```text
 000000GID<last14imei>
 ```
 
-- Set the mobile operator APN. Replace the placeholders {{apn}}, {{apnu}}, and {{apnp}} as needed
+- Set the mobile operator APN. Replace the placeholders [apn], [apnu], and [apnp] as needed
 ```text
-000000APN{{apn}},{{apnu}},{{apnp}}
+000000APN[apn],[apnu],[apnp]
 ```
-Explanation: {{apn}} is the APN name. {{apnu}} and {{apnp}} are optional APN username and password fields and should be left empty or omitted if not required by the carrier.
+Explanation: [apn] is the APN name. [apnu] and [apnp] are optional APN username and password fields and should be left empty or omitted if not required by the carrier.
 
 - Set the Plaspy GPRS server by IP and port
 ```text

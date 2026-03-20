@@ -89,9 +89,9 @@ GMT,E,0#
 
 3. Set the operator APN
 ```text
-APN,{{apn}}{{apnu_and_apnp}}#
+APN,[apn]{{apnu_and_apnp}}#
 ```
-Note about the APN command: the placeholder {{apn}} should be replaced with your carrier APN. If your operator requires an APN username and password, the command can include {{apnu}} and {{apnp}} as additional comma separated fields. The original public command format was APN,{{apn}},{{apnu}},{{apnp}}# where the username and password are optional based on carrier requirements.
+Note about the APN command: the placeholder [apn] should be replaced with your carrier APN. If your operator requires an APN username and password, the command can include [apnu] and [apnp] as additional comma separated fields. The original public command format was APN,[apn],[apnu],[apnp]# where the username and password are optional based on carrier requirements.
 
 4. Set the GPRS server by hostname using the shared Plaspy host and port
 ```text

@@ -79,7 +79,7 @@ Siga estos pasos prácticos para configurar un GV350MG con Plaspy:
 
 ## Comandos de configuración de ejemplo
 
-El GV350MG admite configuración vía SMS. Los siguientes comandos públicos se presentan según la configuración modelo original y deben enviarse al dispositivo como mensajes SMS. Los ejemplos usan la contraseña del dispositivo queclink, que es el valor de fábrica en estos ejemplos. Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} cuando los reemplace por el APN del operador, el usuario del APN y la contraseña del APN respectivamente.
+El GV350MG admite configuración vía SMS. Los siguientes comandos públicos se presentan según la configuración modelo original y deben enviarse al dispositivo como mensajes SMS. Los ejemplos usan la contraseña del dispositivo queclink, que es el valor de fábrica en estos ejemplos. Conserve los marcadores [apn], [apnu] y [apnp] cuando los reemplace por el APN del operador, el usuario del APN y la contraseña del APN respectivamente.
 
 1. Comando opcional para restaurar a configuración de fábrica
 Envíe esto solo cuando tenga la intención de restaurar los valores por defecto como parte de la configuración inicial.
@@ -98,12 +98,12 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 Reemplace los marcadores con los valores de su operador móvil.
 
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
 
-- {{apn}} es el nombre del punto de acceso proporcionado por su operador móvil
-- {{apnu}} es el usuario del APN si el operador lo requiere
-- {{apnp}} es la contraseña del APN si el operador la requiere
+- [apn] es el nombre del punto de acceso proporcionado por su operador móvil
+- [apnu] es el usuario del APN si el operador lo requiere
+- [apnp] es la contraseña del APN si el operador la requiere
 
 4. Configurar el servidor GPRS a Plaspy
 Este comando establece tanto el dominio como la IP para redundancia y apunta al endpoint de ingestión de Plaspy. El puerto 8888 se incluye como puerto de servicio.

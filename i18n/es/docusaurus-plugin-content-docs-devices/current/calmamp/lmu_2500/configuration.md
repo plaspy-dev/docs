@@ -82,21 +82,21 @@ Nota sobre IDs y verificación
 
 1. Configurar el APN del operador
 ```
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
-- Reemplace el marcador {{apn}} por la cadena APN de su operador móvil.
+- Reemplace el marcador [apn] por la cadena APN de su operador móvil.
 
 2. Configurar el nombre de usuario del APN (si se requiere)
 ```
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
-- Reemplace {{apnu}} por el usuario APN si su operador lo exige.
+- Reemplace [apnu] por el usuario APN si su operador lo exige.
 
 3. Configurar la contraseña del APN (si se requiere)
 ```
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
-- Reemplace {{apnp}} por la contraseña del APN si su operador lo exige.
+- Reemplace [apnp] por la contraseña del APN si su operador lo exige.
 
 4. Apuntar el servidor GPRS a Plaspy por IP
 ```
@@ -121,7 +121,7 @@ Comando de verificación para comprobar la configuración
 ```
 - Use este comando para consultar el dispositivo y confirmar los parámetros configurados. El rastreador responderá con el estado e incluirá el MID u otros identificadores.
 
-Importante: Mantenga el orden anterior al aplicar los ajustes por SMS cuando el orden sea importante. Reemplace los marcadores como {{apn}}, {{apnu}} y {{apnp}} por los valores de su operador.
+Importante: Mantenga el orden anterior al aplicar los ajustes por SMS cuando el orden sea importante. Reemplace los marcadores como [apn], [apnu] y [apnp] por los valores de su operador.
 
 ## Notas de configuración
 

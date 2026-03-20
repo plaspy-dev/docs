@@ -98,12 +98,12 @@ AT$FORM=1,@P,0,""
 ```
 
 - Configurar GPRS y ajustes del servidor Plaspy
-  - Reemplace {{apn}} con el APN de su operador
-  - Reemplace {{apnu}} con el usuario del APN si su operador lo requiere
-  - Reemplace {{apnp}} con la contraseña del APN si su operador lo requiere
+  - Reemplace [apn] con el APN de su operador
+  - Reemplace [apnu] con el usuario del APN si su operador lo requiere
+  - Reemplace [apnp] con la contraseña del APN si su operador lo requiere
 
 ```
-AT$GPRS=1,"{{apn}}","{{apnu}}","{{apnp}}","54.85.159.138",8888,1,3,30,0,0
+AT$GPRS=1,"[apn]","[apnu]","[apnp]","54.85.159.138",8888,1,3,30,0,0
 ```
 
 - Consultar estado del dispositivo y verificar ajustes aplicados
@@ -114,7 +114,7 @@ AT$INFO=?
 
 Notas sobre estos comandos
 - El comando GPRS anterior utiliza la IP del servidor Plaspy tal como se indica en las instrucciones públicas. Si su herramienta de configuración acepta un nombre de host, también puede usar d.plaspy.com cuando el firmware del dispositivo lo soporte.
-- Los marcadores {{apn}}, {{apnu}} y {{apnp}} representan el APN del operador móvil, el usuario del APN y la contraseña del APN respectivamente. Complételos con los valores proporcionados por su proveedor de SIM.
+- Los marcadores [apn], [apnu] y [apnp] representan el APN del operador móvil, el usuario del APN y la contraseña del APN respectivamente. Complételos con los valores proporcionados por su proveedor de SIM.
 
 ## Notas de configuración
 

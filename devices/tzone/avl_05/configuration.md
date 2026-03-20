@@ -76,10 +76,10 @@ The AVL-05 manufacturer provides SMS commands to configure the tracker. Send the
 
 1. Set the operator APN
 ```text
-*000000,011,{{apn}}{{,{{apnu}},{{apnp}}}}#
+*000000,011,[apn]{{,[apnu],[apnp]}}#
 ```
-- Replace {{apn}} with your mobile operator APN.
-- Optionally include {{apnu}} and {{apnp}} if your SIM requires an APN username and password. The command can be sent with APN only or with APN plus username and password.
+- Replace [apn] with your mobile operator APN.
+- Optionally include [apnu] and [apnp] if your SIM requires an APN username and password. The command can be sent with APN only or with APN plus username and password.
 
 2. Set the update interval to 60 seconds
 ```text

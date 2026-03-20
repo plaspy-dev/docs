@@ -82,21 +82,21 @@ Envíe este comando para consultar el equipo y recibir el MID o ID de unidad que
 
 - Establecer el APN del operador
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
-Reemplace {{apn}} con el nombre APN de su operador móvil.
+Reemplace [apn] con el nombre APN de su operador móvil.
 
 - Establecer el nombre de usuario del APN (si es requerido)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
-Reemplace {{apnu}} con el usuario del APN si su operador lo solicita. Este comando es opcional si no se requiere usuario.
+Reemplace [apnu] con el usuario del APN si su operador lo solicita. Este comando es opcional si no se requiere usuario.
 
 - Establecer la contraseña del APN (si es requerida)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
-Reemplace {{apnp}} con la contraseña del APN si corresponde. Es opcional según la configuración del operador.
+Reemplace [apnp] con la contraseña del APN si corresponde. Es opcional según la configuración del operador.
 
 - Establecer la IP del servidor GPRS a Plaspy
 ```text
@@ -123,8 +123,8 @@ Normalmente se requiere un reinicio para aplicar los nuevos ajustes de red y ser
 Este comando de verificación devuelve la configuración actual para que pueda confirmar los valores de APN, servidor y puerto.
 
 Notas sobre los marcadores de posición
-- {{apn}} es el nombre APN del operador necesario para la conectividad de datos.
-- {{apnu}} y {{apnp}} son opcionales y se usan solo si su operador móvil requiere usuario y contraseña del APN.
+- [apn] es el nombre APN del operador necesario para la conectividad de datos.
+- [apnu] y [apnp] son opcionales y se usan solo si su operador móvil requiere usuario y contraseña del APN.
 
 ## Notas de configuración
 

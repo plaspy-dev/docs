@@ -90,11 +90,11 @@ GMT,E,0#
 
 3. Set the operator APN
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- {{apn}} is the operator APN string.  
-- {{apnu}} is the APN username when required.  
-- {{apnp}} is the APN password when required.  
+- [apn] is the operator APN string.  
+- [apnu] is the APN username when required.  
+- [apnp] is the APN password when required.  
 If a username or password is not needed, omit the corresponding placeholders as required by the device.
 
 4. Set the GPRS server using the domain (preferred)

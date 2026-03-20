@@ -79,19 +79,19 @@ El TS-V6W soporta configuración por SMS. Los siguientes comandos SMS públicos 
 FORMAT
 ```
 
-- Configurar el APN del operador (reemplazar {{apn}} por el APN del operador)
+- Configurar el APN del operador (reemplazar [apn] por el APN del operador)
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Establecer el usuario APN (reemplazar {{apnu}} por el usuario APN si es necesario)
+- Establecer el usuario APN (reemplazar [apnu] por el usuario APN si es necesario)
 ```text
-apnuser123456 {{apnu}}
+apnuser123456 [apnu]
 ```
 
-- Establecer la contraseña APN (reemplazar {{apnp}} por la contraseña APN si es necesaria)
+- Establecer la contraseña APN (reemplazar [apnp] por la contraseña APN si es necesaria)
 ```text
-apnpasswd123456 {{apnp}}
+apnpasswd123456 [apnp]
 ```
 
 - Establecer el servidor GPRS al endpoint de Plaspy (este ejemplo usa la IP y el puerto del servidor)
@@ -105,9 +105,9 @@ CXZT
 ```
 
 Notas sobre los marcadores y comandos:
-- {{apn}} es la cadena APN del operador móvil necesaria para acceso a internet.
-- {{apnu}} es el usuario APN si la SIM lo requiere; deje en blanco si no es necesario.
-- {{apnp}} es la contraseña APN si la SIM la requiere; deje en blanco si no es necesario.
+- [apn] es la cadena APN del operador móvil necesaria para acceso a internet.
+- [apnu] es el usuario APN si la SIM lo requiere; deje en blanco si no es necesario.
+- [apnp] es la contraseña APN si la SIM la requiere; deje en blanco si no es necesario.
 - El comando ip54.85.159.138 8888 configura el dispositivo para usar la IP y el puerto del servidor Plaspy según lo indicado en la configuración pública. Algunos instaladores prefieren usar el dominio d.plaspy.com cuando el firmware del equipo soporta dominios; siga la documentación de ThingSys para soporte de dominios.
 
 ## Notas de configuración

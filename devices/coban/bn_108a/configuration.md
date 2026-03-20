@@ -74,7 +74,7 @@ When configured, the BN-108A sends GNSS positions, alarms, and telemetry to the 
 
 ## Example Configuration Commands
 
-Below are the commonly published SMS commands for the BN-108A in the order they are often applied. The sample commands use the device default password 123456 where required. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your SIM operator values.
+Below are the commonly published SMS commands for the BN-108A in the order they are often applied. The sample commands use the device default password 123456 where required. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your SIM operator values.
 
 1. Optional initial factory reset command to restore defaults
 ```text
@@ -86,15 +86,15 @@ time zone123456 0
 ```
 3. Set the operator APN
 ```text
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-- {{apn}} is the mobile data APN string provided by your SIM operator
+- [apn] is the mobile data APN string provided by your SIM operator
 
 4. Set the APN username and password if required by the operator
 ```text
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-- {{apnu}} and {{apnp}} are placeholders for APN username and APN password respectively; many operators do not require these values
+- [apnu] and [apnp] are placeholders for APN username and APN password respectively; many operators do not require these values
 
 5. Set the GPRS server to Plaspy by IP and port
 ```text
@@ -138,7 +138,7 @@ Note on passwords
 - Firmware revisions can change command formats or supported parameters; always verify the command syntax against the device manual for your firmware version
 - Choose UDP or TCP based on your operational needs and any vendor guidance; Plaspy supports both and will detect the protocol automatically
 - Plaspy uses the same port 8888 for all devices so point BN-108A to port 8888 when configuring the server address
-- Be careful with placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them exactly as provided by your mobile operator
+- Be careful with placeholders such as [apn], [apnu], and [apnp] and replace them exactly as provided by your mobile operator
 
 ## Why Use Plaspy with This Configuration
 

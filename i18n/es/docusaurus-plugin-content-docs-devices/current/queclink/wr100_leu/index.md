@@ -1,6 +1,7 @@
 ---
 slug: /queclink/wr100_leu
 id: wr100_leu
+sidebar_key: queclinwr100_leu_index_wr100_leu
 sidebar_label: WR100 LEU
 title: QuecLink - WR100 LEU
 sidebar_class_name: menu_item_tracker

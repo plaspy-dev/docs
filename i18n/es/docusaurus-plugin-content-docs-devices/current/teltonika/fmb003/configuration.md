@@ -75,19 +75,19 @@ Una vez configurado, el FMB003 envía posición y telemetría OBD OEM al endpoin
 El FMB003 puede configurarse usando un comando SMS en lote. El ejemplo público abajo establece los parámetros APN e incluye el dominio y puerto del servidor Plaspy. Mantenga los marcadores de posición tal como se muestran y reemplácelos por sus valores reales de APN.
 
 - Reemplace los marcadores:
-  - {{apn}} con el APN de su operador móvil
-  - {{apnu}} con el usuario APN si es requerido
-  - {{apnp}} con la contraseña APN si es requerida
+  - [apn] con el APN de su operador móvil
+  - [apnu] con el usuario APN si es requerido
+  - [apnp] con la contraseña APN si es requerida
 
 Example SMS batch command:
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre este comando de ejemplo:
 - El comando incluye el dominio del servidor Plaspy d.plaspy.com y el puerto 8888 para que el dispositivo pueda reportar a Plaspy.
-- Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse con los valores de su operador.
+- Los marcadores [apn], [apnu] y [apnp] deben reemplazarse con los valores de su operador.
 - El parámetro final en el lote indica un flag de transporte o relacionado; siga la guía de Teltonika para el valor correcto según elija UDP o TCP.
 
 Si utiliza Teltonika Configurator o FOTA WEB en lugar de SMS, los mismos valores de dominio y puerto deben ingresarse en los campos de servidor correspondientes.

@@ -73,7 +73,7 @@ The AT1 reports location, events, and telemetry to the Plaspy shared server endp
 
 ## Example Configuration Commands
 
-The AT1 supports SMS-based configuration. The following commands are presented in the order suggested by the manufacturer and are intended to be sent as SMS messages to the device. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when your APN requires username or password values. Label the factory reset as optional and use it only when preparing a device for initial setup or when troubleshooting.
+The AT1 supports SMS-based configuration. The following commands are presented in the order suggested by the manufacturer and are intended to be sent as SMS messages to the device. Preserve placeholders such as [apn], [apnu], and [apnp] when your APN requires username or password values. Label the factory reset as optional and use it only when preparing a device for initial setup or when troubleshooting.
 
 - Optional initial factory reset
 ```text
@@ -87,9 +87,9 @@ GMT,E,0#
 
 - Set the mobile operator APN (replace placeholders with your operator values)
 ```text
-APN,{{apn}}{{,{{apnu}},{{apnp}}}}#
+APN,[apn]{{,[apnu],[apnp]}}#
 ```
-Explanation: {{apn}} is the operator APN. If your APN requires a username and password, include {{apnu}} and {{apnp}} in the command in the shown order.
+Explanation: [apn] is the operator APN. If your APN requires a username and password, include [apnu] and [apnp] in the command in the shown order.
 
 - Set the GPRS server to Plaspy by domain (UDP or TCP on port 8888)
 ```text

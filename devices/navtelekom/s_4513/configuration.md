@@ -78,7 +78,7 @@ The S-4513 transmits GNSS positions and sensor telemetry over its cellular link 
 
 This model configuration file does not include vendor SMS or command-line strings. Exact commands and their syntax vary by manufacturer firmware and by the configuration method you use (NTC Configurator, DRC, or vendor SMS commands). Use the official Navtelekom tools and documentation for command format. Commonly, vendor tools will offer GUI fields to enter the host (d.plaspy.com or 54.85.159.138), port 8888, and transport selection and will then send the appropriate commands to the device.
 
-If you receive or use vendor-supplied command strings that contain placeholders (for example {{apn}}, {{apnu}}, or {{apnp}}), keep the placeholders and replace them with your SIM operator’s APN settings as instructed by the manufacturer.
+If you receive or use vendor-supplied command strings that contain placeholders (for example [apn], [apnu], or [apnp]), keep the placeholders and replace them with your SIM operator’s APN settings as instructed by the manufacturer.
 
 ## Configuration Notes
 

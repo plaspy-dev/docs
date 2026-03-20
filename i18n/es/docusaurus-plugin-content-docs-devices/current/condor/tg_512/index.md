@@ -1,6 +1,7 @@
 ---
 slug: /condor/tg_512
 id: tg_512
+sidebar_key: condotg_512_index_tg_512
 sidebar_label: TG-512
 title: Condor - TG-512
 sidebar_class_name: menu_item_tracker

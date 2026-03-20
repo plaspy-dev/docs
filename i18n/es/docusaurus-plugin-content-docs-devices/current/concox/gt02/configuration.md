@@ -72,7 +72,7 @@ El GT02 envía datos de ubicación y del dispositivo por GPRS al endpoint y puer
 
 ## Comandos de configuración de ejemplo
 
-El Concox GT02 soporta comandos de configuración por SMS. A continuación aparecen los comandos públicos comunes en el orden que frecuentemente se usan durante la puesta en marcha. Mantenga los marcadores de posición tal como se muestran y reemplace {{apn}}, {{apnu}} y {{apnp}} con los valores de APN de su operador cuando sea necesario.
+El Concox GT02 soporta comandos de configuración por SMS. A continuación aparecen los comandos públicos comunes en el orden que frecuentemente se usan durante la puesta en marcha. Mantenga los marcadores de posición tal como se muestran y reemplace [apn], [apnu] y [apnp] con los valores de APN de su operador cuando sea necesario.
 
 - Reinicio opcional a valores de fábrica (usar solo si necesita devolver el equipo a configuración por defecto):
 ```
@@ -84,13 +84,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Establecer el APN del operador. Reemplace {{apn}} por su APN. Si su operador requiere usuario y contraseña incluya {{apnu}} y {{apnp}}:
+- Establecer el APN del operador. Reemplace [apn] por su APN. Si su operador requiere usuario y contraseña incluya [apnu] y [apnp]:
 ```
-APN,{{apn}}#
+APN,[apn]#
 ```
 o con credenciales:
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Configurar el servidor GPRS para usar Plaspy por dominio (la elección UDP/TCP es a nivel del dispositivo; el puerto es 8888):
@@ -122,9 +122,9 @@ GPRSSET#
 ```
 
 Notas sobre los marcadores de posición:
-- {{apn}} es la cadena APN proporcionada por el operador móvil.
-- {{apnu}} es el usuario del APN cuando se requiere.
-- {{apnp}} es la contraseña del APN cuando se requiere.
+- [apn] es la cadena APN proporcionada por el operador móvil.
+- [apnu] es el usuario del APN cuando se requiere.
+- [apnp] es la contraseña del APN cuando se requiere.
 
 Envíe cada comando como un SMS individual al número del GT02 siguiendo la documentación del dispositivo sobre el formato de SMS y cualquier sintaxis requerida como terminadores de comando.
 

@@ -77,16 +77,16 @@ The ST4932 public setup instructions include SMS commands. The device ID used in
 
 Important placeholders:
 - {{device_id}} — replace with the derived 6 digit ID from the IMEI as described above.
-- {{apn}} — operator APN name.
-- {{apnu}} — APN username if required by the operator.
-- {{apnp}} — APN password if required by the operator.
+- [apn] — operator APN name.
+- [apnu] — APN username if required by the operator.
+- [apnp] — APN password if required by the operator.
 - For the APN user flag, set to 1 if APN username or password are required, otherwise 0.
 
 1. Set the operator APN and GPRS server. Replace placeholders when sending as an SMS to the device:
 ```text
-SA200NTW;{{device_id}};02;{{apn_user_flag}};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{{apn_user_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
-- {{apn_user_flag}} should be 1 if you provide a username or password in {{apnu}} or {{apnp}}, otherwise set to 0.
+- {{apn_user_flag}} should be 1 if you provide a username or password in [apnu] or [apnp], otherwise set to 0.
 
 2. Set the update interval to 60 seconds:
 ```text

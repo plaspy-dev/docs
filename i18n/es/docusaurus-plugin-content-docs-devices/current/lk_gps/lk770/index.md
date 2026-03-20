@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk770
 id: lk770
+sidebar_key: lk_gplk770_index_lk770
 sidebar_label: LK770
 title: LK-GPS - LK770
 sidebar_class_name: menu_item_tracker

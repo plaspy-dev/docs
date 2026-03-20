@@ -76,7 +76,7 @@ The CH-5704 is configured to report location and device data over the GSM networ
 
 ## Example Configuration Commands
 
-Below are public example SMS commands extracted from manufacturer-provided content. These commands use the device password as shown in public examples. The password in these sample commands is 123456 and is the device default in public documentation. Keep placeholders as provided; replace {{apn}}, {{apnu}}, and {{apnp}} with your operator values.
+Below are public example SMS commands extracted from manufacturer-provided content. These commands use the device password as shown in public examples. The password in these sample commands is 123456 and is the device default in public documentation. Keep placeholders as provided; replace [apn], [apnu], and [apnp] with your operator values.
 
 - Optional initial factory reset (use only if required):
 ```
@@ -88,14 +88,14 @@ begin123456
 time zone123456 0
 ```
 
-- Set the operator APN (replace {{apn}} with your operator APN):
+- Set the operator APN (replace [apn] with your operator APN):
 ```
-apn123456 {{apn}}
+apn123456 [apn]
 ```
 
-- Set the APN username and password if required (replace {{apnu}} and {{apnp}} as needed):
+- Set the APN username and password if required (replace [apnu] and [apnp] as needed):
 ```
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
 
 - Set the GPRS server to Plaspy using the public IP and port:
@@ -118,9 +118,9 @@ check123456
 ```
 
 Notes on placeholders:
-- {{apn}} — the access point name for your mobile operator
-- {{apnu}} — APN username when the operator requires it
-- {{apnp}} — APN password when the operator requires it
+- [apn] — the access point name for your mobile operator
+- [apnu] — APN username when the operator requires it
+- [apnp] — APN password when the operator requires it
 
 Always confirm command syntax for your firmware version before sending bulk SMS commands.
 

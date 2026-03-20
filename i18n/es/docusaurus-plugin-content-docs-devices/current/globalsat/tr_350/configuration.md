@@ -80,12 +80,12 @@ TSPRXAB27GHKLMnaicz*U!
 
 Plantilla del comando de configuración
 - Reemplace {{imei}} por el IMEI del equipo.
-- Reemplace {{apn}}, {{apnu}} y {{apnp}} por el APN del operador, el usuario del APN y la contraseña del APN según corresponda.
+- Reemplace [apn], [apnu] y [apnp] por el APN del operador, el usuario del APN y la contraseña del APN según corresponda.
 - La cadena de comando requiere un valor de checksum calculado sobre el texto antes del asterisco y luego añadido en forma hexadecimal en mayúsculas de dos dígitos.
 
 Comando de configuración
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 Comando opcional de reinicio (usar si es necesario para aplicar ajustes)
@@ -100,9 +100,9 @@ Cálculo del checksum
 
 Explicación de los marcadores
 - {{imei}}: el número IMEI del dispositivo requerido por el comando para apuntar a un rastreador específico.
-- {{apn}}: el nombre del punto de acceso (APN) del operador para conectividad de datos.
-- {{apnu}}: usuario del APN del operador si su perfil SIM lo requiere.
-- {{apnp}}: contraseña del APN del operador si su perfil SIM lo requiere.
+- [apn]: el nombre del punto de acceso (APN) del operador para conectividad de datos.
+- [apnu]: usuario del APN del operador si su perfil SIM lo requiere.
+- [apnp]: contraseña del APN del operador si su perfil SIM lo requiere.
 - {{checksum}}: el valor del checksum XOR según se describió arriba.
 
 Siga el orden de comandos tal como se muestra al aprovisionar. Enviar primero el comando de configuración y luego el de reinicio es una secuencia común cuando se requiere reiniciar para que los ajustes surtan efecto.

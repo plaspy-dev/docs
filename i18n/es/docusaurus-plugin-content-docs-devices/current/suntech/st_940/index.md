@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st_940
 id: st_940
+sidebar_key: suntecst_940_index_st_940
 sidebar_label: ST 940
 title: Suntech - ST 940
 sidebar_class_name: menu_item_tracker

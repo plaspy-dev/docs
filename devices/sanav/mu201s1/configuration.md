@@ -72,7 +72,7 @@ When configured for Plaspy, the MU201S1 uses its GPRS data connection to transmi
 
 ## Example Configuration Commands
 
-The MU201S1 supports SMS based configuration. The manufacturer provided example SMS commands use a default device password of 0000. Keep placeholders such as {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN values.
+The MU201S1 supports SMS based configuration. The manufacturer provided example SMS commands use a default device password of 0000. Keep placeholders such as [apn], [apnu], and [apnp] and replace them with your operator APN values.
 
 - Optional initial factory reset command (use only if you need to reset configuration):
 ```text
@@ -81,9 +81,9 @@ The MU201S1 supports SMS based configuration. The manufacturer provided example 
 
 - Set the operator APN using placeholders for APN, APN username, and APN password:
 ```text
-#username,0000,3,{{apn}},{{apnu}},{{apnp}}*
+#username,0000,3,[apn],[apnu],[apnp]*
 ```
-Explanation: Replace {{apn}} with your mobile operator APN, {{apnu}} with APN username if required, and {{apnp}} with APN password if required. If the operator does not require username or password, those placeholders may remain empty depending on device command parsing.
+Explanation: Replace [apn] with your mobile operator APN, [apnu] with APN username if required, and [apnp] with APN password if required. If the operator does not require username or password, those placeholders may remain empty depending on device command parsing.
 
 - Set the GPRS server to Plaspy using the public IP and port:
 ```text
@@ -112,7 +112,7 @@ Notes on these commands:
 
 - Firmware and hardware revisions can change command syntax or behavior. Verify the exact SMS syntax for your device firmware version in official documentation.
 - SMS based setup is supported and is useful for field configuration, but GPRS verification is required to confirm reporting to Plaspy.
-- Confirm APN values with the mobile operator and use the correct APN credentials in place of the {{apn}}, {{apnu}}, and {{apnp}} placeholders.
+- Confirm APN values with the mobile operator and use the correct APN credentials in place of the [apn], [apnu], and [apnp] placeholders.
 - Choose UDP or TCP transport based on the device requirements and network conditions; Plaspy supports both and will detect the incoming protocol automatically.
 - Remember the default password shown in public examples is 0000; change device passwords where appropriate for operational security.
 

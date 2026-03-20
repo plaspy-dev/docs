@@ -88,15 +88,15 @@ time zone123456 0
 
 - Set the operator APN
 ```sms
-apn123456 {{apn}}
+apn123456 [apn]
 ```
-Note: {{apn}} is a placeholder for your mobile operator APN string.
+Note: [apn] is a placeholder for your mobile operator APN string.
 
 - Set the APN username and password
 ```sms
-up123456 {{apnu}} {{apnp}}
+up123456 [apnu] [apnp]
 ```
-Note: {{apnu}} and {{apnp}} are placeholders for APN username and APN password. Leave blank if not required.
+Note: [apnu] and [apnp] are placeholders for APN username and APN password. Leave blank if not required.
 
 - Set the GPRS server to the Plaspy server IP and port
 ```sms
@@ -132,7 +132,7 @@ protocol123456 18
 
 When sending SMS commands:
 - Keep the device password correct; 123456 is the default in the public examples and should be changed if possible.
-- Replace placeholders {{apn}}, {{apnu}}, and {{apnp}} with your operator values.
+- Replace placeholders [apn], [apnu], and [apnp] with your operator values.
 - Use domain d.plaspy.com or the IP 54.85.159.138 and port 8888 as shown.
 
 ## Configuration Notes

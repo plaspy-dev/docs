@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/at101_4g
 id: at101_4g
+sidebar_key: itrianglat101_4g_index_at101_4g
 sidebar_label: AT101 4G
 title: iTriangle - AT101 4G
 sidebar_class_name: menu_item_tracker

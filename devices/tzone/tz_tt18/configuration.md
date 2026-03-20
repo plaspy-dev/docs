@@ -75,16 +75,16 @@ The TZ-TT18 collects temperature and humidity samples and reports them to Plaspy
 
 The TZ-TT18 can be configured by sending SMS messages. The following public SMS commands are provided in the manufacturer documentation and show a common order for initial setup. Preserve the placeholders and replace them with your operator values as needed.
 
-1. Set the operator APN (APN username and password are optional). Replace {{apn}} with your SIM APN and optionally provide {{apnu}} and {{apnp}} if your operator requires them.
+1. Set the operator APN (APN username and password are optional). Replace [apn] with your SIM APN and optionally provide [apnu] and [apnp] if your operator requires them.
 
 ```
-*000000,011,{{apn}},{{apnu}},{{apnp}}#
+*000000,011,[apn],[apnu],[apnp]#
 ```
 
 If no username or password is needed, use the simpler form:
 
 ```
-*000000,011,{{apn}}#
+*000000,011,[apn]#
 ```
 
 2. Set the update interval to 60 seconds (this example sets interval and a retry or mode parameter as used by the device).
@@ -108,9 +108,9 @@ You can also point the device to the domain instead of the IP if the device supp
 ```
 
 Notes on placeholders and values:
-- {{apn}} is your mobile operator APN string.  
-- {{apnu}} is the APN username when required by the operator.  
-- {{apnp}} is the APN password when required by the operator.  
+- [apn] is your mobile operator APN string.  
+- [apnu] is the APN username when required by the operator.  
+- [apnp] is the APN password when required by the operator.  
 - The leading numeric sequence 000000 in these examples is the device command password as shown in the public command forms; confirm the correct password for your unit with manufacturer documentation or vendor instructions.
 
 ## Configuration Notes

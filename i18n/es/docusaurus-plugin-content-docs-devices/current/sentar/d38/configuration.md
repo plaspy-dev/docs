@@ -48,7 +48,7 @@ Nota: Plaspy utiliza el mismo puerto para todos los dispositivos compatibles y d
 
 - Un dispositivo D38 con batería y una Nano SIM funcionante con servicio de datos activo
 - Acceso al método de configuración por SMS del dispositivo o a la herramienta oficial de configuración de Sentar
-- Conocimiento del APN, usuario y contraseña del operador para la SIM (en los ejemplos se usan los marcadores {{apn}}, {{apnu}}, {{apnp}})
+- Conocimiento del APN, usuario y contraseña del operador para la SIM (en los ejemplos se usan los marcadores [apn], [apnu], [apnp])
 - La contraseña SMS por defecto del dispositivo 123456, o la contraseña del dispositivo si ya fue cambiada
 - Un medio para recibir las respuestas de verificación del dispositivo (respuestas SMS del equipo o monitoreo en Plaspy de los primeros reportes)
 
@@ -93,11 +93,11 @@ pw,123456,lz,0,0#
 pw,123456,imsi#
 ```
 
-- Establecer el APN del operador donde {{apn}} {{apnu}} y {{apnp}} son el APN, usuario y contraseña y xxxyy representa MCC y MNC concatenados
+- Establecer el APN del operador donde [apn] [apnu] y [apnp] son el APN, usuario y contraseña y xxxyy representa MCC y MNC concatenados
 ```text
-pw,123456,{{apn}},{{apnu}},{{apnp}},xxxyy#
+pw,123456,[apn],[apnu],[apnp],xxxyy#
 ```
-Explicación: reemplace {{apn}}, {{apnu}}, {{apnp}} por el APN, usuario y contraseña de su operador. Reemplace xxxyy por los dígitos MCC y MNC del operador.
+Explicación: reemplace [apn], [apnu], [apnp] por el APN, usuario y contraseña de su operador. Reemplace xxxyy por los dígitos MCC y MNC del operador.
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública del servidor y el puerto
 ```text

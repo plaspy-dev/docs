@@ -89,11 +89,11 @@ RESET
 ```
 
 - Configurar el APN para la conectividad del operador. Reemplace los marcadores según corresponda:
-  - {{apn}} es el APN del operador móvil
-  - {{apnu}} es el usuario del APN si se requiere (dejar en blanco si no aplica)
-  - {{apnp}} es la contraseña del APN si se requiere (dejar en blanco si no aplica)
+  - [apn] es el APN del operador móvil
+  - [apnu] es el usuario del APN si se requiere (dejar en blanco si no aplica)
+  - [apnp] es la contraseña del APN si se requiere (dejar en blanco si no aplica)
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
 
 - Configurar el servidor GPRS para apuntar a Plaspy usando la IP del servidor y el puerto 8888

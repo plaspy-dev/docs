@@ -75,7 +75,7 @@ Cuando se configura para Plaspy, el VT-300 envía sus mensajes de ubicación y e
 
 El VT-300 admite múltiples mecanismos de configuración y los comandos o pasos de menú exactos dependen de la herramienta del fabricante y de la versión del firmware. Dado que los comandos SMS del fabricante, los comandos seriales y las interfaces del software del proveedor varían según la versión, consulte la guía de configuración WP incluida con el dispositivo para la sintaxis exacta y los marcadores de posición que deba completar.
 
-Si utiliza configuración basada en SMS, los flujos típicos incluyen reemplazar marcadores de posición como {{apn}} por los valores APN de su operador o proporcionar credenciales donde se requiera. Cuando el fabricante proporcione comandos de ejemplo, siga su orden y sintaxis exacta y conserve los marcadores de posición.
+Si utiliza configuración basada en SMS, los flujos típicos incluyen reemplazar marcadores de posición como [apn] por los valores APN de su operador o proporcionar credenciales donde se requiera. Cuando el fabricante proporcione comandos de ejemplo, siga su orden y sintaxis exacta y conserve los marcadores de posición.
 
 ## Notas de configuración
 

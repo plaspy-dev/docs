@@ -81,13 +81,13 @@ El FM 4200 admite comandos por lotes vía SMS para establecer parámetros básic
 - Comando SMS de ejemplo para establecer APN y valores del servidor Plaspy
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Notas sobre los marcadores de posición y los campos en el comando anterior:
-- {{apn}} = nombre del APN de su operador móvil
-- {{apnu}} = usuario del APN si su operador lo exige
-- {{apnp}} = contraseña del APN si su operador lo exige
+- [apn] = nombre del APN de su operador móvil
+- [apnu] = usuario del APN si su operador lo exige
+- [apnp] = contraseña del APN si su operador lo exige
 - 2004 está configurado como d.plaspy.com para apuntar el dispositivo al dominio de Plaspy
 - 2005 está configurado en 8888, que es el puerto donde escucha Plaspy
 - 2006 se incluye en este ejemplo como un parámetro de transporte o modo del comando público; consulte la documentación de Teltonika o las notas de la versión para conocer el significado exacto según su versión de firmware

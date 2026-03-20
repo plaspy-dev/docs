@@ -72,16 +72,16 @@ The ST 210 is configured to report positioning and event data to the shared Plas
 
 ## Example Configuration Commands
 
-The ST 210 supports SMS-based configuration. The public command templates below are provided in the order they are typically applied. Replace placeholders before sending as SMS. The device ID placeholder {{device_id}} should be calculated from the IMEI as described above. Keep {{apn}}, {{apnu}}, and {{apnp}} as placeholders for your operator APN name, APN username, and APN password.
+The ST 210 supports SMS-based configuration. The public command templates below are provided in the order they are typically applied. Replace placeholders before sending as SMS. The device ID placeholder {{device_id}} should be calculated from the IMEI as described above. Keep [apn], [apnu], and [apnp] as placeholders for your operator APN name, APN username, and APN password.
 
 1) Set the operator APN and GPRS server (example template)
 
 ```
-SA200NTW;{{device_id}};02;1;{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Purpose: Configure the operator APN and point the device to the Plaspy server IP and port.
-- Notes: The fourth field in the original template indicates whether APN username/password are present. Use 1 if you provide {{apnu}} or {{apnp}}, otherwise use 0.
+- Notes: The fourth field in the original template indicates whether APN username/password are present. Use 1 if you provide [apnu] or [apnp], otherwise use 0.
 
 2) Set the reporting interval to 60 seconds
 
@@ -101,9 +101,9 @@ SA200CMD;{{device_id}};02;PresetA
 
 Important placeholder explanations:
 - {{device_id}} — the 6-digit device ID derived from IMEI as described above.
-- {{apn}} — your mobile operator APN string.
-- {{apnu}} — APN username if required by the operator.
-- {{apnp}} — APN password if required by the operator.
+- [apn] — your mobile operator APN string.
+- [apnu] — APN username if required by the operator.
+- [apnp] — APN password if required by the operator.
 
 Send these commands as SMS messages from an authorized phone number if your installation uses SMS configuration. Follow Suntech guidance for required command formatting, authorized sender numbers, and any PIN or security tokens if applicable.
 

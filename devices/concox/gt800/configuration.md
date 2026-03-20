@@ -65,7 +65,7 @@ When configured for Plaspy, the GT800 uses the device mobile data connection to 
 ## Common Configuration Workflow
 
 1. Access the official Concox configuration method for your GT800 unit (SMS commands or the manufacturer's recommended software).
-2. Configure the device APN using the APN command, supplying {{apn}} and optional {{apnu}} and {{apnp}} placeholders for APN username and password.
+2. Configure the device APN using the APN command, supplying [apn] and optional [apnu] and [apnp] placeholders for APN username and password.
 3. Enter the Plaspy server as either d.plaspy.com or 54.85.159.138 and set the port to 8888.
 4. Choose the transport type (UDP or TCP) if the device requires an explicit selection.
 5. Enable GPRS mode and set the reporting timer appropriate for your monitoring needs.
@@ -88,10 +88,10 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace placeholders with your operator values. {{apn}} is required, while {{apnu}} and {{apnp}} are optional and represent the APN username and APN password:
+- Set the operator APN. Replace placeholders with your operator values. [apn] is required, while [apnu] and [apnp] are optional and represent the APN username and APN password:
 
 ```
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to use the Plaspy domain and port (example using domain and UDP/TCP selection field):
@@ -131,9 +131,9 @@ GPRSSET#
 ```
 
 Notes on placeholders:
-- {{apn}} = your mobile operator APN value.
-- {{apnu}} = APN username if required by the operator.
-- {{apnp}} = APN password if required by the operator.
+- [apn] = your mobile operator APN value.
+- [apnu] = APN username if required by the operator.
+- [apnp] = APN password if required by the operator.
 
 Send these commands as SMS messages to the GT800 in the order shown when performing initial setup. Use the factory reset command only when appropriate.
 

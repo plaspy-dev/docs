@@ -98,10 +98,10 @@ setprotocol tcp
 
 - Set APN placeholders if required by your SIM
 ```text
-setapn {{apn}} {{apnu}} {{apnp}}
+setapn [apn] [apnu] [apnp]
 ```
 
-Note: The commands above are illustrative. The exact SMS or tool commands and exact parameter names differ by firmware. Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when using command templates and replace them with your SIM operator values.
+Note: The commands above are illustrative. The exact SMS or tool commands and exact parameter names differ by firmware. Preserve placeholders such as [apn], [apnu], and [apnp] when using command templates and replace them with your SIM operator values.
 
 ## Configuration Notes
 

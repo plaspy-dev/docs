@@ -79,13 +79,13 @@ Para configurar los parámetros básicos en su dispositivo Teltonika, ingrese el
 - Comando setparam de ejemplo para fijar APN y parámetros de servidor
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explicación de marcadores de posición y valores
-  - {{apn}} — reemplace con el APN de su operador móvil
-  - {{apnu}} — reemplace con el usuario del APN si el operador lo exige; deje vacío si no aplica
-  - {{apnp}} — reemplace con la contraseña del APN si el operador la exige; deje vacío si no aplica
+  - [apn] — reemplace con el APN de su operador móvil
+  - [apnu] — reemplace con el usuario del APN si el operador lo exige; deje vacío si no aplica
+  - [apnp] — reemplace con la contraseña del APN si el operador la exige; deje vacío si no aplica
   - 2004 establece el dominio del servidor a d.plaspy.com
   - 2005 establece el puerto del servidor en 8888
   - 2006 es un parámetro del dispositivo incluido en el ejemplo; confirme su significado exacto para su firmware mediante la documentación de Teltonika antes de cambiarlo
@@ -96,7 +96,7 @@ Si utiliza la herramienta de gestión de dispositivos (por ejemplo FOTA WEB) pue
 
 - Las revisiones de firmware y hardware pueden cambiar los IDs de parámetros y los formatos de comando; siempre confirme las correspondencias de parámetros con el manual del Teltonika FMB930 para su versión de firmware.
 - La selección TCP versus UDP se realiza en el dispositivo; Plaspy acepta ambos transportes en el puerto 8888 y detectará el protocolo automáticamente.
-- Mantenga los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} intactos en plantillas y reemplace con los valores específicos del operador durante el despliegue.
+- Mantenga los marcadores de posición [apn], [apnu] y [apnp] intactos en plantillas y reemplace con los valores específicos del operador durante el despliegue.
 - El comando provisto es un ejemplo público común; para flotas grandes use herramientas remotas de Teltonika como FOTA WEB para aprovisionamiento y actualizaciones masivas.
 - Después de aplicar la configuración, valide la visibilidad del dispositivo y la telemetría en Plaspy para confirmar la conexión exitosa.
 

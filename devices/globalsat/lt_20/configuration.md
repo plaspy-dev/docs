@@ -82,11 +82,11 @@ The LT-20 public configuration content includes SMS command templates. Preserve 
 - Setup command template
   - Purpose: configure APN, Plaspy server IP and port, and basic reporting flags
   - Replace {{imei}} with the device IMEI
-  - Replace {{apn}}, {{apnu}}, and {{apnp}} with your operator APN name, username, and password as required
+  - Replace [apn], [apnu], and [apnp] with your operator APN name, username, and password as required
   - Compute {{checksum}} as described below and insert it in uppercase hex form
 
 ```text
-GSS,{{imei}},3,0,D1={{apn}},D2={{apnu}},D3={{apnp}},E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
 ```
 
 - Reboot command template
@@ -107,9 +107,9 @@ Checksum calculation
 
 Placeholders explained
 - {{imei}} device IMEI number to identify the specific tracker
-- {{apn}} operator APN name required for cellular data
-- {{apnu}} APN username if applicable
-- {{apnp}} APN password if applicable
+- [apn] operator APN name required for cellular data
+- [apnu] APN username if applicable
+- [apnp] APN password if applicable
 - {{checksum}} and {{checksumreeboot}} computed as described above
 
 ## Configuration Notes

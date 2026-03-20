@@ -80,7 +80,7 @@ If you have a device command reference from the manufacturer, apply the public P
 - Port: 8888
 - Transport: UDP or TCP (as required)
 
-Preserve any placeholders in manufacturer examples (for example an APN placeholder such as {{apn}}) and replace them with your SIM provider details when instructed by GOTOP documentation.
+Preserve any placeholders in manufacturer examples (for example an APN placeholder such as [apn]) and replace them with your SIM provider details when instructed by GOTOP documentation.
 
 ## Configuration Notes
 

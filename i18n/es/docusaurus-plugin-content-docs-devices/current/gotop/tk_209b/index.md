@@ -1,6 +1,7 @@
 ---
 slug: /gotop/tk_209b
 id: tk_209b
+sidebar_key: gototk_209b_index_tk_209b
 sidebar_label: TK-209B
 title: GOTOP - TK-209B
 sidebar_class_name: menu_item_tracker

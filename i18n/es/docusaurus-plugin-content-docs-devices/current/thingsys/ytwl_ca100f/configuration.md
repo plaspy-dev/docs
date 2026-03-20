@@ -92,15 +92,15 @@ Explicación: configure la cadena de zona horaria al desfase deseado. El ejemplo
 
 - Configurar el APN del operador
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-Explicación: reemplace {{apn}} por el nombre del APN de su operador móvil.
+Explicación: reemplace [apn] por el nombre del APN de su operador móvil.
 
 - Establecer usuario y contraseña del APN
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
-Explicación: reemplace {{apnu}} y {{apnp}} por el usuario y la contraseña del APN si son requeridos. Si el operador no requiere usuario o contraseña, algunos firmwares permiten dejarlos en blanco.
+Explicación: reemplace [apnu] y [apnp] por el usuario y la contraseña del APN si son requeridos. Si el operador no requiere usuario o contraseña, algunos firmwares permiten dejarlos en blanco.
 
 - Configurar la IP y el puerto GPRS al servidor Plaspy
 ```text

@@ -83,16 +83,16 @@ Nota: El comando de restablecimiento de fábrica puede usarse durante la configu
 
 - Establecer el servidor GPRS a Plaspy usando la IP del servidor y el puerto con marcador de APN
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}}
+0000,A21,2,54.85.159.138,8888,[apn]
 ```
-- Si su APN requiere usuario y contraseña incluya los marcadores opcionales {{apnu}} y {{apnp}} después del APN
+- Si su APN requiere usuario y contraseña incluya los marcadores opcionales [apnu] y [apnp] después del APN
 ```text
-0000,A21,2,54.85.159.138,8888,{{apn}},{{apnu}},{{apnp}}
+0000,A21,2,54.85.159.138,8888,[apn],[apnu],[apnp]
 ```
 Explicación de los marcadores de posición
-- {{apn}} es el APN de datos móviles para la tarjeta SIM
-- {{apnu}} es el nombre de usuario del APN si lo requiere su operador móvil
-- {{apnp}} es la contraseña del APN si lo requiere su operador móvil
+- [apn] es el APN de datos móviles para la tarjeta SIM
+- [apnu] es el nombre de usuario del APN si lo requiere su operador móvil
+- [apnp] es la contraseña del APN si lo requiere su operador móvil
 
 - Establecer la zona horaria a UTC 0
 ```text

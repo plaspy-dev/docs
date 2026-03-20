@@ -82,12 +82,12 @@ El HI-604X admite configuración por SMS. Los ejemplos públicos que siguen mues
 - Establecer el APN del operador
   - Envíe el siguiente SMS reemplazando los marcadores de APN según corresponda:
 ```sms
-#0000,200,{{apn}},{{apnu}},{{apnp}}
+#0000,200,[apn],[apnu],[apnp]
 ```
   - Explicación de los marcadores:
-    - {{apn}} = nombre del APN del operador (para datos)
-    - {{apnu}} = nombre de usuario del APN si el operador lo requiere (dejar vacío si no aplica)
-    - {{apnp}} = contraseña del APN si el operador lo requiere (dejar vacío si no aplica)
+    - [apn] = nombre del APN del operador (para datos)
+    - [apnu] = nombre de usuario del APN si el operador lo requiere (dejar vacío si no aplica)
+    - [apnp] = contraseña del APN si el operador lo requiere (dejar vacío si no aplica)
 
 - Configurar el servidor GPRS hacia Plaspy
   - Este comando apunta el rastreador a Plaspy usando la IP pública y el puerto:
@@ -109,7 +109,7 @@ Envíe cada comando como un SMS independiente desde un número autorizado o medi
 - El firmware del fabricante y la sintaxis exacta de los comandos SMS pueden variar por lote de producción y versión de firmware; revise siempre el manual del HI-604X o las notas de la versión cuando estén disponibles.
 - El HI-604X admite métodos de configuración por SMS y por software; el SMS suele ser una alternativa cuando no hay USB o aprovisionamiento remoto.
 - Elija UDP para menor sobrecarga o TCP para una sesión orientada a conexión si el dispositivo y la red lo requieren; Plaspy acepta ambos y detecta el protocolo automáticamente.
-- Reemplace los marcadores de APN ({{apn}}, {{apnu}}, {{apnp}}) con las credenciales de su operador móvil; algunos proveedores no requieren usuario ni contraseña.
+- Reemplace los marcadores de APN ([apn], [apnu], [apnp]) con las credenciales de su operador móvil; algunos proveedores no requieren usuario ni contraseña.
 - Si el rastreador tiene una contraseña por defecto, cámbiela si el fabricante recomienda hacerlo por seguridad después de la configuración inicial.
 
 ## Por qué usar Plaspy con esta configuración

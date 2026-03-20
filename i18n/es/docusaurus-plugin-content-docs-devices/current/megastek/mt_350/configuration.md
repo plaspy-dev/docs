@@ -78,8 +78,8 @@ El MT-350 forma parte de un RTLS de interior que usa estaciones base UWB para de
 Los siguientes comandos SMS se extraen del contenido público de configuración para modelos que usan setup vía SMS. Los comandos de muestra asumen que la contraseña del dispositivo es 000000, que es el valor de fábrica en el ejemplo publicado. Reemplace 000000 por la contraseña de su dispositivo si la ha cambiado.
 
 Notas:
-- Reemplace <15-digit-IMEI> por el IMEI del dispositivo (últimos 15 dígitos).
-- {{apn}} es un marcador para el APN de su operador celular. {{apnu}} y {{apnp}} son el usuario y la contraseña opcionales del APN si su operador los requiere.
+- Reemplace \<15-digit-IMEI> por el IMEI del dispositivo (últimos 15 dígitos).
+- [apn] es un marcador para el APN de su operador celular. [apnu] y [apnp] son el usuario y la contraseña opcionales del APN si su operador los requiere.
 - El comando de servidor GPRS mostrado usa la IP de Plaspy. Si el firmware de su dispositivo acepta nombres de host, podría sustituir por d.plaspy.com.
 
 1. Establecer el ID del dispositivo (use el IMEI de 15 dígitos)
@@ -89,11 +89,11 @@ M000000,22,<15-digit-IMEI>
 
 2. Establecer el APN del operador (APN con usuario y contraseña opcionales)
 ```text
-M000000,23,{{apn}}
+M000000,23,[apn]
 ```
 O con usuario y contraseña del APN
 ```text
-M000000,23,{{apn}},{{apnu}},{{apnp}}
+M000000,23,[apn],[apnu],[apnp]
 ```
 
 3. Establecer el intervalo de actualización a 60 segundos

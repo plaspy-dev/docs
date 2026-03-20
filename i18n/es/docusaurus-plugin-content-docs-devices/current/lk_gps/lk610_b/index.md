@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk610_b
 id: lk610_b
+sidebar_key: lk_gplk610_b_index_lk610_b
 sidebar_label: LK610-B
 title: LK-GPS - LK610-B
 sidebar_class_name: menu_item_tracker

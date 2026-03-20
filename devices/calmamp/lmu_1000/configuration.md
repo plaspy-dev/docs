@@ -80,17 +80,17 @@ The following example commands are provided in the public model configuration co
 
 - Set the operator APN
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Set the APN operator username (if required)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Set the APN operator password (if required)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to the Plaspy server IP
@@ -114,9 +114,9 @@ The following example commands are provided in the public model configuration co
 ```
 
 Notes on placeholders:
-- {{apn}} is the operator APN string required by the mobile provider.
-- {{apnu}} is the APN username when the provider requires authentication.
-- {{apnp}} is the APN password when the provider requires authentication.
+- [apn] is the operator APN string required by the mobile provider.
+- [apnu] is the APN username when the provider requires authentication.
+- [apnp] is the APN password when the provider requires authentication.
 
 Follow the order above when order matters and verify responses from the device after each step. The device may respond with its MID or status messages; the MID is typically returned by the !R0 command.
 

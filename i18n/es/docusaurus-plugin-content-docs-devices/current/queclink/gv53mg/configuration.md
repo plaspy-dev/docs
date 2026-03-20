@@ -48,7 +48,7 @@ Preparar el GV53MG para Plaspy consiste, principalmente, en apuntar el dispositi
 - Dispositivo encendido y accesible por SMS o mediante la herramienta de configuración del fabricante
 - SIM activa con datos habilitados y los valores APN correctos para el operador móvil objetivo
 - Contraseña del dispositivo o credenciales de acceso cuando se requieran para la provisión por SMS o la herramienta del fabricante
-- Conocimiento de los valores APN para reemplazar los marcadores {{apn}}, {{apnu}} y {{apnp}}
+- Conocimiento de los valores APN para reemplazar los marcadores [apn], [apnu] y [apnp]
 - Una forma de recibir los reportes del dispositivo en Plaspy para validar el registro y la entrega de telemetría
 - Acceso a la referencia oficial de configuración de QuecLink o a la documentación del instalador para el GV53MG
 
@@ -68,7 +68,7 @@ El GV53MG se configura para enviar telemetría en vivo y en búfer a Plaspy envi
 2. Proporcione o confirme la contraseña del dispositivo para los comandos SMS si se requiere — la contraseña por defecto en ejemplos públicos es queclink
 3. Ingrese el servidor de Plaspy como d.plaspy.com o la IP alternativa 54.85.159.138 en la configuración de servidor del dispositivo
 4. Establezca el puerto en 8888 y seleccione UDP o TCP si el dispositivo solicita elegir el transporte
-5. Configure el APN y las credenciales relacionadas usando los marcadores {{apn}}, {{apnu}} y {{apnp}} según corresponda para su SIM
+5. Configure el APN y las credenciales relacionadas usando los marcadores [apn], [apnu] y [apnp] según corresponda para su SIM
 6. Aplique o guarde la configuración y reinicie el dispositivo si el tracker lo requiere
 7. Valide que el dispositivo reporte a Plaspy y que los mensajes de ubicación y eventos aparezcan en la plataforma
 
@@ -89,11 +89,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Establecer el APN del operador
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} es el nombre de punto de acceso del operador
-- {{apnu}} es el nombre de usuario del APN si lo requiere el proveedor de SIM
-- {{apnp}} es la contraseña del APN si lo requiere el proveedor de SIM
+- [apn] es el nombre de punto de acceso del operador
+- [apnu] es el nombre de usuario del APN si lo requiere el proveedor de SIM
+- [apnp] es la contraseña del APN si lo requiere el proveedor de SIM
 
 4. Configurar el servidor GPRS a Plaspy usando dominio e IP con puerto
 ```text
@@ -122,7 +122,7 @@ Notas sobre los comandos
 - Las revisiones de firmware y hardware pueden cambiar los formatos de comando aceptados o los parámetros disponibles, por lo que confirme los comandos con la documentación de firmware vigente
 - Elija UDP o TCP según las necesidades de su despliegue y las consideraciones de fiabilidad de la red. Plaspy detectará automáticamente el protocolo usado
 - Plaspy requiere el puerto 8888 para todos los dispositivos, así que use ese puerto al configurar el GV53MG
-- Mantenga los marcadores {{apn}}, {{apnu}} y {{apnp}} para los valores específicos del operador y no comparta credenciales sensibles en canales públicos
+- Mantenga los marcadores [apn], [apnu] y [apnp] para los valores específicos del operador y no comparta credenciales sensibles en canales públicos
 
 ## Por qué usar Plaspy con esta configuración
 

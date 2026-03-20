@@ -49,7 +49,7 @@ Tenga en cuenta que Plaspy usa el mismo puerto 8888 para todos los dispositivos 
 - SIM activa con plan de datos y ajustes APN correctos para el operador móvil instalado
 - Alimentación al GSM 5108 y acceso a su interfaz de configuración o herramienta del proveedor
 - Acceso a la consola del dispositivo o al canal de comandos SMS si el equipo soporta configuración vía AT o SMS
-- Conocimiento del APN, y opcionalmente del usuario y contraseña del APN para completar los marcadores {{apn}}, {{apnu}} y {{apnp}}
+- Conocimiento del APN, y opcionalmente del usuario y contraseña del APN para completar los marcadores [apn], [apnu] y [apnp]
 - Un plan de reportes y de intervalos de reporte que se ajuste a sus necesidades de monitoreo
 - Acceso a la documentación oficial de Enfora o canales de soporte para variaciones específicas de firmware
 
@@ -90,13 +90,13 @@ AT&W
 
 - Set PDP context with operator APN
 ```text
-AT+CGDCONT=1,"IP","{{apn}}"
+AT+CGDCONT=1,"IP","[apn]"
 ```
 If the APN requires username or password, the following placeholder command may be used where supported:
 ```text
-AT%CGPCO=1,"{{apnu}},{{apnp}}",0
+AT%CGPCO=1,"[apnu],[apnp]",0
 ```
-(Explanation: {{apn}} is the APN string for your mobile operator. {{apnu}} and {{apnp}} are optional APN username and password.)
+(Explanation: [apn] is the APN string for your mobile operator. [apnu] and [apnp] are optional APN username and password.)
 
 Plaspy server and transport settings
 - Register a friend or target server IP for some firmware families
@@ -187,7 +187,7 @@ Note: The AT$RESET command is typically used to restart the device so saved sett
 ## Notas de configuración
 
 - El soporte de comandos AT y la sintaxis exacta de parámetros pueden variar según la revisión del firmware; confirme los comandos correctos para el firmware de su dispositivo.
-- Reemplace marcadores como {{apn}}, {{apnu}} y {{apnp}} con los valores de su operador móvil según sea necesario. Si no se requiere usuario o contraseña, omita o deje los marcadores en blanco según la sintaxis del equipo.
+- Reemplace marcadores como [apn], [apnu] y [apnp] con los valores de su operador móvil según sea necesario. Si no se requiere usuario o contraseña, omita o deje los marcadores en blanco según la sintaxis del equipo.
 - Elija UDP o TCP en función de la confiabilidad de la red y el soporte del dispositivo; Plaspy acepta ambos en el puerto 8888 y detectará el protocolo automáticamente.
 - Los comandos de ejemplo muestran patrones comunes de reglas de evento. Ajuste los IDs de evento y parámetros para que coincidan con su instalación y política de reporte.
 - Pueden estar disponibles herramientas del fabricante, comandos SMS o interfaces de configuración serie; utilice el método de configuración oficial de Enfora que corresponda a su instalación.

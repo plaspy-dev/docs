@@ -77,7 +77,7 @@ Cuando se configura para Plaspy, el LK970 envía datos de posición y estado al 
 
 Los comandos exactos y la sintaxis para configurar servidor, transporte y puerto del LK970 dependen del firmware de LK-GPS y del conjunto de comandos o herramienta de configuración proporcionada por el fabricante. Algunas instalaciones usan comandos SMS y otras una app de configuración o una utilidad de escritorio. Consulte la documentación de LK-GPS o la herramienta del proveedor para el formato preciso de comandos de su equipo y firmware.
 
-Si su firmware del LK970 admite configuración por SMS, por lo general deberá enviar cadenas SMS proporcionadas por el fabricante para establecer la dirección del servidor, el puerto y el transporte. Conserve cualquier marcador de posición que indique la documentación del fabricante, por ejemplo {{apn}} u otros marcadores similares al configurar parámetros de red.
+Si su firmware del LK970 admite configuración por SMS, por lo general deberá enviar cadenas SMS proporcionadas por el fabricante para establecer la dirección del servidor, el puerto y el transporte. Conserve cualquier marcador de posición que indique la documentación del fabricante, por ejemplo [apn] u otros marcadores similares al configurar parámetros de red.
 
 ## Notas de configuración
 

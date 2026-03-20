@@ -78,21 +78,21 @@ The AT242 can be configured by sending SMS commands. The following public comman
 
 - Set the operator APN
 ```text
-$APAD,{{apn}}
+$APAD,[apn]
 ```
-Replace {{apn}} with your carrier APN name.
+Replace [apn] with your carrier APN name.
 
 - (Optional) Set the APN username
 ```text
-$APUN,{{apnu}}
+$APUN,[apnu]
 ```
-Replace {{apnu}} with the APN username if your carrier requires one.
+Replace [apnu] with the APN username if your carrier requires one.
 
 - (Optional) Set the APN password
 ```text
-$APPW,{{apnp}}
+$APPW,[apnp]
 ```
-Replace {{apnp}} with the APN password if your carrier requires one.
+Replace [apnp] with the APN password if your carrier requires one.
 
 - Set the GPRS server (Plaspy server IP)
 ```text

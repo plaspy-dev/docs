@@ -73,7 +73,7 @@ The GL53MG is configured to report position and event messages to the shared Pla
 
 ## Example Configuration Commands
 
-The QuecLink GL53MG can be configured by sending SMS commands to the device. The following public SMS commands are an example sequence used to prepare the device for Plaspy. These commands assume the device password is the default value queclink. Preserve placeholders like {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN, APN username, and APN password when sending.
+The QuecLink GL53MG can be configured by sending SMS commands to the device. The following public SMS commands are an example sequence used to prepare the device for Plaspy. These commands assume the device password is the default value queclink. Preserve placeholders like [apn], [apnu], and [apnp] and replace them with your operator APN, APN username, and APN password when sending.
 
 1. Optional initial factory restore command to reset device settings to factory defaults
 ```
@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the operator APN and credentials
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} is the mobile data APN for your SIM operator
-- {{apnu}} is the APN username if required
-- {{apnp}} is the APN password if required
+- [apn] is the mobile data APN for your SIM operator
+- [apnu] is the APN username if required
+- [apnp] is the APN password if required
 
 4. Set the GPRS server to Plaspy using domain and IP and specify port 8888
 ```
@@ -117,7 +117,7 @@ Follow QuecLink guidance for the exact SMS sending format supported by your firm
 - SMS based configuration is supported in the public examples above; alternative configuration methods include the official QuecLink tools and firmware utilities.
 - Firmware version and hardware revision may change supported command formats or parameter order. Verify the command syntax against the device firmware you have deployed.
 - Choose UDP or TCP according to your deployment needs; both transports are supported for Plaspy on port 8888.
-- Preserve placeholders such as {{apn}}, {{apnu}}, and {{apnp}} when preparing commands and replace them with operator specific values.
+- Preserve placeholders such as [apn], [apnu], and [apnp] when preparing commands and replace them with operator specific values.
 - The sample commands use the device password queclink as provided in the public configuration example. Confirm the correct password for your device before sending configuration SMS.
 
 ## Why Use Plaspy with This Configuration

@@ -74,7 +74,7 @@ When configured for Plaspy the GV620MG opens a data session to the Plaspy server
 
 ## Example Configuration Commands
 
-The GV620MG can be configured by sending SMS commands. The public example commands below use the device password queclink which is the default shown in the public guidance. Preserve placeholders such as {{apn}}, {{apnu}} and {{apnp}} and replace them with your operator APN, APN username, and APN password as required.
+The GV620MG can be configured by sending SMS commands. The public example commands below use the device password queclink which is the default shown in the public guidance. Preserve placeholders such as [apn], [apnu] and [apnp] and replace them with your operator APN, APN username, and APN password as required.
 
 - Optional initial factory restore command
 ```text
@@ -88,9 +88,9 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 - Set the operator APN and optional APN credentials
 ```text
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-Explanation: replace {{apn}} with your SIM APN. If your APN requires a username or password, replace {{apnu}} and {{apnp}} accordingly. Leave username or password empty if not required.
+Explanation: replace [apn] with your SIM APN. If your APN requires a username or password, replace [apnu] and [apnp] accordingly. Leave username or password empty if not required.
 
 - Set the GPRS server to Plaspy using the domain and port and include the server IP as provided in public guidance
 ```text

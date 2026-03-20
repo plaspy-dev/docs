@@ -86,7 +86,7 @@ If you have manufacturer-provided command examples or SMS configuration template
 
 - Firmware differences can change available menu items, field names and the exact location where server and port are entered; always verify the firmware version before following a workflow.
 - Choose UDP or TCP according to the manufacturer tool requirements; Plaspy accepts either transport on port 8888 and will detect the protocol automatically.
-- When using APN based setup, preserve placeholders provided by vendor tools such as {{apn}}, {{apnu}} or {{apnp}} and replace them with your SIM operator values.
+- When using APN based setup, preserve placeholders provided by vendor tools such as [apn], [apnu] or [apnp] and replace them with your SIM operator values.
 - If you use USB or BLE configuration, ensure device drivers and mobile app versions match the manufacturer recommendations to avoid incomplete writes.
 - Confirm that the SIM plan supports GPRS data and that network coverage is sufficient for real-time reporting and log uploads.
 

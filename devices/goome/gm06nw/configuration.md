@@ -83,13 +83,13 @@ The Goome GM06NW accepts SMS commands for configuration. The following commands 
 FACTORY#
 ```
 
-2. Set the operator APN. Replace {{apn}} with your carrier APN. If your operator requires APN username and password include {{apnu}} and {{apnp}} as shown. The username and password fields are optional depending on the operator.
+2. Set the operator APN. Replace [apn] with your carrier APN. If your operator requires APN username and password include [apnu] and [apnp] as shown. The username and password fields are optional depending on the operator.
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 If no username or password is required, use:
 ```text
-APN,{{apn}}#
+APN,[apn]#
 ```
 
 3. Set the GPRS server to the Plaspy IP address and port shown in public guidance. This example uses the Plaspy server IP and port exactly as published.

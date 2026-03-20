@@ -80,15 +80,15 @@ The following SMS commands are taken from public V-SUN TLT-1F configuration exam
 *RESET#0000##
 ```
 
-2. Set the operator APN (replace {{apn}}, {{apnu}}, and {{apnp}} with your carrier values)
-- If your APN has no username or password, omit {{apnu}} and {{apnp}} fields where your vendor supports that syntax.
+2. Set the operator APN (replace [apn], [apnu], and [apnp] with your carrier values)
+- If your APN has no username or password, omit [apnu] and [apnp] fields where your vendor supports that syntax.
 ```text
-#803#0000#{{apn}}#{{apnu}}#{{apnp}}##
+#803#0000#[apn]#[apnu]#[apnp]##
 ```
 - Explanation of placeholders:
-  - {{apn}} = carrier APN name
-  - {{apnu}} = APN username (leave blank or omit if not required)
-  - {{apnp}} = APN password (leave blank or omit if not required)
+  - [apn] = carrier APN name
+  - [apnu] = APN username (leave blank or omit if not required)
+  - [apnp] = APN password (leave blank or omit if not required)
 
 3. Set the GPRS server to Plaspy using the Plaspy server IP and port 8888
 ```text

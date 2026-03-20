@@ -1,6 +1,7 @@
 ---
 slug: /visiontek/87vtu
 id: 87vtu
+sidebar_key: visionte87vtu_index_87vtu
 sidebar_label: 87VTU
 title: VisionTek - 87VTU
 sidebar_class_name: menu_item_tracker

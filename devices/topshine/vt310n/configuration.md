@@ -83,20 +83,20 @@ W000000,990,099###
 ```text
 W000000,010,<14-digit-device-id>
 ```
-Replace <14-digit-device-id> with the first 14 digits of the device IMEI. Plaspy uses the full 15 digit IMEI as the device identifier in the platform, so confirm IMEI registration in Plaspy after configuring the 14 digit ID if required by your provisioning flow.
+Replace \<14-digit-device-id> with the first 14 digits of the device IMEI. Plaspy uses the full 15 digit IMEI as the device identifier in the platform, so confirm IMEI registration in Plaspy after configuring the 14 digit ID if required by your provisioning flow.
 
 - Set the operator APN (basic and with optional credentials)
 ```text
-W000000,011,{{apn}}
+W000000,011,[apn]
 ```
 or if the APN requires username and password:
 ```text
-W000000,011,{{apn}},{{apnu}},{{apnp}}
+W000000,011,[apn],[apnu],[apnp]
 ```
 Explanation of placeholders:
-- {{apn}} is the mobile network access point name for the SIM.
-- {{apnu}} is the APN username if required.
-- {{apnp}} is the APN password if required.
+- [apn] is the mobile network access point name for the SIM.
+- [apnu] is the APN username if required.
+- [apnp] is the APN password if required.
 
 - Set the GPRS server to Plaspy by IP and port
 ```text

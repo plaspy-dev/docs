@@ -76,19 +76,19 @@ Al configurar el dispositivo para Plaspy, el LMU-5530 se ajusta para enviar sus 
 
 El CalmAmp LMU-5530 puede configurarse por SMS usando comandos específicos. A continuación están los comandos SMS públicos y su propósito según la documentación del dispositivo. Envíe estos mensajes SMS al dispositivo en el orden mostrado al realizar una configuración manual por SMS.
 
-- Establecer el APN del operador (reemplace {{apn}} con el APN de su operador):
+- Establecer el APN del operador (reemplace [apn] con el APN de su operador):
 ```
-!RP,2306,0,{{apn}}
-```
-
-- Establecer el nombre de usuario del APN del operador si se requiere (reemplace {{apnu}} con el usuario APN):
-```
-!RP,2314,0,{{apnu}}
+!RP,2306,0,[apn]
 ```
 
-- Establecer la contraseña del APN del operador si se requiere (reemplace {{apnp}} con la contraseña APN):
+- Establecer el nombre de usuario del APN del operador si se requiere (reemplace [apnu] con el usuario APN):
 ```
-!RP,2315,0,{{apnp}}
+!RP,2314,0,[apnu]
+```
+
+- Establecer la contraseña del APN del operador si se requiere (reemplace [apnp] con la contraseña APN):
+```
+!RP,2315,0,[apnp]
 ```
 
 - Establecer el servidor GPRS a Plaspy por IP (se muestra la IP del servidor Plaspy):
@@ -112,7 +112,7 @@ El CalmAmp LMU-5530 puede configurarse por SMS usando comandos específicos. A c
 ```
 
 Notas sobre marcadores y identificadores:
-- El ID referenciado por el flujo SMS del LMU-5530 es el MID de 10 dígitos que responde el comando !R0 según la documentación del dispositivo. Reemplace los valores de marcador como {{apn}}, {{apnu}} y {{apnp}} con las credenciales de su operador al enviar los comandos.
+- El ID referenciado por el flujo SMS del LMU-5530 es el MID de 10 dígitos que responde el comando !R0 según la documentación del dispositivo. Reemplace los valores de marcador como [apn], [apnu] y [apnp] con las credenciales de su operador al enviar los comandos.
 
 ## Notas de configuración
 

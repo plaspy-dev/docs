@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/tc68l_e
 id: tc68l_e
+sidebar_key: meitractc68l_e_index_tc68l_e
 sidebar_label: TC68L/E
 title: Meitrack - TC68L/E
 sidebar_class_name: menu_item_tracker

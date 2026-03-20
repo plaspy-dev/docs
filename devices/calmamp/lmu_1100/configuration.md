@@ -73,21 +73,21 @@ The LMU-1100 is configured to send GPRS data to Plaspy's shared server endpoint 
 
 ## Example Configuration Commands
 
-The LMU-1100 can be configured using SMS commands. The following commands are presented in the order recommended by the manufacturer guidance. The device MID (10 digit ID) returned by the device may be required when sending SMS commands; the manufacturer documentation indicates the MID is returned by the !R0 command. Placeholders such as {{apn}}, {{apnu}}, and {{apnp}} should be replaced with the operator APN, APN username, and APN password respectively.
+The LMU-1100 can be configured using SMS commands. The following commands are presented in the order recommended by the manufacturer guidance. The device MID (10 digit ID) returned by the device may be required when sending SMS commands; the manufacturer documentation indicates the MID is returned by the !R0 command. Placeholders such as [apn], [apnu], and [apnp] should be replaced with the operator APN, APN username, and APN password respectively.
 
 - Set the operator APN
 ```text
-!RP,2306,0,{{apn}}
+!RP,2306,0,[apn]
 ```
 
 - Set the APN operator username (if required)
 ```text
-!RP,2314,0,{{apnu}}
+!RP,2314,0,[apnu]
 ```
 
 - Set the APN operator password (if required)
 ```text
-!RP,2315,0,{{apnp}}
+!RP,2315,0,[apnp]
 ```
 
 - Set the GPRS server to Plaspy server IP
@@ -111,9 +111,9 @@ The LMU-1100 can be configured using SMS commands. The following commands are pr
 ```
 
 Notes on placeholders:
-- {{apn}} — replace with your mobile operator APN name.
-- {{apnu}} — replace with the APN username if the operator requires one.
-- {{apnp}} — replace with the APN password if the operator requires one.
+- [apn] — replace with your mobile operator APN name.
+- [apnu] — replace with the APN username if the operator requires one.
+- [apnp] — replace with the APN password if the operator requires one.
 
 If your workflow uses the domain instead of the IP, enter d.plaspy.com where the device configuration supports a domain name. The example commands provided above use the publicly available server IP as shown in manufacturer guidance.
 

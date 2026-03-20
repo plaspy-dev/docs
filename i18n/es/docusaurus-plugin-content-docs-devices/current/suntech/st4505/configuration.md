@@ -76,10 +76,10 @@ El ST4505 envía fixes GNSS, telemetría OBD-II y eventos a través de redes cel
 
 El ST4505 soporta aprovisionamiento por SMS usando cadenas de comando. Los comandos públicos proporcionados por el fabricante que se muestran a continuación son plantillas típicas enviadas al dispositivo por SMS. El ID de dispositivo usado en estos comandos son los últimos 6 dígitos del IMEI después de eliminar el último dígito del IMEI (es decir, quite el último dígito del IMEI y, a continuación, tome los 6 dígitos finales). Ejemplo: si el IMEI es 123456789012345 entonces elimine el 5 final para obtener 12345678901234 y el ID de dispositivo es 901234.
 
-- Establecer el APN del operador y el servidor GPRS (reemplace DEVICEID con el ID calculado; configure los campos APN según su operador; ponga auth_flag a 1 si suministra {{apnu}} o {{apnp}}, de lo contrario póngalo a 0):
+- Establecer el APN del operador y el servidor GPRS (reemplace DEVICEID con el ID calculado; configure los campos APN según su operador; ponga auth_flag a 1 si suministra [apnu] o [apnp], de lo contrario póngalo a 0):
 
 ```
-SA200NTW;DEVICEID;02;[auth_flag];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;DEVICEID;02;[auth_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Ajustar el intervalo de reporte/actualización a 60 segundos (reemplace DEVICEID como se indicó arriba):
@@ -96,9 +96,9 @@ SA200CMD;DEVICEID;02;PresetA
 
 Notas sobre los marcadores:
 - DEVICEID — calcular a partir del IMEI quitando el último dígito del IMEI y tomando los seis dígitos finales (ver ejemplo arriba).
-- {{apn}} — la cadena APN de su operador móvil.
-- {{apnu}} — nombre de usuario del APN si el operador lo exige; mantenga el marcador si no se utiliza.
-- {{apnp}} — contraseña del APN si el operador lo exige; mantenga el marcador si no se utiliza.
+- [apn] — la cadena APN de su operador móvil.
+- [apnu] — nombre de usuario del APN si el operador lo exige; mantenga el marcador si no se utiliza.
+- [apnp] — contraseña del APN si el operador lo exige; mantenga el marcador si no se utiliza.
 - [auth_flag] — ponga 1 si provee usuario o contraseña del APN, de lo contrario 0.
 
 Envíe cada uno de los comandos SMS desde un número de teléfono autorizado por el dispositivo (siga la guía de aprovisionamiento de Suntech). Respete el orden de los comandos cuando sea pertinente; por lo general conviene aplicar el comando de red/APN antes o al mismo tiempo que la configuración de servidor/puerto para asegurar conectividad fiable.
@@ -108,7 +108,7 @@ Envíe cada uno de los comandos SMS desde un número de teléfono autorizado por
 - Las revisiones de firmware y hardware pueden cambiar el formato o comportamiento de los comandos; confirme siempre la sintaxis con la documentación Suntech más reciente.
 - El ST4505 soporta la configuración por SMS como se muestra, pero los proveedores también pueden ofrecer aprovisionamiento por USB o mediante software; utilice el método oficial provisto con su equipo.
 - Elija UDP o TCP según las necesidades de la instalación; Plaspy acepta ambos y detectará el protocolo, pero la elección de transporte puede afectar características de entrega.
-- Confirme los valores de APN, {{apnu}} y {{apnp}} con el operador de la SIM antes de aprovisionar; una configuración incorrecta del APN impide la sesión de datos.
+- Confirme los valores de APN, [apnu] y [apnp] con el operador de la SIM antes de aprovisionar; una configuración incorrecta del APN impide la sesión de datos.
 - Plaspy utiliza el puerto 8888 para todos los dispositivos y detecta automáticamente el protocolo del tracker, por lo que mantener ajustes consistentes de servidor/puerto es importante para visibilidad inmediata.
 
 ## Por qué usar Plaspy con esta configuración

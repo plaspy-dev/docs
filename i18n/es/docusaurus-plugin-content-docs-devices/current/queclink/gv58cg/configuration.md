@@ -73,7 +73,7 @@ Cuando se configura para Plaspy, el GV58CG utiliza su enlace celular para enviar
 
 ## Ejemplos de comandos de configuración
 
-El GV58CG puede configurarse mediante comandos SMS. Los siguientes comandos de ejemplo públicos se encuentran en la documentación del fabricante. La contraseña del dispositivo usada en estos ejemplos es la contraseña por defecto queclink. Los comandos se muestran en el orden sugerido para una configuración inicial. Los marcadores de posición {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por el APN del operador, el usuario APN y la contraseña APN según sea necesario.
+El GV58CG puede configurarse mediante comandos SMS. Los siguientes comandos de ejemplo públicos se encuentran en la documentación del fabricante. La contraseña del dispositivo usada en estos ejemplos es la contraseña por defecto queclink. Los comandos se muestran en el orden sugerido para una configuración inicial. Los marcadores de posición [apn], [apnu] y [apnp] deben reemplazarse por el APN del operador, el usuario APN y la contraseña APN según sea necesario.
 
 1. Optional initial factory restore (use only when required)
 ```
@@ -87,11 +87,11 @@ AT+GTTMA=queclink,+,0,0,0,,,,,,FFFF$
 
 3. Set the mobile operator APN and credentials
 ```
-AT+GTBSI=queclink,{{apn}},{{apnu}},{{apnp}},,,,,FFFF$
+AT+GTBSI=queclink,[apn],[apnu],[apnp],,,,,FFFF$
 ```
-- {{apn}} is the operator APN string.  
-- {{apnu}} is the APN username if required.  
-- {{apnp}} is the APN password if required.
+- [apn] is the operator APN string.  
+- [apnu] is the APN username if required.  
+- [apnp] is the APN password if required.
 
 4. Set the GPRS reporting server to Plaspy using both domain and IP examples and port 8888
 ```

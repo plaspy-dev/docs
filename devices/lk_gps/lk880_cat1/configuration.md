@@ -79,7 +79,7 @@ When configured for Plaspy, the LK880 Cat1 opens a connection to the shared Plas
 
 The LK880 Cat1 manufacturer may provide SMS, in app, or web based configuration tools that accept server address and port inputs. Exact command formats vary by vendor firmware and the companion tool you use. Because manufacturer tools differ, follow the vendor supplied instructions for entering the server domain or IP and port 8888, and for selecting UDP or TCP where required.
 
-If your vendor provides text based commands or SMS configuration templates, enter the Plaspy server values exactly as shown in the Plaspy Server Settings section. Keep placeholders intact if the vendor uses them, for example {{apn}} for an APN string where required by your SIM profile.
+If your vendor provides text based commands or SMS configuration templates, enter the Plaspy server values exactly as shown in the Plaspy Server Settings section. Keep placeholders intact if the vendor uses them, for example [apn] for an APN string where required by your SIM profile.
 
 ## Configuration Notes
 

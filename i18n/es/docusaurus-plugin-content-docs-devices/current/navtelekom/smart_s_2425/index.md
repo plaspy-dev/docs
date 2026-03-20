@@ -1,6 +1,7 @@
 ---
 slug: /navtelekom/smart_s_2425
 id: smart_s_2425
+sidebar_key: navtelekosmart_s_2425_index_smart_s_2425
 sidebar_label: SMART S-2425
 title: Navtelekom - SMART S-2425
 sidebar_class_name: menu_item_tracker

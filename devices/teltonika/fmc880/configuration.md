@@ -79,13 +79,13 @@ The FMC880 public setup can be performed using a Teltonika style setparam comman
 - Example Teltonika setparam command
 
 ```text
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 - Explanation of placeholders
-  - {{apn}} is the SIM card APN provided by your mobile operator.
-  - {{apnu}} is the APN username if required by your operator; leave blank or omit if not needed.
-  - {{apnp}} is the APN password if required; leave blank or omit if not needed.
+  - [apn] is the SIM card APN provided by your mobile operator.
+  - [apnu] is the APN username if required by your operator; leave blank or omit if not needed.
+  - [apnp] is the APN password if required; leave blank or omit if not needed.
   - The fields 2004 and 2005 are set to the Plaspy server domain and port d.plaspy.com and 8888 respectively.
   - The parameter 2006 is included in the public command; consult Teltonika documentation for the exact mapping for transport or behavior on your firmware.
 

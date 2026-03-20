@@ -80,19 +80,19 @@ Si configura por SMS, siga cuidadosamente la sintaxis de los comandos del fabric
 Los siguientes comandos se basan en los ejemplos públicos de configuración SMS de Suntech. El ID del equipo son los últimos seis dígitos del IMEI excluyendo el dígito de control final. Ejemplo: si el IMEI aparece como 12345678 901234 5 entonces el ID del equipo es 901234.
 
 1) Establecer el APN del operador y el servidor GPRS a Plaspy (los marcadores de APN se mantienen)
-- Nota: el valor de la bandera antes de los campos APN es 1 cuando se proporciona usuario o contraseña de APN, de lo contrario 0. Reemplace [DEVICE_ID] por el ID de seis dígitos derivado del IMEI y complete {{apn}}, {{apnu}}, {{apnp}} según lo requiera su operador.
+- Nota: el valor de la bandera antes de los campos APN es 1 cuando se proporciona usuario o contraseña de APN, de lo contrario 0. Reemplace [DEVICE_ID] por el ID de seis dígitos derivado del IMEI y complete [apn], [apnu], [apnp] según lo requiera su operador.
 
 SMS command:
 ```text
-SA200NTW;[DEVICE_ID];02;[APN_AUTH_FLAG];{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;[DEVICE_ID];02;[APN_AUTH_FLAG];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Explicación del ejemplo:
 - [DEVICE_ID] = últimos 6 dígitos del IMEI excluyendo el dígito de control final
-- [APN_AUTH_FLAG] = 1 si proporciona {{apnu}} o {{apnp}}, de lo contrario 0
-- {{apn}} = marcador del APN del operador
-- {{apnu}} = marcador del nombre de usuario del APN
-- {{apnp}} = marcador de la contraseña del APN
+- [APN_AUTH_FLAG] = 1 si proporciona [apnu] o [apnp], de lo contrario 0
+- [apn] = marcador del APN del operador
+- [apnu] = marcador del nombre de usuario del APN
+- [apnp] = marcador de la contraseña del APN
 
 2) Establecer el intervalo de reporte a 60 segundos
 ```text

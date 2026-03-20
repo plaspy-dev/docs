@@ -79,16 +79,16 @@ Los siguientes comandos SMS de ejemplo se toman de guías públicas de configura
 - Establecer el APN del operador
   - Forma solo APN
   ```
-  *APN#000000#{{apn}}#
+  *APN#000000#[apn]#
   ```
   - Forma APN con usuario y contraseña
   ```
-  *APN#000000#{{apn}}#{{apnu}}#{{apnp}}#
+  *APN#000000#[apn]#[apnu]#[apnp]#
   ```
   Explicación de los marcadores
-  - {{apn}} es el APN del operador móvil requerido para datos GPRS
-  - {{apnu}} es el usuario del APN opcional si su operador lo requiere
-  - {{apnp}} es la contraseña del APN opcional si su operador lo requiere
+  - [apn] es el APN del operador móvil requerido para datos GPRS
+  - [apnu] es el usuario del APN opcional si su operador lo requiere
+  - [apnp] es la contraseña del APN opcional si su operador lo requiere
 
 - Establecer el servidor GPRS a Plaspy por IP y puerto
 ```

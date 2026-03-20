@@ -77,17 +77,17 @@ El ST4345 envía mensajes de posición GNSS y eventos al endpoint y puerto del s
 
 El modelo ST4345 incluye plantillas de comandos SMS para la configuración de red y reporte. El ID de dispositivo en estas plantillas son los seis dígitos inmediatamente antes del último dígito final del IMEI (los últimos 6 dígitos del IMEI excluyendo el dígito verificador final). Para un IMEI de 15 dígitos, son los 6 dígitos en las posiciones 9 a 14. Ejemplo: IMEI 123456789012345 -> device ID 901234.
 
-1) Configurar APN del operador y servidor GPRS (reemplazar {{device_id}}, {{apn}}, {{apnu}} y {{apnp}} según corresponda). Establezca la bandera de autenticación a 1 si suministra {{apnu}} o {{apnp}}, de lo contrario use 0.
+1) Configurar APN del operador y servidor GPRS (reemplazar {{device_id}}, [apn], [apnu] y [apnp] según corresponda). Establezca la bandera de autenticación a 1 si suministra [apnu] o [apnp], de lo contrario use 0.
 
 ```
-SA200NTW;{{device_id}};02;{auth_flag};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{auth_flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - {{device_id}} — ID de dispositivo de seis dígitos derivado del IMEI como se describió arriba.  
 - {auth_flag} — 1 si se proporciona usuario o contraseña del APN, de lo contrario 0.  
-- {{apn}} — nombre del APN del operador.  
-- {{apnu}} — usuario del APN si es necesario.  
-- {{apnp}} — contraseña del APN si es necesaria.
+- [apn] — nombre del APN del operador.  
+- [apnu] — usuario del APN si es necesario.  
+- [apnp] — contraseña del APN si es necesaria.
 
 2) Ajustar el intervalo de reporte a 60 segundos (en esta plantilla reporte, latido y movimiento están en 60):
 

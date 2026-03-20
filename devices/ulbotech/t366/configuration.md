@@ -83,7 +83,7 @@ The T366 manufacturer configuration commands and methods vary by firmware and ve
 - Sending the official SMS configuration strings when the device firmware supports SMS setup.
 - Configuring settings through a web or cloud portal supplied by your vendor.
 
-Refer to the Ulbotech configuration guide supplied with your device or ask your vendor for the exact SMS strings or USB configuration steps to set the server to d.plaspy.com (or 54.85.159.138) and port 8888. Preserve any placeholders your vendor provides, for example {{apn}} for carrier APN values, and replace them with your network details.
+Refer to the Ulbotech configuration guide supplied with your device or ask your vendor for the exact SMS strings or USB configuration steps to set the server to d.plaspy.com (or 54.85.159.138) and port 8888. Preserve any placeholders your vendor provides, for example [apn] for carrier APN values, and replace them with your network details.
 
 ## Configuration Notes
 

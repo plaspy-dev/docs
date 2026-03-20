@@ -83,12 +83,12 @@ El CT-24 admite configuración por SMS. Los siguientes comandos de ejemplo provi
 ```
 
 - Configurar el APN del operador. Reemplace los marcadores con los valores de su operador:
-  - {{apn}} es el nombre del APN
-  - {{apnu}} es el usuario del APN si lo requiere
-  - {{apnp}} es la contraseña del APN si lo requiere
+  - [apn] es el nombre del APN
+  - [apnu] es el usuario del APN si lo requiere
+  - [apnp] es la contraseña del APN si lo requiere
 
 ```
-#username,0000,3,{{apn}},{{apnu}},{{apnp}}*
+#username,0000,3,[apn],[apnu],[apnp]*
 ```
 
 - Establecer el servidor GPRS a Plaspy usando la IP pública del servidor y el puerto
@@ -112,7 +112,7 @@ El CT-24 admite configuración por SMS. Los siguientes comandos de ejemplo provi
 Notas sobre los comandos
 - Mantenga el orden de los comandos si el fabricante recomienda una secuencia específica.
 - Reemplace #username con el nombre de usuario del dispositivo o el prefijo de comando requerido por su firmware CT-24 si aplica.
-- Conserve los marcadores {{apn}}, {{apnu}} y {{apnp}} y sustituya por los valores proporcionados por su operador.
+- Conserve los marcadores [apn], [apnu] y [apnp] y sustituya por los valores proporcionados por su operador.
 - La entrada del servidor GPRS apunta el rastreador a Plaspy usando la IP y puerto 54.85.159.138:8888 que corresponde a d.plaspy.com.
 
 ## Observaciones de configuración

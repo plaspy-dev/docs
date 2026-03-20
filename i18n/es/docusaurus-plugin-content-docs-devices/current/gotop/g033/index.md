@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g033
 id: g033
+sidebar_key: gotog033_index_g033
 sidebar_label: G033
 title: GOTOP - G033
 sidebar_class_name: menu_item_tracker

@@ -85,12 +85,12 @@ GMT,E,0#
 ```
 3. Configurar el APN del operador móvil
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
-- {{apn}} es el nombre del APN del operador
-- {{apnu}} es el nombre de usuario del APN si su operador lo requiere
-- {{apnp}} es la contraseña del APN si su operador lo requiere
-- Si su operador no requiere usuario ni contraseña, envíe solo APN,{{apn}}#
+- [apn] es el nombre del APN del operador
+- [apnu] es el nombre de usuario del APN si su operador lo requiere
+- [apnp] es la contraseña del APN si su operador lo requiere
+- Si su operador no requiere usuario ni contraseña, envíe solo APN,[apn]#
 
 4. Establecer el servidor GPRS usando el dominio de Plaspy y el puerto
 ```text
@@ -114,7 +114,7 @@ PARAM#
 - La configuración vía SMS es de uso habitual en el K9; confirme la sintaxis de los comandos SMS según la versión de firmware de su dispositivo.
 - Use el comando SERVER con d.plaspy.com o 54.85.159.138 junto con el puerto 8888 como se muestra arriba.
 - Elija UDP o TCP según las necesidades de la instalación; ambos transportes son compatibles en el puerto 8888, pero la selección depende del dispositivo.
-- Los marcadores {{apn}}, {{apnu}} y {{apnp}} deben reemplazarse por las credenciales del operador móvil cuando sean necesarias.
+- Los marcadores [apn], [apnu] y [apnp] deben reemplazarse por las credenciales del operador móvil cuando sean necesarias.
 - Diferentes revisiones de firmware o personalizaciones del proveedor pueden cambiar nombres de comandos u orden de parámetros; siempre verifique con la documentación de EElink.
 
 ## Por qué usar Plaspy con esta configuración

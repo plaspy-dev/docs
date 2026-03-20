@@ -83,7 +83,7 @@ The exact configuration commands and syntax for the S911 Enforcer depend on the 
 - port field: 8888
 - transport option: UDP or TCP
 
-If you are provided with SMS style or CLI commands by Laipac, preserve any placeholders such as {{apn}}, {{apnu}} or {{apnp}} in the command text and replace them with the carrier APN, username or password values as required by your SIM.
+If you are provided with SMS style or CLI commands by Laipac, preserve any placeholders such as [apn], [apnu] or [apnp] in the command text and replace them with the carrier APN, username or password values as required by your SIM.
 
 ## Configuration Notes
 

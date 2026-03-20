@@ -1,6 +1,7 @@
 ---
 slug: /eelink/k9
 id: k9
+sidebar_key: eelink9_index_k9
 sidebar_label: K9
 title: EElink - K9
 sidebar_class_name: menu_item_tracker

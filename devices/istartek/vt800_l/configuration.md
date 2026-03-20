@@ -85,13 +85,13 @@ FACTORY#
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace {{apn}} with your operator APN. If required, include username {{apnu}} and password {{apnp}} separated by commas.
+- Set the operator APN. Replace [apn] with your operator APN. If required, include username [apnu] and password [apnp] separated by commas.
 ```text
-APN,{{apn}}# 
+APN,[apn]# 
 ```
 Or if username and password are needed:
 ```text
-APN,{{apn}},{{apnu}},{{apnp}}#
+APN,[apn],[apnu],[apnp]#
 ```
 
 - Set the GPRS server to use the Plaspy domain on port 8888
@@ -114,7 +114,7 @@ PARAM#
 ```
 
 Notes on placeholders and usage:
-- {{apn}} is your mobile operator APN string. Leave the username and password placeholders only if your operator requires them.
+- [apn] is your mobile operator APN string. Leave the username and password placeholders only if your operator requires them.
 - Use the SERVER command with either the domain or the IP as needed. Both point to Plaspy on port 8888.
 - The FACTORY# command is optional and should only be used when a full reset is appropriate.
 

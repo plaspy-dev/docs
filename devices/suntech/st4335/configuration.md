@@ -81,17 +81,17 @@ Note on deriving the device ID
 
 1) Set the operator APN and GPRS server
 - Use 1 in the APN flag if you provide an APN username or password, otherwise use 0.
-- Replace placeholders {{device_id}}, {{apn}}, {{apnu}}, and {{apnp}} before sending.
+- Replace placeholders {{device_id}}, [apn], [apnu], and [apnp] before sending.
 
 ```
-SA200NTW;{{device_id}};02;{{apn_flag}};{{apn}};{{apnu}};{{apnp}};54.85.159.138;8888;;;;
+SA200NTW;{{device_id}};02;{{apn_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Explanation of placeholders
 - {{device_id}}  = last 6 digits of the IMEI excluding the final digit (see note above)
-- {{apn}}        = operator APN name
-- {{apnu}}       = APN username if required otherwise leave blank
-- {{apnp}}       = APN password if required otherwise leave blank
+- [apn]        = operator APN name
+- [apnu]       = APN username if required otherwise leave blank
+- [apnp]       = APN password if required otherwise leave blank
 - {{apn_flag}}   = 1 if an APN username or password is provided, otherwise 0
 
 2) Set the reporting interval to 60 seconds

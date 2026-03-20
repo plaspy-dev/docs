@@ -93,15 +93,15 @@ Ajuste el valor de la zona horaria según lo necesite para su despliegue.
 
 - Configurar el APN del operador
 ```text
-APN*123456*{{apn}}
+APN*123456*[apn]
 ```
-Reemplace {{apn}} con la cadena APN del operador móvil para la tarjeta SIM.
+Reemplace [apn] con la cadena APN del operador móvil para la tarjeta SIM.
 
 - Configurar usuario y contraseña del APN si el operador lo requiere
 ```text
-USERNAME*123456*{{apnu}}*{{apnp}}
+USERNAME*123456*[apnu]*[apnp]
 ```
-Reemplace {{apnu}} con el usuario del APN y {{apnp}} con la contraseña del APN. Si su operador no requiere credenciales, puede omitir este comando.
+Reemplace [apnu] con el usuario del APN y [apnp] con la contraseña del APN. Si su operador no requiere credenciales, puede omitir este comando.
 
 - Configurar el servidor GPRS a la IP y puerto de Plaspy
 ```text
@@ -116,8 +116,8 @@ KEEPONLINE*123456
 Habilita el modo persistente en línea para que el dispositivo mantenga la sesión según lo soporte el firmware.
 
 Explicación de los marcadores de posición:
-- {{apn}} es el APN de datos móviles de su operador.
-- {{apnu}} y {{apnp}} son el usuario y la contraseña del APN si se requieren.
+- [apn] es el APN de datos móviles de su operador.
+- [apnu] y [apnp] son el usuario y la contraseña del APN si se requieren.
 - 123456 es la contraseña de fábrica usada en estos ejemplos. Confirme la contraseña en su equipo antes de enviar comandos.
 
 ## Notas de configuración

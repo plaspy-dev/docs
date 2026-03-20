@@ -1,6 +1,7 @@
 ---
 slug: /tzone/tz_avl02
 id: tz_avl02
+sidebar_key: tzontz_avl02_index_tz_avl02
 sidebar_label: TZ-AVL02
 title: TZone - TZ-AVL02
 sidebar_class_name: menu_item_tracker

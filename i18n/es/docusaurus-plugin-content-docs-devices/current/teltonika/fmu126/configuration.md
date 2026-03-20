@@ -78,13 +78,13 @@ El contenido público de configuración del FMU126 incluye un comando básico de
 - SMS o lote de comandos para establecer APN y parámetros del servidor Plaspy
 
 ```
-setparam 2001:{{apn}};2002:{{apnu}};2003:{{apnp}};2004:d.plaspy.com;2005:8888;2006:1
+setparam 2001:[apn];2002:[apnu];2003:[apnp];2004:d.plaspy.com;2005:8888;2006:1
 ```
 
 Explicación de marcadores y campos
-- {{apn}} — reemplace con el nombre del APN de su tarjeta SIM
-- {{apnu}} — reemplace con el nombre de usuario del APN si su operador lo requiere; deje vacío si no es necesario
-- {{apnp}} — reemplace con la contraseña del APN si su operador la exige; deje vacío si no es necesario
+- [apn] — reemplace con el nombre del APN de su tarjeta SIM
+- [apnu] — reemplace con el nombre de usuario del APN si su operador lo requiere; deje vacío si no es necesario
+- [apnp] — reemplace con la contraseña del APN si su operador la exige; deje vacío si no es necesario
 - 2004 configura el dominio del servidor a d.plaspy.com, que es el host público de Plaspy
 - 2005 configura el puerto en 8888, que Plaspy utiliza para todos los dispositivos
 - 2006:1 normalmente representa la activación de GPRS o la selección del perfil de datos activo según el firmware del dispositivo; consulte la documentación de Teltonika para el significado exacto de este parámetro en su firmware

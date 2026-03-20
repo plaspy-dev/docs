@@ -47,7 +47,7 @@ El objetivo es apuntar el Mini MT al endpoint compartido de Plaspy, seleccionar 
 - Un Enfora Mini MT alimentado y con acceso al método o utilidad de configuración del fabricante  
 - Una tarjeta SIM válida y servicio de datos GPRS activo adecuado para el dispositivo (el equipo usa comunicaciones GSM GPRS)  
 - Acceso para enviar comandos AT o usar la herramienta oficial de configuración Enfora según requiera su dispositivo  
-- La información del APN de su operadora móvil (mantenga marcadores como {{apn}} si los necesita)  
+- La información del APN de su operadora móvil (mantenga marcadores como [apn] si los necesita)  
 - Comprensión básica del modelo de reportes por eventos del dispositivo para poder habilitar o ajustar los eventos necesarios  
 - Un método para reiniciar o restablecer el dispositivo después de la configuración, si fuera necesario
 
@@ -67,7 +67,7 @@ El Mini MT se configura para reportar ubicación y eventos de dispositivo al end
 2. Ingrese d.plaspy.com o la IP directa 54.85.159.138 como servidor principal de reporte.  
 3. Establezca el puerto del servidor en 8888 (todos los dispositivos en Plaspy usan el mismo puerto).  
 4. Elija UDP o TCP si el rastreador requiere selección explícita del transporte.  
-5. Configure el APN y cualquier autenticación de red necesaria usando marcadores como {{apn}}, {{apnu}} y {{apnp}} donde corresponda.  
+5. Configure el APN y cualquier autenticación de red necesaria usando marcadores como [apn], [apnu] y [apnp] donde corresponda.  
 6. Aplique o guarde la configuración y use el comando del dispositivo para persistir los ajustes (por ejemplo AT&W).  
 7. Reinicie o restablezca el dispositivo si es necesario para activar los nuevos parámetros y verifique que el dispositivo reporte a Plaspy.  
 8. Valide la conectividad y los reportes de eventos dentro de Plaspy para confirmar que el dispositivo está visible y enviando información.
@@ -82,16 +82,16 @@ AT&F
 AT&W
 ```
 
-- Configurar APN (reemplace {{apn}} por el APN de su operador)
+- Configurar APN (reemplace [apn] por el APN de su operador)
 ```text
-AT+CGDCONT=1,"IP","{{apn}}"
+AT+CGDCONT=1,"IP","[apn]"
 ```
 
 - Autenticación GPRS opcional (solo si su SIM/APN requiere usuario o contraseña)
 ```text
-AT%CGPCO=1,"{{apnu}},{{apnp}}",0
+AT%CGPCO=1,"[apnu],[apnp]",0
 ```
-Note: {{apnu}} is the APN username placeholder and {{apnp}} is the APN password placeholder.
+Note: [apnu] is the APN username placeholder and [apnp] is the APN password placeholder.
 
 - Apuntar el rastreador a Plaspy por IP y establecer puerto UDP 8888
 ```text
@@ -168,7 +168,7 @@ Label: Optional device reset to restart and apply configuration when needed.
 
 - Las variaciones de firmware y las revisiones de hardware pueden cambiar los comandos AT disponibles o el formato de parámetros; confirme siempre con las notas del firmware de su dispositivo.  
 - Elija UDP o TCP según sus preferencias de instalación; ambos son compatibles con Plaspy en el puerto 8888 y Plaspy detectará automáticamente el protocolo en uso.  
-- Conserve marcadores como {{apn}}, {{apnu}} y {{apnp}} y sustitúyalos por las credenciales de su operador cuando sean necesarias.  
+- Conserve marcadores como [apn], [apnu] y [apnp] y sustitúyalos por las credenciales de su operador cuando sean necesarias.  
 - Use la herramienta oficial de configuración del fabricante o las interfaces soportadas para enviar comandos AT; comandos mal formateados pueden afectar el comportamiento del dispositivo.  
 - Guarde la configuración (por ejemplo con AT&W o el equivalente) antes de reiniciar el equipo para asegurar que los cambios persistan tras ciclos de energía.
 

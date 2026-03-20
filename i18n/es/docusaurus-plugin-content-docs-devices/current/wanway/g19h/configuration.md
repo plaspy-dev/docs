@@ -77,9 +77,9 @@ La configuración pública del G19H admite comandos por SMS. Envíe estos comand
 
 - Configure el APN del operador (reemplace los marcadores con los valores de su operador):
 ```
-APN,{{apn}}{{#if apnu}},{{apnu}},{{apnp}}{{/if}}#
+APN,[apn]{{#if apnu}},[apnu],[apnp]{{/if}}#
 ```
-Explicación: Reemplace {{apn}} por su APN. Si su operador requiere usuario y contraseña para el APN, suministre {{apnu}} y {{apnp}} respectivamente. El dispositivo acepta el comando APN para habilitar los datos GPRS.
+Explicación: Reemplace [apn] por su APN. Si su operador requiere usuario y contraseña para el APN, suministre [apnu] y [apnp] respectivamente. El dispositivo acepta el comando APN para habilitar los datos GPRS.
 
 - Establezca el servidor GPRS a Plaspy (versión con dominio):
 ```
@@ -111,7 +111,7 @@ STATUS#
 ```
 Explicación: Recupera el estado del dispositivo para confirmar el registro en la red, la fijación GPS, el estado de batería/energía y otros indicadores en tiempo de ejecución.
 
-Nota: Conserve exactamente los marcadores tal como se proporcionan ({{apn}}, {{apnu}}, {{apnp}}) al preparar los comandos SMS. Use el dominio d.plaspy.com o la IP del servidor 54.85.159.138 con puerto 8888 según sea necesario. El dispositivo puede aceptar la forma de dominio o la de IP en su comando SERVER.
+Nota: Conserve exactamente los marcadores tal como se proporcionan ([apn], [apnu], [apnp]) al preparar los comandos SMS. Use el dominio d.plaspy.com o la IP del servidor 54.85.159.138 con puerto 8888 según sea necesario. El dispositivo puede aceptar la forma de dominio o la de IP en su comando SERVER.
 
 ## Notas de configuración
 

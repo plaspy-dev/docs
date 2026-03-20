@@ -46,7 +46,7 @@ This configuration process prepares the ST-915L to send location and telemetry t
 
 - A charged ST-915L with a working SIM card that has data and SMS enabled.
 - Access to the device SMS configuration method or an approved manufacturer tool to send configuration SMS commands.
-- The APN settings for the mobile operator to configure GPRS access using placeholders such as {{apn}} {{apnu}} and {{apnp}}.
+- The APN settings for the mobile operator to configure GPRS access using placeholders such as [apn] [apnu] and [apnp].
 - Knowledge of whether the device firmware expects an IP address or domain for server configuration.
 - A test account or access to Plaspy to confirm the device appears and reports after configuration.
 - Basic tools for SMS sending such as a phone with SMS capability and the device phone number.
@@ -88,9 +88,9 @@ RESET
 
 - Set the APN of the operator using placeholders
 ```text
-8030000 {{apn}} {{apnu}} {{apnp}}
+8030000 [apn] [apnu] [apnp]
 ```
-Note: Keep the placeholders {{apn}}, {{apnu}}, and {{apnp}} and replace them with your operator APN name, APN username, and APN password as required. If your operator does not use username or password, leave those placeholders empty.
+Note: Keep the placeholders [apn], [apnu], and [apnp] and replace them with your operator APN name, APN username, and APN password as required. If your operator does not use username or password, leave those placeholders empty.
 
 - Set up the GPRS server to point to Plaspy using the Plaspy IP and port
 ```text

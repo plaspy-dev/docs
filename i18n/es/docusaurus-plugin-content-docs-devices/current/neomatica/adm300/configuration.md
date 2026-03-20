@@ -81,7 +81,7 @@ El ADM300 soporta configuración vía las utilidades oficiales de Neomatica y la
 - Port: 8888  
 - Transport: UDP or TCP
 
-Si su método de configuración utiliza marcadores de posición para APN o credenciales, conserve marcadores como {{apn}}, {{apnu}} o {{apnp}} y reemplácelos por los valores de su operador móvil cuando la herramienta del fabricante lo solicite.
+Si su método de configuración utiliza marcadores de posición para APN o credenciales, conserve marcadores como [apn], [apnu] o [apnp] y reemplácelos por los valores de su operador móvil cuando la herramienta del fabricante lo solicite.
 
 ## Notas de configuración
 
