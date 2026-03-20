@@ -1,6 +1,7 @@
 ---
 slug: /aoya/a516
 id: a516
+sidebar_key: aoya516_index_a516
 sidebar_label: A516
 title: AoYa - A516
 sidebar_class_name: menu_item_tracker

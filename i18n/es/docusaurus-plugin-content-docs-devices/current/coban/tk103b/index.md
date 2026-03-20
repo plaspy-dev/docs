@@ -1,6 +1,7 @@
 ---
 slug: /coban/tk103b
 id: tk103b
+sidebar_key: cobatk103b_index_tk103b
 sidebar_label: TK103B
 title: Coban - TK103B
 sidebar_class_name: menu_item_tracker

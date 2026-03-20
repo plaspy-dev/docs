@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gl320mg
 id: gl320mg
+sidebar_key: queclingl320mg_index_gl320mg
 sidebar_label: GL320MG
 title: QuecLink - GL320MG
 sidebar_class_name: menu_item_tracker

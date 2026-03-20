@@ -1,6 +1,7 @@
 ---
 slug: /trackerking/dk05
 id: dk05
+sidebar_key: trackerkindk05_index_dk05
 sidebar_label: DK05
 title: TrackerKing - DK05
 sidebar_class_name: menu_item_tracker

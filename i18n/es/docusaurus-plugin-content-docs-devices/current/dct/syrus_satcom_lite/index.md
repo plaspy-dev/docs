@@ -1,6 +1,7 @@
 ---
 slug: /dct/syrus_satcom_lite
 id: syrus_satcom_lite
+sidebar_key: dcsyrus_satcom_lite_index_syrus_satcom_lite
 sidebar_label: Syrus Satcom Lite
 title: DCT - Syrus Satcom Lite
 sidebar_class_name: menu_item_tracker

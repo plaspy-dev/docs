@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/g2p
 id: g2p
+sidebar_key: gosafg2p_index_g2p
 sidebar_label: G2P
 title: Gosafe - G2P
 sidebar_class_name: menu_item_tracker

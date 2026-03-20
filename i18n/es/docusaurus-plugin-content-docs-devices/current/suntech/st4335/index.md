@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st4335
 id: st4335
+sidebar_key: suntecst4335_index_st4335
 sidebar_label: ST4335
 title: Suntech - ST4335
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /gotop/vt_380a
 id: vt_380a
+sidebar_key: gotovt_380a_index_vt_380a
 sidebar_label: VT-380A
 title: GOTOP - VT-380A
 sidebar_class_name: menu_item_tracker

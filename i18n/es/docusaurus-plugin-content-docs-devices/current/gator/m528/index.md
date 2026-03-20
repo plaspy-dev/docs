@@ -1,6 +1,7 @@
 ---
 slug: /gator/m528
 id: m528
+sidebar_key: gatom528_index_m528
 sidebar_label: M528
 title: Gator - M528
 sidebar_class_name: menu_item_tracker

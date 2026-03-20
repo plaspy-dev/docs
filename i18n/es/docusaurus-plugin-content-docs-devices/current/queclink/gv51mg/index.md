@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv51mg
 id: gv51mg
+sidebar_key: queclingv51mg_index_gv51mg
 sidebar_label: GV51MG
 title: QuecLink - GV51MG
 sidebar_class_name: menu_item_tracker

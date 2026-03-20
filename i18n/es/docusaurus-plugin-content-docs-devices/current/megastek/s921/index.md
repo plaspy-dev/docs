@@ -1,6 +1,7 @@
 ---
 slug: /megastek/s921
 id: s921
+sidebar_key: megastes921_index_s921
 sidebar_label: S921
 title: Megastek - S921
 sidebar_class_name: menu_item_tracker

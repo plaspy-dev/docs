@@ -1,6 +1,7 @@
 ---
 slug: /sentar/d36
 id: d36
+sidebar_key: sentad36_index_d36
 sidebar_label: D36
 title: Sentar - D36
 sidebar_class_name: menu_item_tracker

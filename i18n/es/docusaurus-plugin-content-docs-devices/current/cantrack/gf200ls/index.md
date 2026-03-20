@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/gf200ls
 id: gf200ls
+sidebar_key: cantracgf200ls_index_gf200ls
 sidebar_label: GF200LS
 title: CanTrack - GF200LS
 sidebar_class_name: menu_item_tracker

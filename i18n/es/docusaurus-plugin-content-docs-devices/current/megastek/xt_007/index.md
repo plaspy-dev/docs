@@ -1,6 +1,7 @@
 ---
 slug: /megastek/xt_007
 id: xt_007
+sidebar_key: megastext_007_index_xt_007
 sidebar_label: XT-007
 title: Megastek - XT-007
 sidebar_class_name: menu_item_tracker

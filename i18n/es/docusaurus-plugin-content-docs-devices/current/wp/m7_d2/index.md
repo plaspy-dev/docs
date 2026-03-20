@@ -1,6 +1,7 @@
 ---
 slug: /wp/m7_d2
 id: m7_d2
+sidebar_key: wm7_d2_index_m7_d2
 sidebar_label: M7 D2
 title: WP - M7 D2
 sidebar_class_name: menu_item_tracker

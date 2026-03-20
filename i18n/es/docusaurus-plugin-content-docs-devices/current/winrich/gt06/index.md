@@ -1,6 +1,7 @@
 ---
 slug: /winrich/gt06
 id: gt06
+sidebar_key: winricgt06_index_gt06
 sidebar_label: GT06
 title: Winrich - GT06
 sidebar_class_name: menu_item_tracker

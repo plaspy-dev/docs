@@ -1,6 +1,7 @@
 ---
 slug: /gotop/tl_216
 id: tl_216
+sidebar_key: gototl_216_index_tl_216
 sidebar_label: TL-216
 title: GOTOP - TL-216
 sidebar_class_name: menu_item_tracker

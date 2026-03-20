@@ -1,6 +1,7 @@
 ---
 slug: /telic/picotrack_4g
 id: picotrack_4g
+sidebar_key: telipicotrack_4g_index_picotrack_4g
 sidebar_label: Picotrack 4G
 title: Telic - Picotrack 4G
 sidebar_class_name: menu_item_tracker

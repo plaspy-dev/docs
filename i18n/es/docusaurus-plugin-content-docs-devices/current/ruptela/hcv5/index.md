@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/hcv5
 id: hcv5
+sidebar_key: ruptelhcv5_index_hcv5
 sidebar_label: HCV5
 title: Ruptela - HCV5
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /winrich/tk168
 id: tk168
+sidebar_key: winrictk168_index_tk168
 sidebar_label: TK168
 title: Winrich - TK168
 sidebar_class_name: menu_item_tracker

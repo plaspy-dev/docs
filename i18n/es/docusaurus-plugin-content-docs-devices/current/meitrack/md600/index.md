@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/md600
 id: md600
+sidebar_key: meitracmd600_index_md600
 sidebar_label: MD600
 title: Meitrack - MD600
 sidebar_class_name: menu_item_tracker

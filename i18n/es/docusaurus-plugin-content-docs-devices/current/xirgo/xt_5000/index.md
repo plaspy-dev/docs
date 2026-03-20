@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt_5000
 id: xt_5000
+sidebar_key: xirgxt_5000_index_xt_5000
 sidebar_label: XT-5000
 title: Xirgo - XT-5000
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /okb_tehnoavtomatika/mta_glonass_ver12m_can_fms
 id: mta_glonass_ver12m_can_fms
+sidebar_key: okb_tehnoavtomatikmta_glonass_ver12m_can_fms_index_mta_glonass_ver12m_can_fms
 sidebar_label: MTA-Glonass (ver.12M-CAN FMS)
 title: OKB Tehnoavtomatika - MTA-Glonass (ver.12M-CAN FMS)
 sidebar_class_name: menu_item_tracker

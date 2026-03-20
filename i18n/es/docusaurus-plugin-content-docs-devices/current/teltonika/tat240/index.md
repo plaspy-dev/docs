@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/tat240
 id: tat240
+sidebar_key: teltoniktat240_index_tat240
 sidebar_label: TAT240
 title: Teltonika - TAT240
 sidebar_class_name: menu_item_tracker

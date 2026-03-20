@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt90n
 id: mt90n
+sidebar_key: megastemt90n_index_mt90n
 sidebar_label: MT90N
 title: Megastek - MT90N
 sidebar_class_name: menu_item_tracker

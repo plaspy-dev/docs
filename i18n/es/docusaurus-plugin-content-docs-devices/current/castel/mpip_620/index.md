@@ -1,6 +1,7 @@
 ---
 slug: /castel/mpip_620
 id: mpip_620
+sidebar_key: castempip_620_index_mpip_620
 sidebar_label: MPIP-620
 title: Castel - MPIP-620
 sidebar_class_name: menu_item_tracker

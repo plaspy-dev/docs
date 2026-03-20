@@ -1,6 +1,7 @@
 ---
 slug: /huabao/hb_a7_3g
 id: hb_a7_3g
+sidebar_key: huabahb_a7_3g_index_hb_a7_3g
 sidebar_label: HB-A7 3G
 title: Huabao - HB-A7 3G
 sidebar_class_name: menu_item_tracker

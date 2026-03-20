@@ -1,6 +1,7 @@
 ---
 slug: /calmamp/lmu_2010
 id: lmu_2010
+sidebar_key: calmamlmu_2010_index_lmu_2010
 sidebar_label: LMU-2010
 title: CalmAmp - LMU-2010
 sidebar_class_name: menu_item_tracker

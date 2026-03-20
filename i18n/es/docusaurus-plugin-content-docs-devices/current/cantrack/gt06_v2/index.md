@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/gt06_v2
 id: gt06_v2
+sidebar_key: cantracgt06_v2_index_gt06_v2
 sidebar_label: GT06 v2
 title: CanTrack - GT06 v2
 sidebar_class_name: menu_item_tracker

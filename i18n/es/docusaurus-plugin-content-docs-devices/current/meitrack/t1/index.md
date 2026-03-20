@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/t1
 id: t1
+sidebar_key: meitract1_index_t1
 sidebar_label: T1
 title: Meitrack - T1
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/fm_eco4_light
 id: fm_eco4_light
+sidebar_key: ruptelfm_eco4_light_index_fm_eco4_light
 sidebar_label: FM-ECO4 Light
 title: Ruptela - FM-ECO4 Light
 sidebar_class_name: menu_item_tracker

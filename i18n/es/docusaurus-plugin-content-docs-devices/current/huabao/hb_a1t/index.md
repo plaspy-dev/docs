@@ -1,6 +1,7 @@
 ---
 slug: /huabao/hb_a1t
 id: hb_a1t
+sidebar_key: huabahb_a1t_index_hb_a1t
 sidebar_label: HB-A1T
 title: Huabao - HB-A1T
 sidebar_class_name: menu_item_tracker

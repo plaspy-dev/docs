@@ -1,6 +1,7 @@
 ---
 slug: /aoya/t2d
 id: t2d
+sidebar_key: aoyt2d_index_t2d
 sidebar_label: T2D
 title: AoYa - T2D
 sidebar_class_name: menu_item_tracker

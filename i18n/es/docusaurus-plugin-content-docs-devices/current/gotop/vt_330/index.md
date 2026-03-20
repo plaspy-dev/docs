@@ -1,6 +1,7 @@
 ---
 slug: /gotop/vt_330
 id: vt_330
+sidebar_key: gotovt_330_index_vt_330
 sidebar_label: VT-330
 title: GOTOP - VT-330
 sidebar_class_name: menu_item_tracker

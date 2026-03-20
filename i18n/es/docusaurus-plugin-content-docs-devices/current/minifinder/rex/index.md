@@ -1,6 +1,7 @@
 ---
 slug: /minifinder/rex
 id: rex
+sidebar_key: minifinderex_index_rex
 sidebar_label: Rex
 title: MiniFinder - Rex
 sidebar_class_name: menu_item_tracker

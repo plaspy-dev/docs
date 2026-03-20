@@ -1,6 +1,7 @@
 ---
 slug: /flextrack/lommy_personal
 id: lommy_personal
+sidebar_key: flextraclommy_personal_index_lommy_personal
 sidebar_label: Lommy Personal
 title: Flextrack - Lommy Personal
 sidebar_class_name: menu_item_tracker

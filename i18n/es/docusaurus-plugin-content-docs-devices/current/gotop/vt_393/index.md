@@ -1,6 +1,7 @@
 ---
 slug: /gotop/vt_393
 id: vt_393
+sidebar_key: gotovt_393_index_vt_393
 sidebar_label: VT-393
 title: GOTOP - VT-393
 sidebar_class_name: menu_item_tracker

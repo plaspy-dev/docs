@@ -1,6 +1,7 @@
 ---
 slug: /minifinder/pico
 id: pico
+sidebar_key: minifindepico_index_pico
 sidebar_label: Pico
 title: MiniFinder - Pico
 sidebar_class_name: menu_item_tracker

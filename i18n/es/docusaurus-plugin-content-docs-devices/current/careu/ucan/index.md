@@ -1,6 +1,7 @@
 ---
 slug: /careu/ucan
 id: ucan
+sidebar_key: careucan_index_ucan
 sidebar_label: UCAN
 title: CAREU - UCAN
 sidebar_class_name: menu_item_tracker

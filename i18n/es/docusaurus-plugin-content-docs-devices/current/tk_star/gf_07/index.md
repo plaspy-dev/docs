@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/gf_07
 id: gf_07
+sidebar_key: tk_stagf_07_index_gf_07
 sidebar_label: GF 07
 title: TK-Star - GF 07
 sidebar_class_name: menu_item_tracker

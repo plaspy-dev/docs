@@ -1,6 +1,7 @@
 ---
 slug: /galileosky/galileosky_v228
 id: galileosky_v228
+sidebar_key: galileoskgalileosky_v228_index_galileosky_v228
 sidebar_label: GALILEOSKY V2.2.8
 title: GalileoSky - GALILEOSKY V2.2.8
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /stars_nav/photo_gps
 id: photo_gps
+sidebar_key: stars_naphoto_gps_index_photo_gps
 sidebar_label: Photo GPS
 title: Stars Nav - Photo GPS
 sidebar_class_name: menu_item_tracker

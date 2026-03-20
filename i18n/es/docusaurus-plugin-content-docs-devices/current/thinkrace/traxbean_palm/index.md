@@ -1,6 +1,7 @@
 ---
 slug: /thinkrace/traxbean_palm
 id: traxbean_palm
+sidebar_key: thinkractraxbean_palm_index_traxbean_palm
 sidebar_label: Traxbean Palm
 title: ThinkRace - Traxbean Palm
 sidebar_class_name: menu_item_tracker

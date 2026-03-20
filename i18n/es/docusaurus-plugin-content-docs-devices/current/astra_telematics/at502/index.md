@@ -1,6 +1,7 @@
 ---
 slug: /astra_telematics/at502
 id: at502
+sidebar_key: astra_telematicat502_index_at502
 sidebar_label: AT502
 title: Astra Telematics - AT502
 sidebar_class_name: menu_item_tracker

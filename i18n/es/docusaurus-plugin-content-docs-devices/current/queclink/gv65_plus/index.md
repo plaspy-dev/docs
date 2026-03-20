@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv65_plus
 id: gv65_plus
+sidebar_key: queclingv65_plus_index_gv65_plus
 sidebar_label: GV65 Plus
 title: QuecLink - GV65 Plus
 sidebar_class_name: menu_item_tracker

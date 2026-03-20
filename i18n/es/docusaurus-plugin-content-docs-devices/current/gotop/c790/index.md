@@ -1,6 +1,7 @@
 ---
 slug: /gotop/c790
 id: c790
+sidebar_key: gotoc790_index_c790
 sidebar_label: C790
 title: GOTOP - C790
 sidebar_class_name: menu_item_tracker

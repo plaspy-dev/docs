@@ -1,6 +1,7 @@
 ---
 slug: /thinkrace/pt880
 id: pt880
+sidebar_key: thinkracpt880_index_pt880
 sidebar_label: PT880
 title: ThinkRace - PT880
 sidebar_class_name: menu_item_tracker

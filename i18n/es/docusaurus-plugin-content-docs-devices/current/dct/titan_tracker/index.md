@@ -1,6 +1,7 @@
 ---
 slug: /dct/titan_tracker
 id: titan_tracker
+sidebar_key: dctitan_tracker_index_titan_tracker
 sidebar_label: Titan Tracker
 title: DCT - Titan Tracker
 sidebar_class_name: menu_item_tracker

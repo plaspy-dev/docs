@@ -1,6 +1,7 @@
 ---
 slug: /aoya/t128gps
 id: t128gps
+sidebar_key: aoyt128gps_index_t128gps
 sidebar_label: T128GPS
 title: AoYa - T128GPS
 sidebar_class_name: menu_item_tracker

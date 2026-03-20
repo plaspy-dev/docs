@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/pet_tracker
 id: pet_tracker
+sidebar_key: tk_stapet_tracker_index_pet_tracker
 sidebar_label: Pet Tracker
 title: TK-Star - Pet Tracker
 sidebar_class_name: menu_item_tracker

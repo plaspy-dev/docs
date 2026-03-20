@@ -1,6 +1,7 @@
 ---
 slug: /homtecs/h10
 id: h10
+sidebar_key: homtech10_index_h10
 sidebar_label: H10
 title: Homtecs - H10
 sidebar_class_name: menu_item_tracker

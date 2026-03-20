@@ -1,6 +1,7 @@
 ---
 slug: /huabao/hb_a7b
 id: hb_a7b
+sidebar_key: huabahb_a7b_index_hb_a7b
 sidebar_label: HB-A7B
 title: Huabao - HB-A7B
 sidebar_class_name: menu_item_tracker

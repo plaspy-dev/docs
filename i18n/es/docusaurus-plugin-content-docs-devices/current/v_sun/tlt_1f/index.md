@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/tlt_1f
 id: tlt_1f
+sidebar_key: v_sutlt_1f_index_tlt_1f
 sidebar_label: TLT-1F
 title: V-SUN - TLT-1F
 sidebar_class_name: menu_item_tracker

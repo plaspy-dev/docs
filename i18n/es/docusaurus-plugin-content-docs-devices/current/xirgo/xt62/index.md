@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt62
 id: xt62
+sidebar_key: xirgxt62_index_xt62
 sidebar_label: XT62
 title: Xirgo - XT62
 sidebar_class_name: menu_item_tracker

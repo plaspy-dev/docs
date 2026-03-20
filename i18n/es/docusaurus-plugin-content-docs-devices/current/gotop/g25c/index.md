@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g25c
 id: g25c
+sidebar_key: gotog25c_index_g25c
 sidebar_label: G25C
 title: GOTOP - G25C
 sidebar_class_name: menu_item_tracker

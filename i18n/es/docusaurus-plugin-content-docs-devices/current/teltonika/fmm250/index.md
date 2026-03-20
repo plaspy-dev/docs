@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmm250
 id: fmm250
+sidebar_key: teltonikfmm250_index_fmm250
 sidebar_label: FMM250
 title: Teltonika - FMM250
 sidebar_class_name: menu_item_tracker

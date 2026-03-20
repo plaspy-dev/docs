@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/t633l
 id: t633l
+sidebar_key: meitract633l_index_t633l
 sidebar_label: T633L
 title: Meitrack - T633L
 sidebar_class_name: menu_item_tracker

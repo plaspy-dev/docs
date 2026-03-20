@@ -1,6 +1,7 @@
 ---
 slug: /yulongda/tk103
 id: tk103
+sidebar_key: yulongdtk103_index_tk103
 sidebar_label: TK103
 title: YulongDa - TK103
 sidebar_class_name: menu_item_tracker

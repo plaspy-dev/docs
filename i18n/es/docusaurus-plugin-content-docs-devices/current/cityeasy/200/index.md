@@ -1,6 +1,7 @@
 ---
 slug: /cityeasy/200
 id: 200
+sidebar_key: cityeas200_index_200
 sidebar_label: 200
 title: Cityeasy - 200
 sidebar_class_name: menu_item_tracker

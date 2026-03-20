@@ -1,6 +1,7 @@
 ---
 slug: /oigo_telematics/ar_2cx
 id: ar_2cx
+sidebar_key: oigo_telematicar_2cx_index_ar_2cx
 sidebar_label: AR-2CX
 title: Oigo Telematics - AR-2CX
 sidebar_class_name: menu_item_tracker

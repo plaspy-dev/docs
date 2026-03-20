@@ -1,6 +1,7 @@
 ---
 slug: /coban/bn_408b
 id: bn_408b
+sidebar_key: cobabn_408b_index_bn_408b
 sidebar_label: BN-408B
 title: Coban - BN-408B
 sidebar_class_name: menu_item_tracker

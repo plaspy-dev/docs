@@ -1,6 +1,7 @@
 ---
 slug: /aquila/ts101_advanced
 id: ts101_advanced
+sidebar_key: aquilts101_advanced_index_ts101_advanced
 sidebar_label: TS101 Advanced
 title: Aquila - TS101 Advanced
 sidebar_class_name: menu_item_tracker

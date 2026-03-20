@@ -1,6 +1,7 @@
 ---
 slug: /orion/bd_3112
 id: bd_3112
+sidebar_key: oriobd_3112_index_bd_3112
 sidebar_label: BD-3112
 title: Orion - BD-3112
 sidebar_class_name: menu_item_tracker

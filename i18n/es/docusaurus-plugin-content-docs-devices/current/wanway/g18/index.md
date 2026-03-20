@@ -1,6 +1,7 @@
 ---
 slug: /wanway/g18
 id: g18
+sidebar_key: wanwag18_index_g18
 sidebar_label: G18
 title: WanWay - G18
 sidebar_class_name: menu_item_tracker

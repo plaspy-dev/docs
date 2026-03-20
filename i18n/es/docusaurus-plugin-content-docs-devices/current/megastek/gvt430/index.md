@@ -1,6 +1,7 @@
 ---
 slug: /megastek/gvt430
 id: gvt430
+sidebar_key: megastegvt430_index_gvt430
 sidebar_label: GVT430
 title: Megastek - GVT430
 sidebar_class_name: menu_item_tracker

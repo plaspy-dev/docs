@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fm_2100
 id: fm_2100
+sidebar_key: teltonikfm_2100_index_fm_2100
 sidebar_label: FM 2100
 title: Teltonika - FM 2100
 sidebar_class_name: menu_item_tracker

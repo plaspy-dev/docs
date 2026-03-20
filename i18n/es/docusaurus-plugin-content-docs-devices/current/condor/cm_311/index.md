@@ -1,6 +1,7 @@
 ---
 slug: /condor/cm_311
 id: cm_311
+sidebar_key: condocm_311_index_cm_311
 sidebar_label: CM-311
 title: Condor - CM-311
 sidebar_class_name: menu_item_tracker

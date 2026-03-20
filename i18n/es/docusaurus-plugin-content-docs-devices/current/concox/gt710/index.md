@@ -1,6 +1,7 @@
 ---
 slug: /concox/gt710
 id: gt710
+sidebar_key: concogt710_index_gt710
 sidebar_label: GT710
 title: Concox - GT710
 sidebar_class_name: menu_item_tracker

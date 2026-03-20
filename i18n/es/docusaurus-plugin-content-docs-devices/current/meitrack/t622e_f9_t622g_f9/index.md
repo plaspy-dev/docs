@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/t622e_f9_t622g_f9
 id: t622e_f9_t622g_f9
+sidebar_key: meitract622e_f9_t622g_f9_index_t622e_f9_t622g_f9
 sidebar_label: T622E-F9/T622G-F9
 title: Meitrack - T622E-F9/T622G-F9
 sidebar_class_name: menu_item_tracker

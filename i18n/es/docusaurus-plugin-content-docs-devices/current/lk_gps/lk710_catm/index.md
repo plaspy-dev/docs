@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk710_catm
 id: lk710_catm
+sidebar_key: lk_gplk710_catm_index_lk710_catm
 sidebar_label: LK710-CatM
 title: LK-GPS - LK710-CatM
 sidebar_class_name: menu_item_tracker

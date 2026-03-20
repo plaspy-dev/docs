@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tkobd
 id: tkobd
+sidebar_key: tk_statkobd_index_tkobd
 sidebar_label: TKOBD
 title: TK-Star - TKOBD
 sidebar_class_name: menu_item_tracker

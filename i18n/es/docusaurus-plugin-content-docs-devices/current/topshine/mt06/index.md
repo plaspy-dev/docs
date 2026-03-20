@@ -1,6 +1,7 @@
 ---
 slug: /topshine/mt06
 id: mt06
+sidebar_key: topshinmt06_index_mt06
 sidebar_label: MT06
 title: TopShine - MT06
 sidebar_class_name: menu_item_tracker

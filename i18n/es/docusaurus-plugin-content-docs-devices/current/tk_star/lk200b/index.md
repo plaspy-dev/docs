@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/lk200b
 id: lk200b
+sidebar_key: tk_stalk200b_index_lk200b
 sidebar_label: LK200B
 title: TK-Star - LK200B
 sidebar_class_name: menu_item_tracker

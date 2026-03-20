@@ -1,6 +1,7 @@
 ---
 slug: /minifinder/watch
 id: watch
+sidebar_key: minifindewatch_index_watch
 sidebar_label: Watch
 title: MiniFinder - Watch
 sidebar_class_name: menu_item_tracker

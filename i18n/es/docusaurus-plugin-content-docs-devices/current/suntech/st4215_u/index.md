@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st4215_u
 id: st4215_u
+sidebar_key: suntecst4215_u_index_st4215_u
 sidebar_label: ST4215/U
 title: Suntech - ST4215/U
 sidebar_class_name: menu_item_tracker

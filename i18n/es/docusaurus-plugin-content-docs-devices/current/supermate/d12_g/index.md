@@ -1,6 +1,7 @@
 ---
 slug: /supermate/d12_g
 id: d12_g
+sidebar_key: supermatd12_g_index_d12_g
 sidebar_label: D12-G
 title: Supermate - D12-G
 sidebar_class_name: menu_item_tracker

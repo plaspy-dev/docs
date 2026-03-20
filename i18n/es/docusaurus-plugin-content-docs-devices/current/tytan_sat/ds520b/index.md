@@ -1,6 +1,7 @@
 ---
 slug: /tytan_sat/ds520b
 id: ds520b
+sidebar_key: tytan_sads520b_index_ds520b
 sidebar_label: DS520B
 title: Tytan SAT - DS520B
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /topten/tk428
 id: tk428
+sidebar_key: toptetk428_index_tk428
 sidebar_label: TK428
 title: TopTen - TK428
 sidebar_class_name: menu_item_tracker

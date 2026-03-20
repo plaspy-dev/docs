@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/g200ny
 id: g200ny
+sidebar_key: cantracg200ny_index_g200ny
 sidebar_label: G200NY
 title: CanTrack - G200NY
 sidebar_class_name: menu_item_tracker

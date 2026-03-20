@@ -1,6 +1,7 @@
 ---
 slug: /glonasssoft/umka310_with_cigarette_lighter
 id: umka310_with_cigarette_lighter
+sidebar_key: glonasssofumka310_with_cigarette_lighter_index_umka310_with_cigarette_lighter
 sidebar_label: UMKa310 with cigarette lighter
 title: GLONASSsoft - UMKa310 with cigarette lighter
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/vsl100
 id: vsl100
+sidebar_key: cantracvsl100_index_vsl100
 sidebar_label: VSL100
 title: CanTrack - VSL100
 sidebar_class_name: menu_item_tracker

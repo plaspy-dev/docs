@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk208
 id: lk208
+sidebar_key: lk_gplk208_index_lk208
 sidebar_label: LK208
 title: LK-GPS - LK208
 sidebar_class_name: menu_item_tracker

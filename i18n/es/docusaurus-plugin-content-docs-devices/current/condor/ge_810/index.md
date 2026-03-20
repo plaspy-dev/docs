@@ -1,6 +1,7 @@
 ---
 slug: /condor/ge_810
 id: ge_810
+sidebar_key: condoge_810_index_ge_810
 sidebar_label: GE-810
 title: Condor - GE-810
 sidebar_class_name: menu_item_tracker

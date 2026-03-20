@@ -1,6 +1,7 @@
 ---
 slug: /arknav/r_9w
 id: r_9w
+sidebar_key: arknar_9w_index_r_9w
 sidebar_label: R-9W
 title: ArkNav - R-9W
 sidebar_class_name: menu_item_tracker

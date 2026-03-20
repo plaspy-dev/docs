@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st_210
 id: st_210
+sidebar_key: suntecst_210_index_st_210
 sidebar_label: ST 210
 title: Suntech - ST 210
 sidebar_class_name: menu_item_tracker

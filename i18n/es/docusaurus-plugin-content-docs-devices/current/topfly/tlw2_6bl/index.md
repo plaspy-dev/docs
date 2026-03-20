@@ -1,6 +1,7 @@
 ---
 slug: /topfly/tlw2_6bl
 id: tlw2_6bl
+sidebar_key: topfltlw2_6bl_index_tlw2_6bl
 sidebar_label: TLW2-6BL
 title: TopFly - TLW2-6BL
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /topfly/tld2_l
 id: tld2_l
+sidebar_key: topfltld2_l_index_tld2_l
 sidebar_label: TLD2-L
 title: TopFly - TLD2-L
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /istartek/vt600_3g
 id: vt600_3g
+sidebar_key: istartevt600_3g_index_vt600_3g
 sidebar_label: VT600-3G
 title: iStartek - VT600-3G
 sidebar_class_name: menu_item_tracker

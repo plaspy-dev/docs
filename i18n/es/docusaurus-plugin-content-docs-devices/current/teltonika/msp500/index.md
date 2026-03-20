@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/msp500
 id: msp500
+sidebar_key: teltonikmsp500_index_msp500
 sidebar_label: MSP500
 title: Teltonika - MSP500
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /calmamp/ttu_2830
 id: ttu_2830
+sidebar_key: calmamttu_2830_index_ttu_2830
 sidebar_label: TTU-2830
 title: CalmAmp - TTU-2830
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gl52sp
 id: gl52sp
+sidebar_key: queclingl52sp_index_gl52sp
 sidebar_label: GL52SP
 title: QuecLink - GL52SP
 sidebar_class_name: menu_item_tracker

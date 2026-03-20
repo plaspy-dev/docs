@@ -1,6 +1,7 @@
 ---
 slug: /gnxis/8_wire
 id: 8_wire
+sidebar_key: gnxi8_wire_index_8_wire
 sidebar_label: 8-wire
 title: Gnxis - 8-wire
 sidebar_class_name: menu_item_tracker

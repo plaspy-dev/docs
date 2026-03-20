@@ -1,6 +1,7 @@
 ---
 slug: /atrack/at5i
 id: at5i
+sidebar_key: atracat5i_index_at5i
 sidebar_label: AT5i
 title: ATrack - AT5i
 sidebar_class_name: menu_item_tracker

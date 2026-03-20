@@ -1,6 +1,7 @@
 ---
 slug: /concox/lg300
 id: lg300
+sidebar_key: concolg300_index_lg300
 sidebar_label: LG300
 title: Concox - LG300
 sidebar_class_name: menu_item_tracker

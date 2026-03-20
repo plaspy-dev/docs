@@ -1,6 +1,7 @@
 ---
 slug: /sentar/q60_pet
 id: q60_pet
+sidebar_key: sentaq60_pet_index_q60_pet
 sidebar_label: Q60 Pet
 title: Sentar - Q60 Pet
 sidebar_class_name: menu_item_tracker

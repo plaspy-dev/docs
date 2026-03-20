@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt49
 id: xt49
+sidebar_key: xirgxt49_index_xt49
 sidebar_label: XT49
 title: Xirgo - XT49
 sidebar_class_name: menu_item_tracker

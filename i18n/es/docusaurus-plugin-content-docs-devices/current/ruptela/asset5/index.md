@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/asset5
 id: asset5
+sidebar_key: ruptelasset5_index_asset5
 sidebar_label: Asset5
 title: Ruptela - Asset5
 sidebar_class_name: menu_item_tracker

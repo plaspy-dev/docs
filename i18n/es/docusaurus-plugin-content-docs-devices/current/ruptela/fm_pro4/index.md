@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/fm_pro4
 id: fm_pro4
+sidebar_key: ruptelfm_pro4_index_fm_pro4
 sidebar_label: FM-Pro4
 title: Ruptela - FM-Pro4
 sidebar_class_name: menu_item_tracker

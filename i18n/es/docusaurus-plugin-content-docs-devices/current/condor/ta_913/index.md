@@ -1,6 +1,7 @@
 ---
 slug: /condor/ta_913
 id: ta_913
+sidebar_key: condota_913_index_ta_913
 sidebar_label: TA-913
 title: Condor - TA-913
 sidebar_class_name: menu_item_tracker

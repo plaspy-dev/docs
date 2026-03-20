@@ -1,6 +1,7 @@
 ---
 slug: /concox/gt350
 id: gt350
+sidebar_key: concogt350_index_gt350
 sidebar_label: GT350
 title: Concox - GT350
 sidebar_class_name: menu_item_tracker

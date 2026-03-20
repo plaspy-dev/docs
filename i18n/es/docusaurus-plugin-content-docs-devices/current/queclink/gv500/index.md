@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv500
 id: gv500
+sidebar_key: queclingv500_index_gv500
 sidebar_label: GV500
 title: QuecLink - GV500
 sidebar_class_name: menu_item_tracker

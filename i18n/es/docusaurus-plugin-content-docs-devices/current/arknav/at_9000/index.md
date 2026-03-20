@@ -1,6 +1,7 @@
 ---
 slug: /arknav/at_9000
 id: at_9000
+sidebar_key: arknaat_9000_index_at_9000
 sidebar_label: AT-9000
 title: ArkNav - AT-9000
 sidebar_class_name: menu_item_tracker

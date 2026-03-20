@@ -1,6 +1,7 @@
 ---
 slug: /hunterpro/cp60_kam
 id: cp60_kam
+sidebar_key: hunterprcp60_kam_index_cp60_kam
 sidebar_label: CP60-KAM
 title: HunterPro - CP60-KAM
 sidebar_class_name: menu_item_tracker

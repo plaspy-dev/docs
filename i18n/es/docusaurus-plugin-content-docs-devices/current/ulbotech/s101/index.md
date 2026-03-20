@@ -1,6 +1,7 @@
 ---
 slug: /ulbotech/s101
 id: s101
+sidebar_key: ulbotecs101_index_s101
 sidebar_label: S101
 title: Ulbotech - S101
 sidebar_class_name: menu_item_tracker

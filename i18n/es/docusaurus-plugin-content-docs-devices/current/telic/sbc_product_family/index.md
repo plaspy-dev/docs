@@ -1,6 +1,7 @@
 ---
 slug: /telic/sbc_product_family
 id: sbc_product_family
+sidebar_key: telisbc_product_family_index_sbc_product_family
 sidebar_label: SBC product family
 title: Telic - SBC product family
 sidebar_class_name: menu_item_tracker

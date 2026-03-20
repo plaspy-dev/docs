@@ -31,13 +31,13 @@ export const brand = {
     },
     {
       "name": "GPT12\u2011L",
-      "slug": "gpt12l",
-      "image": require("./gpt12l/tracker.jpg").default
+      "slug": "gpt12_l",
+      "image": require("./gpt12_l/tracker.jpg").default
     },
     {
       "name": "GPT12\u2011X",
-      "slug": "gpt12x",
-      "image": require("./gpt12x/tracker.jpg").default
+      "slug": "gpt12_x",
+      "image": require("./gpt12_x/tracker.jpg").default
     },
     {
       "name": "GPT15",
@@ -56,8 +56,8 @@ export const brand = {
     },
     {
       "name": "GPT19\u2011H",
-      "slug": "gpt19h",
-      "image": require("./gpt19h/tracker.jpg").default
+      "slug": "gpt19_h",
+      "image": require("./gpt19_h/tracker.jpg").default
     },
     {
       "name": "GPT26",
@@ -76,8 +76,8 @@ export const brand = {
     },
     {
       "name": "GPT48\u2011X",
-      "slug": "gpt48x",
-      "image": require("./gpt48x/tracker.jpg").default
+      "slug": "gpt48_x",
+      "image": require("./gpt48_x/tracker.jpg").default
     },
     {
       "name": "GPT49",
@@ -131,8 +131,8 @@ export const brand = {
     },
     {
       "name": "TK119\u20113G",
-      "slug": "tk1193g",
-      "image": require("./tk1193g/tracker.jpg").default
+      "slug": "tk119_3g",
+      "image": require("./tk119_3g/tracker.jpg").default
     },
     {
       "name": "TK121",
@@ -141,8 +141,8 @@ export const brand = {
     },
     {
       "name": "TK121\u2011S",
-      "slug": "tk121s",
-      "image": require("./tk121s/tracker.jpg").default
+      "slug": "tk121_s",
+      "image": require("./tk121_s/tracker.jpg").default
     },
     {
       "name": "TK319",
@@ -151,13 +151,13 @@ export const brand = {
     },
     {
       "name": "TK319\u2011H",
-      "slug": "tk319h",
-      "image": require("./tk319h/tracker.jpg").default
+      "slug": "tk319_h",
+      "image": require("./tk319_h/tracker.jpg").default
     },
     {
       "name": "TK319\u2011L",
-      "slug": "tk319l",
-      "image": require("./tk319l/tracker.jpg").default
+      "slug": "tk319_l",
+      "image": require("./tk319_l/tracker.jpg").default
     },
     {
       "name": "TK418",
@@ -171,8 +171,8 @@ export const brand = {
     },
     {
       "name": "TK419\u20113",
-      "slug": "tk4193",
-      "image": require("./tk4193/tracker.jpg").default
+      "slug": "tk419_3",
+      "image": require("./tk419_3/tracker.jpg").default
     }
   ]
 };

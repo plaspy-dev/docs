@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt60pro
 id: mt60pro
+sidebar_key: megastemt60pro_index_mt60pro
 sidebar_label: MT60PRO
 title: Megastek - MT60PRO
 sidebar_class_name: menu_item_tracker

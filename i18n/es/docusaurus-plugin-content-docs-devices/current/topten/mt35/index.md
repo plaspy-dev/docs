@@ -1,6 +1,7 @@
 ---
 slug: /topten/mt35
 id: mt35
+sidebar_key: toptemt35_index_mt35
 sidebar_label: MT35
 title: TopTen - MT35
 sidebar_class_name: menu_item_tracker

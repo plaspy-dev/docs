@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/g07l
 id: g07l
+sidebar_key: cantracg07l_index_g07l
 sidebar_label: G07L
 title: CanTrack - G07L
 sidebar_class_name: menu_item_tracker

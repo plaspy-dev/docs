@@ -1,6 +1,7 @@
 ---
 slug: /dct/syrus_3g_bt
 id: syrus_3g_bt
+sidebar_key: dcsyrus_3g_bt_index_syrus_3g_bt
 sidebar_label: Syrus 3G+ BT
 title: DCT - Syrus 3G+ BT
 sidebar_class_name: menu_item_tracker

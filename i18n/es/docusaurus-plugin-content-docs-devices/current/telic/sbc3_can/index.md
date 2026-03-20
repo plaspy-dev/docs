@@ -1,6 +1,7 @@
 ---
 slug: /telic/sbc3_can
 id: sbc3_can
+sidebar_key: telisbc3_can_index_sbc3_can
 sidebar_label: SBC3 CAN
 title: Telic - SBC3 CAN
 sidebar_class_name: menu_item_tracker

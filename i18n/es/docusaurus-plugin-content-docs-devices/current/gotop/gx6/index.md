@@ -1,6 +1,7 @@
 ---
 slug: /gotop/gx6
 id: gx6
+sidebar_key: gotogx6_index_gx6
 sidebar_label: GX6
 title: GOTOP - GX6
 sidebar_class_name: menu_item_tracker

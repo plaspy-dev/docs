@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/g500m
 id: g500m
+sidebar_key: cantracg500m_index_g500m
 sidebar_label: G500M
 title: CanTrack - G500M
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /gotop/d26
 id: d26
+sidebar_key: gotod26_index_d26
 sidebar_label: D26
 title: GOTOP - D26
 sidebar_class_name: menu_item_tracker

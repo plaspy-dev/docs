@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st4955lcbw
 id: st4955lcbw
+sidebar_key: suntecst4955lcbw_index_st4955lcbw
 sidebar_label: ST4955LCBW
 title: Suntech - ST4955LCBW
 sidebar_class_name: menu_item_tracker

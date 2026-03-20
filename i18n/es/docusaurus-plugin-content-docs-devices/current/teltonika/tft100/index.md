@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/tft100
 id: tft100
+sidebar_key: teltoniktft100_index_tft100
 sidebar_label: TFT100
 title: Teltonika - TFT100
 sidebar_class_name: menu_item_tracker

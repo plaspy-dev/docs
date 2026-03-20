@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st4290
 id: st4290
+sidebar_key: suntecst4290_index_st4290
 sidebar_label: ST4290
 title: Suntech - ST4290
 sidebar_class_name: menu_item_tracker

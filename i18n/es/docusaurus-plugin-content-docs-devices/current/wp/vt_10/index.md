@@ -1,6 +1,7 @@
 ---
 slug: /wp/vt_10
 id: vt_10
+sidebar_key: wvt_10_index_vt_10
 sidebar_label: VT-10
 title: WP - VT-10
 sidebar_class_name: menu_item_tracker

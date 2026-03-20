@@ -1,6 +1,7 @@
 ---
 slug: /wanway/gs05
 id: gs05
+sidebar_key: wanwags05_index_gs05
 sidebar_label: GS05
 title: WanWay - GS05
 sidebar_class_name: menu_item_tracker

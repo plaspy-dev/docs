@@ -1,6 +1,7 @@
 ---
 slug: /gotop/d22_4g
 id: d22_4g
+sidebar_key: gotod22_4g_index_d22_4g
 sidebar_label: D22-4G
 title: GOTOP - D22-4G
 sidebar_class_name: menu_item_tracker

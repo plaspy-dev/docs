@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/gf10
 id: gf10
+sidebar_key: cantracgf10_index_gf10
 sidebar_label: GF10
 title: CanTrack - GF10
 sidebar_class_name: menu_item_tracker

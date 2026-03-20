@@ -1,6 +1,7 @@
 ---
 slug: /megastek/gvt_369
 id: gvt_369
+sidebar_key: megastegvt_369_index_gvt_369
 sidebar_label: GVT-369
 title: Megastek - GVT-369
 sidebar_class_name: menu_item_tracker

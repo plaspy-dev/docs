@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/mt_90
 id: mt_90
+sidebar_key: meitracmt_90_index_mt_90
 sidebar_label: MT-90
 title: Meitrack - MT-90
 sidebar_class_name: menu_item_tracker

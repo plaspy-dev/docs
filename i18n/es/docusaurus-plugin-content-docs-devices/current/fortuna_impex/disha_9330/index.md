@@ -1,6 +1,7 @@
 ---
 slug: /fortuna_impex/disha_9330
 id: disha_9330
+sidebar_key: fortuna_impedisha_9330_index_disha_9330
 sidebar_label: Disha 9330
 title: Fortuna Impex - Disha 9330
 sidebar_class_name: menu_item_tracker

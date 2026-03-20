@@ -1,6 +1,7 @@
 ---
 slug: /condor/ts_728
 id: ts_728
+sidebar_key: condots_728_index_ts_728
 sidebar_label: TS-728
 title: Condor - TS-728
 sidebar_class_name: menu_item_tracker

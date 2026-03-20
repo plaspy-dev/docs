@@ -1,6 +1,7 @@
 ---
 slug: /megastek/gtp_69
 id: gtp_69
+sidebar_key: megastegtp_69_index_gtp_69
 sidebar_label: GTP-69
 title: Megastek - GTP-69
 sidebar_class_name: menu_item_tracker

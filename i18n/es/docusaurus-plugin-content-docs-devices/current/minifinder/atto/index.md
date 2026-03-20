@@ -1,6 +1,7 @@
 ---
 slug: /minifinder/atto
 id: atto
+sidebar_key: minifindeatto_index_atto
 sidebar_label: ATTO
 title: MiniFinder - ATTO
 sidebar_class_name: menu_item_tracker

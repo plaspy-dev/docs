@@ -1,6 +1,7 @@
 ---
 slug: /thingsys/ts_p4x
 id: ts_p4x
+sidebar_key: thingsyts_p4x_index_ts_p4x
 sidebar_label: TS-P4X
 title: ThingSys - TS-P4X
 sidebar_class_name: menu_item_tracker

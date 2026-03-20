@@ -56,6 +56,7 @@ const config = {
         path: 'devices',
         routeBasePath: 'devices',
         sidebarPath: './sidebarsDevices.js',
+        editUrl: 'https://github.com/plaspy-dev/docs/blob/main/',
       },
     ]
   ],
@@ -66,9 +67,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/plaspy-dev/docs/blob/dev/',
+          editUrl: 'https://github.com/plaspy-dev/docs/blob/main/',
           path: 'docs',
           routeBasePath: 'docs',
         },
@@ -80,7 +79,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/plaspy-dev/docs/blob/dev/',
+          editUrl: 'https://github.com/plaspy-dev/docs/blob/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',

@@ -1,6 +1,7 @@
 ---
 slug: /concox/pg201
 id: pg201
+sidebar_key: concopg201_index_pg201
 sidebar_label: PG201
 title: Concox - PG201
 sidebar_class_name: menu_item_tracker

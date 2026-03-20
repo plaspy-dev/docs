@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv75
 id: gv75
+sidebar_key: queclingv75_index_gv75
 sidebar_label: GV75
 title: QuecLink - GV75
 sidebar_class_name: menu_item_tracker

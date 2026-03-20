@@ -1,6 +1,7 @@
 ---
 slug: /topshine/vt310n
 id: vt310n
+sidebar_key: topshinvt310n_index_vt310n
 sidebar_label: VT310N
 title: TopShine - VT310N
 sidebar_class_name: menu_item_tracker

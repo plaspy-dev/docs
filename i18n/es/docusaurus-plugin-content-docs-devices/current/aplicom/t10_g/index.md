@@ -1,6 +1,7 @@
 ---
 slug: /aplicom/t10_g
 id: t10_g
+sidebar_key: aplicot10_g_index_t10_g
 sidebar_label: T10 G
 title: Aplicom - T10 G
 sidebar_class_name: menu_item_tracker

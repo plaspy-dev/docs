@@ -1,6 +1,7 @@
 ---
 slug: /topshine/vt200
 id: vt200
+sidebar_key: topshinvt200_index_vt200
 sidebar_label: VT200
 title: TopShine - VT200
 sidebar_class_name: menu_item_tracker

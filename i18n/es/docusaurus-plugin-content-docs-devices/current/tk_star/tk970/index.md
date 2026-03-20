@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tk970
 id: tk970
+sidebar_key: tk_statk970_index_tk970
 sidebar_label: TK970
 title: TK-Star - TK970
 sidebar_class_name: menu_item_tracker

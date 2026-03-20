@@ -1,6 +1,7 @@
 ---
 slug: /coban/gps_408
 id: gps_408
+sidebar_key: cobagps_408_index_gps_408
 sidebar_label: GPS-408
 title: Coban - GPS-408
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /sanav/mu201s1
 id: mu201s1
+sidebar_key: sanamu201s1_index_mu201s1
 sidebar_label: MU201S1
 title: Sanav - MU201S1
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /thingsys/ts_vb20
 id: ts_vb20
+sidebar_key: thingsyts_vb20_index_ts_vb20
 sidebar_label: TS-VB20
 title: ThingSys - TS-VB20
 sidebar_class_name: menu_item_tracker

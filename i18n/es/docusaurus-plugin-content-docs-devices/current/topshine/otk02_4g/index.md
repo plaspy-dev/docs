@@ -1,6 +1,7 @@
 ---
 slug: /topshine/otk02_4g
 id: otk02_4g
+sidebar_key: topshinotk02_4g_index_otk02_4g
 sidebar_label: OTK02-4G
 title: TopShine - OTK02-4G
 sidebar_class_name: menu_item_tracker

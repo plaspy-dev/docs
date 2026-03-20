@@ -1,6 +1,7 @@
 ---
 slug: /telic/lt910_ww
 id: lt910_ww
+sidebar_key: telilt910_ww_index_lt910_ww
 sidebar_label: LT910-WW
 title: Telic - LT910-WW
 sidebar_class_name: menu_item_tracker

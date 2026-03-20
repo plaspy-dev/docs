@@ -1,6 +1,7 @@
 ---
 slug: /topfly/knightx_300
 id: knightx_300
+sidebar_key: topflknightx_300_index_knightx_300
 sidebar_label: KnightX 300
 title: TopFly - KnightX 300
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /okb_tehnoavtomatika/mpu_01glonass
 id: mpu_01glonass
+sidebar_key: okb_tehnoavtomatikmpu_01glonass_index_mpu_01glonass
 sidebar_label: MPU-01GLONASS
 title: OKB Tehnoavtomatika - MPU-01GLONASS
 sidebar_class_name: menu_item_tracker

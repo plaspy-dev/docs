@@ -1,6 +1,7 @@
 ---
 slug: /laipac/starfinder_aire
 id: starfinder_aire
+sidebar_key: laipastarfinder_aire_index_starfinder_aire
 sidebar_label: StarFinder AIRE
 title: Laipac - StarFinder AIRE
 sidebar_class_name: menu_item_tracker

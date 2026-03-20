@@ -1,6 +1,7 @@
 ---
 slug: /arusnavi/arnavi_l3r100
 id: arnavi_l3r100
+sidebar_key: arusnavarnavi_l3r100_index_arnavi_l3r100
 sidebar_label: ARNAVI L3R100
 title: Arusnavi - ARNAVI L3R100
 sidebar_class_name: menu_item_tracker

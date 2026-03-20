@@ -1,6 +1,7 @@
 ---
 slug: /concox/vl505
 id: vl505
+sidebar_key: concovl505_index_vl505
 sidebar_label: VL505
 title: Concox - VL505
 sidebar_class_name: menu_item_tracker

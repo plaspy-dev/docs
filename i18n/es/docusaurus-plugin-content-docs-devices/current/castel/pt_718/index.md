@@ -1,6 +1,7 @@
 ---
 slug: /castel/pt_718
 id: pt_718
+sidebar_key: castept_718_index_pt_718
 sidebar_label: PT-718
 title: Castel - PT-718
 sidebar_class_name: menu_item_tracker

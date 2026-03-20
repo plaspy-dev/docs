@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/ftc921
 id: ftc921
+sidebar_key: teltonikftc921_index_ftc921
 sidebar_label: FTC921
 title: Teltonika - FTC921
 sidebar_class_name: menu_item_tracker

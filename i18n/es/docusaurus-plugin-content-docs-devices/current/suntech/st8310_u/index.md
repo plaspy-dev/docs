@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st8310_u
 id: st8310_u
+sidebar_key: suntecst8310_u_index_st8310_u
 sidebar_label: ST8310/U
 title: Suntech - ST8310/U
 sidebar_class_name: menu_item_tracker

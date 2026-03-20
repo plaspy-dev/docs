@@ -1,6 +1,7 @@
 ---
 slug: /megastek/gvt_390
 id: gvt_390
+sidebar_key: megastegvt_390_index_gvt_390
 sidebar_label: GVT-390
 title: Megastek - GVT-390
 sidebar_class_name: menu_item_tracker

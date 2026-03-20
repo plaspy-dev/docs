@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/lk106
 id: lk106
+sidebar_key: tk_stalk106_index_lk106
 sidebar_label: LK106
 title: TK-Star - LK106
 sidebar_class_name: menu_item_tracker

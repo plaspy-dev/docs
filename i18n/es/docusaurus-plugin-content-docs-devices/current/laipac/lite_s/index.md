@@ -1,6 +1,7 @@
 ---
 slug: /laipac/lite_s
 id: lite_s
+sidebar_key: laipalite_s_index_lite_s
 sidebar_label: Lite S
 title: Laipac - Lite S
 sidebar_class_name: menu_item_tracker

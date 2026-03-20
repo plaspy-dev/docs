@@ -1,6 +1,7 @@
 ---
 slug: /concox/eg02_intelligent_motorbike_tracker
 id: eg02_intelligent_motorbike_tracker
+sidebar_key: concoeg02_intelligent_motorbike_tracker_index_eg02_intelligent_motorbike_tracker
 sidebar_label: EG02 Intelligent Motorbike Tracker
 title: Concox - EG02 Intelligent Motorbike Tracker
 sidebar_class_name: menu_item_tracker

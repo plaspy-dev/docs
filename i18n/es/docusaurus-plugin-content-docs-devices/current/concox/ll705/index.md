@@ -1,6 +1,7 @@
 ---
 slug: /concox/ll705
 id: ll705
+sidebar_key: concoll705_index_ll705
 sidebar_label: LL705
 title: Concox - LL705
 sidebar_class_name: menu_item_tracker

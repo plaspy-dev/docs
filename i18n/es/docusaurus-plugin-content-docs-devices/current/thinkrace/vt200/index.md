@@ -1,6 +1,7 @@
 ---
 slug: /thinkrace/vt200
 id: vt200
+sidebar_key: thinkracvt200_index_vt200
 sidebar_label: VT200
 title: ThinkRace - VT200
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /sentar/mini
 id: mini
+sidebar_key: sentamini_index_mini
 sidebar_label: Mini
 title: Sentar - Mini
 sidebar_class_name: menu_item_tracker

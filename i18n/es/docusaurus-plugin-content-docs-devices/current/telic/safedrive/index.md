@@ -1,6 +1,7 @@
 ---
 slug: /telic/safedrive
 id: safedrive
+sidebar_key: telisafedrive_index_safedrive
 sidebar_label: SafeDrive
 title: Telic - SafeDrive
 sidebar_class_name: menu_item_tracker

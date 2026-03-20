@@ -1,6 +1,7 @@
 ---
 slug: /arknav/ct_x8
 id: ct_x8
+sidebar_key: arknact_x8_index_ct_x8
 sidebar_label: CT-X8
 title: ArkNav - CT-X8
 sidebar_class_name: menu_item_tracker

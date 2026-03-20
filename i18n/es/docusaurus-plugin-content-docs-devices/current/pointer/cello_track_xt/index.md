@@ -1,6 +1,7 @@
 ---
 slug: /pointer/cello_track_xt
 id: cello_track_xt
+sidebar_key: pointecello_track_xt_index_cello_track_xt
 sidebar_label: Cello Track XT
 title: Pointer - Cello Track XT
 sidebar_class_name: menu_item_tracker

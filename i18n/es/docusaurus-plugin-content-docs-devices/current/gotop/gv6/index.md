@@ -1,6 +1,7 @@
 ---
 slug: /gotop/gv6
 id: gv6
+sidebar_key: gotogv6_index_gv6
 sidebar_label: GV6
 title: GOTOP - GV6
 sidebar_class_name: menu_item_tracker

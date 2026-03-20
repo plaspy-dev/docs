@@ -1,6 +1,7 @@
 ---
 slug: /skypatrol/sp5600
 id: sp5600
+sidebar_key: skypatrosp5600_index_sp5600
 sidebar_label: SP5600
 title: SkyPatrol - SP5600
 sidebar_class_name: menu_item_tracker

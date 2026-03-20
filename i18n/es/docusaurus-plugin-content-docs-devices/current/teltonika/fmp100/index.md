@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmp100
 id: fmp100
+sidebar_key: teltonikfmp100_index_fmp100
 sidebar_label: FMP100
 title: Teltonika - FMP100
 sidebar_class_name: menu_item_tracker

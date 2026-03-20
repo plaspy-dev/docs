@@ -1,6 +1,7 @@
 ---
 slug: /wanway/gs300
 id: gs300
+sidebar_key: wanwags300_index_gs300
 sidebar_label: GS300
 title: WanWay - GS300
 sidebar_class_name: menu_item_tracker

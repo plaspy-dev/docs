@@ -1,6 +1,7 @@
 ---
 slug: /coban/gps_405
 id: gps_405
+sidebar_key: cobagps_405_index_gps_405
 sidebar_label: GPS-405
 title: Coban - GPS-405
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gl33
 id: gl33
+sidebar_key: queclingl33_index_gl33
 sidebar_label: GL33
 title: QuecLink - GL33
 sidebar_class_name: menu_item_tracker

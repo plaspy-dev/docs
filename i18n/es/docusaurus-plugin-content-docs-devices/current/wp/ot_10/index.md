@@ -1,6 +1,7 @@
 ---
 slug: /wp/ot_10
 id: ot_10
+sidebar_key: wot_10_index_ot_10
 sidebar_label: OT-10
 title: WP - OT-10
 sidebar_class_name: menu_item_tracker

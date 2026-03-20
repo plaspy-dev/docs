@@ -1,6 +1,7 @@
 ---
 slug: /minifinder/xtreme
 id: xtreme
+sidebar_key: minifindextreme_index_xtreme
 sidebar_label: Xtreme
 title: MiniFinder - Xtreme
 sidebar_class_name: menu_item_tracker

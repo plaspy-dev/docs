@@ -1,6 +1,7 @@
 ---
 slug: /arusnavi/arnavi_6
 id: arnavi_6
+sidebar_key: arusnavarnavi_6_index_arnavi_6
 sidebar_label: ARNAVI 6
 title: Arusnavi - ARNAVI 6
 sidebar_class_name: menu_item_tracker

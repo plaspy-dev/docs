@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmu125
 id: fmu125
+sidebar_key: teltonikfmu125_index_fmu125
 sidebar_label: FMU125
 title: Teltonika - FMU125
 sidebar_class_name: menu_item_tracker

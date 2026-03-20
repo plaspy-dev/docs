@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk900a_b_c
 id: lk900a_b_c
+sidebar_key: lk_gplk900a_b_c_index_lk900a_b_c
 sidebar_label: LK900A/B/C
 title: LK-GPS - LK900A/B/C
 sidebar_class_name: menu_item_tracker

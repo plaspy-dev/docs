@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/v_3338
 id: v_3338
+sidebar_key: v_suv_3338_index_v_3338
 sidebar_label: V-3338
 title: V-SUN - V-3338
 sidebar_class_name: menu_item_tracker

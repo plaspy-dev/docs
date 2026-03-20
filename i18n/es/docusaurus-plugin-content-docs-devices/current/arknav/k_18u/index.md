@@ -1,6 +1,7 @@
 ---
 slug: /arknav/k_18u
 id: k_18u
+sidebar_key: arknak_18u_index_k_18u
 sidebar_label: K-18U
 title: ArkNav - K-18U
 sidebar_class_name: menu_item_tracker

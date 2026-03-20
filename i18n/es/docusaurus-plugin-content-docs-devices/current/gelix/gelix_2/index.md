@@ -1,6 +1,7 @@
 ---
 slug: /gelix/gelix_2
 id: gelix_2
+sidebar_key: geligelix_2_index_gelix_2
 sidebar_label: Gelix 2
 title: Gelix - Gelix 2
 sidebar_class_name: menu_item_tracker

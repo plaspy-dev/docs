@@ -1,6 +1,7 @@
 ---
 slug: /protrack/vt08s
 id: vt08s
+sidebar_key: protracvt08s_index_vt08s
 sidebar_label: VT08S
 title: Protrack - VT08S
 sidebar_class_name: menu_item_tracker

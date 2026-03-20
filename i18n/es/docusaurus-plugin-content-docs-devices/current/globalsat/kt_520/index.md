@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/kt_520
 id: kt_520
+sidebar_key: globalsakt_520_index_kt_520
 sidebar_label: KT-520
 title: GlobalSat - KT-520
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /parallel_track/trackbox
 id: trackbox
+sidebar_key: parallel_tractrackbox_index_trackbox
 sidebar_label: Trackbox
 title: Parallel track - Trackbox
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /laipac/kamel_s_e
 id: kamel_s_e
+sidebar_key: laipakamel_s_e_index_kamel_s_e
 sidebar_label: Kamel S - E
 title: Laipac - Kamel S - E
 sidebar_class_name: menu_item_tracker

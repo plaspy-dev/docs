@@ -1,6 +1,7 @@
 ---
 slug: /xexun/x07
 id: x07
+sidebar_key: xexux07_index_x07
 sidebar_label: X07
 title: Xexun - X07
 sidebar_class_name: menu_item_tracker

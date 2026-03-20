@@ -1,6 +1,7 @@
 ---
 slug: /nvs/sn_5001
 id: sn_5001
+sidebar_key: nvsn_5001_index_sn_5001
 sidebar_label: SN-5001
 title: NVS - SN-5001
 sidebar_class_name: menu_item_tracker

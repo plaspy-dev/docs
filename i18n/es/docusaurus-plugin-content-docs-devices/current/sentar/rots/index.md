@@ -1,6 +1,7 @@
 ---
 slug: /sentar/rots
 id: rots
+sidebar_key: sentarots_index_rots
 sidebar_label: ROTS
 title: Sentar - ROTS
 sidebar_class_name: menu_item_tracker

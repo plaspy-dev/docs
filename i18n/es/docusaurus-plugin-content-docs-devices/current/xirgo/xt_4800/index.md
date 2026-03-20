@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt_4800
 id: xt_4800
+sidebar_key: xirgxt_4800_index_xt_4800
 sidebar_label: XT-4800
 title: Xirgo - XT-4800
 sidebar_class_name: menu_item_tracker

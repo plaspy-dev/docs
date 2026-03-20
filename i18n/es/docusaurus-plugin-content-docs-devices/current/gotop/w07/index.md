@@ -1,6 +1,7 @@
 ---
 slug: /gotop/w07
 id: w07
+sidebar_key: gotow07_index_w07
 sidebar_label: W07
 title: GOTOP - W07
 sidebar_class_name: menu_item_tracker

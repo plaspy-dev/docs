@@ -1,6 +1,7 @@
 ---
 slug: /atrack/ak7v
 id: ak7v
+sidebar_key: atracak7v_index_ak7v
 sidebar_label: AK7V
 title: ATrack - AK7V
 sidebar_class_name: menu_item_tracker

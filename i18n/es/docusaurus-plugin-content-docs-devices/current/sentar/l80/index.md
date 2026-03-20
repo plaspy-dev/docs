@@ -1,6 +1,7 @@
 ---
 slug: /sentar/l80
 id: l80
+sidebar_key: sental80_index_l80
 sidebar_label: L80
 title: Sentar - L80
 sidebar_class_name: menu_item_tracker

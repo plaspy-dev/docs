@@ -1,6 +1,7 @@
 ---
 slug: /tramigo/t23
 id: t23
+sidebar_key: tramigt23_index_t23
 sidebar_label: T23
 title: Tramigo - T23
 sidebar_class_name: menu_item_tracker

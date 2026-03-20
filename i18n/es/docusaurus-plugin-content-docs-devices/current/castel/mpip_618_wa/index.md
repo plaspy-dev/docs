@@ -1,6 +1,7 @@
 ---
 slug: /castel/mpip_618_wa
 id: mpip_618_wa
+sidebar_key: castempip_618_wa_index_mpip_618_wa
 sidebar_label: MPIP-618-WA
 title: Castel - MPIP-618-WA
 sidebar_class_name: menu_item_tracker

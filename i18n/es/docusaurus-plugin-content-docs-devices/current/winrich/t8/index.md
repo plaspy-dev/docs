@@ -1,6 +1,7 @@
 ---
 slug: /winrich/t8
 id: t8
+sidebar_key: winrict8_index_t8
 sidebar_label: T8
 title: Winrich - T8
 sidebar_class_name: menu_item_tracker

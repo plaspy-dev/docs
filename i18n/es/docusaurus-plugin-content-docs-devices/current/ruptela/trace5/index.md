@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/trace5
 id: trace5
+sidebar_key: rupteltrace5_index_trace5
 sidebar_label: Trace5
 title: Ruptela - Trace5
 sidebar_class_name: menu_item_tracker

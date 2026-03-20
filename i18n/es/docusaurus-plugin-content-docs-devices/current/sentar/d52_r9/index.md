@@ -1,6 +1,7 @@
 ---
 slug: /sentar/d52_r9
 id: d52_r9
+sidebar_key: sentad52_r9_index_d52_r9
 sidebar_label: D52-R9
 title: Sentar - D52-R9
 sidebar_class_name: menu_item_tracker

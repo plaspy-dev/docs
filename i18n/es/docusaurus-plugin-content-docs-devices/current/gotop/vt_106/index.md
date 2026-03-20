@@ -1,6 +1,7 @@
 ---
 slug: /gotop/vt_106
 id: vt_106
+sidebar_key: gotovt_106_index_vt_106
 sidebar_label: VT-106
 title: GOTOP - VT-106
 sidebar_class_name: menu_item_tracker

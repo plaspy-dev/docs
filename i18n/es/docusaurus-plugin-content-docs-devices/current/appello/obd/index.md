@@ -1,6 +1,7 @@
 ---
 slug: /appello/obd
 id: obd
+sidebar_key: appellobd_index_obd
 sidebar_label: OBD
 title: Appello - OBD
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /homtecs/g50
 id: g50
+sidebar_key: homtecg50_index_g50
 sidebar_label: G50
 title: Homtecs - G50
 sidebar_class_name: menu_item_tracker

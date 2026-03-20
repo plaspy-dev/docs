@@ -1,6 +1,7 @@
 ---
 slug: /aoya/ay_t801
 id: ay_t801
+sidebar_key: aoyay_t801_index_ay_t801
 sidebar_label: AY-T801
 title: AoYa - AY-T801
 sidebar_class_name: menu_item_tracker

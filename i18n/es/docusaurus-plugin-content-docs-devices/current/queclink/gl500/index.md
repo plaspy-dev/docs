@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gl500
 id: gl500
+sidebar_key: queclingl500_index_gl500
 sidebar_label: GL500
 title: QuecLink - GL500
 sidebar_class_name: menu_item_tracker

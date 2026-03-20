@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st20u
 id: st20u
+sidebar_key: suntecst20u_index_st20u
 sidebar_label: ST20U
 title: Suntech - ST20U
 sidebar_class_name: menu_item_tracker

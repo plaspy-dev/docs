@@ -1,6 +1,7 @@
 ---
 slug: /astra_telematics/at110
 id: at110
+sidebar_key: astra_telematicat110_index_at110
 sidebar_label: AT110
 title: Astra Telematics - AT110
 sidebar_class_name: menu_item_tracker

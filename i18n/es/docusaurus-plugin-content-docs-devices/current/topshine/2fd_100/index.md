@@ -1,6 +1,7 @@
 ---
 slug: /topshine/2fd_100
 id: 2fd_100
+sidebar_key: topshin2fd_100_index_2fd_100
 sidebar_label: 2FD-100
 title: TopShine - 2FD-100
 sidebar_class_name: menu_item_tracker

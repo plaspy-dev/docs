@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/g6c
 id: g6c
+sidebar_key: gosafg6c_index_g6c
 sidebar_label: G6C
 title: Gosafe - G6C
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /careu/u1_lite_lte
 id: u1_lite_lte
+sidebar_key: careu1_lite_lte_index_u1_lite_lte
 sidebar_label: U1 Lite+ LTE
 title: CAREU - U1 Lite+ LTE
 sidebar_class_name: menu_item_tracker

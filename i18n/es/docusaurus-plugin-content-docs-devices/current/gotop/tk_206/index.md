@@ -1,6 +1,7 @@
 ---
 slug: /gotop/tk_206
 id: tk_206
+sidebar_key: gototk_206_index_tk_206
 sidebar_label: TK-206
 title: GOTOP - TK-206
 sidebar_class_name: menu_item_tracker

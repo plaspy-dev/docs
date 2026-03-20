@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmc650
 id: fmc650
+sidebar_key: teltonikfmc650_index_fmc650
 sidebar_label: FMC650
 title: Teltonika - FMC650
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /concox/jm_vg02
 id: jm_vg02
+sidebar_key: concojm_vg02_index_jm_vg02
 sidebar_label: JM-VG02
 title: Concox - JM-VG02
 sidebar_class_name: menu_item_tracker

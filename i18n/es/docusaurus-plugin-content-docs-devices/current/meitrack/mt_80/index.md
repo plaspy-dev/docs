@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/mt_80
 id: mt_80
+sidebar_key: meitracmt_80_index_mt_80
 sidebar_label: MT-80
 title: Meitrack - MT-80
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /stars_nav/pt_33
 id: pt_33
+sidebar_key: stars_napt_33_index_pt_33
 sidebar_label: PT-33
 title: Stars Nav - PT-33
 sidebar_class_name: menu_item_tracker

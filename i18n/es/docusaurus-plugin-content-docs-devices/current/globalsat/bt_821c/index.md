@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/bt_821c
 id: bt_821c
+sidebar_key: globalsabt_821c_index_bt_821c
 sidebar_label: BT-821C
 title: GlobalSat - BT-821C
 sidebar_class_name: menu_item_tracker

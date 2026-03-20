@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/ux101_al
 id: ux101_al
+sidebar_key: itrianglux101_al_index_ux101_al
 sidebar_label: UX101-AL++
 title: iTriangle - UX101-AL++
 sidebar_class_name: menu_item_tracker

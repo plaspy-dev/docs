@@ -1,6 +1,7 @@
 ---
 slug: /queclink/wts100
 id: wts100
+sidebar_key: queclinwts100_index_wts100
 sidebar_label: WTS100
 title: QuecLink - WTS100
 sidebar_class_name: menu_item_tracker

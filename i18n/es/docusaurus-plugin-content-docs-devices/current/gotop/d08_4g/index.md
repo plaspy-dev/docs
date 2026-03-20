@@ -1,6 +1,7 @@
 ---
 slug: /gotop/d08_4g
 id: d08_4g
+sidebar_key: gotod08_4g_index_d08_4g
 sidebar_label: D08-4G
 title: GOTOP - D08-4G
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /stl/stl060
 id: stl060
+sidebar_key: ststl060_index_stl060
 sidebar_label: STL060
 title: STL - STL060
 sidebar_class_name: menu_item_tracker

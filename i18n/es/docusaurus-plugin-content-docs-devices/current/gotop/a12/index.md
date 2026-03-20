@@ -1,6 +1,7 @@
 ---
 slug: /gotop/a12
 id: a12
+sidebar_key: gotoa12_index_a12
 sidebar_label: A12
 title: GOTOP - A12
 sidebar_class_name: menu_item_tracker

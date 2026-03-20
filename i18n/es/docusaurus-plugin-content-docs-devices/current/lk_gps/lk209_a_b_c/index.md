@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk209_a_b_c
 id: lk209_a_b_c
+sidebar_key: lk_gplk209_a_b_c_index_lk209_a_b_c
 sidebar_label: LK209 A/B/C
 title: LK-GPS - LK209 A/B/C
 sidebar_class_name: menu_item_tracker

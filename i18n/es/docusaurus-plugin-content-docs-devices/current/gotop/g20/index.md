@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g20
 id: g20
+sidebar_key: gotog20_index_g20
 sidebar_label: G20
 title: GOTOP - G20
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /laipac/starfinder_kamel
 id: starfinder_kamel
+sidebar_key: laipastarfinder_kamel_index_starfinder_kamel
 sidebar_label: Starfinder KAMEL
 title: Laipac - Starfinder KAMEL
 sidebar_class_name: menu_item_tracker

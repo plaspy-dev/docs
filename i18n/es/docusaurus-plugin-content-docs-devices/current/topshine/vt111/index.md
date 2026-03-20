@@ -1,6 +1,7 @@
 ---
 slug: /topshine/vt111
 id: vt111
+sidebar_key: topshinvt111_index_vt111
 sidebar_label: VT111
 title: TopShine - VT111
 sidebar_class_name: menu_item_tracker

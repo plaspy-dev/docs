@@ -1,6 +1,7 @@
 ---
 slug: /falcom/bolero_lt2
 id: bolero_lt2
+sidebar_key: falcobolero_lt2_index_bolero_lt2
 sidebar_label: BOLERO-LT2
 title: Falcom - BOLERO-LT2
 sidebar_class_name: menu_item_tracker

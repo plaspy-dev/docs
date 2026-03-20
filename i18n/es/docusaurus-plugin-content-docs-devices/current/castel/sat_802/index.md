@@ -1,6 +1,7 @@
 ---
 slug: /castel/sat_802
 id: sat_802
+sidebar_key: castesat_802_index_sat_802
 sidebar_label: SAT-802
 title: Castel - SAT-802
 sidebar_class_name: menu_item_tracker

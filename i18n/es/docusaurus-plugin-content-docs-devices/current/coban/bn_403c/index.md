@@ -1,6 +1,7 @@
 ---
 slug: /coban/bn_403c
 id: bn_403c
+sidebar_key: cobabn_403c_index_bn_403c
 sidebar_label: BN-403C
 title: Coban - BN-403C
 sidebar_class_name: menu_item_tracker

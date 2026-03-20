@@ -1,6 +1,7 @@
 ---
 slug: /zilogic/rtu
 id: rtu
+sidebar_key: zilogirtu_index_rtu
 sidebar_label: RTU
 title: Zilogic - RTU
 sidebar_class_name: menu_item_tracker

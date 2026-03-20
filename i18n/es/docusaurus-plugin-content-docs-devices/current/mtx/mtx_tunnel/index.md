@@ -1,6 +1,7 @@
 ---
 slug: /mtx/mtx_tunnel
 id: mtx_tunnel
+sidebar_key: mtmtx_tunnel_index_mtx_tunnel
 sidebar_label: MTX Tunnel
 title: Mtx - MTX Tunnel
 sidebar_class_name: menu_item_tracker

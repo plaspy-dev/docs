@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/lt_520p
 id: lt_520p
+sidebar_key: globalsalt_520p_index_lt_520p
 sidebar_label: LT-520P
 title: GlobalSat - LT-520P
 sidebar_class_name: menu_item_tracker

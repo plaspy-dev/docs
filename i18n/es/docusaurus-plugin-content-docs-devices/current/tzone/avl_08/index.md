@@ -1,6 +1,7 @@
 ---
 slug: /tzone/avl_08
 id: avl_08
+sidebar_key: tzonavl_08_index_avl_08
 sidebar_label: AVL-08
 title: TZone - AVL-08
 sidebar_class_name: menu_item_tracker

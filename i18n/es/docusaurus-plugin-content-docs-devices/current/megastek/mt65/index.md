@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt65
 id: mt65
+sidebar_key: megastemt65_index_mt65
 sidebar_label: MT65
 title: Megastek - MT65
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /okb_tehnoavtomatika/mpu_01
 id: mpu_01
+sidebar_key: okb_tehnoavtomatikmpu_01_index_mpu_01
 sidebar_label: MPU-01
 title: OKB Tehnoavtomatika - MPU-01
 sidebar_class_name: menu_item_tracker

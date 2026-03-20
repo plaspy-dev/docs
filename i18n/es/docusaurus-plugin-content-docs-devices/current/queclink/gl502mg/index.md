@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gl502mg
 id: gl502mg
+sidebar_key: queclingl502mg_index_gl502mg
 sidebar_label: GL502MG
 title: QuecLink - GL502MG
 sidebar_class_name: menu_item_tracker

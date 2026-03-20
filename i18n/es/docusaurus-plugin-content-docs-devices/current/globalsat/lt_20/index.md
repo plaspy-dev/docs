@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/lt_20
 id: lt_20
+sidebar_key: globalsalt_20_index_lt_20
 sidebar_label: LT-20
 title: GlobalSat - LT-20
 sidebar_class_name: menu_item_tracker

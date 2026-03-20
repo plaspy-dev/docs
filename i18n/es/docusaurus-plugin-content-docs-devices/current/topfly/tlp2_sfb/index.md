@@ -1,6 +1,7 @@
 ---
 slug: /topfly/tlp2_sfb
 id: tlp2_sfb
+sidebar_key: topfltlp2_sfb_index_tlp2_sfb
 sidebar_label: TLP2-SFB
 title: TopFly - TLP2-SFB
 sidebar_class_name: menu_item_tracker

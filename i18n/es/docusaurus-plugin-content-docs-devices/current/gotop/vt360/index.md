@@ -1,6 +1,7 @@
 ---
 slug: /gotop/vt360
 id: vt360
+sidebar_key: gotovt360_index_vt360
 sidebar_label: VT360
 title: GOTOP - VT360
 sidebar_class_name: menu_item_tracker

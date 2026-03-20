@@ -1,6 +1,7 @@
 ---
 slug: /enfora/gsm_5108
 id: gsm_5108
+sidebar_key: enforgsm_5108_index_gsm_5108
 sidebar_label: GSM 5108
 title: Enfora - GSM 5108
 sidebar_class_name: menu_item_tracker

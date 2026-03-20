@@ -1,6 +1,7 @@
 ---
 slug: /hunterpro/cp60_counter
 id: cp60_counter
+sidebar_key: hunterprcp60_counter_index_cp60_counter
 sidebar_label: CP60-COUNTER
 title: HunterPro - CP60-COUNTER
 sidebar_class_name: menu_item_tracker

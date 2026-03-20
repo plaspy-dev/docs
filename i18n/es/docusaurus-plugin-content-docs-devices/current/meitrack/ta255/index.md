@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/ta255
 id: ta255
+sidebar_key: meitracta255_index_ta255
 sidebar_label: TA255
 title: Meitrack - TA255
 sidebar_class_name: menu_item_tracker

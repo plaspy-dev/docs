@@ -1,6 +1,7 @@
 ---
 slug: /topshine/tk103r
 id: tk103r
+sidebar_key: topshintk103r_index_tk103r
 sidebar_label: TK103R
 title: TopShine - TK103R
 sidebar_class_name: menu_item_tracker

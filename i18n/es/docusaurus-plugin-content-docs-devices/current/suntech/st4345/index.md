@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st4345
 id: st4345
+sidebar_key: suntecst4345_index_st4345
 sidebar_label: ST4345
 title: Suntech - ST4345
 sidebar_class_name: menu_item_tracker

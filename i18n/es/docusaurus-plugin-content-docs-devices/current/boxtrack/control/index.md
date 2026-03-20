@@ -1,6 +1,7 @@
 ---
 slug: /boxtrack/control
 id: control
+sidebar_key: boxtraccontrol_index_control
 sidebar_label: Control
 title: BoxTrack - Control
 sidebar_class_name: menu_item_tracker

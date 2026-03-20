@@ -1,6 +1,7 @@
 ---
 slug: /concox/ll303_pro
 id: ll303_pro
+sidebar_key: concoll303_pro_index_ll303_pro
 sidebar_label: LL303 Pro
 title: Concox - LL303 Pro
 sidebar_class_name: menu_item_tracker

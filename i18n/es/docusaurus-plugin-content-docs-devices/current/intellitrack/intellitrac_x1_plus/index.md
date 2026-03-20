@@ -1,6 +1,7 @@
 ---
 slug: /intellitrack/intellitrac_x1_plus
 id: intellitrac_x1_plus
+sidebar_key: intellitracintellitrac_x1_plus_index_intellitrac_x1_plus
 sidebar_label: Intellitrac X1 Plus
 title: Intellitrack - Intellitrac X1 Plus
 sidebar_class_name: menu_item_tracker

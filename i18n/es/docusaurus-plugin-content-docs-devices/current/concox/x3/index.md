@@ -1,6 +1,7 @@
 ---
 slug: /concox/x3
 id: x3
+sidebar_key: concox3_index_x3
 sidebar_label: X3
 title: Concox - X3
 sidebar_class_name: menu_item_tracker

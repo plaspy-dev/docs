@@ -1,6 +1,7 @@
 ---
 slug: /hunterpro/cp60_temp
 id: cp60_temp
+sidebar_key: hunterprcp60_temp_index_cp60_temp
 sidebar_label: CP60-TEMP
 title: HunterPro - CP60-TEMP
 sidebar_class_name: menu_item_tracker

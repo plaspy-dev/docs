@@ -1,6 +1,7 @@
 ---
 slug: /megastek/gmt_368
 id: gmt_368
+sidebar_key: megastegmt_368_index_gmt_368
 sidebar_label: GMT-368
 title: Megastek - GMT-368
 sidebar_class_name: menu_item_tracker

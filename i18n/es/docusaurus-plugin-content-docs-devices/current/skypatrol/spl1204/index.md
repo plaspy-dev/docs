@@ -1,6 +1,7 @@
 ---
 slug: /skypatrol/spl1204
 id: spl1204
+sidebar_key: skypatrospl1204_index_spl1204
 sidebar_label: SPL1204
 title: SkyPatrol - SPL1204
 sidebar_class_name: menu_item_tracker

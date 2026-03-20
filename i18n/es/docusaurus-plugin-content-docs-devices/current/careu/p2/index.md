@@ -1,6 +1,7 @@
 ---
 slug: /careu/p2
 id: p2
+sidebar_key: carep2_index_p2
 sidebar_label: P2
 title: CAREU - P2
 sidebar_class_name: menu_item_tracker

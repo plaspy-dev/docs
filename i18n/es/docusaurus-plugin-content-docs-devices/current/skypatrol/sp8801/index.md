@@ -1,6 +1,7 @@
 ---
 slug: /skypatrol/sp8801
 id: sp8801
+sidebar_key: skypatrosp8801_index_sp8801
 sidebar_label: SP8801
 title: SkyPatrol - SP8801
 sidebar_class_name: menu_item_tracker

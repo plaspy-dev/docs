@@ -1,6 +1,7 @@
 ---
 slug: /istartek/vt110_l
 id: vt110_l
+sidebar_key: istartevt110_l_index_vt110_l
 sidebar_label: VT110-L
 title: iStartek - VT110-L
 sidebar_class_name: menu_item_tracker

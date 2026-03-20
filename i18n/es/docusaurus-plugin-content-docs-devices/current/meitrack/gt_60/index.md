@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/gt_60
 id: gt_60
+sidebar_key: meitracgt_60_index_gt_60
 sidebar_label: GT-60
 title: Meitrack - GT-60
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /winrich/tk206_obd
 id: tk206_obd
+sidebar_key: winrictk206_obd_index_tk206_obd
 sidebar_label: TK206 OBD
 title: Winrich - TK206 OBD
 sidebar_class_name: menu_item_tracker

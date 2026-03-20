@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gl530mg
 id: gl530mg
+sidebar_key: queclingl530mg_index_gl530mg
 sidebar_label: GL530MG
 title: QuecLink - GL530MG
 sidebar_class_name: menu_item_tracker

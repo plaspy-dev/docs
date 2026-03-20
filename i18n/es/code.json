@@ -560,5 +560,101 @@
   "sidebar.filter.placeholder": {
     "message": "Filtrar...",
     "description": "Placeholder for sidebar filter input"
+  },
+  "cta.docsHomeBanner.eyebrow": {
+    "message": "Plataforma de rastreo GPS Plaspy"
+  },
+  "cta.docsHomeBanner.title": {
+    "message": "Explora la plataforma Plaspy y los dispositivos GPS compatibles"
+  },
+  "cta.docsHomeBanner.text": {
+    "message": "Consulta guías técnicas, documentación de la aplicación, rastreadores compatibles y recursos de configuración para obtener más valor de Plaspy."
+  },
+  "cta.docsHomeBanner.primary": {
+    "message": "Visitar Plaspy"
+  },
+  "cta.docsHomeBanner.secondary": {
+    "message": "Ver dispositivos compatibles"
+  },
+  "cta.devicesRoot.eyebrow": {
+    "message": "Dispositivos GPS compatibles"
+  },
+  "cta.devicesRoot.title": {
+    "message": "Usa rastreadores compatibles con Plaspy"
+  },
+  "cta.devicesRoot.text": {
+    "message": "Explora marcas y modelos de rastreadores GPS que pueden usarse con Plaspy para rastreo vehicular, visibilidad de flotas y monitoreo operativo."
+  },
+  "cta.devicesRoot.primary": {
+    "message": "Conocer más sobre Plaspy"
+  },
+  "cta.devicesRoot.secondary": {
+    "message": "Abrir catálogo de dispositivos"
+  },
+  "cta.deviceBrand.eyebrow": {
+    "message": "Compatibilidad de marca"
+  },
+  "cta.deviceBrand.title": {
+    "message": "Monitorea dispositivos compatibles de esta marca con Plaspy"
+  },
+  "cta.deviceBrand.text": {
+    "message": "Plaspy ayuda a las empresas a trabajar con rastreadores GPS compatibles para lograr visibilidad, reportes y control operativo diario en flotas y activos."
+  },
+  "cta.deviceBrand.primary": {
+    "message": "Conocer más sobre Plaspy"
+  },
+  "cta.deviceBrand.secondary": {
+    "message": "Ver dispositivos compatibles"
+  },
+  "cta.deviceModel.eyebrow": {
+    "message": "Plataforma de rastreo GPS Plaspy"
+  },
+  "cta.deviceModel.title": {
+    "message": "Usa rastreadores compatibles con Plaspy"
+  },
+  "cta.deviceModel.text": {
+    "message": "Monitorea vehículos, activos y actividad operativa desde una sola plataforma. Plaspy te ayuda a trabajar con rastreadores GPS compatibles para obtener visibilidad, reportes y monitoreo diario de flotas."
+  },
+  "cta.deviceModel.primary": {
+    "message": "Conocer más sobre Plaspy"
+  },
+  "cta.deviceModel.secondary": {
+    "message": "Ver dispositivos compatibles"
+  },
+  "cta.deviceConfiguration.eyebrow": {
+    "message": "Configuración del rastreador"
+  },
+  "cta.deviceConfiguration.title": {
+    "message": "¿Necesitas una plataforma para esta configuración?"
+  },
+  "cta.deviceConfiguration.text": {
+    "message": "Plaspy te ayuda a conectar rastreadores compatibles, recibir datos del dispositivo y centralizar el monitoreo desde una sola plataforma de rastreo GPS."
+  },
+  "cta.deviceConfiguration.primary": {
+    "message": "Conocer más sobre Plaspy"
+  },
+  "cta.deviceFeatures.eyebrow": {
+    "message": "Capacidades del rastreador"
+  },
+  "cta.deviceFeatures.title": {
+    "message": "Mira cómo estas funciones encajan en Plaspy"
+  },
+  "cta.deviceFeatures.text": {
+    "message": "Plaspy ayuda a convertir las capacidades de los rastreadores compatibles en visibilidad, monitoreo y flujos operativos útiles para vehículos y activos."
+  },
+  "cta.deviceFeatures.primary": {
+    "message": "Conocer más sobre Plaspy"
+  },
+  "cta.deviceProtocol.eyebrow": {
+    "message": "Comunicación del rastreador"
+  },
+  "cta.deviceProtocol.title": {
+    "message": "¿Buscas una plataforma que funcione con protocolos compatibles?"
+  },
+  "cta.deviceProtocol.text": {
+    "message": "Plaspy ayuda a recibir datos de rastreadores compatibles y a organizar el monitoreo, la visibilidad y los reportes en un solo lugar."
+  },
+  "cta.deviceProtocol.primary": {
+    "message": "Conocer más sobre Plaspy"
   }
 }

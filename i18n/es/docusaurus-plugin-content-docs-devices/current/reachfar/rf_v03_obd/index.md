@@ -1,6 +1,7 @@
 ---
 slug: /reachfar/rf_v03_obd
 id: rf_v03_obd
+sidebar_key: reachfarf_v03_obd_index_rf_v03_obd
 sidebar_label: RF-V03-OBD
 title: Reachfar - RF-V03-OBD
 sidebar_class_name: menu_item_tracker

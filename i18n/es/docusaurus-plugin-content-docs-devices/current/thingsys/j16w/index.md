@@ -1,6 +1,7 @@
 ---
 slug: /thingsys/j16w
 id: j16w
+sidebar_key: thingsyj16w_index_j16w
 sidebar_label: J16W
 title: ThingSys - J16W
 sidebar_class_name: menu_item_tracker

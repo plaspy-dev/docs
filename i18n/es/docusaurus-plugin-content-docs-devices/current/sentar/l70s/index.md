@@ -1,6 +1,7 @@
 ---
 slug: /sentar/l70s
 id: l70s
+sidebar_key: sental70s_index_l70s
 sidebar_label: L70S
 title: Sentar - L70S
 sidebar_class_name: menu_item_tracker

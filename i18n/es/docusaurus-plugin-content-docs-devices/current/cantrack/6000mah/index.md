@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/6000mah
 id: 6000mah
+sidebar_key: cantrac6000mah_index_6000mah
 sidebar_label: 6000mAh
 title: CanTrack - 6000mAh
 sidebar_class_name: menu_item_tracker

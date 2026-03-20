@@ -1,6 +1,7 @@
 ---
 slug: /topfly/pioneer_x100
 id: pioneer_x100
+sidebar_key: topflpioneer_x100_index_pioneer_x100
 sidebar_label: Pioneer X100
 title: TopFly - Pioneer X100
 sidebar_class_name: menu_item_tracker

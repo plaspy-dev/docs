@@ -1,6 +1,7 @@
 ---
 slug: /careu/ez2
 id: ez2
+sidebar_key: careez2_index_ez2
 sidebar_label: EZ2
 title: CAREU - EZ2
 sidebar_class_name: menu_item_tracker

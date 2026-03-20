@@ -1,6 +1,7 @@
 ---
 slug: /topten/tk510
 id: tk510
+sidebar_key: toptetk510_index_tk510
 sidebar_label: TK510
 title: TopTen - TK510
 sidebar_class_name: menu_item_tracker

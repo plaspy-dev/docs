@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk800
 id: lk800
+sidebar_key: lk_gplk800_index_lk800
 sidebar_label: LK800
 title: LK-GPS - LK800
 sidebar_class_name: menu_item_tracker

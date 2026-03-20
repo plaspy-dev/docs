@@ -1,6 +1,7 @@
 ---
 slug: /skypatrol/sp4603
 id: sp4603
+sidebar_key: skypatrosp4603_index_sp4603
 sidebar_label: SP4603
 title: SkyPatrol - SP4603
 sidebar_class_name: menu_item_tracker

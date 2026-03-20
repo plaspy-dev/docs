@@ -1,6 +1,7 @@
 ---
 slug: /topfly/t8803_pro
 id: t8803_pro
+sidebar_key: topflt8803_pro_index_t8803_pro
 sidebar_label: T8803 PRO
 title: TopFly - T8803 PRO
 sidebar_class_name: menu_item_tracker

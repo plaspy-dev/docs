@@ -1,6 +1,7 @@
 ---
 slug: /castel/idd_213gl
 id: idd_213gl
+sidebar_key: casteidd_213gl_index_idd_213gl
 sidebar_label: IDD-213GL
 title: Castel - IDD-213GL
 sidebar_class_name: menu_item_tracker

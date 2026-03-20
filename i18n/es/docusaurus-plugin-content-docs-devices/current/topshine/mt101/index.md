@@ -1,6 +1,7 @@
 ---
 slug: /topshine/mt101
 id: mt101
+sidebar_key: topshinmt101_index_mt101
 sidebar_label: MT101
 title: TopShine - MT101
 sidebar_class_name: menu_item_tracker

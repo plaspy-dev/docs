@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tk750
 id: tk750
+sidebar_key: tk_statk750_index_tk750
 sidebar_label: TK750
 title: TK-Star - TK750
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/t366
 id: t366
+sidebar_key: meitract366_index_t366
 sidebar_label: T366
 title: Meitrack - T366
 sidebar_class_name: menu_item_tracker

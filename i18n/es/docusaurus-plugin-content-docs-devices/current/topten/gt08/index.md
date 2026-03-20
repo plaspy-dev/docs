@@ -1,6 +1,7 @@
 ---
 slug: /topten/gt08
 id: gt08
+sidebar_key: toptegt08_index_gt08
 sidebar_label: GT08
 title: TopTen - GT08
 sidebar_class_name: menu_item_tracker

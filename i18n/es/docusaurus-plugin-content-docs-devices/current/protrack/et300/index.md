@@ -1,6 +1,7 @@
 ---
 slug: /protrack/et300
 id: et300
+sidebar_key: protracet300_index_et300
 sidebar_label: ET300
 title: Protrack - ET300
 sidebar_class_name: menu_item_tracker

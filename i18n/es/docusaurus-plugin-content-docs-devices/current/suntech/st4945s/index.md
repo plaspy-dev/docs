@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st4945s
 id: st4945s
+sidebar_key: suntecst4945s_index_st4945s
 sidebar_label: ST4945(S)
 title: Suntech - ST4945(S)
 sidebar_class_name: menu_item_tracker

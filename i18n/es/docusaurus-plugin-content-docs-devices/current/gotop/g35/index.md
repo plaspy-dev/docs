@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g35
 id: g35
+sidebar_key: gotog35_index_g35
 sidebar_label: G35
 title: GOTOP - G35
 sidebar_class_name: menu_item_tracker

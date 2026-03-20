@@ -1,6 +1,7 @@
 ---
 slug: /okb_tehnoavtomatika/mta_glonass_ver12_m_rs_485
 id: mta_glonass_ver12_m_rs_485
+sidebar_key: okb_tehnoavtomatikmta_glonass_ver12_m_rs_485_index_mta_glonass_ver12_m_rs_485
 sidebar_label: MTA-Glonass (ver.12-M RS-485)
 title: OKB Tehnoavtomatika - MTA-Glonass (ver.12-M RS-485)
 sidebar_class_name: menu_item_tracker

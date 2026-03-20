@@ -1,6 +1,7 @@
 ---
 slug: /topfly/warriorx_300
 id: warriorx_300
+sidebar_key: topflwarriorx_300_index_warriorx_300
 sidebar_label: WarriorX 300
 title: TopFly - WarriorX 300
 sidebar_class_name: menu_item_tracker

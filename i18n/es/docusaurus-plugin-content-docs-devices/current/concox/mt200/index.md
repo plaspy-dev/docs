@@ -1,6 +1,7 @@
 ---
 slug: /concox/mt200
 id: mt200
+sidebar_key: concomt200_index_mt200
 sidebar_label: MT200
 title: Concox - MT200
 sidebar_class_name: menu_item_tracker

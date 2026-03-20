@@ -1,6 +1,7 @@
 ---
 slug: /thingsys/ts_v9
 id: ts_v9
+sidebar_key: thingsyts_v9_index_ts_v9
 sidebar_label: TS-V9
 title: ThingSys - TS-V9
 sidebar_class_name: menu_item_tracker

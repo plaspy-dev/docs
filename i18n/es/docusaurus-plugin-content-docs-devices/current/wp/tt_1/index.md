@@ -1,6 +1,7 @@
 ---
 slug: /wp/tt_1
 id: tt_1
+sidebar_key: wtt_1_index_tt_1
 sidebar_label: TT-1
 title: WP - TT-1
 sidebar_class_name: menu_item_tracker

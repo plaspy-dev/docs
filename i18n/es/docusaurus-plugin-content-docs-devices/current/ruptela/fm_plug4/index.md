@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/fm_plug4
 id: fm_plug4
+sidebar_key: ruptelfm_plug4_index_fm_plug4
 sidebar_label: FM-Plug4
 title: Ruptela - FM-Plug4
 sidebar_class_name: menu_item_tracker

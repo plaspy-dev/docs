@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/g797
 id: g797
+sidebar_key: gosafg797_index_g797
 sidebar_label: G797
 title: Gosafe - G797
 sidebar_class_name: menu_item_tracker

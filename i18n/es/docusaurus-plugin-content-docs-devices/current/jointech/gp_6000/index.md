@@ -1,6 +1,7 @@
 ---
 slug: /jointech/gp_6000
 id: gp_6000
+sidebar_key: jointecgp_6000_index_gp_6000
 sidebar_label: GP 6000
 title: Jointech - GP 6000
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /appello/host
 id: host
+sidebar_key: appellhost_index_host
 sidebar_label: Host
 title: Appello - Host
 sidebar_class_name: menu_item_tracker

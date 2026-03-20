@@ -1,6 +1,7 @@
 ---
 slug: /topshine/ca02
 id: ca02
+sidebar_key: topshinca02_index_ca02
 sidebar_label: CA02
 title: TopShine - CA02
 sidebar_class_name: menu_item_tracker

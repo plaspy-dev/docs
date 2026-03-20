@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmc920
 id: fmc920
+sidebar_key: teltonikfmc920_index_fmc920
 sidebar_label: FMC920
 title: Teltonika - FMC920
 sidebar_class_name: menu_item_tracker

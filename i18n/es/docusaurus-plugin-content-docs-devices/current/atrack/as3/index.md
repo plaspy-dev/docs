@@ -1,6 +1,7 @@
 ---
 slug: /atrack/as3
 id: as3
+sidebar_key: atracas3_index_as3
 sidebar_label: AS3
 title: ATrack - AS3
 sidebar_class_name: menu_item_tracker

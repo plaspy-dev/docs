@@ -1,6 +1,7 @@
 ---
 slug: /reachfar/rf_v23
 id: rf_v23
+sidebar_key: reachfarf_v23_index_rf_v23
 sidebar_label: RF-V23
 title: Reachfar - RF-V23
 sidebar_class_name: menu_item_tracker

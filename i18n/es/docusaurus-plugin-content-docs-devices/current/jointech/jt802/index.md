@@ -1,6 +1,7 @@
 ---
 slug: /jointech/jt802
 id: jt802
+sidebar_key: jointecjt802_index_jt802
 sidebar_label: JT802
 title: Jointech - JT802
 sidebar_class_name: menu_item_tracker

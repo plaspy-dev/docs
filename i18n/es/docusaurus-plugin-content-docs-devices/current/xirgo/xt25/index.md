@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt25
 id: xt25
+sidebar_key: xirgxt25_index_xt25
 sidebar_label: XT25
 title: Xirgo - XT25
 sidebar_class_name: menu_item_tracker

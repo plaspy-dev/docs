@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/g2c_db
 id: g2c_db
+sidebar_key: gosafg2c_db_index_g2c_db
 sidebar_label: G2C-DB
 title: Gosafe - G2C-DB
 sidebar_class_name: menu_item_tracker

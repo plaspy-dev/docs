@@ -1,6 +1,7 @@
 ---
 slug: /bofan/pt_80
 id: pt_80
+sidebar_key: bofapt_80_index_pt_80
 sidebar_label: PT-80
 title: Bofan - PT-80
 sidebar_class_name: menu_item_tracker

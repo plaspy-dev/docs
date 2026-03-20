@@ -1,6 +1,7 @@
 ---
 slug: /maxtrack/mtc_700
 id: mtc_700
+sidebar_key: maxtracmtc_700_index_mtc_700
 sidebar_label: MTC-700
 title: Maxtrack - MTC-700
 sidebar_class_name: menu_item_tracker

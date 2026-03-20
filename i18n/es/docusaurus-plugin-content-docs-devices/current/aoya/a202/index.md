@@ -1,6 +1,7 @@
 ---
 slug: /aoya/a202
 id: a202
+sidebar_key: aoya202_index_a202
 sidebar_label: A202
 title: AoYa - A202
 sidebar_class_name: menu_item_tracker

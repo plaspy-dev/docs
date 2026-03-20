@@ -1,6 +1,7 @@
 ---
 slug: /gnxis/4_wire
 id: 4_wire
+sidebar_key: gnxi4_wire_index_4_wire
 sidebar_label: 4-wire
 title: Gnxis - 4-wire
 sidebar_class_name: menu_item_tracker

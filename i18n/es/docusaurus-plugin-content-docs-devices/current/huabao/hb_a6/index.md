@@ -1,6 +1,7 @@
 ---
 slug: /huabao/hb_a6
 id: hb_a6
+sidebar_key: huabahb_a6_index_hb_a6
 sidebar_label: HB-A6
 title: Huabao - HB-A6
 sidebar_class_name: menu_item_tracker

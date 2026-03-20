@@ -1,6 +1,7 @@
 ---
 slug: /calmamp/ttu_700
 id: ttu_700
+sidebar_key: calmamttu_700_index_ttu_700
 sidebar_label: TTU-700
 title: CalmAmp - TTU-700
 sidebar_class_name: menu_item_tracker

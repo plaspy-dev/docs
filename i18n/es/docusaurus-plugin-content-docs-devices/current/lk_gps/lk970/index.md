@@ -1,6 +1,7 @@
 ---
 slug: /lk_gps/lk970
 id: lk970
+sidebar_key: lk_gplk970_index_lk970
 sidebar_label: LK970
 title: LK-GPS - LK970
 sidebar_class_name: menu_item_tracker

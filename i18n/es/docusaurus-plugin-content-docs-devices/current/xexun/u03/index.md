@@ -1,6 +1,7 @@
 ---
 slug: /xexun/u03
 id: u03
+sidebar_key: xexuu03_index_u03
 sidebar_label: U03
 title: Xexun - U03
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/bharat101_plus_4g_with_can
 id: bharat101_plus_4g_with_can
+sidebar_key: itrianglbharat101_plus_4g_with_can_index_bharat101_plus_4g_with_can
 sidebar_label: Bharat101 Plus 4G with CAN
 title: iTriangle - Bharat101 Plus 4G with CAN
 sidebar_class_name: menu_item_tracker

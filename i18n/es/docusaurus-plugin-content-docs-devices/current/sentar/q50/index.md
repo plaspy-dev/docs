@@ -1,6 +1,7 @@
 ---
 slug: /sentar/q50
 id: q50
+sidebar_key: sentaq50_index_q50
 sidebar_label: Q50
 title: Sentar - Q50
 sidebar_class_name: menu_item_tracker

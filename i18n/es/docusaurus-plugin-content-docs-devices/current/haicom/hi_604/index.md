@@ -1,6 +1,7 @@
 ---
 slug: /haicom/hi_604
 id: hi_604
+sidebar_key: haicohi_604_index_hi_604
 sidebar_label: HI-604
 title: Haicom - HI-604
 sidebar_class_name: menu_item_tracker

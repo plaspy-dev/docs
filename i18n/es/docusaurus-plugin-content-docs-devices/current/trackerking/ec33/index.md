@@ -1,6 +1,7 @@
 ---
 slug: /trackerking/ec33
 id: ec33
+sidebar_key: trackerkinec33_index_ec33
 sidebar_label: EC33
 title: TrackerKing - EC33
 sidebar_class_name: menu_item_tracker

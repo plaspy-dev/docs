@@ -11,13 +11,13 @@ export const brand = {
     },
     {
       "name": "D-\u041C\u0430\u044F\u043A",
-      "slug": "d",
-      "image": require("./d/tracker.jpg").default
+      "slug": "d_maiak",
+      "image": require("./d_maiak/tracker.jpg").default
     },
     {
       "name": "D-\u041C\u0430\u044F\u043A \u041C\u041E\u0422\u041E",
-      "slug": "d",
-      "image": require("./d/tracker.jpg").default
+      "slug": "d_maiak_moto",
+      "image": require("./d_maiak_moto/tracker.jpg").default
     },
     {
       "name": "DX Mayak 8.1",
@@ -26,8 +26,8 @@ export const brand = {
     },
     {
       "name": "DX \u041C\u0430\u044F\u043A",
-      "slug": "dx",
-      "image": require("./dx/logo..png").default
+      "slug": "dx_maiak",
+      "image": require("./dx_maiak/logo..png").default
     },
     {
       "name": "E-Mayak 3.1",
@@ -36,18 +36,18 @@ export const brand = {
     },
     {
       "name": "E-\u041C\u0430\u044F\u043A IP",
-      "slug": "e_ip",
-      "image": require("./e_ip/tracker.jpg").default
+      "slug": "e_maiak_ip",
+      "image": require("./e_maiak_ip/tracker.jpg").default
     },
     {
       "name": "GL-\u041C\u0430\u044F\u043A",
-      "slug": "gl",
-      "image": require("./gl/tracker.png").default
+      "slug": "gl_maiak",
+      "image": require("./gl_maiak/tracker.png").default
     },
     {
       "name": "SE-\u041C\u0430\u044F\u043A",
-      "slug": "se",
-      "image": require("./se/tracker.jpg").default
+      "slug": "se_maiak",
+      "image": require("./se_maiak/tracker.jpg").default
     },
     {
       "name": "SE\u002B Beacon",
@@ -56,98 +56,98 @@ export const brand = {
     },
     {
       "name": "SE\u002B \u041C\u0430\u044F\u043A",
-      "slug": "se",
-      "image": require("./se/logo..png").default
+      "slug": "se_maiak",
+      "image": require("./se_maiak/logo..png").default
     },
     {
       "name": "\u03B1-\u041C\u0430\u044F\u043A",
-      "slug": "",
-      "image": require(".//logo.jpg").default
+      "slug": "a_maiak",
+      "image": require("./a_maiak/logo.jpg").default
     },
     {
       "name": "\u0410\u043B\u044C\u0444\u0430-\u041C\u0430\u044F\u043A",
-      "slug": "",
-      "image": require(".//tracker.png").default
+      "slug": "alfa_maiak",
+      "image": require("./alfa_maiak/tracker.png").default
     },
     {
       "name": "\u0410\u043B\u044C\u0444\u0430-\u041C\u0430\u044F\u043A 2XL",
-      "slug": "2xl",
-      "image": require("./2xl/tracker.jpg").default
+      "slug": "alfa_maiak_2xl",
+      "image": require("./alfa_maiak_2xl/tracker.jpg").default
     },
     {
       "name": "\u0410\u043B\u044C\u0444\u0430-\u041C\u0430\u044F\u043A XL",
-      "slug": "xl",
-      "image": require("./xl/tracker.jpg").default
+      "slug": "alfa_maiak_xl",
+      "image": require("./alfa_maiak_xl/tracker.jpg").default
     },
     {
       "name": "\u0414\u0438\u0430\u043B\u043E\u0433-\u041C\u0430\u044F\u043A",
-      "slug": "",
-      "image": require(".//tracker.jpg").default
+      "slug": "dialog_maiak",
+      "image": require("./dialog_maiak/tracker.jpg").default
     },
     {
       "name": "\u041C\u0430\u044F\u043A 4.4",
-      "slug": "44",
-      "image": require("./44/tracker.png").default
+      "slug": "maiak_44",
+      "image": require("./maiak_44/tracker.png").default
     },
     {
       "name": "\u041C\u0430\u044F\u043A 4.5",
-      "slug": "45",
-      "image": require("./45/tracker.png").default
+      "slug": "maiak_45",
+      "image": require("./maiak_45/tracker.png").default
     },
     {
       "name": "\u041C\u0435\u0433\u0430-\u041C\u0430\u044F\u043A",
-      "slug": "",
-      "image": require(".//tracker.png").default
+      "slug": "mega_maiak",
+      "image": require("./mega_maiak/tracker.png").default
     },
     {
       "name": "\u041C\u0435\u0433\u0430-\u041C\u0430\u044F\u043A \u002B",
-      "slug": "",
-      "image": require(".//tracker.png").default
+      "slug": "mega_maiak",
+      "image": require("./mega_maiak/tracker.png").default
     },
     {
       "name": "\u041C\u0435\u0433\u0430-\u041C\u0430\u044F\u043A\u002B",
-      "slug": "",
-      "image": require(".//logo..png").default
+      "slug": "mega_maiak",
+      "image": require("./mega_maiak/logo..png").default
     },
     {
       "name": "\u041C\u0438\u043A\u0440\u043E-\u041C\u0430\u044F\u043A",
-      "slug": "",
-      "image": require(".//tracker.jpg").default
+      "slug": "mikro_maiak",
+      "image": require("./mikro_maiak/tracker.jpg").default
     },
     {
       "name": "\u041C\u0438\u043A\u0440\u043E-\u041C\u0430\u044F\u043A \u002B",
-      "slug": "",
-      "image": require(".//tracker.jpg").default
+      "slug": "mikro_maiak",
+      "image": require("./mikro_maiak/tracker.jpg").default
     },
     {
       "name": "\u041E\u043C\u0435\u0433\u0430",
-      "slug": "",
-      "image": require(".//tracker.png").default
+      "slug": "omega",
+      "image": require("./omega/tracker.png").default
     },
     {
       "name": "\u041E\u043C\u0435\u0433\u0430 \u041C\u0430\u044F\u043A XL",
-      "slug": "xl",
-      "image": require("./xl/tracker.png").default
+      "slug": "omega_maiak_xl",
+      "image": require("./omega_maiak_xl/tracker.png").default
     },
     {
       "name": "\u041E\u043C\u0435\u0433\u0430-\u041C\u0430\u044F\u043A \u002B",
-      "slug": "",
-      "image": require(".//tracker.jpg").default
+      "slug": "omega_maiak",
+      "image": require("./omega_maiak/tracker.jpg").default
     },
     {
       "name": "\u041E\u043C\u0435\u0433\u0430-\u041C\u0430\u044F\u043A XL",
-      "slug": "xl",
-      "image": require("./xl/logo..png").default
+      "slug": "omega_maiak_xl",
+      "image": require("./omega_maiak_xl/logo..png").default
     },
     {
       "name": "\u041E\u043C\u0435\u0433\u0430-\u041C\u0430\u044F\u043A\u002B",
-      "slug": "",
-      "image": require(".//logo..png").default
+      "slug": "omega_maiak",
+      "image": require("./omega_maiak/logo..png").default
     },
     {
       "name": "\u0422\u0435\u0440\u043C\u043E",
-      "slug": "",
-      "image": require(".//tracker.jpg").default
+      "slug": "termo",
+      "image": require("./termo/tracker.jpg").default
     }
   ]
 };

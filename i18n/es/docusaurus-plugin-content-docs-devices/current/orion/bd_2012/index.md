@@ -1,6 +1,7 @@
 ---
 slug: /orion/bd_2012
 id: bd_2012
+sidebar_key: oriobd_2012_index_bd_2012
 sidebar_label: BD-2012
 title: Orion - BD-2012
 sidebar_class_name: menu_item_tracker

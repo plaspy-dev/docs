@@ -1,6 +1,7 @@
 ---
 slug: /topshine/mt08b
 id: mt08b
+sidebar_key: topshinmt08b_index_mt08b
 sidebar_label: MT08B
 title: TopShine - MT08B
 sidebar_class_name: menu_item_tracker

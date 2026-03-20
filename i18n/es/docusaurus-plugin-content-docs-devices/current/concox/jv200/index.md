@@ -1,6 +1,7 @@
 ---
 slug: /concox/jv200
 id: jv200
+sidebar_key: concojv200_index_jv200
 sidebar_label: JV200
 title: Concox - JV200
 sidebar_class_name: menu_item_tracker

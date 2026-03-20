@@ -1,6 +1,7 @@
 ---
 slug: /concox/gv20
 id: gv20
+sidebar_key: concogv20_index_gv20
 sidebar_label: GV20
 title: Concox - GV20
 sidebar_class_name: menu_item_tracker

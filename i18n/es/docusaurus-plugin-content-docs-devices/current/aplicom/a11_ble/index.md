@@ -1,6 +1,7 @@
 ---
 slug: /aplicom/a11_ble
 id: a11_ble
+sidebar_key: aplicoa11_ble_index_a11_ble
 sidebar_label: A11 BLE
 title: Aplicom - A11 BLE
 sidebar_class_name: menu_item_tracker

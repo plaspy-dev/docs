@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/mvt_600
 id: mvt_600
+sidebar_key: meitracmvt_600_index_mvt_600
 sidebar_label: MVT-600
 title: Meitrack - MVT-600
 sidebar_class_name: menu_item_tracker

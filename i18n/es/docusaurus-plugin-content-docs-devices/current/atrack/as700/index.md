@@ -1,6 +1,7 @@
 ---
 slug: /atrack/as700
 id: as700
+sidebar_key: atracas700_index_as700
 sidebar_label: AS700
 title: ATrack - AS700
 sidebar_class_name: menu_item_tracker

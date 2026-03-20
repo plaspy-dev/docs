@@ -1,6 +1,7 @@
 ---
 slug: /coban/gps310
 id: gps310
+sidebar_key: cobagps310_index_gps310
 sidebar_label: GPS310
 title: Coban - GPS310
 sidebar_class_name: menu_item_tracker

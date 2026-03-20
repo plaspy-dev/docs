@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g36
 id: g36
+sidebar_key: gotog36_index_g36
 sidebar_label: G36
 title: GOTOP - G36
 sidebar_class_name: menu_item_tracker

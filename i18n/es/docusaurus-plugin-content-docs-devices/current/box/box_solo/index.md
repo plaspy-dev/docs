@@ -1,6 +1,7 @@
 ---
 slug: /box/box_solo
 id: box_solo
+sidebar_key: bobox_solo_index_box_solo
 sidebar_label: Box Solo
 title: Box - Box Solo
 sidebar_class_name: menu_item_tracker

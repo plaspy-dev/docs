@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st6560
 id: st6560
+sidebar_key: suntecst6560_index_st6560
 sidebar_label: ST6560
 title: Suntech - ST6560
 sidebar_class_name: menu_item_tracker

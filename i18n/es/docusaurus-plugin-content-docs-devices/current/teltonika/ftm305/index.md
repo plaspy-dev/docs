@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/ftm305
 id: ftm305
+sidebar_key: teltonikftm305_index_ftm305
 sidebar_label: FTM305
 title: Teltonika - FTM305
 sidebar_class_name: menu_item_tracker

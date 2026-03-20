@@ -1,6 +1,7 @@
 ---
 slug: /gotop/c780
 id: c780
+sidebar_key: gotoc780_index_c780
 sidebar_label: C780
 title: GOTOP - C780
 sidebar_class_name: menu_item_tracker

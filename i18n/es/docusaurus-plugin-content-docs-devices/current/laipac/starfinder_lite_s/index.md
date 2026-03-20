@@ -1,6 +1,7 @@
 ---
 slug: /laipac/starfinder_lite_s
 id: starfinder_lite_s
+sidebar_key: laipastarfinder_lite_s_index_starfinder_lite_s
 sidebar_label: Starfinder Lite S
 title: Laipac - Starfinder Lite S
 sidebar_class_name: menu_item_tracker

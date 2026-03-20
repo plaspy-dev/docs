@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tk910
 id: tk910
+sidebar_key: tk_statk910_index_tk910
 sidebar_label: TK910
 title: TK-Star - TK910
 sidebar_class_name: menu_item_tracker

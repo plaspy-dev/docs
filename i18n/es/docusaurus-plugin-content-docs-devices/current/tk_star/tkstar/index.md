@@ -1,6 +1,7 @@
 ---
 slug: /tk_star/tkstar
 id: tkstar
+sidebar_key: tk_statkstar_index_tkstar
 sidebar_label: TKSTAR
 title: TK-Star - TKSTAR
 sidebar_class_name: menu_item_tracker

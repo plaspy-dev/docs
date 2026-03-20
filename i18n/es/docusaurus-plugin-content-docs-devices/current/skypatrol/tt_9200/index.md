@@ -1,6 +1,7 @@
 ---
 slug: /skypatrol/tt_9200
 id: tt_9200
+sidebar_key: skypatrott_9200_index_tt_9200
 sidebar_label: TT 9200
 title: SkyPatrol - TT 9200
 sidebar_class_name: menu_item_tracker

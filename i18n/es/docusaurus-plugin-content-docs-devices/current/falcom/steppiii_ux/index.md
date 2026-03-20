@@ -1,6 +1,7 @@
 ---
 slug: /falcom/steppiii_ux
 id: steppiii_ux
+sidebar_key: falcosteppiii_ux_index_steppiii_ux
 sidebar_label: STEPPIII-UX
 title: Falcom - STEPPIII-UX
 sidebar_class_name: menu_item_tracker

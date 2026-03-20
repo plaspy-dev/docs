@@ -1,6 +1,7 @@
 ---
 slug: /gosafe/gtu300
 id: gtu300
+sidebar_key: gosafgtu300_index_gtu300
 sidebar_label: GTU300
 title: Gosafe - GTU300
 sidebar_class_name: menu_item_tracker

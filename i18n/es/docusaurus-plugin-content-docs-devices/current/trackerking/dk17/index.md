@@ -1,6 +1,7 @@
 ---
 slug: /trackerking/dk17
 id: dk17
+sidebar_key: trackerkindk17_index_dk17
 sidebar_label: DK17
 title: TrackerKing - DK17
 sidebar_class_name: menu_item_tracker

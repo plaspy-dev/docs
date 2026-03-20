@@ -1,6 +1,7 @@
 ---
 slug: /wanway/h29p
 id: h29p
+sidebar_key: wanwah29p_index_h29p
 sidebar_label: H29P
 title: WanWay - H29P
 sidebar_class_name: menu_item_tracker

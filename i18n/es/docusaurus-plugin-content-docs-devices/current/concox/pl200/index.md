@@ -1,6 +1,7 @@
 ---
 slug: /concox/pl200
 id: pl200
+sidebar_key: concopl200_index_pl200
 sidebar_label: PL200
 title: Concox - PL200
 sidebar_class_name: menu_item_tracker

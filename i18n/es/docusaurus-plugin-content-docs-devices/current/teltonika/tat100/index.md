@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/tat100
 id: tat100
+sidebar_key: teltoniktat100_index_tat100
 sidebar_label: TAT100
 title: Teltonika - TAT100
 sidebar_class_name: menu_item_tracker

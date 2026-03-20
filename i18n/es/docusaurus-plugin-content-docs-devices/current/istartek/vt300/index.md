@@ -1,6 +1,7 @@
 ---
 slug: /istartek/vt300
 id: vt300
+sidebar_key: istartevt300_index_vt300
 sidebar_label: VT300
 title: iStartek - VT300
 sidebar_class_name: menu_item_tracker

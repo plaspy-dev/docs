@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/fm_tco4_lcv
 id: fm_tco4_lcv
+sidebar_key: ruptelfm_tco4_lcv_index_fm_tco4_lcv
 sidebar_label: FM-Tco4 LCV
 title: Ruptela - FM-Tco4 LCV
 sidebar_class_name: menu_item_tracker

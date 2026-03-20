@@ -1,6 +1,7 @@
 ---
 slug: /aquila/bharat_101
 id: bharat_101
+sidebar_key: aquilbharat_101_index_bharat_101
 sidebar_label: BHARAT 101
 title: Aquila - BHARAT 101
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /concox/tr06
 id: tr06
+sidebar_key: concotr06_index_tr06
 sidebar_label: TR06
 title: Concox - TR06
 sidebar_class_name: menu_item_tracker

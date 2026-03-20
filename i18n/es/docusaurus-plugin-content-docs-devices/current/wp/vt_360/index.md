@@ -1,6 +1,7 @@
 ---
 slug: /wp/vt_360
 id: vt_360
+sidebar_key: wvt_360_index_vt_360
 sidebar_label: VT-360
 title: WP - VT-360
 sidebar_class_name: menu_item_tracker

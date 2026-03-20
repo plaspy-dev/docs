@@ -1,6 +1,7 @@
 ---
 slug: /bofan/b5
 id: b5
+sidebar_key: bofab5_index_b5
 sidebar_label: B5
 title: Bofan - B5
 sidebar_class_name: menu_item_tracker

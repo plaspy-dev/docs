@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g07e
 id: g07e
+sidebar_key: gotog07e_index_g07e
 sidebar_label: G07E
 title: GOTOP - G07E
 sidebar_class_name: menu_item_tracker

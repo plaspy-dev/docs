@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gt300
 id: gt300
+sidebar_key: queclingt300_index_gt300
 sidebar_label: GT300
 title: QuecLink - GT300
 sidebar_class_name: menu_item_tracker

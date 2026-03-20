@@ -1,6 +1,7 @@
 ---
 slug: /arusnavi/integral_4
 id: integral_4
+sidebar_key: arusnavintegral_4_index_integral_4
 sidebar_label: Integral 4
 title: Arusnavi - Integral 4
 sidebar_class_name: menu_item_tracker

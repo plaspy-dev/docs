@@ -1,6 +1,7 @@
 ---
 slug: /topfly/tlp1_sf
 id: tlp1_sf
+sidebar_key: topfltlp1_sf_index_tlp1_sf
 sidebar_label: TLP1-SF
 title: TopFly - TLP1-SF
 sidebar_class_name: menu_item_tracker

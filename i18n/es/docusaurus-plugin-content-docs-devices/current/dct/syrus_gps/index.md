@@ -1,6 +1,7 @@
 ---
 slug: /dct/syrus_gps
 id: syrus_gps
+sidebar_key: dcsyrus_gps_index_syrus_gps
 sidebar_label: Syrus GPS
 title: DCT - Syrus GPS
 sidebar_class_name: menu_item_tracker

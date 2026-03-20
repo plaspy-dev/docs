@@ -1,6 +1,7 @@
 ---
 slug: /queclink/sc350mg
 id: sc350mg
+sidebar_key: queclinsc350mg_index_sc350mg
 sidebar_label: SC350MG
 title: QuecLink - SC350MG
 sidebar_class_name: menu_item_tracker

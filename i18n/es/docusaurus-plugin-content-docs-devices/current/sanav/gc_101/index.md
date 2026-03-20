@@ -1,6 +1,7 @@
 ---
 slug: /sanav/gc_101
 id: gc_101
+sidebar_key: sanagc_101_index_gc_101
 sidebar_label: GC-101
 title: Sanav - GC-101
 sidebar_class_name: menu_item_tracker

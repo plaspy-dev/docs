@@ -1,6 +1,7 @@
 ---
 slug: /trackerking/jx01
 id: jx01
+sidebar_key: trackerkinjx01_index_jx01
 sidebar_label: JX01
 title: TrackerKing - JX01
 sidebar_class_name: menu_item_tracker

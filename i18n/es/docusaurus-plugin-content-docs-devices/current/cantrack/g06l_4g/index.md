@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/g06l_4g
 id: g06l_4g
+sidebar_key: cantracg06l_4g_index_g06l_4g
 sidebar_label: G06L-4G
 title: CanTrack - G06L-4G
 sidebar_class_name: menu_item_tracker

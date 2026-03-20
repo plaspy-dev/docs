@@ -1,6 +1,7 @@
 ---
 slug: /totemtech/at21_4g
 id: at21_4g
+sidebar_key: totemtecat21_4g_index_at21_4g
 sidebar_label: AT21-4G
 title: Totemtech - AT21-4G
 sidebar_class_name: menu_item_tracker

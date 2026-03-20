@@ -1,6 +1,7 @@
 ---
 slug: /flextrack/lommy_pro
 id: lommy_pro
+sidebar_key: flextraclommy_pro_index_lommy_pro
 sidebar_label: Lommy Pro
 title: Flextrack - Lommy Pro
 sidebar_class_name: menu_item_tracker

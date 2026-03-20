@@ -1,6 +1,7 @@
 ---
 slug: /gotop/r18
 id: r18
+sidebar_key: gotor18_index_r18
 sidebar_label: R18
 title: GOTOP - R18
 sidebar_class_name: menu_item_tracker

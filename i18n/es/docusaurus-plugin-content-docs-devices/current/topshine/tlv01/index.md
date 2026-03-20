@@ -1,6 +1,7 @@
 ---
 slug: /topshine/tlv01
 id: tlv01
+sidebar_key: topshintlv01_index_tlv01
 sidebar_label: TLV01
 title: TopShine - TLV01
 sidebar_class_name: menu_item_tracker

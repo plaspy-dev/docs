@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xg37
 id: xg37
+sidebar_key: xirgxg37_index_xg37
 sidebar_label: XG37
 title: Xirgo - XG37
 sidebar_class_name: menu_item_tracker

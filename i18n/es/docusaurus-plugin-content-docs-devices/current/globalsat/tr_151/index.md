@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/tr_151
 id: tr_151
+sidebar_key: globalsatr_151_index_tr_151
 sidebar_label: TR-151
 title: GlobalSat - TR-151
 sidebar_class_name: menu_item_tracker

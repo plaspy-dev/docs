@@ -1,6 +1,7 @@
 ---
 slug: /cantrack/tk06a
 id: tk06a
+sidebar_key: cantractk06a_index_tk06a
 sidebar_label: TK06A
 title: CanTrack - TK06A
 sidebar_class_name: menu_item_tracker

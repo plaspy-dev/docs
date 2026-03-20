@@ -1,6 +1,7 @@
 ---
 slug: /falcom/fox3_3g
 id: fox3_3g
+sidebar_key: falcofox3_3g_index_fox3_3g
 sidebar_label: FOX3-3G
 title: Falcom - FOX3-3G
 sidebar_class_name: menu_item_tracker

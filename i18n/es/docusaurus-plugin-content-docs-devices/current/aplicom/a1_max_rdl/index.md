@@ -1,6 +1,7 @@
 ---
 slug: /aplicom/a1_max_rdl
 id: a1_max_rdl
+sidebar_key: aplicoa1_max_rdl_index_a1_max_rdl
 sidebar_label: A1 MAX RDL
 title: Aplicom - A1 MAX RDL
 sidebar_class_name: menu_item_tracker

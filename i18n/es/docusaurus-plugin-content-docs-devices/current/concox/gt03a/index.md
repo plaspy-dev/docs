@@ -1,6 +1,7 @@
 ---
 slug: /concox/gt03a
 id: gt03a
+sidebar_key: concogt03a_index_gt03a
 sidebar_label: GT03A
 title: Concox - GT03A
 sidebar_class_name: menu_item_tracker

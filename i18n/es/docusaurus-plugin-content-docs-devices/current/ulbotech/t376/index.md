@@ -1,6 +1,7 @@
 ---
 slug: /ulbotech/t376
 id: t376
+sidebar_key: ulbotect376_index_t376
 sidebar_label: T376
 title: Ulbotech - T376
 sidebar_class_name: menu_item_tracker

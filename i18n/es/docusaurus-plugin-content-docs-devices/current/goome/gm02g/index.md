@@ -1,6 +1,7 @@
 ---
 slug: /goome/gm02g
 id: gm02g
+sidebar_key: goomgm02g_index_gm02g
 sidebar_label: GM02G
 title: Goome - GM02G
 sidebar_class_name: menu_item_tracker

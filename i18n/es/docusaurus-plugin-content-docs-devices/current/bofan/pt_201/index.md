@@ -1,6 +1,7 @@
 ---
 slug: /bofan/pt_201
 id: pt_201
+sidebar_key: bofapt_201_index_pt_201
 sidebar_label: PT-201
 title: Bofan - PT-201
 sidebar_class_name: menu_item_tracker

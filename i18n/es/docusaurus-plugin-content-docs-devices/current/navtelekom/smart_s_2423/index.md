@@ -4,60 +4,58 @@ id: smart_s_2423
 sidebar_label: SMART S-2423
 title: Navtelekom - SMART S-2423
 sidebar_class_name: menu_item_tracker
-description: Rastreador compacto Navtelekom SMART S-2423 con GLONASS/GPS compatible con Plaspy para flotas y telemetría remota
+description: Rastreador vehicular GLONASS/GPS compacto compatible con Plaspy para monitoreo de flotas, diagnósticos remotos y telemetría flexible
 keywords:
-  - Rastreador Navtelekom SMART S-2423
-  - SMART S-2423
-  - rastreador Navtelekom
-  - rastreador GLONASS GPS
-  - rastreador vehicular 2G
+  - navtelekom smart s-2423
+  - rastreador smart s-2423
+  - rastreador navtelekom
+  - compatible con plaspy
+  - rastreador glonass gps
+  - rastreador vehicular
   - seguimiento de flotas
-  - monitoreo de activos
-  - RS-485 1-Wire
-  - rastreador Bluetooth 4.0
-  - rastreador compatible con Plaspy
+  - rastreador 2g gsm
+  - rs-485 1-wire bluetooth
+  - diagnosticos remotos
 ---
 
 # Navtelekom - SMART S-2423
 
 ![SMART S-2423](./tracker.jpeg)
 
-El SMART S-2423 es un rastreador vehicular compacto de Navtelekom que combina posicionamiento GLONASS y GPS con un módem GSM integrado y antenas internas. Diseñado para telemática confiable y seguimiento en tiempo real, el dispositivo incluye una batería interna recargable de respaldo y un factor de forma reducido, pensado para la gestión de flotas y el monitoreo de activos.
+El SMART S-2423 es un rastreador vehicular GLONASS/GPS compacto diseñado para ofrecer telemática fiable y localización en tiempo real. Integra un módem GSM con antenas internas de alta sensibilidad para GLONASS/GPS y GSM, además de una batería de respaldo recargable que permite mantener los reportes durante cortes temporales de energía. El equipo dispone de múltiples interfaces físicas y entradas/salidas configurables para cubrir necesidades habituales de telemetría y control en vehículos.
 
-Como dispositivo compatible con Plaspy, el SMART S-2423 puede integrarse en plataformas de monitoreo existentes para ofrecer ubicación en vivo, telemetría e informes de eventos. Las herramientas de configuración y gestión remota proporcionadas por el fabricante facilitan el mantenimiento de ajustes y versiones de software, lo que convierte al rastreador en una opción práctica para organizaciones que desean añadir activos rastreados a Plaspy para una mayor visibilidad operativa.
+Como dispositivo compatible con Plaspy, el SMART S-2423 puede enviar posiciones y telemetría a la plataforma Plaspy para monitoreo en vivo, alertas y generación de reportes. Sus opciones de configuración y gestión remota mediante NTC Configurator y el sistema DRC facilitan su inclusión en despliegues administrados y en flotas mixtas supervisadas a través de Plaspy.
 
-## Características principales
+## Aspectos clave
 
-- Compatible con Plaspy para seguimiento de flotas en tiempo real y agregación de telemetría.  
-- Posicionamiento GLONASS y GPS integrado con antenas internas para obtener fijaciones de ubicación confiables.  
-- Batería de respaldo recargable integrada para mantener los reportes durante interrupciones temporales de energía.  
-- Módem GSM 2G con una sola SIM para conectividad celular sencilla.  
-- Múltiples interfaces físicas, incluyendo RS-485, 1-Wire y Bluetooth 4.0, para telemetría y periféricos flexibles.  
-- Entradas universales y salidas configurables para reportar y actuar sobre ignición, puertas, alarmas y eventos de control.  
-- Herramientas de soporte como NTC Configurator y gestión remota DRC que simplifican la configuración y el mantenimiento del dispositivo.
+- Rastreador GLONASS/GPS totalmente compatible con Plaspy para seguimiento en tiempo real e integración de flotas.
+- Módem 2G GSM integrado con antenas internas y soporte para una sola SIM para conectividad celular.
+- Factor de forma compacto para vehículos con batería de respaldo recargable que permite reportes durante interrupciones de energía.
+- Múltiples interfaces físicas, incluyendo RS-485, 1-Wire y Bluetooth 4.0, para conectar periféricos y sensores de forma flexible.
+- Tres entradas universales y dos salidas configurables para monitorear estado de ignición, puertas y alarmas, y para acciones de control remoto.
+- Protección de alimentación y entradas diseñada para entornos eléctricos vehiculares que mejora la durabilidad.
+- Documentación de configuración y soporte de gestión remota vía NTC Configurator y DRC para firmware y diagnósticos.
 
 ## Cómo funciona con Plaspy
 
-Cuando se conecta a Plaspy, el SMART S-2423 transmite posición y telemetría a la plataforma, donde se utilizan para monitoreo en vivo, alertas e informes históricos. Plaspy incorpora las fijaciones de ubicación junto con los estados de sensores y entradas para ofrecer a los gestores de flota una vista operativa consolidada.
+Al conectarlo a Plaspy, el SMART S-2423 envía posiciones y telemetría a la plataforma, donde los datos se muestran en mapas, paneles y reportes. Plaspy consume las posiciones GNSS y las correlaciona con entradas, salidas y datos de sensores del dispositivo para que los administradores de flota puedan supervisar el estado y responder a eventos.
 
-- Actualizaciones de ubicación en vivo y el historial de rutas visibles en los mapas y paneles de Plaspy.  
-- Reportes de eventos y estados desde las entradas universales reflejados como alertas y registros de actividad.  
-- Telemetría procedente de las interfaces RS-485 y 1-Wire disponible para diagnóstico y monitoreo de sensores.  
-- Salidas configurables que se pueden activar mediante reglas o controles en Plaspy para inmovilización o flujos de trabajo de control de acceso.  
-- Bluetooth 4.0 permite la conexión con sensores inalámbricos y balizas compatibles cuyos datos pueden asociarse con los activos rastreados.
+- Actualizaciones de ubicación y telemetría en tiempo real disponibles en Plaspy para mapas, geocercas e historial de rutas.
+- Las entradas universales reportan estado de ignición, puertas y alarmas, pudiendo activar alertas y reglas de automatización en Plaspy.
+- La telemetría y diagnósticos provenientes de las interfaces RS-485 y 1-Wire pueden incorporarse en reportes y flujos de trabajo de mantenimiento en Plaspy.
+- Las salidas configurables permiten escenarios de control remoto, como inmovilizador o bloqueo, coordinados mediante políticas de Plaspy.
+- Bluetooth 4.0 posibilita conexiones inalámbricas con sensores y balizas que Plaspy puede reflejar en la monitorización y la lógica de eventos.
 
-## Casos de uso típicos
+## Casos de uso frecuentes
 
-- Gestión de flotas con seguimiento en tiempo real, reproducción de rutas y supervisión operativa.  
-- Control antirrobo e inmovilización vinculado a reglas basadas en eventos en la plataforma de monitoreo.  
-- Diagnóstico remoto y mantenimiento preventivo mediante interfaces seriales y de sensores.  
-- Monitoreo de temperatura o proximidad mediante sensores Bluetooth emparejados para supervisión de carga.  
-- Seguimiento general de vehículos y activos móviles cuando el tamaño compacto y la batería de respaldo son beneficiosos.
+- Gestión de flotas con ubicación en vivo, reproducción de rutas y telemetría operativa para la operación diaria.
+- Monitoreo antirobo y control remoto de inmovilización o bloqueo vinculado a reglas de eventos en Plaspy.
+- Diagnósticos remotos y mantenimiento preventivo utilizando telemetría de las interfaces serie y 1-Wire.
+- Monitoreo de carga y condiciones ambientales mediante la vinculación de sensores Bluetooth para temperatura, proximidad o estado.
+- Seguimiento general de vehículos y activos móviles donde el tamaño compacto y la batería de respaldo mejoran la disponibilidad.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El SMART S-2423 ofrece un equilibrio práctico entre posicionamiento, conectividad y flexibilidad de entradas/salidas que se adapta a despliegues de flotas mixtas y programas de monitoreo de activos. Su módem integrado, antenas internas y batería de respaldo reducen la necesidad de hardware adicional, mientras que las múltiples interfaces permiten a las organizaciones recopilar diversas telemetrías sin intermediarios.
+El SMART S-2423 es una opción práctica para organizaciones que requieren reportes de posición confiables y telemetría flexible en un rastreador vehicular compacto. Su combinación de posicionamiento GLONASS/GPS, módem celular integrado y múltiples opciones de E/S ofrece una vía directa para recopilar datos de ubicación y estado sin añadir hardware intermedio. La batería de respaldo integrada y la protección eléctrica ayudan a mantener la operación en entornos vehiculares, mientras que las herramientas de configuración remota y gestión de firmware reducen la carga de mantenimiento en despliegues a gran escala.
 
-Combinar el S-2423 con Plaspy aporta visibilidad centralizada y gestión basada en reglas para flotas y activos. El soporte de NTC Configurator y la gestión remota DRC ayudan a los administradores a mantener una configuración consistente de los dispositivos y a seguir el ciclo de vida del firmware en despliegues grandes, complementando los flujos operativos y los informes de Plaspy.
-
-Para saber más sobre Plaspy y cómo puede integrarse con dispositivos como el Navtelekom SMART S-2423 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y la documentación actual en el sitio del fabricante https://www.navtelecom.ru/.
+Si desea obtener más información sobre cómo Plaspy puede integrarse con dispositivos Navtelekom como el SMART S-2423, visite el sitio web de Plaspy en https://www.plaspy.com para explorar las funciones de la plataforma y las opciones de despliegue. Las especificaciones del producto, disponibilidad y datos del fabricante pueden cambiar con el tiempo, por lo que conviene verificar las especificaciones técnicas y la documentación actualizadas en el sitio oficial de Navtelekom en https://www.navtelecom.ru/.

@@ -1,6 +1,7 @@
 ---
 slug: /thingsys/ts_vb05
 id: ts_vb05
+sidebar_key: thingsyts_vb05_index_ts_vb05
 sidebar_label: TS-VB05
 title: ThingSys - TS-VB05
 sidebar_class_name: menu_item_tracker

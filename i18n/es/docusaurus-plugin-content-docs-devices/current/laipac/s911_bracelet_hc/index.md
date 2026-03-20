@@ -1,6 +1,7 @@
 ---
 slug: /laipac/s911_bracelet_hc
 id: s911_bracelet_hc
+sidebar_key: laipas911_bracelet_hc_index_s911_bracelet_hc
 sidebar_label: S911 Bracelet HC
 title: Laipac - S911 Bracelet HC
 sidebar_class_name: menu_item_tracker

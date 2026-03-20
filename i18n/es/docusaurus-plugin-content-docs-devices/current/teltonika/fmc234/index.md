@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmc234
 id: fmc234
+sidebar_key: teltonikfmc234_index_fmc234
 sidebar_label: FMC234
 title: Teltonika - FMC234
 sidebar_class_name: menu_item_tracker

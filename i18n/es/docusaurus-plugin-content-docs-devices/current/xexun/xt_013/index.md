@@ -1,6 +1,7 @@
 ---
 slug: /xexun/xt_013
 id: xt_013
+sidebar_key: xexuxt_013_index_xt_013
 sidebar_label: XT-013
 title: Xexun - XT-013
 sidebar_class_name: menu_item_tracker

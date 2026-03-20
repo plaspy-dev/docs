@@ -1,6 +1,7 @@
 ---
 slug: /topshine/mt210
 id: mt210
+sidebar_key: topshinmt210_index_mt210
 sidebar_label: MT210
 title: TopShine - MT210
 sidebar_class_name: menu_item_tracker

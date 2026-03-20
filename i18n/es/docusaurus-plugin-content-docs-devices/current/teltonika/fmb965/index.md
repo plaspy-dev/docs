@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmb965
 id: fmb965
+sidebar_key: teltonikfmb965_index_fmb965
 sidebar_label: FMB965
 title: Teltonika - FMB965
 sidebar_class_name: menu_item_tracker

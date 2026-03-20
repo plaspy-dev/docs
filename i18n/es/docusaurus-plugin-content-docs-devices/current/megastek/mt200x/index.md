@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt200x
 id: mt200x
+sidebar_key: megastemt200x_index_mt200x
 sidebar_label: MT200X
 title: Megastek - MT200X
 sidebar_class_name: menu_item_tracker

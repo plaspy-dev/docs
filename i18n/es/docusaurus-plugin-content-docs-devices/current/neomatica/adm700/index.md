@@ -1,6 +1,7 @@
 ---
 slug: /neomatica/adm700
 id: adm700
+sidebar_key: neomaticadm700_index_adm700
 sidebar_label: ADM700
 title: Neomatica - ADM700
 sidebar_class_name: menu_item_tracker

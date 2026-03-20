@@ -1,6 +1,7 @@
 ---
 slug: /aplicom/a9_ipex
 id: a9_ipex
+sidebar_key: aplicoa9_ipex_index_a9_ipex
 sidebar_label: A9 IPEX
 title: Aplicom - A9 IPEX
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /winrich/tk103
 id: tk103
+sidebar_key: winrictk103_index_tk103
 sidebar_label: TK103
 title: Winrich - TK103
 sidebar_class_name: menu_item_tracker

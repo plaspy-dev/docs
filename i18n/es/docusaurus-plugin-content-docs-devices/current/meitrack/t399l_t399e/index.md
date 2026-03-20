@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/t399l_t399e
 id: t399l_t399e
+sidebar_key: meitract399l_t399e_index_t399l_t399e
 sidebar_label: T399L/T399E
 title: Meitrack - T399L/T399E
 sidebar_class_name: menu_item_tracker

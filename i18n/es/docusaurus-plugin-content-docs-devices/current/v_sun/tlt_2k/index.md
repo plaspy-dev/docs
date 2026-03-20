@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/tlt_2k
 id: tlt_2k
+sidebar_key: v_sutlt_2k_index_tlt_2k
 sidebar_label: TLT-2K
 title: V-SUN - TLT-2K
 sidebar_class_name: menu_item_tracker

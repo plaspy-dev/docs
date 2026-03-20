@@ -1,6 +1,7 @@
 ---
 slug: /teltonika/fmm00a
 id: fmm00a
+sidebar_key: teltonikfmm00a_index_fmm00a
 sidebar_label: FMM00A
 title: Teltonika - FMM00A
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /falcom/fox_en
 id: fox_en
+sidebar_key: falcofox_en_index_fox_en
 sidebar_label: FOX-EN
 title: Falcom - FOX-EN
 sidebar_class_name: menu_item_tracker

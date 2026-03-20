@@ -1,6 +1,7 @@
 ---
 slug: /gotop/c720
 id: c720
+sidebar_key: gotoc720_index_c720
 sidebar_label: C720
 title: GOTOP - C720
 sidebar_class_name: menu_item_tracker

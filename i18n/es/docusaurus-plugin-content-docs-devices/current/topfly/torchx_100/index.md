@@ -1,6 +1,7 @@
 ---
 slug: /topfly/torchx_100
 id: torchx_100
+sidebar_key: topfltorchx_100_index_torchx_100
 sidebar_label: TorchX 100
 title: TopFly - TorchX 100
 sidebar_class_name: menu_item_tracker

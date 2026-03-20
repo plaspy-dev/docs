@@ -1,6 +1,7 @@
 ---
 slug: /riti/690t_idu_400
 id: 690t_idu_400
+sidebar_key: rit690t_idu_400_index_690t_idu_400
 sidebar_label: 690T (IDU-400)
 title: Riti - 690T (IDU-400)
 sidebar_class_name: menu_item_tracker

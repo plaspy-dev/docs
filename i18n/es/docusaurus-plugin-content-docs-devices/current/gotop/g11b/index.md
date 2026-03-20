@@ -1,6 +1,7 @@
 ---
 slug: /gotop/g11b
 id: g11b
+sidebar_key: gotog11b_index_g11b
 sidebar_label: G11B
 title: GOTOP - G11B
 sidebar_class_name: menu_item_tracker

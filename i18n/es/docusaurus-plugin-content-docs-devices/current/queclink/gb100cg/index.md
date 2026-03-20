@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gb100cg
 id: gb100cg
+sidebar_key: queclingb100cg_index_gb100cg
 sidebar_label: GB100CG
 title: QuecLink - GB100CG
 sidebar_class_name: menu_item_tracker

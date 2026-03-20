@@ -1,6 +1,7 @@
 ---
 slug: /jointech/jt301b
 id: jt301b
+sidebar_key: jointecjt301b_index_jt301b
 sidebar_label: JT301B
 title: Jointech - JT301B
 sidebar_class_name: menu_item_tracker

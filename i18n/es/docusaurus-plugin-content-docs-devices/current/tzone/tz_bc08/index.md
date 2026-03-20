@@ -1,6 +1,7 @@
 ---
 slug: /tzone/tz_bc08
 id: tz_bc08
+sidebar_key: tzontz_bc08_index_tz_bc08
 sidebar_label: TZ-BC08
 title: TZone - TZ-BC08
 sidebar_class_name: menu_item_tracker

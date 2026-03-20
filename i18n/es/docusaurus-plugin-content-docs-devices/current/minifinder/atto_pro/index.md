@@ -1,6 +1,7 @@
 ---
 slug: /minifinder/atto_pro
 id: atto_pro
+sidebar_key: minifindeatto_pro_index_atto_pro
 sidebar_label: Atto Pro
 title: MiniFinder - Atto Pro
 sidebar_class_name: menu_item_tracker

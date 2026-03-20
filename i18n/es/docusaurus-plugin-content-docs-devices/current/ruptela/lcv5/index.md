@@ -1,6 +1,7 @@
 ---
 slug: /ruptela/lcv5
 id: lcv5
+sidebar_key: ruptellcv5_index_lcv5
 sidebar_label: LCV5
 title: Ruptela - LCV5
 sidebar_class_name: menu_item_tracker

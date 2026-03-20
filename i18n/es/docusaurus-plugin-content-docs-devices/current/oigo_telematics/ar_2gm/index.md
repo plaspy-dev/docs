@@ -1,6 +1,7 @@
 ---
 slug: /oigo_telematics/ar_2gm
 id: ar_2gm
+sidebar_key: oigo_telematicar_2gm_index_ar_2gm
 sidebar_label: AR-2GM
 title: Oigo Telematics - AR-2GM
 sidebar_class_name: menu_item_tracker

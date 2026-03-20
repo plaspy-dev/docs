@@ -1,6 +1,7 @@
 ---
 slug: /suntech/st25t
 id: st25t
+sidebar_key: suntecst25t_index_st25t
 sidebar_label: ST25T
 title: Suntech - ST25T
 sidebar_class_name: menu_item_tracker

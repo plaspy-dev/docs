@@ -1,6 +1,7 @@
 ---
 slug: /sentar/d55b_a9c
 id: d55b_a9c
+sidebar_key: sentad55b_a9c_index_d55b_a9c
 sidebar_label: D55B-A9C
 title: Sentar - D55B-A9C
 sidebar_class_name: menu_item_tracker

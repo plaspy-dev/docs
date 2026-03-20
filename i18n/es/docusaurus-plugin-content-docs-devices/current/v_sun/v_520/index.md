@@ -1,6 +1,7 @@
 ---
 slug: /v_sun/v_520
 id: v_520
+sidebar_key: v_suv_520_index_v_520
 sidebar_label: V-520
 title: V-SUN - V-520
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /genx_mobile/gnx_6
 id: gnx_6
+sidebar_key: genx_mobilgnx_6_index_gnx_6
 sidebar_label: GNX-6
 title: GenX Mobile - GNX-6
 sidebar_class_name: menu_item_tracker

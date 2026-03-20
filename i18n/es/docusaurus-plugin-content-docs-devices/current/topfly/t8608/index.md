@@ -1,6 +1,7 @@
 ---
 slug: /topfly/t8608
 id: t8608
+sidebar_key: topflt8608_index_t8608
 sidebar_label: T8608
 title: TopFly - T8608
 sidebar_class_name: menu_item_tracker

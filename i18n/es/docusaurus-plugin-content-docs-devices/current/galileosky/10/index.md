@@ -1,6 +1,7 @@
 ---
 slug: /galileosky/10
 id: 10
+sidebar_key: galileosk10_index_10
 sidebar_label: 10
 title: GalileoSky - 10
 sidebar_class_name: menu_item_tracker

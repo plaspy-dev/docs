@@ -1,6 +1,7 @@
 ---
 slug: /telic/sbc_avl
 id: sbc_avl
+sidebar_key: telisbc_avl_index_sbc_avl
 sidebar_label: SBC AVL
 title: Telic - SBC AVL
 sidebar_class_name: menu_item_tracker

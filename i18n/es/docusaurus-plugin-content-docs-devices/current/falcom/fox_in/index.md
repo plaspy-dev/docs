@@ -1,6 +1,7 @@
 ---
 slug: /falcom/fox_in
 id: fox_in
+sidebar_key: falcofox_in_index_fox_in
 sidebar_label: FOX-IN
 title: Falcom - FOX-IN
 sidebar_class_name: menu_item_tracker

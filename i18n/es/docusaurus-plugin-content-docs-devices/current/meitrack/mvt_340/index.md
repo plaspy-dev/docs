@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/mvt_340
 id: mvt_340
+sidebar_key: meitracmvt_340_index_mvt_340
 sidebar_label: MVT-340
 title: Meitrack - MVT-340
 sidebar_class_name: menu_item_tracker

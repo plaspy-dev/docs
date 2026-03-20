@@ -1,6 +1,7 @@
 ---
 slug: /maxtrack/mxt_141
 id: mxt_141
+sidebar_key: maxtracmxt_141_index_mxt_141
 sidebar_label: MXT-141
 title: Maxtrack - MXT-141
 sidebar_class_name: menu_item_tracker

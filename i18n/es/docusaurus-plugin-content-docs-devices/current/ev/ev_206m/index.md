@@ -1,6 +1,7 @@
 ---
 slug: /ev/ev_206m
 id: ev_206m
+sidebar_key: eev_206m_index_ev_206m
 sidebar_label: EV-206M
 title: EV - EV-206M
 sidebar_class_name: menu_item_tracker

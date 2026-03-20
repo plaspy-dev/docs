@@ -1,6 +1,7 @@
 ---
 slug: /coban/bn_201
 id: bn_201
+sidebar_key: cobabn_201_index_bn_201
 sidebar_label: BN-201
 title: Coban - BN-201
 sidebar_class_name: menu_item_tracker

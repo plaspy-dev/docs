@@ -1,6 +1,7 @@
 ---
 slug: /dct/syrus_lynx_4g
 id: syrus_lynx_4g
+sidebar_key: dcsyrus_lynx_4g_index_syrus_lynx_4g
 sidebar_label: Syrus Lynx 4G
 title: DCT - Syrus Lynx 4G
 sidebar_class_name: menu_item_tracker

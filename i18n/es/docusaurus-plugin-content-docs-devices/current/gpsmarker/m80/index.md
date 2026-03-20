@@ -1,6 +1,7 @@
 ---
 slug: /gpsmarker/m80
 id: m80
+sidebar_key: gpsmarkem80_index_m80
 sidebar_label: M80
 title: GPSMarker - M80
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/tr_616c1
 id: tr_616c1
+sidebar_key: globalsatr_616c1_index_tr_616c1
 sidebar_label: TR-616C1
 title: GlobalSat - TR-616C1
 sidebar_class_name: menu_item_tracker

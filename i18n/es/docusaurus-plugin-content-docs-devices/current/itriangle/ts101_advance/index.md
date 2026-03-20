@@ -1,6 +1,7 @@
 ---
 slug: /itriangle/ts101_advance
 id: ts101_advance
+sidebar_key: itrianglts101_advance_index_ts101_advance
 sidebar_label: TS101 Advance
 title: iTriangle - TS101 Advance
 sidebar_class_name: menu_item_tracker

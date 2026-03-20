@@ -1,6 +1,7 @@
 ---
 slug: /globalsat/tr_300v
 id: tr_300v
+sidebar_key: globalsatr_300v_index_tr_300v
 sidebar_label: TR-300V
 title: GlobalSat - TR-300V
 sidebar_class_name: menu_item_tracker

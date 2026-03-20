@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/vt_400
 id: vt_400
+sidebar_key: meitracvt_400_index_vt_400
 sidebar_label: VT-400
 title: Meitrack - VT-400
 sidebar_class_name: menu_item_tracker

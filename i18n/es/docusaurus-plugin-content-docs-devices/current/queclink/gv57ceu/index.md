@@ -1,6 +1,7 @@
 ---
 slug: /queclink/gv57ceu
 id: gv57ceu
+sidebar_key: queclingv57ceu_index_gv57ceu
 sidebar_label: GV57CEU
 title: QuecLink - GV57CEU
 sidebar_class_name: menu_item_tracker

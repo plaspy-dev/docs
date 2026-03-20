@@ -1,6 +1,7 @@
 ---
 slug: /megastek/mt80q
 id: mt80q
+sidebar_key: megastemt80q_index_mt80q
 sidebar_label: MT80Q
 title: Megastek - MT80Q
 sidebar_class_name: menu_item_tracker

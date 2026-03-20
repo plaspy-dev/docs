@@ -1,6 +1,7 @@
 ---
 slug: /gator/m588s
 id: m588s
+sidebar_key: gatom588s_index_m588s
 sidebar_label: M588S
 title: Gator - M588S
 sidebar_class_name: menu_item_tracker

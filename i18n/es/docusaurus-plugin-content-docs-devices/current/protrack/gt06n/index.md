@@ -1,6 +1,7 @@
 ---
 slug: /protrack/gt06n
 id: gt06n
+sidebar_key: protracgt06n_index_gt06n
 sidebar_label: GT06N
 title: Protrack - GT06N
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /wanway/gs10
 id: gs10
+sidebar_key: wanwags10_index_gs10
 sidebar_label: GS10
 title: WanWay - GS10
 sidebar_class_name: menu_item_tracker

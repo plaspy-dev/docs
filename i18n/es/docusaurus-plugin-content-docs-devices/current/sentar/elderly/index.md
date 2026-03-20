@@ -1,6 +1,7 @@
 ---
 slug: /sentar/elderly
 id: elderly
+sidebar_key: sentaelderly_index_elderly
 sidebar_label: Elderly
 title: Sentar - Elderly
 sidebar_class_name: menu_item_tracker

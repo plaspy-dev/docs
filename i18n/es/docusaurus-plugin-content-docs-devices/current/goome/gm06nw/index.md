@@ -1,6 +1,7 @@
 ---
 slug: /goome/gm06nw
 id: gm06nw
+sidebar_key: goomgm06nw_index_gm06nw
 sidebar_label: GM06NW
 title: Goome - GM06NW
 sidebar_class_name: menu_item_tracker

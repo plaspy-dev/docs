@@ -1,6 +1,7 @@
 ---
 slug: /bce/fm_500_light
 id: fm_500_light
+sidebar_key: bcfm_500_light_index_fm_500_light
 sidebar_label: FM-500 Light
 title: BCE - FM-500 Light
 sidebar_class_name: menu_item_tracker

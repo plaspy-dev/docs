@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/ts299l
 id: ts299l
+sidebar_key: meitracts299l_index_ts299l
 sidebar_label: TS299L
 title: Meitrack - TS299L
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /xirgo/xt_3200
 id: xt_3200
+sidebar_key: xirgxt_3200_index_xt_3200
 sidebar_label: XT-3200
 title: Xirgo - XT-3200
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /xexun/x04
 id: x04
+sidebar_key: xexux04_index_x04
 sidebar_label: X04
 title: Xexun - X04
 sidebar_class_name: menu_item_tracker

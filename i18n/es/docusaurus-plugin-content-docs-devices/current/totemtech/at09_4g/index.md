@@ -1,6 +1,7 @@
 ---
 slug: /totemtech/at09_4g
 id: at09_4g
+sidebar_key: totemtecat09_4g_index_at09_4g
 sidebar_label: AT09-4G
 title: Totemtech - AT09-4G
 sidebar_class_name: menu_item_tracker

@@ -1,6 +1,7 @@
 ---
 slug: /uvi_group/vt02n
 id: vt02n
+sidebar_key: uvi_grouvt02n_index_vt02n
 sidebar_label: VT02N
 title: UVI Group - VT02N
 sidebar_class_name: menu_item_tracker

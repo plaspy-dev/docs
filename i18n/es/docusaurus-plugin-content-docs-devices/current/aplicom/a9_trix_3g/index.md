@@ -1,6 +1,7 @@
 ---
 slug: /aplicom/a9_trix_3g
 id: a9_trix_3g
+sidebar_key: aplicoa9_trix_3g_index_a9_trix_3g
 sidebar_label: A9 TRIX 3G
 title: Aplicom - A9 TRIX 3G
 sidebar_class_name: menu_item_tracker

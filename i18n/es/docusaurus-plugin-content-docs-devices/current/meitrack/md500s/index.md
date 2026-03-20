@@ -1,6 +1,7 @@
 ---
 slug: /meitrack/md500s
 id: md500s
+sidebar_key: meitracmd500s_index_md500s
 sidebar_label: MD500S
 title: Meitrack - MD500S
 sidebar_class_name: menu_item_tracker

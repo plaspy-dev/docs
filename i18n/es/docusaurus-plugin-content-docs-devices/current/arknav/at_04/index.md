@@ -1,6 +1,7 @@
 ---
 slug: /arknav/at_04
 id: at_04
+sidebar_key: arknaat_04_index_at_04
 sidebar_label: AT-04
 title: ArkNav - AT-04
 sidebar_class_name: menu_item_tracker

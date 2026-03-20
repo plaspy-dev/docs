@@ -1,62 +1,62 @@
 ---
 slug: /navtelekom/signal_s_2115
 id: signal_s_2115
-sidebar_label: Signal S-2115
-title: Navtelekom - Signal S-2115
+sidebar_label: СИГНАЛ S-2115
+title: Navtelekom - СИГНАЛ S-2115
 sidebar_class_name: menu_item_tracker
-description: Signal S-2115 by Navtelekom is a GPS GLONASS vehicle tracker with impact detection, alarm button and remote control features compatible with Plaspy
+description: Compact vehicle GPS tracker compatible with Plaspy offering GLONASS GPS positioning, GSM alerts, accelerometer alarms and USB configuration
 keywords:
-  - Navtelekom Signal S-2115
-  - Signal S-2115 tracker
-  - Navtelekom tracker
-  - GPS GLONASS tracker
-  - vehicle tracking
-  - fleet management
-  - alarm button tracker
-  - accelerometer vehicle tracker
-  - remote control tracker
-  - Plaspy compatible tracker
+  - Navtelekom
+  - СИГНАЛ S-2115
+  - S-2115 tracker
+  - GLONASS GPS tracker
+  - vehicle tracker
+  - fleet tracking
+  - anti theft tracker
+  - Plaspy compatible
+  - USB configurable tracker
+  - impact alarm tracker
 ---
 
-# Navtelekom - Signal S-2115
+# Navtelekom - СИГНАЛ S-2115
 
-![Signal S-2115](./logo.jpg)
+![СИГНАЛ S-2115](./tracker.jpeg)
 
-The Navtelekom Signal S-2115 is a GSM monitoring device designed for vehicle security and remote oversight. It combines GPS and GLONASS positioning with built-in impact detection and an alarm button to provide location, movement, and incident information. The device supports user alerts via SMS and voice messaging and includes remote control outputs for external devices, enabling actions such as activating a siren or a motor lock when needed.
+The СИГНАЛ S-2115 is a vehicle monitoring GPS tracker from Navtelekom designed for security minded fleets and individual vehicles. It combines GLONASS and GPS positioning with GSM communications to provide real time tracking, impact and movement alarms, and remote control options. The device includes an internal accelerometer for shock and tilt detection, a USB interface for local configuration, and support for SMS and voice alarm delivery.
 
-As a tracker compatible with Plaspy, the Signal S-2115 can feed location and alarm data into Plaspy's fleet management environment. That compatibility makes the S-2115 a practical choice for organizations that need live vehicle visibility, incident alerts, and remote control options integrated into a single monitoring platform. Plaspy can surface the S-2115's reporting for monitoring, alerting, and operational workflows.
+As a Plaspy compatible device, the S-2115 can be incorporated into centralized fleet workflows to deliver position updates and event notifications into Plaspy dashboards and reporting. Its focus on straightforward telemetry and alarm reporting makes it a practical choice for operators who need reliable location visibility and simple remote diagnostics within the Plaspy platform, including legacy deployments where the S-2115 remains in service as an archived model.
 
 ## Key Highlights
 
-- Dual satellite positioning using GPS and GLONASS for reliable location reporting.
-- Built-in impact detection via accelerometer to flag mechanical shocks or tampering.
-- Dedicated alarm button to send emergency notifications to predefined contacts.
-- Remote outputs for controlling external devices such as sirens or immobilizers.
-- Alerts available through SMS and voice message channels as supported by the device.
-- USB connection and remote management options for configuration and maintenance.
+- GLONASS and GPS positioning combined with GSM communications for real time location reporting
+- Internal accelerometer for impact, tilt and movement detection to trigger alarms
+- SMS and voice alarm delivery options for immediate operator notification
+- USB interface for local configuration and access to vendor configurator and firmware archives
+- Remote control and diagnostics via voice menu, DTMF and SMS command strings for status queries and parameter changes
+- Designed for fleet management and vehicle anti theft monitoring with centralized system integration in mind
 
 ## How It Works with Plaspy
 
-When the Signal S-2115 is used with Plaspy, the device's location updates and alarm messages can be presented alongside other fleet data for unified monitoring and reporting. Plaspy ingests events from the tracker and makes them actionable within dashboards, alerts, and operational reports.
+When connected to Plaspy, the СИГНАЛ S-2115 supplies GNSS position fixes and event notifications over GSM that Plaspy ingests to support live tracking, alerts, and historical logs. Plaspy uses incoming device data to visualize vehicle locations, escalate alarms, and provide operational reports useful for dispatch and fleet oversight.
 
-- Display real time vehicle positions and movement history in Plaspy maps.
-- Log impact and alarm events from the accelerometer for review and investigation.
-- Trigger notifications and escalation workflows in Plaspy when the alarm button is pressed.
-- Include S-2115 events in fleet reports and operational summaries for performance analysis.
-- Use Plaspy to monitor remote output state changes and reflect those in vehicle status views.
+- Live position updates appear on Plaspy maps for routing and monitoring
+- Accelerometer derived alarms for impact, tilt or unauthorized movement feed Plaspy alert workflows
+- SMS and voice alarm reports can be used in Plaspy escalation procedures or accepted via configured ingestion channels
+- Remote commands and diagnostics using voice menu, DTMF and SMS allow operators to query status or adjust settings as part of Plaspy managed operations
+- Local USB configuration with vendor configurator and archived firmware supports onsite setup prior to Plaspy onboarding
 
 ## Typical Use Cases
 
-- Active monitoring of company cars and delivery vehicles for location and safety.
-- Rapid alerting and response for driver emergency situations using the alarm button.
-- Theft deterrence and recovery workflows by combining remote outputs with platform monitoring.
-- Oversight of high-value or sensitive cargo where impact detection is important.
-- Operational tracking for mixed fleets that require centralized reporting and alerts.
+- Fleet management for daily routing, dispatching and operational visibility with Plaspy dashboards
+- Vehicle anti theft monitoring to detect unauthorized displacement or impacts and alert operators
+- Incident logging for shock events to support maintenance planning and forensic review
+- Remote status queries and simple controls via SMS or voice for field troubleshooting
+- Legacy system integration where archived S-2115 units remain in active service and need central monitoring
 
 ## Why Choose This Tracker with Plaspy
 
-The Signal S-2115 brings practical vehicle security features that align with core fleet management needs: location tracking, impact detection, emergency signaling, and external device control. For organizations already using Plaspy, the model's event-driven alerts and remote control capability can be integrated into existing monitoring practices without introducing unnecessary complexity.
+The СИГНАЛ S-2115 provides the fundamental elements fleet operators rely on: satellite positioning, GSM connectivity, and accelerometer based alarms. For organizations using Plaspy, the device can be a straightforward source of position and event data that feeds centralized dashboards, historical reports and alerting workflows. Its USB configurator and available firmware archives make it easier for integrators to prepare and maintain units before or during integration with Plaspy.
 
-Because the S-2115 offers multiple communication and management options, it can serve a range of operational roles from routine fleet visibility to emergency response coordination. Choosing this tracker with Plaspy helps centralize incident data and vehicle state in a single platform, improving situational awareness and response times.
+Although the S-2115 is listed as discontinued and archived by the manufacturer, it remains suitable for deployments that require basic tracking and alarm reporting. Plaspy helps extend the operational value of archived hardware by consolidating device data, enabling consistent monitoring and reporting across mixed fleets.
 
-To learn more about how Plaspy can work with devices like the Signal S-2115, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and manufacturer guidance on the official Navtelekom site https://www.navtelecom.ru/.
+Learn more about Plaspy and how compatible devices like the СИГНАЛ S-2115 can be used in fleet operations at https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time so verify current capabilities and documentation on the official Navtelekom site https://www.navtelecom.ru/.

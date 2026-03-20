@@ -1,6 +1,7 @@
 ---
 slug: /thingsys/ytwl_ca100f
 id: ytwl_ca100f
+sidebar_key: thingsyytwl_ca100f_index_ytwl_ca100f
 sidebar_label: YTWL_CA100F
 title: ThingSys - YTWL_CA100F
 sidebar_class_name: menu_item_tracker

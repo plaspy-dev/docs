@@ -1,6 +1,7 @@
 ---
 slug: /carscop/cc_318
 id: cc_318
+sidebar_key: carscocc_318_index_cc_318
 sidebar_label: CC-318
 title: Carscop - CC-318
 sidebar_class_name: menu_item_tracker

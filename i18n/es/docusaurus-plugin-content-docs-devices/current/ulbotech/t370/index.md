@@ -1,6 +1,7 @@
 ---
 slug: /ulbotech/t370
 id: t370
+sidebar_key: ulbotect370_index_t370
 sidebar_label: T370
 title: Ulbotech - T370
 sidebar_class_name: menu_item_tracker

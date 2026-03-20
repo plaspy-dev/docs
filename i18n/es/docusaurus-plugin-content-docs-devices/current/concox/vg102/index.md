@@ -1,6 +1,7 @@
 ---
 slug: /concox/vg102
 id: vg102
+sidebar_key: concovg102_index_vg102
 sidebar_label: VG102
 title: Concox - VG102
 sidebar_class_name: menu_item_tracker

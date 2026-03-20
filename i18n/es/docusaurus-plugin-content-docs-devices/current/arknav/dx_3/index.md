@@ -1,6 +1,7 @@
 ---
 slug: /arknav/dx_3
 id: dx_3
+sidebar_key: arknadx_3_index_dx_3
 sidebar_label: DX-3
 title: ArkNav - DX-3
 sidebar_class_name: menu_item_tracker

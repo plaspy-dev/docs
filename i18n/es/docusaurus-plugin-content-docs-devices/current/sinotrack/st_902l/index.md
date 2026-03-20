@@ -1,6 +1,7 @@
 ---
 slug: /sinotrack/st_902l
 id: st_902l
+sidebar_key: sinotracst_902l_index_st_902l
 sidebar_label: ST-902L
 title: SinoTrack - ST-902L
 sidebar_class_name: menu_item_tracker

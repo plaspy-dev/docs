@@ -1,6 +1,7 @@
 ---
 slug: /thingsys/ts_g17m
 id: ts_g17m
+sidebar_key: thingsyts_g17m_index_ts_g17m
 sidebar_label: TS-G17M
 title: ThingSys - TS-G17M
 sidebar_class_name: menu_item_tracker

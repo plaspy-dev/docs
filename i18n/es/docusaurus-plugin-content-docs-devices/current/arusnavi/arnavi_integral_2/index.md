@@ -1,6 +1,7 @@
 ---
 slug: /arusnavi/arnavi_integral_2
 id: arnavi_integral_2
+sidebar_key: arusnavarnavi_integral_2_index_arnavi_integral_2
 sidebar_label: Arnavi Integral 2
 title: Arusnavi - Arnavi Integral 2
 sidebar_class_name: menu_item_tracker

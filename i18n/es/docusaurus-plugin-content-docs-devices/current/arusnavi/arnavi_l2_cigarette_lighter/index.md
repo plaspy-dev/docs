@@ -1,6 +1,7 @@
 ---
 slug: /arusnavi/arnavi_l2_cigarette_lighter
 id: arnavi_l2_cigarette_lighter
+sidebar_key: arusnavarnavi_l2_cigarette_lighter_index_arnavi_l2_cigarette_lighter
 sidebar_label: Arnavi L2 (cigarette lighter)
 title: Arusnavi - Arnavi L2 (cigarette lighter)
 sidebar_class_name: menu_item_tracker

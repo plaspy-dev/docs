@@ -1,6 +1,7 @@
 ---
 slug: /bofan/pt621
 id: pt621
+sidebar_key: bofapt621_index_pt621
 sidebar_label: PT621
 title: Bofan - PT621
 sidebar_class_name: menu_item_tracker

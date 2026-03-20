@@ -1,6 +1,7 @@
 ---
 slug: /winrich/tk102b
 id: tk102b
+sidebar_key: winrictk102b_index_tk102b
 sidebar_label: TK102B
 title: Winrich - TK102B
 sidebar_class_name: menu_item_tracker
