@@ -17,6 +17,16 @@ const config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    experimental_faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      rspackBundler: true,
+      rspackPersistentCache: true,
+      ssgWorkerThreads: true,
+      mdxCrossCompilerCache: true,
+    }
   },
 
   // Set the production url of your site here
@@ -57,6 +67,7 @@ const config = {
         routeBasePath: 'devices',
         sidebarPath: './sidebarsDevices.js',
         editUrl: 'https://github.com/plaspy-dev/docs/blob/main/',
+        showLastUpdateTime: true,
       },
     ]
   ],
@@ -70,6 +81,7 @@ const config = {
           editUrl: 'https://github.com/plaspy-dev/docs/blob/main/',
           path: 'docs',
           routeBasePath: 'docs',
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
