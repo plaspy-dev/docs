@@ -4,6 +4,11 @@ export const brand = {
   "description": "",
   "image": "",
   "trackers": [
+	{
+      "name": "AOVX",
+      "slug": "aovx",
+      "image": require("./aovx/logo.png").default
+    },
     {
       "name": "AoYa",
       "slug": "aoya",
