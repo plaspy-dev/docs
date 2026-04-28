@@ -128,6 +128,34 @@ If you find an error or want to suggest improvements:
 
 ---
 
+## 🛠️ Maintenance
+
+### Centering Device Main Images
+
+This Bash script identifies `index.md` files within the `devices` directory and its translations that are missing the `device-logo` class. It automatically wraps the primary image tag in a `<div className="device-logo">` container to ensure all device images are properly centered and consistently styled throughout the documentation.
+
+```bash
+# Update local device files
+grep -L 'device-logo' devices/*/*/index.md | while IFS= read -r file; do
+  sed -i.bak -E 's|^([[:space:]]*!\[[^]]*\]\([^)]*\)[[:space:]]*)$|<div className="device-logo">\
+\1\
+</div>|' "$file"
+  echo "Updated: $file"
+  rm -f $file.bak
+done
+
+# Update Spanish translation files
+grep -L 'device-logo' i18n/es/docusaurus-plugin-content-docs-devices/current/*/*/index.md | while IFS= read -r file; do
+  sed -i.bak -E 's|^([[:space:]]*!\[[^]]*\]\([^)]*\)[[:space:]]*)$|<div className="device-logo">\
+\1\
+</div>|' "$file"
+  echo "Updated: $file"
+  rm -f $file.bak
+done
+```
+
+---
+
 ## 📬 Contact
 
 Website: https://www.plaspy.com
