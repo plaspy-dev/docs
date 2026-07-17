@@ -71,43 +71,7 @@ Content-Type: application/json
 
 {
  "from": "2024-06-01T00:00:00Z",
- "to": "2024-06-01T23:59:59Z",
- "location": {
- "dateTime": "2024-06-01T12:00:00Z",
- "latitude": 40.712776,
- "longitude": -74.005974,
- "speed": 60.5,
- "course": 180.0,
- "battery": 85,
- "fuel": 50,
- "fuel2": 50,
- "temperature": 22.5,
- "temperature2": 22.0,
- "sensorTime1": 1234567890,
- "sensorTime2": 1234567891,
- "sensorTime3": 1234567892,
- "sensorTime4": 1234567893,
- "inactiveSeconds": 120,
- "rpm": 3000,
- "milleage": 15000,
- "warningTexts": ["Engine Check"],
- "alertTexts": ["Speeding"],
- "alerts": ["High Speed"],
- "warnings": ["Low Fuel"],
- "hasCriticalAlert": true,
- "attributes": {
- "customAttribute1": "value1",
- "customAttribute2": "value2"
- },
- "accessoriesAttributes": [
- {
- "accessoryType": "sensor",
- "accessoryStatus": "active"
- }
- ],
- "inputs": [true, false, true],
- "outputs": [false, true]
- }
+ "to": "2024-06-01T23:59:59Z"
 }
 ```
 
