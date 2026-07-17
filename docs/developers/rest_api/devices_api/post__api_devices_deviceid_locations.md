@@ -25,9 +25,8 @@ The body of the request must include a JSON object with the location data for th
 | --- | --- | --- | --- |
 | from | string | Yes | Start date and time of the location data, in ISO 8601 format. |
 | to | string | Yes | End date and time of the location data, in ISO 8601 format. |
-| location | object | Yes | The location data object. |
 
-Within the `location` field, the object has the following fields:
+### Response Body Parameters
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
