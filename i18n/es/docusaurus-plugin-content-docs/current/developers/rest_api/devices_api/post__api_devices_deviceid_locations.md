@@ -24,9 +24,8 @@ El cuerpo de la solicitud debe incluir un objeto JSON con los datos de ubicació
 | --- | --- | --- | --- |
 | from | string | Sí | Fecha y hora de inicio de los datos de ubicación, en formato ISO 8601. |
 | to | string | Sí | Fecha y hora de fin de los datos de ubicación, en formato ISO 8601. |
-| location | object | Sí | Objeto que contiene los datos de ubicación. |
 
-Dentro del campo `location`, el objeto tiene los siguientes campos:
+### Parámetros del Cuerpo de la Respuesta
 
 | Campo | Tipo | Obligatorio | Descripción |
 | --- | --- | --- | --- |
