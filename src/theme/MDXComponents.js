@@ -1,6 +1,6 @@
 import React from 'react';
 import MDXComponents from '@theme-original/MDXComponents';
-import Link from '@docusaurus/Link';
+import SiteLink from '@site/src/components/SiteLink';
 import { getFromUrlOrLocalStorage } from '@site/src/utils/domain';
 import CodeBlock from "@theme/CodeBlock";
 import CodeInline from '@theme/CodeInline';
@@ -58,7 +58,7 @@ export default {
         const isExternal = newHref.startsWith('http');
 
         return (
-            <Link
+            <SiteLink
                 {...props}
                 href={newHref}
                 target={isExternal ? '_blank' : undefined}

@@ -76,6 +76,8 @@ export default function Logo(props) {
   return (
     <Link
       to={logoLink}
+      autoAddBaseUrl={!logoLink.startsWith('pathname://')}
+      target="_self"
       {...propsRest}
       {...(logo?.target && { target: logo.target })}>
       {logo && (
