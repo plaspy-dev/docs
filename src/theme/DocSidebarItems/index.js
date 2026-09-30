@@ -1,9 +1,12 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import DocSidebarItems from '@theme-original/DocSidebarItems';
 import { translate } from '@docusaurus/Translate';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import './styles.css';
 
 export default function DocSidebarItemsWrapper(props) {
+  const { siteConfig } = useDocusaurusContext();
 
   const [filter, setFilter] = useState("");
   const [debouncedFilter, setDebouncedFilter] = useState("");
@@ -50,6 +53,30 @@ export default function DocSidebarItemsWrapper(props) {
     return recursiveFilter(props.items, debouncedFilter);
   }, [props.items, debouncedFilter]);
 
+  const sidebar = <DocSidebarItems {...props}
+    key={debouncedFilter ? 'filtered' : 'unfiltered'}
+    items={filteredItems}
+  />;
+  const isDeviceRoot = props.level === 1 && siteConfig.customFields.section === 'devices';
+  // Render the current navigation branch in HTML, then hydrate the full searchable
+  // catalog. Repeating every brand on 14,000 pages exceeds Pages' site limit.
+  const activePath = (props.activePath || '').replace(/\/$/, '');
+  function isActiveBranch(item) {
+    if (item.href) {
+      const href = item.href.replace(/\/$/, '');
+      return activePath === href || (item.type === 'category' && activePath.startsWith(`${href}/`));
+    }
+    return item.items?.some(isActiveBranch) || false;
+  }
+  function activeItems(items) {
+    return items.filter(isActiveBranch).map((item) => item.items
+      ? { ...item, items: activeItems(item.items) }
+      : item);
+  }
+  const compactSidebar = isDeviceRoot
+    ? <DocSidebarItems {...props} items={activeItems(props.items)} />
+    : null;
+
   if (props.level == 1)
     return (
       <>
@@ -78,17 +105,13 @@ export default function DocSidebarItemsWrapper(props) {
             </button>
           )}
         </div>
-        <DocSidebarItems {...props}
-          key={debouncedFilter ? 'filtered' : 'unfiltered'}
-          items={filteredItems}
-        />
+        {isDeviceRoot
+          ? <BrowserOnly fallback={compactSidebar}>{() => sidebar}</BrowserOnly>
+          : sidebar}
       </>
     );
 
   return (
-    <DocSidebarItems {...props}
-      key={debouncedFilter ? 'filtered' : 'unfiltered'}
-      items={filteredItems}
-    />
+    sidebar
   );
 }

@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -13,6 +14,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        site: [docs-en, docs-es, devices-en, devices-es]
 
     steps:
       - uses: actions/checkout@v5
@@ -22,14 +27,46 @@ jobs:
           node-version: 24
 
       - run: npm ci
-      - run: npm run build
+      - run: node scripts/site.mjs build ${{ matrix.site }}
 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ matrix.site }}
+          path: .builds/${{ matrix.site }}
+          include-hidden-files: true
+          if-no-files-found: error
+
+  assemble:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-docs-en
+          path: .builds/docs-en
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-docs-es
+          path: .builds/docs-es
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-devices-en
+          path: .builds/devices-en
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-devices-es
+          path: .builds/devices-es
+      - run: node scripts/merge-builds.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build
 
   deploy:
-    needs: build
+    needs: assemble
     runs-on: ubuntu-latest
     environment:
       name: github-pages

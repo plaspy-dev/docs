@@ -3,7 +3,7 @@ import './styles.css';
 import ctaRules from './ctaRules';
 import { getCtaContent } from './ctaContent';
 import { useLocation } from '@docusaurus/router';
-import Link from '@docusaurus/Link';
+import SiteLink from '@site/src/components/SiteLink';
 
 export default function CallToAction() {
     function resolveCtaId(pathname) {
@@ -27,15 +27,15 @@ export default function CallToAction() {
         }
 
         return (
-            <Link className={className} to={button.href}>
+            <SiteLink className={className} to={button.href}>
                 {button.label}
-            </Link>
+            </SiteLink>
         );
     }
 
     const location = useLocation();
 
-    const ctaId = useMemo(() => resolveCtaId(location.pathname), [location.pathname]);
+    const ctaId = useMemo(() => resolveCtaId(location.pathname.replace(/^\/es(?=\/)/, '')), [location.pathname]);
     const cta = useMemo(() => getCtaContent(ctaId), [ctaId]);
     if (!ctaId || !cta)
         return null;
